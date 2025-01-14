@@ -9,7 +9,7 @@ const page = () => {
       <HeaderSpecial />
       <div className="pt-5 sm:pt-14 2xl:pt-24 border-b">
         <BlogData />
-      </div>
+      </div> 
       <Footer />
     </div>
   );
