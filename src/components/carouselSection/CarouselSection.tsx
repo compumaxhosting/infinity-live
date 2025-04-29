@@ -74,8 +74,9 @@ const CarouselSection: React.FC = () => {
                   src={slide.image}
                   alt={`Slide ${slide.id}`}
                   fill
+                  loading="eager"
+                  priority 
                   className="object-cover"
-                  loading="lazy" // Lazy load the image
                 />
                 {/* Transparent Overlay */}
                 <div className="absolute bg-black/40 sm:bg-black/30 z-10 h-full w-full"></div>
