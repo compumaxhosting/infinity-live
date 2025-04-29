@@ -21,8 +21,8 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
             style={{ fontFamily: "var(--font-forum)" }}
           >
             As experts in{" "}
-            <Link href="">
-              <span className="underline">Brownstone Renovation</span>
+            <Link href="/historical-landmarks-design-restoration">
+              <span>Brownstone Renovation</span>
             </Link>{" "}
             , we provide a full suite of restoration services that preserve the
             historical appeal of your property while strengthening its
@@ -72,16 +72,16 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
                 Reliable roofing tailored for New York’s climate.
               </li>
               <li>
-                <Link href="">
-                  <span className="font-bold underline">
+                <Link href="/brick-pointing">
+                  <span className="font-bold">
                     Brick Pointing & Masonry
                   </span>
                 </Link>
                 &nbsp;: Strengthening and beautifying brick structures.
               </li>
               <li>
-                <Link href="">
-                  <span className="font-bold underline">
+                <Link href="/fire-escape-restoration">
+                  <span className="font-bold">
                     Fire Escape Restoration & Waterproofing
                   </span>
                 </Link>

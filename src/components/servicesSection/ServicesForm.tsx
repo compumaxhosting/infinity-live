@@ -1,21 +1,25 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Oval } from "react-loader-spinner"; // You can replace this with any loader of your choice.
 
 const ServicesForm: React.FC = () => {
-  // Form data state
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  // State for loading and response message
   const [loading, setLoading] = useState(false);
   const [responseMessage, setResponseMessage] = useState<string | null>(null);
 
-  // Handle form input changes
+  // Use effect hook to ensure this logic runs only on the client side
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true); // Set to true after mount to prevent SSR mismatch
+  }, []);
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -23,14 +27,12 @@ const ServicesForm: React.FC = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // Handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setResponseMessage(null);
 
     try {
-      // Send form data to the backend API
       const response = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -41,7 +43,7 @@ const ServicesForm: React.FC = () => {
 
       if (result.success) {
         setResponseMessage("Email sent successfully!");
-        setFormData({ name: "", email: "", message: "" }); // Reset form
+        setFormData({ name: "", email: "", message: "" });
       } else {
         setResponseMessage("Failed to send email. Please try again.");
       }
@@ -53,6 +55,11 @@ const ServicesForm: React.FC = () => {
     }
   };
 
+  if (!mounted) {
+    // Render nothing or a placeholder while server-side rendering
+    return null;
+  }
+
   return (
     <div
       className="p-6 lg:p-12 lg:py-6 text-black dark:text-white"
@@ -60,7 +67,6 @@ const ServicesForm: React.FC = () => {
     >
       <h2 className="mb-8 text-2xl font-semibold lg:text-4xl">Get in Touch</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* Name Input */}
         <div>
           <label htmlFor="name" className="block text-lg">
             Name
@@ -76,7 +82,6 @@ const ServicesForm: React.FC = () => {
           />
         </div>
 
-        {/* Email Input */}
         <div>
           <label htmlFor="email" className="block text-lg">
             Email
@@ -92,7 +97,6 @@ const ServicesForm: React.FC = () => {
           />
         </div>
 
-        {/* Message Input */}
         <div>
           <label htmlFor="message" className="block text-lg">
             Message
@@ -108,7 +112,6 @@ const ServicesForm: React.FC = () => {
           />
         </div>
 
-        {/* Submit Button */}
         <div>
           <button
             type="submit"
@@ -123,7 +126,6 @@ const ServicesForm: React.FC = () => {
           </button>
         </div>
 
-        {/* Response Message */}
         {responseMessage && (
           <p className="mt-4 text-center text-lg">{responseMessage}</p>
         )}

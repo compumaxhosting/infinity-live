@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Phone,
   Mail,
@@ -34,9 +33,11 @@ const Footer = () => {
               <div className="bg-secondary p-2 mr-2 sm:p-3 sm:mr-4 rounded-full">
                 <Mail className="text-white" />
               </div>
+              <Link href="mailto:Infinityconstructionnyc@gmail.com">
               <p className="text-sm sm:text-base">
-                Email: imrul.hassan@infinityconstructionnyc.com
+                Email: Infinityconstructionnyc@gmail.com
               </p>
+              </Link>
             </div>
             <div className="flex items-center mb-3">
               {/* Address icon */}
@@ -142,7 +143,7 @@ const Footer = () => {
             <ul className="space-y-2 text-base">
               {specialityData.map((service) => (
                 <li key={service.id}>
-                  <Link href="/services" className="hover:underline">
+                  <Link href={`${service.path}`} className="hover:underline">
                     {service.heading}
                   </Link>
                 </li>

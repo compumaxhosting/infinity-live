@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const ServicesAbout: React.FC = () => {
@@ -26,15 +27,15 @@ const ServicesAbout: React.FC = () => {
         Area&apos;s Of Services
       </h2>
       <ul className="list-disc list-inside lg:text-2xl space-y-2">
-        <li>Historical Landmarks Design Restoration</li>
-        <li>Brownstone Restoration</li>
-        <li>Fire Escape Restoration</li>
-        <li>Masonry Contracting</li>
-        <li>Brownstone Renovation Contractors</li>
-        <li>Facade Restoration</li>
-        <li>Roofing</li>
-        <li>Paving</li>
-        <li>Brick Pointing</li>
+        <Link href="/historical-landmark"><li>Historical Landmarks Design Restoration</li></Link>
+        <Link href="/brownstone-restoration"><li>Brownstone Restoration</li></Link>
+        <Link href="/fire-escape-restoration"><li>Fire Escape Restoration</li></Link>
+        <Link href="/paving"><li>Masonry Contracting</li></Link>
+        <Link href="/brownstone-restoration"><li>Brownstone Renovation Contractors</li></Link>
+        <Link href="/brownstone-facade-restoration"><li>Facade Restoration</li></Link>
+        <Link href="/roof-restoration-and-weatherproofing"><li>Roofing</li></Link>
+        <Link href="/paving"><li>Paving</li></Link>
+        <Link href="/brick-pointing"><li>Brick Pointing</li></Link>
       </ul>
     </div>
   );

@@ -5,35 +5,34 @@ import useEmblaCarousel from "embla-carousel-react";
 import projectsData from "@/data/projectsData";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Use icons for navigation
+import Link from "next/link";
 
 const ProjectsSection = () => {
- const [emblaRef, emblaApi] = useEmblaCarousel({
-     loop: true,
-     align: "center",
-     skipSnaps: false,
-     dragFree: false,
-   });
- 
-   
-   const onSelect = useCallback(() => {
-     if (!emblaApi) return;
-   }, [emblaApi]);
- 
-   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
-   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
- 
-   useEffect(() => {
-     if (!emblaApi) return;
-     emblaApi.on("select", onSelect);
-     emblaApi.on("reInit", onSelect);
-     onSelect();
- 
-     return () => {
-       emblaApi.off("select", onSelect);
-       emblaApi.off("reInit", onSelect);
-     };
-   }, [emblaApi, onSelect]);
- 
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: true,
+    align: "center",
+    skipSnaps: false,
+    dragFree: false,
+  });
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+  }, [emblaApi]);
+
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
+    onSelect();
+
+    return () => {
+      emblaApi.off("select", onSelect);
+      emblaApi.off("reInit", onSelect);
+    };
+  }, [emblaApi, onSelect]);
 
   return (
     <div className="container mx-auto px-4 lg:px-8 py-14 pb-0 md:pb-14 border-b">
@@ -55,7 +54,7 @@ const ProjectsSection = () => {
               className="flex-none w-full sm:w-1/2 md:w-1/3 px-4 mb-6"
             >
               {/* Card */}
-              <div className="relative bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+              <div className="relative z-20 bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden">
                 <Image
                   src={projects.image}
                   alt={projects.title}
@@ -71,27 +70,30 @@ const ProjectsSection = () => {
                   >
                     {projects.title}
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 mt-2">
+                  <p className="text-gray-700 dark:text-gray-300 my-2 mb-4">
                     {projects.description.slice(0, 180)}...{" "}
                     {/* Truncate the description */}
                   </p>
-                  <button
-                    className="mt-4 text-white bg-stone-950 hover:bg-stone-950/80 p-2 px-6 rounded-lg transition-all duration-300"
+                  <Link
+                    href={projects.path}
+                    onPointerDown={(e) => e.stopPropagation()}
+                    className="text-white bg-stone-950 hover:bg-stone-950/80 p-2 px-6 rounded-lg transition-all duration-300"
                     style={{ fontFamily: "var(--font-forum)" }}
                   >
                     Know More
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
           ))}
         </div>
         {/* Navigation buttons */}
-        <div className="absolute inset-0 p-4">
+        {/* Navigation buttons */}
+        <div className="absolute top-1/2 left-0 right-0 flex justify-between items-center -translate-y-1/2">
           {/* Left Navigation Button */}
           <button
             onClick={scrollPrev}
-            className="absolute left-0 sm:left-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
+            className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronLeft className="w-5 h-5 md:w-7 md:h-7" />
           </button>
@@ -99,7 +101,7 @@ const ProjectsSection = () => {
           {/* Right Navigation Button */}
           <button
             onClick={scrollNext}
-            className="absolute right-0 sm:right-0 top-1/2 transform -translate-y-1/2 text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
+            className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronRight className="w-5 h-5 md:w-7 md:h-7" />
           </button>

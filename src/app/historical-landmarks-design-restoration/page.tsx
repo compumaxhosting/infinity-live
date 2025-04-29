@@ -9,7 +9,7 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div className="bg-accent dark:bg-slate-950 border-b p-4">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-1 gap-8 pt-4 sm:pt-28 pb-14">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-1 gap-8 pt-4 sm:pt-28 2xl:pt-36 pb-14">
           {/* Card 1 */}
           <Link href="/historical-landmark">
             <div className="flex flex-col sm:flex-row bg-white dark:bg-gray-900 shadow-md rounded-3xl overflow-hidden hover:shadow-lg transition-shadow duration-300">

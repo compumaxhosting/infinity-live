@@ -4,11 +4,12 @@ import React from "react";
 import Image from "next/image";
 import { specialityData } from "@/data/ourServicesData";
 import { motion } from "framer-motion"; // Import Framer Motion for animation
+import Link from "next/link";
 
 const OurServices = () => {
   return (
     <section
-      className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-16 dark:border"
+      className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-16"
       style={{ fontFamily: "var(--font-forum)" }}
     >
       <div className="container mx-auto px-6">
@@ -19,8 +20,9 @@ const OurServices = () => {
         {/* Cards Grid with grid layout on larger screens */}
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
           {specialityData.map((data, index) => (
-            <motion.div
-              key={index}
+            <Link href={data.path}
+            key={index}>
+              <motion.div
               className={`flex flex-col sm:flex-row ${
                 index % 2 === 0
                   ? "bg-white dark:bg-gray-900"
@@ -66,6 +68,7 @@ const OurServices = () => {
                 </p>
               </div>
             </motion.div>
+            </Link>
           ))}
         </div>
       </div>

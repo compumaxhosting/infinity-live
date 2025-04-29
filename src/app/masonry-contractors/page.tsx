@@ -7,10 +7,10 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div
-        className="container mx-auto p-4 pt-4 sm:pt-28"
+        className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36"
         style={{ fontFamily: "var(--font-forum)" }}
       >
-        <h1 className="text-4xl mb-4">Best Masonry Contractors New York </h1>
+        <h1 className="text-center text-5xl font-bold text-tertiary mb-8">Best Masonry Contractors New York </h1>
         <p className="text-lg">
           Welcome to Infinity Construction NYC, your premier choice for masonry
           contractors in Brooklyn, Manhattan, and Queens, New York. With our

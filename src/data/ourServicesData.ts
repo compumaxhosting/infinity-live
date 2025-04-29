@@ -3,7 +3,7 @@ export const specialityData = [
       id: 1,
       imageUrl: "/img-3.jpeg",
       heading: "Historical Landmark Brownstone/Limestone Restoration",
-      path: "/historical-landmarks-design-restoration",
+      path: "/historical-landmark",
       description:
         "We specialize in the restoration of brownstone and limestone facades and stoops for both historic and non-historic properties. Our services adhere to the guidelines set by the NYC Landmarks Preservation Commission (LPC) and the NYC Department of Buildings (DOB). Our skilled artisans meticulously preserve original details, reinforce structural integrity, and restore vibrant authenticity to your historical landmark.",
     },
@@ -11,7 +11,7 @@ export const specialityData = [
       id: 2,
       imageUrl: "/services-img-1.jpg",
       heading: "Stucco/Waterproofing of Exterior, Parapet, and Retaining Walls",
-      path: "/brownstone-facade-restoration",
+      path: "/stucco",
       description:
         "We offer expert application of stucco finishes and waterproofing materials to safeguard exterior walls, parapets, and retaining walls from water infiltration and structural degradation. This process includes surface preparation, the application of base coats with reinforcement, followed by a final coat and weatherproofing materials, all in strict compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
     },
@@ -27,7 +27,7 @@ export const specialityData = [
       id: 4,
       imageUrl: "/services-img-4.jpeg",
       heading: "Roof Restoration and Weatherproofing",
-      path: "/brownstone-facade-restoration",
+      path: "/roof-restoration-and-weatherproofing",
       description:
         "We offer comprehensive roof restoration and weatherproofing services to enhance structural stability and prevent damage. This includes replacing damaged roofing materials, sealing penetrations, installing waterproof membranes, and improving drainage systems. In cases of severe deterioration, we also provide full roof reconstruction, adhering to the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
     },
@@ -63,7 +63,7 @@ export const specialityData = [
       id: 8,
       imageUrl: "/services-img-3.jpeg",
       heading: "Interior Plastering and Painting",
-      path: "/brownstone-facade-restoration",
+      path: "/interior-plastering-and-painting",
       description:
         "We offer expert application of plaster and paint to interior surfaces, ensuring smooth finishes and long-lasting durability. Our process includes surface preparation, the application of base and finish coats, and the use of water-resistant materials, all in compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
     },

@@ -59,27 +59,32 @@ const HeaderTwo: React.FC = () => {
             </Link>
           </div>
           <Link href="/">
-          <div
-            className={`flex flex-col justify-center items-center ${
-              scrolled ? "text-stone-950 dark:text-white" : "text-white"
-            }`}
-          >
-            <p
-              className="text-2xl font-semibold leading-tight"
-              style={{ fontFamily: "var(--font-forum)" }}
+            <div
+              className={`flex flex-col justify-center items-center ${
+                scrolled ? "text-stone-950 dark:text-white" : "text-white"
+              }`}
             >
-              Infinity Construction NYC
-            </p>
-            <p
-              className="text-lg leading-tight"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              Quality is our Specialty
-            </p>
-          </div></Link>
+              <p
+                className="text-2xl font-semibold leading-tight"
+                style={{ fontFamily: "var(--font-forum)" }}
+              >
+                Infinity Construction NYC
+              </p>
+              <p
+                className="text-lg leading-tight"
+                style={{ fontFamily: "var(--font-forum)" }}
+              >
+                Quality is our Specialty
+              </p>
+            </div>
+          </Link>
           <button className="flex sm:hidden bg-primary text-white px-4 py-3 hover:bg-orange-600 transition-all duration-300 items-center space-x-2">
-            <Phone className="w-5 h-5" />
-            <span>347 939 5779</span>
+            <Link href="tel:+13479395779">
+              <div className="flex items-center space-x-2">
+                <Phone className="w-5 h-5" />
+                <span>347 939 5779</span>
+              </div>
+            </Link>
           </button>
         </div>
 

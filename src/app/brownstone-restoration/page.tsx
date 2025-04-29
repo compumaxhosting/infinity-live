@@ -7,10 +7,10 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div
-        className="container mx-auto p-4 pt-4 sm:pt-28 border-b"
+        className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 border-b"
         style={{ fontFamily: "var(--font-forum)" }}
       >
-        <h1 className="text-4xl mb-4">Brownstone Restoration Contractors</h1>
+        <h1 className="text-center text-5xl font-bold text-tertiary mb-8">Brownstone Restoration Contractors</h1>
         <p className="text-lg">
         At Infinity Construction, we understand the timeless allure of brownstones and the importance of preserving their historic charm. As the leading provider of Best Brownstone Restoration in Brooklyn, NY, and Manhattan, our team of dedicated Brownstone Restoration Contractors is committed to revitalizing these architectural gems, breathing new life into your property while honoring its rich heritage.
         </p>

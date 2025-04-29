@@ -5,7 +5,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20">
+      <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20 dark:border-b">
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1

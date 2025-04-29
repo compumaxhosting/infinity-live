@@ -32,10 +32,10 @@ function SidebarMenu() {
   return (
     <div>
       {/* Mobile Menu Toggle */}
-      <div className="xl:hidden absolute right-4 top-4 sm:right-4">
+      <div className="xl:hidden absolute right-0 top-0 sm:right-4">
         <button
           onClick={toggleSheet}
-          className="dark:text-gray-300 text-tertiary"
+          className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
         >
           <Menu className="w-8 h-8" />
         </button>
@@ -44,7 +44,7 @@ function SidebarMenu() {
       <Sheet open={isOpen} onOpenChange={toggleSheet}>
         <SheetContent
           side="left"
-          className="dark:bg-slate-950 transition-colors duration-300 overflow-y-auto"
+          className="dark:bg-slate-950 transition-colors duration-300 overflow-y-auto w-[90%]"
         >
           <SheetHeader>
             <SheetTitle
@@ -54,7 +54,7 @@ function SidebarMenu() {
               Infinity Construction NYC
             </SheetTitle>
           </SheetHeader>
-          <nav className="flex flex-col space-y-4 p-4">
+          <nav className="flex flex-col space-y-4 p-4 pl-0">
             <Link
               href="/"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
@@ -82,14 +82,16 @@ function SidebarMenu() {
                 )}
               </button>
               {isServicesOpen && (
-                <div className="mt-2 pl-4">
+                <div>
                   {specialityData.map((service, index) => (
                     <Link
                       key={index}
                       href={service.path}
-                      className="block text-sm text-gray-500 dark:text-gray-400 hover:text-orange-500 mt-1"
+                      className="block text-sm text-gray-500 dark:text-gray-400 hover:text-orange-500 mt-4"
                     >
-                      {service.heading}
+                      <ul className="pl-2">
+                        <li>{service.heading}</li>
+                      </ul>
                     </Link>
                   ))}
                 </div>
@@ -131,10 +133,12 @@ function SidebarMenu() {
           {/* Phone Button */}
           <div className="flex gap-4 items-center mt-6">
             <div className="p-4">
-              <button className="bg-primary text-white px-4 py-3 hover:bg-white hover:text-primary hover:border-primary hover:border transition-all duration-300 flex items-center space-x-2">
-                <Phone className="w-5 h-5" />
-                <span>347 939 5779</span>
-              </button>
+              <Link href="tel:+13479395779">
+                <div className="bg-primary text-white px-4 py-3 hover:bg-white hover:text-primary hover:border-primary hover:border transition-all duration-300 flex items-center space-x-2">
+                  <Phone className="w-5 h-5" />
+                  <span>347 939 5779</span>
+                </div>
+              </Link>
             </div>
           </div>
 
