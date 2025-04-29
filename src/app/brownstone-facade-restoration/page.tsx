@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
-/* import Image from "next/image"; */
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -65,13 +65,13 @@ const page = () => {
           </div>
           {/* Right Section - Image */}
           <div className="w-full lg:w-4/12 p-4 space-y-6">
-            {/* <Image
-              src="/stucco/stucco-img-2.jpg"
+            {<Image
+              src="/stucco/stucco-img-2.JPG"
               width={600}
               height={600}
               alt="Historical Landmark Restoration"
               className="w-full h-auto object-cover rounded-lg shadow-md"
-            /> */}
+            />}
           </div>
         </div>
         <h1 className="text-4xl my-4">

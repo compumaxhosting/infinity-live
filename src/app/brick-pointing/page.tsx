@@ -18,7 +18,7 @@ const page = () => {
           <Image
             width={300}
             height={200}
-            src="/brick-pointing/brick-img-1.jpg"
+            src="/brick-pointing/brick-img-1.JPG"
             alt="Brick Pointing"
             className="w-full lg:w-1/2 rounded-lg shadow-lg h-60 object-cover"
           />

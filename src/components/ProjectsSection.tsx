@@ -93,6 +93,7 @@ const ProjectsSection = () => {
           {/* Left Navigation Button */}
           <button
             onClick={scrollPrev}
+             aria-label="Scroll left"
             className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronLeft className="w-5 h-5 md:w-7 md:h-7" />
@@ -101,6 +102,7 @@ const ProjectsSection = () => {
           {/* Right Navigation Button */}
           <button
             onClick={scrollNext}
+             aria-label="Scroll right"
             className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronRight className="w-5 h-5 md:w-7 md:h-7" />

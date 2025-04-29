@@ -34,6 +34,7 @@ const LetsChat: React.FC = () => {
       <button
         style={{ fontFamily: "var(--font-forum)" }}
         onClick={toggleChat}
+        aria-label="Open chat"
         className="hidden fixed z-10 bottom-6 right-6 bg-secondary text-white p-4 px-4 sm:px-8 md:px-10 rounded-full shadow-lg lg:flex items-center space-x-2 hover:bg-stone-900 transition-all duration-300"
       >
         <MessageCircle className="w-6 h-6" />
@@ -43,6 +44,7 @@ const LetsChat: React.FC = () => {
       {/* Chat Panel */}
       <div
         ref={chatPanelRef}
+         aria-label="Close chat"
         className={`fixed bottom-6 z-30 right-5 w-full bg-white shadow-2xl rounded-t-lg p-6 max-w-[90vw] sm:max-w-[500px] transition-transform dark:bg-slate-950 dark:text-gray-100 border`}
         style={{
           transform: isChatOpen

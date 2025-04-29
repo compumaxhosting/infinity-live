@@ -47,6 +47,7 @@ export function ModeToggle() {
           id="dark-mode-toggle"
           checked={isDarkMode}
           onChange={toggleTheme}
+          aria-label="Toggle dark mode"
         />
         <span className="slider"></span>
       </label>

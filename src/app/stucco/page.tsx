@@ -79,7 +79,7 @@ const page = () => {
           {/* Right Section - Image */}
           <div className="w-full lg:w-4/12 p-4">
             <Image
-              src="/stucco/stucco-img-2.jpg"
+              src="/stucco/stucco-img-2.JPG"
               width={600}
               height={600}
               alt="Historical Landmark Restoration"

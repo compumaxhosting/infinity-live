@@ -57,7 +57,7 @@ const page = () => {
           </div>
           <div className="w-full lg:w-4/12 p-4 space-y-6">
             <Image
-              src="/paving/paving-img-2.jpg"
+              src="/paving/paving-img-2.JPG"
               width={600}
               height={600}
               alt="Historical Landmark Restoration"

@@ -38,6 +38,7 @@ function SidebarMenu() {
           className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
         >
           <Menu className="w-8 h-8" />
+          <span className="sr-only">Open menu</span>
         </button>
       </div>
       {/* Sidebar Sheet Component */}

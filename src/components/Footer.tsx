@@ -34,9 +34,9 @@ const Footer = () => {
                 <Mail className="text-white" />
               </div>
               <Link href="mailto:Infinityconstructionnyc@gmail.com">
-              <p className="text-sm sm:text-base">
-                Email: Infinityconstructionnyc@gmail.com
-              </p>
+                <p className="text-sm sm:text-base">
+                  Email: Infinityconstructionnyc@gmail.com
+                </p>
               </Link>
             </div>
             <div className="flex items-center mb-3">
@@ -56,40 +56,51 @@ const Footer = () => {
                 className="text-white hover:text-pink-500"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Instagram"
               >
                 <Instagram className="h-8 w-8 bg-white text-black rounded-full p-2" />
               </Link>
+
               {/* Facebook Icon */}
               <Link
                 href="https://www.facebook.com/InfinityConstructionNYC"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Facebook"
               >
                 <Facebook className="h-8 w-8 bg-white text-black rounded-full p-2" />
               </Link>
+
               {/* LinkedIn Icon */}
               <Link
                 href="https://www.linkedin.com/in/imrul-hassan-403724268"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our LinkedIn"
               >
                 <Linkedin className="h-8 w-8 bg-white text-black rounded-full p-2" />
               </Link>
+
+              {/* Yelp Icon */}
               <Link
                 href="https://www.yelp.com/biz/infinity-construction-nyc-brooklyn"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Yelp"
               >
                 <FaYelp className="h-8 w-8 bg-white text-black rounded-full p-2" />
               </Link>
+
+              {/* Brownstoner Icon */}
               <Link
                 href="https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit our Brownstoner page"
               >
                 <FaExternalLinkAlt className="h-8 w-8 bg-white text-black rounded-full p-2" />
               </Link>
