@@ -44,7 +44,7 @@ const LetsChat: React.FC = () => {
       {/* Chat Panel */}
       <div
         ref={chatPanelRef}
-         aria-label="Close chat"
+        aria-label="Close chat"
         className={`fixed bottom-6 z-30 right-5 w-full bg-white shadow-2xl rounded-t-lg p-6 max-w-[90vw] sm:max-w-[500px] transition-transform dark:bg-slate-950 dark:text-gray-100 border`}
         style={{
           transform: isChatOpen
@@ -57,6 +57,7 @@ const LetsChat: React.FC = () => {
         <button
           onClick={toggleChat}
           className="absolute top-2 right-2 text-gray-700 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-100"
+          aria-label="Close chat"
         >
           <X className="w-6 h-6" />
         </button>

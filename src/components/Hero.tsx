@@ -28,7 +28,7 @@ const HeroSection = () => {
             className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            {/* PRECISION. PUNCTUALITY. PROFESSIONALISM. */}
+            PRECISION. PUNCTUALITY. PROFESSIONALISM.
           </h3>
 
           {/* Description Section */}
