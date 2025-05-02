@@ -15,17 +15,13 @@ const Navbar = () => {
 
   // Initialize and listen to scroll event
   useEffect(() => {
-    // Set the initial state based on the current scroll position
     updateScrolledState();
-
-    // Add scroll event listener
     window.addEventListener("scroll", updateScrolledState);
-
-    // Clean up event listener on component unmount
     return () => {
       window.removeEventListener("scroll", updateScrolledState);
     };
   }, []);
+
   return (
     <div className="hidden xl:flex gap-6 justify-center items-center">
       <nav>
@@ -37,14 +33,12 @@ const Navbar = () => {
           }`}
           style={{ fontFamily: "var(--font-forum)" }}
         >
-          <Link href="/">
-            <li className="text-xl font-bold transition-all duration-300 bg-primary dark:bg-primary p-2 px-4 text-white">
-              HOME
-            </li>
-          </Link>
-          <Link href="/about">
-            <li className="text-xl hover:text-orange-500">ABOUT</li>
-          </Link>
+          <li className="text-xl font-bold transition-all duration-300 bg-primary dark:bg-primary p-2 px-4 text-white">
+            <Link href="/">HOME</Link>
+          </li>
+          <li className="text-xl hover:text-orange-500">
+            <Link href="/about">ABOUT</Link>
+          </li>
 
           {/* Services Dropdown */}
           <li className="relative z-10 group">
@@ -62,13 +56,16 @@ const Navbar = () => {
               ))}
             </ul>
           </li>
-          {/* <Link href="/projects">
-            <li className="text-xl hover:text-orange-500">PROJECTS</li>
-          </Link>
-          <Link href="/gallery">
-            <li className="text-xl hover:text-orange-500">GALLERY</li>
-          </Link> */}
 
+          {/* <li className="text-xl hover:text-orange-500">
+            <Link href="/projects">PROJECTS</Link>
+          </li> */}
+
+          {/* <li className="text-xl hover:text-orange-500">
+            <Link href="/gallery">GALLERY</Link>
+          </li> */}
+
+          {/* More Dropdown */}
           <li className="relative z-10 group">
             <div className="text-xl hover:text-orange-500 cursor-pointer">
               MORE
@@ -87,7 +84,11 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <Link href="tel:+13479395779" className="bg-primary text-white px-4 py-3 hover:bg-stone-900 hover:text-white dark:hover:text-white hover:border-transparent hover:border border border-transparent dark:border-transparent rounded-md shadow-lg transition-all duration-300 flex items-center space-x-2">
+
+      <Link
+        href="tel:+13479395779"
+        className="bg-primary text-white px-4 py-3 hover:bg-stone-900 hover:text-white dark:hover:text-white hover:border-transparent hover:border border border-transparent dark:border-transparent rounded-md shadow-lg transition-all duration-300 flex items-center space-x-2"
+      >
         <Phone className="w-5 h-5" />
         <span>347 939 5779</span>
       </Link>
