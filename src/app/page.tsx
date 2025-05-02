@@ -6,11 +6,9 @@ import HeroSection from "../components/Hero";
 import LetsChat from "../components/extras/LetsChat";
 import MapComponent from "../components/MapComponent";
 import OurAffiliatesSection from "../components/OurAffiliatesSection";
-import ProjectSection from "../components/ProjectsSection";
 import TestimonialSection from "../components/testimonialsSection/TestimonialSection";
 import TestimonialsHeading from "../components/testimonialsSection/TestimonialsHeading";
 import ServicesSection from "@/components/ContactSection";
-import Gallery from "@/components/Gallery";
 import ContactScroll from "@/components/extras/ContactScroll";
 import SocialLinks from "@/components/SocialLinks";
 
@@ -21,8 +19,8 @@ export default function Home() {
       <CarouselSection />
       <HeroSection />
       <OurServices />
-      <Gallery />
-      <ProjectSection />
+      {/* <Gallery />
+      <ProjectSection /> */}
       <TestimonialsHeading />
       <TestimonialSection />
       <OurAffiliatesSection />

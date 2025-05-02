@@ -36,7 +36,7 @@ const SocialLinks = () => {
   ];
   return (
     <section
-      className="pb-16 md:py-16 bg-accent dark:bg-slate-950 dark:bg-sectext-secondary"
+      className="pb-16 md:py-16 bg-accent dark:bg-slate-950 dark:bg-sectext-secondary hidden"
       style={{ fontFamily: "var(--font-forum)" }}
     >
       <div className="container mx-auto text-center px-4">

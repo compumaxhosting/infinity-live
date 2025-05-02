@@ -61,13 +61,13 @@ const schemaData = {
 
 export default function AboutLayout({ children }: { children: ReactNode }) {
   return (
-    <div>
+    <>
       {/* No extra content like Header or Footer here */}
       {children} {/* Only the content from the About page will be rendered */}
       <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
-    </div>
+    </>
   );
 }

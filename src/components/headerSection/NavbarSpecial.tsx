@@ -64,7 +64,7 @@ const NavbarSpecial = () => {
             </ul>
           </li>
 
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <li
               className={`text-xl ${
                 isActive("/projects")
@@ -85,7 +85,7 @@ const NavbarSpecial = () => {
             >
               GALLERY
             </li>
-          </Link>
+          </Link> */}
 
           <li className="relative z-10 group">
             <div className="text-xl cursor-pointer">MORE</div>
@@ -93,9 +93,9 @@ const NavbarSpecial = () => {
               <li className="text-secondary dark:text-gray-100 text-xl px-4 py-2">
                 <Link href="/faq">FAQ</Link>
               </li>
-              <li className="text-secondary dark:text-gray-100 text-xl px-4 py-2">
+              {/* <li className="text-secondary dark:text-gray-100 text-xl px-4 py-2">
                 <Link href="/blog">BLOG</Link>
-              </li>
+              </li> */}
               <li
                 className={`text-secondary dark:text-gray-100 text-xl px-4 py-2 ${
                   isActive("/contact")

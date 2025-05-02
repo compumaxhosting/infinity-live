@@ -22,13 +22,13 @@ const CarouselContent: React.FC = () => {
           Infinity Construction NYC
         </h1>{" "}
         {/* Display description */}
-        <p
+        {/* <p
           className="mt-4 xl:px-56 text-lg 2xl:text-xl"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           Infinity Construction NYC is a leading Brownstone Restoration
           Specialist Company.
-        </p>
+        </p> */}
         {/* Buttons Section */}
         <div className="mt-6 flex gap-6 flex-col sm:flex-row">
           {/* Contact Us Button */}

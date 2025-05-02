@@ -1,4 +1,4 @@
-export const specialityData = [
+export const specialityData = [/* 
     {
       id: 1,
       imageUrl: "/img-3.jpeg",
@@ -58,12 +58,12 @@ export const specialityData = [
       description:
         "We provide professional installation and repair of concrete, stone, and brick paving for sidewalks, driveways, and patios. Our services ensure proper leveling, drainage, and ADA compliance, in adherence with NYC Department of Transportation (DOT) and NYC Department of Buildings (DOB) guidelines.",
     },
-    
+     */
     {
       id: 8,
       imageUrl: "/services-img-3.jpeg",
-      heading: "Interior Plastering and Painting",
-      path: "/interior-plastering-and-painting",
+      heading: "Painting and Masonry",
+      path: "/painting-and-masonry",
       description:
         "We offer expert application of plaster and paint to interior surfaces, ensuring smooth finishes and long-lasting durability. Our process includes surface preparation, the application of base and finish coats, and the use of water-resistant materials, all in compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
     },

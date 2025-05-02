@@ -1,5 +1,4 @@
 import ServicesForm from "./servicesSection/ServicesForm";
-import ServicesAbout from "./servicesSection/ServicesAbout";
 
 const ContactSection = () => {
   return (
@@ -19,7 +18,7 @@ const ContactSection = () => {
         <div className="flex flex-col gap-6 lg:flex-row">
           {/* About Section */}
           <div className="w-full lg:w-1/2">
-            <ServicesAbout />
+            {/* <ServicesAbout /> */}
           </div>
 
           {/* Form Section */}

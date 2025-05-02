@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="text-xl hover:text-orange-500 cursor-pointer">
               SERVICES
             </div>
-            <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg w-[400px] pt-6">
+            <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg w-[300px] pt-2">
               {specialityData.map((service) => (
                 <li
                   key={service.heading}
@@ -62,12 +62,12 @@ const Navbar = () => {
               ))}
             </ul>
           </li>
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <li className="text-xl hover:text-orange-500">PROJECTS</li>
           </Link>
           <Link href="/gallery">
             <li className="text-xl hover:text-orange-500">GALLERY</li>
-          </Link>
+          </Link> */}
 
           <li className="relative z-10 group">
             <div className="text-xl hover:text-orange-500 cursor-pointer">
@@ -77,9 +77,9 @@ const Navbar = () => {
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/faq">FAQ</Link>
               </li>
-              <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
+              {/* <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/blog">BLOG</Link>
-              </li>
+              </li> */}
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/contact">CONTACT</Link>
               </li>

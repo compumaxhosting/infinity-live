@@ -5,12 +5,12 @@ import useEmblaCarousel from "embla-carousel-react";
 import { /* ChevronLeft, ChevronRight, */ UserCircle } from "lucide-react";  // Import the UserCircle icon
 
 const testimonials = [
-  {
+  /* {
     id: 1,
     text: "I recommend future Brownstone homeowners to take advantage of Infinity Construction NYC's services, specializing in brownstone restoration. They did an exquisite job with my brownstone facade and stoop restoration and we loved the end results. There was no discoloration or fading and the finishing was very smooth & clean. The professionalism and feedback I got were unforgettable.",
     name: "ANN CULLARO",
     role: "Homeowner",
-  },
+  }, */
   {
     id: 2,
     text: "Infinity Construction NYC renovated my house and it looks amazing. The interior design team knew exactly what I wanted, and did a wonderful job in renovating my basement. They installed bathrooms, ceramic and wood floors, research lights, and closets. They opened up my basement and now I have a lot of spare space. They did such a superb job and I appreciate Infinity's customer service.",

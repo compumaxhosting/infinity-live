@@ -16,12 +16,12 @@ const HeroSection = () => {
           </h1>
 
           {/* Subheading */}
-          <h2
+          {/* <h2
             className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             BROWNSTONE RESTORATION SPECIALIST
-          </h2>
+          </h2> */}
 
           {/* Tagline */}
           <h3
@@ -32,7 +32,7 @@ const HeroSection = () => {
           </h3>
 
           {/* Description Section */}
-          <p
+          {/* <p
             className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
@@ -74,6 +74,47 @@ const HeroSection = () => {
             Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea, Riverside,
             Harlem, The Bronx, and Queens, we are proud to be one of the leading
             brownstone restoration specialists in NYC.
+          </p> */}
+          <p
+            className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20"
+            style={{ fontFamily: "var(--font-forum)" }}
+          >
+            Infinity Construction NYC is a leading provider of quality
+            restoration services in the tri-state area. With a focus on
+            precision, punctuality, and professionalism, we specialize in
+            painting and masonry. Our goal is to deliver exceptional
+            results to our clients while maintaining cost-effectiveness.
+          </p>
+
+          <p
+            className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+            style={{ fontFamily: "var(--font-forum)" }}
+          >
+            Best painting and masonry Contractor in Brooklyn,
+            Manhattan, Queens, and The Bronx, NY.
+          </p>
+
+          <p
+            className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+            style={{ fontFamily: "var(--font-forum)" }}
+          >
+            Serving a wide range of clients, including property owners,
+            real-estate firms, architects, and engineers, we are committed to
+            enhancing the beauty and durability of interior spaces. With a
+            highly experienced team of workers, we take pride in our attention
+            to detail and the quality of our work.
+          </p>
+
+          <p
+            className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+            style={{ fontFamily: "var(--font-forum)" }}
+          >
+            Trusted Contractor for painting and masonry Near Me in
+            Brooklyn, Queens, The Bronx, and Manhattan, New York City. Operating
+            in key locations such as Park Slope, Brooklyn Heights, Downtown
+            Brooklyn, Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea,
+            Riverside, Harlem, The Bronx, and Queens, we are proud to be one of
+            the leading interior renovation specialists in NYC.
           </p>
         </div>
       </section>
