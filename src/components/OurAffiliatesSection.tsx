@@ -1,5 +1,3 @@
-// src/components/OurAffiliatesSection.tsx
-
 "use client";
 
 import React from "react";
@@ -36,6 +34,7 @@ const OurAffiliatesSection: React.FC = () => {
                 height={224}
                 className="object-contain w-32 h-32 lg:w-48 lg:h-48"
                 loading="lazy"
+                sizes="(max-width: 640px) 256px, (max-width: 1024px) 512px, 640px"
               />
             </div>
           </div>

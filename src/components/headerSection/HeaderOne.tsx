@@ -22,13 +22,15 @@ const HeaderOne: React.FC = () => {
               </div>
             </Link>
             <div className="flex items-center space-x-2">
-              <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span
-                className="text-sm sm:text-lg"
-                style={{ fontFamily: "var(--font-forum)" }}
-              >
-                347 939 5779
-              </span>
+              <Link href="tel:+13479395779">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span
+                  className="text-sm sm:text-lg"
+                  style={{ fontFamily: "var(--font-forum)" }}
+                >
+                  347 939 5779
+                </span>
+              </Link>
             </div>
           </div>
 

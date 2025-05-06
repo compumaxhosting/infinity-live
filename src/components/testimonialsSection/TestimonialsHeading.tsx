@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 function TestimonialsHeading() {
@@ -23,10 +24,12 @@ function TestimonialsHeading() {
             us to submit your own.
           </span>
         </p>
-        <button className="flex w-fit bg-primary text-white px-4 py-3 hover:bg-stone-900 transition-all duration-300 items-center space-x-2">
-          <Phone className="w-5 h-5" />
-          <span>347 939 5779</span>
-        </button>
+        <Link href="tel:+13479395779">
+          <button className="flex w-fit bg-primary text-white px-4 py-3 hover:bg-stone-900 transition-all duration-300 items-center space-x-2">
+            <Phone className="w-5 h-5" />
+            <span>347 939 5779</span>
+          </button>
+        </Link>
       </div>
     </div>
   );
