@@ -32,12 +32,16 @@ const CarouselContent: React.FC = () => {
         {/* Buttons Section */}
         <div className="mt-6 flex gap-6 flex-col sm:flex-row">
           {/* Contact Us Button */}
-          <Link href="/contact" className="bg-primary border-2 border-primary text-3xl text-white py-3 px-6 rounded-full hover:bg-orange-600 hover:border-orange-600 transition-all duration-300 w-[250px]">
+          <Link
+            href="/contact"
+            className="bg-primary border-2 border-primary text-3xl text-white py-3 px-6 rounded-full hover:bg-orange-600 hover:border-orange-600 transition-all duration-300 w-[250px]"
+          >
             Contact Us
           </Link>
 
           {/* Portfolio Button */}
-          <Link href="/gallery"
+          <Link
+            href="/gallery"
             className="bg-transparent border-2 border-white text-3xl text-white py-3 px-6 rounded-full hover:bg-primary hover:border-primary transition-all duration-300 w-[250px]"
             style={{ textShadow: "0px 0px 10px black" }}
           >

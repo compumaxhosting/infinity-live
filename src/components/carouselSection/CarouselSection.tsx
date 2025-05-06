@@ -75,7 +75,7 @@ const CarouselSection: React.FC = () => {
                   alt={`Slide ${slide.id}`}
                   fill
                   loading="eager"
-                  priority 
+                  priority
                   className="object-cover"
                 />
                 {/* Transparent Overlay */}
