@@ -15,7 +15,7 @@ export const metadata = {
       "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
       "Top-rated fire escape restoration services in Brooklyn, Queens, The Bronx, and Manhattan, NYC. Ensure safety and compliance with expert fire escape repairs and restoration.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/fire-escape-restoration",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

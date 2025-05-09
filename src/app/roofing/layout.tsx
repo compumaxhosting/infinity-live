@@ -15,7 +15,7 @@ export const metadata = {
       "Roofing Contractor in Brooklyn, NY | Expert Roofing Services in Queens, The Bronx & Manhattan",
     description:
       "Infinity Construction NYC is your trusted roofing contractor in Brooklyn, NY, offering expert roofing services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Roof repairs, replacements, and installations",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/roofing",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

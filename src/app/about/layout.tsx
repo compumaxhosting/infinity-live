@@ -15,7 +15,7 @@ export const metadata = {
       "Trusted Contractors in Brooklyn, Queens, Bronx & Manhattan NYC | infinityconstructionnyc.com",
     description:
       "Learn about Infinity Construction NYC, your trusted construction partner for expert services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Over 20 years of experience.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/about",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

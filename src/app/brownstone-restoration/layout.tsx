@@ -13,7 +13,7 @@ export const metadata = {
     title: "Brownstone Restoration in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
       "Expert brownstone restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Restore your historic brownstone with precision and care.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/brownstone-restoration",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

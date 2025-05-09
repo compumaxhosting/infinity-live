@@ -13,7 +13,7 @@ export const metadata = {
     title: "Brownstone Construction and Restoration in Brooklyn, New York",
     description:
       "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/masonry-contractors",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

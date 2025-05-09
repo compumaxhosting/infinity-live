@@ -15,7 +15,7 @@ export const metadata = {
       "Brick Pointing & Waterproofing Contractors – Brooklyn, Queens, Bronx, NYC ",
     description:
       "Expert brick pointing and waterproofing services across Brooklyn, Queens, The Bronx & Manhattan. Trusted NYC masonry contractor for durable exterior solutions.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/brick-pointing",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

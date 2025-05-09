@@ -77,7 +77,7 @@ const page = () => {
           <Image
             width={800}
             height={600}
-            src="/waterproofing/waterproofing-img-2.jpg"
+            src="/waterproofing/waterproofing-img-2.JPG"
             alt="Waterproofing Services"
             className="w-full lg:w-1/2 rounded-lg shadow-lg h-60 object-cover"
           />

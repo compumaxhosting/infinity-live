@@ -15,7 +15,7 @@ export const metadata = {
       "Brownstone Facade Restoration in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
       "Professional brownstone facade restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Enhance and protect your historic building with expert craftsmanship",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/brownstone-facade-restoration",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

@@ -15,7 +15,7 @@ export const metadata = {
       "Paving Contractors near Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
     description:
       "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/paving",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

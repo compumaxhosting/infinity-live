@@ -15,7 +15,7 @@ export const metadata = {
       "Brownstone Renovation & Repair in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
       "Professional brownstone renovation and repair contractors serving Brooklyn, Queens, The Bronx, and Manhattan, New York City. Historic restoration done right.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/brownstone-renovation-brooklyn-ny-brownstone-repair-contractors",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

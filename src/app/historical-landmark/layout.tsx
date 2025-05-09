@@ -15,7 +15,7 @@ export const metadata = {
       "Historical Landmark Restoration | Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
       "Infinity Construction NYC offers expert historical landmark restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Preserve your building's legacy.",
-    url: "https://www.infinityconstructionnyc.com/",
+    url: "https://www.infinityconstructionnyc.com/historical-landmark",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
