@@ -4,15 +4,15 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title: "Photo Gallery of Our Work | Roofing, Masonry & Restoration in NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Browse the photo gallery of Infinity Construction NYC showcasing roofing, masonry, and restoration work across Brooklyn, Queens, The Bronx & Manhattan. See our quality craftsmanship in action.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "construction photo gallery NYC, masonry work images Brooklyn, roofing project photos Queens, brownstone restoration gallery Bronx, contractor work showcase NYC, home exterior before and after, NYC renovation images, building restoration NYC, Infinity Construction gallery, completed project photos NYC",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title: "Photo Gallery of Our Work | Roofing, Masonry & Restoration in NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Browse the photo gallery of Infinity Construction NYC showcasing roofing, masonry, and restoration work across Brooklyn, Queens, The Bronx & Manhattan. See our quality craftsmanship in action.",
     url: "https://www.infinityconstructionnyc.com/gallery",
     images: [
       {

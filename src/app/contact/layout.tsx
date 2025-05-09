@@ -4,16 +4,18 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Contact Infinity Construction NYC | Serving Brooklyn, Queens, Bronx & Manhattan",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Get in touch with Infinity Construction NYC 347 939 5779 for expert roofing, masonry, and restoration services. Serving Brooklyn, Queens, The Bronx, and Manhattan. Call or message us today for a free estimate!",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "contact construction company NYC, roofing contractors near me, masonry experts Brooklyn, get a quote",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Contact Infinity Construction NYC | Serving Brooklyn, Queens, Bronx & Manhattan",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-    url: "https://www.infinityconstructionnyc.com/",
+      "Get in touch with Infinity Construction NYC 347 939 5779 for expert roofing, masonry, and restoration services. Serving Brooklyn, Queens, The Bronx, and Manhattan. Call or message us today for a free estimate!",
+    url: "https://www.infinityconstructionnyc.com/contact",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",

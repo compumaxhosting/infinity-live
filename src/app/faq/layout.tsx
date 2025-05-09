@@ -4,16 +4,18 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "FAQs | Infinity Construction NYC | Roofing, Masonry & Restoration Questions",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Find answers to frequently asked questions about roofing, masonry, waterproofing, and restoration services by Infinity Construction NYC. Serving Brooklyn, Queens, The Bronx & Manhattan, New York City.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "construction FAQs NYC, roofing questions Brooklyn, masonry service FAQ Queens, waterproofing info Bronx, restoration company FAQ, NYC contractor answers, Infinity Construction NYC questions, brownstone repair FAQ, home renovation NYC FAQ, general contractor NYC info",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "FAQs | Infinity Construction NYC | Roofing, Masonry & Restoration Questions",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-    url: "https://www.infinityconstructionnyc.com/",
+      "Find answers to frequently asked questions about roofing, masonry, waterproofing, and restoration services by Infinity Construction NYC. Serving Brooklyn, Queens, The Bronx & Manhattan, New York City.",
+    url: "https://www.infinityconstructionnyc.com/faq",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
