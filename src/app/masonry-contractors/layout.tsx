@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Masonry Contractors in Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Infinity Construction NYC offers expert masonry contractor services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Trusted for brickwork, stonework, and more.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "masonry contractors Brooklyn, masonry contractors Queens, masonry contractors The Bronx, masonry services Manhattan, Infinity Construction NYC, brickwork contractors NYC, stonework contractors Brooklyn, masonry restoration services, professional masonry contractors NYC, masonry repair contractors Manhattan",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Masonry Contractors in Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC offers expert masonry contractor services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Trusted for brickwork, stonework, and more.",
     url: "https://www.infinityconstructionnyc.com/masonry-contractors",
     images: [
       {
