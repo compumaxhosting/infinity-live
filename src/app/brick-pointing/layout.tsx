@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Brick Pointing & Waterproofing Contractors – Brooklyn, Queens, Bronx, NYC ",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Expert brick pointing and waterproofing services across Brooklyn, Queens, The Bronx & Manhattan. Trusted NYC masonry contractor for durable exterior solutions.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "Brick pointing Brooklyn, Waterproofing contractor NYC, Brick repair Queens, Exterior waterproofing Bronx, Tuckpointing Manhattan, Brick wall restoration NYC, Brick pointing and sealing, Foundation waterproofing NYC,Local masonry contractor Brooklyn,Repointing services New York City",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Brick Pointing & Waterproofing Contractors – Brooklyn, Queens, Bronx, NYC ",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Expert brick pointing and waterproofing services across Brooklyn, Queens, The Bronx & Manhattan. Trusted NYC masonry contractor for durable exterior solutions.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {

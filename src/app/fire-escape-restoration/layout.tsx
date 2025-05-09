@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Top-rated fire escape restoration services in Brooklyn, Queens, The Bronx, and Manhattan, NYC. Ensure safety and compliance with expert fire escape repairs and restoration.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "fire escape restoration Brooklyn, fire escape repair Queens, fire escape inspection Bronx, fire escape restoration Manhattan, fire escape repair contractors NYC, NYC fire escape services, fire escape compliance repair Brooklyn, fire escape safety restoration NYC, exterior fire escape restoration Queens, fire escape repairs NYC",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Top-rated fire escape restoration services in Brooklyn, Queens, The Bronx, and Manhattan, NYC. Ensure safety and compliance with expert fire escape repairs and restoration.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {

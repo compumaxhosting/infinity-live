@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-// Geist Sans
+// Geist Sans 
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {

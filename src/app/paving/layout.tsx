@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Paving Contractors near Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "paving services Brooklyn, paving contractors Queens, asphalt paving Bronx, paving company Manhattan, Infinity Construction NYC, parking lot paving Brooklyn, driveway paving NYC, commercial paving services, paving contractors NYC, road paving Manhattan",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Paving Contractors near Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {

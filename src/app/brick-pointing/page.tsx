@@ -12,7 +12,7 @@ const page = () => {
         style={{ fontFamily: "var(--font-forum)" }}
       >
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
-          Brick Pionting and Waterproofing
+          Brick Pointing and Waterproofing
         </h1>
         <div className="flex flex-col lg:flex-row items-center gap-6">
           <Image

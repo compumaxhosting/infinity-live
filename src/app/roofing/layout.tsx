@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Roofing Contractor in Brooklyn, NY | Expert Roofing Services in Queens, The Bronx & Manhattan",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Infinity Construction NYC is your trusted roofing contractor in Brooklyn, NY, offering expert roofing services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Roof repairs, replacements, and installations",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "Roofing contractor in Brooklyn, roofing services Brooklyn, roofing contractors Queens, roof repair The Bronx, roof installation Manhattan, Infinity Construction NYC, commercial roofing services NYC, residential roofing contractors Brooklyn, flat roof repair NYC, roof replacement Manhattan",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Roofing Contractor in Brooklyn, NY | Expert Roofing Services in Queens, The Bronx & Manhattan",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC is your trusted roofing contractor in Brooklyn, NY, offering expert roofing services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Roof repairs, replacements, and installations",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {

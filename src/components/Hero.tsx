@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 const HeroSection = () => {
@@ -90,8 +91,12 @@ const HeroSection = () => {
             className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            Best painting and masonry Contractor in Brooklyn, Manhattan, Queens,
-            and The Bronx, NY.
+            Best painting and masonry Contractor in{" "}
+            <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>,{" "}
+            <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>,{" "}
+            <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>, and{" "}
+            <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,
+            NY.
           </p>
 
           <p

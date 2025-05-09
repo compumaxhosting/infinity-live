@@ -4,15 +4,15 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title: "Brownstone Restoration in Brooklyn, Queens, Bronx & Manhattan NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Expert brownstone restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Restore your historic brownstone with precision and care.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "brownstone restoration Brooklyn, brownstone repair Queens, brownstone restoration Bronx, brownstone contractors Manhattan, historic brownstone restoration NYC, brownstone masonry Brooklyn, brownstone facade repair Manhattan, exterior brownstone restoration Queens, brick restoration The Bronx, brownstone building repair NYC, Brownstone Restoration near me ",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title: "Brownstone Restoration in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Expert brownstone restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Restore your historic brownstone with precision and care.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {

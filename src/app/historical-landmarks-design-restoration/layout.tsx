@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Historical Landmarks Design & Restoration by Infinity Construction NYC | Brooklyn, Queens, Bronx & Manhattan NYC",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Infinity Construction NYC offers expert historical landmarks design and restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Preserve your landmark’s charm.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "historical landmarks design Brooklyn, historical restoration NYC, landmark design restoration Queens, historical building design Bronx, Infinity Construction NYC, landmark restoration Manhattan, heritage building restoration NYC, historic landmark contractors Brooklyn, historical restoration services Queens, NYC building restoration contractors",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Historical Landmarks Design & Restoration by Infinity Construction NYC | Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC offers expert historical landmarks design and restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Preserve your landmark’s charm.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
