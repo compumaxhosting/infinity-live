@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Roof Restoration & Weatherproofing Near Me | Brooklyn, Queens, Bronx & Manhattan",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "roof restoration near me, weatherproofing services NYC, flat roof repair Brooklyn, roof waterproofing Queens, commercial roof restoration Bronx, roof leak repair Manhattan, NYC roofing contractors, residential roof weatherproofing, roof sealing NYC, emergency roof repair NYC",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Roof Restoration & Weatherproofing Near Me | Brooklyn, Queens, Bronx & Manhattan",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
     url: "https://www.infinityconstructionnyc.com/roof-restoration-and-weatherproofing",
     images: [
       {

@@ -4,16 +4,18 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Painting & Masonry Services Near Me in NYC | Brooklyn, Queens, Bronx & Manhattan",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Looking for expert painting and masonry services near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC offers top-quality interior/exterior painting and masonry solutions across New York City.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "painting and masonry near me, masonry contractors Brooklyn, interior painting Manhattan, exterior house painting Queens, NYC brick pointing, stucco repair NYC, local masonry experts NYC, brownstone painting NYC, commercial painting Bronx, masonry repair NYC",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Painting & Masonry Services Near Me in NYC | Brooklyn, Queens, Bronx & Manhattan",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-    url: "https://www.infinityconstructionnyc.com/",
+      "Looking for expert painting and masonry services near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC offers top-quality interior/exterior painting and masonry solutions across New York City.",
+    url: "https://www.infinityconstructionnyc.com/painting-and-masonry",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
