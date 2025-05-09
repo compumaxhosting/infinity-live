@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Construction Services Near Me in NYC | Roofing, Masonry, Waterproofing & More",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Infinity Construction NYC offers expert construction services near you in Brooklyn, Queens, The Bronx & Manhattan. Specializing in roofing, masonry, brownstone restoration, and waterproofing solutions across New York City.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "construction services NYC, roofing contractors Brooklyn, masonry work Queens, waterproofing services NYC, brownstone restoration Bronx, general contractor Manhattan, home renovation NYC, building repair services, exterior restoration NYC, local construction experts NYC",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Construction Services Near Me in NYC | Roofing, Masonry, Waterproofing & More",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC offers expert construction services near you in Brooklyn, Queens, The Bronx & Manhattan. Specializing in roofing, masonry, brownstone restoration, and waterproofing solutions across New York City.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
