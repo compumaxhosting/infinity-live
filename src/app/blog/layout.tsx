@@ -4,15 +4,17 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Construction & Renovation Tips Blog | NYC Experts in Roofing, Masonry & More",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "Explore expert insights, tips, and updates on roofing, masonry, waterproofing, and home improvement from Infinity Construction NYC. Serving Brooklyn, Queens, The Bronx & Manhattan, New York City.",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "NYC construction blog, roofing tips NYC, masonry advice Brooklyn, home improvement blog Queens, renovation tips NYC, weatherproofing blog Manhattan, expert roofing blog NYC, building restoration NYC blog, contractor tips NYC, Infinity Construction blog",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Construction & Renovation Tips Blog | NYC Experts in Roofing, Masonry & More",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Explore expert insights, tips, and updates on roofing, masonry, waterproofing, and home improvement from Infinity Construction NYC. Serving Brooklyn, Queens, The Bronx & Manhattan, New York City.",
     url: "https://www.infinityconstructionnyc.com/blog",
     images: [
       {
