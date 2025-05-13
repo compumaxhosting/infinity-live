@@ -1,104 +1,94 @@
-import { ThemeProvider } from "../components/extras/ThemeProvider"; // Ensure the provider is globally available
-import { Forum } from "next/font/google";
-import localFont from "next/font/local";
-import "./globals.css"; // Global styles
+import type { Metadata } from "next";
+import { Inter, Be_Vietnam_Pro } from "next/font/google";
+import "./globals.css";
 
-// Local Fonts (Better performance)
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
-// Google Fonts
-const forum = Forum({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-forum",
-  weight: "400",
+  weight: ["400", "500", "700"],
+  variable: "--font-inter",
 });
 
-// Metadata for SEO (Move to layout.tsx if needed)
-export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+const bevietnam = Be_Vietnam_Pro({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-bevietnam",
+});
+
+export const metadata: Metadata = {
+  title:
+    "Trusted Roofing, Waterproofing & Masonry Services in Brooklyn, New York",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
+    "SAS Roofing & Waterproofing offers expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens. Call for quality construction solutions today!",
   keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "Roofing Contractors in Queens, Roofing Contractors Brooklyn, Roofing Contractors Manhattan, Waterproofing Services in Brooklyn, Masonry Services in Brooklyn, Roof Repair Manhattan, Roof Installation Brooklyn, Commercial Roofing in NYC, Foundation Waterproofing Manhattan",
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title: "Expert Roofing, Waterproofing & Masonry in Brooklyn & NYC",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-    url: "https://www.infinityconstructionnyc.com/",
+      "SAS Roofing Waterproofing provides expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens.",
+    url: "https://www.sasroofingwaterproofing.com/",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Infinity Construction NYC",
+        url: "https://www.sasroofingwaterproofing.com/og-image.jpg",
+        width: 2500,
+        height: 1330,
+        alt: "SAS Roofing & Waterproofing",
       },
     ],
+    siteName: "SAS Roofing & Waterproofing",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Expert Roofing, Waterproofing & Masonry in Brooklyn & NYC",
+    description:
+      "SAS Roofing Waterproofing provides expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens.",
+    images: ["https://www.sasroofingwaterproofing.com/og-image.jpg"],
   },
 };
 
-// Schema Markup (Best moved to a separate component)
-const schemaData = {
+const jsonLdSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Infinity Construction NYC",
-  "url": "https://www.infinityconstructionnyc.com/",
-  "logo": "https://www.infinityconstructionnyc.com/logo.png",
-  "image": "https://www.infinityconstructionnyc.com/cover-image.jpg",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "SAS Roofing & Waterproofing",
+  url: "https://www.sasroofingwaterproofing.com/",
+  logo: "https://www.sasroofingwaterproofing.com/assets/images/resources/Logo-SAS.png",
+  image: "https://www.sasroofingwaterproofing.com/og-image.jpg",
+  description:
+    "Expert roofing, waterproofing, and masonry services in Brooklyn, Queens, and Manhattan.",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: "123 Main St",
+    addressLocality: "Brooklyn",
+    addressRegion: "NY",
+    postalCode: "11201",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
-
-  "sameAs": [
-    "https://www.facebook.com/infinityconstructionnyc",
-    "https://www.instagram.com/infinityconstructionnyc",
-    "https://www.linkedin.com/company/infinityconstructionnyc",
+  telephone: "+1-347-221-6549",
+  areaServed: ["Brooklyn", "Manhattan", "Queens"],
+  sameAs: [
+    "https://www.instagram.com/SASRoofingWaterproofing",
+    "https://www.facebook.com/SASRoofingWaterproofing",
+    "https://twitter.com/SASRoofing",
+    "https://www.linkedin.com/company/sasroofingwaterproofing",
   ],
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
-  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${forum.variable} antialiased`}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-        {/* Schema Markup for SEO */}
+    <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body>
+        {children}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}
         />
       </body>
     </html>

@@ -16,7 +16,7 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
           </h1>
 
           {/* Description Section */}
-          {/* <p
+          <p
             className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
@@ -29,8 +29,8 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
             structure. Our skilled team brings unmatched craftsmanship and
             attention to detail to every project, whether it’s restoring facades
             or revitalizing structural elements.
-          </p> */}
-          <p
+          </p>
+          {/* <p
             className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
@@ -40,9 +40,9 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
             brings unmatched craftsmanship and attention to detail to every
             project, whether it’s restoring facades or revitalizing
             structural elements.
-          </p>
+          </p> */}
 
-          {/* <p
+           <p
             className="mt-2 text-xl md:text-4xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
@@ -130,7 +130,7 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
             Construction NYC – the top choice for brownstone renovation and
             restoration in NYC – and bring your vision to life with unmatched
             quality and professionalism.
-          </p> */}
+          </p> 
         </div>
       </section>
       <section className="dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-16 flex justify-center border-b">
