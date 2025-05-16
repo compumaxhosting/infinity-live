@@ -11,6 +11,7 @@ import TestimonialsHeading from "../components/testimonialsSection/TestimonialsH
 import ServicesSection from "@/components/ContactSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import SocialLinks from "@/components/SocialLinks";
+import ContactBar from "@/components/ContactBar";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Footer />
       <ContactScroll />
       <LetsChat />
-    </>
+      <ContactBar />
+      </>
   );
 }
