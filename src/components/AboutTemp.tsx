@@ -135,10 +135,7 @@ const AboutTemp = () => {
       <section className="dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-16 flex justify-center border-b">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="h-72 aspect-square relative">
-            <Link
-              href="https://en.wikipedia.org/wiki/The_Bronx"
-              target="_blank"
-            >
+            <Link href="https://www.wikidata.org/wiki/Q18426" target="_blank">
               <Image
                 src="/map-1.jpg" // replace with your image path
                 alt="Image 1"
@@ -149,7 +146,7 @@ const AboutTemp = () => {
             </Link>
           </div>
           <div className="h-72 aspect-square relative">
-            <Link href="https://en.wikipedia.org/wiki/Queens" target="_blank">
+            <Link href="https://www.wikidata.org/wiki/Q18424" target="_blank">
               <Image
                 src="/map-2.jpg" // replace with your image path
                 alt="Image 2"
@@ -160,7 +157,7 @@ const AboutTemp = () => {
             </Link>
           </div>
           <div className="h-72 aspect-square relative">
-            <Link href="https://en.wikipedia.org/wiki/Brooklyn" target="_blank">
+            <Link href="https://www.wikidata.org/wiki/Q18419" target="_blank">
               <Image
                 src="/map-3.jpg" // replace with your image path
                 alt="Image 3"
@@ -171,10 +168,7 @@ const AboutTemp = () => {
             </Link>
           </div>
           <div className="h-72 aspect-square relative">
-            <Link
-              href="https://en.wikipedia.org/wiki/Manhattan"
-              target="_blank"
-            >
+            <Link href="https://www.wikidata.org/wiki/Q11299" target="_blank">
               <Image
                 src="/map-4.jpg" // replace with your image path
                 alt="Image 4"

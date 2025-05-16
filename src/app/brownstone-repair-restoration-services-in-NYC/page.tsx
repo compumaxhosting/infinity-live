@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -17,11 +18,38 @@ const page = () => {
         <section className="space-y-4">
           <p>
             At Infinity Construction NYC, we provide professional brownstone
-            repair and restoration services throughout Brooklyn, Manhattan,
-            Queens, and The Bronx. Whether your historic brownstone needs facade
-            restoration, lintel replacement, brownstone patching, or stoop
-            repair, our skilled team delivers high-quality craftsmanship using
-            durable materials and code-compliant practices.
+            repair and restoration services throughout{" "}
+            <a
+              href="https://www.wikidata.org/wiki/Q18419"
+              className="text-inherit no-underline"
+            >
+              Brooklyn
+            </a>
+            ,{" "}
+            <a
+              href="/https://www.wikidata.org/wiki/Q11299"
+              className="text-inherit no-underline"
+            >
+              Manhattan
+            </a>
+            ,{" "}
+            <a
+              href="https://www.wikidata.org/wiki/Q18424"
+              className="text-inherit no-underline"
+            >
+              Queens
+            </a>
+            , and{" "}
+            <a
+              href="https://www.wikidata.org/wiki/Q18426"
+              className="text-inherit no-underline"
+            >
+              The Bronx
+            </a>
+            . Whether your historic brownstone needs facade restoration, lintel
+            replacement, brownstone patching, or stoop repair, our skilled team
+            delivers high-quality craftsmanship using durable materials and
+            code-compliant practices.
           </p>
           <p>
             We specialize in revitalizing New York’s iconic brownstones by
@@ -32,19 +60,32 @@ const page = () => {
           </p>
         </section>
 
-        <section className="my-10">
-          <h3 className="text-2xl sm:text-3xl font-bold mb-4">
-            ✅ Why Choose Our NYC Brownstone Experts?
-          </h3>
-          <ul className="list-disc ml-6 space-y-2">
-            <li>Licensed & Insured Brownstone Contractors</li>
-            <li>Over 15 Years of Experience in NYC Boroughs</li>
-            <li>Use of High-Performance Mortars & Waterproof Coatings</li>
-            <li>Detailed Brownstone Pointing & Cornice Refurbishment</li>
-            <li>Landmark Preservation Commission (LPC) Compliant</li>
-            <li>OSHA-Certified Workmanship & Scaffolding Safety</li>
-            <li>Transparent Pricing & Free Site Inspections</li>
-          </ul>
+        <section className="my-10 flex flex-col lg:flex-row items-center gap-8">
+          {/* Text content */}
+          <div className="flex-1">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+              ✅ Why Choose Our NYC Brownstone Experts?
+            </h3>
+            <ul className="list-disc ml-6 space-y-2">
+              <li>Licensed & Insured Brownstone Contractors</li>
+              <li>Over 15 Years of Experience in NYC Boroughs</li>
+              <li>Use of High-Performance Mortars & Waterproof Coatings</li>
+              <li>Detailed Brownstone Pointing & Cornice Refurbishment</li>
+              <li>Landmark Preservation Commission (LPC) Compliant</li>
+              <li>OSHA-Certified Workmanship & Scaffolding Safety</li>
+              <li>Transparent Pricing & Free Site Inspections</li>
+            </ul>
+          </div>
+
+          {/* Image */}
+          <div className="relative w-96 h-64 lg:h-96 rounded-lg overflow-hidden shadow-md">
+            <Image
+              src="/project-img-4.jpg"
+              alt="NYC Brownstone Experts"
+              fill
+              className="object-cover"
+            />
+          </div>
         </section>
 
         <section className="my-10 space-y-6">
