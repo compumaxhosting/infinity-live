@@ -43,7 +43,8 @@ export const blogData = [
     author: "Imrul Hassan",
     date: "Feb 15",
     readTime: "3 min read",
-    title: "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
+    title:
+      "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
     contentPreview:
       "Two popular options stand out for keeping your home cool: mini-split systems and central air conditioning. Each has advantages and...",
     views: 13,
@@ -265,12 +266,26 @@ export const blogData = [
     author: "Imrul Hassan",
     date: "Jun 6, 2022",
     readTime: "3 min read",
-    title: 'Brownstone "The inside scoop"',
+    title: "Brownstone The inside scoop",
     contentPreview:
       "Who are the Brownstone Specialists? Why do we call ourselves the brownstone specialists? At Infinity Construction NYC INC. we offer...",
     views: 30,
     comments: 0,
     liked: true,
     image: "/blog/img-21.webp",
+  },
+  {
+    id: 22,
+    author: "Imrul Hassan",
+    date: "Jun 6, 2022",
+    readTime: "3 min read",
+    title:
+      "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
+    contentPreview:
+      "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may...",
+    views: 30,
+    comments: 0,
+    liked: true,
+    image: "/blog/img-8.webp",
   },
 ];
