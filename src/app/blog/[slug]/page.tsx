@@ -22,46 +22,50 @@ export default async function BlogPage({ params }: PageProps) {
       <BlogsOverview />
       <HeaderSpecial />
       <div className="pt-5 sm:pt-20 2xl:pt-32 border-b">
-        <section className="bg-white text-black max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8 py-8">
-            <div>
-              <Link
-                href="/blog"
-                className="text-sm text-gray-700 hover:underline"
-              >
-                ← Back to Blogs
-              </Link>
-              <h1 className="mt-4 text-2xl md:text-4xl font-bold">
-                {blog.title}
-              </h1>
-              <p className="mt-4 text-lg text-justify text-gray-700">
-                {blog.description}
-              </p>
-            </div>
+        <section className="bg-white text-black">
+          <section className="py-2">
+            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+              {/* Left: Text */}
+              <div>
+                <Link
+                  href="/blog"
+                  className="text-sm text-gray-700 hover:underline"
+                >
+                  ← Back to Blogs
+                </Link>
+                <h1 className="mt-4 text-2xl md:text-4xl font-bold">
+                  {blog.title}
+                </h1>
+                <div className="mt-4 text-lg text-justify text-gray-700">
+                  {blog.description}
+                </div>
+              </div>
 
-            <div className="w-full max-w-md mx-auto">
-              <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={800}
-                  height={600}
-                  className="w-full h-80 object-center object-cover"
-                  priority
-                />
+              {/* Right: Image */}
+              <div className="w-full max-w-md mx-auto">
+                <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    width={800}
+                    height={600}
+                    className="w-full h-80 object-center"
+                  />
+                </div>
               </div>
             </div>
-          </div>
+          </section>
 
-          <section className="pt-8 pb-16">
-            {blog.sections.map((section, idx) => (
-              <article key={idx} className="mb-10">
+          {/* Full-width Content Section */}
+          <section className="max-w-7xl mx-auto px-6 pt-8 pb-2">
+            {blog.sections.map((section, index) => (
+              <article key={index} className="mb-10">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-3">
                   {section.title}
                 </h2>
-                <p className="text-gray-700 leading-relaxed text-justify">
+                <div className="text-gray-700 leading-relaxed text-justify">
                   {section.paragraph}
-                </p>
+                </div>
               </article>
             ))}
           </section>

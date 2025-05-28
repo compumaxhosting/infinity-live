@@ -29,9 +29,6 @@ export default function Home() {
       <SocialLinks />
       <MapComponent />
       <Footer />
-      {/* <ContactScroll />
-      <LetsChat /> */}
-      {/* <ContactBar /> */}
       </>
   );
 }
