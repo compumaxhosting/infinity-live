@@ -1,4 +1,5 @@
 // BlogData.tsx
+import Link from "next/link";
 import React from "react";
 
 export type BlogSection = {
@@ -17,7 +18,7 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     slug: "brownstone-facade-repair-park-slope",
-    title: "Brownstone Facade Repair in Park Slope",
+    title: "Stunning Transformations: Brownstone Facade Repair in Park Slope",
     description: (
       <>
         There’s something special about a Brooklyn brownstone. These iconic
@@ -53,10 +54,10 @@ export const BlogsData: Blog[] = [
         title: "What Goes Into a Facade Restoration Project?",
         paragraph: (
           <>
-            A facade repair project starts with a thorough inspection. Top{" "}
-            brownstone restoration services in NYC involve expert assessments to
-            address deterioration and structural concerns. This ensures
-            custom-tailored repairs to each building’s needs.
+            A <Link href="/">facade repair project</Link> starts with a thorough
+            inspection. Top brownstone restoration services in NYC involve
+            expert assessments to address deterioration and structural concerns.
+            This ensures custom-tailored repairs to each building’s needs.
             <br />
             The repair work may involve repointing mortar joints or replacing
             damaged brownstone blocks. Skilled craftsmen, often the best{" "}
@@ -117,8 +118,10 @@ export const BlogsData: Blog[] = [
         title: "About Infinity Construction NYC",
         paragraph: (
           <>
-            Infinity Construction NYC is a premier restoration company
-            specializing in brownstone renovation , historic building
+            {" "}
+            <Link href="/">Infinity Construction NYC</Link> is a premier
+            restoration company specializing in brownstone renovation ,{" "}
+            <Link href="/brownstone-facade-restoration">historic building</Link>
             restoration , and facade repair across NYC.
             <br />
             With 20+ years of experience, they serve neighborhoods in Manhattan
@@ -162,8 +165,11 @@ export const BlogsData: Blog[] = [
             Professional brownstone restoration is crucial for maintaining the
             integrity of your home. By restoring damaged areas, you protect your
             property from further deterioration and enhance its aesthetic
-            appeal. Visit Infinity Construction’s Brownstone Restoration page to
-            learn more about how restoration can help preserve your building.
+            appeal. Visit{" "}
+            <Link href="/">
+              Infinity Construction’s Brownstone Restoration page
+            </Link>{" "}
+            to learn more about how restoration can help preserve your building.
           </>
         ),
       },
@@ -178,9 +184,12 @@ export const BlogsData: Blog[] = [
             experience the most damage.
             <br />
             For a professional assessment, consult a brownstone restoration
-            expert like Infinity Construction NYC. Their team can identify the
-            extent of the damage and recommend the best course of action to
-            restore your building.
+            expert like{" "}
+            <Link href="/brownstone-restoration">
+              Infinity Construction NYC{" "}
+            </Link>{" "}
+            . Their team can identify the extent of the damage and recommend the
+            best course of action to restore your building.
           </>
         ),
       },
@@ -2151,7 +2160,7 @@ export const BlogsData: Blog[] = [
         repair them effectively.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-11.webp",
     sections: [
       {
         title: "HOW LEADED WINDOWS ARE MADE :",
@@ -2333,7 +2342,7 @@ export const BlogsData: Blog[] = [
         ensuring safe and reliable construction.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-12.webp",
     sections: [
       {
         title: "Masonry Work Types :",
@@ -2705,7 +2714,7 @@ export const BlogsData: Blog[] = [
         <br />
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-13.webp",
     sections: [
       {
         title: "Masonry Work Types :",
@@ -3005,7 +3014,7 @@ export const BlogsData: Blog[] = [
         significance and the opportunity to live in a one-of-a-kind home.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-14.webp",
     sections: [
       {
         title: "Where Did Brownstones Come From? :",
@@ -3404,7 +3413,7 @@ export const BlogsData: Blog[] = [
         specifications and requirements.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-15.webp",
     sections: [
       {
         title:
@@ -3626,7 +3635,7 @@ export const BlogsData: Blog[] = [
         and sidewalk construction.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-16.webp",
     sections: [
       {
         title: "Block Building :",
@@ -4032,6 +4041,904 @@ export const BlogsData: Blog[] = [
             use depends on the specific requirements of the construction
             project. Skilled masons are required to ensure that structures are
             constructed correctly and are safe and sound.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "fire-escape-painting",
+    title: "Fire Escape Painting - Ensure Your Safety",
+    description: (
+      <>
+        Fire escapes are a crucial element in the safety of buildings,
+        especially in urban areas with high-rise buildings. They serve as
+        emergency exits and provide a means of escape for occupants in case of a
+        fire or other emergency situations. Fire escapes are an essential
+        component of building safety and must be maintained to ensure their
+        durability and effectiveness. <br />
+        In New York City, the NYC Building Code sets out requirements for the
+        inspection, maintenance, and painting of fire escapes. These regulations
+        aim to ensure that fire escapes are safe and functional at all times,
+        even in the event of an emergency.
+      </>
+    ),
+    image: "/blog/img-17.webp",
+    sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            One of the most crucial aspects of maintaining fire escapes is
+            painting. Proper painting of fire escapes not only enhances their
+            appearance but also helps to extend their lifespan and ensure their
+            functionality. Fire escapes are exposed to the elements and can
+            quickly rust and deteriorate if not appropriately painted. <br />
+            The NYC Building Code mandates that fire escapes be painted with a
+            fire-retardant paint that meets specific criteria. The paint used
+            must be resistant to weathering, fading, peeling, and chalking, and
+            must be able to withstand exposure to sunlight, heat, and cold. It
+            is also required to have a flame spread rating of not more than 25
+            and a smoke-developed rating of not more than 50. <br />
+            In addition to these requirements, fire escapes must be painted in a
+            particular manner. The entire fire escape, including all metal
+            parts, must be painted with at least two coats of paint. The first
+            coat must be a rust-inhibitive primer, and the second coat must be
+            the fire-retardant paint specified by the code. <br />
+            Proper painting of fire escapes helps to prevent rust and
+            deterioration, which can lead to structural problems that compromise
+            their safety. Painting also enhances visibility, making it easier to
+            identify and locate fire escapes in case of an emergency. <br />
+            To ensure the safety and functionality of fire escapes, building
+            owners and managers must conduct regular inspections and
+            maintenance. The NYC Building Code requires that fire escapes be
+            inspected at least once every five years by a licensed professional
+            engineer or architect. During the inspection, any necessary repairs
+            or maintenance must be identified and addressed promptly. <br />
+            It is crucial to note that fire escapes are not designed to be used
+            as storage areas. Building occupants and managers must avoid storing
+            items on the fire escape or obstructing the escape route. These
+            actions can lead to compromised safety and increase the risk of
+            injuries in the event of an emergency.
+          </>
+        ),
+      },
+      {
+        title:
+          "Proper painting of fire escapes is crucial for the safety and functionality of these emergency exit systems in buildings. The benefits of fire escape painting include:",
+        paragraph: (
+          <>
+            <strong>1. Enhanced Durability:</strong> <br />
+            Fire escapes are exposed to harsh weather conditions and
+            environmental factors that can cause rust, corrosion, and
+            deterioration. Fire retardant paint used in the painting of fire
+            escapes can help to prevent rust and corrosion, increasing the
+            lifespan of the fire escape. <br />
+            <br />
+            <strong>2. Improved Visibility:</strong> <br />
+            Proper painting of fire escapes enhances their visibility, making it
+            easier to locate them in the event of an emergency. In cases where
+            there is smoke or low visibility due to poor lighting, a painted
+            fire escape can be quickly identified, and occupants can use it as a
+            safe exit route. <br />
+            <br />
+            <strong>3. Compliance with Building Codes:</strong> <br />
+            Painting fire escapes in accordance with the NYC Building Code
+            ensures that building owners and managers are compliant with
+            regulations set forth by the authorities. Compliance with these
+            codes helps to minimize risks and ensures the safety of the
+            occupants. <br />
+            <br />
+            <strong>4. Better Aesthetics:</strong> <br />
+            Fire escape painting improves the appearance of the building&apos;s
+            exterior. Fire escapes that are well-maintained and painted in a
+            consistent and aesthetically pleasing manner can add to the
+            building&apos;s overall appeal and value. <br />
+            <br />
+            <strong>5. Improved Safety:</strong> <br />
+            Fire escapes that are painted with fire retardant paint are less
+            likely to catch fire and contribute to the spread of a fire. A
+            well-painted fire escape also reduces the risk of accidents and
+            injuries that could occur if it were to fail during an emergency
+            situation. <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title:
+          "Fire escape paintings are essential for maintaining the safety and functionality of these emergency exit systems in buildings. The importance of fire escape paintings includes:",
+        paragraph: (
+          <>
+            <strong>1. Life-Saving Potential:</strong> <br />
+            Fire escapes are critical exit points in the event of a fire or
+            other emergency. Proper painting of fire escapes increases their
+            visibility and helps occupants locate them quickly, which can
+            potentially save lives. <br />
+            <br />
+            <strong>2. Compliance with Building Codes:</strong> <br />
+            The NYC Building Code requires fire escapes to be painted with fire
+            retardant paint that meets specific criteria. Compliance with these
+            codes helps to ensure that building owners and managers are taking
+            necessary steps to minimize risks and protect occupants. <br />
+            <br />
+            <strong>3. Improved Durability:</strong> <br />
+            Fire escapes are exposed to harsh environmental conditions that can
+            cause rust and corrosion, leading to structural problems that
+            compromise their safety. Proper painting of fire escapes can help
+            prevent rust and extend the lifespan of these critical emergency
+            exit systems. <br />
+            <br />
+            <strong>4. Aesthetic Appeal:</strong> <br />
+            Fire escape paintings can enhance the building&apos;s exterior
+            appearance, adding to its overall aesthetic appeal and potentially
+            increasing its value. <br />
+            <br />
+            <strong>5. Reduced Liability:</strong> <br />
+            Neglecting to paint fire escapes properly can increase the risk of
+            accidents, injuries, and potential legal liabilities for building
+            owners and managers. By properly painting and maintaining fire
+            escapes, building owners and managers can minimize risks and avoid
+            costly lawsuits. <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Conclusion: ",
+        paragraph: (
+          <>
+            In conclusion, fire escapes are essential for the safety of
+            buildings and must be maintained to ensure their functionality.
+            Proper painting of fire escapes in accordance with the NYC Building
+            Code helps to prevent rust and deterioration and enhances
+            visibility. Building owners and managers must conduct regular
+            inspections and maintenance to ensure the safety of their occupants
+            in the event of a fire or other emergencies.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "diy-roof-repair",
+    title: "DIY Roof Repair: A Comprehensive Guide",
+    description: (
+      <>
+        A roof is one of the most important components of a house, protecting it
+        from the elements. However, even the best roofs can sustain damage over
+        time due to exposure to the elements or wear and tear. <br />
+        When this happens, it&apos;s important to address the issue quickly to
+        prevent further damage to your home. <br />
+        In this guide, we will provide you with everything you need to know
+        about roof repair, including common problems, signs of damage, how to
+        choose a contractor, DIY vs. professional repair, and more.
+      </>
+    ),
+    image: "/blog/img-18.webp",
+    sections: [
+      {
+        title: "Common Problems",
+        paragraph: (
+          <>
+            Several common problems can occur with a roof, including leaks,
+            shingle damage, holes or punctures, faulty flashing, and poor
+            ventilation. <br />
+            Leakages are one of the most common problems that can occur with a
+            roof. A leaky roof can cause significant damage to your home,
+            including water damage to the walls and ceilings. Leaks can be
+            caused by a variety of factors, including poor installation, aging,
+            or damage due to weather conditions. <br />
+            Shingle damage is another common issue that can occur with a roof.
+            Shingles can become damaged or dislodged due to weather conditions,
+            such as strong winds or heavy rain. Poor installation can also cause
+            shingles to become damaged or dislodged. <br />
+            Holes or punctures in the roof can be caused by falling branches or
+            other debris. Holes or punctures can lead to leaks and other forms
+            of water damage if they are not addressed promptly. <br />
+            Faulty flashing is another common problem that can occur with a
+            roof. Flashing is the metal or plastic material that is used to seal
+            the edges of the roof. If it is damaged or improperly installed, it
+            can cause leaks. <br />
+            Poor ventilation can cause moisture to build up in the attic, which
+            can lead to mold growth and damage to the roof structure. Poor
+            ventilation can also cause ice dams to form during the winter, which
+            can lead to leaks and other forms of water damage.
+          </>
+        ),
+      },
+      {
+        title: "Signs of Damage",
+        paragraph: (
+          <>
+            It&apos;s important to keep an eye out for signs of damage to your
+            roof, so you can address issues before they become more serious.
+            Some common signs of roof damage include water stains on the ceiling
+            or walls, cracked, curled, or missing shingles, debris, such as
+            shingle granules or leaves, in the gutters, sagging or uneven
+            roofline, and peeling paint on the underside of roof overhangs.{" "}
+            <br />
+            Water stains on the ceiling or walls are a clear indication of a
+            leak in the roof. If you notice water stains, it&apos;s important to
+            address the issue promptly to prevent further damage to your home.{" "}
+            <br />
+            Cracked, curled, or missing shingles are also signs of damage to the
+            roof. Shingles can become damaged or dislodged due to weather
+            conditions or poor installation. If you notice cracked, curled, or
+            missing shingles, it&apos;s important to have the issue addressed
+            promptly to prevent further damage to your roof. <br />
+            Debris, such as shingle granules or leaves, in the gutters is
+            another sign of damage to the roof. Debris can clog the gutters and
+            prevent proper drainage, which can lead to water damage to the roof
+            and other parts of the home. <br />A sagging or uneven roofline is a
+            sign of structural damage to the roof. This can be caused by a
+            variety of factors, including water damage, termite damage, or poor
+            installation. If you notice a sagging or uneven roofline, it&apos;s
+            important to have the issue addressed promptly to prevent further
+            damage to your home. <br />
+            Peeling paint on the underside of roof overhangs is another sign of
+            water damage to the roof. If you notice peeling paint, it&apos;s
+            important to address the issue promptly to prevent further damage to
+            your home.
+          </>
+        ),
+      },
+      {
+        title: "Choosing a Contractor :",
+        paragraph: (
+          <>
+            When it comes to roof repair, choosing the right contractor is
+            crucial to ensure that the job is done correctly and to your
+            satisfaction. Here are some tips for choosing a contractor for your
+            roof repair:
+            <strong>1. Do your research:</strong> <br />
+            Start by doing some research on local roofing contractors. Look for
+            contractors who have experience working on roofs similar to yours
+            and who have a good reputation in the community. You can check
+            reviews and ratings on websites like Yelp, Angie&apos;s List, or
+            Google. <br />
+            <br />
+            <strong>2. Check for proper licensing and insurance:</strong> <br />
+            Make sure the contractor you choose is licensed to work in your
+            state and has proper insurance. This will protect you in case of any
+            accidents or damage that may occur during the repair process. <br />
+            <br />
+            <strong>3. Ask for references:</strong> <br />
+            A reputable contractor should be able to provide you with references
+            from previous clients. Contact these references and ask about their
+            experience with the contractor, the quality of the work done, and if
+            they would recommend the contractor. <br />
+            <br />
+            <strong>4. Get multiple quotes:</strong> <br />
+            It&apos;s always a good idea to get multiple quotes from different
+            contractors. This will give you an idea of the average cost of the
+            repair and will help you compare different contractors. <br />
+            <br />
+            <strong>5. Look for warranties:</strong> <br />
+            Make sure the contractor offers a warranty on their work. This will
+            give you peace of mind knowing that any issues that arise after the
+            repair will be addressed by the contractor. <br />
+            <br />
+            <strong>6. DIY vs. Professional Repair:</strong> <br />
+            When it comes to roof repair, you may be tempted to tackle the job
+            yourself to save money. However, DIY roof repair can be dangerous
+            and can lead to further damage if not done correctly. Here are some
+            pros and cons of DIY vs. professional roof repair: <br />
+            <br />
+            <strong>DIY:</strong> <br />
+            <strong>a: Pros:</strong>
+            <ul>
+              <li>Can save money on labor costs</li>
+              <li>May be able to complete the repair more quickly</li>
+            </ul>
+            <strong>b: Cons:</strong>
+            <ul>
+              <li>Can be dangerous</li>
+              <li>May not have the proper tools or materials</li>
+              <li>
+                May not have the expertise to complete the repair correctly
+              </li>
+            </ul>
+            <strong>Professional:</strong> <br />
+            <strong>a: Pros:</strong>
+            <ul>
+              <li>Has the proper tools and materials</li>
+              <li>Has the expertise to complete the repair correctly</li>
+              <li>Offers a warranty on their work</li>
+            </ul>
+            <strong>b: Cons:</strong>
+            <ul>
+              <li>Can be more expensive than DIY</li>
+              <li>May take longer to complete the repair</li>
+            </ul>
+            <br /> <br />
+            Ultimately, it&apos;s up to you to decide whether to tackle the roof
+            repair yourself or to hire a professional. However, it&apos;s
+            important to consider the potential risks and benefits of each
+            option before making a decision.
+          </>
+        ),
+      },
+      {
+        title: "Preventative Maintenance: ",
+        paragraph: (
+          <>
+            One way to avoid the need for roof repair is to practice
+            preventative maintenance. Here are some tips for maintaining your
+            roof and preventing damage: <br /> <br />
+            <strong>1. Clean gutters regularly:</strong> <br />
+            Clogged gutters can cause water to back up under the shingles,
+            leading to water damage. <br />
+            <br />
+            <strong>2. Trim trees:</strong> <br />
+            Overhanging branches can damage the roof during storms and can
+            provide a pathway for rodents to access your home. <br />
+            <br />
+            <strong>3. Check for damage after storms:</strong> <br />
+            After a storm, check your roof for any signs of damage, such as
+            missing or damaged shingles. <br />
+            <br />
+            <strong>4. Inspect your roof annually:</strong> <br />
+            Schedule an annual inspection with a professional roofer to check
+            for any potential issues and to address them before they become more
+            serious. <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Conclusion: ",
+        paragraph: (
+          <>
+            Roof repair is an important aspect of maintaining your home&apos;s
+            structural integrity and protecting it from the elements. Common
+            problems include leaks, shingle damage, holes or punctures, faulty
+            flashing, and poor ventilation.
+            <br />
+            Signs of damage include water stains on the ceiling or walls,
+            cracked, curled, or missing shingles, debris in the gutters, sagging
+            or uneven roofline, and peeling paint on the underside of roof
+            overhangs. <br />
+            When choosing a contractor for your roof repair, make sure to do
+            your research, check for proper licensing and insurance, ask for
+            references, get multiple quotes, and look for warranties. Finally,
+            practicing preventative maintenance can help you avoid the need for
+            roof repair and protect your home for years to come. <br />
+            <br />
+            <strong>
+              Transform your roof with expert craftsmanship. Call us today for
+              top-tier roofing solutions in New York{" "}
+            </strong>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "brick-pointing",
+    title: "Brick Pointing - An Extensive Guide",
+    description: (
+      <>
+        Brick pointing, also known as repointing, is a process of replacing or
+        repairing the mortar joints between bricks or stone masonry. The mortar
+        between the bricks is what holds them together and gives them their
+        strength. Over time, the mortar can become damaged due to weather
+        conditions, age, and other factors. When the mortar becomes damaged, it
+        can weaken the structure of the brickwork and cause further damage, such
+        as leaks or cracks. Brick pointing involves removing the damaged mortar
+        and replacing it with fresh, new mortar. The process starts with
+        preparing the area by cleaning the surface of the bricks and removing
+        any loose or damaged mortar. Then, the mortar is mixed according to the
+        specifications needed for the particular brickwork.
+      </>
+    ),
+    image: "/blog/img-19.webp",
+    sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            The mixed mortar is applied to the joint using a trowel and smoothed
+            out to ensure that it is evenly distributed. Finally, the finished
+            joint is shaped using a jointer or striking tool to match the
+            surrounding brickwork. The finished joint should be smooth and even.
+            One of the main benefits of brick pointing is that it helps to
+            protect the brickwork from weather damage, water penetration, and
+            erosion. The mortar between the bricks is the first line of defense
+            against these elements. <br />
+            If the mortar is damaged or worn, it can allow water to penetrate
+            the brickwork and cause structural damage. This can lead to leaks,
+            dampness, and mold growth. Repointing the brickwork can help to
+            prevent these problems and keep your home dry and free from mold.
+            Another benefit of brick pointing is that it can improve the
+            appearance of the brickwork. Over time, the mortar between the
+            bricks can become discolored or damaged. This can detract from the
+            appearance of the brickwork and make it look old and worn. Brick
+            pointing can remove the damaged or discolored mortar and replace it
+            with fresh, clean mortar. <br />
+            This can give your home or building a fresh, new look and enhance
+            its curb appeal. In addition to protecting your home from weather
+            damage and improving its appearance, brick pointing can also help to
+            improve its energy efficiency. Damaged mortar can allow air to leak
+            in and out of your home, which can reduce its energy efficiency and
+            increase your energy bills. Repointing the brickwork can help to
+            seal any gaps and prevent air leaks. <br />
+            This can improve the energy efficiency of your home and save you
+            money on your energy bills. Finally, brick pointing can also help to
+            maintain the safety of your home or building. Damaged mortar can
+            weaken the structure of the brickwork and make it more susceptible
+            to collapse or other structural problems. This can be especially
+            dangerous in high-traffic areas or in buildings that are
+            structurally compromised. Brick pointing can help to ensure that
+            your home or building is safe and secure.
+          </>
+        ),
+      },
+      {
+        title: "Process of Brick Pointing:",
+        paragraph: (
+          <>
+            Brick pointing is a labor-intensive process that requires skill and
+            expertise. Here is a step-by-step guide to the brick pointing
+            process: <br /> <br />
+            <strong>1. Preparation:</strong> <br />
+            The first step in brick pointing is to prepare the area by cleaning
+            the surface of the bricks and removing any loose or damaged mortar.
+            This can be done with a wire brush or power tool. <br />
+            <br />
+            <strong>2. Mixing Mortar:</strong> <br />
+            The next step is to mix the mortar. Mortar is made up of a mixture
+            of sand, cement, and water. The ratio of these ingredients can vary
+            depending on the type of brickwork and the desired strength of the
+            mortar. Once the mortar is mixed, it is left to rest for a short
+            time. <br />
+            <br />
+            <strong>3. Applying Mortar:</strong> <br />
+            After the mortar is mixed, it is applied to the joint using a
+            trowel. The mortar is carefully placed into the joint and smoothed
+            out to ensure it is evenly distributed. <br />
+            <br />
+            <strong>4. Finishing:</strong> <br />
+            The final step is to finish the mortar joint. This is done by using
+            a jointer or striking tool to shape the mortar to match the
+            surrounding brickwork. The finished joint should be smooth and even.{" "}
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "The Importance of Brick Pointing:",
+        paragraph: (
+          <>
+            Brick pointing is an important process that helps to maintain the
+            structural integrity of your home or building. Here are some reasons
+            why brick pointing is so important: <br />
+            <br />
+            <strong>1. Protection:</strong> <br />
+            Brick pointing helps to protect the brickwork from weather damage,
+            water penetration, and erosion. This is especially important in
+            areas with harsh weather conditions, as damaged mortar can lead to
+            leaks and structural problems. <br />
+            <br />
+            <strong>2. Appearance:</strong> <br />
+            Brick pointing can improve the appearance of the brickwork by
+            removing any discolored or damaged mortar and replacing it with
+            fresh, clean mortar. <br />
+            <br />
+            <strong>3. Energy Efficiency:</strong> <br />
+            Damaged mortar can lead to air leakage, which can reduce the energy
+            efficiency of your home. By repairing the mortar joints, you can
+            improve the energy efficiency of your home and reduce your energy
+            bills. <br />
+            <br />
+            <strong>4. Safety:</strong> <br />
+            Damaged mortar can also pose a safety risk, especially if the
+            brickwork is in a high-traffic area or if the building is
+            structurally compromised. Brick pointing can help to ensure that
+            your home or building is safe and secure.
+            <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Tips for Maintaining Brickwork:",
+        paragraph: (
+          <>
+            While brick pointing is an important process for maintaining the
+            brickwork of your home, there are also some other steps you can take
+            to keep your brickwork in good condition. Here are some tips for
+            maintaining your brickwork: <br />
+            <br />
+            <strong>1. Clean Regularly:</strong> <br />
+            Regular cleaning of your brickwork can help to prevent dirt, mold,
+            and mildew from building up. You can clean your brickwork with a
+            power washer or a mild detergent solution. <br />
+            <br />
+            <strong>2. Inspect Regularly:</strong> <br />
+            Regular inspections of your brickwork can help to identify any
+            damage or issues early on. This can prevent larger problems from
+            developing and can save you money in the long run. <br />
+            <br />
+            <strong>3. Repair Damage Promptly:</strong> <br />
+            If you notice any damage or issues with your brickwork, it is
+            important to address them promptly. This can prevent further damage
+            from occurring and can help to extend the life of your brickwork.{" "}
+            <br />
+            <br />
+            <strong>4. Hire a Professional:</strong> <br />
+            While some minor brick repairs can be done by yourself, a
+            professional has the tools, experience, and knowledge to ensure the
+            job is done right and safely. <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Conclusion:",
+        paragraph: (
+          <>
+            In conclusion, brick pointing is an important process for
+            maintaining the structural integrity and appearance of your home or
+            building. It can protect your home from weather damage, improve its
+            energy efficiency, enhance its curb appeal, and maintain its safety.
+            If you notice any damage or issues with your brickwork, it is
+            important to address them promptly. Hiring a professional brick
+            pointing contractor is recommended, as they have the expertise and
+            tools needed to properly repair your brickwork.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "how-to-restore-brownstone-facade",
+    title: "How to Restore Brownstone Facade",
+    description: (
+      <>
+        Brownstone facades are iconic features of many historic buildings in
+        cities across the United States. <br /> However, over time, these
+        facades can become worn, damaged, or otherwise deteriorated, leading to
+        a decline in the overall appearance and value of the building. <br />{" "}
+        Brownstone facade restoration is a process that involves repairing and
+        restoring these iconic facades to their original beauty and structural
+        integrity. In this guide, we will explore the steps involved in
+        brownstone facade restoration.
+      </>
+    ),
+    image: "/blog/img-20.webp",
+    sections: [
+      {
+        title: "Step 1: Inspection",
+        paragraph: (
+          <>
+            The first step in brownstone facade restoration is inspection. A
+            thorough inspection of the brownstone facade is essential to
+            identify any areas of damage or deterioration. <br /> This can
+            include cracks, chips, erosion, and other signs of wear and tear.
+            The inspection process may also involve testing the strength and
+            stability of the stone to determine if any reinforcement is needed.
+          </>
+        ),
+      },
+      {
+        title: "Step 2: Cleaning",
+        paragraph: (
+          <>
+            After the inspection, the next step is cleaning. Brownstone facades
+            can accumulate a lot of dirt, grime, and other debris over time,
+            which can make it difficult to see the true condition of the stone.{" "}
+            <br />
+            Cleaning the facade can involve a combination of water, mild
+            detergents, and specialized cleaning solutions. <br /> It is
+            important to use the right cleaning products and techniques to avoid
+            causing further damage to the stone.
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Step 3: Repairs :",
+        paragraph: (
+          <>
+            Once the brownstone facade has been cleaned, the restoration process
+            can begin in earnest. This typically involves making repairs to any
+            areas of damage or deterioration. <br />
+            This can include patching cracks and chips, replacing missing pieces
+            of stone, and reinforcing weakened areas. Depending on the extent of
+            the damage, this may require a skilled mason to perform the work.
+          </>
+        ),
+      },
+      {
+        title: "Step 4: Restoration :",
+        paragraph: (
+          <>
+            After the repairs have been made, the brownstone facade can be
+            restored to its original appearance. This can involve sanding and
+            polishing the stone to remove any blemishes or imperfections,
+            applying protective coatings to prevent future damage, and
+            repainting any decorative elements. <br />
+            The goal is to make the brownstone facade look as close to its
+            original appearance as possible while ensuring that it is
+            structurally sound and resistant to future damage.
+          </>
+        ),
+      },
+      {
+        title: "Benefits of Brownstone Facade Restoration:",
+        paragraph: (
+          <>
+            In addition to restoring the beauty and structural integrity of the
+            brownstone facade, there are many other benefits to restoration.{" "}
+            <br /> For example, a restored facade can help to increase the value
+            of the property, as well as improve the overall aesthetic of the
+            neighborhood. It can also help to preserve the historic character of
+            the building, which is important for maintaining a sense of
+            continuity and connection to the past.
+          </>
+        ),
+      },
+      {
+        title: "Hiring a Professional for Brownstone Facade Restoration: ",
+        paragraph: (
+          <>
+            It is important to note that brownstone facade restoration is a
+            specialized field that requires expertise and experience. <br />{" "}
+            Attempting to restore a brownstone facade without the proper
+            knowledge and skills can result in further damage to the stone and
+            decrease the value of the property. Look for a qualified brownstone
+            restoration contractor with experience to ensure the job is done
+            correctly.
+          </>
+        ),
+      },
+      {
+        title: "Conclusion: ",
+        paragraph: (
+          <>
+            Brownstone facade restoration is a complex process that involves
+            several steps, including inspection, cleaning, repairs, and
+            restoration. It is a specialized field that requires expertise and
+            experience to ensure that the facade is restored to its original
+            beauty and structural integrity. <br /> The benefits of restoration
+            are numerous, including increasing the value of the property,
+            improving the aesthetic of the neighborhood, and preserving the
+            historic character of the building. <br /> By following these steps
+            and hiring a professional, brownstone facade restoration can be a
+            successful and rewarding project.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "brownstone-the-inside-scoop",
+    title: 'Brownstone "The inside scoop"',
+    description: (
+      <>
+        <h2>Who are the Brownstone Specialists?</h2>
+        <h2>Why do we call ourselves the brownstone specialists?</h2>
+        At Infinity Construction NYC INC. we offer top-quality restoration of
+        Brownstone facades and stoops while adhering to New York City Landmarks
+        Preservation Commission guidelines. We aim for brownstone preservation
+        and we are proud to say that we are one of the best Brownstone
+        restoration Contractors in NYC. <br /> Brownstone has two basic
+        characteristics that determine its appearance and performance in
+        buildings: composition and structure. Many companies fail to determine
+        the quality of brownstone before starting a project. At Infinity
+        Construction NYC INC this is our main priority.
+      </>
+    ),
+    image: "/blog/img-21.webp",
+    sections: [
+      {
+        title: "THE PHASES :",
+        paragraph: <></>,
+      },
+      {
+        title: "Inspection :",
+        paragraph: (
+          <>
+            <strong>Importance of the Inspection Phase</strong> <br />
+            <br />
+            At Infinity Construction NYC INC. the most essential phase in
+            starting any project is the inspection phase. Determining what
+            caused deterioration? The pre-consultant team explores current
+            brownstone conditions to provide our customers with the finest
+            brownstone repairs. The pre-consultant team explores the level of
+            deterioration and possible causes. Initial investigation involves
+            exploring the color, pattern, surface tooling and previous repairs
+            made. <br />
+            <br />
+            <strong>Possible Causes of Deterioration: </strong> (Mortar joints
+            between the stones deteriorate, water finds its way into the
+            interior bedding planes of the stones).
+            <br />
+            <strong>Exfoliation : </strong> The condition looks similar to the
+            picture below. <br />
+            <strong>Contour scaling :</strong> The condition looks similar to
+            the picture below. <br />
+            <strong>Disaggregation :</strong> The condition looks similar to the
+            picture below.
+          </>
+        ),
+      },
+      {
+        title: "WORKING PHASE : ",
+        paragraph: (
+          <>
+            During this phase, the Infinity Construction NYC INC team gets to
+            work! Essentialities of the working phase depend on proper
+            decision-making. This begins with using the correct materials. Many
+            companies in an attempt to save money will use products cheaper in
+            price. <br />
+            The next step involves creating the proper repair mixture, which is
+            the foundation of the project. Incorrect mixtures will result in
+            unsatisfied outcomes. <br /> At Infinity Construction NYC INC our
+            masons have a special composite patching system that has been used
+            for years. When working on a brownstone project color matching is an
+            important part of creating the right composite. <br /> Our team
+            conducts a thorough examination of the existing stone to make the
+            perfect match. Through surface finishing our experts ensure that the
+            surface mineral grains resemble that of the natural sandstone.
+            Experience, familiarity, knowledge, and education make our masons
+            the Brownstone experts.
+          </>
+        ),
+      },
+      {
+        title: "PROTECTION AND MAINTENANCE:  ",
+        paragraph: (
+          <>
+            When a project is completed the Infinity Construction NYC INC team
+            does not disappear. We schedule routine visits and ensure that
+            proper maintenance is taking place. We educate our clients on proper
+            maintenance techniques. A proper maintenance program can prevent
+            deterioration or catch it at its root and cause necessary repairs.
+            Maintenance is costless but once damages occur they can rip out your
+            pocket ($$$$$$$$$$). That&apos;s why at Infinity Construction NYC
+            INC we encourage our clients to protect their property offering tips
+            and education!
+          </>
+        ),
+      },
+      {
+        title: "Inside Scope Tips : ",
+        paragraph: (
+          <>
+            <strong>1. Start at the top:</strong> <br />
+            Maintain your roof to prevent roof leaks from damaging the façade.{" "}
+            <br />
+            <br />
+            <strong>2. Keep the gutters clean:</strong> <br />
+            Clogged gutters can lead to water overflow that damages the walls
+            and foundation. <br />
+            <br />
+            <strong>3. Seal open joints:</strong> <br />
+            Caulking around windows, doors, and other openings prevents moisture
+            infiltration. <br />
+            <br />
+            <strong>4. Control vegetation:</strong> <br />
+            Vegetation such as ivy traps moisture against stone walls and
+            prevents thorough drying. <br />
+            <br />
+            <strong>5. Maintain flashing:</strong> <br />
+            Metal flashings protect architectural elements like ledges and
+            lintels from water absorption. <br />
+            <br />
+            <strong>6. Repoint as necessary:</strong> <br />
+            Crumbling, loose, or missing mortar joints should be repointed by a
+            qualified mason. <br />
+            <br />
+            <strong>7. Use a professional mason for cleaning:</strong> <br />
+            Begin with a gentle water wash or non-ionic detergent. Avoid harsh
+            chemicals. <br />
+            <br />
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    title:
+      "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
+    description: (
+      <>
+        Brooklyn’s iconic brownstones are more than just beautiful
+        buildings—they’re a piece of New York history. As timeless as they may
+        appear, these architectural gems demand expert care and renovation to
+        maintain their elegance and structural integrity. When it comes to
+        trusted brownstone renovation and repair contractors in Brooklyn,
+        Infinity Construction NYC stands at the forefront.
+      </>
+    ),
+    image: "/blog/img-3.webp",
+    sections: [
+      {
+        title: "What Sets Infinity Construction NYC Apart?",
+        paragraph: (
+          <>
+            <strong>1. Decades of Experience in Brownstone Restoration:</strong>{" "}
+            <br />
+            Infinity Construction NYC brings years of hands-on experience
+            working with Brooklyn’s historic brownstones. From meticulous façade
+            restoration to structural repairs, the team’s technical know-how is
+            evident in every project they complete. <br />
+            <br />
+            <strong>
+              2. Expert Craftsmanship Meets Modern Techniques:
+            </strong>{" "}
+            <br />
+            Brownstone repair isn’t just about aesthetics—it’s about durability
+            and long-term preservation. Infinity Construction uses a blend of
+            traditional craftsmanship and modern technology to deliver seamless
+            results. Whether it&apos;s brownstone patching, stucco restoration,
+            or cornice repair, they deliver work that stands the test of time.{" "}
+            <br />
+            <br />
+            <strong>3. Credibility Through Results:</strong> <br />
+            According to a 2023 report by the NYC Landmarks Preservation
+            Commission, preserving original building materials in landmark
+            properties increases property value by up to 18%. Infinity
+            Construction NYC supports this claim with a long list of
+            successfully completed brownstone restorations that not only
+            beautify neighborhoods but also increase home values. <br />
+            <br />
+            <strong>4. Client Testimonials and Recognition:</strong> <br />
+            Homeowners across Brooklyn consistently praise Infinity Construction
+            NYC for their transparency, punctuality, and precision. As one
+            satisfied client put it: <br />
+            <em>
+              “Infinity didn’t just renovate our brownstone—they brought it back
+              to life.”
+            </em>{" "}
+            <br />
+            <br />
+            <strong>5. Licensed, Insured, and Trusted:</strong> <br />
+            Trust is essential in the renovation business. Infinity Construction
+            is fully licensed and insured, which not only ensures compliance
+            with NYC building codes but also offers homeowners peace of mind.{" "}
+            <br />
+            <br />
+          </>
+        ),
+      },
+      {
+        title: "Why Brownstone Renovation Matters : ",
+        paragraph: (
+          <>
+            Brownstones, many of which were built in the late 1800s, require
+            specialized renovation techniques. Improper repairs can lead to
+            structural issues, water damage, or even violation of landmark
+            regulations. With Infinity Construction NYC, you can be confident in
+            hiring a team that understands the technical demands and historical
+            nuances of brownstone renovation. <br />
+          </>
+        ),
+      },
+      {
+        title: "A Transparent and Client-Centered Approach :",
+        paragraph: (
+          <>
+            Infinity Construction emphasizes clear communication, upfront
+            estimates, and detailed timelines. They use industry-specific terms
+            such as lintel replacement, cornice restoration, and façade
+            repointing to demonstrate their authority in the field, while still
+            keeping the language accessible to clients unfamiliar with
+            construction jargon.
+          </>
+        ),
+      },
+      {
+        title: "Ready to Restore Your Brownstone? :",
+        paragraph: (
+          <>
+            Infinity Construction NYC doesn’t just restore buildings—they
+            preserve legacies. Contact them today to schedule a consultation and
+            take the first step in bringing your brownstone back to its former
+            glory. <br />
           </>
         ),
       },

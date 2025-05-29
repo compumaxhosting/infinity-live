@@ -13,10 +13,6 @@ export function BlogsOverview() {
 
   const plans = [
     {
-      name: "Why Choose Professional Brownstone Restoration Services",
-      path: "/blog/why-choose-professional-brownstone-restoration-services",
-    },
-    {
       name: "Brownstone Facade Repair Park Slope",
       path: "/blog/brownstone-facade-repair-park-slope",
     },
@@ -25,12 +21,12 @@ export function BlogsOverview() {
       path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
     },
     {
-      name: "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
-      path: "/blog/mini-split-vs-central-air",
-    },
-    {
       name: "Why Choose Professional Brownstone Restoration Services",
       path: "/blog/why-choose-professional-brownstone-restoration-services",
+    },
+    {
+      name: "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
+      path: "/blog/mini-split-vs-central-air",
     },
     {
       name: "How to Hand Scrape a Floor",
@@ -51,6 +47,59 @@ export function BlogsOverview() {
     {
       name: "Composite Masonry: A Comprehensive Overview",
       path: "/blog/composite-masonry-comprehensive-overview",
+    },
+
+    {
+      name: "Stone Masonry- Exclusive Guide",
+      path: "/blog/stone-masonry-exclusive-guide",
+    },
+    {
+      name: "How to Maintain and Repair Leaded Windows",
+      path: "/blog/how-to-maintain-and-repair-leaded-windows",
+    },
+    {
+      name: "Masonry Work: Types, Advantages, Challenges and Safety Tips",
+      path: "/blog/masonry-work",
+    },
+    {
+      name: "How to Repair a Brownstone Stoop - Expert&apos;s Guide!",
+      path: "/blog/how-to-repair-a-brownstone-stoop",
+    },
+    {
+      name: "What are Brownstone Houses and Why are They Popular in NYC",
+      path: "/blog/what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
+    },
+    {
+      name: "Concrete Mix Design Calculation - Must Following Steps",
+      path: "/blog/concrete-mix-design-calculation",
+    },
+    {
+      name: "Masonry Work - An Exclusive Guide!",
+      path: "/blog/masonry-work-exclusive-guide",
+    },
+    {
+      name: "Fire Escape Painting - Ensure Your Safety",
+      path: "/blog/fire-escape-painting",
+    },
+    {
+      name: "DIY Roof Repair: A Comprehensive Guide",
+      path: "/blog/diy-roof-repair",
+    },
+    {
+      name: "Brick Pointing - An Extensive Guide",
+      path: "/blog/brick-pointing",
+    },
+    {
+      name: "How to Restore Brownstone Facade",
+      path: "/blog/how-to-restore-brownstone-facade",
+    },
+    {
+      name: 'Brownstone "The inside scoop"',
+      path: "/blog/brownstone-the-inside-scoop",
+    },
+    {
+      name: "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
   ];
 
