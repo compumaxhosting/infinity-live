@@ -2,9 +2,9 @@ import { Resend } from "resend";
 import { NextRequest } from "next/server";
 
 export async function POST(req: NextRequest) {
-  const resend = new Resend(process.env.RESEND_API_KEY); // ← move this line inside
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const { name, email, message } = await req.json();
+  const { name, email, phone, message } = await req.json(); // ✅ include phone
 
   if (!process.env.EMAIL_TO) {
     throw new Error("EMAIL_TO environment variable is not set");
@@ -14,10 +14,11 @@ export async function POST(req: NextRequest) {
     email.trim()
   );
 
-  const emailContent = ` 
+  const emailContent = `
     <h2>New Contact Form Submission</h2>
     <p><strong>Name:</strong> ${name}</p>
     <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Phone:</strong> ${phone}</p> <!-- ✅ added phone -->
     <p><strong>Message:</strong><br />${message}</p>
   `;
 
