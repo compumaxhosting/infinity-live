@@ -44,6 +44,9 @@ export const metadata: Metadata = {
       "SAS Roofing Waterproofing provides expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens.",
     images: ["https://www.sasroofingwaterproofing.com/og-image.jpg"],
   },
+  other: {
+    "google-site-verification": "r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc",
+  },
 };
 
 const jsonLdSchema = {
@@ -80,12 +83,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body>
         {children}
+        {/* Structured Data (JSON-LD) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdSchema) }}

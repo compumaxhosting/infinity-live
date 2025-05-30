@@ -35,7 +35,7 @@ const page = () => {
   return (
     <div>
       <HeaderSpecial />
-      <div className="pt-8 sm:pt-28 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
+      <div className="pt-8 sm:pt-28 xl:pt-32 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
         <h2 className="text-center text-2xl lg:text-4xl font-bold mb-10 text-gray-800 dark:text-white">
           Frequently Asked Questions
         </h2>
