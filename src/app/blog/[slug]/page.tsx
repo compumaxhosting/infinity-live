@@ -41,7 +41,6 @@ export default async function BlogPage({ params }: PageProps) {
                 </div>
               </div>
 
-              {/* Right: Image */}
               <div className="w-full max-w-md mx-auto">
                 <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
                   <Image

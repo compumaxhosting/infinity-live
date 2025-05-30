@@ -1,4 +1,4 @@
-// BlogData.tsx
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -36,18 +36,43 @@ export const BlogsData: Blog[] = [
     image: "/blog/img-1.webp",
     sections: [
       {
-        title: "Understanding the Need for Restoration",
+        title: "",
         paragraph: (
-          <>
-            A brownstone facade isn’t just a decorative feature; it’s also an
-            essential part of the building’s structure. Brownstone, a type of
-            sandstone, is naturally soft and porous, which makes it vulnerable
-            to erosion over time. New York’s harsh winters and humid summers can
-            lead to cracked surfaces, crumbling details, and even water damage.{" "}
-            Quality brownstone restoration in NYC doesn’t just improve
-            aesthetics; it’s crucial for safety, stability, and preserving the
-            building’s historical value.
-          </>
+          <section className="py-2">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
+              <div>
+                <h2 className="text-xl md:text-2xl font-bold mb-4 text-gray-900">
+                  Understanding the Need for Restoration
+                </h2>
+                <p className="text-lg text-justify text-gray-700">
+                  A brownstone facade isn’t just a decorative feature; it’s also
+                  an essential part of the building’s structure. Brownstone, a
+                  type of sandstone, is naturally soft and porous, which makes
+                  it vulnerable to erosion over time. New York’s harsh winters
+                  and humid summers can lead to cracked surfaces, crumbling
+                  details, and even water damage.
+                  <br />
+                  <br />
+                  Quality brownstone restoration in NYC doesn’t just improve
+                  aesthetics; it’s crucial for safety, stability, and preserving
+                  the building’s historical value.
+                </p>
+              </div>
+
+              {/* Right: Image */}
+              <div className="w-full max-w-md mx-auto">
+                <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
+                  <Image
+                    src="/blog/img-1b.webp"
+                    alt="Brownstone Restoration"
+                    width={700}
+                    height={500}
+                    className="w-full h-80 object-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
         ),
       },
       {
@@ -166,7 +191,7 @@ export const BlogsData: Blog[] = [
             integrity of your home. By restoring damaged areas, you protect your
             property from further deterioration and enhance its aesthetic
             appeal. Visit{" "}
-            <Link href="/">
+            <Link href="/brownstone-restoration">
               Infinity Construction’s Brownstone Restoration page
             </Link>{" "}
             to learn more about how restoration can help preserve your building.
@@ -3000,22 +3025,29 @@ export const BlogsData: Blog[] = [
         narrow structures, and front stoops leading up to the main entrance.
         They typically have three to four floors, with a basement, and are
         usually around 20 to 25 feet wide. <br />
-        These houses became popular in New York City during the late 1800s and
-        early 1900s because they were seen as a symbol of wealth and status. The
-        brownstone material was abundant and relatively inexpensive, making it
-        an accessible option for builders. The tall and narrow structure of
-        these houses also allowed for more living space in densely populated
-        urban areas. <br />
-        Today, brownstone houses remain popular in New York City due to their
-        historic charm, unique architecture, and prime locations in some of the
-        city&apos;s most desirable neighborhoods. <br />
-        Many brownstone houses have been renovated and restored to their
-        original glory, attracting buyers who appreciate their historic
-        significance and the opportunity to live in a one-of-a-kind home.
       </>
     ),
     image: "/blog/img-14.webp",
     sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            These houses became popular in New York City during the late 1800s
+            and early 1900s because they were seen as a symbol of wealth and
+            status. The brownstone material was abundant and relatively
+            inexpensive, making it an accessible option for builders. The tall
+            and narrow structure of these houses also allowed for more living
+            space in densely populated urban areas. <br />
+            Today, brownstone houses remain popular in New York City due to
+            their historic charm, unique architecture, and prime locations in
+            some of the city&apos;s most desirable neighborhoods. <br />
+            Many brownstone houses have been renovated and restored to their
+            original glory, attracting buyers who appreciate their historic
+            significance and the opportunity to live in a one-of-a-kind home.
+          </>
+        ),
+      },
       {
         title: "Where Did Brownstones Come From? :",
         paragraph: (
@@ -3397,24 +3429,32 @@ export const BlogsData: Blog[] = [
         determining their relative proportions to achieve the desired concrete
         properties. The mix design process typically involves a series of
         laboratory tests that evaluate the properties of the materials being
-        used, such as the cement, aggregates, and water. These tests are then
-        used to calculate the optimal proportions of each material required to
-        achieve the desired concrete properties. <br />
-        Concrete mix design is important for ensuring the quality and
-        performance of concrete in construction projects. The proper mix design
-        will ensure that the concrete is strong enough to withstand the
-        anticipated loads and conditions, and that it will be durable and
-        long-lasting. <br />
-        The mix design process can be complex and requires a thorough
-        understanding of the properties of the materials being used, as well as
-        the desired properties of the final concrete. It is typically carried
-        out by experienced engineers or materials experts who have the knowledge
-        and skills necessary to design a mix that meets the project
-        specifications and requirements.
+        used, such as the cement, aggregates, and water.
       </>
     ),
     image: "/blog/img-15.webp",
     sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            These tests are then used to calculate the optimal proportions of
+            each material required to achieve the desired concrete properties.{" "}
+            <br />
+            Concrete mix design is important for ensuring the quality and
+            performance of concrete in construction projects. The proper mix
+            design will ensure that the concrete is strong enough to withstand
+            the anticipated loads and conditions, and that it will be durable
+            and long-lasting. <br />
+            The mix design process can be complex and requires a thorough
+            understanding of the properties of the materials being used, as well
+            as the desired properties of the final concrete. It is typically
+            carried out by experienced engineers or materials experts who have
+            the knowledge and skills necessary to design a mix that meets the
+            project specifications and requirements.
+          </>
+        ),
+      },
       {
         title:
           "Here are the steps for designing M20, M25, and M30 grade concrete :",
@@ -4944,4 +4984,4 @@ export const BlogsData: Blog[] = [
       },
     ],
   },
-];
+]; 

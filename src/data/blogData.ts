@@ -2,6 +2,7 @@ export const blogData = [
   {
     id: 1,
     author: "Imrul Hassan",
+    slug: "brownstone-facade-repair-park-slope",
     date: "Nov 8",
     readTime: "3 min read",
     title: "Stunning Transformations: Brownstone Facade Repair in Park Slope",
@@ -15,6 +16,7 @@ export const blogData = [
   {
     id: 2,
     author: "Imrul Hassan",
+    slug: "how-to-bring-back-the-original-splendor-of-your-brownstone",
     date: "Oct 14",
     readTime: "3 min read",
     title: "How to Bring Back the Original Splendor of Your Brownstone",
@@ -28,6 +30,7 @@ export const blogData = [
   {
     id: 3,
     author: "Imrul Hassan",
+    slug: "why-choose-professional-brownstone-restoration-services",
     date: "Oct 3",
     readTime: "3 min read",
     title: "Why Choose Professional Brownstone Restoration Services?",
@@ -41,6 +44,7 @@ export const blogData = [
   {
     id: 4,
     author: "Imrul Hassan",
+    slug: "mini-split-vs-central-air",
     date: "Feb 15",
     readTime: "3 min read",
     title:
@@ -55,6 +59,7 @@ export const blogData = [
   {
     id: 5,
     author: "Imrul Hassan",
+    slug: "how-to-hand-scrape-a-floor",
     date: "Sep 30, 2023",
     readTime: "6 min read",
     title: "How to Hand Scrape a Floor",
@@ -68,6 +73,7 @@ export const blogData = [
   {
     id: 6,
     author: "Imrul Hassan",
+    slug: "how-to-repair-crumbling-bricks",
     date: "Sep 30, 2023",
     readTime: "4 min read",
     title: "How to Repair Crumbling Bricks",
@@ -81,6 +87,7 @@ export const blogData = [
   {
     id: 7,
     author: "Imrul Hassan",
+    slug: "veneer-masonry-construction-process",
     date: "Sep 20, 2023",
     readTime: "8 min read",
     title: "Veneer Masonry Construction Process - Expert's Guide",
@@ -94,6 +101,7 @@ export const blogData = [
   {
     id: 8,
     author: "Imrul Hassan",
+    slug: "waterproof-caulking-and-restoration",
     date: "Sep 19, 2023",
     readTime: "4 min read",
     title:
@@ -108,6 +116,7 @@ export const blogData = [
   {
     id: 9,
     author: "Imrul Hassan",
+    slug: "composite-masonry-comprehensive-overview",
     date: "Sep 18, 2023",
     readTime: "6 min read",
     title: "Composite Masonry: A Comprehensive Overview",
@@ -121,6 +130,7 @@ export const blogData = [
   {
     id: 10,
     author: "Imrul Hassan",
+    slug: "stone-masonry-exclusive-guide",
     date: "Aug 2, 2023",
     readTime: "6 min read",
     title: "Stone Masonry- Exclusive Guide",
@@ -134,6 +144,7 @@ export const blogData = [
   {
     id: 11,
     author: "Imrul Hassan",
+    slug: "how-to-maintain-and-repair-leaded-windows",
     date: "Aug 2, 2023",
     readTime: "6 min read",
     title: "How to Maintain and Repair Leaded Windows",
@@ -147,6 +158,7 @@ export const blogData = [
   {
     id: 12,
     author: "Imrul Hassan",
+    slug: "masonry-work",
     date: "Aug 2, 2023",
     readTime: "8 min read",
     title: "Masonry Work: Types, Advantages, Challenges and Safety Tips",
@@ -160,6 +172,7 @@ export const blogData = [
   {
     id: 13,
     author: "Imrul Hassan",
+    slug: "how-to-repair-a-brownstone-stoop",
     date: "May 13, 2023",
     readTime: "6 min read",
     title: "How to Repair a Brownstone Stoop - Expert's Guide!",
@@ -173,6 +186,7 @@ export const blogData = [
   {
     id: 14,
     author: "Imrul Hassan",
+    slug: "what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
     date: "Apr 29, 2023",
     readTime: "8 min read",
     title: "What are Brownstone Houses and Why are They Popular in NYC",
@@ -186,6 +200,7 @@ export const blogData = [
   {
     id: 15,
     author: "Imrul Hassan",
+    slug: "concrete-mix-design-calculation",
     date: "Apr 8, 2023",
     readTime: "8 min read",
     title: "Concrete Mix Design Calculation - Must Following Steps",
@@ -199,6 +214,7 @@ export const blogData = [
   {
     id: 16,
     author: "Imrul Hassan",
+    slug: "masonry-work-exclusive-guide",
     date: "Mar 29, 2023",
     readTime: "9 min read",
     title: "Masonry Work - An Exclusive Guide!",
@@ -212,6 +228,7 @@ export const blogData = [
   {
     id: 17,
     author: "Imrul Hassan",
+    slug: "fire-escape-painting",
     date: "Mar 25, 2023",
     readTime: "4 min read",
     title: "Fire Escape Painting - Ensure Your Safety",
@@ -225,6 +242,7 @@ export const blogData = [
   {
     id: 18,
     author: "Imrul Hassan",
+    slug: "diy-roof-repair",
     date: "Mar 12, 2023",
     readTime: "5 min read",
     title: "DIY Roof Repair: A Comprehensive Guide",
@@ -238,6 +256,7 @@ export const blogData = [
   {
     id: 19,
     author: "Imrul Hassan",
+    slug: "brick-pointing",
     date: "Mar 5, 2023",
     readTime: "4 min read",
     title: "Brick Pointing - An Extensive Guide",
@@ -251,6 +270,7 @@ export const blogData = [
   {
     id: 20,
     author: "Imrul Hassan",
+    slug: "how-to-restore-brownstone-facade",
     date: "Mar 1, 2023",
     readTime: "3 min read",
     title: "How to Restore Brownstone Facade",
@@ -264,6 +284,7 @@ export const blogData = [
   {
     id: 21,
     author: "Imrul Hassan",
+    slug: "brownstone-the-inside-scoop",
     date: "Jun 6, 2022",
     readTime: "3 min read",
     title: "Brownstone The inside scoop",
@@ -277,6 +298,7 @@ export const blogData = [
   {
     id: 22,
     author: "Imrul Hassan",
+    slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     date: "Jun 6, 2022",
     readTime: "3 min read",
     title:
