@@ -9,8 +9,6 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div className="pt-5 sm:pt-14 2xl:pt-24">
-        {/* <BrownstoneRenovationBrooklynNyBrownstoneRepairContractors />{" "} */}
-        {/* <HeroSection /> */}
       </div>
       <AboutTemp />
       <Footer />

@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link"; // 👈 Import Link
+import Link from "next/link";
 import React from "react";
 import { blogData } from "@/data/blogData";
 
-const BlogSection = () => {
+const  BlogSection = () => {
   return (
     <div className="max-w-7xl mx-auto py-8 px-4">
       <h2
@@ -39,7 +39,7 @@ const BlogSection = () => {
                   By <span className="font-medium">{blog.author}</span> •{" "}
                   {blog.date} • {blog.readTime}
                 </p>
-                <p className="mt-4 text-gray-600 dark:text-gray-300">
+                <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
                   {blog.contentPreview}
                 </p>
                 <div className="mt-4 flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">

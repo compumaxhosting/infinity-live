@@ -308,6 +308,6 @@ export const blogData = [
     views: 30,
     comments: 0,
     liked: true,
-    image: "/blog/img-8.webp",
+    image: "/blog/img-3.webp",
   },
 ];

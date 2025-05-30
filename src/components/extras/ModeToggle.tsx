@@ -26,7 +26,8 @@ export function ModeToggle() {
   };
 
   return (
-    <div className="fixed-container">
+    //<div className="fixed-container">
+    <div className="hidden">
       <label className={`switch ${isDarkMode ? "darkShadow" : ""}`}>
         <span className="sun">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

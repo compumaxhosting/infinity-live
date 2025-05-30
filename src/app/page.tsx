@@ -20,8 +20,6 @@ export default function Home() {
       <CarouselSection />
       <HeroSection />
       <OurServices />
-      {/* <Gallery />
-      <ProjectSection /> */}
       <TestimonialsHeading />
       <TestimonialSection />
       <OurAffiliatesSection />

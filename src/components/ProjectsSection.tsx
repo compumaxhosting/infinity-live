@@ -36,7 +36,6 @@ const ProjectsSection = () => {
 
   return (
     <div className="container mx-auto px-4 lg:px-8 py-14 pb-0 md:pb-14 border-b">
-      {/* Section Heading */}
       <div className="text-center mb-10">
         <h2
           className="text-3xl sm:text-5xl font-bold text-tertiary dark:text-white"
@@ -70,7 +69,7 @@ const ProjectsSection = () => {
                   >
                     {projects.title}
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 my-2 mb-4">
+                  <p className="text-gray-700 dark:text-gray-300 my-2 mb-4 text-justify">
                     {projects.description.slice(0, 180)}...{" "}
                     {/* Truncate the description */}
                   </p>
@@ -93,7 +92,7 @@ const ProjectsSection = () => {
           {/* Left Navigation Button */}
           <button
             onClick={scrollPrev}
-             aria-label="Scroll left"
+            aria-label="Scroll left"
             className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronLeft className="w-5 h-5 md:w-7 md:h-7" />
@@ -102,7 +101,7 @@ const ProjectsSection = () => {
           {/* Right Navigation Button */}
           <button
             onClick={scrollNext}
-             aria-label="Scroll right"
+            aria-label="Scroll right"
             className="text-white p-2 rounded-full transition-all duration-300 bg-stone-950 hover:bg-stone-950/40 backdrop-blur-sm z-10"
           >
             <ChevronRight className="w-5 h-5 md:w-7 md:h-7" />

@@ -9,13 +9,13 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div
-        className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 border-b text-lg lg:text-xl"
+        className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 pb-6 md:pb-16 border-b text-lg lg:text-xl max-w-7xl"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
           Painting and Masonry
         </h1>
-        <p className="text-lg">
+        <p className="text-lg text-justify">
           At Infinity Construction NYC, we offer Masonry and Painting services
           designed to provide smooth, durable, and flawless finishes for your
           walls and ceilings. Whether it’s for new construction, renovations, or
@@ -23,7 +23,7 @@ const page = () => {
           your needs. Our professional painting services ensure a polished and
           vibrant finish that transforms your interiors.
         </p>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8 text-justify">
           <div className="w-full lg:w-8/12 p-4 space-y-6">
             <h1 className="text-4xl my-4">Our Painting and Masonry Services</h1>
             <ul>
