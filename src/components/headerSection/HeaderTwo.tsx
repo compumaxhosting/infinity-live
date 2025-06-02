@@ -9,7 +9,7 @@ import SidebarMenu from "./SidebarMenu";
 import Navbar from "./Navbar";
 
 const HeaderTwo: React.FC = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(false); 
 
   // Update scrolled state based on scroll position
   const updateScrolledState = () => {
