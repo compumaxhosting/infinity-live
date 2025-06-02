@@ -1,8 +1,5 @@
 import { ReactNode } from "react";
 
-// Geist Sans
-
-// Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
     "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",

@@ -15,64 +15,64 @@ const bevietnam = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Trusted Roofing, Waterproofing & Masonry Services in Brooklyn, New York",
+  title: "Infinity Construction NYC | Roofing, Masonry & Restoration Experts",
   description:
-    "SAS Roofing & Waterproofing offers expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens. Call for quality construction solutions today!",
+    "Trusted roofing, masonry, stucco, and brownstone restoration experts in NYC. Serving Brooklyn, Queens, Bronx, and Manhattan with expert craftsmanship and reliable service.",
   keywords:
-    "Roofing Contractors in Queens, Roofing Contractors Brooklyn, Roofing Contractors Manhattan, Waterproofing Services in Brooklyn, Masonry Services in Brooklyn, Roof Repair Manhattan, Roof Installation Brooklyn, Commercial Roofing in NYC, Foundation Waterproofing Manhattan",
+    "roofing contractors NYC, masonry services Brooklyn, brownstone restoration NYC, NYC construction experts, stucco repair Queens, sidewalk replacement Bronx, home remodeling NYC, Infinity Construction NYC, chimney repair Brooklyn, facade renovation NYC",
   openGraph: {
-    title: "Expert Roofing, Waterproofing & Masonry in Brooklyn & NYC",
+    title: "Infinity Construction NYC | Roofing, Masonry & Restoration Experts",
     description:
-      "SAS Roofing Waterproofing provides expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens.",
-    url: "https://www.sasroofingwaterproofing.com/",
+      "Trusted roofing, masonry, stucco, and brownstone restoration experts in NYC. Serving Brooklyn, Queens, Bronx, and Manhattan with expert craftsmanship and reliable service.",
+    url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
-        url: "https://www.sasroofingwaterproofing.com/og-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/og-image.jpg",
         width: 2500,
         height: 1330,
-        alt: "SAS Roofing & Waterproofing",
+        alt: "Infinity Construction NYC",
       },
     ],
-    siteName: "SAS Roofing & Waterproofing",
+    siteName: "Infinity Construction NYC",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Expert Roofing, Waterproofing & Masonry in Brooklyn & NYC",
+    title: "Infinity Construction NYC | Roofing, Masonry & Restoration Experts",
     description:
-      "SAS Roofing Waterproofing provides expert roofing, waterproofing, and masonry services in Brooklyn, Manhattan, and Queens.",
-    images: ["https://www.sasroofingwaterproofing.com/og-image.jpg"],
+      "Trusted roofing, masonry, stucco, and brownstone restoration experts in NYC. Serving Brooklyn, Queens, Bronx, and Manhattan with expert craftsmanship and reliable service.",
+    images: ["https://www.infinityconstructionnyc.com/og-image.jpg"],
   },
   other: {
-    "google-site-verification": "r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc",
+    "google-site-verification": "your-google-site-verification-code",
   },
 };
 
+// Structured data for SEO (update details below with your actual business info)
 const jsonLdSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "SAS Roofing & Waterproofing",
-  url: "https://www.sasroofingwaterproofing.com/",
-  logo: "https://www.sasroofingwaterproofing.com/assets/images/resources/Logo-SAS.png",
-  image: "https://www.sasroofingwaterproofing.com/og-image.jpg",
+  name: "Infinity Construction NYC",
+  url: "https://www.infinityconstructionnyc.com/",
+  logo: "https://www.infinityconstructionnyc.com/assets/images/logo.png",
+  image: "https://www.infinityconstructionnyc.com/og-image.jpg",
   description:
-    "Expert roofing, waterproofing, and masonry services in Brooklyn, Queens, and Manhattan.",
+    "Expert roofing, masonry, stucco, sidewalk, and brownstone restoration services in Brooklyn, Queens, Bronx, and Manhattan.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "123 Main St",
+    streetAddress: "456 Infinity Ave", // ← Replace with actual business address
     addressLocality: "Brooklyn",
     addressRegion: "NY",
     postalCode: "11201",
     addressCountry: "US",
   },
-  telephone: "+1-347-221-6549",
-  areaServed: ["Brooklyn", "Manhattan", "Queens"],
+  telephone: "+1-347-555-1234", // ← Replace with your business phone
+  areaServed: ["Brooklyn", "Queens", "Bronx", "Manhattan"],
   sameAs: [
-    "https://www.instagram.com/SASRoofingWaterproofing",
-    "https://www.facebook.com/SASRoofingWaterproofing",
-    "https://twitter.com/SASRoofing",
-    "https://www.linkedin.com/company/sasroofingwaterproofing",
+    "https://www.instagram.com/infinityconstructionnyc",
+    "https://www.facebook.com/infinityconstructionnyc",
+    "https://twitter.com/infinitybuildsnyc",
+    "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
 };
 
