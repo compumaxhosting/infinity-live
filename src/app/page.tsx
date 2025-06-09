@@ -27,6 +27,6 @@ export default function Home() {
       <SocialLinks />
       <MapComponent />
       <Footer />
-      </>
+    </>
   );
 }

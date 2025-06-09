@@ -1,6 +1,7 @@
 import { Phone, Mail, MapPin } from "lucide-react"; // Correct import statement
 import { specialityData } from "@/data/ourServicesData";
 import Link from "next/link";
+import { FaExternalLinkAlt, FaFacebook, FaInstagram, FaLinkedin, FaYelp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,40 +44,40 @@ const Footer = () => {
             </div>
             <div className="mt-6 flex space-x-6">
               {/* Instagram Icon */}
-              {/* <Link
+              <Link
                 href="https://www.instagram.com/infinity_construction_nyc/"
                 className="text-white hover:text-pink-500"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit our Instagram"
               >
-                <Instagram className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link> */}
+                <FaInstagram className="h-8 w-8 bg-white text-black rounded-full p-2" />
+              </Link>
 
               {/* Facebook Icon */}
-              {/* <Link
+              <Link
                 href="https://www.facebook.com/InfinityConstructionNYC"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit our Facebook"
               >
-                <Facebook className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link> */}
+                <FaFacebook className="h-8 w-8 bg-white text-black rounded-full p-2" />
+              </Link>
 
               {/* LinkedIn Icon */}
-              {/* <Link
+              <Link
                 href="https://www.linkedin.com/in/imrul-hassan-403724268"
                 className="text-white hover:text-blue-500"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit our LinkedIn"
               >
-                <Linkedin className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link> */}
+                <FaLinkedin className="h-8 w-8 bg-white text-black rounded-full p-2" />
+              </Link>
 
               {/* Yelp Icon */}
-              {/* <Link
+              <Link
                 href="https://www.yelp.com/biz/infinity-construction-nyc-brooklyn"
                 className="text-white hover:text-blue-500"
                 target="_blank"
@@ -84,10 +85,10 @@ const Footer = () => {
                 aria-label="Visit our Yelp"
               >
                 <FaYelp className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link> */}
+              </Link>
 
               {/* Brownstoner Icon */}
-              {/* <Link
+              <Link
                 href="https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/"
                 className="text-white hover:text-blue-500"
                 target="_blank"
@@ -95,7 +96,7 @@ const Footer = () => {
                 aria-label="Visit our Brownstoner page"
               >
                 <FaExternalLinkAlt className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link> */}
+              </Link>
             </div>
           </div>
 

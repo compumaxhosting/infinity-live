@@ -99,7 +99,7 @@ function SidebarMenu() {
               )}
             </div>
 
-            {/* <Link
+            <Link
               href="/projects"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
             >
@@ -110,19 +110,19 @@ function SidebarMenu() {
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
             >
               Gallery
-            </Link> */}
+            </Link>
             <Link
               href="/faq"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
             >
               Faq&apos;s
             </Link>
-            {/* <Link
+            <Link
               href="/blog"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
             >
               Blog
-            </Link> */}
+            </Link>
             <Link
               href="/contact"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"

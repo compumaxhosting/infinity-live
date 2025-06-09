@@ -57,13 +57,13 @@ const Navbar = () => {
             </ul>
           </li>
 
-          {/* <li className="text-xl hover:text-orange-500">
+          <li className="text-xl hover:text-orange-500">
             <Link href="/projects">PROJECTS</Link>
-          </li> */}
+          </li>
 
-          {/* <li className="text-xl hover:text-orange-500">
+          <li className="text-xl hover:text-orange-500">
             <Link href="/gallery">GALLERY</Link>
-          </li> */}
+          </li>
 
           {/* More Dropdown */}
           <li className="relative z-10 group">
@@ -74,9 +74,9 @@ const Navbar = () => {
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/faq">FAQ</Link>
               </li>
-              {/* <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
+              <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/blog">BLOG</Link>
-              </li> */}
+              </li>
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/contact">CONTACT</Link>
               </li>

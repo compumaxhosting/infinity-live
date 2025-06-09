@@ -17,12 +17,12 @@ const HeroSection = () => {
           </h1>
 
           {/* Subheading */}
-          {/* <h2
+          <h2
             className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             BROWNSTONE RESTORATION SPECIALIST
-          </h2> */}
+          </h2>
 
           {/* Tagline */}
           <h3
@@ -33,7 +33,7 @@ const HeroSection = () => {
           </h3>
 
           {/* Description Section */}
-          {/* <p
+          <p
             className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
@@ -75,7 +75,7 @@ const HeroSection = () => {
             Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea, Riverside,
             Harlem, The Bronx, and Queens, we are proud to be one of the leading
             brownstone restoration specialists in NYC.
-          </p> */}
+          </p>
           <p
             className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}

@@ -1,4 +1,4 @@
-export const specialityData = [/* 
+export const specialityData = [
     {
       id: 1,
       imageUrl: "/img-3.jpeg",
@@ -58,7 +58,7 @@ export const specialityData = [/*
       description:
         "We provide professional installation and repair of concrete, stone, and brick paving for sidewalks, driveways, and patios. Our services ensure proper leveling, drainage, and ADA compliance, in adherence with NYC Department of Transportation (DOT) and NYC Department of Buildings (DOB) guidelines.",
     },
-     */
+    
     {
       id: 8,
       imageUrl: "/services-img-3.jpeg",
