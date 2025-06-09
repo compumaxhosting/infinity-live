@@ -16,7 +16,7 @@ const CarouselContent: React.FC = () => {
         </h2>
         {/* Display title */}
         <h1
-          className="mt-4 sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold"
+          className="mt-4 sm:text-5xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           Infinity Construction NYC

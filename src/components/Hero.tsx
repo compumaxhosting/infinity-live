@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1
-            className="text-5xl sm:text-7xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6"
+            className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC
