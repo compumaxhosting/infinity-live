@@ -28,30 +28,28 @@ const CarouselSection: React.FC = () => {
   useEffect(() => {
     if (!emblaApi) return;
     emblaApi.on("select", onSelect);
-    onSelect(); // Initial state
+    onSelect();
   }, [emblaApi, onSelect]);
 
-  // Autoplay functionality
   useEffect(() => {
     if (!emblaApi) return;
 
     const autoplay = setInterval(() => {
-      emblaApi.scrollNext(); // Scroll to the next slide
-    }, 5000); // 3 seconds interval
+      emblaApi.scrollNext();
+    }, 5000);
 
-    return () => clearInterval(autoplay); // Cleanup interval on component unmount
+    return () => clearInterval(autoplay);
   }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;
-    setTotalSlides(emblaApi.scrollSnapList().length); // Get the total number of slides
+    setTotalSlides(emblaApi.scrollSnapList().length);
     emblaApi.on("select", onSelect);
-    onSelect(); // Initial state
+    onSelect();
   }, [emblaApi, onSelect]);
 
   return (
     <div className="relative w-full overflow-hidden">
-      {/* Carousel Viewport */}
       <div className="embla" ref={emblaRef}>
         <div className="flex">
           {slides.map((slide, index) => (
@@ -64,12 +62,8 @@ const CarouselSection: React.FC = () => {
                 className="relative flex-[0_0_100%] w-full h-screen overflow-hidden"
                 initial={{ scale: 1.6 }}
                 animate={{ scale: selectedIndex === index ? 1.03 : 1.6 }}
-                transition={{
-                  duration: 2.5,
-                  ease: "backInOut",
-                }}
+                transition={{ duration: 2.5, ease: "backInOut" }}
               >
-                {/* Slide Image */}
                 <Image
                   src={slide.image}
                   alt={`Slide ${slide.id}`}
@@ -78,10 +72,7 @@ const CarouselSection: React.FC = () => {
                   priority
                   className="object-cover"
                 />
-                {/* Transparent Overlay */}
                 <div className="absolute bg-black/40 sm:bg-black/30 z-10 h-full w-full"></div>
-                {/* Slide Description */}
-                {/* Slide Description (Centered using CarouselContent) */}
               </motion.div>
               <CarouselContent />
             </div>
@@ -89,7 +80,6 @@ const CarouselSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Counter */}
       <div
         className="absolute bottom-5 left-5 text-white text-sm sm:text-2xl backdrop-blur-md px-4 sm:px-6 py-2 rounded-full"
         style={{ fontFamily: "var(--font-forum)" }}
@@ -97,7 +87,6 @@ const CarouselSection: React.FC = () => {
         {`${selectedIndex + 1} / ${totalSlides}`}
       </div>
 
-      {/* Previous Button */}
       <button
         onClick={scrollPrev}
         disabled={!canScrollPrev}
@@ -111,7 +100,6 @@ const CarouselSection: React.FC = () => {
         />
       </button>
 
-      {/* Next Button */}
       <button
         onClick={scrollNext}
         disabled={!canScrollNext}
