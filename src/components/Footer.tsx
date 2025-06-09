@@ -136,9 +136,9 @@ const Footer = () => {
               </li>
             </ul>
 
-            <button className="mt-6 bg-primary text-white py-3 px-6 hover:bg-stone-900 transition-all duration-300">
+            {/* <button className="mt-6 bg-primary text-white py-3 px-6 hover:bg-stone-900 transition-all duration-300">
               Review us
-            </button>
+            </button> */}
           </div>
 
           {/* Column 3: Services */}
