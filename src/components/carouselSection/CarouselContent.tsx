@@ -16,7 +16,7 @@ const CarouselContent: React.FC = () => {
         </h2>
         {/* Display title */}
         <h1
-          className="mt-4 sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold"
+          className="mt-4 sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           Infinity Construction NYC
@@ -34,7 +34,7 @@ const CarouselContent: React.FC = () => {
           {/* Contact Us Button */}
           <Link
             href="/contact"
-            className="bg-primary border-2 border-primary text-3xl text-white py-3 px-6 rounded-full hover:bg-orange-600 hover:border-orange-600 transition-all duration-300 w-[250px]"
+            className="bg-primary border-2 border-primary text-2xl text-white py-3 px-4 rounded-full hover:bg-orange-600 hover:border-orange-600 transition-all duration-300 w-[200px]"
           >
             Contact Us
           </Link>
@@ -42,7 +42,7 @@ const CarouselContent: React.FC = () => {
           {/* Portfolio Button */}
           <Link
             href="/gallery"
-            className="bg-transparent border-2 border-white text-3xl text-white py-3 px-6 rounded-full hover:bg-primary hover:border-primary transition-all duration-300 w-[250px]"
+            className="bg-transparent border-2 border-white text-2xl text-white py-3 px-4 rounded-full hover:bg-primary hover:border-primary transition-all duration-300 w-[200px]"
             style={{ textShadow: "0px 0px 10px black" }}
           >
             View Portfolio
