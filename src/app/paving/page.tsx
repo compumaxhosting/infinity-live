@@ -14,7 +14,7 @@ const page = () => {
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
           Concrete, Stone, and Brick Paving
         </h1>
-        <p className="text-lg">
+        <p className="text-justify text-lg">
           Concrete paving offers durability, versatility, and a clean, modern
           look. Ideal for driveways, sidewalks, and patios, concrete is a
           cost-effective option that can be customized to fit your style and
@@ -24,31 +24,31 @@ const page = () => {
           <div className="w-full lg:w-6/12 p-4 space-y-6">
             <h1 className="text-4xl my-4">Our Concrete Paving Services</h1>
             <ul>
-              <li>
+              <li className="text-justify">
                 • Stamped Concrete: Mimic the appearance of stone, brick, or
                 tile with textured and patterned finishes that add character to
                 your space. We offer a wide range of patterns and textures to
                 suit both traditional and contemporary designs.
               </li>
-              <li>
+              <li className="text-justify">
                 • Colored Concrete: Choose from a variety of colors to
                 complement your property’s design and enhance curb appeal. We
                 provide custom color matching to ensure seamless integration
                 with your existing landscape.
               </li>
-              <li>
+              <li className="text-justify">
                 • Concrete Repair and Resurfacing: Restore damaged or worn
                 concrete surfaces to like-new condition with expert techniques
                 and high-quality materials. This includes crack filling,
                 leveling, and applying protective coatings to extend durability.
               </li>
-              <li>
+              <li className="text-justify">
                 • Decorative Finishes: Enhance your space with options like
                 exposed aggregate, brushed finishes, or polished concrete for a
                 refined look. These finishes can be customized to create a
                 unique aesthetic that stands out.
               </li>
-              <li>
+              <li className="text-justify">
                 • Custom Concrete Features: We also design and install custom
                 features such as concrete benches, planters, and retaining walls
                 to complement your outdoor space.
@@ -65,41 +65,41 @@ const page = () => {
             />
           </div>
         </div>
-        <p>
+        <p className="text-justify">
           Natural stone paving provides timeless beauty and elegance to any
           outdoor area. Known for its durability and natural appeal, stone is
           perfect for creating luxurious patios, pathways, and pool decks.
         </p>
         <h1 className="text-4xl my-4">Our Natural Stone Paving Services</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Custom Layouts: Design unique patterns and arrangements to create
             stunning and personalized outdoor spaces. From intricate mosaics to
             simple geometric layouts, we cater to all styles.
           </li>
-          <li>
+          <li className="text-justify">
             • Wide Material Selection: Choose from premium options such as
             granite, limestone, bluestone, slate, and more to match your
             aesthetic preferences. We also source eco-friendly stone materials
             for sustainable projects.
           </li>
-          <li>
+          <li className="text-justify">
             • Stone Restoration: Clean, reseal, and repair existing stonework to
             preserve its beauty and extend its lifespan. This includes replacing
             chipped or damaged stones and re-grouting as needed.
           </li>
-          <li>
+          <li className="text-justify">
             • Edging and Accents: Add finishing touches with stone borders or
             inlays for a sophisticated and polished look. Custom edging options
             are available to define and highlight pathways and garden features.
           </li>
-          <li>
+          <li className="text-justify">
             • Pool Decks and Outdoor Kitchens: Design and install stone surfaces
             for poolside areas and outdoor kitchen spaces, combining
             functionality with luxury.
           </li>
         </ul>
-        <p>
+        <p className="text-justify">
           Brick paving combines classic charm with durability, making it a
           popular choice for walkways, patios, and driveways. Its timeless
           appeal and range of color options create an inviting, warm aesthetic
@@ -107,28 +107,28 @@ const page = () => {
         </p>
         <h1 className="text-4xl my-4">Our Brick Paving Services</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Custom Patterns: Create stunning designs such as herringbone,
             basket weave, or running bond to elevate your outdoor spaces. We
             also offer bespoke patterns for unique design concepts.
           </li>
-          <li>
+          <li className="text-justify">
             • Brick Restoration: Repair and replace damaged or loose bricks for
             a seamless and uniform finish. Our team ensures precise alignment
             and color matching for flawless results.
           </li>
-          <li>
+          <li className="text-justify">
             • Permeable Pavers: Install eco-friendly bricks to promote water
             drainage and reduce runoff, making them an environmentally conscious
             choice. These systems are ideal for driveways and areas prone to
             heavy rainfall.
           </li>
-          <li>
+          <li className="text-justify">
             • Color Matching: Maintain uniformity and visual appeal by expertly
             matching new bricks to your existing structure. We work with a wide
             palette of brick colors to achieve a perfect match.
           </li>
-          <li>
+          <li className="text-justify">
             • Walkways and Garden Paths: Design and construct custom brick
             pathways that enhance the charm and functionality of your outdoor
             spaces.
@@ -138,25 +138,25 @@ const page = () => {
           Why Choose Infinity Construction NYC for Paving Services?
         </h1>
         <ul className="mb-6">
-          <li>
+          <li className="text-justify">
             • Expert Craftsmanship: Our team of skilled professionals delivers
             precise, high-quality paving solutions tailored to your needs.
           </li>
-          <li>
+          <li className="text-justify">
             • Premium Materials: We use only the finest materials to ensure your
             paving projects are durable, functional, and visually appealing.
           </li>
-          <li>
+          <li className="text-justify">
             • Versatile Solutions: Whether you prefer the modern look of
             concrete, the elegance of natural stone, or the charm of brick, we
             provide customized options for every style.
           </li>
-          <li>
+          <li className="text-justify">
             • Comprehensive Services: From initial design to installation and
             maintenance, we offer end-to-end paving solutions to ensure your
             project’s success.
           </li>
-          <li>
+          <li className="text-justify">
             • Customer-Focused Service: From the initial inspection to project
             completion, we provide clear communication and reliable service
             every step of the way.

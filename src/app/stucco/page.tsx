@@ -17,7 +17,7 @@ const page = () => {
         </h1>
 
         {/* Introduction Paragraph */}
-        <p className="text-lg lg:text-xl mb-8">
+        <p className="text-justify text-lg lg:text-xl mb-8">
           Stucco restoration and waterproofing of exterior walls, parapets, and
           retaining walls are essential repairs to maintain the surface
           stability and structural integrity of any building. Cracks or missing
@@ -37,14 +37,14 @@ const page = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-4">
               Inspection and Assessment
             </h2>
-            <p className="text-lg lg:text-xl mb-4">
+            <p className="text-justify text-lg lg:text-xl mb-4">
               Our process begins with a thorough inspection of the existing
               structure. We carefully examine for:
             </p>
             <ul className="text-lg lg:text-xl space-y-4 mb-8">
-              <li>• Cracks and spalls in the stucco.</li>
-              <li>• Water damage within the stucco layers.</li>
-              <li>
+              <li className="text-justify">• Cracks and spalls in the stucco.</li>
+              <li className="text-justify">• Water damage within the stucco layers.</li>
+              <li className="text-justify">
                 • Missing or deteriorating waterproofing paint or membrane.
               </li>
             </ul>
@@ -53,22 +53,22 @@ const page = () => {
               Stucco Restoration Process
             </h2>
             <ul className="text-lg lg:text-xl space-y-4">
-              <li>
+              <li className="text-justify">
                 • Damage Removal: We completely remove the damaged layer to
                 expose the foundational surface, ensuring all compromised
                 material is cleared to prevent future issues.
               </li>
-              <li>
+              <li className="text-justify">
                 • Reinforcement Application: We apply wire mesh, steel strips,
                 or thin rebars to reinforce the structure, providing added
                 stability and preventing future cracks.
               </li>
-              <li>
+              <li className="text-justify">
                 • Application of Mortar Layers: Multiple layers of waterproof
                 mortar mixtures are applied to rebuild the surface, ensuring the
                 material is compatible with the existing structure.
               </li>
-              <li>
+              <li className="text-justify">
                 • Finishing Touches: The restored stucco is carefully smoothed
                 and shaped to match the original design. We pay close attention
                 to decorative details and ensure a seamless appearance.
@@ -92,35 +92,35 @@ const page = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
           Waterproofing Process
         </h2>
-        <p className="text-lg lg:text-xl mb-8">
+        <p className="text-justify text-lg lg:text-xl mb-8">
           For new or existing stucco on exterior walls, parapets, and retaining
           walls, our waterproofing process involves:
         </p>
         <ul className="text-lg lg:text-xl space-y-4 mb-8">
-          <li>
+          <li className="text-justify">
             • Surface Preparation: We ensure the surface is clean, smooth, and
             dry before applying any waterproofing materials. This may include
             power washing, sanding, or chemical treatments to remove debris and
             contaminants.
           </li>
-          <li>
+          <li className="text-justify">
             • Primer Application: A high-quality primer is applied to enhance
             adhesion and create a strong base for the waterproof coating.
           </li>
-          <li>
+          <li className="text-justify">
             • Waterproof Coating Application: We use premium products such as
             MasterProtect HB 200 Exterior Paint, known for its exceptional
             weathering resistance, bright color retention, and fade resistance.
             This coating is applied in multiple layers to ensure a uniform and
             durable barrier against water infiltration.
           </li>
-          <li>
+          <li className="text-justify">
             • Sealing and Detailing: We meticulously seal all joints, corners,
             and potential weak points to prevent water penetration. Special
             attention is given to areas prone to pooling or excessive exposure
             to moisture.
           </li>
-          <li>
+          <li className="text-justify">
             • Final Inspection: Once the waterproofing process is complete, we
             perform a detailed inspection to ensure the application is flawless
             and meets our high standards.
@@ -132,23 +132,23 @@ const page = () => {
           Specialized Waterproofing Services
         </h2>
         <ul className="text-lg lg:text-xl space-y-4 mb-8">
-          <li>
+          <li className="text-justify">
             • Spray-Applied Membrane Systems: Advanced systems for seamless
             waterproofing.
           </li>
-          <li>
+          <li className="text-justify">
             • Façade Waterproofing: Protection against water penetration and
             weather elements.
           </li>
-          <li>
+          <li className="text-justify">
             • Foundation Waterproofing Systems: Ensures long-term stability of
             the foundation.
           </li>
-          <li>
+          <li className="text-justify">
             • Retaining Wall Protection: Safeguards against soil and water
             pressure.
           </li>
-          <li>
+          <li className="text-justify">
             • Basement Waterproofing: Prevents water damage in below-grade
             structures.
           </li>
@@ -158,7 +158,7 @@ const page = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
           Commitment to Quality
         </h2>
-        <p className="text-lg lg:text-xl mb-8">
+        <p className="text-justify text-lg lg:text-xl mb-8">
           At Infinity Construction NYC, we pride ourselves on working closely
           with our clients throughout the restoration process. Our commitment to
           excellence ensures that your stucco and waterproofing needs are
@@ -176,25 +176,25 @@ const page = () => {
           Layering?
         </h2>
         <ul className="text-lg lg:text-xl space-y-4 mb-8">
-          <li>
+          <li className="text-justify">
             • Unmatched Expertise: With years of experience in the construction
             industry, we have perfected the art of brick and CMU block layering.
             Our team is highly skilled and dedicated to delivering top-quality
             results.
           </li>
-          <li>
+          <li className="text-justify">
             • Commitment to Quality: We use only the highest quality materials,
             ensuring that your brick and CMU block structures are not only
             aesthetically pleasing but also long-lasting. Every detail, from
             mortar application to alignment, is handled with precision.
           </li>
-          <li>
+          <li className="text-justify">
             • Tailored for Your Needs: We understand that every project is
             unique, which is why we offer customized solutions to fit your
             specific requirements, budget, and design vision. Our collaborative
             approach ensures we deliver exactly what you need.
           </li>
-          <li>
+          <li className="text-justify">
             • Reliable and Timely Service: At Infinity Construction NYC, we
             pride ourselves on completing projects on time and within budget,
             without compromising on quality or craftsmanship.

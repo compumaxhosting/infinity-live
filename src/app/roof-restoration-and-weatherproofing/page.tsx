@@ -29,33 +29,33 @@ const page = () => {
               Our Roof Restoration & Weatherproofing Process
             </h1>
             <ul>
-              <li>
+              <li className="text-justify">
                 • Thorough Inspection and Assessment: Our process begins with a
                 detailed inspection of your roof’s condition, bearing capacity,
                 and existing waterproofing systems. We identify issues such as
                 leaks, structural weaknesses, and areas prone to water
                 infiltration.
               </li>
-              <li>
+              <li className="text-justify">
                 • Professional Cleaning and Surface Preparation: We remove
                 debris, damaged shingles, and deteriorating wood. The roof base
                 is meticulously cleaned and prepared to ensure optimal adhesion
                 and performance of the new materials.
               </li>
-              <li>
+              <li className="text-justify">
                 • Structural Repairs and Reinforcement: Using weather-treated
                 plywood and structural beams, we repair or replace damaged
                 sections of the roof. This step ensures the stability and
                 longevity of the structure.
               </li>
-              <li>
+              <li className="text-justify">
                 • Application of Premium Weatherproofing Materials: We install
                 high-quality roofing materials, such as durable shingles,
                 membranes, and coatings. All materials are expertly sealed to
                 create a fully weatherproof system capable of withstanding New
                 York’s harsh conditions.
               </li>
-              <li>
+              <li className="text-justify">
                 • Quality Control Inspection and Documentation: Before
                 finalizing the project, we conduct a comprehensive quality
                 control inspection to ensure all work meets our high standards.
@@ -76,22 +76,22 @@ const page = () => {
         </div>
         <h1 className="text-4xl my-4">Why Choose Infinity Construction NYC?</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Licensed, Bonded, and Insured: We are fully certified by the NYC
             Department of Buildings, giving you confidence in our
             professionalism and compliance with local regulations.
           </li>
-          <li>
+          <li className="text-justify">
             • Experienced and Certified Technicians: Our team is trained to
             handle even the most complex roof restoration projects, ensuring
             exceptional workmanship and results.
           </li>
-          <li>
+          <li className="text-justify">
             • Commitment to Quality: We use only the best materials and
             techniques, ensuring your roof remains durable, functional, and
             aesthetically pleasing for years to come.
           </li>
-          <li>
+          <li className="text-justify">
             • Customer-Focused Approach: At Infinity Construction NYC, we
             prioritize clear communication and client satisfaction. From the
             initial consultation to project completion, we keep you informed

@@ -27,33 +27,33 @@ const page = () => {
           <div className="w-full lg:w-8/12 p-4 space-y-6">
             <h1 className="text-4xl my-4">Our Painting and Masonry Services</h1>
             <ul>
-              <li>
+              <li className="text-justify">
                 • Wall and Ceiling Repairs: Fixing cracks, dents, and uneven
                 surfaces to create a seamless and uniform finish. We use
                 advanced techniques and high-quality materials for long-lasting
                 results.
               </li>
-              <li>
+              <li className="text-justify">
                 • Custom Textures: Offering a variety of finishes, from smooth
                 to textured, to match your design preferences. This includes
                 modern designs, Venetian plaster, and other decorative textures.
               </li>
-              <li>
+              <li className="text-justify">
                 • Restoration Work: Preserving and repairing historic
                 plasterwork, including intricate ornamental details, to restore
                 its original charm and elegance.
               </li>
-              <li>
+              <li className="text-justify">
                 • Pre-Paint Preparations: Ensuring all surfaces are perfectly
                 prepared for paint application. This includes sanding, priming,
                 and applying joint compound to achieve a flawless base.
               </li>
-              <li>
+              <li className="text-justify">
                 • Moisture Resistance Solutions: Applying treatments to protect
                 plaster surfaces against dampness, mold, and mildew,
                 particularly in high-humidity areas like bathrooms and kitchens.
               </li>
-              <li>
+              <li className="text-justify">
                 • High-Quality Painting: Using premium paints and precise
                 techniques, we deliver vibrant and even finishes that enhance
                 the aesthetic appeal of your interiors. Custom color matching is
@@ -77,29 +77,29 @@ const page = () => {
           Why Choose Infinity Construction NYC for Painting and Masonry?
         </h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Experienced Professionals: Our skilled team brings years of
             expertise to every project, ensuring meticulous attention to detail
             and exceptional craftsmanship.
           </li>
-          <li>
+          <li className="text-justify">
             • Comprehensive Solutions: From minor repairs to complete room
             makeovers, we handle all aspects of painting and masonry with
             precision and care.
           </li>
-          <li>
+          <li className="text-justify">
             • Premium Materials: We use only the best materials and products to
             ensure durability, beauty, and long-lasting results.
           </li>
-          <li>
+          <li className="text-justify">
             • Customer-Centered Approach: We work closely with you to understand
             your vision and ensure your satisfaction throughout the project.
           </li>
-          <li>
+          <li className="text-justify">
             • Timely and Reliable Service: We complete projects on schedule and
             within budget without compromising quality.
           </li>
-          <p>
+          <p className="text-justify">
             Painting and Masonry not only enhance the appearance of your space
             but also improve its durability, insulation, and value. Contact
             Infinity Construction NYC today to schedule a consultation and

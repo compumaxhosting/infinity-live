@@ -64,7 +64,7 @@ const OurServices = () => {
                   >
                     {data.heading}
                   </h3>
-                  <p className="mt-2 xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300 text-justify">
+                  <p className="mt-2 text-lg xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300 text-justify">
                     {data.description}
                   </p>
                 </div>

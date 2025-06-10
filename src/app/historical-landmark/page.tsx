@@ -14,7 +14,7 @@ const page = () => {
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
           Historical Landmark Brownstone/Limestone Restoration
         </h1>
-        <p className="text-lg mb-8">
+        <p className="text-justify text-lg mb-8">
           New York City is home to many historical architectural structures
           crafted from limestone and brownstone. These buildings are not just
           iconic; they are a testament to the city’s rich history and unique
@@ -33,19 +33,19 @@ const page = () => {
           <div className="w-full lg:w-1/2 p-4 space-y-6">
             <h2 className="text-4xl font-semibold">Our Restoration Services</h2>
             <ul className="list-disc pl-6 space-y-4 text-lg">
-              <li>
+              <li className="text-justify">
                 <strong>Comprehensive Inspection:</strong> We begin by thoroughly inspecting the structural integrity of the building. For full façade or stoop restoration, we carefully examine the stones for major spalls, scaling, cracks, and other signs of deterioration. Our inspection also includes an assessment of mortar joints and the overall stability of the structure.
               </li>
-              <li>
+              <li className="text-justify">
                 <strong>Precise Repair Process:</strong> Damaged outer layers are meticulously removed to expose the foundation layer. We then apply multiple molds of mortar and stone mixtures, custom-matched to the original materials, to restore the structure’s original design and ensure its long-term durability. Our process also involves patching and resurfacing to seamlessly blend repairs with the existing architecture.
               </li>
-              <li>
+              <li className="text-justify">
                 <strong>Cleaning and Surface Preparation:</strong> To achieve a uniform appearance, we clean the entire surface using specialized, non-abrasive techniques that remove dirt, grime, and biological growth without causing further damage to the stonework.
               </li>
-              <li>
+              <li className="text-justify">
                 <strong>Waterproofing and Weatherproofing:</strong> After restoration, we apply protective treatments to safeguard the structure against water infiltration, freeze-thaw cycles, and other environmental factors that could lead to future damage.
               </li>
-              <li>
+              <li className="text-justify">
                 <strong>Attention to Detail:</strong> Our restoration process is tailored to preserve the historical integrity of your property, ensuring every detail is authentic and true to its original design. We work with skilled artisans who have extensive experience in historical restoration to recreate intricate carvings, moldings, and decorative elements as needed.
               </li>
             </ul>
@@ -65,26 +65,26 @@ const page = () => {
 
         {/* Quality Commitment Section */}
         <h2 className="text-4xl my-8">Commitment to Quality</h2>
-        <p className="text-lg mb-8">
+        <p className="text-justify text-lg mb-8">
           At Infinity Construction NYC, we pride ourselves on working closely with our clients throughout the restoration process. Our commitment to excellence ensures that your façade or stoop is restored to its former glory while maintaining its historical significance.
         </p>
-        <p className="text-lg mb-8">
+        <p className="text-justify text-lg mb-8">
           If your brownstone or limestone property needs restoration, don’t wait. Contact Infinity Construction NYC today to learn how our expert team can help preserve your building for generations to come.
         </p>
 
         {/* Why Choose Us Section */}
         <h2 className="text-4xl my-8">Why Choose Infinity Construction NYC for Your Brick and CMU Block Layering?</h2>
         <ul className="list-disc pl-6 space-y-4 text-lg mb-6">
-          <li>
+          <li className="text-justify">
             <strong>Unmatched Expertise:</strong> With years of experience in the construction industry, we have perfected the art of brick and CMU block layering. Our team is highly skilled and dedicated to delivering top-quality results.
           </li>
-          <li>
+          <li className="text-justify">
             <strong>Commitment to Quality:</strong> We use only the highest quality materials, ensuring that your brick and CMU block structures are not only aesthetically pleasing but also long-lasting. Every detail, from mortar application to alignment, is handled with precision.
           </li>
-          <li>
+          <li className="text-justify">
             <strong>Tailored for Your Needs:</strong> We understand that every project is unique, which is why we offer customized solutions to fit your specific requirements, budget, and design vision. Our collaborative approach ensures we deliver exactly what you need.
           </li>
-          <li>
+          <li className="text-justify">
             <strong>Reliable and Timely Service:</strong> At Infinity Construction NYC, we pride ourselves on completing projects on time and within budget, without compromising on quality or craftsmanship.
           </li>
         </ul>

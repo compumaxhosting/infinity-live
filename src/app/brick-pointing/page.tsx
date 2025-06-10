@@ -24,7 +24,7 @@ const page = () => {
           />
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl mb-4">Brick Pointing</h1>
-            <p className="text-lg">
+            <p className="text-lg text-justify">
               Brick pointing is the process of filling mortar joints to seal and
               complete newly constructed brickwork. It is also a crucial
               maintenance and repair technique for aging structures. If your
@@ -36,28 +36,28 @@ const page = () => {
         </div>
         <h1 className="text-4xl my-4">Our Brick Pointing Services</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Repointing: We carefully remove old, damaged mortar and replace it
             with fresh mortar to restore the strength, stability, and durability
             of your brickwork.
           </li>
-          <li>
+          <li className="text-justify">
             • Tuckpointing: For a polished and aesthetically appealing look, we
             match the mortar color to the brick and add fine white or
             contrasting lines to create a clean, decorative finish.
           </li>
-          <li>
+          <li className="text-justify">
             • Mortar Matching: Our team uses custom mortar blends to ensure
             seamless repairs that perfectly match the existing brickwork,
             maintaining the architectural integrity of your structure.
           </li>
-          <li>
+          <li className="text-justify">
             • Crack and Gap Repairs: We fill gaps and cracks in brick and mortar
             to prevent water infiltration and protect your building from further
             damage.
           </li>
         </ul>
-        <p>
+        <p className="text-justify">
           Whether your focus is structural restoration or aesthetic enhancement,
           our team is dedicated to delivering exceptional results with precision
           and care.
@@ -67,7 +67,7 @@ const page = () => {
             <h1 className="text-4xl my-4">
               Protect Your Brickwork with Waterproofing Services
             </h1>
-            <p>
+            <p className="text-justify">
               Water damage is one of the most common threats to masonry. At
               Infinity Construction NYC, we offer waterproofing solutions that
               protect your brickwork from moisture-related issues like mold,
@@ -84,21 +84,21 @@ const page = () => {
         </div>
         <h1 className="text-4xl my-4">Our Waterproofing Services Include:</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Masonry Sealing: We apply breathable sealants to create a
             protective barrier against water infiltration while allowing vapor
             to escape, preserving the integrity of your brickwork.
           </li>
-          <li>
+          <li className="text-justify">
             • Leak Detection and Repair: Our experts identify and fix vulnerable
             areas prone to water infiltration, such as cracks and gaps in brick
             or mortar.
           </li>
-          <li>
+          <li className="text-justify">
             • Moisture Management: We install drainage solutions to redirect
             water away from brick surfaces, reducing the risk of damage.
           </li>
-          <li>
+          <li className="text-justify">
             • Weatherproof Coatings: To protect your masonry from harsh weather
             conditions, we apply coatings designed to withstand freeze-thaw
             cycles and prevent weather-related wear.
@@ -106,27 +106,27 @@ const page = () => {
         </ul>
         <h1 className="text-4xl my-4">Why Choose Infinity Construction NYC?</h1>
         <ul className="mb-6">
-          <li>
+          <li className="text-justify">
             • Expert Craftsmanship: Our skilled team brings years of experience
             in brick pointing and waterproofing, ensuring top-quality results.
           </li>
-          <li>
+          <li className="text-justify">
             • Customized Solutions: We tailor our services to meet your
             building’s unique needs, whether for structural repairs or aesthetic
             enhancements.
           </li>
-          <li>
+          <li className="text-justify">
             • Commitment to Quality: Using premium materials and
             industry-leading techniques, we ensure durable and long-lasting
             solutions.
           </li>
-          <li>
+          <li className="text-justify">
             • Reliable and Professional Service: From start to finish, we
             prioritize clear communication, timely completion, and superior
             workmanship.
           </li>
         </ul>
-        <p>
+        <p className="text-justify">
           Protect and restore your brickwork with Infinity Construction NYC.
           Contact us today to learn more about our brick pointing and
           waterproofing services, and schedule a consultation with our experts.

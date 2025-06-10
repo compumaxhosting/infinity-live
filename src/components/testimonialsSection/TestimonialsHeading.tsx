@@ -4,7 +4,13 @@ import React from "react";
 
 function TestimonialsHeading() {
   return (
-    <div className="relative w-full overflow-hidden bg-secondary/95 dark:bg-gray-900">
+    <div
+      className="relative w-full overflow-hidden"
+      style={{
+        background:
+          "linear-gradient(200deg, #b07740 0%, #9c6434 25%, #9c6434 50%, #945e2c 75%, #cc9054 100%)",
+      }}
+    >
       {/* Heading Section */}
       <div
         className="flex flex-col justify-center items-center text-center py-8 px-4 sm:px-8 md:px-64 2xl:px-32 md:py-20"

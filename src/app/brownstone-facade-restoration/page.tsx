@@ -14,7 +14,7 @@ const page = () => {
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
           Brick and CMU Block Layering
         </h1>
-        <p className="text-lg">
+        <p className="text-justify text-lg">
           At Infinity Construction NYC, we understand that the foundation of
           every great structure starts with the right materials and
           craftsmanship. Specializing in brick and Concrete Masonry Unit (CMU)
@@ -30,7 +30,7 @@ const page = () => {
               Our Brick and CMU Block Layering Services
             </h1>
             <ul>
-              <li>
+              <li className="text-justify">
                 • Brick Layering for Unique Designs: From classic brick facades
                 to custom designs, we specialize in brick layering that not only
                 strengthens your building but enhances its curb appeal. Our
@@ -39,7 +39,7 @@ const page = () => {
                 customized patterns, arches, and other architectural details to
                 match your vision.
               </li>
-              <li>
+              <li className="text-justify">
                 • CMU Block Layering for Strong Foundations: When it comes to
                 structural strength, CMU blocks are our go-to solution. We
                 provide expert CMU block installations that create stable
@@ -47,14 +47,14 @@ const page = () => {
                 retaining walls, load-bearing structures, and partition walls.
                 Our techniques ensure precision and long-lasting durability.
               </li>
-              <li>
+              <li className="text-justify">
                 • Seamless Integration: At Infinity Construction NYC, we work
                 with both brick and CMU blocks, ensuring they integrate
                 seamlessly into your building&apos;s design. Whether it’s for
                 new construction or renovation projects, we maintain consistency
                 in aesthetics and functionality.
               </li>
-              <li>
+              <li className="text-justify">
                 • Customized Solutions: No two projects are the same. We take a
                 personalized approach, tailoring our brick and CMU block
                 layering to meet your specific needs. From intricate designs to
@@ -79,25 +79,25 @@ const page = () => {
           Layering?
         </h1>
         <ul className="mb-6">
-          <li>
+          <li className="text-justify">
             • Unmatched Expertise: With years of experience in the construction
             industry, we have perfected the art of brick and CMU block layering.
             Our team is highly skilled and dedicated to delivering top-quality
             results.
           </li>
-          <li>
+          <li className="text-justify">
             • Commitment to Quality: We use only the highest quality materials,
             ensuring that your brick and CMU block structures are not only
             aesthetically pleasing but also long-lasting. Every detail, from
             mortar application to alignment, is handled with precision..
           </li>
-          <li>
+          <li className="text-justify">
             • Tailored for Your Needs: We understand that every project is
             unique, which is why we offer customized solutions to fit your
             specific requirements, budget, and design vision. Our collaborative
             approach ensures we deliver exactly what you need.
           </li>
-          <li>
+          <li className="text-justify">
             • Reliable and Timely Service: At Infinity Construction NYC, we
             pride ourselves on completing projects on time and within budget,
             without compromising on quality or craftsmanship.

@@ -14,7 +14,7 @@ const page = () => {
         <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
           Fire Escape/Metal Railing & Fence Restoration
         </h1>
-        <p className="text-lg">
+        <p className="text-justify text-lg">
           Fire escapes are a critical safety feature, and maintaining them in
           excellent condition is essential for ensuring the safety and
           compliance of your property. At Infinity Construction NYC, we provide
@@ -28,37 +28,37 @@ const page = () => {
               Our Fire Escape Restoration Services
             </h1>
             <ul>
-              <li>
+              <li className="text-justify">
                 • Rust and Corrosion Removal: We clean and treat rusted areas to
                 prevent further damage and restore the metal’s integrity. This
                 includes applying rust inhibitors and protective primers to
                 prevent future corrosion.
               </li>
-              <li>
+              <li className="text-justify">
                 • Component Replacement: Damaged or worn-out stairs, platforms,
                 railings, and brackets are expertly replaced to ensure safety
                 and functionality. We source durable, high-quality components to
                 ensure long-lasting performance.
               </li>
-              <li>
+              <li className="text-justify">
                 • Reinforcements: Weak or unstable sections are reinforced to
                 guarantee the structural integrity of the entire fire escape
                 system. We use advanced techniques and materials, such as steel
                 plates or braces, to strengthen critical areas.
               </li>
-              <li>
+              <li className="text-justify">
                 • Repainting and Coating: High-quality, weather-resistant paints
                 and coatings are applied to protect against corrosion and
                 maintain a polished, professional appearance. We offer a variety
                 of color options to complement your building’s aesthetic.
               </li>
-              <li>
+              <li className="text-justify">
                 • Inspection and Safety Checks: We conduct thorough inspections
                 to ensure your fire escape meets all safety standards and
                 compliance codes. Our detailed evaluations identify any hidden
                 vulnerabilities that need to be addressed.
               </li>
-              <li>
+              <li className="text-justify">
                 • Welding Repairs: For fire escapes with cracks or broken
                 joints, we perform precise welding repairs to restore structural
                 soundness and extend the life of the system.
@@ -77,23 +77,23 @@ const page = () => {
         </div>
         <h1 className="text-4xl my-4">Additional Services</h1>
         <ul>
-          <li>
+          <li className="text-justify">
             • Load Testing: We offer load testing to verify the fire escape’s
             capacity to safely support weight during emergencies.
           </li>
-          <li>
+          <li className="text-justify">
             • Galvanization: For added durability and protection against rust,
             we provide galvanization services, ensuring your fire escape
             withstands harsh weather conditions.
           </li>
-          <li>
+          <li className="text-justify">
             • Emergency Repairs: We offer prompt emergency repair services to
             address urgent safety concerns and bring your fire escape back to
             operational standards.
           </li>
         </ul>
         <h1 className="text-4xl my-4">Why Regular Maintenance Matters</h1>
-        <p>
+        <p className="text-justify">
           Regular maintenance and timely repairs are essential for preventing
           costly replacements and avoiding potential safety hazards. By
           addressing minor issues early, you can extend the life of your fire
@@ -105,33 +105,33 @@ const page = () => {
           Why Choose Infinity Construction NYC for Fire Escape Restoration?
         </h1>
         <ul className="mb-6">
-          <li>
+          <li className="text-justify">
             • Expertise You Can Trust: With years of experience, our skilled
             technicians deliver high-quality restoration services tailored to
             your specific needs.
           </li>
-          <li>
+          <li className="text-justify">
             • Commitment to Safety: We prioritize safety and compliance,
             ensuring your fire escape meets all legal requirements and industry
             standards.
           </li>
-          <li>
+          <li className="text-justify">
             • Durable Solutions: Using premium materials and advanced
             techniques, we ensure long-lasting results that protect your
             investment.
           </li>
-          <li>
+          <li className="text-justify">
             • Customer-Focused Service: From the initial inspection to project
             completion, we provide clear communication and reliable service
             every step of the way.
           </li>
-          <li>
+          <li className="text-justify">
             • Comprehensive Approach: We address every aspect of fire escape
             restoration, from structural repairs to aesthetic enhancements,
             ensuring a complete and professional result.
           </li>
         </ul>
-        <p>
+        <p className="text-justify">
           Protect and restore your brickwork with Infinity Construction NYC.
           Contact us today to learn more about our brick pointing and
           waterproofing services, and schedule a consultation with our experts.

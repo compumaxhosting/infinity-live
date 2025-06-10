@@ -43,9 +43,9 @@ const HeaderTwo: React.FC = () => {
           : "bg-transparent dark:bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 px-4">
+      <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 pt-8 pb-4">
         {/* Left Div: Logo */}
-        <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6">
+        <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6 ">
           <div>
             <Link href="/">
               <Image

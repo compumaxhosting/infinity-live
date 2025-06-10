@@ -1,159 +1,213 @@
-import { Phone, Mail, MapPin } from "lucide-react"; // Correct import statement
+import { Phone, Mail, MapPin } from "lucide-react";
 import { specialityData } from "@/data/ourServicesData";
 import Link from "next/link";
-import { FaExternalLinkAlt, FaFacebook, FaInstagram, FaLinkedin, FaYelp } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYelp,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="text-white py-12 pb-24 md:pb-20 md:py-20 bg-secondary/95 dark:bg-slate-950">
-      <div className="container mx-auto px-4 sm:px-12 lg:px-16">
-        {/* Flex container for columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16 sm:pl-16">
-          {/* Column 1: Company Info */}
-          <div className="flex flex-col items-start max-w-sm">
-            <h3 className="text-xl font-semibold mb-4">Company Name</h3>
-            <div className="flex items-center mb-3">
-              {/* Phone icon */}
-              <div className="bg-secondary p-2 mr-2 sm:p-3 sm:mr-4 rounded-full">
-                <Phone className="text-white" />
-              </div>
-              <p className="text-sm sm:text-base">
-                Phone: <br /> 347 939 5779
+    <footer
+      className="relative bg-secondary text-white pt-16 pb-4 overflow-hidden"
+      style={{
+        background:
+          "linear-gradient(200deg, #b07740 0%, #9c6434 25%, #9c6434 50%, #945e2c 75%, #cc9054 100%)",
+      }}>
+      {/* Decorative elements */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent"></div>
+      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent opacity-30"></div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          {/* Company Info */}
+          <div className="space-y-6">
+            <div className="group">
+              <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-white inline-block">
+                Infinity Construction
+                <span className="block h-0.5 w-16 bg-gradient-to-r from-primary to-secondary mt-2 transition-all duration-300 group-hover:w-24"></span>
+              </h3>
+              <p className="mt-4 text-white text-sm leading-relaxed">
+                Transforming spaces with precision and excellence in New York
+                City since 2015.
               </p>
             </div>
-            <div className="flex items-center mb-3">
-              {/* Email icon */}
-              <div className="bg-secondary p-2 mr-2 sm:p-3 sm:mr-4 rounded-full">
-                <Mail className="text-white" />
+
+            {/* Contact Info */}
+            <div className="space-y-4">
+              <div className="flex items-start gap-4">
+                <div className="p-2 bg-slate-800 rounded-lg">
+                  <Phone className="text-primary" size={18} />
+                </div>
+                <div>
+                  <p className="font-medium">Phone</p>
+                  <p className="text-white text-sm">347 939 5779</p>
+                </div>
               </div>
-              <Link href="mailto:Infinityconstructionnyc@gmail.com">
-                <p className="text-sm sm:text-base">
-                  Email: Infinityconstructionnyc@gmail.com
-                </p>
-              </Link>
-            </div>
-            <div className="flex items-center mb-3">
-              {/* Address icon */}
-              <div className="bg-secondary p-2 mr-2 sm:p-3 sm:mr-4 rounded-full">
-                <MapPin className="text-white" />
+
+              <div className="flex items-start gap-4">
+                <div className="p-2 bg-slate-800 rounded-lg">
+                  <Mail className="text-primary" size={18} />
+                </div>
+                <div>
+                  <p className="font-medium">Email</p>
+                  <Link
+                    href="mailto:Infinityconstructionnyc@gmail.com"
+                    className="text-white hover:text-gray-300 text-sm transition-colors"
+                  >
+                    Infinityconstructionnyc@gmail.com
+                  </Link>
+                </div>
               </div>
-              <p className="text-sm sm:text-base">
-                Address: <br />
-                1809 Albany Ave, Brooklyn <br /> NY 11210
-              </p>
-            </div>
-            <div className="mt-6 flex space-x-6">
-              {/* Instagram Icon */}
-              <Link
-                href="https://www.instagram.com/infinity_construction_nyc/"
-                className="text-white hover:text-pink-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Instagram"
-              >
-                <FaInstagram className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link>
 
-              {/* Facebook Icon */}
-              <Link
-                href="https://www.facebook.com/InfinityConstructionNYC"
-                className="text-white hover:text-blue-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Facebook"
-              >
-                <FaFacebook className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link>
-
-              {/* LinkedIn Icon */}
-              <Link
-                href="https://www.linkedin.com/in/imrul-hassan-403724268"
-                className="text-white hover:text-blue-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our LinkedIn"
-              >
-                <FaLinkedin className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link>
-
-              {/* Yelp Icon */}
-              <Link
-                href="https://www.yelp.com/biz/infinity-construction-nyc-brooklyn"
-                className="text-white hover:text-blue-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Yelp"
-              >
-                <FaYelp className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link>
-
-              {/* Brownstoner Icon */}
-              <Link
-                href="https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/"
-                className="text-white hover:text-blue-500"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Brownstoner page"
-              >
-                <FaExternalLinkAlt className="h-8 w-8 bg-white text-black rounded-full p-2" />
-              </Link>
+              <div className="flex items-start gap-4">
+                <div className="p-2 bg-slate-800 rounded-lg">
+                  <MapPin className="text-primary" size={18} />
+                </div>
+                <div>
+                  <p className="font-medium">Address</p>
+                  <p className="text-white text-sm">
+                    1809 Albany Ave, Brooklyn
+                    <br />
+                    NY 11210
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* Column 2: Useful Links */}
-          <div className="flex flex-col items-start max-w-xs lg:pl-16">
-            <h3 className="text-xl font-semibold mb-4">Useful Links</h3>
-            <ul className="space-y-2 text-base">
-              <li>
-                <Link href="/" className="hover:underline">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-us" className="hover:underline">
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/gallery" className="hover:underline">
-                  Gallery
-                </Link>
-              </li>
-              <li>
-                <Link href="/projects" className="hover:underline">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="hover:underline">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog" className="hover:underline">
-                  Blog
-                </Link>
-              </li>
+          {/* Quick Links */}
+          <div className="space-y-6">
+            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+              Quick Links
+            </h3>
+            <ul className="space-y-3">
+              {[
+                { name: "Home", path: "/" },
+                { name: "About Us", path: "/about-us" },
+                { name: "Gallery", path: "/gallery" },
+                { name: "Projects", path: "/projects" },
+                { name: "Services", path: "/services" },
+                { name: "Blog", path: "/blog" },
+                { name: "Contact", path: "/contact" },
+              ].map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.path}
+                    className="text-white hover:text-gray-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-2 h-2 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
-
-            {/* <button className="mt-6 bg-primary text-white py-3 px-6 hover:bg-stone-900 transition-all duration-300">
-              Review us
-            </button> */}
           </div>
 
-          {/* Column 3: Services */}
-          <div className="flex flex-col items-start">
-            <h3 className="text-xl font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-base">
+          {/* Services */}
+          <div className="space-y-6">
+            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+              Our Services
+            </h3>
+            <ul className="space-y-3">
               {specialityData.map((service) => (
                 <li key={service.id}>
-                  <Link href={`${service.path}`} className="hover:underline">
+                  <Link
+                    href={service.path}
+                    className="text-white hover:text-gray-300 transition-colors flex items-center gap-2 group"
+                  >
+                    <span className="w-2 h-2 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
                     {service.heading}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
+
+          {/* Social & Reviews */}
+          <div className="space-y-6">
+            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+              Connect With Us
+            </h3>
+
+            <div className="grid grid-cols-2 gap-4">
+              {/* Instagram */}
+              <Link
+                href="https://www.instagram.com/infinity_construction_nyc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800 hover:bg-gradient-to-br from-pink-500 to-purple-600 p-3 rounded-lg flex items-center justify-center transition-all duration-300 group"
+                aria-label="Instagram"
+              >
+                <FaInstagram className="text-white text-xl group-hover:scale-110 transition-transform" />
+              </Link>
+
+              {/* Facebook */}
+              <Link
+                href="https://www.facebook.com/InfinityConstructionNYC"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800 hover:bg-gradient-to-br from-blue-500 to-blue-700 p-3 rounded-lg flex items-center justify-center transition-all duration-300 group"
+                aria-label="Facebook"
+              >
+                <FaFacebook className="text-white text-xl group-hover:scale-110 transition-transform" />
+              </Link>
+
+              {/* LinkedIn */}
+              <Link
+                href="https://www.linkedin.com/in/imrul-hassan-403724268"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800 hover:bg-gradient-to-br from-blue-400 to-blue-600 p-3 rounded-lg flex items-center justify-center transition-all duration-300 group"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin className="text-white text-xl group-hover:scale-110 transition-transform" />
+              </Link>
+
+              {/* Yelp */}
+              <Link
+                href="https://www.yelp.com/biz/infinity-construction-nyc-brooklyn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800 hover:bg-gradient-to-br from-red-500 to-red-700 p-3 rounded-lg flex items-center justify-center transition-all duration-300 group"
+                aria-label="Yelp"
+              >
+                <FaYelp className="text-white text-xl group-hover:scale-110 transition-transform" />
+              </Link>
+
+              {/* Brownstoner */}
+              <Link
+                href="https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-800 hover:bg-gradient-to-br from-amber-500 to-amber-700 p-3 rounded-lg flex items-center justify-center transition-all duration-300 group col-span-2"
+                aria-label="Brownstoner"
+              >
+                <FaExternalLinkAlt className="text-white text-xl group-hover:scale-110 transition-transform mr-2" />
+                <span className="text-sm font-medium">Brownstoner</span>
+              </Link>
+            </div>
+
+            <div className="pt-4">
+              <Link
+                href="/contact"
+                className="inline-block bg-gradient-to-r from-primary to-secondary text-white font-medium py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Copyright */}
+        <div className="border-t border-gray-200 mt-8 pt-4 text-center text-white text-sm">
+          <p>
+            &copy; {new Date().getFullYear()} Infinity Construction NYC. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>
