@@ -72,10 +72,10 @@ const Navbar = () => {
             </div>
             <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg">
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
-                <Link href="/faq">FAQ</Link>
+                <Link href="/blog">BLOG</Link>
               </li>
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
-                <Link href="/blog">BLOG</Link>
+                <Link href="/faq">FAQ</Link>
               </li>
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 <Link href="/contact">CONTACT</Link>

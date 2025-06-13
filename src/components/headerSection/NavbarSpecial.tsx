@@ -54,9 +54,7 @@ const NavbarSpecial = () => {
             <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg w-[400px] pt-6">
               {specialityData.map((service) => (
                 <Link href={service.path} key={service.heading}>
-                  <li
-                    className="cursor-pointer text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2"
-                  >
+                  <li className="cursor-pointer text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                     {service.heading}
                   </li>
                 </Link>
@@ -91,10 +89,10 @@ const NavbarSpecial = () => {
             <div className="text-xl cursor-pointer">MORE</div>
             <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg">
               <li className="text-secondary dark:text-gray-100 text-xl px-4 py-2">
-                <Link href="/faq">FAQ</Link>
+                <Link href="/blog">BLOG</Link>
               </li>
               <li className="text-secondary dark:text-gray-100 text-xl px-4 py-2">
-                <Link href="/blog">BLOG</Link>
+                <Link href="/faq">FAQ</Link>
               </li>
               <li
                 className={`text-secondary dark:text-gray-100 text-xl px-4 py-2 ${
@@ -109,7 +107,10 @@ const NavbarSpecial = () => {
           </li>
         </ul>
       </nav>
-      <Link href="tel:+13479395779" className="bg-primary text-white px-4 py-3 hover:bg-stone-900 hover:text-white dark:hover:text-white hover:border-transparent hover:border border border-transparent dark:border-transparent rounded-md shadow-lg transition-all duration-300 flex items-center space-x-2">
+      <Link
+        href="tel:+13479395779"
+        className="bg-primary text-white px-4 py-3 hover:bg-stone-900 hover:text-white dark:hover:text-white hover:border-transparent hover:border border border-transparent dark:border-transparent rounded-md shadow-lg transition-all duration-300 flex items-center space-x-2"
+      >
         <Phone className="w-5 h-5" />
         <span>347 939 5779</span>
       </Link>
