@@ -21,7 +21,6 @@ const  BlogSection = () => {
             className="p-4 bg-white shadow-lg rounded-lg dark:bg-slate-800 hover:shadow-xl transition-shadow duration-300"
           >
             <Link href={`/blog/${blog.slug}`} className="block h-full w-full">
-              {/* Blog Image */}
               <Image
                 src={blog.image}
                 alt={blog.title}

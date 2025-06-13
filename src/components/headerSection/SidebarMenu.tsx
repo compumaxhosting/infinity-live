@@ -32,15 +32,15 @@ function SidebarMenu() {
   return (
     <div>
       {/* Mobile Menu Toggle */}
-      <div className="xl:hidden absolute right-0 top-0 sm:right-4">
-        <button
-          onClick={toggleSheet}
-          className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
-        >
-          <Menu className="w-8 h-8" />
-          <span className="sr-only">Open menu</span>
-        </button>
-      </div>
+      <div className="xl:hidden absolute right-0 top-0 sm:right-4 md:h-full flex items-center">
+  <button
+    onClick={toggleSheet}
+    className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
+  >
+    <Menu className="w-8 h-8" />
+    <span className="sr-only">Open menu</span>
+  </button>
+</div>
       {/* Sidebar Sheet Component */}
       <Sheet open={isOpen} onOpenChange={toggleSheet}>
         <SheetContent

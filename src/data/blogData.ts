@@ -310,4 +310,18 @@ export const blogData = [
     liked: true,
     image: "/blog/img-3.webp",
   },
+  {
+    id: 22,
+    author: "Imrul Hassan",
+    slug: "signs-your-brownstone-needs-immediate-repair",
+    date: "Jun 6, 2022",
+    readTime: "3 min read",
+    title: "Signs Your Brownstone Needs Immediate Repair",
+    contentPreview: ` 1. Introduction: Importance of Maintaining Brownstones 2. Cracks and Bulges in Facade 3. Water Damage and Moisture Issues....
+    `,
+    views: 30,
+    comments: 0,
+    liked: true,
+    image: "/blog/img-8.webp",
+  },
 ];

@@ -101,6 +101,10 @@ export function BlogsOverview() {
       name: "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
       path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
+    {
+      name: "Signs Your Brownstone Needs Immediate Repair",
+      path: "/blog/signs-your-brownstone-needs-immediate-repair",
+    },
   ];
 
   useEffect(() => {
