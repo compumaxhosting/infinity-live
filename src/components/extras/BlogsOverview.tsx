@@ -13,6 +13,18 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Signs Your Brownstone Needs Immediate Repair",
+      path: "/blog/signs-your-brownstone-needs-immediate-repair",
+    },
+    {
+      name: "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    },
+    {
+      name: 'Brownstone "The inside scoop"',
+      path: "/blog/brownstone-the-inside-scoop",
+    },
+    {
       name: "Brownstone Facade Repair Park Slope",
       path: "/blog/brownstone-facade-repair-park-slope",
     },
@@ -93,18 +105,6 @@ export function BlogsOverview() {
       name: "How to Restore Brownstone Facade",
       path: "/blog/how-to-restore-brownstone-facade",
     },
-    {
-      name: 'Brownstone "The inside scoop"',
-      path: "/blog/brownstone-the-inside-scoop",
-    },
-    {
-      name: "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
-    },
-    {
-      name: "Signs Your Brownstone Needs Immediate Repair",
-      path: "/blog/signs-your-brownstone-needs-immediate-repair",
-    },
   ];
 
   useEffect(() => {
@@ -168,7 +168,7 @@ export function BlogsOverview() {
                   {plans.map((plan, index) => (
                     <Link key={index} href={plan.path}>
                       <div
-                        className="group p-1 min-h-[100px] flex items-center justify-center text-center rounded-lg bg-gray-300 hover:bg-primary shadow-sm hover:shadow-md transition-all"
+                        className="group p-1 min-h-[80px] flex items-center justify-center text-center rounded-lg bg-gray-300 hover:bg-primary shadow-sm hover:shadow-md transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         <p className="text-sm font-semibold text-gray-800 group-hover:text-white leading-snug">

@@ -2,6 +2,50 @@ export const blogData = [
   {
     id: 1,
     author: "Imrul Hassan",
+    slug: "signs-your-brownstone-needs-immediate-repair",
+    date: "Jun 6, 2022",
+    readTime: "3 min read",
+    title: "Signs Your Brownstone Needs Immediate Repair",
+    contentPreview: ` 1. Introduction: Importance of Maintaining Brownstones 2. Cracks and Bulges in Facade 3. Water Damage and Moisture Issues....
+    `,
+    views: 30,
+    comments: 0,
+    liked: true,
+    image: "/blog/img-23.jpg",
+  },
+  {
+    id: 2,
+    author: "Imrul Hassan",
+    slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    date: "Jun 6, 2022",
+    readTime: "3 min read",
+    title:
+      "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
+    contentPreview:
+      "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may...",
+    views: 30,
+    comments: 0,
+    liked: true,
+    image: "/blog/img-22.jpg",
+  },
+  {
+    id: 3,
+    author: "Imrul Hassan",
+    slug: "brownstone-the-inside-scoop",
+    date: "Jun 6, 2022",
+    readTime: "3 min read",
+    title: "Brownstone The inside scoop",
+    contentPreview:
+      "Who are the Brownstone Specialists? Why do we call ourselves the brownstone specialists? At Infinity Construction NYC INC. we offer...",
+    views: 30,
+    comments: 0,
+    liked: true,
+    image: "/blog/img-24.jpg",
+  },
+
+  {
+    id: 4,
+    author: "Imrul Hassan",
     slug: "brownstone-facade-repair-park-slope",
     date: "Nov 8",
     readTime: "3 min read",
@@ -14,7 +58,7 @@ export const blogData = [
     image: "/blog/img-1.webp",
   },
   {
-    id: 2,
+    id: 5,
     author: "Imrul Hassan",
     slug: "how-to-bring-back-the-original-splendor-of-your-brownstone",
     date: "Oct 14",
@@ -28,7 +72,7 @@ export const blogData = [
     image: "/blog/img-2.webp",
   },
   {
-    id: 3,
+    id: 6,
     author: "Imrul Hassan",
     slug: "why-choose-professional-brownstone-restoration-services",
     date: "Oct 3",
@@ -42,7 +86,7 @@ export const blogData = [
     image: "/blog/img-3.webp",
   },
   {
-    id: 4,
+    id: 7,
     author: "Imrul Hassan",
     slug: "mini-split-vs-central-air",
     date: "Feb 15",
@@ -57,7 +101,7 @@ export const blogData = [
     image: "/blog/img-4.webp",
   },
   {
-    id: 5,
+    id: 8,
     author: "Imrul Hassan",
     slug: "how-to-hand-scrape-a-floor",
     date: "Sep 30, 2023",
@@ -71,7 +115,7 @@ export const blogData = [
     image: "/blog/img-5.webp",
   },
   {
-    id: 6,
+    id: 9,
     author: "Imrul Hassan",
     slug: "how-to-repair-crumbling-bricks",
     date: "Sep 30, 2023",
@@ -85,7 +129,7 @@ export const blogData = [
     image: "/blog/img-6.webp",
   },
   {
-    id: 7,
+    id: 10,
     author: "Imrul Hassan",
     slug: "veneer-masonry-construction-process",
     date: "Sep 20, 2023",
@@ -99,7 +143,7 @@ export const blogData = [
     image: "/blog/img-7.webp",
   },
   {
-    id: 8,
+    id: 11,
     author: "Imrul Hassan",
     slug: "waterproof-caulking-and-restoration",
     date: "Sep 19, 2023",
@@ -114,7 +158,7 @@ export const blogData = [
     image: "/blog/img-8.webp",
   },
   {
-    id: 9,
+    id: 12,
     author: "Imrul Hassan",
     slug: "composite-masonry-comprehensive-overview",
     date: "Sep 18, 2023",
@@ -128,7 +172,7 @@ export const blogData = [
     image: "/blog/img-9.webp",
   },
   {
-    id: 10,
+    id: 13,
     author: "Imrul Hassan",
     slug: "stone-masonry-exclusive-guide",
     date: "Aug 2, 2023",
@@ -142,7 +186,7 @@ export const blogData = [
     image: "/blog/img-10.webp",
   },
   {
-    id: 11,
+    id: 14,
     author: "Imrul Hassan",
     slug: "how-to-maintain-and-repair-leaded-windows",
     date: "Aug 2, 2023",
@@ -156,7 +200,7 @@ export const blogData = [
     image: "/blog/img-11.webp",
   },
   {
-    id: 12,
+    id: 15,
     author: "Imrul Hassan",
     slug: "masonry-work",
     date: "Aug 2, 2023",
@@ -170,7 +214,7 @@ export const blogData = [
     image: "/blog/img-12.webp",
   },
   {
-    id: 13,
+    id: 16,
     author: "Imrul Hassan",
     slug: "how-to-repair-a-brownstone-stoop",
     date: "May 13, 2023",
@@ -184,7 +228,7 @@ export const blogData = [
     image: "/blog/img-13.webp",
   },
   {
-    id: 14,
+    id: 17,
     author: "Imrul Hassan",
     slug: "what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
     date: "Apr 29, 2023",
@@ -198,7 +242,7 @@ export const blogData = [
     image: "/blog/img-14.webp",
   },
   {
-    id: 15,
+    id: 18,
     author: "Imrul Hassan",
     slug: "concrete-mix-design-calculation",
     date: "Apr 8, 2023",
@@ -212,7 +256,7 @@ export const blogData = [
     image: "/blog/img-15.webp",
   },
   {
-    id: 16,
+    id: 19,
     author: "Imrul Hassan",
     slug: "masonry-work-exclusive-guide",
     date: "Mar 29, 2023",
@@ -226,7 +270,7 @@ export const blogData = [
     image: "/blog/img-16.webp",
   },
   {
-    id: 17,
+    id: 20,
     author: "Imrul Hassan",
     slug: "fire-escape-painting",
     date: "Mar 25, 2023",
@@ -240,7 +284,7 @@ export const blogData = [
     image: "/blog/img-17.webp",
   },
   {
-    id: 18,
+    id: 21,
     author: "Imrul Hassan",
     slug: "diy-roof-repair",
     date: "Mar 12, 2023",
@@ -254,7 +298,7 @@ export const blogData = [
     image: "/blog/img-18.webp",
   },
   {
-    id: 19,
+    id: 22,
     author: "Imrul Hassan",
     slug: "brick-pointing",
     date: "Mar 5, 2023",
@@ -268,7 +312,7 @@ export const blogData = [
     image: "/blog/img-19.webp",
   },
   {
-    id: 20,
+    id: 23,
     author: "Imrul Hassan",
     slug: "how-to-restore-brownstone-facade",
     date: "Mar 1, 2023",
@@ -280,48 +324,5 @@ export const blogData = [
     comments: 0,
     liked: true,
     image: "/blog/img-20.webp",
-  },
-  {
-    id: 21,
-    author: "Imrul Hassan",
-    slug: "brownstone-the-inside-scoop",
-    date: "Jun 6, 2022",
-    readTime: "3 min read",
-    title: "Brownstone The inside scoop",
-    contentPreview:
-      "Who are the Brownstone Specialists? Why do we call ourselves the brownstone specialists? At Infinity Construction NYC INC. we offer...",
-    views: 30,
-    comments: 0,
-    liked: true,
-    image: "/blog/img-21.webp",
-  },
-  {
-    id: 22,
-    author: "Imrul Hassan",
-    slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
-    date: "Jun 6, 2022",
-    readTime: "3 min read",
-    title:
-      "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
-    contentPreview:
-      "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may...",
-    views: 30,
-    comments: 0,
-    liked: true,
-    image: "/blog/img-3.webp",
-  },
-  {
-    id: 22,
-    author: "Imrul Hassan",
-    slug: "signs-your-brownstone-needs-immediate-repair",
-    date: "Jun 6, 2022",
-    readTime: "3 min read",
-    title: "Signs Your Brownstone Needs Immediate Repair",
-    contentPreview: ` 1. Introduction: Importance of Maintaining Brownstones 2. Cracks and Bulges in Facade 3. Water Damage and Moisture Issues....
-    `,
-    views: 30,
-    comments: 0,
-    liked: true,
-    image: "/blog/img-8.webp",
   },
 ];
