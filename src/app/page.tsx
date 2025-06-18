@@ -8,11 +8,10 @@ import HeroSection from "../components/Hero";
 // import LetsChat from "../components/extras/LetsChat";
 import MapComponent from "../components/MapComponent";
 import OurAffiliatesSection from "../components/OurAffiliatesSection";
-import TestimonialSection from "../components/testimonialsSection/TestimonialSection";
-import TestimonialsHeading from "../components/testimonialsSection/TestimonialsHeading";
 import ServicesSection from "@/components/ContactSection";
 // import ContactScroll from "@/components/extras/ContactScroll";
 import SocialLinks from "@/components/SocialLinks";
+import OurTestimonial from "@/components/OurTestimonial";
 // import ContactBar from "@/components/ContactBar";
 
 // ✅ Visible in browser <head> and view-source
@@ -53,8 +52,7 @@ export default function Home() {
       <CarouselSection />
       <HeroSection />
       <OurServices />
-      <TestimonialsHeading />
-      <TestimonialSection />
+      <OurTestimonial />
       <OurAffiliatesSection />
       <ServicesSection />
       <SocialLinks />
