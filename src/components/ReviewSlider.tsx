@@ -20,67 +20,67 @@ type Review = {
 
 const reviews: Review[] = [
   {
-    name: "ANN CULLARO",
-    date: "2 days ago",
+    name: "Erica Lewis-Conliffe",
+    date: "review",
     rating: 5,
-    text: "Exquisite brownstone facade and stoop restoration.",
+    text: "I used Infinity Construction to get my steps done...",
     detailText:
-      "I recommend future Brownstone homeowners to take advantage of Infinity Construction NYC's services, specializing in brownstone restoration. They did an exquisite job with my brownstone facade and stoop restoration and we loved the end results. There was no discoloration or fading and the finishing was very smooth & clean. The professionalism and feedback I got were unforgettable.",
-    image: "/profile.png",
+      "I used Infinity Construction to get my steps done. And I must say, the work that was done was outstanding. My steps look great! I would recommend this company again, and I will definitely be calling them back to get the entire facade of my brownstone done.Great work!",
+    image: "/profile1.png",
   },
   {
-    name: "SABRINA FINNS",
-    date: "2 days ago",
+    name: "Omar Khalil",
+    date: "review",
     rating: 5,
-    text: "Amazing basement renovation with excellent service.",
+    text: "Imrul and his team did an amazing job waterproofing...",
     detailText:
-      "Infinity Construction NYC renovated my house and it looks amazing. The interior design team knew exactly what I wanted, and did a wonderful job in renovating my basement. They installed bathrooms, ceramic and wood floors, research lights, and closets. They opened up my basement and now I have a lot of spare space. They did such a superb job and I appreciate Infinity's customer service.",
-    image: "/profile.png",
+      "Imrul and his team did an amazing job waterproofing my brick house. I wanted to get it done before the weather got really bad, and they delivered. The brick pointing repair looks amazing, and weatherproofing my rear stucco with white color sealant makes it look like a brand new wall. Imrul was very professional, highly recommend.",
+    image: "/profile1.png",
   },
   {
-    name: "MICHAEL ROSEN",
-    date: "1 week ago",
+    name: "Bryan Villatoro",
+    date: "review",
     rating: 5,
-    text: "Reliable and efficient roof repair service.",
+    text: "I was having issues with water leaking through my...",
     detailText:
-      "After a major storm, I contacted Infinity Construction NYC for roof repairs. They were prompt, professional, and honest about the repairs needed. The crew completed the job within a few days and even replaced some damaged gutters. I highly recommend them for anyone needing trustworthy roofing work.",
-    image: "/profile.png",
+      "I was having issues with water leaking through my brick facade and window sills. Imrul and his team did an awesome job. They redid my brick pointing and window sills, and now I don't have any water leakage. I really recommend them!",
+    image: "/profile1.png",
   },
   {
-    name: "JULIA MENDOZA",
-    date: "4 days ago",
+    name: "Daniel David",
+    date: "review",
     rating: 5,
-    text: "Transformed our outdated kitchen beautifully.",
+    text: "This company recently worked on two of my homes in...",
     detailText:
-      "Infinity Construction NYC turned our outdated kitchen into a modern, stylish, and fully functional space. The attention to detail was impressive—from the cabinetry to the lighting. They stayed on budget and finished on time. We're extremely happy with the results!",
-    image: "/profile.png",
+      "This company recently worked on two of my homes in Bushwick, and the job was completed beyond satisfactory. Their prices were extremely reasonable and if there were any concerns or minor issues, they were addressed in a timely manner. Communication is key when doing business, and they exceeded my expectations. Highly recommended",
+    image: "/profile1.png",
   },
   {
-    name: "DAVID LEE",
-    date: "5 days ago",
+    name: "elvis",
+    date: "review",
     rating: 5,
-    text: "Professional team with excellent craftsmanship.",
+    text: "Imrul and his team did an excellent job on our...",
     detailText:
-      "The Infinity team was amazing to work with. They renovated our entire first floor, including the living room and dining area. Their craftsmanship and finishing touches made everything look high-end. Communication throughout the project was clear and respectful.",
-    image: "/profile.png",
+      "Imrul and his team did an excellent job on our brownstone façade & stoop. They paid careful attention to detail, and maintained a safe and clean working environment throughout the process. They made sure everything was to our satisfaction. I Would recommend them to anyone who wants reliable and good quality work!.",
+    image: "/profile1.png",
   },
   {
-    name: "ANGELA MARTINS",
-    date: "3 days ago",
+    name: "Grant Nelson",
+    date: "review",
     rating: 5,
-    text: "Our bathroom now looks like a spa.",
+    text: "Thank you for such a amazing job! Really good...",
     detailText:
-      "We hired Infinity Construction NYC for a full bathroom remodel, and it turned out better than we imagined. From heated floors to a walk-in shower, they added every feature we asked for. The space now feels like a spa retreat. Excellent work and great service!",
-    image: "/profile.png",
+      "Thank you for such a amazing job! Really good reliable and efficient company. The workmanship was excellent I would definitely recommend this company and would use them again.....Infinity Construction NYC Inc.",
+    image: "/profile1.png",
   },
   {
-    name: "ROBERT KLEIN",
-    date: "6 days ago",
+    name: "Veronica Armstrong",
+    date: "review",
     rating: 5,
     text: "Fast and flawless brownstone repointing.",
     detailText:
-      "We had major cracks in our brownstone exterior, and Infinity handled the repointing with care and precision. The final look was seamless and restored the beauty of our facade. They even cleaned up the area each day before leaving. Super professional.",
-    image: "/profile.png",
+      "I am extremely happy that I called on Infinity Construction NYC INC on my second attempt at having the stoop renovated. Shaiful and his crew did a fantastic job. Their work exceeded my expectations. It was a wonderful experience and I highly recommend their expertise. Also, they were truly a pleasure to work with, very professional. I will call on them again for future projects.",
+    image: "/profile1.png",
   },
 ];
 
@@ -192,7 +192,7 @@ const ReviewSlider = () => {
               aria-label={`Review ${idx + 1} of ${reviews.length}`} // Provides context for screen readers
             >
               <motion.div
-                className="bg-[#002147] text-white rounded-xl p-4 w-[250px] h-[300px] flex flex-col gap-2 items-start mx-auto"
+                className="bg-primary text-white rounded-xl p-4 w-[250px] h-[300px] flex flex-col gap-2 items-start mx-auto"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -221,7 +221,10 @@ const ReviewSlider = () => {
                     </p>
                   </div>
                 </div>
-                <div className="text-primary text-3xl mt-2" aria-hidden="true">
+                <div
+                  className="text-[#002147] text-3xl mt-2"
+                  aria-hidden="true"
+                >
                   {"★".repeat(review.rating)}
                 </div>
                 <p className="sr-only">{review.rating} out of 5 stars</p>{" "}
@@ -233,7 +236,7 @@ const ReviewSlider = () => {
                   {review.text}
                 </p>
                 <button
-                  className="text-sm text-white hover:text-primary mt-2 cursor-pointer font-bevietnam"
+                  className="text-sm text-white hover:text-[#002147] mt-2 cursor-pointer font-bevietnam"
                   onClick={() => setSelectedReview(review)}
                   aria-haspopup="dialog" // Indicates that clicking opens a dialog
                   aria-controls="review-modal" // Links to the ID of the modal
@@ -242,7 +245,7 @@ const ReviewSlider = () => {
                 >
                   Read more
                 </button>
-                <div className="flex items-center gap-2 text-xs text-gray-300 mt-3">
+                <div className="flex items-center gap-2 text-xs text-white mt-3">
                   <Image
                     src="/google.png"
                     alt="Google Logo" // More specific alt text

@@ -9,6 +9,7 @@ export type BlogSection = {
 
 export type Blog = {
   title: string;
+  keywords:string,
   slug: string;
   description: string | JSX.Element;
   image: string;
@@ -17,6 +18,8 @@ export type Blog = {
 
 export const BlogsData: Blog[] = [
   {
+    keywords:
+      "Brownstone restoration NYC, Brownstone repair, Brownstone facade restoration, Historic brownstone renovation, Brownstone masonry repair, Brownstone contractor in Brooklyn, Brownstone waterproofing, Brownstone repointing, Affordable brownstone restoration, Brownstone stoop restoration",
     slug: "signs-your-brownstone-needs-immediate-repair",
     title: "Signs Your Brownstone Needs Immediate Repair",
     description: (
@@ -219,6 +222,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     title:
       "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
@@ -323,6 +327,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "brownstone-the-inside-scoop",
     title: 'Brownstone "The inside scoop"',
     description: (
@@ -451,6 +456,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "brownstone-facade-repair-park-slope",
     title: "Stunning Transformations: Brownstone Facade Repair in Park Slope",
     description: (
@@ -593,6 +599,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-bring-back-the-original-splendor-of-your-brownstone",
     title: "How to Bring Back the Original Splendor of Your Brownstone",
     description: (
@@ -723,6 +730,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "why-choose-professional-brownstone-restoration-services",
     title: "Why Choose Professional Brownstone Restoration Services?",
     description: (
@@ -846,6 +854,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "mini-split-vs-central-air",
     title:
       "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
@@ -991,6 +1000,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-hand-scrape-a-floor",
     title: "How to Hand Scrape a Floor",
     description: (
@@ -1212,6 +1222,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-repair-crumbling-bricks",
     title: "How to Repair Crumbling Bricks",
     description: (
@@ -1380,6 +1391,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "veneer-masonry-construction-process",
     title: "Veneer Masonry Construction Process - Expert's Guide",
     description: (
@@ -1697,6 +1709,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "waterproof-caulking-and-restoration",
     title:
       "Waterproof Caulking and Restoration: Enhancing Structural Integrity and Aesthetic Appeal",
@@ -1942,6 +1955,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "composite-masonry-comprehensive-overview",
     title: "Composite Masonry: A Comprehensive Overview",
     description: (
@@ -2295,6 +2309,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "stone-masonry-exclusive-guide",
     title: "Stone Masonry- Exclusive Guide",
     description: (
@@ -2599,6 +2614,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-maintain-and-repair-leaded-windows",
     title: "How to Maintain and Repair Leaded Windows",
     description: (
@@ -2784,6 +2800,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "masonry-work",
     title: "Masonry Work: Types, Advantages, Challenges and Safety Tips",
     description: (
@@ -3160,6 +3177,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-repair-a-brownstone-stoop",
     title: "How to Repair a Brownstone Stoop - Expert&apos;s Guide!",
     description: (
@@ -3445,6 +3463,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
     title: "What are Brownstone Houses and Why are They Popular in NYC",
     description: (
@@ -3849,6 +3868,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "concrete-mix-design-calculation",
     title: "Concrete Mix Design Calculation - Must Following Steps",
     description: (
@@ -4097,6 +4117,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "masonry-work-exclusive-guide",
     title: "Masonry Work - An Exclusive Guide!",
     description: (
@@ -4521,6 +4542,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "fire-escape-painting",
     title: "Fire Escape Painting - Ensure Your Safety",
     description: (
@@ -4675,6 +4697,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "diy-roof-repair",
     title: "DIY Roof Repair: A Comprehensive Guide",
     description: (
@@ -4889,6 +4912,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "brick-pointing",
     title: "Brick Pointing - An Extensive Guide",
     description: (
@@ -5066,6 +5090,7 @@ export const BlogsData: Blog[] = [
     ],
   },
   {
+    keywords: "",
     slug: "how-to-restore-brownstone-facade",
     title: "How to Restore Brownstone Facade",
     description: (

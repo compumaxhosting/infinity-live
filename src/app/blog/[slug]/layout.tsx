@@ -17,6 +17,7 @@ export async function generateMetadata({
 
   if (!blog) {
     return {
+      keywords: "infinity construction, blog, not found",
       title: "Blog not found",
       description: "No blog details available.",
       openGraph: {
@@ -31,7 +32,7 @@ export async function generateMetadata({
   return {
     title: blog.title,
     description: typeof blog.description === "string" ? blog.description : "",
-    // keywords only if your blog has them as string (optional)
+    keywords: typeof blog.keywords === "string" ? blog.keywords : undefined,
     openGraph: {
       title: blog.title,
       description: typeof blog.description === "string" ? blog.description : "",
@@ -46,7 +47,7 @@ export async function generateMetadata({
       ],
       type: "article",
     },
-  };
+  };  
 }
 
 export default async function BlogLayout({
