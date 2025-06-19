@@ -171,7 +171,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 1,
     comments: 0,
     liked: false,
-    image: "/blog/img-8.webp",
+    image: "/blog/img-8.jpg",
   },
   {
     id: 13,
@@ -185,7 +185,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 25,
     comments: 0,
     liked: false,
-    image: "/blog/img-9.webp",
+    image: "/blog/img-9.jpg",
   },
   {
     id: 14,
@@ -199,7 +199,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 6,
     comments: 0,
     liked: false,
-    image: "/blog/img-10.webp",
+    image: "/blog/img-10.jpg",
   },
   {
     id: 15,
@@ -213,7 +213,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 97,
     comments: 0,
     liked: false,
-    image: "/blog/img-11.webp",
+    image: "/blog/img-11.jpg",
   },
   {
     id: 16,
