@@ -38,7 +38,7 @@ const OurServices = () => {
               >
                 {/* Image Section */}
                 <div
-                  className={`w-full lg:w-1/3 mb-4 lg:mb-0 border-8 border-tertiary bg-tertiary ${
+                  className={`w-full lg:w-1/3 mb-4 lg:mb-0 ${
                     data.id % 2 === 0 ? "sm:order-last" : ""
                   }`}
                 >

@@ -7,7 +7,6 @@ import HeaderTwo from "../components/headerSection/HeaderTwo";
 import HeroSection from "../components/Hero";
 // import LetsChat from "../components/extras/LetsChat";
 import MapComponent from "../components/MapComponent";
-import OurAffiliatesSection from "../components/OurAffiliatesSection";
 import ServicesSection from "@/components/ContactSection";
 // import ContactScroll from "@/components/extras/ContactScroll";
 import SocialLinks from "@/components/SocialLinks";
@@ -53,7 +52,6 @@ export default function Home() {
       <HeroSection />
       <OurServices />
       <OurTestimonial />
-      <OurAffiliatesSection />
       <ServicesSection />
       <SocialLinks />
       <MapComponent />
