@@ -216,7 +216,7 @@ const ReviewSlider = () => {
                     >
                       {review.name}
                     </p>
-                    <p className="text-xs text-gray-300 font-inter">
+                    <p className="text-xs text-white font-inter">
                       {review.date}
                     </p>
                   </div>

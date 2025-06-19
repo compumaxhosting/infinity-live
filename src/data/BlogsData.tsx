@@ -18,6 +18,131 @@ export type Blog = {
 
 export const BlogsData: Blog[] = [
   {
+    keywords: "",
+    slug: "brownstone-repair-nyc",
+    title:
+      "Brownstone Restoration Services in Brooklyn, Manhattan, Queens, and the Bronx, NY – 15% Off at Infinity Construction NYC",
+    description: (
+      <>
+        <h1 className="mt-4 text-lg md:text-2xl font-bold">
+          NYC Brownstone Restoration Services
+        </h1>
+      </>
+    ),
+    image: "/blog/img-25.avif",
+    sections: [
+      {
+        title: "The Charm of New York City Brownstones :",
+        paragraph: (
+          <>
+            From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in
+            Queens to the historic neighborhoods of the Bronx—brownstones are
+            the heart of New York City’s residential identity. These iconic
+            structures, built mostly in the late 1800s, are admired for their
+            craftsmanship, sandstone exteriors, and rich history.
+          </>
+        ),
+      },
+      {
+        title: "Why Restoration Is Essential in NYC :",
+        paragraph: (
+          <>
+            NYC’s climate, pollution, and time can all take a toll on
+            brownstones. Cracks, water damage, and facade decay are common.
+            That’s why homeowners across the city rely on professional
+            brownstone restoration to keep their properties safe, stunning, and
+            historically accurate.
+            <br />
+            <h1 className="mt-4 text-lg md:text-2xl font-bold">
+              Expert Brownstone Repair Services in NYC :
+            </h1>
+          </>
+        ),
+      },
+      {
+        title: "Complete Brownstone Repair Solutions :",
+        paragraph: (
+          <>
+            Brownstone repair in NYC involves everything from patching surface
+            damage to resolving deep structural issues. It requires local
+            expertise and an understanding of historic construction.
+          </>
+        ),
+      },
+      {
+        title: "Surface Restoration vs. Structural Repair :",
+        paragraph: (
+          <>
+            Surface repairs deal with cosmetic issues like peeling finishes or
+            cracked paint. Structural work targets weakened masonry, shifting
+            lintels, and failing cornices—crucial for safety and property value.
+          </>
+        ),
+      },
+      {
+        title:
+          "Brownstone Facade Restoration in Brooklyn, Manhattan, Queens & Bronx :",
+        paragraph: (
+          <>
+            Your brownstone’s facade is its face to the world. A professional
+            brownstone facade restoration revives its original appearance using
+            compatible materials and color-matched finishes.
+          </>
+        ),
+      },
+      {
+        title: "Historic Brownstone Renovation Services : ",
+        paragraph: (
+          <>
+            Restoring landmark properties in New York City? You need experts in
+            historic brownstone renovation. From stone carving to regulation
+            compliance, it’s all about preserving the past without compromising
+            the future.
+          </>
+        ),
+      },
+      {
+        title: "Brownstone Masonry Repair and Repointing NYC : ",
+        paragraph: (
+          <>
+            Cracked mortar joints can lead to leaks and decay. Brownstone
+            repointing replaces damaged mortar with a historically accurate mix
+            to preserve integrity and aesthetics.
+          </>
+        ),
+      },
+      {
+        title: "Brownstone Exterior Repair and Waterproofing in NYC : ",
+        paragraph: (
+          <>
+            Moisture is the enemy. Brownstone waterproofing and surface repair
+            defend against NYC’s wet winters and humid summers.
+          </>
+        ),
+      },
+      {
+        title: "Waterproofing Against NYC Weather : ",
+        paragraph: (
+          <>
+            Modern breathable sealants and weather-resistant coatings offer
+            protection without trapping moisture, preventing cracking and mold
+            growth.
+          </>
+        ),
+      },
+      {
+        title: "NYC Brownstone Stoop Repair and Restoration : ",
+        paragraph: (
+          <>
+            The stoop is an iconic part of NYC brownstones. Restoration includes
+            rebuilding steps, railings, and entryways with period-accurate
+            stone.
+          </>
+        ),
+      },
+    ],
+  },
+  {
     keywords:
       "Brownstone restoration NYC, Brownstone repair, Brownstone facade restoration, Historic brownstone renovation, Brownstone masonry repair, Brownstone contractor in Brooklyn, Brownstone waterproofing, Brownstone repointing, Affordable brownstone restoration, Brownstone stoop restoration",
     slug: "signs-your-brownstone-needs-immediate-repair",

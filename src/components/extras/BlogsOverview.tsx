@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Brownstone Restoration Services in Brooklyn, Manhattan, Queens, and the Bronx, NY – 15% Off at Infinity Construction NYC",
+      path: "/blog/brownstone-repair-nyc",
+    },
+    {
       name: "Signs Your Brownstone Needs Immediate Repair",
       path: "/blog/signs-your-brownstone-needs-immediate-repair",
     },
