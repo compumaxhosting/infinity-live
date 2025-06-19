@@ -598,7 +598,7 @@ export const BlogsData: Blog[] = [
         their elegance and structural integrity.
       </>
     ),
-    image: "/blog/img-1.webp",
+    image: "/blog/img-1.jpg",
     sections: [
       {
         title: "",
@@ -628,7 +628,7 @@ export const BlogsData: Blog[] = [
               <div className="w-full max-w-md mx-auto">
                 <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
                   <Image
-                    src="/blog/img-1b.webp"
+                    src="/blog/img-1b.jpg"
                     alt="Brownstone Restoration"
                     width={700}
                     height={500}
@@ -741,7 +741,7 @@ export const BlogsData: Blog[] = [
         beauty of your brownstone.
       </>
     ),
-    image: "/blog/img-2.webp",
+    image: "/blog/img-2.jpg",
     sections: [
       {
         title: "1. Understanding the Importance of the Brownstone Restoration",
@@ -870,7 +870,7 @@ export const BlogsData: Blog[] = [
         project.
       </>
     ),
-    image: "/blog/img-3.webp",
+    image: "/blog/img-3.jpg",
     sections: [
       {
         title: "Expertise in Historical Architecture",
@@ -991,7 +991,7 @@ export const BlogsData: Blog[] = [
         size, budget, and individual preferences.
       </>
     ),
-    image: "/blog/img-4.webp",
+    image: "/blog/img-4.jpg",
     sections: [
       {
         title: "Mini Split Systems",
@@ -1139,7 +1139,7 @@ export const BlogsData: Blog[] = [
         hand-scrape a floor:
       </>
     ),
-    image: "/blog/img-5.webp",
+    image: "/blog/img-5.jpg",
     sections: [
       {
         title: "Materials You Will Need",
@@ -1359,7 +1359,7 @@ export const BlogsData: Blog[] = [
         bricks:
       </>
     ),
-    image: "/blog/img-6.webp",
+    image: "/blog/img-6.jpg",
     sections: [
       {
         title: "Materials You Will Need:",
@@ -1533,7 +1533,7 @@ export const BlogsData: Blog[] = [
         adhesive, mortar, or other appropriate fastening methods.
       </>
     ),
-    image: "/blog/img-7.webp",
+    image: "/blog/img-7.jpg",
     sections: [
       {
         title: "Key Points",
@@ -1850,7 +1850,7 @@ export const BlogsData: Blog[] = [
         offer.
       </>
     ),
-    image: "/blog/img-8.webp",
+    image: "/blog/img-8.jpg",
     sections: [
       {
         title: "Understanding Waterproof Caulking:",
@@ -2094,7 +2094,7 @@ export const BlogsData: Blog[] = [
         benefits, various types, and practical applications.
       </>
     ),
-    image: "/blog/img-9.webp",
+    image: "/blog/img-9.jpg",
     sections: [
       {
         title: "Understanding Composite Masonry:",
@@ -2452,7 +2452,7 @@ export const BlogsData: Blog[] = [
         need for excessive mortar or other binding materials.
       </>
     ),
-    image: "/blog/img-10.webp",
+    image: "/blog/img-10.jpg",
     sections: [
       {
         title:
@@ -2760,7 +2760,7 @@ export const BlogsData: Blog[] = [
         repair them effectively.
       </>
     ),
-    image: "/blog/img-11.webp",
+    image: "/blog/img-11.jpg",
     sections: [
       {
         title: "HOW LEADED WINDOWS ARE MADE :",
