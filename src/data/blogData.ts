@@ -7,12 +7,13 @@ export const blogData = [
     readTime: "3 min read",
     title:
       "Brownstone Restoration Services in Brooklyn, Manhattan, Queens, and the Bronx, NY – 15% Off at Infinity Construction NYC",
-    contentPreview: ` The Charm of New York City Brownstones : From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
+    contentPreview: ` The Charm of New York City Brownstones :
+From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     `,
     views: 30,
     comments: 0,
     liked: true,
-    image: "/blog/img-25.avif", 
+    image: "/blog/img-25.avif",
   },
   {
     id: 2,
@@ -70,7 +71,7 @@ export const blogData = [
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-1.webp",
+    image: "/blog/img-1.jpg",
   },
   {
     id: 6,
@@ -84,7 +85,7 @@ export const blogData = [
     views: 6,
     comments: 0,
     liked: false,
-    image: "/blog/img-2.webp",
+    image: "/blog/img-2.jpg",
   },
   {
     id: 7,
@@ -98,7 +99,7 @@ export const blogData = [
     views: 10,
     comments: 0,
     liked: false,
-    image: "/blog/img-3.webp",
+    image: "/blog/img-3.jpg",
   },
   {
     id: 8,
@@ -113,7 +114,7 @@ export const blogData = [
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-4.webp",
+    image: "/blog/img-4.jpg",
   },
   {
     id: 9,
@@ -127,7 +128,7 @@ export const blogData = [
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-5.webp",
+    image: "/blog/img-5.jpg",
   },
   {
     id: 10,
@@ -141,7 +142,7 @@ export const blogData = [
     views: 15,
     comments: 0,
     liked: false,
-    image: "/blog/img-6.webp",
+    image: "/blog/img-6.jpg",
   },
   {
     id: 11,
@@ -155,7 +156,7 @@ export const blogData = [
     views: 21,
     comments: 0,
     liked: false,
-    image: "/blog/img-7.webp",
+    image: "/blog/img-7.jpg",
   },
   {
     id: 12,
