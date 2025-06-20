@@ -25,7 +25,7 @@ export const specialityData = [
     },
     {
       id: 4,
-      imageUrl: "/services-img-4.jpeg",
+      imageUrl: "/services-img-4.jpg",
       heading: "Roof Restoration and Weatherproofing",
       path: "/roof-restoration-and-weatherproofing",
       description:

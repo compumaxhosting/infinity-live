@@ -4,26 +4,55 @@ import React from "react";
 const AboutTemp = () => {
   return (
     <>
-      <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20">
+      <section
+        className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20"
+        itemScope
+        itemType="https://schema.org/LocalBusiness"
+      >
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "Infinity Construction NYC",
+            description:
+              "Brooklyn-based construction and restoration company serving all five boroughs of New York City",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Brooklyn",
+              addressRegion: "NY",
+              addressCountry: "US",
+            },
+            areaServed: {
+              "@type": "State",
+              name: "New York",
+            },
+            keywords:
+              "New York construction, Brooklyn contractors, NYC restoration",
+          })}
+        </script>
+
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1
             className="text-3xl sm:text-4xl 2xl:text-6xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 md:pb-6"
             style={{ fontFamily: "var(--font-forum)" }}
+            itemProp="name"
           >
-            About Infinity Construction NYC Building Trust Across New York City
+            About Infinity Construction NYC: Building Trust Across New York City
           </h1>
 
           {/* Introduction Paragraph */}
           <p
             className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
+            itemProp="description"
           >
-            At {" "}
-            <Link href="/">
-              <span>Infinity Construction NYC</span>
+            At{" "}
+            <Link href="/" itemProp="url">
+              <span itemProp="legalName">Infinity Construction NYC</span>
             </Link>
-            , we believe that every building tells a story — and we’re here to
+            , we believe that every building tells a story — and we&apos;re here to
             ensure it stands strong for generations. Based in Brooklyn, New
             York, we are a team of passionate professionals committed to
             excellence in every project we take on.
@@ -34,7 +63,7 @@ const AboutTemp = () => {
             className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            As a trusted name in New York City’s construction and restoration
+            As a trusted name in New York City&apos;s construction and restoration
             industry, our foundation is built on integrity, professionalism, and
             long-standing relationships with property owners, developers, and
             communities throughout the five boroughs.
@@ -53,14 +82,49 @@ const AboutTemp = () => {
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC proudly serves{" "}
-            <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>,{" "}
-            <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>,{" "}
-            <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>,{" "}
-            <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,{" "}
-            <Link href="https://www.wikidata.org/wiki/Q60">New York City</Link>.
-            With deep knowledge of the city’s building codes, local regulations,
-            and architectural heritage, we understand what it takes to deliver
-            quality work in a complex urban environment like New York.
+            <Link
+              href="https://www.wikidata.org/wiki/Q11299"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Manhattan
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.wikidata.org/wiki/Q18419"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Brooklyn
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.wikidata.org/wiki/Q18424"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Queens
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.wikidata.org/wiki/Q18426"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              The Bronx
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.wikidata.org/wiki/Q60"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              New York City
+            </Link>
+            . With deep knowledge of the city&apos;s building codes, local
+            regulations, and architectural heritage, we understand what it takes
+            to deliver quality work in a complex urban environment like New
+            York.
           </p>
 
           <p
@@ -84,7 +148,9 @@ const AboutTemp = () => {
             className="pt-4 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-8 mx-auto sm:px-20 list-disc list-inside"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            <li>Locally Owned and Operated in Brooklyn, NY</li>
+            <li itemProp="makesOffer">
+              Locally Owned and Operated in Brooklyn, NY
+            </li>
             <li>Fully Licensed and Insured in New York State</li>
             <li>Years of Experience Working Across All Five Boroughs</li>
             <li>Hands-On Project Management from Start to Finish</li>
@@ -99,7 +165,7 @@ const AboutTemp = () => {
             className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            We’re not just another contractor — we’re your neighbor, your
+            We&apos;re not just another contractor — we&apos;re your neighbor, your
             advisor, and your partner in preserving and enhancing New York
             City&apos;s legacy.
           </p>
@@ -130,26 +196,40 @@ const AboutTemp = () => {
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Headquartered in Brooklyn, we are proud to have earned the trust of
-            clients across all boroughs of NYC. Whether you&apos;re a property
-            owner, manager, or resident, we approach every project with care,
+            clients across all boroughs of NYC. Whether you&apos;re a property owner,
+            manager, or resident, we approach every project with care,
             attention, and respect for your investment and your community.
           </p>
 
           {/* FAQ */}
-          <h3
-            className="mt-10 text-xl sm:text-2xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
-            style={{ fontFamily: "var(--font-forum)" }}
+          <div
+            itemScope
+            itemProp="mainEntity"
+            itemType="https://schema.org/Question"
           >
-            FAQ: Is Infinity Construction NYC a locally trusted company?
-          </h3>
-          <p
-            className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
-            style={{ fontFamily: "var(--font-forum)" }}
-          >
-            Yes! Infinity Construction NYC is a Brooklyn-based company with a
-            long-standing reputation for quality work and professionalism
-            throughout New York City.
-          </p>
+            <h3
+              className="mt-10 text-xl sm:text-2xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
+              style={{ fontFamily: "var(--font-forum)" }}
+              itemProp="name"
+            >
+              FAQ: Is Infinity Construction NYC a locally trusted company?
+            </h3>
+            <div
+              itemScope
+              itemProp="acceptedAnswer"
+              itemType="https://schema.org/Answer"
+            >
+              <p
+                className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+                style={{ fontFamily: "var(--font-forum)" }}
+                itemProp="text"
+              >
+                Yes! Infinity Construction NYC is a Brooklyn-based company with
+                a long-standing reputation for quality work and professionalism
+                throughout New York City.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>
