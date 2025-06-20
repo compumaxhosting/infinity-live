@@ -4,7 +4,7 @@ export const slides = [
     id: 1,
     title: "Slide 1 Title",
     description: "This is the description for Slide 1",
-    image: "/img-2.jpeg",
+    image: "/img-2.jpg",
   },
   {
     id: 2,
