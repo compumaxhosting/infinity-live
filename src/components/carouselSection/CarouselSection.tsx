@@ -8,6 +8,14 @@ import { motion } from "framer-motion";
 import CarouselContent from "./CarouselContent";
 import { slides } from "@/data/bannerSlidesData";
 
+// Define proper type for slides
+interface Slide {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+}
+
 const CarouselSection: React.FC = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
   const [canScrollPrev, setCanScrollPrev] = useState(false);
@@ -49,16 +57,24 @@ const CarouselSection: React.FC = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <section
+      className="relative w-full overflow-hidden"
+      aria-label="Featured projects gallery"
+      itemScope
+      itemType="https://schema.org/ItemList"
+    >
       <div className="embla" ref={emblaRef}>
         <div className="flex">
-          {slides.map((slide, index) => (
+          {(slides as Slide[]).map((slide, index) => (
             <div
               key={slide.id}
               className="relative flex-[0_0_100%] w-full h-[440px] sm:h-screen overflow-hidden"
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/ListItem"
             >
+              <meta itemProp="position" content={String(index + 1)} />
               <motion.div
-                key={slide.id}
                 className="relative flex-[0_0_100%] w-full h-screen overflow-hidden"
                 initial={{ scale: 1.6 }}
                 animate={{ scale: selectedIndex === index ? 1.03 : 1.6 }}
@@ -66,15 +82,16 @@ const CarouselSection: React.FC = () => {
               >
                 <Image
                   src={slide.image}
-                  alt={`Slide ${slide.id}`}
+                  alt={`${slide.title} - Infinity Construction NYC`}
                   fill
-                  loading="eager"
-                  priority
+                  loading={index === 0 ? "eager" : "lazy"}
+                  priority={index === 0}
                   className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                 />
                 <div className="absolute bg-black/40 sm:bg-black/30 z-10 h-full w-full"></div>
               </motion.div>
-              <CarouselContent />
+              <CarouselContent  />
             </div>
           ))}
         </div>
@@ -83,15 +100,17 @@ const CarouselSection: React.FC = () => {
       <div
         className="absolute bottom-5 left-5 text-white text-sm sm:text-2xl backdrop-blur-md px-4 sm:px-6 py-2 rounded-full"
         style={{ fontFamily: "var(--font-forum)" }}
+        aria-live="polite"
+        aria-atomic="true"
       >
-        {`${selectedIndex + 1} / ${totalSlides}`}
+        {`${selectedIndex + 1} of ${totalSlides}`}
       </div>
 
       <button
         onClick={scrollPrev}
         disabled={!canScrollPrev}
-        aria-label="Scroll to previous item"
-        className="absolute z-20 bottom-5 right-1/2 -translate-x-2 sm:bottom-auto sm:right-auto sm:left-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200"
+        aria-label="Previous project image"
+        className="absolute z-20 bottom-5 right-1/2 -translate-x-2 sm:bottom-auto sm:right-auto sm:left-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
       >
         <ChevronLeft
           className="w-8 h-8 sm:h-14"
@@ -103,8 +122,8 @@ const CarouselSection: React.FC = () => {
       <button
         onClick={scrollNext}
         disabled={!canScrollNext}
-        aria-label="Scroll to next item"
-        className="absolute z-20 bottom-5 left-1/2 translate-x-2 sm:bottom-auto sm:left-auto sm:right-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200"
+        aria-label="Next project image"
+        className="absolute z-20 bottom-5 left-1/2 translate-x-2 sm:bottom-auto sm:left-auto sm:right-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
       >
         <ChevronRight
           className="w-8 h-8 sm:h-14"
@@ -112,7 +131,7 @@ const CarouselSection: React.FC = () => {
           focusable="false"
         />
       </button>
-    </div>
+    </section>
   );
 };
 

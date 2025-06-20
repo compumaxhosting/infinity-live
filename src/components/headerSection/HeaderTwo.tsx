@@ -8,12 +8,12 @@ import { ModeToggle } from "../extras/ModeToggle";
 import SidebarMenu from "./SidebarMenu";
 import Navbar from "./Navbar";
 
-const HeaderTwo: React.FC = () => {
-  const [scrolled, setScrolled] = useState(false); 
+const Header: React.FC = () => {
+  const [scrolled, setScrolled] = useState(false);
 
   // Update scrolled state based on scroll position
   const updateScrolledState = () => {
-    // Only update scroll state for screens larger than 'md'
+    // Only update scroll state for screens larger than 'sm'
     if (window.matchMedia("(min-width: 640px)").matches) {
       setScrolled(window.scrollY > 20);
     } else {
@@ -42,61 +42,78 @@ const HeaderTwo: React.FC = () => {
           ? "bg-white dark:bg-slate-950 shadow-lg"
           : "bg-transparent dark:bg-transparent"
       }`}
+      itemScope
+      itemType="https://schema.org/LocalBusiness"
     >
       <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 pt-8 pb-4">
-        {/* Left Div: Logo */}
-        <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6 ">
-          <div>
-            <Link href="/">
+        {/* Logo and Business Name with Schema Markup */}
+        <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6">
+          <div itemProp="logo">
+            <Link href="/" aria-label="Infinity Construction NYC Home">
               <Image
                 src="/logo-new.png"
-                alt="Logo"
+                alt="Infinity Construction NYC Logo"
                 width={120}
                 height={40}
-                loading="lazy" // Lazy load the image
+                priority // Important for LCP (Largest Contentful Paint)
                 className="cursor-pointer w-24 2xl:w-32"
               />
             </Link>
           </div>
-          <Link href="/">
+          <Link href="/" className="text-center">
             <div
               className={`flex flex-col justify-center items-center ${
                 scrolled ? "text-stone-950 dark:text-white" : "text-white"
               }`}
             >
-              <p
+              <h1
                 className="text-2xl font-semibold leading-tight"
                 style={{ fontFamily: "var(--font-forum)" }}
+                itemProp="name"
               >
                 Infinity Construction NYC
-              </p>
+              </h1>
               <p
                 className="text-lg leading-tight"
                 style={{ fontFamily: "var(--font-forum)" }}
+                itemProp="slogan"
               >
                 Quality is our Specialty
               </p>
             </div>
           </Link>
-          <button className="flex sm:hidden bg-primary text-white px-4 py-3 hover:bg-orange-600 transition-all duration-300 items-center space-x-2">
-            <Link href="tel:+13479395779">
-              <div className="flex items-center space-x-2">
-                <Phone className="w-5 h-5" />
-                <span>347 939 5779</span>
-              </div>
+          {/* Phone Link with Schema Markup */}
+          <div
+            className="flex sm:hidden"
+            itemProp="telephone"
+            content="+13479395779"
+          >
+            <Link
+              href="tel:+13479395779"
+              className="bg-primary text-white px-4 py-3 hover:bg-orange-600 transition-all duration-300 flex items-center space-x-2"
+              aria-label="Call Infinity Construction NYC"
+            >
+              <Phone className="w-5 h-5" />
+              <span>347 939 5779</span>
             </Link>
-          </button>
+          </div>
         </div>
 
-        {/* Middle Div: Navbar (Only for large screens) */}
-        <Navbar />
+        {/* Navigation */}
+        <nav className="hidden xl:block" aria-label="Main navigation">
+          <Navbar />
+        </nav>
+
+        {/* Mobile Menu */}
         <div className="flex xl:hidden">
-          <SidebarMenu />
+          <SidebarMenu aria-label="Mobile menu" />
         </div>
+
+        {/* Theme Toggle */}
         <ModeToggle />
       </div>
     </header>
   );
 };
 
-export default HeaderTwo;
+export default Header;
