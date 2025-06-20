@@ -11,15 +11,27 @@ const OurServices = () => {
     <section
       className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-16"
       style={{ fontFamily: "var(--font-forum)" }}
+      aria-labelledby="our-services-heading"
+      itemScope
+      itemType="https://schema.org/ItemList"
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-center text-3xl sm:text-5xl font-bold text-gray-800 dark:text-white mb-6 sm:mb-12">
+        <h2
+          id="our-services-heading"
+          className="text-center text-3xl sm:text-5xl font-bold text-gray-800 dark:text-white mb-6 sm:mb-12"
+          itemProp="name"
+        >
           Our Services
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
           {specialityData.map((data, index) => (
-            <Link href={data.path} key={index}>
+            <Link
+              href={data.path}
+              key={data.id}
+              aria-label={`Learn more about ${data.heading} service`}
+              passHref
+            >
               <motion.div
                 className={`flex flex-col sm:flex-row ${
                   index % 2 === 0
@@ -30,11 +42,15 @@ const OurServices = () => {
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{
                   duration: 0.6,
-                  delay: 0.15,
+                  delay: index * 0.15,
                   ease: "backInOut",
                 }}
                 viewport={{ once: true, amount: 0.2 }}
+                itemScope
+                itemType="https://schema.org/Service"
+                itemProp="itemListElement"
               >
+                <meta itemProp="position" content={String(index + 1)} />
                 <div
                   className={`w-full lg:w-1/3 mb-4 lg:mb-0 ${
                     data.id % 2 === 0 ? "sm:order-last" : ""
@@ -43,7 +59,7 @@ const OurServices = () => {
                   <div className="w-full h-full aspect-video relative">
                     <Image
                       src={data.imageUrl}
-                      alt={data.heading}
+                      alt={`${data.heading} service by Infinity Construction NYC`}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className={`object-cover rounded-t-2xl ${
@@ -51,7 +67,8 @@ const OurServices = () => {
                           ? "sm:rounded-r-2xl"
                           : "sm:rounded-l-2xl"
                       }`}
-                      priority={index < 3} // Only prioritize first few images
+                      priority={index < 3}
+                      itemProp="image"
                     />
                   </div>
                 </div>
@@ -60,10 +77,14 @@ const OurServices = () => {
                   <h3
                     className="text-2xl md:text-3xl font-semibold text-tertiary dark:text-white"
                     style={{ fontFamily: "var(--font-forum)" }}
+                    itemProp="name"
                   >
                     {data.heading}
                   </h3>
-                  <p className="mt-2 text-lg xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300 text-justify">
+                  <p
+                    className="mt-2 text-lg xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300 text-justify"
+                    itemProp="description"
+                  >
                     {data.description}
                   </p>
                 </div>

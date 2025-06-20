@@ -79,3 +79,6 @@ body {
   }
 }
 
+.review-swiper {
+  padding-bottom: 220px; /* Creates space for pagination */
+}
