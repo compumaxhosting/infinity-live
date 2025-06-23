@@ -25,7 +25,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      {/* SEO meta tags visible in source code */}
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />

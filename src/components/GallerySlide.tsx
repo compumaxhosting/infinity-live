@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 interface GallerySlideProps {
   id: number;
-  image: string;
+  image: string; 
   isSelected: boolean;
 }
 
