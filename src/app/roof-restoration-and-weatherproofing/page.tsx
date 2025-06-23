@@ -42,7 +42,6 @@ const RoofRestorationPage = () => {
             At{" "}
             <Link
               href="/"
-              className="text-blue-600 hover:text-blue-800 hover:underline"
               itemProp="url"
             >
               Infinity Construction NYC
