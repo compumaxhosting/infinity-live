@@ -37,7 +37,7 @@ const BrickCMULayeringPage = () => {
         </h1>
 
         <section itemScope itemType="https://schema.org/LocalBusiness">
-          <p className="text-justify text-lg" itemProp="description">
+          <p className="text-justify text-lg px-4" itemProp="description">
             At{" "}
             <Link
               href="/"
@@ -56,7 +56,7 @@ const BrickCMULayeringPage = () => {
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
             <div className="w-full lg:w-8/12 p-4 space-y-6">
-              <h2 className="text-4xl my-4">
+              <h2 className="text-4xl mb-4">
                 Our Brick and CMU Block Layering Services
               </h2>
               <ul

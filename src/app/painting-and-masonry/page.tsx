@@ -8,7 +8,7 @@ const Page = () => {
     <div>
       <HeaderSpecial />
       <main
-        className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 pb-6 md:pb-16 border-b text-lg lg:text-xl max-w-7xl"
+        className="container mx-auto p-8 pt-4 sm:pt-28 2xl:pt-36 border-b text-lg lg:text-xl"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         <header>
@@ -33,39 +33,49 @@ const Page = () => {
             <h2 className="text-4xl my-4">Our Painting and Masonry Services</h2>
             <ul>
               <li>
-                • <strong className="font-medium">Wall and Ceiling Repairs:</strong> Fixing cracks,
-                dents, and uneven surfaces to create a seamless and uniform
-                finish. We use advanced techniques and high-quality materials
-                for long-lasting results.
+                •{" "}
+                <strong className="font-medium">
+                  Wall and Ceiling Repairs:
+                </strong>{" "}
+                Fixing cracks, dents, and uneven surfaces to create a seamless
+                and uniform finish. We use advanced techniques and high-quality
+                materials for long-lasting results.
               </li>
               <li>
-                • <strong className="font-medium">Custom Textures:</strong> Offering a variety of
-                finishes, from smooth to textured, to match your design
-                preferences. This includes modern designs, Venetian plaster, and
-                other decorative textures.
+                • <strong className="font-medium">Custom Textures:</strong>{" "}
+                Offering a variety of finishes, from smooth to textured, to
+                match your design preferences. This includes modern designs,
+                Venetian plaster, and other decorative textures.
               </li>
               <li>
-                • <strong className="font-medium">Restoration Work:</strong> Preserving and repairing
-                historic plasterwork, including intricate ornamental details, to
-                restore its original charm and elegance.
+                • <strong className="font-medium">Restoration Work:</strong>{" "}
+                Preserving and repairing historic plasterwork, including
+                intricate ornamental details, to restore its original charm and
+                elegance.
               </li>
               <li>
-                • <strong className="font-medium">Pre-Paint Preparations:</strong> Ensuring all surfaces
-                are perfectly prepared for paint application. This includes
-                sanding, priming, and applying joint compound to achieve a
-                flawless base.
+                •{" "}
+                <strong className="font-medium">Pre-Paint Preparations:</strong>{" "}
+                Ensuring all surfaces are perfectly prepared for paint
+                application. This includes sanding, priming, and applying joint
+                compound to achieve a flawless base.
               </li>
               <li>
-                • <strong className="font-medium">Moisture Resistance Solutions:</strong> Applying
-                treatments to protect plaster surfaces against dampness, mold,
-                and mildew, particularly in high-humidity areas like bathrooms
-                and kitchens.
+                •{" "}
+                <strong className="font-medium">
+                  Moisture Resistance Solutions:
+                </strong>{" "}
+                Applying treatments to protect plaster surfaces against
+                dampness, mold, and mildew, particularly in high-humidity areas
+                like bathrooms and kitchens.
               </li>
               <li>
-                • <strong className="font-medium">High-Quality Painting:</strong> Using premium paints
-                and precise techniques, we deliver vibrant and even finishes
-                that enhance the aesthetic appeal of your interiors. Custom
-                color matching is available to suit your design vision.
+                •{" "}
+                <strong className="font-medium">High-Quality Painting:</strong>{" "}
+                Using premium paints and precise techniques, we deliver vibrant
+                and even finishes that enhance the aesthetic appeal of your
+                interiors. Custom color matching is available to suit your
+                design vision.
               </li>
             </ul>
           </article>
@@ -87,29 +97,40 @@ const Page = () => {
           </h2>
           <ul>
             <li className="text-justify">
-              • <strong className="font-medium">Experienced Professionals:</strong> Our skilled team
-              brings years of expertise to every project, ensuring meticulous
-              attention to detail and exceptional craftsmanship.
+              •{" "}
+              <strong className="font-medium">
+                Experienced Professionals:
+              </strong>{" "}
+              Our skilled team brings years of expertise to every project,
+              ensuring meticulous attention to detail and exceptional
+              craftsmanship.
             </li>
             <li className="text-justify">
-              • <strong className="font-medium">Comprehensive Solutions:</strong> From minor repairs to
-              complete room makeovers, we handle all aspects of painting and
-              masonry with precision and care.
+              •{" "}
+              <strong className="font-medium">Comprehensive Solutions:</strong>{" "}
+              From minor repairs to complete room makeovers, we handle all
+              aspects of painting and masonry with precision and care.
             </li>
             <li className="text-justify">
-              • <strong className="font-medium">Premium Materials:</strong> We use only the best
-              materials and products to ensure durability, beauty, and
-              long-lasting results.
+              • <strong className="font-medium">Premium Materials:</strong> We
+              use only the best materials and products to ensure durability,
+              beauty, and long-lasting results.
             </li>
             <li className="text-justify">
-              • <strong className="font-medium">Customer-Centered Approach:</strong> We work closely
-              with you to understand your vision and ensure your satisfaction
-              throughout the project.
+              •{" "}
+              <strong className="font-medium">
+                Customer-Centered Approach:
+              </strong>{" "}
+              We work closely with you to understand your vision and ensure your
+              satisfaction throughout the project.
             </li>
             <li className="text-justify">
-              • <strong className="font-medium">Timely and Reliable Service:</strong> We complete
-              projects on schedule and within budget without compromising
-              quality.
+              •{" "}
+              <strong className="font-medium">
+                Timely and Reliable Service:
+              </strong>{" "}
+              We complete projects on schedule and within budget without
+              compromising quality.
             </li>
           </ul>
           <p className="text-justify mt-4">

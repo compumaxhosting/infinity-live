@@ -17,7 +17,7 @@ const Page = () => {
           </h1>
         </header>
 
-        <section className="mb-8">
+        <section>
           <p className="text-justify text-lg">
             Concrete paving offers durability, versatility, and a clean, modern
             look. Ideal for driveways, sidewalks, and patios, concrete is a
@@ -27,7 +27,7 @@ const Page = () => {
         </section>
 
         <section className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
-          <article className="w-full lg:w-6/12 p-4 space-y-6">
+          <article className="w-full p-4 space-y-6">
             <h2 className="text-4xl my-4">Our Concrete Paving Services</h2>
             <ul>
               <li className="text-justify">
