@@ -52,8 +52,15 @@ const HeroSection = () => {
             className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            Best Brownstone Renovation & Restoration Contractor in Brooklyn,
-            Manhattan, Queens, and The Bronx, NY.
+            <Link href="/brownstone-restoration">
+              Best Brownstone Renovation & Restoration Contractor{" "}
+            </Link>{" "}
+            in <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>
+            , <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>
+            , <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>,
+            and{" "}
+            <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,
+            NY.
           </p>
         </div>
 
