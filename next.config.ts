@@ -11,8 +11,8 @@ const nextConfig: NextConfig = {
       },
       // NEW rule
       {
-        source: "/brownstone-facade-restoration",
-        destination: "/brick-and-cmu-block-layering",
+        source: "/brick-and-cmu-block-layering",
+        destination: "/brownstone-facade-restoration",
         permanent: true, // 308 status for SEO-safe, cache-friendly redirect
       },
     ];
