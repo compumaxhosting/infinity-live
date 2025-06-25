@@ -26,10 +26,11 @@ const HistoricalLandmarkRestorationPage = () => {
 
         <section itemScope itemType="https://schema.org/LocalBusiness">
           <p className="text-justify text-lg mb-8">
-             York City is home to many historical architectural structures
+            New York City is home to many historical architectural structures
             crafted from limestone and brownstone. These buildings are not just
-            iconic; they are a testament to the &apos;s rich history and unique
-            charm. At <span itemProp="name">Infinity Construction NYC</span>, we
+            iconic; they are a testament to the city&apos;s rich history and
+            unique charm. At{" "}
+            <span itemProp="name">Infinity Construction NYC</span>, we
             specialize in restoring the beauty and integrity of these Historical
             Landmark buildings. Over time, exposure to the elements can lead to
             weathering and damage, putting these beloved structures at risk. Our
