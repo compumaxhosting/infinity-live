@@ -132,12 +132,9 @@ const BrickPointingWaterproofingPage = () => {
                 Protect Your Brickwork with Waterproofing Services
               </h2>
               <p className="text-justify" itemProp="description">
-                Water damage is one of the most common threats to masonry. At 
-                <Link
-                  href="/"
-                  itemProp="url"
-                >
-                  Infinity Construction NYC  
+                Water damage is one of the most common threats to masonry.&nbsp;
+                <Link href="/" itemProp="url">
+                  At Infinity Construction NYC
                 </Link>
                 , we offer waterproofing solutions that protect your brickwork
                 from moisture-related issues like mold, efflorescence, and
@@ -179,7 +176,10 @@ const BrickPointingWaterproofingPage = () => {
               itemScope
               itemType="https://schema.org/Offer"
             >
-              • <strong className="font-medium">Leak Detection and Repair:</strong>{" "}
+              •{" "}
+              <strong className="font-medium">
+                Leak Detection and Repair:
+              </strong>{" "}
               <span itemProp="description">
                 Our experts identify and fix vulnerable areas prone to water
                 infiltration, such as cracks and gaps in brick or mortar.
@@ -229,24 +229,28 @@ const BrickPointingWaterproofingPage = () => {
             >
               <meta itemProp="name" content="Infinity Construction NYC" />
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Expert Craftsmanship:</strong> Our skilled team brings
-                years of experience in brick pointing and waterproofing,
-                ensuring top-quality results.
+                • <strong className="font-medium">Expert Craftsmanship:</strong>{" "}
+                Our skilled team brings years of experience in brick pointing
+                and waterproofing, ensuring top-quality results.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Customized Solutions:</strong> We tailor our services
-                to meet your building&apos;s unique needs, whether for structural
-                repairs or aesthetic enhancements.
+                • <strong className="font-medium">Customized Solutions:</strong>{" "}
+                We tailor our services to meet your building&apos;s unique
+                needs, whether for structural repairs or aesthetic enhancements.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Commitment to Quality:</strong> Using premium
-                materials and industry-leading techniques, we ensure durable and
-                long-lasting solutions.
+                •{" "}
+                <strong className="font-medium">Commitment to Quality:</strong>{" "}
+                Using premium materials and industry-leading techniques, we
+                ensure durable and long-lasting solutions.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Reliable and Professional Service:</strong> From start
-                to finish, we prioritize clear communication, timely completion,
-                and superior workmanship.
+                •{" "}
+                <strong className="font-medium">
+                  Reliable and Professional Service:
+                </strong>{" "}
+                From start to finish, we prioritize clear communication, timely
+                completion, and superior workmanship.
               </li>
             </div>
           </ul>
