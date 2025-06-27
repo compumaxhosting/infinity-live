@@ -147,7 +147,7 @@ const ReviewSlider = () => {
           {/* Screen reader only text for rating */}
         </h2>
         <Link
-          href="https://maps.app.goo.gl/ckXSuxjzUxvwsYhf6"
+          href="https://www.google.com/search?sca_esv=abfa54d360d79d5a&sxsrf=AE3TifNpX2z7RG3-xcBIvnSVS7BSzRJGSg:1751039734053&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E7ZvZjCeQyii5sTHHyNcBBBmaMGfI5ph4qe83UXNHYzoprbLEhjuCu3agYGJ61dGrVwkz_571FQFw62Pmc3fqRTzrdtd9-8kWRoZSdU4DuT2hXH6x4qlaEccMZlDnIND_sPwZkanpgBsZBV0EkY2sajsLOH7_wBdOzHrU37-IEThK3eGhYP15hn6wsVEOei27WgaT5mUmmo1Q8I22-t6LJYIC4Za-MbQiXDXAZmGogXV6oBsrw%3D%3D&q=Infinity+Construction+NYC+Inc+%7C+Brownstone+Restoration+Specialist+%7C+Masonry+%7C+Waterproofing+%7C+Roofing+%7C+Fire+Escape+Painting+Reviews&sa=X&ved=2ahUKEwim2Neq-5GOAxVyxjgGHWhBHckQ0bkNegQIMBAE&biw=1536&bih=730&dpr=1.25#lrd=0x4d0887ba99f2e715:0x74660f5418ca6bb3,3,,,,"
           target="_blank"
           rel="noopener noreferrer" // Essential for security with target="_blank"
           aria-label="Review us on Google. Opens in a new tab." // More descriptive label
