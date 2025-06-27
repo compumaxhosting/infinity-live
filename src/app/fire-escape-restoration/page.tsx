@@ -3,6 +3,7 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export const metadata = {
   title: "Fire Escape & Metal Restoration NYC | Infinity Construction",
@@ -68,12 +69,15 @@ const FireEscapeRestorationPage = () => {
                   itemScope
                   itemType="https://schema.org/Offer"
                 >
-                  • <strong className="font-medium">Rust and Corrosion Removal:</strong>{" "}
+                  •{" "}
+                  <strong className="font-medium">
+                    Rust and Corrosion Removal:
+                  </strong>{" "}
                   <span itemProp="description">
                     We clean and treat rusted areas to prevent further damage
-                    and restore the metal&apos;s integrity. This includes applying
-                    rust inhibitors and protective primers to prevent future
-                    corrosion.
+                    and restore the metal&apos;s integrity. This includes
+                    applying rust inhibitors and protective primers to prevent
+                    future corrosion.
                   </span>
                 </li>
                 <li
@@ -82,7 +86,10 @@ const FireEscapeRestorationPage = () => {
                   itemScope
                   itemType="https://schema.org/Offer"
                 >
-                  • <strong className="font-medium">Component Replacement:</strong>{" "}
+                  •{" "}
+                  <strong className="font-medium">
+                    Component Replacement:
+                  </strong>{" "}
                   <span itemProp="description">
                     Damaged or worn-out stairs, platforms, railings, and
                     brackets are expertly replaced to ensure safety and
@@ -110,7 +117,10 @@ const FireEscapeRestorationPage = () => {
                   itemScope
                   itemType="https://schema.org/Offer"
                 >
-                  • <strong className="font-medium">Repainting and Coating:</strong>{" "}
+                  •{" "}
+                  <strong className="font-medium">
+                    Repainting and Coating:
+                  </strong>{" "}
                   <span itemProp="description">
                     High-quality, weather-resistant paints and coatings are
                     applied to protect against corrosion and maintain a
@@ -124,7 +134,10 @@ const FireEscapeRestorationPage = () => {
                   itemScope
                   itemType="https://schema.org/Offer"
                 >
-                  • <strong className="font-medium">Inspection and Safety Checks:</strong>{" "}
+                  •{" "}
+                  <strong className="font-medium">
+                    Inspection and Safety Checks:
+                  </strong>{" "}
                   <span itemProp="description">
                     We conduct thorough inspections to ensure your fire escape
                     meets all safety standards and compliance codes. Our
@@ -177,8 +190,8 @@ const FireEscapeRestorationPage = () => {
             >
               • <strong className="font-medium">Load Testing:</strong>{" "}
               <span itemProp="description">
-                We offer load testing to verify the fire escape&apos;s capacity to
-                safely support weight during emergencies.
+                We offer load testing to verify the fire escape&apos;s capacity
+                to safely support weight during emergencies.
               </span>
             </li>
             <li
@@ -238,30 +251,38 @@ const FireEscapeRestorationPage = () => {
             >
               <meta itemProp="name" content="Infinity Construction NYC" />
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Expertise You Can Trust:</strong> With years of
-                experience, our skilled technicians deliver high-quality
-                restoration services tailored to your specific needs.
+                •{" "}
+                <strong className="font-medium">
+                  Expertise You Can Trust:
+                </strong>{" "}
+                With years of experience, our skilled technicians deliver
+                high-quality restoration services tailored to your specific
+                needs.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Commitment to Safety:</strong> We prioritize safety
-                and compliance, ensuring your fire escape meets all legal
-                requirements and industry standards.
+                • <strong className="font-medium">Commitment to Safety:</strong>{" "}
+                We prioritize safety and compliance, ensuring your fire escape
+                meets all legal requirements and industry standards.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Durable Solutions:</strong> Using premium materials
-                and advanced techniques, we ensure long-lasting results that
-                protect your investment.
+                • <strong className="font-medium">Durable Solutions:</strong>{" "}
+                Using premium materials and advanced techniques, we ensure
+                long-lasting results that protect your investment.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Customer-Focused Service:</strong> From the initial
-                inspection to project completion, we provide clear communication
-                and reliable service every step of the way.
+                •{" "}
+                <strong className="font-medium">
+                  Customer-Focused Service:
+                </strong>{" "}
+                From the initial inspection to project completion, we provide
+                clear communication and reliable service every step of the way.
               </li>
               <li className="text-justify" itemProp="reviewBody">
-                • <strong className="font-medium">Comprehensive Approach:</strong> We address every
-                aspect of fire escape restoration, from structural repairs to
-                aesthetic enhancements, ensuring a complete and professional
-                result.
+                •{" "}
+                <strong className="font-medium">Comprehensive Approach:</strong>{" "}
+                We address every aspect of fire escape restoration, from
+                structural repairs to aesthetic enhancements, ensuring a
+                complete and professional result.
               </li>
             </div>
           </ul>
@@ -271,6 +292,7 @@ const FireEscapeRestorationPage = () => {
             Contact us today to learn more about our fire escape restoration
             services, and schedule a consultation with our experts.
           </p>
+          <ProjectsSection />
         </section>
       </main>
       <Footer />

@@ -62,7 +62,7 @@ const Navbar = () => {
           </li>
 
           <li className="text-xl hover:text-orange-500">
-            <Link href="/gallery">GALLERY</Link>
+            <Link href="/contact">CONTACT</Link>
           </li>
 
           {/* More Dropdown */}
@@ -79,7 +79,7 @@ const Navbar = () => {
               </li>
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 {" "}
-                <Link href="/contact">CONTACT</Link>
+                <Link href="/gallery">GALLERY</Link>
               </li>
             </ul>
           </li>

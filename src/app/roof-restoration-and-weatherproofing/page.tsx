@@ -3,6 +3,7 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export const metadata = {
   title:
@@ -40,17 +41,15 @@ const RoofRestorationPage = () => {
           <p className="text-lg" itemProp="description">
             Expert Roof Restoration & Weatherproofing Services in NYC <br />
             At{" "}
-            <Link
-              href="/"
-              itemProp="url"
-            >
+            <Link href="/" itemProp="url">
               Infinity Construction NYC
             </Link>
             , we specialize in comprehensive roof restoration and
             weatherproofing solutions designed to protect your property against
-            New York&apos;s challenging weather conditions. Our certified technicians
-            combine advanced materials and proven techniques to deliver durable,
-            long-lasting results for residential and commercial properties.
+            New York&apos;s challenging weather conditions. Our certified
+            technicians combine advanced materials and proven techniques to
+            deliver durable, long-lasting results for residential and commercial
+            properties.
           </p>
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
@@ -71,10 +70,11 @@ const RoofRestorationPage = () => {
                 >
                   • <strong>Thorough Inspection and Assessment:</strong>{" "}
                   <span itemProp="description">
-                    Our process begins with a detailed inspection of your roof&apos;s
-                    condition, bearing capacity, and existing waterproofing
-                    systems. We identify issues such as leaks, structural
-                    weaknesses, and areas prone to water infiltration.
+                    Our process begins with a detailed inspection of your
+                    roof&apos;s condition, bearing capacity, and existing
+                    waterproofing systems. We identify issues such as leaks,
+                    structural weaknesses, and areas prone to water
+                    infiltration.
                   </span>
                 </li>
                 <li
@@ -189,6 +189,7 @@ const RoofRestorationPage = () => {
               </li>
             </div>
           </ul>
+          <ProjectsSection />
         </section>
       </main>
       <Footer />

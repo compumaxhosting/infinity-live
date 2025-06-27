@@ -3,6 +3,7 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export const metadata = {
   title:
@@ -39,10 +40,7 @@ const BrickCMULayeringPage = () => {
         <section itemScope itemType="https://schema.org/LocalBusiness">
           <p className="text-justify text-lg px-4" itemProp="description">
             At{" "}
-            <Link
-              href="/"
-              itemProp="url"
-            >
+            <Link href="/" itemProp="url">
               Infinity Construction NYC
             </Link>
             , we understand that the foundation of every great structure starts
@@ -107,9 +105,9 @@ const BrickCMULayeringPage = () => {
                   <span itemProp="description">
                     At Infinity Construction NYC, we work with both brick and
                     CMU blocks, ensuring they integrate seamlessly into your
-                    building&apos;s design. Whether it&apos;s for new construction or
-                    renovation projects, we maintain consistency in aesthetics
-                    and functionality.
+                    building&apos;s design. Whether it&apos;s for new
+                    construction or renovation projects, we maintain consistency
+                    in aesthetics and functionality.
                   </span>
                 </li>
                 <li
@@ -188,6 +186,7 @@ const BrickCMULayeringPage = () => {
               </li>
             </div>
           </ul>
+          <ProjectsSection />
         </section>
       </main>
       <Footer />

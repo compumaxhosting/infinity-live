@@ -3,6 +3,7 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export const metadata = {
   title:
@@ -262,6 +263,7 @@ const BrickPointingWaterproofingPage = () => {
             experts.
           </p>
         </section>
+        <ProjectsSection />
       </main>
       <Footer />
     </div>

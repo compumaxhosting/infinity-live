@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Sheet,
   SheetContent,
@@ -33,14 +34,14 @@ function SidebarMenu() {
     <div>
       {/* Mobile Menu Toggle */}
       <div className="xl:hidden absolute right-0 top-0 sm:right-4 md:h-full flex items-center">
-  <button
-    onClick={toggleSheet}
-    className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
-  >
-    <Menu className="w-8 h-8" />
-    <span className="sr-only">Open menu</span>
-  </button>
-</div>
+        <button
+          onClick={toggleSheet}
+          className="dark:text-gray-300 text-gray-200 bg-secondary p-4"
+        >
+          <Menu className="w-8 h-8" />
+          <span className="sr-only">Open menu</span>
+        </button>
+      </div>
       {/* Sidebar Sheet Component */}
       <Sheet open={isOpen} onOpenChange={toggleSheet}>
         <SheetContent
@@ -48,13 +49,26 @@ function SidebarMenu() {
           className="dark:bg-slate-950 transition-colors duration-300 overflow-y-auto w-[90%]"
         >
           <SheetHeader>
+            <div className="flex justify-center pt-6">
+              <Link href="/" aria-label="Infinity Construction NYC Home">
+                <Image
+                  src="/logo-new.png"
+                  alt="Infinity Construction NYC Logo"
+                  width={120}
+                  height={40}
+                  priority
+                  className="cursor-pointer w-24 2xl:w-32"
+                />
+              </Link>
+            </div>
             <SheetTitle
-              className="text-center pt-10 pb-4 dark:text-gray-300 text-2xl font-semibold"
+              className="text-center pt-4 pb-4 dark:text-gray-300 text-2xl font-semibold"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Infinity Construction NYC
             </SheetTitle>
           </SheetHeader>
+
           <nav className="flex flex-col space-y-4 p-4 pl-0">
             <Link
               href="/"

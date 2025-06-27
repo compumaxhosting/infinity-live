@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -279,6 +280,7 @@ const StuccoWaterproofingPage = () => {
               without compromising on quality or craftsmanship.
             </li>
           </ul>
+          <ProjectsSection />
         </section>
       </main>
       <Footer />

@@ -164,7 +164,7 @@ const ReviewSlider = () => {
         aria-label="Customer Reviews Slider" // Provides an accessible label for the slider area
       >
         <Swiper
-          className="review-swiper"
+          className="review-swiper !pb-10"
           slidesPerView={1}
           spaceBetween={20}
           breakpoints={{

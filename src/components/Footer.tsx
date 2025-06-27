@@ -80,7 +80,13 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-white text-sm">347 939 5779</p>
+                  <Link
+                    href="tel:3479395779"
+                    className="text-white text-sm"
+                    aria-label="Call 347 939 5779"
+                  >
+                    347 939 5779
+                  </Link>
                 </div>
               </div>
 

@@ -53,9 +53,23 @@ export const BlogsData: Blog[] = [
             brownstone restoration to keep their properties safe, stunning, and
             historically accurate.
             <br />
-            <h1 className="mt-4 text-lg md:text-2xl font-bold">
-              Expert Brownstone Repair Services in NYC :
-            </h1>
+          </>
+        ),
+      },
+      {
+        title: "Expert Brownstone Repair Services in NYC :",
+        paragraph: (
+          <>
+            Infinity Construction NYC is your trusted contractor for top-quality
+            brownstone renovation and restoration across Brooklyn, Manhattan,
+            Queens, and The Bronx. With years of hands-on experience and a team
+            of skilled craftsmen, we specialize in restoring the timeless beauty
+            and structural integrity of historic brownstone buildings. Whether
+            it&apos;s façade repair, stoop restoration, or complete exterior
+            renovation, we deliver precision, durability, and unmatched
+            craftsmanship on every project. Choose us for reliable, affordable,
+            and expert brownstone services tailored to the unique needs of your
+            property.
           </>
         ),
       },

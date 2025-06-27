@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import React from "react";
 
@@ -154,6 +155,7 @@ const HistoricalLandmarkRestorationPage = () => {
               craftsmanship.
             </li>
           </ul>
+          <ProjectsSection /> 
         </section>
       </main>
       <Footer />

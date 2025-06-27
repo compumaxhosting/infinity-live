@@ -73,15 +73,15 @@ const NavbarSpecial = () => {
               PROJECTS
             </li>
           </Link>
-          <Link href="/gallery">
+          <Link href="/contact">
             <li
               className={`text-xl ${
-                isActive("/gallery")
+                isActive("/contact")
                   ? "font-bold transition-all duration-300 bg-primary dark:bg-primary p-2 px-4 text-white"
                   : ""
               }`}
             >
-              GALLERY
+              CONTACT
             </li>
           </Link>
 
@@ -96,12 +96,12 @@ const NavbarSpecial = () => {
               </li>
               <li
                 className={`text-secondary dark:text-gray-100 text-xl px-4 py-2 ${
-                  isActive("/contact")
+                  isActive("/gallery")
                     ? "font-bold transition-all duration-300 bg-primary dark:bg-primary p-2 px-4 text-white"
                     : ""
                 }`}
               >
-                <Link href="/contact">CONTACT</Link>
+                <Link href="/gallery">GALLERY</Link>
               </li>
             </ul>
           </li>
