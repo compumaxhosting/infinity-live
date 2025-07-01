@@ -11,7 +11,6 @@ import ServicesSection from "@/components/ContactSection";
 import SocialLinks from "@/components/SocialLinks";
 import OurTestimonial from "@/components/OurTestimonial";
 import OurAffiliatesSection from "@/components/OurAffiliatesSection";
-import LetsChat from "@/components/extras/LetsChat";
 import ContactScroll from "@/components/extras/ContactScroll";
 
 export const metadata = {
@@ -136,7 +135,6 @@ export default function Home() {
       <OurAffiliatesSection />
       <ServicesSection />
       <SocialLinks />
-      <LetsChat />
       <ContactScroll />
       <MapComponent />
       <Footer />
