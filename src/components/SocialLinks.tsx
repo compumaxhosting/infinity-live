@@ -38,7 +38,7 @@ const SocialLinks = () => {
 
   return (
     <section
-      className="pb-16 md:py-16 bg-accent dark:bg-slate-950 dark:bg-sectext-secondary hidden"
+      className="py-8 md:py-16 bg-accent dark:bg-slate-950 dark:bg-sectext-secondary"
       style={{ fontFamily: "var(--font-forum)" }}
       itemScope
       itemType="https://schema.org/Organization"

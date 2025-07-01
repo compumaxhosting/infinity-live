@@ -11,6 +11,7 @@ import ServicesSection from "@/components/ContactSection";
 // import ContactScroll from "@/components/extras/ContactScroll";
 import SocialLinks from "@/components/SocialLinks";
 import OurTestimonial from "@/components/OurTestimonial";
+import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 // import ContactBar from "@/components/ContactBar";
 
 // ✅ Visible in browser <head> and view-source
@@ -45,12 +46,12 @@ export default function Home() {
         <meta name="twitter:description" content={metadata.description} />
       </Head>
 
-      {/* Page Layout */}
       <HeaderTwo />
       <CarouselSection />
       <HeroSection />
       <OurServices />
       <OurTestimonial />
+      <OurAffiliatesSection />
       <ServicesSection />
       <SocialLinks />
       <MapComponent />
