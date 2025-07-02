@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaYelp,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -69,6 +70,13 @@ const Footer = () => {
               >
                 Transforming spaces with precision and excellence in New York
                 City since 2015.
+              </p>
+              <p
+                className="mt-4 text-slate-700 text-sm leading-relaxed font-semibold"
+                itemProp="description"
+              >
+                Licensed & insured Brownstone restoration and Historical
+                landmark specialist
               </p>
             </div>
 
@@ -184,7 +192,15 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
               Connect With Us
             </h3>
-
+            <div className="flex justify-center">
+              <Image
+                src="/bbb.jpg"
+                alt="BBB Accredited Business"
+                width={90}
+                height={30}
+                className="object-contain transition-transform group-hover:scale-110 rounded-lg"
+              />
+            </div>
             <div className="grid grid-cols-2 gap-4">
               {[
                 {

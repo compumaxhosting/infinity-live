@@ -24,7 +24,12 @@ const HeroSection = () => {
         >
           BROWNSTONE RESTORATION SPECIALIST
         </h2>
-
+        <h3
+          className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center"
+          style={{ fontFamily: "var(--font-forum)" }}
+        >
+          LICENSED & INSURED.
+        </h3>
         {/* Tagline */}
         <h3
           className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center"
