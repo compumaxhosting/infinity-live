@@ -51,7 +51,7 @@ const Header: React.FC = () => {
           <div itemProp="logo">
             <Link href="/" aria-label="Infinity Construction NYC Home">
               <Image
-                src="/logo-new.png"
+                src="/infinity_logo_new.png"
                 alt="Infinity Construction NYC Logo"
                 width={120}
                 height={40}

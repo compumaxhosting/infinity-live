@@ -16,12 +16,12 @@ const HeaderSpecial: React.FC = () => {
           <div>
             <Link href="/">
               <Image
-                src="/logo-new.png"
+                src="/infinity logo.png"
                 alt="Logo"
                 width={120}
                 height={40}
                 loading="lazy" // Lazy load the image
-                className="cursor-pointer w-24 2xl:w-32"
+                className="cursor-pointer w-40 2xl:w-32"
               />
             </Link>
           </div>
