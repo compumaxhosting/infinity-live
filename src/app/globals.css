@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 
 .text-shadow-black {
   text-shadow: 0px 0px 10px black;
@@ -12,7 +10,9 @@ body {
 .font-forum {
   font-family: var(--font-forum);
 }
-
+body {
+  font-family:var(--font-forum);
+}
 html, body {
   margin: 0;
   padding: 0;

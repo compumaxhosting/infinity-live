@@ -2,6 +2,7 @@ import BrownstoneRenovationBrooklynNyBrownstoneRepairContractors from "@/compone
 import LetsChat from "@/components/extras/LetsChat";
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import React from "react";
 
 const page = () => {
@@ -13,6 +14,8 @@ const page = () => {
       </div>
       <LetsChat />
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

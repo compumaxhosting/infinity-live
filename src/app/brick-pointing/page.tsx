@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
 import Script from "next/script"; // ✅ For structured data
+import PhoneCall from "@/components/PhoneCall";
 
 export const metadata = {
   title:
@@ -101,6 +102,14 @@ const BrickPointingWaterproofingPage = () => {
                   tuckpointing may be the ideal solution to restore both its
                   strength and appearance.
                 </p>
+                <div className="flex justify-center lg:justify-start mb-4">
+                  <Link
+                    href="/contact"
+                    className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+                  >
+                    Contact Us
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -320,6 +329,8 @@ const BrickPointingWaterproofingPage = () => {
           <ProjectsSection />
         </main>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

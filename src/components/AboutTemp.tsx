@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 
@@ -52,8 +53,8 @@ const AboutTemp = () => {
             <Link href="/" itemProp="url">
               <span itemProp="legalName">Infinity Construction NYC</span>
             </Link>
-            , we believe that every building tells a story — and we&apos;re here to
-            ensure it stands strong for generations. Based in Brooklyn, New
+            , we believe that every building tells a story — and we&apos;re here
+            to ensure it stands strong for generations. Based in Brooklyn, New
             York, we are a team of passionate professionals committed to
             excellence in every project we take on.
           </p>
@@ -63,12 +64,19 @@ const AboutTemp = () => {
             className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            As a trusted name in New York City&apos;s construction and restoration
-            industry, our foundation is built on integrity, professionalism, and
-            long-standing relationships with property owners, developers, and
-            communities throughout the five boroughs.
+            As a trusted name in New York City&apos;s construction and
+            restoration industry, our foundation is built on integrity,
+            professionalism, and long-standing relationships with property
+            owners, developers, and communities throughout the five boroughs.
           </p>
-
+          <div className="flex justify-center sm:justify-start sm:px-20 mt-2">
+            <button
+              className="bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
+              onClick={() => (window.location.href = "/contact")}
+            >
+              Contact Us
+            </button>
+          </div>
           {/* Section Subheading */}
           <h2
             className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
@@ -124,7 +132,19 @@ const AboutTemp = () => {
             . With deep knowledge of the city&apos;s building codes, local
             regulations, and architectural heritage, we understand what it takes
             to deliver quality work in a complex urban environment like New
-            York.
+            York. <br />
+            Infinity Construction NYC is a trusted, locally-owned construction
+            and restoration company based in Brooklyn, NY. We specialize in
+            brownstone and limestone restoration, brick pointing, concrete work,
+            stucco, waterproofing, and sidewalk repair across New York City,
+            including Brooklyn, Queens, Manhattan, the Bronx.
+            With years of hands-on experience, our skilled team is committed to
+            preserving the beauty and structure of NYC’s historic buildings
+            while delivering high-quality modern construction services. Whether
+            it&apos;s restoring a Brooklyn brownstone façade or repairing sidewalks
+            to remove DOT violations, we ensure long-lasting results and
+            complete customer satisfaction.Choose Infinity Construction NYC for
+            reliable, local, and professional service.
           </p>
 
           <p
@@ -165,8 +185,8 @@ const AboutTemp = () => {
             className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            We&apos;re not just another contractor — we&apos;re your neighbor, your
-            advisor, and your partner in preserving and enhancing New York
+            We&apos;re not just another contractor — we&apos;re your neighbor,
+            your advisor, and your partner in preserving and enhancing New York
             City&apos;s legacy.
           </p>
 
@@ -196,8 +216,8 @@ const AboutTemp = () => {
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Headquartered in Brooklyn, we are proud to have earned the trust of
-            clients across all boroughs of NYC. Whether you&apos;re a property owner,
-            manager, or resident, we approach every project with care,
+            clients across all boroughs of NYC. Whether you&apos;re a property
+            owner, manager, or resident, we approach every project with care,
             attention, and respect for your investment and your community.
           </p>
 

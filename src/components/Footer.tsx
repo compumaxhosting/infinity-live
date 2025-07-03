@@ -13,7 +13,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer
-      className="relative bg-secondary text-white pt-16 pb-4 overflow-hidden"
+      className="relative bg-secondary text-gray-100 pt-16 pb-4 overflow-hidden"
       style={{
         background:
           "linear-gradient(200deg, #b07740 0%, #9c6434 25%, #9c6434 50%, #945e2c 75%, #cc9054 100%)",
@@ -65,18 +65,18 @@ const Footer = () => {
                 <span className="block h-0.5 w-16 bg-gradient-to-r from-primary to-secondary mt-2 transition-all duration-300 group-hover:w-24"></span>
               </h3>
               <p
-                className="mt-4 text-white text-sm leading-relaxed"
+                className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
               >
                 Transforming spaces with precision and excellence in New York
                 City since 2015.
               </p>
               <p
-                className="mt-4 text-slate-700 text-sm leading-relaxed font-semibold"
+                className="mt-4 text-white text-sm leading-relaxed font-semibold"
                 itemProp="description"
               >
-                Licensed & insured Brownstone restoration and Historical
-                landmark specialist
+                LICENSED & INSURED BROWNSTONE RESTORATION
+                AND HISTORICAL LANDMARK SPECIALIST
               </p>
             </div>
 
@@ -90,7 +90,7 @@ const Footer = () => {
                   <p className="font-medium">Phone</p>
                   <Link
                     href="tel:3479395779"
-                    className="text-white text-sm"
+                    className="text-gray-100 text-sm"
                     aria-label="Call 347 939 5779"
                   >
                     347 939 5779
@@ -106,7 +106,7 @@ const Footer = () => {
                   <p className="font-medium">Email</p>
                   <Link
                     href="mailto:Infinityconstructionnyc@gmail.com"
-                    className="text-white hover:text-gray-300 text-sm transition-colors"
+                    className="text-gray-100 hover:text-gray-300 text-sm transition-colors"
                     itemProp="email"
                   >
                     Infinityconstructionnyc@gmail.com
@@ -125,7 +125,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="font-medium">Address</p>
-                  <p className="text-white text-sm">
+                  <p className="text-gray-100 text-sm">
                     <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
                     <br />
                     <span itemProp="addressLocality">Brooklyn</span>,{" "}
@@ -139,7 +139,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -155,7 +155,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.path}
-                    className="text-white hover:text-gray-300 transition-colors flex items-center gap-2 group"
+                    className="text-gray-100 hover:text-gray-300 transition-colors flex items-center gap-2 group"
                     aria-label={link.name}
                   >
                     <span className="w-2 h-2 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -168,7 +168,7 @@ const Footer = () => {
 
           {/* Services */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
               Our Services
             </h3>
             <ul className="space-y-3">
@@ -176,7 +176,7 @@ const Footer = () => {
                 <li key={service.id}>
                   <Link
                     href={service.path}
-                    className="text-white hover:text-gray-300 transition-colors flex items-center gap-2 group"
+                    className="text-gray-100 hover:text-gray-300 transition-colors flex items-center gap-2 group"
                     aria-label={service.heading}
                   >
                     <span className="w-2 h-2 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -189,7 +189,7 @@ const Footer = () => {
 
           {/* Social & Reviews */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-white relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
               Connect With Us
             </h3>
             <div className="flex justify-center">
@@ -207,7 +207,7 @@ const Footer = () => {
                   name: "Instagram",
                   url: "https://www.instagram.com/infinity_construction_nyc/",
                   icon: (
-                    <FaInstagram className="text-white text-xl group-hover:scale-110 transition-transform" />
+                    <FaInstagram className="text-gray-100 text-xl group-hover:scale-110 transition-transform" />
                   ),
                   color: "from-pink-500 to-purple-600",
                 },
@@ -215,7 +215,7 @@ const Footer = () => {
                   name: "Facebook",
                   url: "https://www.facebook.com/InfinityConstructionNYC",
                   icon: (
-                    <FaFacebook className="text-white text-xl group-hover:scale-110 transition-transform" />
+                    <FaFacebook className="text-gray-100 text-xl group-hover:scale-110 transition-transform" />
                   ),
                   color: "from-blue-500 to-blue-700",
                 },
@@ -223,7 +223,7 @@ const Footer = () => {
                   name: "LinkedIn",
                   url: "https://www.linkedin.com/in/imrul-hassan-403724268",
                   icon: (
-                    <FaLinkedin className="text-white text-xl group-hover:scale-110 transition-transform" />
+                    <FaLinkedin className="text-gray-100 text-xl group-hover:scale-110 transition-transform" />
                   ),
                   color: "from-blue-400 to-blue-600",
                 },
@@ -231,7 +231,7 @@ const Footer = () => {
                   name: "Yelp",
                   url: "https://www.yelp.com/biz/infinity-construction-nyc-brooklyn",
                   icon: (
-                    <FaYelp className="text-white text-xl group-hover:scale-110 transition-transform" />
+                    <FaYelp className="text-gray-100 text-xl group-hover:scale-110 transition-transform" />
                   ),
                   color: "from-red-500 to-red-700",
                 },
@@ -239,7 +239,7 @@ const Footer = () => {
                   name: "Brownstoner",
                   url: "https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/",
                   icon: (
-                    <FaExternalLinkAlt className="text-white text-xl group-hover:scale-110 transition-transform mr-2" />
+                    <FaExternalLinkAlt className="text-gray-100 text-xl group-hover:scale-110 transition-transform mr-2" />
                   ),
                   text: "Brownstoner",
                   color: "from-amber-500 to-amber-700",
@@ -267,10 +267,10 @@ const Footer = () => {
               ))}
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex justify-center pb-12 2xl:pb-0">
               <Link
                 href="/contact"
-                className="inline-block bg-gradient-to-r from-primary to-secondary text-white font-medium py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all duration-300"
+                className="inline-block bg-gradient-to-r from-primary to-secondary text-gray-100 font-medium py-3 px-6 rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all duration-300"
                 aria-label="Contact Us"
               >
                 Contact Us
@@ -280,7 +280,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-200 mt-8 pt-4 text-center text-white text-sm">
+        <div className="border-t border-gray-200 mt-8 pt-4 text-center text-gray-100 text-sm">
           <p>
             &copy; {new Date().getFullYear()} Infinity Construction NYC. All
             rights reserved.

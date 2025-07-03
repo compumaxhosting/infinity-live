@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import ProjectSection from "@/components/ProjectsSection";
 import React from "react";
 
@@ -11,6 +12,8 @@ const page = () => {
         <ProjectSection />
       </div>
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

@@ -4,6 +4,8 @@ import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import React from "react";
 import Script from "next/script"; // ✅ For structured data
+import PhoneCall from "@/components/PhoneCall";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -70,6 +72,14 @@ const Page = () => {
               is a cost-effective option that can be customized to fit your
               style and functional needs.
             </p>
+            <div className="flex justify-center lg:justify-start my-4">
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
           </section>
 
           <section className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
@@ -266,6 +276,8 @@ const Page = () => {
           </section>
         </main>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

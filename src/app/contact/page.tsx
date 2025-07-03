@@ -3,6 +3,7 @@ import Script from "next/script";
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import ServicesSection from "@/components/ContactSection";
+import PhoneCall from "@/components/PhoneCall";
 
 const Page = () => {
   return (
@@ -44,6 +45,8 @@ const Page = () => {
           <ServicesSection />
         </div>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

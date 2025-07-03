@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import OurTestimonial from "@/components/OurTestimonial";
+import PhoneCall from "@/components/PhoneCall";
 import React from "react";
 
 const page = () => {
@@ -13,6 +14,8 @@ const page = () => {
         <OurTestimonial />
       </div>
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

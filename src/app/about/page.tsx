@@ -3,6 +3,7 @@ import Script from "next/script";
 import AboutTemp from "@/components/AboutTemp";
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 // import BrownstoneRenovationBrooklynNyBrownstoneRepairContractors from "@/components/BrownstoneRenovationBrooklyn-ny-brownstone-repair-contractors";
 
 const Page = () => {
@@ -44,6 +45,7 @@ const Page = () => {
         <div className="pt-5 sm:pt-14 2xl:pt-24" />
         <AboutTemp />
         <Footer />
+        <PhoneCall />
       </div>
     </>
   );

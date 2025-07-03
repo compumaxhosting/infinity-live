@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import Image from "next/image";
 import React from "react";
 
@@ -194,6 +195,8 @@ const page = () => {
         </section>
       </main>
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

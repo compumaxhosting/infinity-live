@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -78,6 +79,8 @@ const page = () => {
         </div>
       </div>
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

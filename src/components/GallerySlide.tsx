@@ -18,19 +18,19 @@ export const GallerySlide: React.FC<GallerySlideProps> = ({
       className={cn(
         // Base styles
         "relative flex-[0_0_100%] sm:flex-[0_0_33.333%] h-[320px] sm:h-[440px] 2xl:h-[550px] overflow-hidden",
-        "transform-gpu sm:origin-center px-2 sm:px-4",
+        "transform-gpu sm:origin-center px-2 sm:px-4"
       )}
     >
       <Image
         src={image}
         alt="Gallery image"
         fill
-        className="object-cover transition-transform duration-500"
+        className="object-cover transition-transform duration-500 md:border-gray-50 md:border-2 "
         loading="lazy"
       />
       <div
         className={cn(
-          "absolute inset-0 bg-black/70 transition-opacity duration-500",
+          "absolute inset-0transition-opacity duration-500",
           isSelected ? "opacity-0" : "opacity-100"
         )}
       />

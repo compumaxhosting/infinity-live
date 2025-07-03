@@ -6,6 +6,7 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Footer from "@/components/Footer";
 import { BlogsData } from "@/data/BlogsData";
 import { BlogsOverview } from "@/components/extras/BlogsOverview";
+import PhoneCall from "@/components/PhoneCall";
 
 interface PageProps {
   params: Promise<{ slug: string }>; // <-- params is Promise now
@@ -71,6 +72,8 @@ export default async function BlogPage({ params }: PageProps) {
         </section>
       </div>
       <Footer />
+
+      <PhoneCall />
     </>
   );
 }

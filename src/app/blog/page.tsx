@@ -4,6 +4,7 @@ import BlogData from "@/components/BlogSection";
 import { BlogsOverview } from "@/components/extras/BlogsOverview";
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 
 const Page = () => {
   return (
@@ -46,6 +47,8 @@ const Page = () => {
           <BlogData />
         </div>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

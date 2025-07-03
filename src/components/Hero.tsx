@@ -45,12 +45,14 @@ const HeroSection = () => {
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC is a leading provider of quality
-            restoration services in the tri-state area. With a focus on
-            precision, punctuality, and professionalism, we specialize in
-            brownstone exterior restoration, masonry, roofing, waterproofing,
-            fire escape painting, and painting & plastering. Our goal is to
-            deliver exceptional results to our clients while maintaining
-            cost-effectiveness.
+            restoration services in the tri-state area. Expert Masonry,
+            Brownstone Restoration & Exterior Renovations in New York City
+            Trusted by homeowners and businesses across Brooklyn, Manhattan,
+            Queens, and the Bronx. With a focus on precision, punctuality, and
+            professionalism, we specialize in brownstone exterior restoration,
+            masonry, roofing, waterproofing, fire escape painting, and painting
+            & plastering. Our goal is to deliver exceptional results to our
+            clients while maintaining cost-effectiveness.
           </p>
 
           <p
@@ -139,6 +141,20 @@ const HeroSection = () => {
               Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea, Riverside,
               Harlem, The Bronx, and Queens, we are proud to be one of the
               leading interior renovation specialists in NYC.
+            </p>
+            <p
+              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-justify"
+              style={{ fontFamily: "var(--font-forum)" }}
+            >
+              {" "}
+              We bring over a decade of expertise in restoring and preserving
+              the historic architecture of NYC’s five boroughs. Specializing in
+              brownstone and limestone facades, stucco finishes, and landmark
+              exteriors, we combine traditional craftsmanship with modern
+              techniques to revitalize the city’s iconic buildings. Whether
+              repairing intricate details or ensuring compliance with
+              preservation standards, we’re dedicated to maintaining the
+              timeless beauty of New York’s architectural heritage.
             </p>
           </div>
         )}

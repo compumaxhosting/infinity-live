@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import {
   Accordion,
   AccordionContent,
@@ -54,7 +55,8 @@ const page = () => {
           </Accordion>
         </div>
       </div>
-      <Footer />
+      <Footer /> 
+      <PhoneCall />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
 import Script from "next/script"; // ✅ added
+import PhoneCall from "@/components/PhoneCall";
 
 export const metadata = {
   title:
@@ -95,6 +96,14 @@ const BrickCMULayeringPage = () => {
               a residential or commercial project, we bring the expertise and
               precision needed to make your vision a reality.
             </p>
+            <div className="flex justify-center lg:justify-start m-2">
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
 
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               <div className="w-full lg:w-8/12 p-4 space-y-6">
@@ -235,6 +244,8 @@ const BrickCMULayeringPage = () => {
           </section>
         </main>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

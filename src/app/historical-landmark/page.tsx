@@ -1,7 +1,9 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 import React from "react";
 
@@ -84,7 +86,14 @@ const HistoricalLandmarkRestorationPage = () => {
               proven techniques that ensure both structural integrity and
               aesthetic appeal.
             </p>
-
+            <div className="flex justify-center lg:justify-start mb-2">
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
             {/* Flex Container for Content and Image */}
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               {/* Left Section - Content */}
@@ -208,6 +217,7 @@ const HistoricalLandmarkRestorationPage = () => {
           </section>
         </main>
         <Footer />
+        <PhoneCall />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
+import PhoneCall from "@/components/PhoneCall";
 import React from "react";
 
 const page = () => {
@@ -10,7 +11,9 @@ const page = () => {
         className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36"
         style={{ fontFamily: "var(--font-forum)" }}
       >
-        <h1 className="text-center text-5xl font-bold text-tertiary mb-8">Best Masonry Contractors New York </h1>
+        <h1 className="text-center text-5xl font-bold text-tertiary mb-8">
+          Best Masonry Contractors New York{" "}
+        </h1>
         <p className="text-lg">
           Welcome to Infinity Construction NYC, your premier choice for masonry
           contractors in Brooklyn, Manhattan, and Queens, New York. With our
@@ -25,6 +28,8 @@ const page = () => {
         </p>
       </div>
       <Footer />
+
+      <PhoneCall />
     </div>
   );
 };

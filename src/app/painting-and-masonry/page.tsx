@@ -4,6 +4,8 @@ import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import React from "react";
 import Script from "next/script"; // ✅ For SEO schema
+import PhoneCall from "@/components/PhoneCall";
+import Link from "next/link";
 
 const Page = () => {
   return (
@@ -73,6 +75,14 @@ const Page = () => {
               professional painting services ensure a polished and vibrant
               finish that transforms your interiors.
             </p>
+            <div className="flex justify-center lg:justify-start my-4">
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
           </section>
 
           <section className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8 text-justify">
@@ -199,6 +209,8 @@ const Page = () => {
           </section>
         </main>
         <Footer />
+
+        <PhoneCall />
       </div>
     </>
   );

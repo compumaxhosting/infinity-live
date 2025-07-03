@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
 import Script from "next/script"; // ✅ For JSON-LD
+import PhoneCall from "@/components/PhoneCall";
 
 export const metadata = {
   title: "Fire Escape & Metal Restoration NYC | Infinity Construction",
@@ -85,17 +86,21 @@ const FireEscapeRestorationPage = () => {
             Fire escapes are a critical safety feature, and maintaining them in
             excellent condition is essential for ensuring the safety and
             compliance of your property. At{" "}
-            <Link
-              href="/"
-              className="text-blue-600 hover:text-blue-800 hover:underline"
-              itemProp="url"
-            >
+            <Link href="/" itemProp="url">
               Infinity Construction NYC
             </Link>
             , we provide comprehensive fire escape restoration services designed
             to address structural issues, enhance durability, and extend the
             lifespan of your fire escape system.
           </p>
+          <div className="flex justify-center lg:justify-start my-4">
+            <Link
+              href="/contact"
+              className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+            >
+              Contact Us
+            </Link>
+          </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
             <div className="w-full lg:w-8/12 p-4 space-y-6">
@@ -340,6 +345,8 @@ const FireEscapeRestorationPage = () => {
         </section>
       </main>
       <Footer />
+
+      <PhoneCall />
     </>
   );
 };
