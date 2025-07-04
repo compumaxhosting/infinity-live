@@ -64,8 +64,7 @@ const HistoricalLandmarkRestorationPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 border-b"
-          style={{ fontFamily: "var(--font-forum)" }}
+          className="container mx-auto p-4 sm:pt-48 2xl:pt-36 border-b px-4 md:px-12 lg:px-48"
         >
           <h1 className="text-center text-3xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
             Historical Landmark Brownstone/ Limestone Restoration

@@ -6,7 +6,7 @@ const projectData = [
     description:
       "This project is a representation of our fine craftsmanship and brownstone specialty.  It involved a lot of compliance from the owner and Neighbors which is extremely important in all our projects. As we believe it is essential to keep the client in the loop with every process. We Chipped off around 0.5 to 0.75 inches of the damaged outer layer of the Brownstone stoop. The outer layer cracked revealing penetrating water damages; in this situation the outer layer needs to be chipped off and coated layer with a new and fresh brownstone coat.  Followed by waterprooing the stoop from further damage. Revealing a new brownstone stoop. All the necessary permits were acquired for this job and the safety & regulations were up to OSHA standards. The project was successfully completed on time and within budget. It's a great example of delivering our promise of quality work while ensuring absolute client satisfaction. Want to learn more about similar projects? Get in touch today.",
     image: "/project-img-1.jpg",
-    path: "/brownstoneStoopRenovation",
+    path: "/brownstone-stoop-renovation",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projectData = [
     description:
       "We are certified Contractors working alongside Civil Engineers on-site to manage a really complex worksite. This project honored our capability to reproduce historic landmarks. Our professional and experienced workers have the training to recreate Landmark designs using skilled craftsmanship. All designs are handcrafted as original in compliance with Landmark guidelines. The project was successfully completed on time and within budget, it’s a great example of delivering on our promise of quality work while ensuring absolute client satisfaction. Want to learn more about similar projects? Get in touch today.",
     image: "/project-img-3.jpg",
-    path: "/brownstone-facadeRestoration",
+    path: "/brownstone-facade-restoration-inc",
   },
   {
     id: 4,

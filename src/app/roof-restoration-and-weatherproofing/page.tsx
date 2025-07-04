@@ -71,17 +71,21 @@ const RoofRestorationPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 border-b text-lg lg:text-xl"
+          className="container mx-auto p-4 pt-4 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <h1
-            className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8"
+            className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8 px-4 lg:px-12"
             itemProp="name"
           >
-            Roof Restoration and Weatherproofing
+            Roof Restoration <br /> and Weatherproofing
           </h1>
 
-          <section itemScope itemType="https://schema.org/LocalBusiness">
+          <section
+            className="px-4 lg:px-24"
+            itemScope
+            itemType="https://schema.org/LocalBusiness"
+          >
             <p className="text-lg" itemProp="description">
               Expert Roof Restoration & Weatherproofing Services in NYC <br />
               At{" "}
@@ -209,7 +213,7 @@ const RoofRestorationPage = () => {
             </div>
           </section>
 
-          <section>
+          <section className="px-4 lg:px-24">
             <h2 className="text-4xl my-4">
               Why Choose Infinity Construction NYC?
             </h2>
@@ -249,8 +253,9 @@ const RoofRestorationPage = () => {
                 </li>
               </div>
             </ul>
-            <ProjectsSection />
           </section>
+
+          <ProjectsSection />
         </main>
         <Footer />
 

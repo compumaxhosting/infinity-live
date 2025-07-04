@@ -72,7 +72,7 @@ const BrickPointingWaterproofingPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-4 sm:pt-28 2xl:pt-36 border-b text-lg lg:text-xl"
+          className="container mx-auto p-4 pt-4 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <h1
@@ -82,7 +82,7 @@ const BrickPointingWaterproofingPage = () => {
             Brick Pointing and Waterproofing
           </h1>
 
-          <section itemScope itemType="https://schema.org/LocalBusiness">
+          <section className="px-4 md:px-16 lg:px-40" itemScope itemType="https://schema.org/LocalBusiness">
             <div className="flex flex-col lg:flex-row items-center gap-6">
               <Image
                 width={300}
@@ -180,7 +180,7 @@ const BrickPointingWaterproofingPage = () => {
             </p>
           </section>
 
-          <section>
+          <section className="px-4 md:px-16 lg:px-40">
             <div className="flex flex-col lg:flex-row items-center gap-6 mt-4">
               <div className="flex flex-col gap-4">
                 <h2 className="text-4xl my-4">
@@ -272,7 +272,7 @@ const BrickPointingWaterproofingPage = () => {
             </ul>
           </section>
 
-          <section
+          <section className="px-4 md:px-16 lg:px-40"
             itemProp="review"
             itemScope
             itemType="https://schema.org/Review"
