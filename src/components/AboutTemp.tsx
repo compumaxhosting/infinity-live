@@ -6,7 +6,7 @@ const AboutTemp = () => {
   return (
     <>
       <section
-        className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20"
+        className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-24 sm:pt-12 lg:pt-4 pb-6 sm:pb-20"
         itemScope
         itemType="https://schema.org/LocalBusiness"
       >

@@ -9,54 +9,67 @@ import NavbarSpecial from "./NavbarSpecial";
 
 const HeaderSpecial: React.FC = () => {
   return (
-    <header className="sm:fixed z-10 sm:z-30 w-full transition-colors duration-300 bg-white dark:bg-slate-950 shadow-lg dark:border dark:border-gray-800">
-      <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 px-4">
-        {/* Left Div: Logo */}
-        <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6">
-          <div>
-            <Link href="/">
-              <Image
-                src="/infinity logo.png"
-                alt="Logo"
-                width={120}
-                height={40}
-                loading="lazy" // Lazy load the image
-                className="cursor-pointer w-40 2xl:w-32"
-              />
-            </Link>
-          </div>
-          <Link href="/">
-            <div className="flex flex-col justify-center items-center text-tertiary dark:text-white">
-              <p
-                className="text-2xl font-semibold leading-tight"
-                style={{ fontFamily: "var(--font-forum)" }}
-              >
-                Infinity Construction NYC
-              </p>
-              <p
-                className="text-lg leading-tight"
-                style={{ fontFamily: "var(--font-forum)" }}
-              >
-                Quality is our Specialty
-              </p>
-            </div>
+    <header className="fixed inset-x-0 z-30 w-full bg-white shadow-lg transition-colors duration-300 dark:border dark:border-gray-800 dark:bg-slate-950">
+      {/* Mobile = column;  ≥ sm = row */}
+      <div className="container mx-auto flex flex-col gap-2 px-4 py-2 sm:flex-row sm:items-center sm:justify-between">
+        {/* ─── Logo + Brand ──────────────────────────────────────────────── */}
+        <div className="flex items-center gap-3">
+          {/* Logo */}
+          <Link href="/" aria-label="Infinity Construction NYC – home">
+            <Image
+              src="/infinity logo.png"
+              alt="Infinity Construction NYC Logo"
+              width={60}
+              height={60}
+              loading="lazy"
+              className="h-auto w-16 cursor-pointer sm:w-20"
+            />
           </Link>
-          <button className="flex sm:hidden bg-primary text-white px-4 py-3 hover:bg-orange-600 transition-all duration-300 items-center space-x-2">
-            <Link href="tel:+13479395779">
-              <div className="flex items-center space-x-2">
-                <Phone className="w-5 h-5" />
-                <span>347 939 5779</span>
-              </div>
-            </Link>
-          </button>
+
+          {/* Brand name & tagline */}
+          <Link href="/" className="flex flex-col leading-tight">
+            <span
+              className="text-sm md:text-lg text-md font-semibold text-tertiary dark:text-white sm:text-2xl"
+              style={{ fontFamily: "var(--font-forum)" }}
+            >
+              Infinity Construction NYC
+            </span>
+            <span
+              className="text-xs md:text-sm text-gray-700 dark:text-gray-300 sm:text-base"
+              style={{ fontFamily: "var(--font-forum)" }}
+            >
+              Quality is our Specialty
+            </span>
+          </Link>
         </div>
 
-        {/* Middle Div: Navbar (Only for large screens) */}
-        <NavbarSpecial />
-        <div className="flex xl:hidden">
-          <SidebarMenu />
+        {/* ─── Phone button (mobile only, now under logo) ───────────────── */}
+        {/* ─── Phone button (mobile only, centered) ─── */}
+        <div className="flex justify-center sm:hidden">
+          <Link
+            href="tel:+13479395779"
+            className="flex items-center gap-2 rounded bg-primary px-4 py-2 text-white hover:bg-orange-600"
+          >
+            <Phone className="h-4 w-4" />
+            <span className="text-sm font-medium">347&nbsp;939&nbsp;5779</span>
+          </Link>
         </div>
-        <ModeToggle />
+
+        {/* ─── Desktop nav + actions ────────────────────────────────────── */}
+        <div className="flex items-center gap-3">
+          {/* Full navbar (desktop) */}
+          <div className="hidden lg:block">
+            <NavbarSpecial />
+          </div>
+
+          {/* Burger menu (tablet & down) */}
+          <div className="xl:hidden align-middle">
+            <SidebarMenu />
+          </div>
+
+          {/* Dark‑mode toggle */}
+          <ModeToggle />
+        </div>
       </div>
     </header>
   );
