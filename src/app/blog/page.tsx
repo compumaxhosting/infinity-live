@@ -43,7 +43,7 @@ const Page = () => {
       <div>
         <BlogsOverview />
         <HeaderSpecial />
-        <div className="pt-5 sm:pt-14 2xl:pt-24 border-b">
+        <div className="pt-36 sm:pt-14 2xl:pt-24 border-b">
           <BlogData />
         </div>
         <Footer />

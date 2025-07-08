@@ -71,7 +71,7 @@ const RoofRestorationPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-4 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl"
+          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <h1

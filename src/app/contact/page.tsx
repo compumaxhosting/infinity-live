@@ -41,7 +41,7 @@ const Page = () => {
       {/* Page Layout */}
       <div>
         <HeaderSpecial />
-        <div className="pt-5 sm:pt-14 2xl:pt-24">
+        <div className="pt-32 sm:pt-16 2xl:pt-28">
           <ServicesSection />
         </div>
         <Footer />

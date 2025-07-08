@@ -22,7 +22,7 @@ export default async function BlogPage({ params }: PageProps) {
     <>
       <BlogsOverview />
       <HeaderSpecial />
-      <div className="pt-5 sm:pt-20 2xl:pt-32 border-b">
+      <div className="pt-36 sm:pt-24 2xl:pt-32 border-b">
         <section className="bg-white text-black">
           <section className="py-2">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
