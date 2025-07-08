@@ -4,6 +4,7 @@ import { Phone } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { specialityData } from "@/data/ourServicesData";
+import { ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -42,14 +43,16 @@ const Navbar = () => {
 
           {/* Services Dropdown */}
           <li className="relative z-10 group">
-            <div className="text-xl hover:text-orange-500 cursor-pointer">
+            <div className="flex items-center text-xl hover:text-orange-500 cursor-pointer">
               SERVICES
+              <ChevronDown className="w-3 md:w-5 h-3 md:h-5 ml-1 mt-[2px]" />
             </div>
+
             <ul className="absolute left-0 mt-0 hidden group-hover:block bg-white dark:bg-gray-800 rounded shadow-lg w-[300px] pt-2">
               {specialityData.map((service) => (
                 <li
                   key={service.heading}
-                  className="cursor-pointer text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2"
+                  className="cursor-pointer text-secondary dark:text-gray-100 text-lg hover:text-orange-500 px-4 py-2"
                 >
                   <Link href={service.path}>{service.heading}</Link>
                 </li>
@@ -58,7 +61,7 @@ const Navbar = () => {
           </li>
 
           <li className="text-xl hover:text-orange-500">
-            <Link href="/projects">PROJECTS</Link>
+            <Link href="/portfolio">PROJECT</Link>
           </li>
 
           <li className="text-xl hover:text-orange-500">
@@ -80,6 +83,10 @@ const Navbar = () => {
               <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
                 {" "}
                 <Link href="/gallery">GALLERY</Link>
+              </li>
+              <li className="text-secondary dark:text-gray-100 text-xl hover:text-orange-500 px-4 py-2">
+                {" "}
+                <Link href="/projects">OTHER WORKS</Link>
               </li>
             </ul>
           </li>

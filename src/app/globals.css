@@ -2,25 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+/* Custom Utility Classes */
 .text-shadow-black {
   text-shadow: 0px 0px 10px black;
 }
+
+/* Optional if you're using the class directly */
 .font-forum {
-  font-family: var(--font-forum);
+  font-family: var(--font-forum), serif;
 }
+
+/* Apply globally */
 body {
-  font-family:var(--font-forum);
+  font-family: var(--font-forum), serif;
 }
-html, body {
+
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
-
 @layer base {
   :root {
+    --font-forum: 'Forum', serif; /* fallback if not loaded via next/font */
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
@@ -47,6 +53,7 @@ html, body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -79,12 +86,14 @@ html, body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     padding-bottom: 0px;
   }
 }
 
+/* Swiper override */
 .review-swiper {
   padding-bottom: 120px; /* Creates space for pagination */
 }

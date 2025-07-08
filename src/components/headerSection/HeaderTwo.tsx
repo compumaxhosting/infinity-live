@@ -45,7 +45,7 @@ const Header: React.FC = () => {
       itemScope
       itemType="https://schema.org/LocalBusiness"
     >
-      <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 pt-8 pb-4">
+      <div className="container mx-auto flex justify-center sm:justify-between items-center p-1 pt-8 md:pt-2 pb-4 md:pb-2 xl:pb-0 xl:pt-0">
         {/* Logo and Business Name with Schema Markup */}
         <div className="flex flex-col sm:flex-row py-12 sm:py-0 justify-center items-center gap-6">
           <div itemProp="logo">

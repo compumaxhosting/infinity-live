@@ -13,6 +13,7 @@ import OurTestimonial from "@/components/OurTestimonial";
 import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import PhoneCall from "@/components/PhoneCall";
+import Portfolio from "@/components/Portfolio";
 
 export const metadata = {
   title: "Brownstone Construction and Restoration in Brooklyn, New York",
@@ -132,6 +133,7 @@ export default function Home() {
       <CarouselSection />
       <HeroSection />
       <OurServices />
+      <Portfolio />
       <OurTestimonial />
       <OurAffiliatesSection />
       <ServicesSection />

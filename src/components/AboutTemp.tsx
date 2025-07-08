@@ -36,7 +36,7 @@ const AboutTemp = () => {
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1
-            className="text-3xl sm:text-4xl 2xl:text-6xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 md:pb-6"
+            className="text-3xl sm:text-4xl 2xl:text-6xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 pb-0 md:pb-3"
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="name"
           >
@@ -137,14 +137,14 @@ const AboutTemp = () => {
             and restoration company based in Brooklyn, NY. We specialize in
             brownstone and limestone restoration, brick pointing, concrete work,
             stucco, waterproofing, and sidewalk repair across New York City,
-            including Brooklyn, Queens, Manhattan, the Bronx.
-            With years of hands-on experience, our skilled team is committed to
-            preserving the beauty and structure of NYC’s historic buildings
-            while delivering high-quality modern construction services. Whether
-            it&apos;s restoring a Brooklyn brownstone façade or repairing sidewalks
-            to remove DOT violations, we ensure long-lasting results and
-            complete customer satisfaction.Choose Infinity Construction NYC for
-            reliable, local, and professional service.
+            including Brooklyn, Queens, Manhattan, the Bronx. With years of
+            hands-on experience, our skilled team is committed to preserving the
+            beauty and structure of NYC’s historic buildings while delivering
+            high-quality modern construction services. Whether it&apos;s
+            restoring a Brooklyn brownstone façade or repairing sidewalks to
+            remove DOT violations, we ensure long-lasting results and complete
+            customer satisfaction.Choose Infinity Construction NYC for reliable,
+            local, and professional service.
           </p>
 
           <p
@@ -218,7 +218,18 @@ const AboutTemp = () => {
             Headquartered in Brooklyn, we are proud to have earned the trust of
             clients across all boroughs of NYC. Whether you&apos;re a property
             owner, manager, or resident, we approach every project with care,
-            attention, and respect for your investment and your community.
+            attention, and respect for your investment and your community.{" "}
+            <br />
+            <br />
+            Infinity Construction NYC delivers expert brownstone restoration and renovation,
+            masonry, roofing, waterproofing, fire escape painting, and painting
+            & plastering services across Brooklyn, Manhattan, Queens, and The
+            Bronx. Proudly serving zip codes 11205, 11206, 11216, 11221, 11233,
+            11238, 11215, 11217, 10026, 10027, 10030, 10031, 10035, 10037, and
+            10039, our skilled team ensures every project meets NYC’s highest
+            standards for quality and compliance. Choose Infinity Construction
+            NYC for reliable, cost-effective restoration and renovation in your
+            neighborhood!
           </p>
 
           {/* FAQ */}

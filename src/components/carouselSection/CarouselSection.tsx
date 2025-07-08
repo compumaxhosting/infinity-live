@@ -21,7 +21,6 @@ const CarouselSection: React.FC = () => {
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [totalSlides, setTotalSlides] = useState(0);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -51,7 +50,6 @@ const CarouselSection: React.FC = () => {
 
   useEffect(() => {
     if (!emblaApi) return;
-    setTotalSlides(emblaApi.scrollSnapList().length);
     emblaApi.on("select", onSelect);
     onSelect();
   }, [emblaApi, onSelect]);
@@ -95,15 +93,6 @@ const CarouselSection: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      <div
-        className="absolute bottom-5 left-5 text-white text-sm sm:text-2xl backdrop-blur-md px-4 sm:px-6 py-2 rounded-full"
-        style={{ fontFamily: "var(--font-forum)" }}
-        aria-live="polite"
-        aria-atomic="true"
-      >
-        {`${selectedIndex + 1} of ${totalSlides}`}
       </div>
 
       <button
