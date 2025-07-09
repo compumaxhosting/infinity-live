@@ -75,8 +75,8 @@ const Footer = () => {
                 className="mt-4 text-white text-sm leading-relaxed font-semibold"
                 itemProp="description"
               >
-                LICENSED & INSURED BROWNSTONE RESTORATION
-                AND HISTORICAL LANDMARK SPECIALIST
+                LICENSED & INSURED BROWNSTONE RESTORATION AND HISTORICAL
+                LANDMARK SPECIALIST
               </p>
             </div>
 
@@ -113,25 +113,47 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
-
-              <div
-                className="flex items-start gap-4"
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-              >
-                <div className="p-2 bg-slate-800 rounded-lg">
-                  <MapPin className="text-primary" size={18} />
+              <div className="space-y-4">
+                {/* First Address */}
+                <div
+                  className="flex items-start gap-4"
+                  itemProp="address"
+                  itemScope
+                  itemType="https://schema.org/PostalAddress"
+                >
+                  <div className="p-2 bg-slate-800 rounded-lg">
+                    <MapPin className="text-primary" size={18} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Brooklyn, New York :</p>
+                    <p className="text-gray-100 text-sm">
+                      <span itemProp="streetAddress">1809 Albany Ave</span>,
+                      <span itemProp="addressLocality">Brooklyn</span>,{" "}
+                      <span itemProp="addressRegion">NY</span>{" "}
+                      <span itemProp="postalCode">11210</span>
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-medium">Address</p>
-                  <p className="text-gray-100 text-sm">
-                    <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
-                    <br />
-                    <span itemProp="addressLocality">Brooklyn</span>,{" "}
-                    <span itemProp="addressRegion">NY</span>{" "}
-                    <span itemProp="postalCode">11210</span>
-                  </p>
+
+                {/* Second Address */}
+                <div
+                  className="flex items-start gap-4"
+                  itemProp="address"
+                  itemScope
+                  itemType="https://schema.org/PostalAddress"
+                >
+                  <div className="p-2 bg-slate-800 rounded-lg">
+                    <MapPin className="text-primary" size={18} />
+                  </div>
+                  <div>
+                    <p className="font-medium">Manhattan, New York :</p>
+                    <p className="text-gray-100 text-sm">
+                      <span itemProp="streetAddress">152 E 118th St S1</span>,
+                      <span itemProp="addressLocality">New York</span>,{" "}
+                      <span itemProp="addressRegion">NY</span>{" "}
+                      <span itemProp="postalCode">10035</span>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

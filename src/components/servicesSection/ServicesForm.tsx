@@ -107,7 +107,7 @@ const ServicesForm: React.FC = () => {
               dark:bg-gray-900 dark:border-gray-800 text-stone-800 dark:text-gray-200"
       style={{ fontFamily: "var(--font-forum)" }}
     >
-      <h2 className="mb-8 text-2xl font-semibold lg:text-4xl">Get in Touch</h2>
+      <h2 className="mb-8 text-2xl lg:text-4xl">Get in Touch</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name */}
         <div>

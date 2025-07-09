@@ -60,7 +60,7 @@ const NavbarSpecial = () => {
           <Link href="/portfolio">
             <li
               className={`text-xl ${
-                isActive("/projects")
+                isActive("/portfolio")
                   ? "font-bold transition-all duration-300 bg-primary dark:bg-primary p-2 px-4 text-white"
                   : ""
               }`}

@@ -20,6 +20,24 @@ type Review = {
 
 const reviews: Review[] = [
   {
+    name: "Heidi Knecht-Seegers",
+    date: "review",
+    rating: 5,
+    text: "Great company. They did a wonderful job fixing...",
+    detailText:
+      "Great company. They did a wonderful job fixing, scraping, and painting the fire escape. Reliable and pleasant. Will surely use them again. I recommend highly!",
+    image: "/profile1.png",
+  },
+  {
+    name: "David Albert",
+    date: "review",
+    rating: 5,
+    text: "Infinity did an amazing job completely restoring...",
+    detailText:
+      "Infinity did an amazing job completely restoring the stoop of our brownstone. This is a long and involved process with multiple steps. Shaiful and his team worked tirelessly over several weeks to achieve a really beautiful result. Shaiful is a great communicator and very reliable. He and his team are real artisans. Highly recommended!",
+    image: "/profile1.png",
+  },
+  {
     name: "Erica Lewis-Conliffe",
     date: "review",
     rating: 5,

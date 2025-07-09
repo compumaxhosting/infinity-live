@@ -30,14 +30,14 @@ export default async function BlogPage({ params }: PageProps) {
               <div>
                 <Link
                   href="/blog"
-                  className="text-sm text-gray-700 hover:underline"
+                  className="text-sm text-slate-800 hover:underline"
                 >
                   ← Back to Blogs
                 </Link>
-                <h1 className="mt-4 text-2xl md:text-4xl font-bold">
+                <h1 className="mt-4 text-2xl md:text-4xl">
                   {blog.title}
                 </h1>
-                <div className="mt-4 text-lg text-justify text-gray-700">
+                <div className="mt-4 text-xl md:text-2xl text-justify text-slate-800">
                   {blog.description}
                 </div>
               </div>
@@ -60,10 +60,10 @@ export default async function BlogPage({ params }: PageProps) {
           <section className="max-w-7xl mx-auto px-6 pt-8 pb-2">
             {blog.sections.map((section, index) => (
               <article key={index} className="mb-10">
-                <h2 className="text-2xl font-semibold text-gray-900 mb-3">
+                <h2 className="text-2xl md:text-3xl text-gray-900 mb-3">
                   {section.title}
                 </h2>
-                <div className="text-gray-700 leading-relaxed text-justify">
+                <div className="text-slate-800 text-xl md:text-2xl leading-relaxed text-justify">
                   {section.paragraph}
                 </div>
               </article>

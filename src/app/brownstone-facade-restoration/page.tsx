@@ -72,18 +72,18 @@ const BrickCMULayeringPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl px-4 md:px-12 lg:px-48"
+          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <h1
-            className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8"
+            className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8"
             itemProp="name"
           >
             Brick and CMU Block Layering
           </h1>
 
           <section itemScope itemType="https://schema.org/LocalBusiness">
-            <p className="text-justify text-lg px-4" itemProp="description">
+            <p className="text-justify text-xl md:text-2xl text-slate-800 px-4" itemProp="description">
               At{" "}
               <Link href="/" itemProp="url">
                 Infinity Construction NYC
@@ -99,7 +99,7 @@ const BrickCMULayeringPage = () => {
             <div className="flex justify-center lg:justify-start m-2">
               <Link
                 href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+                className="inline-block bg-primary hover:bg-primary/80 text-white py-2 px-6 rounded-lg transition duration-300"
               >
                 Contact Us
               </Link>
@@ -116,7 +116,7 @@ const BrickCMULayeringPage = () => {
                   itemType="https://schema.org/OfferCatalog"
                 >
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -133,7 +133,7 @@ const BrickCMULayeringPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -150,7 +150,7 @@ const BrickCMULayeringPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -165,7 +165,7 @@ const BrickCMULayeringPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -212,27 +212,27 @@ const BrickCMULayeringPage = () => {
                 itemType="https://schema.org/Organization"
               >
                 <meta itemProp="name" content="Infinity Construction NYC" />
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Unmatched Expertise:</strong> With years of
                   experience in the construction industry, we have perfected the
                   art of brick and CMU block layering. Our team is highly
                   skilled and dedicated to delivering top-quality results.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Commitment to Quality:</strong> We use only the
                   highest quality materials, ensuring that your brick and CMU
                   block structures are not only aesthetically pleasing but also
                   long-lasting. Every detail, from mortar application to
                   alignment, is handled with precision.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Tailored for Your Needs:</strong> We understand that
                   every project is unique, which is why we offer customized
                   solutions to fit your specific requirements, budget, and
                   design vision. Our collaborative approach ensures we deliver
                   exactly what you need.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Reliable and Timely Service:</strong> At Infinity
                   Construction NYC, we pride ourselves on completing projects on
                   time and within budget, without compromising on quality or

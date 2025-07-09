@@ -38,10 +38,10 @@ const ProjectsSection = () => {
     <div className="container mx-auto px-4 lg:px-8 py-14 pb-0 md:pb-14 border-b">
       <div className="text-center mb-10">
         <h2
-          className="text-3xl sm:text-5xl font-bold text-tertiary dark:text-white"
+          className="text-3xl sm:text-5xl  text-gray-900 dark:text-white"
           style={{ fontFamily: "var(--font-forum)" }}
         >
-          Our Projects
+          Other Works
         </h2>
       </div>
 
@@ -64,12 +64,12 @@ const ProjectsSection = () => {
                 />
                 <div className="p-8">
                   <h3
-                    className="text-2xl font-semibold text-stone-950 dark:text-white"
+                    className="text-2xl text-stone-950 dark:text-white"
                     style={{ fontFamily: "var(--font-forum)" }}
                   >
                     {projects.title}
                   </h3>
-                  <p className="text-gray-700 dark:text-gray-300 my-2 mb-4 text-justify">
+                  <p className="text-gray-700 my-2 mb-4 text-justify">
                     {projects.description.slice(0, 180)}...{" "}
                     {/* Truncate the description */}
                   </p>

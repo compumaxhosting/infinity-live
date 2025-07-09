@@ -71,11 +71,11 @@ const RoofRestorationPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl"
+          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <h1
-            className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8 px-4 lg:px-12"
+            className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8 px-4 lg:px-12"
             itemProp="name"
           >
             Roof Restoration <br /> and Weatherproofing
@@ -86,7 +86,7 @@ const RoofRestorationPage = () => {
             itemScope
             itemType="https://schema.org/LocalBusiness"
           >
-            <p className="text-lg" itemProp="description">
+            <p className="text-xl md:text-2xl text-slate-800" itemProp="description">
               Expert Roof Restoration & Weatherproofing Services in NYC <br />
               At{" "}
               <Link href="/" itemProp="url">
@@ -102,7 +102,7 @@ const RoofRestorationPage = () => {
             <div className="flex justify-center lg:justify-start my-4">
               <Link
                 href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+                className="inline-block bg-primary hover:bg-primary/80 text-white py-2 px-6 rounded-lg transition duration-300"
               >
                 Contact Us
               </Link>
@@ -110,7 +110,7 @@ const RoofRestorationPage = () => {
 
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               <div className="w-full lg:w-8/12 p-4 space-y-6">
-                <h2 className="text-4xl my-4">
+                <h2 className="text-4xl md:text-5xl my-4">
                   Our Roof Restoration & Weatherproofing Process
                 </h2>
                 <ul
@@ -119,7 +119,7 @@ const RoofRestorationPage = () => {
                   itemType="https://schema.org/OfferCatalog"
                 >
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -134,7 +134,7 @@ const RoofRestorationPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -151,7 +151,7 @@ const RoofRestorationPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -164,7 +164,7 @@ const RoofRestorationPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -181,7 +181,7 @@ const RoofRestorationPage = () => {
                     </span>
                   </li>
                   <li
-                    className="text-justify"
+                    className="text-justify text-xl md:text-2xl text-slate-800"
                     itemProp="itemListElement"
                     itemScope
                     itemType="https://schema.org/Offer"
@@ -214,7 +214,7 @@ const RoofRestorationPage = () => {
           </section>
 
           <section className="px-4 lg:px-24">
-            <h2 className="text-4xl my-4">
+            <h2 className="text-4xl md:text-5xl my-4">
               Why Choose Infinity Construction NYC?
             </h2>
             <ul
@@ -228,24 +228,24 @@ const RoofRestorationPage = () => {
                 itemType="https://schema.org/Organization"
               >
                 <meta itemProp="name" content="Infinity Construction NYC" />
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Licensed, Bonded, and Insured:</strong> We are fully
                   certified by the NYC Department of Buildings, giving you
                   confidence in our professionalism and compliance with local
                   regulations.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Experienced and Certified Technicians:</strong> Our
                   team is trained to handle even the most complex roof
                   restoration projects, ensuring exceptional workmanship and
                   results.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Commitment to Quality:</strong> We use only the best
                   materials and techniques, ensuring your roof remains durable,
                   functional, and aesthetically pleasing for years to come.
                 </li>
-                <li className="text-justify" itemProp="reviewBody">
+                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                   • <strong>Customer-Focused Approach:</strong> At Infinity
                   Construction NYC, we prioritize clear communication and client
                   satisfaction. From the initial consultation to project

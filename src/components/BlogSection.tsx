@@ -9,7 +9,7 @@ const  BlogSection = () => {
   return (
     <div className="max-w-7xl mx-auto py-8 px-4">
       <h2
-        className="text-center text-3xl sm:text-5xl font-bold text-tertiary dark:text-white mb-6 sm:mt-4"
+        className="text-center text-3xl sm:text-5xl text-tertiary dark:text-white mb-6 sm:mt-4"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         Blog Section
@@ -31,7 +31,7 @@ const  BlogSection = () => {
 
               {/* Blog Content */}
               <div className="mt-4">
-                <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200">
+                <h2 className="text-2xl text-gray-800 dark:text-gray-200">
                   {blog.title}
                 </h2>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">

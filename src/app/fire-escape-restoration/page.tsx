@@ -71,18 +71,18 @@ const FireEscapeRestorationPage = () => {
       {/* ✅ Original Page Content Starts Here */}
       <HeaderSpecial />
       <main
-        className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl px-4 md:px-12 lg:px-48"
+        className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         <h1
-          className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8"
+          className="text-center text-4xl sm:text-5xl lg:text-6xl text-tertiary dark:text-white mb-8"
           itemProp="name"
         >
           Fire Escape/Metal Railing & Fence Restoration
         </h1>
 
         <section itemScope itemType="https://schema.org/LocalBusiness">
-          <p className="text-justify text-lg" itemProp="description">
+          <p className="text-justify text-xl md:text-2xl text-slate-800" itemProp="description">
             Fire escapes are a critical safety feature, and maintaining them in
             excellent condition is essential for ensuring the safety and
             compliance of your property. At{" "}
@@ -96,7 +96,7 @@ const FireEscapeRestorationPage = () => {
           <div className="flex justify-center lg:justify-start my-4">
             <Link
               href="/contact"
-              className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+              className="inline-block bg-primary hover:bg-primary/80 text-white  py-2 px-6 rounded-lg transition duration-300"
             >
               Contact Us
             </Link>
@@ -113,7 +113,7 @@ const FireEscapeRestorationPage = () => {
                 itemType="https://schema.org/OfferCatalog"
               >
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -130,7 +130,7 @@ const FireEscapeRestorationPage = () => {
                   </span>
                 </li>
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -147,7 +147,7 @@ const FireEscapeRestorationPage = () => {
                   </span>
                 </li>
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -161,7 +161,7 @@ const FireEscapeRestorationPage = () => {
                   </span>
                 </li>
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -178,7 +178,7 @@ const FireEscapeRestorationPage = () => {
                   </span>
                 </li>
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -195,7 +195,7 @@ const FireEscapeRestorationPage = () => {
                   </span>
                 </li>
                 <li
-                  className="text-justify"
+                  className="text-justify text-xl md:text-2xl text-slate-800"
                   itemProp="itemListElement"
                   itemScope
                   itemType="https://schema.org/Offer"
@@ -232,7 +232,7 @@ const FireEscapeRestorationPage = () => {
             itemType="https://schema.org/OfferCatalog"
           >
             <li
-              className="text-justify"
+              className="text-justify text-xl md:text-2xl text-slate-800"
               itemProp="itemListElement"
               itemScope
               itemType="https://schema.org/Offer"
@@ -244,7 +244,7 @@ const FireEscapeRestorationPage = () => {
               </span>
             </li>
             <li
-              className="text-justify"
+              className="text-justify text-xl md:text-2xl text-slate-800"
               itemProp="itemListElement"
               itemScope
               itemType="https://schema.org/Offer"
@@ -257,7 +257,7 @@ const FireEscapeRestorationPage = () => {
               </span>
             </li>
             <li
-              className="text-justify"
+              className="text-justify text-xl md:text-2xl text-slate-800"
               itemProp="itemListElement"
               itemScope
               itemType="https://schema.org/Offer"
@@ -274,7 +274,7 @@ const FireEscapeRestorationPage = () => {
 
         <section>
           <h2 className="text-4xl my-4">Why Regular Maintenance Matters</h2>
-          <p className="text-justify" itemProp="description">
+          <p className="text-justify text-xl md:text-2xl text-slate-800" itemProp="description">
             Regular maintenance and timely repairs are essential for preventing
             costly replacements and avoiding potential safety hazards. By
             addressing minor issues early, you can extend the life of your fire
@@ -299,7 +299,7 @@ const FireEscapeRestorationPage = () => {
               itemType="https://schema.org/Organization"
             >
               <meta itemProp="name" content="Infinity Construction NYC" />
-              <li className="text-justify" itemProp="reviewBody">
+              <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                 •{" "}
                 <strong className="font-medium">
                   Expertise You Can Trust:
@@ -308,17 +308,17 @@ const FireEscapeRestorationPage = () => {
                 high-quality restoration services tailored to your specific
                 needs.
               </li>
-              <li className="text-justify" itemProp="reviewBody">
+              <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                 • <strong className="font-medium">Commitment to Safety:</strong>{" "}
                 We prioritize safety and compliance, ensuring your fire escape
                 meets all legal requirements and industry standards.
               </li>
-              <li className="text-justify" itemProp="reviewBody">
+              <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                 • <strong className="font-medium">Durable Solutions:</strong>{" "}
                 Using premium materials and advanced techniques, we ensure
                 long-lasting results that protect your investment.
               </li>
-              <li className="text-justify" itemProp="reviewBody">
+              <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                 •{" "}
                 <strong className="font-medium">
                   Customer-Focused Service:
@@ -326,7 +326,7 @@ const FireEscapeRestorationPage = () => {
                 From the initial inspection to project completion, we provide
                 clear communication and reliable service every step of the way.
               </li>
-              <li className="text-justify" itemProp="reviewBody">
+              <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
                 •{" "}
                 <strong className="font-medium">Comprehensive Approach:</strong>{" "}
                 We address every aspect of fire escape restoration, from
@@ -336,7 +336,7 @@ const FireEscapeRestorationPage = () => {
             </div>
           </ul>
 
-          <p className="text-justify" itemProp="description">
+          <p className="text-justify text-xl md:text-2xl text-slate-800" itemProp="description">
             Protect and restore your fire escape with Infinity Construction NYC.
             Contact us today to learn more about our fire escape restoration
             services, and schedule a consultation with our experts.

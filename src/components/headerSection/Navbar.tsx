@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
 
           <li className="text-xl hover:text-orange-500">
-            <Link href="/portfolio">PROJECT</Link>
+            <Link href="/portfolio">PROJECTS</Link>
           </li>
 
           <li className="text-xl hover:text-orange-500">

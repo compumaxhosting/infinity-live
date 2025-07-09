@@ -56,17 +56,17 @@ const Page = () => {
       <div>
         <HeaderSpecial />
         <main
-          className="container mx-auto p-8 pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl px-4 md:px-12 lg:px-48"
+          className="container mx-auto p-8 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <header>
-            <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
+            <h1 className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8">
               Painting and Masonry
             </h1>
           </header>
 
           <section className="mb-2">
-            <p className="text-lg text-justify">
+            <p className="text-xl md:text-2xl text-slate-800 text-justify">
               At Infinity Construction NYC, we offer Masonry and Painting
               services designed to provide smooth, durable, and flawless
               finishes for your walls and ceilings. Whether it’s for new
@@ -78,7 +78,7 @@ const Page = () => {
             <div className="flex justify-center lg:justify-start my-4">
               <Link
                 href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+                className="inline-block bg-primary hover:bg-primary/80 text-white py-2 px-6 rounded-lg transition duration-300"
               >
                 Contact Us
               </Link>
@@ -91,7 +91,7 @@ const Page = () => {
                 Our Painting and Masonry Services
               </h2>
               <ul>
-                <li>
+                <li className="text-slate-800">
                   •{" "}
                   <strong className="font-medium">
                     Wall and Ceiling Repairs:
@@ -100,19 +100,19 @@ const Page = () => {
                   and uniform finish. We use advanced techniques and
                   high-quality materials for long-lasting results.
                 </li>
-                <li>
+                <li className="text-slate-800">
                   • <strong className="font-medium">Custom Textures:</strong>{" "}
                   Offering a variety of finishes, from smooth to textured, to
                   match your design preferences. This includes modern designs,
                   Venetian plaster, and other decorative textures.
                 </li>
-                <li>
+                <li className="text-slate-800">
                   • <strong className="font-medium">Restoration Work:</strong>{" "}
                   Preserving and repairing historic plasterwork, including
                   intricate ornamental details, to restore its original charm
                   and elegance.
                 </li>
-                <li>
+                <li className="text-slate-800">
                   •{" "}
                   <strong className="font-medium">
                     Pre-Paint Preparations:
@@ -121,7 +121,7 @@ const Page = () => {
                   application. This includes sanding, priming, and applying
                   joint compound to achieve a flawless base.
                 </li>
-                <li>
+                <li className="text-slate-800">
                   •{" "}
                   <strong className="font-medium">
                     Moisture Resistance Solutions:
@@ -130,7 +130,7 @@ const Page = () => {
                   dampness, mold, and mildew, particularly in high-humidity
                   areas like bathrooms and kitchens.
                 </li>
-                <li>
+                <li className="text-slate-800">
                   •{" "}
                   <strong className="font-medium">
                     High-Quality Painting:

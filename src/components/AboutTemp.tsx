@@ -36,7 +36,7 @@ const AboutTemp = () => {
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1
-            className="text-3xl sm:text-4xl 2xl:text-6xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 pb-0 md:pb-3"
+            className="text-3xl sm:text-4xl 2xl:text-5xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 pb-0 md:pb-3"
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="name"
           >

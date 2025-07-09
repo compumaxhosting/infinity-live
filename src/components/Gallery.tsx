@@ -56,7 +56,7 @@ const Gallery: React.FC = () => {
     <section className="w-full overflow-hidden">
       <div className="text-center mb-10 pt-4 sm:pt-16">
         <h2
-          className="text-3xl sm:text-5xl font-bold text-tertiary dark:text-white"
+          className="text-3xl sm:text-5xl text-gray-900 dark:text-white"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           Gallery

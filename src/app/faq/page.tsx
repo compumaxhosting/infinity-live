@@ -37,7 +37,7 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div className="pt-40 sm:pt-28 xl:pt-32 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
-        <h2 className="text-center text-2xl lg:text-4xl font-bold mb-10 text-gray-800 dark:text-white">
+        <h2 className="text-center text-2xl lg:text-5xl mb-10 text-gray-900 dark:text-white">
           Frequently Asked Questions
         </h2>
         <div className="max-w-4xl mx-auto">
@@ -47,7 +47,7 @@ const page = () => {
                 <AccordionTrigger className="text-xl lg:text-3xl font-medium text-gray-800 dark:text-white">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="mt-2 text-base lg:text-lg text-gray-600 dark:text-gray-300">
+                <AccordionContent className="mt-2 text-lg lg:text-xl text-gray-600 dark:text-gray-300">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

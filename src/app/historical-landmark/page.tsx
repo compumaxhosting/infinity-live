@@ -63,15 +63,13 @@ const HistoricalLandmarkRestorationPage = () => {
       {/* Original Page Content */}
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
-        <main
-          className="container mx-auto p-40 sm:pt-48 2xl:pt-36 border-b px-4 md:px-12 lg:px-48"
-        >
-          <h1 className="text-center text-3xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8">
+        <main className="container mx-auto p-40 sm:pt-48 2xl:pt-36 border-b px-4 md:px-12 lg:px-48">
+          <h1 className="text-center text-3xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8">
             Historical Landmark Brownstone/ Limestone Restoration
           </h1>
 
           <section itemScope itemType="https://schema.org/LocalBusiness">
-            <p className="text-justify text-lg mb-8">
+            <p className="text-justify mb-8 pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300">
               New York City is home to many historical architectural structures
               crafted from limestone and brownstone. These buildings are not
               just iconic; they are a testament to the city&apos;s rich history
@@ -97,11 +95,14 @@ const HistoricalLandmarkRestorationPage = () => {
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               {/* Left Section - Content */}
               <div className="w-full lg:w-1/2 p-4 space-y-6">
-                <h2 className="text-4xl font-semibold">
+                <h2 className="text-4xl">
                   Our Restoration Services
                 </h2>
                 <ul className="list-disc pl-6 space-y-4 text-lg">
-                  <li className="text-justify" itemProp="description">
+                  <li
+                    className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300"
+                    itemProp="description"
+                  >
                     <strong>Comprehensive Inspection:</strong> We begin by
                     thoroughly inspecting the structural integrity of the
                     building. For full façade or stoop restoration, we carefully
@@ -110,7 +111,7 @@ const HistoricalLandmarkRestorationPage = () => {
                     an assessment of mortar joints and the overall stability of
                     the structure.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                     <strong>Precise Repair Process:</strong> Damaged outer
                     layers are meticulously removed to expose the foundation
                     layer. We then apply multiple molds of mortar and stone
@@ -120,21 +121,21 @@ const HistoricalLandmarkRestorationPage = () => {
                     resurfacing to seamlessly blend repairs with the existing
                     architecture.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                     <strong>Cleaning and Surface Preparation:</strong> To
                     achieve a uniform appearance, we clean the entire surface
                     using specialized, non-abrasive techniques that remove dirt,
                     grime, and biological growth without causing further damage
                     to the stonework.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                     <strong>Waterproofing and Weatherproofing:</strong> After
                     restoration, we apply protective treatments to safeguard the
                     structure against water infiltration, freeze-thaw cycles,
                     and other environmental factors that could lead to future
                     damage.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                     <strong>Attention to Detail:</strong> Our restoration
                     process is tailored to preserve the historical integrity of
                     your property, ensuring every detail is authentic and true
@@ -185,27 +186,27 @@ const HistoricalLandmarkRestorationPage = () => {
               Layering?
             </h2>
             <ul className="list-disc pl-6 space-y-4 text-lg mb-6">
-              <li className="text-justify" itemProp="description">
+              <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                 <strong>Unmatched Expertise:</strong> With years of experience
                 in the construction industry, we have perfected the art of brick
                 and CMU block layering. Our team is highly skilled and dedicated
                 to delivering top-quality results.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                 <strong>Commitment to Quality:</strong> We use only the highest
                 quality materials, ensuring that your brick and CMU block
                 structures are not only aesthetically pleasing but also
                 long-lasting. Every detail, from mortar application to
                 alignment, is handled with precision.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                 <strong>Tailored for Your Needs:</strong> We understand that
                 every project is unique, which is why we offer customized
                 solutions to fit your specific requirements, budget, and design
                 vision. Our collaborative approach ensures we deliver exactly
                 what you need.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="pt-6 text-xl md:text-2xl text-slate-800 leading-7 dark:text-slate-300" itemProp="description">
                 <strong>Reliable and Timely Service:</strong> At Infinity
                 Construction NYC, we pride ourselves on completing projects on
                 time and within budget, without compromising on quality or

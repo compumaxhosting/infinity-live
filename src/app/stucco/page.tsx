@@ -72,12 +72,12 @@ const StuccoWaterproofingPage = () => {
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main
-          className="container mx-auto pt-40 sm:pt-48 2xl:pt-36 border-b text-lg lg:text-xl px-4 md:px-12 lg:px-48"
+          className="container mx-auto pt-40 sm:pt-48 2xl:pt-36 border-b text-lg md:text-2xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           {/* Main Title */}
           <h1
-            className="text-center text-4xl sm:text-5xl lg:text-6xl font-bold text-tertiary dark:text-white mb-8"
+            className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8"
             itemProp="name"
           >
             Stucco/ Waterproofing of Exterior, Parapet, and Retaining Walls
@@ -86,7 +86,7 @@ const StuccoWaterproofingPage = () => {
           {/* Introduction Paragraph */}
           <section itemScope itemType="https://schema.org/LocalBusiness">
             <p
-              className="text-justify text-lg lg:text-xl mb-8"
+              className="text-xl md:text-2xl text-slate-800 leading-7 pb-4"
               itemProp="description"
             >
               Stucco restoration and waterproofing of exterior walls, parapets,
@@ -104,7 +104,7 @@ const StuccoWaterproofingPage = () => {
             <div className="flex justify-center lg:justify-start mb-2">
               <Link
                 href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-2 px-6 rounded-lg transition duration-300"
+                className="inline-block bg-primary hover:bg-primary/80 text-white py-2 px-6 rounded-lg transition duration-300"
               >
                 Contact Us
               </Link>
@@ -113,49 +113,49 @@ const StuccoWaterproofingPage = () => {
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               {/* Left Section - Content */}
               <div className="w-full lg:w-8/12 p-4">
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-4">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl my-4">
                   Inspection and Assessment
                 </h2>
                 <p
-                  className="text-justify text-lg lg:text-xl mb-4"
+                  className="text-xl md:text-2xl text-slate-800 leading-7 text-justify mb-4"
                   itemProp="description"
                 >
                   Our process begins with a thorough inspection of the existing
                   structure. We carefully examine for:
                 </p>
-                <ul className="text-lg lg:text-xl space-y-4 mb-8">
-                  <li className="text-justify" itemProp="description">
+                <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Cracks and spalls in the stucco.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Water damage within the stucco layers.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Missing or deteriorating waterproofing paint or membrane.
                   </li>
                 </ul>
 
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-4">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl my-4">
                   Stucco Restoration Process
                 </h2>
-                <ul className="text-lg lg:text-xl space-y-4">
-                  <li className="text-justify" itemProp="description">
+                <ul className="text-xl md:text-2xl text-slate-800 space-y-4">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Damage Removal: We completely remove the damaged layer to
                     expose the foundational surface, ensuring all compromised
                     material is cleared to prevent future issues.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Reinforcement Application: We apply wire mesh, steel
                     strips, or thin rebars to reinforce the structure, providing
                     added stability and preventing future cracks.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Application of Mortar Layers: Multiple layers of
                     waterproof mortar mixtures are applied to rebuild the
                     surface, ensuring the material is compatible with the
                     existing structure.
                   </li>
-                  <li className="text-justify" itemProp="description">
+                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                     • Finishing Touches: The restored stucco is carefully
                     smoothed and shaped to match the original design. We pay
                     close attention to decorative details and ensure a seamless
@@ -184,19 +184,19 @@ const StuccoWaterproofingPage = () => {
             itemScope
             itemType="https://schema.org/OfferCatalog"
           >
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl my-8">
               Waterproofing Process
             </h2>
             <p
-              className="text-justify text-lg lg:text-xl mb-8"
+              className="text-justify text-xl lg:text-2xl mb-8 leading-7"
               itemProp="description"
             >
               For new or existing stucco on exterior walls, parapets, and
               retaining walls, our waterproofing process involves:
             </p>
-            <ul className="text-lg lg:text-xl space-y-4 mb-8">
+            <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8">
               <li
-                className="text-justify"
+                className="text-justify leading-7"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -207,7 +207,7 @@ const StuccoWaterproofingPage = () => {
                 debris and contaminants.
               </li>
               <li
-                className="text-justify"
+                className="text-justify leading-7"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -217,7 +217,7 @@ const StuccoWaterproofingPage = () => {
                 coating.
               </li>
               <li
-                className="text-justify"
+                className="text-justify leading-7"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -229,7 +229,7 @@ const StuccoWaterproofingPage = () => {
                 ensure a uniform and durable barrier against water infiltration.
               </li>
               <li
-                className="text-justify"
+                className="text-justify leading-7"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -240,7 +240,7 @@ const StuccoWaterproofingPage = () => {
                 excessive exposure to moisture.
               </li>
               <li
-                className="text-justify"
+                className="text-justify leading-7"
                 itemProp="itemListElement"
                 itemScope
                 itemType="https://schema.org/Offer"
@@ -254,27 +254,27 @@ const StuccoWaterproofingPage = () => {
 
           {/* Specialized Waterproofing Services */}
           <section>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl my-8">
               Specialized Waterproofing Services
             </h2>
-            <ul className="text-lg lg:text-xl space-y-4 mb-8">
-              <li className="text-justify" itemProp="description">
+            <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Spray-Applied Membrane Systems: Advanced systems for seamless
                 waterproofing.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Façade Waterproofing: Protection against water penetration and
                 weather elements.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Foundation Waterproofing Systems: Ensures long-term stability
                 of the foundation.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Retaining Wall Protection: Safeguards against soil and water
                 pressure.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Basement Waterproofing: Prevents water damage in below-grade
                 structures.
               </li>
@@ -282,12 +282,12 @@ const StuccoWaterproofingPage = () => {
           </section>
 
           {/* Commitment to Quality */}
-          <section>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
+          <section className=" leading-7">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl my-8">
               Commitment to Quality
             </h2>
             <p
-              className="text-justify text-lg lg:text-xl mb-8"
+              className="text-justify text-xl leading-7 md:text-2xl mb-8"
               itemProp="description"
             >
               At <Link href="/">Infinity Construction NYC</Link>, we pride
@@ -304,32 +304,32 @@ const StuccoWaterproofingPage = () => {
           </section>
 
           {/* Why Choose Us Section */}
-          <section>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold my-8">
+          <section className="leading-7">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl my-8">
               Why Choose Infinity Construction NYC for Your Brick and CMU Block
               Layering?
             </h2>
-            <ul className="text-lg lg:text-xl space-y-4 mb-8">
-              <li className="text-justify" itemProp="description">
+            <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8 leading-7">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Unmatched Expertise: With years of experience in the
                 construction industry, we have perfected the art of brick and
                 CMU block layering. Our team is highly skilled and dedicated to
                 delivering top-quality results.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Commitment to Quality: We use only the highest quality
                 materials, ensuring that your brick and CMU block structures are
                 not only aesthetically pleasing but also long-lasting. Every
                 detail, from mortar application to alignment, is handled with
                 precision.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Tailored for Your Needs: We understand that every project is
                 unique, which is why we offer customized solutions to fit your
                 specific requirements, budget, and design vision. Our
                 collaborative approach ensures we deliver exactly what you need.
               </li>
-              <li className="text-justify" itemProp="description">
+              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
                 • Reliable and Timely Service: At Infinity Construction NYC, we
                 pride ourselves on completing projects on time and within
                 budget, without compromising on quality or craftsmanship.
