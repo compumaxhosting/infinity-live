@@ -38,7 +38,7 @@ const  BlogSection = () => {
                   By <span className="font-medium">{blog.author}</span> •{" "}
                   {blog.date} • {blog.readTime}
                 </p>
-                <p className="mt-4 text-gray-600 dark:text-gray-300 text-justify">
+                <p className="mt-4 text-gray-600 dark:text-gray-300 text-center md:text-justify">
                   {blog.contentPreview}
                 </p>
                 <div className="mt-4 flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">

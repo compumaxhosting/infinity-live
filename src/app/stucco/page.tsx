@@ -124,13 +124,22 @@ const StuccoWaterproofingPage = () => {
                   structure. We carefully examine for:
                 </p>
                 <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8">
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Cracks and spalls in the stucco.
                   </li>
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Water damage within the stucco layers.
                   </li>
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Missing or deteriorating waterproofing paint or membrane.
                   </li>
                 </ul>
@@ -139,23 +148,35 @@ const StuccoWaterproofingPage = () => {
                   Stucco Restoration Process
                 </h2>
                 <ul className="text-xl md:text-2xl text-slate-800 space-y-4">
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Damage Removal: We completely remove the damaged layer to
                     expose the foundational surface, ensuring all compromised
                     material is cleared to prevent future issues.
                   </li>
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Reinforcement Application: We apply wire mesh, steel
                     strips, or thin rebars to reinforce the structure, providing
                     added stability and preventing future cracks.
                   </li>
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Application of Mortar Layers: Multiple layers of
                     waterproof mortar mixtures are applied to rebuild the
                     surface, ensuring the material is compatible with the
                     existing structure.
                   </li>
-                  <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+                  <li
+                    className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                    itemProp="description"
+                  >
                     • Finishing Touches: The restored stucco is carefully
                     smoothed and shaped to match the original design. We pay
                     close attention to decorative details and ensure a seamless
@@ -165,12 +186,21 @@ const StuccoWaterproofingPage = () => {
               </div>
 
               {/* Right Section - Image */}
+              {/* Right Section - Image */}
               <div className="w-full lg:w-4/12 p-4">
                 <Image
                   src="/stucco/stucco-img-2.JPG"
                   width={600}
                   height={600}
                   alt="Professional stucco restoration and waterproofing services in New York City"
+                  className="w-full h-auto object-cover rounded-lg shadow-md mb-4"
+                  itemProp="image"
+                />
+                <Image
+                  src="/stucco/stucco-img-3.JPG" // <-- Replace with the actual image path
+                  width={600}
+                  height={600}
+                  alt="Additional stucco waterproofing example in NYC"
                   className="w-full h-auto object-cover rounded-lg shadow-md"
                   itemProp="image"
                 />
@@ -258,23 +288,38 @@ const StuccoWaterproofingPage = () => {
               Specialized Waterproofing Services
             </h2>
             <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8">
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Spray-Applied Membrane Systems: Advanced systems for seamless
                 waterproofing.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Façade Waterproofing: Protection against water penetration and
                 weather elements.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Foundation Waterproofing Systems: Ensures long-term stability
                 of the foundation.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Retaining Wall Protection: Safeguards against soil and water
                 pressure.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Basement Waterproofing: Prevents water damage in below-grade
                 structures.
               </li>
@@ -310,26 +355,38 @@ const StuccoWaterproofingPage = () => {
               Layering?
             </h2>
             <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8 leading-7">
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Unmatched Expertise: With years of experience in the
                 construction industry, we have perfected the art of brick and
                 CMU block layering. Our team is highly skilled and dedicated to
                 delivering top-quality results.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Commitment to Quality: We use only the highest quality
                 materials, ensuring that your brick and CMU block structures are
                 not only aesthetically pleasing but also long-lasting. Every
                 detail, from mortar application to alignment, is handled with
                 precision.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Tailored for Your Needs: We understand that every project is
                 unique, which is why we offer customized solutions to fit your
                 specific requirements, budget, and design vision. Our
                 collaborative approach ensures we deliver exactly what you need.
               </li>
-              <li className="text-justify leading-7 text-xl md:text-2xl text-slate-800" itemProp="description">
+              <li
+                className="text-justify leading-7 text-xl md:text-2xl text-slate-800"
+                itemProp="description"
+              >
                 • Reliable and Timely Service: At Infinity Construction NYC, we
                 pride ourselves on completing projects on time and within
                 budget, without compromising on quality or craftsmanship.

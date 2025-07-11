@@ -41,7 +41,7 @@ const HeroSection = () => {
         {/* Always visible content */}
         <div className="content-section">
           <p
-            className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20"
+            className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC is a leading provider of quality
@@ -56,7 +56,7 @@ const HeroSection = () => {
           </p>
 
           <p
-            className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+            className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             <Link href="/brownstone-restoration">
@@ -97,7 +97,7 @@ const HeroSection = () => {
               leading brownstone restoration specialists in NYC.
             </p>
             <p
-              className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+              className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Infinity Construction NYC is a leading provider of quality
@@ -121,7 +121,7 @@ const HeroSection = () => {
             </p>
 
             <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-justify"
+              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Serving a wide range of clients, including property owners,
@@ -132,7 +132,7 @@ const HeroSection = () => {
             </p>
 
             <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-justify"
+              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Trusted Contractor for painting and masonry Near Me in Brooklyn,
@@ -143,7 +143,7 @@ const HeroSection = () => {
               leading interior renovation specialists in NYC.
             </p>
             <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-justify"
+              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               {" "}

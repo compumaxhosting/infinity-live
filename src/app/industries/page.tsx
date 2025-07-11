@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <HeaderSpecial />
-      <div className="pt-8 sm:pt-36 pb-14 bg-gray-50 dark:bg-gray-900">
+      <div className="pt-40 sm:pt-36 pb-14 bg-gray-50 dark:bg-gray-900">
         <AreasOfExpertise />
       </div>
       <Footer />

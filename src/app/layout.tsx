@@ -1,5 +1,3 @@
-// app/layout.tsx
-
 import "./globals.css";
 import { Inter, Be_Vietnam_Pro } from "next/font/google";
 import type { Metadata } from "next";
@@ -82,6 +80,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc"
+        />
+      </head>
       <body>
         {children}
         <script

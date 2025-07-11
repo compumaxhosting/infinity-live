@@ -23,7 +23,7 @@ const AreasOfExpertise = () => {
     <div>
       <div className="bg-gray-50 dark:bg-gray-900">
         {/* Section Heading */}
-        <h2 className="text-center text-3xl lg:text-4xl font-bold mb-12 text-gray-800 dark:text-white">
+        <h2 className="text-center text-3xl lg:text-5xl mb-12 text-gray-800 dark:text-white">
           Areas of Expertise
         </h2>
 
@@ -50,7 +50,7 @@ const AreasOfExpertise = () => {
 
               {/* Content Section */}
               <div className="w-full lg:w-1/2">
-                <h3 className="text-2xl lg:text-3xl font-semibold text-gray-800 dark:text-white mb-4">
+                <h3 className="text-2xl lg:text-4xl text-gray-800 dark:text-white mb-4">
                   {item.title}
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300">

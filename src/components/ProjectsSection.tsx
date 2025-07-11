@@ -69,7 +69,7 @@ const ProjectsSection = () => {
                   >
                     {projects.title}
                   </h3>
-                  <p className="text-gray-700 my-2 mb-4 text-justify">
+                  <p className="text-gray-700 my-2 mb-4 text-center md:text-justify">
                     {projects.description.slice(0, 180)}...{" "}
                     {/* Truncate the description */}
                   </p>

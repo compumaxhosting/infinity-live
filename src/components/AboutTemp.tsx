@@ -45,7 +45,7 @@ const AboutTemp = () => {
 
           {/* Introduction Paragraph */}
           <p
-            className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="description"
           >
@@ -61,7 +61,7 @@ const AboutTemp = () => {
 
           {/* Description Paragraph */}
           <p
-            className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             As a trusted name in New York City&apos;s construction and
@@ -86,7 +86,7 @@ const AboutTemp = () => {
           </h2>
 
           <p
-            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC proudly serves{" "}
@@ -148,7 +148,7 @@ const AboutTemp = () => {
           </p>
 
           <p
-            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             From classic brownstones to modern high-rises, our team approaches
@@ -182,7 +182,7 @@ const AboutTemp = () => {
           </ul>
 
           <p
-            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             We&apos;re not just another contractor — we&apos;re your neighbor,
@@ -212,7 +212,7 @@ const AboutTemp = () => {
 
           {/* Closing Paragraph */}
           <p
-            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Headquartered in Brooklyn, we are proud to have earned the trust of
@@ -251,7 +251,7 @@ const AboutTemp = () => {
               itemType="https://schema.org/Answer"
             >
               <p
-                className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify"
+                className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
                 style={{ fontFamily: "var(--font-forum)" }}
                 itemProp="text"
               >
