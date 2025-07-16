@@ -1,8 +1,9 @@
 "use client";
 
+import { Phone } from "lucide-react";
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Oval } from "react-loader-spinner";
-
 const ServicesForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -107,7 +108,20 @@ const ServicesForm: React.FC = () => {
               dark:bg-gray-900 dark:border-gray-800 text-stone-800 dark:text-gray-200"
       style={{ fontFamily: "var(--font-forum)" }}
     >
-      <h2 className="mb-8 text-2xl lg:text-4xl">Get in Touch</h2>
+      <h2 className="mb-2 md:mb-4 text-2xl lg:text-4xl font-semibold">Get in Touch</h2>
+      <div className="mb-2 md:mb-4 flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-4 text-center sm:text-left">
+        <p className="text-lg text-stone-700 dark:text-gray-300">
+          Or speak to us directly
+        </p>
+        <Link
+          href="tel:3479395779"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary bg-primary text-white font-semibold shadow-md transition-all duration-300 hover:bg-white hover:text-primary"
+        >
+          <Phone className="w-5 h-5" />
+          <span className="tracking-wide text-base">(347) 939 5779</span>
+        </Link>
+      </div>
+
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Name */}
         <div>
