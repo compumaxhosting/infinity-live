@@ -114,7 +114,7 @@ const BrownstoneStoopRenovationPage = () => {
             {/* Image 1 */}
             <div className="relative w-96 h-40 lg:h-96 rounded-lg overflow-hidden shadow-md">
               <Image
-                src="/paving/Brownstone Stoop Renovation Services in Brooklyn.JPEG"
+                src="/paving/Brownstone Stoop Renovation Services in Brooklyn.jpeg"
                 alt="NYC Brownstone Stoop Renovation"
                 fill
                 className="object-cover"
@@ -124,7 +124,7 @@ const BrownstoneStoopRenovationPage = () => {
             {/* Image 2 */}
             <div className="relative w-96 h-40 lg:h-96 rounded-lg overflow-hidden shadow-md">
               <Image
-                src="/paving/Brownstone Stoop Renovation Services in NYC.JPEG"
+                src="/paving/Brownstone Stoop Renovation Services in NYC.jpeg"
                 alt="Brownstone Stoop Before Restoration"
                 fill
                 className="object-cover"

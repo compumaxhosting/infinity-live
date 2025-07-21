@@ -189,7 +189,7 @@ const StuccoWaterproofingPage = () => {
               {/* Right Section - Image */}
               <div className="w-full lg:w-4/12 p-4">
                 <Image
-                  src="/stucco/stucco-img-2.JPG"
+                  src="/stucco/stucco-img-2.jpg"
                   width={600}
                   height={600}
                   alt="Professional stucco restoration and waterproofing services in New York City"
@@ -197,7 +197,7 @@ const StuccoWaterproofingPage = () => {
                   itemProp="image"
                 />
                 <Image
-                  src="/stucco/stucco-img-3.JPG" // <-- Replace with the actual image path
+                  src="/stucco/stucco-img-3.jpg" // <-- Replace with the actual image path
                   width={600}
                   height={600}
                   alt="Additional stucco waterproofing example in NYC"
