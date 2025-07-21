@@ -9,7 +9,7 @@ import PhoneCall from "@/components/PhoneCall";
 
 export const metadata = {
   title:
-    "Professional Brick & CMU Block Layering Services in NYC | Infinity Construction",
+    "Professional Brick & CMU Block laying Services in NYC | Infinity Construction",
   description:
     "Expert brick and CMU block masonry services for residential and commercial properties in New York. Quality craftsmanship for structural integrity and aesthetic appeal.",
   keywords: [
@@ -36,7 +36,7 @@ const BrickCMULayeringPage = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            name: "Brick and CMU Block Layering",
+            name: "Brick and CMU Block laying",
             description:
               "Professional brick and CMU block masonry services for residential and commercial properties in New York City provided by Infinity Construction NYC.",
             provider: {
@@ -63,7 +63,7 @@ const BrickCMULayeringPage = () => {
               "@type": "Place",
               name: "New York City",
             },
-            serviceType: "Brick Layering, CMU Block Installation",
+            serviceType: "Brick laying, CMU Block Installation",
           }),
         }}
       />
@@ -79,18 +79,21 @@ const BrickCMULayeringPage = () => {
             className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8"
             itemProp="name"
           >
-            Brick and CMU Block Layering
+            Brick and CMU Block laying
           </h1>
 
           <section itemScope itemType="https://schema.org/LocalBusiness">
-            <p className="text-justify text-xl md:text-2xl text-slate-800 px-4" itemProp="description">
+            <p
+              className="text-justify text-xl md:text-2xl text-slate-800 px-4"
+              itemProp="description"
+            >
               At{" "}
               <Link href="/" itemProp="url">
                 Infinity Construction NYC
               </Link>
               , we understand that the foundation of every great structure
               starts with the right materials and craftsmanship. Specializing in
-              brick and Concrete Masonry Unit (CMU) block layering, we provide
+              brick and Concrete Masonry Unit (CMU) block laying, we provide
               high-quality masonry services that ensure the structural integrity
               and aesthetic appeal of your property. Whether you are working on
               a residential or commercial project, we bring the expertise and
@@ -108,7 +111,7 @@ const BrickCMULayeringPage = () => {
             <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
               <div className="w-full lg:w-8/12 p-4 space-y-6">
                 <h2 className="text-4xl mb-4">
-                  Our Brick and CMU Block Layering Services
+                  Our Brick and CMU Block laying Services
                 </h2>
                 <ul
                   itemProp="hasOfferCatalog"
@@ -121,12 +124,12 @@ const BrickCMULayeringPage = () => {
                     itemScope
                     itemType="https://schema.org/Offer"
                   >
-                    • <strong>Brick Layering for Unique Designs:</strong>{" "}
+                    • <strong>Brick laying for Unique Designs:</strong>{" "}
                     <span itemProp="description">
                       From classic brick facades to custom designs, we
-                      specialize in brick layering that not only strengthens
-                      your building but enhances its curb appeal. Our skilled
-                      team ensures that every brick is laid with care, offering
+                      specialize in brick laying that not only strengthens your
+                      building but enhances its curb appeal. Our skilled team
+                      ensures that every brick is laid with care, offering
                       durability and timeless beauty. We also provide customized
                       patterns, arches, and other architectural details to match
                       your vision.
@@ -138,8 +141,7 @@ const BrickCMULayeringPage = () => {
                     itemScope
                     itemType="https://schema.org/Offer"
                   >
-                    •{" "}
-                    <strong>CMU Block Layering for Strong Foundations:</strong>{" "}
+                    • <strong>CMU Block laying for Strong Foundations:</strong>{" "}
                     <span itemProp="description">
                       When it comes to structural strength, CMU blocks are our
                       go-to solution. We provide expert CMU block installations
@@ -173,10 +175,10 @@ const BrickCMULayeringPage = () => {
                     • <strong>Customized Solutions:</strong>{" "}
                     <span itemProp="description">
                       No two projects are the same. We take a personalized
-                      approach, tailoring our brick and CMU block layering to
-                      meet your specific needs. From intricate designs to
-                      large-scale structural work, we deliver results that
-                      exceed expectations.
+                      approach, tailoring our brick and CMU block laying to meet
+                      your specific needs. From intricate designs to large-scale
+                      structural work, we deliver results that exceed
+                      expectations.
                     </span>
                   </li>
                 </ul>
@@ -187,7 +189,7 @@ const BrickCMULayeringPage = () => {
                   src="/stucco/stucco-img-2.JPG"
                   width={600}
                   height={600}
-                  alt="Professional brick and CMU block layering by Infinity Construction NYC"
+                  alt="Professional brick and CMU block laying by Infinity Construction NYC"
                   className="w-full h-auto object-cover rounded-lg shadow-md"
                   itemProp="image"
                 />
@@ -198,7 +200,7 @@ const BrickCMULayeringPage = () => {
           <section>
             <h2 className="text-4xl my-4">
               Why Choose Infinity Construction NYC for Your Brick and CMU Block
-              Layering?
+              laying?
             </h2>
             <ul
               className="mb-6"
@@ -212,27 +214,39 @@ const BrickCMULayeringPage = () => {
                 itemType="https://schema.org/Organization"
               >
                 <meta itemProp="name" content="Infinity Construction NYC" />
-                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
+                <li
+                  className="text-justify text-xl md:text-2xl text-slate-800"
+                  itemProp="reviewBody"
+                >
                   • <strong>Unmatched Expertise:</strong> With years of
                   experience in the construction industry, we have perfected the
-                  art of brick and CMU block layering. Our team is highly
-                  skilled and dedicated to delivering top-quality results.
+                  art of brick and CMU block laying. Our team is highly skilled
+                  and dedicated to delivering top-quality results.
                 </li>
-                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
+                <li
+                  className="text-justify text-xl md:text-2xl text-slate-800"
+                  itemProp="reviewBody"
+                >
                   • <strong>Commitment to Quality:</strong> We use only the
                   highest quality materials, ensuring that your brick and CMU
                   block structures are not only aesthetically pleasing but also
                   long-lasting. Every detail, from mortar application to
                   alignment, is handled with precision.
                 </li>
-                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
+                <li
+                  className="text-justify text-xl md:text-2xl text-slate-800"
+                  itemProp="reviewBody"
+                >
                   • <strong>Tailored for Your Needs:</strong> We understand that
                   every project is unique, which is why we offer customized
                   solutions to fit your specific requirements, budget, and
                   design vision. Our collaborative approach ensures we deliver
                   exactly what you need.
                 </li>
-                <li className="text-justify text-xl md:text-2xl text-slate-800" itemProp="reviewBody">
+                <li
+                  className="text-justify text-xl md:text-2xl text-slate-800"
+                  itemProp="reviewBody"
+                >
                   • <strong>Reliable and Timely Service:</strong> At Infinity
                   Construction NYC, we pride ourselves on completing projects on
                   time and within budget, without compromising on quality or

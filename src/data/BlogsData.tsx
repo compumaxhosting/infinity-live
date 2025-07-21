@@ -4265,7 +4265,7 @@ export const BlogsData: Blog[] = [
         building structures using individual units such as bricks, blocks, and
         stones. Masonry work is essential in the construction of buildings,
         walls, sidewalks, and many other structures. In this article, we will
-        explore masonry work in the context of block building, brick layering,
+        explore masonry work in the context of block building, brick laying,
         and sidewalk construction.
       </>
     ),
@@ -4328,13 +4328,13 @@ export const BlogsData: Blog[] = [
         ),
       },
       {
-        title: "Brick Layering",
+        title: "Brick laying",
         paragraph: (
           <>
-            Brick layering, also known as bricklaying or brick masonry, is a
+            Brick laying, also known as bricklaying or brick masonry, is a
             construction technique that involves laying bricks in a specific
             pattern to create walls, columns, arches, and other architectural
-            elements. The process of brick layering according to the NYC
+            elements. The process of brick laying according to the NYC
             building code can be outlined as follows: <br /> <br />
             <strong>Design and Planning:</strong> <br />
             The design and planning phase involves determining the structural
@@ -4669,7 +4669,7 @@ export const BlogsData: Blog[] = [
           <>
             Masonry work is an essential part of construction, and it involves
             using individual units such as bricks, blocks, and stones to build
-            structures. Block building, brick layering, and sidewalk
+            structures. Block building, brick laying, and sidewalk
             construction are three common forms of masonry work. Each form of
             masonry work has its unique advantages, and the choice of which to
             use depends on the specific requirements of the construction

@@ -185,11 +185,9 @@ const StuccoWaterproofingPage = () => {
                 </ul>
               </div>
 
-              {/* Right Section - Image */}
-              {/* Right Section - Image */}
               <div className="w-full lg:w-4/12 p-4">
                 <Image
-                  src="/stucco/stucco-img-2.jpg"
+                  src="/stucco/stucco-img-2.JPG"
                   width={600}
                   height={600}
                   alt="Professional stucco restoration and waterproofing services in New York City"
@@ -352,7 +350,7 @@ const StuccoWaterproofingPage = () => {
           <section className="leading-7">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl my-8">
               Why Choose Infinity Construction NYC for Your Brick and CMU Block
-              Layering?
+              laying?
             </h2>
             <ul className="text-xl md:text-2xl text-slate-800 space-y-4 mb-8 leading-7">
               <li
@@ -361,7 +359,7 @@ const StuccoWaterproofingPage = () => {
               >
                 • Unmatched Expertise: With years of experience in the
                 construction industry, we have perfected the art of brick and
-                CMU block layering. Our team is highly skilled and dedicated to
+                CMU block laying. Our team is highly skilled and dedicated to
                 delivering top-quality results.
               </li>
               <li
