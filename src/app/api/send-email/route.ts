@@ -4,7 +4,7 @@ import { NextRequest } from "next/server";
 export async function POST(req: NextRequest) {
   const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const { name, email, phone, message } = await req.json(); // ✅ include phone
+  const { name, email, phone, message } = await req.json();
 
   if (!process.env.EMAIL_TO) {
     throw new Error("EMAIL_TO environment variable is not set");

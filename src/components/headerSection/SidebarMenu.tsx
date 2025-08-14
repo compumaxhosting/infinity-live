@@ -23,7 +23,6 @@ function SidebarMenu() {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isMoreOpen, setIsMoreOpen] = useState(false);
 
-
   const toggleSheet = () => {
     setIsOpen(!isOpen);
   };
@@ -38,7 +37,6 @@ function SidebarMenu() {
 
   return (
     <div>
-      {/* Mobile Menu Toggle */}
       <div className="xl:hidden absolute right-0 top-0 sm:right-4 md:h-full flex items-center">
         <button
           onClick={toggleSheet}
@@ -48,8 +46,7 @@ function SidebarMenu() {
           <span className="sr-only">Open menu</span>
         </button>
       </div>
-
-      {/* Sidebar Sheet Component */}
+    
       <Sheet open={isOpen} onOpenChange={toggleSheet}>
         <SheetContent
           side="left"
@@ -205,7 +202,7 @@ function SidebarMenu() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram className="h-10 w-10 bg-primary text-white rounded-full p-2 hover:bg-tertiary transition-all duration-300" />
+              <Instagram className="h-10 w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary transition-all duration-300" />
             </a>
             <a
               href="https://www.facebook.com/InfinityConstructionNYC"
@@ -213,7 +210,7 @@ function SidebarMenu() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Facebook className="h-10 w-10 bg-primary text-white rounded-full p-2 hover:bg-tertiary transition-all duration-300" />
+              <Facebook className="h-10 w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary transition-all duration-300" />
             </a>
             <a
               href="https://www.linkedin.com/in/imrul-hassan-403724268"
@@ -221,7 +218,7 @@ function SidebarMenu() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Linkedin className="h-10 w-10 bg-primary text-white rounded-full p-2 hover:bg-tertiary transition-all duration-300" />
+              <Linkedin className="h-10 w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary transition-all duration-300" />
             </a>
           </div>
         </SheetContent>

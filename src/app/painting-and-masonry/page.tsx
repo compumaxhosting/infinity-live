@@ -10,7 +10,6 @@ import Link from "next/link";
 const Page = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data for Painting & Masonry */}
       <Script
         id="json-ld-painting-masonry"
         type="application/ld+json"
@@ -52,7 +51,6 @@ const Page = () => {
         }}
       />
 
-      {/* ✅ Original Layout and Content (Unchanged) */}
       <div>
         <HeaderSpecial />
         <main
