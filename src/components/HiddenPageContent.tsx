@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -33,52 +34,72 @@ const HiddenPageContent = () => {
           })}
         </script>
 
-        <div className="max-w-7xl w-full">
-          <p
-            className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
-            style={{ fontFamily: "var(--font-forum)" }}
-          >
-            If you own a brownstone in{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q11299"
-              rel="noopener noreferrer"
-              target="_blank"
+        <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+          {/* Row 1: Image + Paragraph */}
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-full lg:w-1/3">
+              <Image
+                src="/blog/img-3.jpg"
+                alt="Manhattan Brownstone Restoration"
+                width={800}
+                height={600}
+                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                priority
+              />
+            </div>
+
+            <div className="w-full md:w-2/3">
+              <p
+                className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto text-justify"
+                style={{ fontFamily: "var(--font-forum)" }}
+              >
+                If you own a brownstone in{" "}
+                <Link
+                  href="https://www.wikidata.org/wiki/Q11299"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Manhattan
+                </Link>
+                , proper restoration and repair are key to keeping its charm and
+                value.{" "}
+                <Link href="/" rel="noopener noreferrer" target="_blank">
+                  Infinity Construction NYC
+                </Link>{" "}
+                specializes in Manhattan brownstone restoration and brownstone
+                repair Manhattan, providing expert care from brownstone facade
+                restoration NYC to historic brownstone restoration Manhattan.
+              </p>
+            </div>
+          </div>
+
+          {/* Row 2: Full-width Paragraph */}
+          <div className="mt-8">
+            <p
+              className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto text-justify"
+              style={{ fontFamily: "var(--font-forum)" }}
             >
-              Manhattan
-            </Link>
-            , proper restoration and repair are key to keeping its charm and
-            value.{" "}
-            <Link
-              href="/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Infinity Construction NYC
-            </Link>{" "}
-            specializes in Manhattan brownstone restoration and brownstone
-            repair Manhattan, providing expert care from brownstone facade
-            restoration NYC to historic brownstone restoration Manhattan. Our
-            team handles everything from brownstone masonry repair Manhattan and
-            brick pointing Manhattan to brownstone waterproofing Manhattan that
-            protects your home from weather damage. Infinity Construction NYC
-            also offers historical landmark brownstone restoration Manhattan,
-            including brownstone limestone restoration Manhattan, to preserve
-            your building’s unique character. For exterior care, we provide
-            stucco waterproofing Manhattan as well as waterproofing for
-            exterior, parapet, and retaining walls to keep moisture out. Our
-            services include brick laying Manhattan and CMU block laying
-            Manhattan for strong, lasting walls. When it’s time for roof work,
-            we offer roof restoration Manhattan and roof weatherproofing
-            Manhattan to keep you safe and dry. We restore fire escapes, metal
-            railings, and fences with a keen eye for detail, plus expert
-            concrete, stone, and brick paving. Finally, our masonry painting
-            Manhattan and masonry restoration Manhattan services complete the
-            look while protecting your investment. For reliable, professional
-            brownstone repair and restoration in Manhattan, Infinity
-            Construction NYC is the team to trust. Ready to keep your brownstone
-            looking great for years to come.
-          </p>
-          {/* Section Subheading */}
+              Our team handles everything from brownstone masonry repair
+              Manhattan and brick pointing Manhattan to brownstone waterproofing
+              Manhattan that protects your home from weather damage. Infinity
+              Construction NYC also offers historical landmark brownstone
+              restoration Manhattan, including brownstone limestone restoration
+              Manhattan, to preserve your building’s unique character. For
+              exterior care, we provide stucco waterproofing Manhattan as well
+              as waterproofing for exterior, parapet, and retaining walls to
+              keep moisture out. Our services include brick laying Manhattan and
+              CMU block laying Manhattan for strong, lasting walls. When it’s
+              time for roof work, we offer roof restoration Manhattan and roof
+              weatherproofing Manhattan to keep you safe and dry. We restore
+              fire escapes, metal railings, and fences with a keen eye for
+              detail, plus expert concrete, stone, and brick paving. Finally,
+              our masonry painting Manhattan and masonry restoration Manhattan
+              services complete the look while protecting your investment. For
+              reliable, professional brownstone repair and restoration in
+              Manhattan, Infinity Construction NYC is the team to trust. Ready
+              to keep your brownstone looking great for years to come.
+            </p>
+          </div>
         </div>
       </section>
     </>
