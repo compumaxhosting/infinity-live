@@ -10,7 +10,7 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div className="bg-accent dark:bg-slate-950 border-b p-4">
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-1 gap-8 pt-4 sm:pt-28 2xl:pt-36 pb-14">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-1 gap-8 pt-44 sm:pt-44 2xl:pt-36 pb-14">
           {/* Card 1 */}
           <Link href="/historical-landmark">
             <div className="flex flex-col sm:flex-row bg-white dark:bg-gray-900 shadow-md rounded-3xl overflow-hidden hover:shadow-lg transition-shadow duration-300">
@@ -27,12 +27,12 @@ const page = () => {
               </div>
               {/* Text Section */}
               <div className="w-full lg:w-2/3 p-6 pt-2 sm:pt-10 sm:p-10 flex flex-col justify-center">
-                <h3
+                <h1
                   className="text-2xl md:text-3xl font-semibold text-tertiary dark:text-white"
                   style={{ fontFamily: "var(--font-forum)" }}
                 >
                   Historical Landmarks Design Restoration
-                </h3>
+                </h1>
                 <p className="mt-2 xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300">
                   For over a decade, Infinity Construction NYC has been the
                   trusted partner for historical landmark restoration projects

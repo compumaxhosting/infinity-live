@@ -2,7 +2,7 @@ import React from "react";
 import Script from "next/script";
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
-import OurServices from "@/components/servicesSection/OurServices";
+import Services from "@/components/servicesSection/Services";
 import PhoneCall from "@/components/PhoneCall";
 
 const Page = () => {
@@ -41,8 +41,8 @@ const Page = () => {
       {/* Page Layout */}
       <div>
         <HeaderSpecial />
-        <div className="sm:pt-14 md:pt-20">
-          <OurServices />
+        <div className="pt-32 sm:pt-14 2xl:pt-24">
+          <Services />
         </div>
         <Footer />
 

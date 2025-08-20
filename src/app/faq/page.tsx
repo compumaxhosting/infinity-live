@@ -37,9 +37,9 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div className="pt-40 sm:pt-28 xl:pt-32 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
-        <h2 className="text-center text-2xl lg:text-5xl mb-10 text-gray-900 dark:text-white">
+        <h1 className="text-center text-2xl lg:text-5xl mb-10 text-gray-900 dark:text-white">
           Frequently Asked Questions
-        </h2>
+        </h1>
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="space-y-6">
             {faqs.map((faq, index) => (
