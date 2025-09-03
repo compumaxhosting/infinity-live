@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { specialityData } from "@/data/ourServicesData";
 import Link from "next/link";
 import {
@@ -27,9 +27,10 @@ const Footer = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: "Infinity Construction NYC",
-          image: "/logo.png", // Add your logo path
+          image: "/logo.png",
           telephone: "+13479395779",
           email: "Infinityconstructionnyc@gmail.com",
+          openingHours: "Mo-Su 06:00-20:00",
           address: {
             "@type": "PostalAddress",
             streetAddress: "1809 Albany Ave",
@@ -82,6 +83,7 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div className="space-y-4">
+              {/* Phone */}
               <div className="flex items-start gap-4" itemProp="telephone">
                 <div className="p-2 bg-slate-800 rounded-lg">
                   <Phone className="text-primary" size={18} />
@@ -98,6 +100,7 @@ const Footer = () => {
                 </div>
               </div>
 
+              {/* Email */}
               <div className="flex items-start gap-4" itemProp="email">
                 <div className="p-2 bg-slate-800 rounded-lg">
                   <Mail className="text-primary" size={18} />
@@ -113,8 +116,20 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
+
+              {/* Hours */}
+              <div className="flex items-start gap-4" itemProp="openingHours">
+                <div className="p-2 bg-slate-800 rounded-lg">
+                  <Clock className="text-primary" size={18} />
+                </div>
+                <div>
+                  <p className="font-medium">Business Hours</p>
+                  <p className="text-gray-100 text-sm">6:00 AM – 8:00 PM</p>
+                </div>
+              </div>
+
+              {/* Addresses */}
               <div className="space-y-4">
-                {/* First Address */}
                 <div
                   className="flex items-start gap-4"
                   itemProp="address"
@@ -127,7 +142,7 @@ const Footer = () => {
                   <div>
                     <p className="font-medium">Brooklyn, New York :</p>
                     <p className="text-gray-100 text-sm">
-                      <span itemProp="streetAddress">1809 Albany Ave</span>,
+                      <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
                       <span itemProp="addressLocality">Brooklyn</span>,{" "}
                       <span itemProp="addressRegion">NY</span>{" "}
                       <span itemProp="postalCode">11210</span>
@@ -135,7 +150,6 @@ const Footer = () => {
                   </div>
                 </div>
 
-                {/* Second Address */}
                 <div
                   className="flex items-start gap-4"
                   itemProp="address"
@@ -148,7 +162,7 @@ const Footer = () => {
                   <div>
                     <p className="font-medium">Manhattan, New York :</p>
                     <p className="text-gray-100 text-sm">
-                      <span itemProp="streetAddress">152 E 118th St S1</span>,
+                      <span itemProp="streetAddress">152 E 118th St S1</span>,{" "}
                       <span itemProp="addressLocality">New York</span>,{" "}
                       <span itemProp="addressRegion">NY</span>{" "}
                       <span itemProp="postalCode">10035</span>
