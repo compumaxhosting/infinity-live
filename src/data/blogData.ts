@@ -2,8 +2,22 @@ export const blogData = [
   {
     id: 1,
     author: "Imrul Hassan",
+    slug: "how-to-restore-a-historic-brownstone-in-brooklyn-without-losing-its-charm",
+    date: "Sep 4, 2025", // update to actual publish date
+    readTime: "5 min read",
+    title: "How to Restore a Historic Brownstone in Brooklyn | Expert Guide",
+    contentPreview: `Restoring a historic brownstone in Brooklyn is rewarding but requires balancing preservation and modernization. Learn tips on inspections, keeping original features, exterior restoration, and more...`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/img-261.avif",
+  },
+
+  {
+    id: 2,
+    author: "Imrul Hassan",
     slug: "brownstone-repair-nyc",
-    date: "Jun 6, 2022",
+    date: "Aug 6, 2025",
     readTime: "3 min read",
     title:
       "Brownstone Restoration Services in Brooklyn, Manhattan, Queens, and the Bronx, NY – 15% Off at Infinity Construction NYC",
@@ -15,11 +29,12 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     liked: true,
     image: "/blog/img-25.avif",
   },
+
   {
-    id: 2,
+    id: 3,
     author: "Imrul Hassan",
     slug: "signs-your-brownstone-needs-immediate-repair",
-    date: "Jun 6, 2022",
+    date: "July 11, 2025",
     readTime: "3 min read",
     title: "Signs Your Brownstone Needs Immediate Repair",
     contentPreview: ` 1. Introduction: Importance of Maintaining Brownstones 2. Cracks and Bulges in Facade 3. Water Damage and Moisture Issues....
@@ -30,10 +45,10 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-23.jpg",
   },
   {
-    id: 3,
+    id: 4,
     author: "Imrul Hassan",
     slug: "why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
-    date: "Jun 6, 2022",
+    date: "Jun 14, 2025",
     readTime: "3 min read",
     title:
       "Why Infinity Construction NYC Is Brooklyn’s Go-To Brownstone Renovation Expert",
@@ -45,10 +60,10 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-22.jpg",
   },
   {
-    id: 4,
+    id: 5,
     author: "Imrul Hassan",
     slug: "brownstone-the-inside-scoop",
-    date: "Jun 6, 2022",
+    date: "May 6, 2025",
     readTime: "3 min read",
     title: "Brownstone The inside scoop",
     contentPreview:
@@ -60,10 +75,10 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
   },
 
   {
-    id: 5,
+    id: 6,
     author: "Imrul Hassan",
     slug: "brownstone-facade-repair-park-slope",
-    date: "Nov 8",
+    date: "Apr 3, 2025",
     readTime: "3 min read",
     title: "Stunning Transformations: Brownstone Facade Repair in Park Slope",
     contentPreview:
@@ -74,10 +89,10 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-1.jpg",
   },
   {
-    id: 6,
+    id: 7,
     author: "Imrul Hassan",
     slug: "how-to-bring-back-the-original-splendor-of-your-brownstone",
-    date: "Oct 14",
+    date: "Mar 6, 2025",
     readTime: "3 min read",
     title: "How to Bring Back the Original Splendor of Your Brownstone",
     contentPreview:
@@ -88,7 +103,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-2.jpg",
   },
   {
-    id: 7,
+    id: 8,
     author: "Imrul Hassan",
     slug: "why-choose-professional-brownstone-restoration-services",
     date: "Oct 3",
@@ -102,7 +117,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-3.jpg",
   },
   {
-    id: 8,
+    id: 9,
     author: "Imrul Hassan",
     slug: "mini-split-vs-central-air",
     date: "Feb 15",
@@ -117,7 +132,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-4.jpg",
   },
   {
-    id: 9,
+    id: 10,
     author: "Imrul Hassan",
     slug: "how-to-hand-scrape-a-floor",
     date: "Sep 30, 2023",
@@ -131,7 +146,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-5.jpg",
   },
   {
-    id: 10,
+    id: 11,
     author: "Imrul Hassan",
     slug: "how-to-repair-crumbling-bricks",
     date: "Sep 30, 2023",
@@ -145,7 +160,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-6.jpg",
   },
   {
-    id: 11,
+    id: 12,
     author: "Imrul Hassan",
     slug: "veneer-masonry-construction-process",
     date: "Sep 20, 2023",
@@ -159,7 +174,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-7.jpg",
   },
   {
-    id: 12,
+    id: 13,
     author: "Imrul Hassan",
     slug: "waterproof-caulking-and-restoration",
     date: "Sep 19, 2023",
@@ -174,7 +189,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-8.jpg",
   },
   {
-    id: 13,
+    id: 14,
     author: "Imrul Hassan",
     slug: "composite-masonry-comprehensive-overview",
     date: "Sep 18, 2023",
@@ -188,7 +203,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-9.jpg",
   },
   {
-    id: 14,
+    id: 15,
     author: "Imrul Hassan",
     slug: "stone-masonry-exclusive-guide",
     date: "Aug 2, 2023",
@@ -202,7 +217,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-10.jpg",
   },
   {
-    id: 15,
+    id: 16,
     author: "Imrul Hassan",
     slug: "how-to-maintain-and-repair-leaded-windows",
     date: "Aug 2, 2023",
@@ -216,7 +231,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-11.jpg",
   },
   {
-    id: 16,
+    id: 17,
     author: "Imrul Hassan",
     slug: "masonry-work",
     date: "Aug 2, 2023",
@@ -230,7 +245,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-12.webp",
   },
   {
-    id: 17,
+    id: 18,
     author: "Imrul Hassan",
     slug: "how-to-repair-a-brownstone-stoop",
     date: "May 13, 2023",
@@ -244,7 +259,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-13.webp",
   },
   {
-    id: 18,
+    id: 19,
     author: "Imrul Hassan",
     slug: "what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
     date: "Apr 29, 2023",
@@ -258,7 +273,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-14.webp",
   },
   {
-    id: 19,
+    id: 20,
     author: "Imrul Hassan",
     slug: "concrete-mix-design-calculation",
     date: "Apr 8, 2023",
@@ -272,7 +287,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-15.webp",
   },
   {
-    id: 20,
+    id: 21,
     author: "Imrul Hassan",
     slug: "masonry-work-exclusive-guide",
     date: "Mar 29, 2023",
@@ -286,7 +301,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-16.webp",
   },
   {
-    id: 21,
+    id: 22,
     author: "Imrul Hassan",
     slug: "fire-escape-painting",
     date: "Mar 25, 2023",
@@ -300,7 +315,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-17.webp",
   },
   {
-    id: 22,
+    id: 23,
     author: "Imrul Hassan",
     slug: "diy-roof-repair",
     date: "Mar 12, 2023",
@@ -314,7 +329,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-18.webp",
   },
   {
-    id: 23,
+    id: 24,
     author: "Imrul Hassan",
     slug: "brick-pointing",
     date: "Mar 5, 2023",
@@ -328,7 +343,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-19.webp",
   },
   {
-    id: 24,
+    id: 25,
     author: "Imrul Hassan",
     slug: "how-to-restore-brownstone-facade",
     date: "Mar 1, 2023",
