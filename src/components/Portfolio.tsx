@@ -11,9 +11,9 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      src: "/blog/img-14.webp",
+      src: "/portfolio/img-2.jpg",
       alt: "Brownstone restoration NYC",
-      title: "Brownstone Restoration Services in NYC – 15% Off",
+      title: "Address: 379 16th street,Brooklyn,Park Slope",
       type: "",
       features: [
         "Brooklyn, Manhattan, Queens",
@@ -24,18 +24,20 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: "/blog/img-24.jpg",
+      src: "/portfolio/img-3.jpg",
       alt: "Brownstone repair signs",
-      title: "Signs Your Brownstone Needs Immediate Repair",
+      title:
+        "Address: 310 west 102nd street New York, New York Completed Limestone Stoop Restoration",
       type: "",
       features: ["Visible Cracks", "Water Damage", "Facade Issues"],
       path: "/blog/signs-your-brownstone-needs-immediate-repair",
     },
     {
       id: 3,
-      src: "/blog/img-19.webp",
+      src: "/portfolio/img-4.jpg",
       alt: "Brownstone expert NYC",
-      title: "Why Infinity Construction NYC Is Brooklyn's Go-To",
+      title:
+        "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
       type: "",
       features: [
         "Trusted by Locals",
@@ -46,27 +48,29 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: "/blog/img-8.jpg",
+      src: "/portfolio/img-5.jpg",
       alt: "Brownstone interior insight",
-      title: 'Brownstone "The Inside Scoop"',
+      title:
+        "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
       type: "",
       features: ["Historical Perspective", "Modern Touch", "Design Ideas"],
       path: "/blog/brownstone-the-inside-scoop",
     },
     {
       id: 5,
-      src: "/blog/img-11.jpg",
+      src: "/portfolio/img-6.jpg",
       alt: "Brownstone facade Park Slope",
-      title: "Brownstone Facade Repair in Park Slope",
+      title:
+        "Address: 310 west 102nd street New York, New York Completed Limestone Stoop Restoration",
       type: "",
       features: ["Historic Area", "Restoration Tips", "Professional Guide"],
       path: "/blog/brownstone-facade-repair-park-slope",
     },
     {
       id: 6,
-      src: "/portfolio/image-1.jpg",
+      src: "/portfolio/img-7.jpg",
       alt: "Brownstone original splendor",
-      title: "Bring Back the Original Splendor of Your Brownstone",
+      title: "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration",
       type: "",
       features: ["Restoration Guide", "Architectural Revival", "Expert Advice"],
       path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
