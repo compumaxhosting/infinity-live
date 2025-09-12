@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(
@@ -11,17 +12,19 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      src: "/portfolio/img-2.jpg",
-      alt: "Brownstone restoration NYC",
-      title: "Address: 379 16th street,Brooklyn,Park Slope",
+      src: "/portfolio/before-after.png",
+      alt: "Brownstone expert NYC",
+      title:
+        "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
       type: "",
       features: [
-        "Brooklyn, Manhattan, Queens",
-        "Expert Restoration",
-        "Limited-Time Discount",
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
       ],
-      path: "/blog/brownstone-repair-nyc",
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
+
     {
       id: 2,
       src: "/portfolio/img-3.jpg",
@@ -34,17 +37,16 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "/portfolio/img-4.jpg",
-      alt: "Brownstone expert NYC",
-      title:
-        "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
+      src: "/portfolio/img-2.jpg",
+      alt: "Brownstone restoration NYC",
+      title: "Address: 379 16th street,Brooklyn,Park Slope",
       type: "",
       features: [
-        "Trusted by Locals",
-        "Skilled Craftsmanship",
-        "Brownstone Specialist",
+        "Brooklyn, Manhattan, Queens",
+        "Expert Restoration",
+        "Limited-Time Discount",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      path: "/blog/brownstone-repair-nyc",
     },
     {
       id: 4,
@@ -70,7 +72,8 @@ const Portfolio = () => {
       id: 6,
       src: "/portfolio/img-7.jpg",
       alt: "Brownstone original splendor",
-      title: "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration",
+      title:
+        "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration",
       type: "",
       features: ["Restoration Guide", "Architectural Revival", "Expert Advice"],
       path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
@@ -209,6 +212,14 @@ const Portfolio = () => {
           </div>
         </div>
       )}
+      <div className="mt-12 text-center">
+        <Link
+          href="/portfolio" 
+          className="inline-block px-6 py-2 text-white bg-primary rounded-lg shadow-md hover:bg-primary/90 transition-colors"
+        >
+          Our Works
+        </Link>
+      </div>
     </section>
   );
 };
