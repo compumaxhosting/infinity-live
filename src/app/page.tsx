@@ -1,4 +1,3 @@
-
 import Head from "next/head";
 import Script from "next/script";
 import OurServices from "../components/servicesSection/OurServices";
@@ -13,7 +12,6 @@ import OurTestimonial from "@/components/OurTestimonial";
 import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import PhoneCall from "@/components/PhoneCall";
-import Portfolio from "@/components/Portfolio";
 
 export const metadata = {
   title: "Brownstone Construction and Restoration in Brooklyn, New York",
@@ -26,7 +24,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      {/* ✅ SEO Meta Tags */}
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
@@ -47,7 +44,6 @@ export default function Home() {
         <meta name="twitter:description" content={metadata.description} />
       </Head>
 
-      {/* ✅ JSON-LD Scripts - placed outside <Head /> as per Next.js best practice */}
       <Script
         id="json-ld-business"
         type="application/ld+json"
@@ -133,7 +129,6 @@ export default function Home() {
       <CarouselSection />
       <HeroSection />
       <OurServices />
-      <Portfolio />
       <OurTestimonial />
       <OurAffiliatesSection />
       <ServicesSection />

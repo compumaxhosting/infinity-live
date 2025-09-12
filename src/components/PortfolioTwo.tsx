@@ -74,7 +74,7 @@ const PortfolioTwo = () => {
     src.endsWith(".mp4") || src.endsWith(".webm");
 
   return (
-    <section className="pt-16 px-4 sm:px-6 lg:px-8 bg-white relative">
+    <section className="pt-2 pb-14 px-4 sm:px-6 lg:px-8 bg-white relative">
       {currentIndex !== null && (
         <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-md z-40"></div>
       )}

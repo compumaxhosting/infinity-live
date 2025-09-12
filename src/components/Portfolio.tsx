@@ -1,8 +1,6 @@
 "use client";
-
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const Portfolio = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(
@@ -24,7 +22,6 @@ const Portfolio = () => {
       ],
       path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
-
     {
       id: 2,
       src: "/portfolio/img-3.jpg",
@@ -212,14 +209,6 @@ const Portfolio = () => {
           </div>
         </div>
       )}
-      <div className="mt-12 text-center">
-        <Link
-          href="/portfolio" 
-          className="inline-block px-6 py-2 text-white bg-primary rounded-lg shadow-md hover:bg-primary/90 transition-colors"
-        >
-          Our Works
-        </Link>
-      </div>
     </section>
   );
 };
