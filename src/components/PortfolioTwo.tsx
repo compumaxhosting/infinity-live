@@ -43,6 +43,48 @@ const PortfolioTwo = () => {
       ],
       path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
+    {
+      id: 4,
+      src: "/portfolio/379-power-wash.mp4",
+      alt: "Brownstone expert NYC",
+      title:
+        "379 16th street, Completed Brownstone Stoop Restoration. After power wash",
+      type: "",
+      features: [
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
+      ],
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    },
+    {
+      id: 5,
+      src: "/portfolio/431-east-143.mp4",
+      alt: "Brownstone expert NYC",
+      title:
+        "431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration",
+      type: "",
+      features: [
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
+      ],
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    },
+    {
+      id: 6,
+      src: "/portfolio/431-east-1432.mp4",
+      alt: "Brownstone expert NYC",
+      title:
+        "431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration",
+      type: "",
+      features: [
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
+      ],
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    },
   ];
 
   const handleOpen = (index: number) => {

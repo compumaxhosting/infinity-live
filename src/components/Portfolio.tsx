@@ -69,8 +69,28 @@ const Portfolio = () => {
       id: 6,
       src: "/portfolio/img-7.jpg",
       alt: "Brownstone original splendor",
+      title: "Address: 379 16th st. Complete Brownstone Stoop Restoration",
+      type: "",
+      features: ["Restoration Guide", "Architectural Revival", "Expert Advice"],
+      path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
+    },
+    {
+      id: 7,
+      src: "/portfolio/img-9.jpg",
+      alt: "Brownstone original splendor",
       title:
-        "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration",
+        "Address: 431 east 143st Bronx, Completed Brownstone Stoop Restoration.",
+      type: "",
+      features: ["Restoration Guide", "Architectural Revival", "Expert Advice"],
+      path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
+    },
+
+    {
+      id: 8,
+      src: "/portfolio/img-10.jpg",
+      alt: "Brownstone original splendor",
+      title:
+        "Address: 431 east 143 street, Bronx, New York Completed stoop restoration",
       type: "",
       features: ["Restoration Guide", "Architectural Revival", "Expert Advice"],
       path: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
