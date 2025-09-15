@@ -85,6 +85,20 @@ const PortfolioTwo = () => {
       ],
       path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
+    {
+      id: 7,
+      src: "/portfolio/949-grant-ave.mp4",
+      alt: "Brownstone expert NYC",
+      title:
+        "949 Grant Ave, Bronx ,New York Complete Brownstone Scratch Coating",
+      type: "",
+      features: [
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
+      ],
+      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+    },
   ];
 
   const handleOpen = (index: number) => {
