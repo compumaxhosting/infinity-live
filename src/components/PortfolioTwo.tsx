@@ -11,93 +11,106 @@ const PortfolioTwo = () => {
       id: 1,
       src: "/portfolio/103-jefferson.mp4",
       alt: "Brownstone restoration NYC",
-      title: "103 Jefferson ave brooklyn New York  complete stoop restoration",
+      title: "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration.",
       type: "",
       features: [
         "Brooklyn, Manhattan, Queens",
         "Expert Restoration",
         "Limited-Time Discount",
       ],
-      path: "/blog/brownstone-repair-nyc",
+      
     },
     {
       id: 2,
       src: "/portfolio/310-west.mp4",
       alt: "Brownstone repair signs",
-      title:
-        "310 west 102nd street New York , New York Completed stoop restoration ",
+      title:"Address : 310 west 102nd street New York , New York Completed stoop restoration .",
       type: "",
       features: ["Visible Cracks", "Water Damage", "Facade Issues"],
-      path: "/blog/signs-your-brownstone-needs-immediate-repair",
+      
     },
     {
       id: 3,
       src: "/portfolio/379-street.mp4",
       alt: "Brownstone expert NYC",
-      title: "379 16th street,Brooklyn, park slope",
+      title: "Address: 379 16th street,Brooklyn, park slope.",
       type: "",
       features: [
         "Trusted by Locals",
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      
     },
     {
       id: 4,
       src: "/portfolio/379-power-wash.mp4",
       alt: "Brownstone expert NYC",
       title:
-        "379 16th street, Completed Brownstone Stoop Restoration. After power wash",
+        "Address : 379 16th street, Completed Brownstone Stoop Restoration. After power wash.",
       type: "",
       features: [
         "Trusted by Locals",
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      
     },
     {
       id: 5,
       src: "/portfolio/431-east-143.mp4",
       alt: "Brownstone expert NYC",
       title:
-        "431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration",
+        "Address : 431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration.",
       type: "",
       features: [
         "Trusted by Locals",
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      
     },
     {
       id: 6,
       src: "/portfolio/431-east-1432.mp4",
       alt: "Brownstone expert NYC",
       title:
-        "431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration",
+        "Address : 431 east 143 street, Bronx ,New York Complete Brownstone Stoop Restoration.",
       type: "",
       features: [
         "Trusted by Locals",
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      
     },
     {
       id: 7,
       src: "/portfolio/949-grant-ave.mp4",
       alt: "Brownstone expert NYC",
       title:
-        "949 Grant Ave, Bronx ,New York Complete Brownstone Scratch Coating",
+        "Address : 949 Grant Ave, Bronx ,New York Complete Brownstone Scratch Coating.",
       type: "",
       features: [
         "Trusted by Locals",
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      path: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      
+    },
+    {
+      id: 8,
+      src: "/portfolio/88-piling.mp4",
+      alt: "Brownstone expert NYC",
+      title:
+        "Address : 88 Piling street, Brooklyn, New York, Complete brownstone stoop restoration.",
+      type: "",
+      features: [
+        "Trusted by Locals",
+        "Skilled Craftsmanship",
+        "Brownstone Specialist",
+      ],
+      
     },
   ];
 
