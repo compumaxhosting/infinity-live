@@ -29,7 +29,7 @@ const AboutTemp = () => {
               name: "New York",
             },
             keywords:
-              "New York construction, Brooklyn contractors, NYC restoration",
+              "Infinity Construction NYC, construction contractors Brooklyn, general contractors NYC, renovation services Queens, expert construction The Bronx, building restoration Manhattan, masonry contractors Brooklyn, home renovation NYC, construction company The Bronx, professional contractors Manhattan",
           })}
         </script>
 
@@ -221,15 +221,15 @@ const AboutTemp = () => {
             attention, and respect for your investment and your community.{" "}
             <br />
             <br />
-            Infinity Construction NYC delivers expert brownstone restoration and renovation,
-            masonry, roofing, waterproofing, fire escape painting, and painting
-            & plastering services across Brooklyn, Manhattan, Queens, and The
-            Bronx. Proudly serving zip codes 11205, 11206, 11216, 11221, 11233,
-            11238, 11215, 11217, 10026, 10027, 10030, 10031, 10035, 10037, and
-            10039, our skilled team ensures every project meets NYC’s highest
-            standards for quality and compliance. Choose Infinity Construction
-            NYC for reliable, cost-effective restoration and renovation in your
-            neighborhood!
+            Infinity Construction NYC delivers expert brownstone restoration and
+            renovation, masonry, roofing, waterproofing, fire escape painting,
+            and painting & plastering services across Brooklyn, Manhattan,
+            Queens, and The Bronx. Proudly serving zip codes 11205, 11206,
+            11216, 11221, 11233, 11238, 11215, 11217, 10026, 10027, 10030,
+            10031, 10035, 10037, and 10039, our skilled team ensures every
+            project meets NYC’s highest standards for quality and compliance.
+            Choose Infinity Construction NYC for reliable, cost-effective
+            restoration and renovation in your neighborhood!
           </p>
 
           {/* FAQ */}

@@ -4,63 +4,13 @@ import PhoneCall from "@/components/PhoneCall";
 import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import React from "react";
 
-export const metadata = {
-  title:
-    "Historical Landmark Brownstone & Limestone Restoration | Infinity Construction NYC",
-  description:
-    "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
-  keywords:
-    "brownstone restoration, limestone restoration, historical building restoration, NYC landmark restoration, facade repair",
-};
 
 const HistoricalLandmarkRestorationPage = () => {
   return (
     <>
-      {/* ✅ JSON-LD for Historical Restoration Service */}
-      <Script
-        id="json-ld-historical-restoration"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Historical Landmark Brownstone & Limestone Restoration",
-            description:
-              "Expert restoration of historical brownstone and limestone buildings across New York City by Infinity Construction NYC. Preserve architectural heritage with precision and care.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType: "Brownstone and Limestone Restoration",
-          }),
-        }}
-      />
-
-      {/* Original Page Content */}
+     
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main className="container mx-auto p-40 sm:pt-48 2xl:pt-36 border-b px-4 md:px-12 lg:px-48">

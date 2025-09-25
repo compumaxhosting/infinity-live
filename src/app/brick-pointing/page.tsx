@@ -4,71 +4,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
-import Script from "next/script"; // ✅ For structured data
 import PhoneCall from "@/components/PhoneCall";
 
-export const metadata = {
-  title:
-    "Professional Brick Pointing & Waterproofing Services in NYC | Infinity Construction",
-  description:
-    "Expert brick repointing, tuckpointing and waterproofing solutions for NYC buildings. Protect and restore your masonry with our certified services.",
-  keywords: [
-    "brick pointing NYC",
-    "tuckpointing services",
-    "masonry waterproofing",
-    "brick repointing contractors",
-    "waterproofing solutions NYC",
-    "mortar repair specialists",
-    "brick restoration",
-    "masonry preservation",
-  ],
-};
 
 const BrickPointingWaterproofingPage = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data */}
-      <Script
-        id="json-ld-brick-pointing"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Brick Pointing and Waterproofing",
-            description:
-              "Expert brick pointing, tuckpointing, and waterproofing services across New York City by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType:
-              "Brick Repointing, Tuckpointing, Masonry Waterproofing",
-          }),
-        }}
-      />
-
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main

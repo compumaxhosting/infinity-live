@@ -1,17 +1,24 @@
 import { ReactNode } from "react";
 
 export const metadata = {
-  title:
-    "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
+  title: "Fire Escape & Metal Restoration NYC | Infinity Construction",
   description:
-    "Top-rated fire escape restoration services in Brooklyn, Queens, The Bronx, and Manhattan, NYC. Ensure safety and compliance with expert fire escape repairs and restoration.",
-  keywords:
-    "fire escape restoration Brooklyn, fire escape repair Queens, fire escape inspection Bronx, fire escape restoration Manhattan, fire escape repair contractors NYC, NYC fire escape services, fire escape compliance repair Brooklyn, fire escape safety restoration NYC, exterior fire escape restoration Queens, fire escape repairs NYC",
+    "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
+  keywords: [
+    "fire escape restoration NYC",
+    "metal railing repair",
+    "fence restoration services",
+    "rust removal NYC",
+    "structural reinforcement",
+    "building safety compliance",
+    "metal coating specialists",
+    "emergency fire escape repairs",
+  ],
   openGraph: {
     title:
       "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
     description:
-      "Top-rated fire escape restoration services in Brooklyn, Queens, The Bronx, and Manhattan, NYC. Ensure safety and compliance with expert fire escape repairs and restoration.",
+      "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
     url: "https://www.infinityconstructionnyc.com/fire-escape-restoration",
     images: [
       {
@@ -29,32 +36,33 @@ export const metadata = {
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Infinity Construction NYC",
-  "url": "https://www.infinityconstructionnyc.com/",
-  "logo": "https://www.infinityconstructionnyc.com/logo.png",
-  "image": "https://www.infinityconstructionnyc.com/cover-image.jpg",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "Infinity Construction NYC",
+  url: "https://www.infinityconstructionnyc.com/",
+  logo: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  description:
+    "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: " 1809 Albany Ave ",
+    addressLocality: " Brooklyn ",
+    addressRegion: "NY",
+    postalCode: " 11210 ",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
+  telephone: "+1- 347 939 5779",
+  openingHoursWeekdays: "Monday to friday 07:00- 22:00",
+  openingHoursWeekends: "saturday-sunday 07:00- 12=7:00",
 
-  "sameAs": [
+  sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
     "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
-  "geo": {
+  geo: {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
+    latitude: "40.7128", // replace with actual latitude
+    longitude: "-74.0060", // replace with actual longitude
   },
 };
 

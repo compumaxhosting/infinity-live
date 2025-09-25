@@ -4,70 +4,12 @@ import PhoneCall from "@/components/PhoneCall";
 import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 import React from "react";
 
-export const metadata = {
-  title:
-    "Stucco & Waterproofing Services NYC | Exterior, Parapet & Retaining Walls",
-  description:
-    "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
-  keywords: [
-    "stucco restoration NYC",
-    "waterproofing services New York",
-    "exterior wall repair",
-    "parapet waterproofing",
-    "retaining wall protection",
-    "building envelope solutions",
-    "stucco repair contractors",
-    "waterproofing specialists NYC",
-  ],
-};
 
 const StuccoWaterproofingPage = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data */}
-      <Script
-        id="json-ld-stucco"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Stucco and Waterproofing Services",
-            description:
-              "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType:
-              "Exterior Stucco Waterproofing, Parapet Repair, Retaining Wall Sealing",
-          }),
-        }}
-      />
 
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />

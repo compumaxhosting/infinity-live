@@ -4,69 +4,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
-import Script from "next/script"; // ✅ added
 import PhoneCall from "@/components/PhoneCall";
 
-export const metadata = {
-  title:
-    "Professional Brick & CMU Block laying Services in NYC | Infinity Construction",
-  description:
-    "Expert brick and CMU block masonry services for residential and commercial properties in New York. Quality craftsmanship for structural integrity and aesthetic appeal.",
-  keywords: [
-    "brick layering NYC",
-    "CMU block installation",
-    "masonry services New York",
-    "brick facade construction",
-    "concrete block wall installation",
-    "commercial masonry contractors",
-    "residential brickwork",
-    "building foundation specialists",
-  ],
-};
 
 const BrickCMULayeringPage = () => {
   return (
     <>
-      {/* ✅ JSON‑LD Structured Data */}
-      <Script
-        id="json-ld-brick-cmu"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Brick and CMU Block laying",
-            description:
-              "Professional brick and CMU block masonry services for residential and commercial properties in New York City provided by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType: "Brick laying, CMU Block Installation",
-          }),
-        }}
-      />
 
       {/* ▸ Original page layout starts here (unchanged) */}
       <div itemScope itemType="https://schema.org/Service">

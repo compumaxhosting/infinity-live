@@ -4,15 +4,25 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title:
+    "Stucco & Waterproofing Services NYC | Exterior, Parapet & Retaining Walls",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services. Call us today for quality craftsmanship.",
-  keywords:
-    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+    "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
+  keywords: [
+    "stucco restoration NYC",
+    "waterproofing services New York",
+    "exterior wall repair",
+    "parapet waterproofing",
+    "retaining wall protection",
+    "building envelope solutions",
+    "stucco repair contractors",
+    "waterproofing specialists NYC",
+  ],
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title:
+      "Stucco & Waterproofing Services NYC | Exterior, Parapet & Retaining Walls",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
@@ -30,32 +40,33 @@ export const metadata = {
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Infinity Construction NYC",
-  "url": "https://www.infinityconstructionnyc.com/",
-  "logo": "https://www.infinityconstructionnyc.com/logo.png",
-  "image": "https://www.infinityconstructionnyc.com/cover-image.jpg",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "Infinity Construction NYC",
+  url: "https://www.infinityconstructionnyc.com/",
+  logo: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  description:
+    "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: " 1809 Albany Ave ",
+    addressLocality: " Brooklyn ",
+    addressRegion: "NY",
+    postalCode: " 11210 ",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
+  telephone: "+1- 347 939 5779",
+  openingHoursWeekdays: "Monday to friday 07:00- 22:00",
+  openingHoursWeekends: "saturday-sunday 07:00- 12=7:00",
 
-  "sameAs": [
+  sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
     "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
-  "geo": {
+  geo: {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
+    latitude: "40.7128", // replace with actual latitude
+    longitude: "-74.0060", // replace with actual longitude
   },
 };
 

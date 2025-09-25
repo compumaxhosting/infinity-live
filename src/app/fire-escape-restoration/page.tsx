@@ -4,71 +4,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
-import Script from "next/script"; // ✅ For JSON-LD
 import PhoneCall from "@/components/PhoneCall";
 
-export const metadata = {
-  title: "Fire Escape & Metal Restoration NYC | Infinity Construction",
-  description:
-    "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
-  keywords: [
-    "fire escape restoration NYC",
-    "metal railing repair",
-    "fence restoration services",
-    "rust removal NYC",
-    "structural reinforcement",
-    "building safety compliance",
-    "metal coating specialists",
-    "emergency fire escape repairs",
-  ],
-};
 
 const FireEscapeRestorationPage = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data */}
-      <Script
-        id="json-ld-fire-escape"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Fire Escape and Metal Restoration",
-            description:
-              "Certified fire escape and metal restoration services including railing and fence repair, rust removal, and safety compliance across NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType:
-              "Fire Escape Restoration, Metal Railing Repair, Fence Coating",
-          }),
-        }}
-      />
-
-      {/* ✅ Original Page Content Starts Here */}
       <HeaderSpecial />
       <main
         className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"

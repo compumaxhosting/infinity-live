@@ -21,7 +21,7 @@ const page = () => {
       </div>
       <Footer />
       
-              <PhoneCall />
+      <PhoneCall />
     </div>
   );
 };

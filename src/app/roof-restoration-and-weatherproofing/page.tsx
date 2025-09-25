@@ -4,70 +4,12 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import ProjectsSection from "@/components/ProjectsSection";
-import Script from "next/script"; // ✅ Added for structured data
 import PhoneCall from "@/components/PhoneCall";
-
-export const metadata = {
-  title:
-    "Professional Roof Restoration & Weatherproofing Services in NYC | Infinity Construction",
-  description:
-    "Expert roof repair, restoration and weatherproofing solutions for NYC properties. Certified technicians using premium materials to protect against harsh weather conditions.",
-  keywords: [
-    "roof restoration NYC",
-    "weatherproofing services",
-    "roof repair New York",
-    "commercial roofing contractors",
-    "residential roof restoration",
-    "waterproof roofing solutions",
-    "roof inspection NYC",
-    "licensed roofers",
-  ],
-};
 
 const RoofRestorationPage = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data */}
-      <Script
-        id="json-ld-roof-restoration"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Roof Restoration and Weatherproofing",
-            description:
-              "Certified roof restoration and waterproofing services for residential and commercial buildings across NYC by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType: "Roof Restoration, Roof Repair, Weatherproofing",
-          }),
-        }}
-      />
-
+      
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
         <main

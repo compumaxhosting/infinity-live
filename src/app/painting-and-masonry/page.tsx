@@ -3,54 +3,13 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import React from "react";
-import Script from "next/script"; // ✅ For SEO schema
 import PhoneCall from "@/components/PhoneCall";
 import Link from "next/link";
 
 const Page = () => {
   return (
     <>
-      <Script
-        id="json-ld-painting-masonry"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Painting and Masonry Services",
-            description:
-              "Professional painting and masonry services in NYC including wall repair, decorative plaster, moisture-resistant coatings, and high-end finishes by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType:
-              "Interior Painting, Plaster Masonry, Decorative Finishes",
-          }),
-        }}
-      />
-
+     
       <div>
         <HeaderSpecial />
         <main

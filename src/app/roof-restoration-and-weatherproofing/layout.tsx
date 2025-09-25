@@ -5,14 +5,22 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Roof Restoration & Weatherproofing Near Me | Brooklyn, Queens, Bronx & Manhattan",
+    "Professional Roof Restoration & Weatherproofing Services in NYC | Infinity Construction",
   description:
     "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
-  keywords:
-    "roof restoration near me, weatherproofing services NYC, flat roof repair Brooklyn, roof waterproofing Queens, commercial roof restoration Bronx, roof leak repair Manhattan, NYC roofing contractors, residential roof weatherproofing, roof sealing NYC, emergency roof repair NYC",
+  keywords: [
+    "roof restoration NYC",
+    "weatherproofing services",
+    "roof repair New York",
+    "commercial roofing contractors",
+    "residential roof restoration",
+    "waterproof roofing solutions",
+    "roof inspection NYC",
+    "licensed roofers",
+  ],
   openGraph: {
     title:
-      "Roof Restoration & Weatherproofing Near Me | Brooklyn, Queens, Bronx & Manhattan",
+      "Professional Roof Restoration & Weatherproofing Services in NYC | Infinity Construction",
     description:
       "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
     url: "https://www.infinityconstructionnyc.com/roof-restoration-and-weatherproofing",
@@ -32,32 +40,33 @@ export const metadata = {
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Infinity Construction NYC",
-  "url": "https://www.infinityconstructionnyc.com/",
-  "logo": "https://www.infinityconstructionnyc.com/logo.png",
-  "image": "https://www.infinityconstructionnyc.com/cover-image.jpg",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "Infinity Construction NYC",
+  url: "https://www.infinityconstructionnyc.com/",
+  logo: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  description:
+    "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: " 1809 Albany Ave ",
+    addressLocality: " Brooklyn ",
+    addressRegion: "NY",
+    postalCode: " 11210 ",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
+  telephone: "+1- 347 939 5779",
+  openingHoursWeekdays: "Monday to friday 07:00- 22:00",
+  openingHoursWeekends: "saturday-sunday 07:00- 12=7:00",
 
-  "sameAs": [
+  sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
     "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
-  "geo": {
+  geo: {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
+    latitude: "40.7128", // replace with actual latitude
+    longitude: "-74.0060", // replace with actual longitude
   },
 };
 

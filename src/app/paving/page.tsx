@@ -3,55 +3,12 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import ProjectsSection from "@/components/ProjectsSection";
 import Image from "next/image";
 import React from "react";
-import Script from "next/script"; // ✅ For structured data
 import PhoneCall from "@/components/PhoneCall";
 import Link from "next/link";
 
 const Page = () => {
   return (
     <>
-      {/* ✅ JSON-LD Structured Data for Concrete, Stone & Brick Paving */}
-      <Script
-        id="json-ld-paving-services"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            name: "Concrete, Stone, and Brick Paving",
-            description:
-              "Professional paving services in NYC, including stamped and colored concrete, natural stone patios, and brick walkways by Infinity Construction NYC.",
-            provider: {
-              "@type": "LocalBusiness",
-              name: "Infinity Construction NYC",
-              image: "https://www.infinityconstructionnyc.com/logo-new.png",
-              url: "https://www.infinityconstructionnyc.com",
-              telephone: "+1-347-939-5779",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "1809 Albany Ave",
-                addressLocality: "Brooklyn",
-                addressRegion: "NY",
-                postalCode: "11210",
-                addressCountry: "US",
-              },
-              sameAs: [
-                "https://www.facebook.com/infinityconstructionnyc",
-                "https://www.instagram.com/infinity_construction_nyc",
-                "https://www.linkedin.com/in/imrul-hassan-403724268",
-              ],
-            },
-            areaServed: {
-              "@type": "Place",
-              name: "New York City",
-            },
-            serviceType:
-              "Stamped Concrete, Stone Paving, Brick Walkways, Patio Installation",
-          }),
-        }}
-      />
-
       {/* ✅ Original Layout Starts Here (Unchanged) */}
       <div>
         <HeaderSpecial />

@@ -35,7 +35,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
+    "Browse the photo gallery of Infinity Construction NYC showcasing roofing, masonry, and restoration work across Brooklyn, Queens, The Bronx & Manhattan. See our quality craftsmanship in action.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",

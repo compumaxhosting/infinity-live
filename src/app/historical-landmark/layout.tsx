@@ -5,16 +5,16 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Historical Landmark Restoration | Brooklyn, Queens, Bronx & Manhattan NYC",
+    "Historical Landmark Brownstone & Limestone Restoration | Infinity Construction NYC",
   description:
-    "Infinity Construction NYC offers expert historical landmark restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Preserve your building's legacy.",
+    "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
   keywords:
-    "historical landmark restoration Brooklyn, historic building restoration NYC, landmark restoration Queens, historical restoration Bronx, Infinity Construction NYC, historic masonry repair Manhattan, restoration contractors NYC, landmark preservation NYC, historical building repair Brooklyn, heritage building restoration Queens",
+    "brownstone restoration, limestone restoration, historical building restoration, NYC landmark restoration, facade repair",
   openGraph: {
     title:
-      "Historical Landmark Restoration | Brooklyn, Queens, Bronx & Manhattan NYC",
+      "Historical Landmark Brownstone & Limestone Restoration | Infinity Construction NYC",
     description:
-      "Infinity Construction NYC offers expert historical landmark restoration services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Preserve your building's legacy.",
+      "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
     url: "https://www.infinityconstructionnyc.com/historical-landmark",
     images: [
       {
@@ -28,36 +28,36 @@ export const metadata = {
   },
 };
 
-// Schema Markup (Best moved to a separate component)
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Infinity Construction NYC",
-  "url": "https://www.infinityconstructionnyc.com/",
-  "logo": "https://www.infinityconstructionnyc.com/logo.png",
-  "image": "https://www.infinityconstructionnyc.com/cover-image.jpg",
-  "description": "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
-  "address": {
+  name: "Infinity Construction NYC",
+  url: "https://www.infinityconstructionnyc.com/",
+  logo: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  description:
+    "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
+  address: {
     "@type": "PostalAddress",
-    "streetAddress": " 1809 Albany Ave ",
-    "addressLocality": " Brooklyn ",
-    "addressRegion": "NY",
-    "postalCode": " 11210 ",
-    "addressCountry": "US",
+    streetAddress: " 1809 Albany Ave ",
+    addressLocality: " Brooklyn ",
+    addressRegion: "NY",
+    postalCode: " 11210 ",
+    addressCountry: "US",
   },
-  "telephone": "+1- 347 939 5779",
-  "openingHoursWeekdays": "Monday to friday 07:00- 22:00",
-  "openingHoursWeekends": "saturday-sunday 07:00- 12=7:00",
+  telephone: "+1- 347 939 5779",
+  openingHoursWeekdays: "Monday to friday 07:00- 22:00",
+  openingHoursWeekends: "saturday-sunday 07:00- 12=7:00",
 
-  "sameAs": [
+  sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
     "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
-  "geo": {
+  geo: {
     "@type": "GeoCoordinates",
-    "latitude": "40.7128", // replace with actual latitude
-    "longitude": "-74.0060", // replace with actual longitude
+    latitude: "40.7128", // replace with actual latitude
+    longitude: "-74.0060", // replace with actual longitude
   },
 };
 

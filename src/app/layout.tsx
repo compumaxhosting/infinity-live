@@ -16,19 +16,15 @@ const bevietnam = Be_Vietnam_Pro({
 
 // ✅ Default metadata for entire site
 export const metadata: Metadata = {
-  title: "Infinity Construction NYC",
-  description: "Expert Brownstone Construction and Masonry in NYC.",
-  keywords: [
-    "Brownstone restoration NYC",
-    "Masonry services Brooklyn",
-    "Renovation Manhattan",
-    "Construction Bronx",
-    "Infinity Construction NYC",
-  ],
+  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  description:
+    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+  keywords:
+    "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
   openGraph: {
-    title: "Infinity Construction NYC",
+    title: "Brownstone Construction and Restoration in Brooklyn, New York",
     description:
-      "Expert brownstone restoration and masonry services across NYC: Brooklyn, Manhattan, Queens, and the Bronx.",
+      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
@@ -50,7 +46,7 @@ const jsonLdSchema = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Infinity Construction NYC specializes in home improvements and remodeling in New York.",
+    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "1809 Albany Ave",

@@ -5,16 +5,24 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Brick Pointing & Waterproofing Contractors – Brooklyn, Queens, Bronx, NYC ",
+    "Professional Brick Pointing &amp; Waterproofing Services in NYC | Infinity Construction",
   description:
-    "Expert brick pointing and waterproofing services across Brooklyn, Queens, The Bronx & Manhattan. Trusted NYC masonry contractor for durable exterior solutions.",
-  keywords:
-    "Brick pointing Brooklyn, Waterproofing contractor NYC, Brick repair Queens, Exterior waterproofing Bronx, Tuckpointing Manhattan, Brick wall restoration NYC, Brick pointing and sealing, Foundation waterproofing NYC,Local masonry contractor Brooklyn,Repointing services New York City",
+    "Expert brick repointing, tuckpointing and waterproofing solutions for NYC buildings. Protect and restore your masonry with our certified services.",
+  keywords: [
+    "brick pointing NYC",
+    "tuckpointing services",
+    "masonry waterproofing",
+    "brick repointing contractors",
+    "waterproofing solutions NYC",
+    "mortar repair specialists",
+    "brick restoration",
+    "masonry preservation",
+  ],
   openGraph: {
     title:
-      "Brick Pointing & Waterproofing Contractors – Brooklyn, Queens, Bronx, NYC ",
+      "Professional Brick Pointing &amp; Waterproofing Services in NYC | Infinity Construction",
     description:
-      "Expert brick pointing and waterproofing services across Brooklyn, Queens, The Bronx & Manhattan. Trusted NYC masonry contractor for durable exterior solutions.",
+      "Expert brick repointing, tuckpointing and waterproofing solutions for NYC buildings. Protect and restore your masonry with our certified services.",
     url: "https://www.infinityconstructionnyc.com/brick-pointing",
     images: [
       {
