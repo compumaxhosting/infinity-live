@@ -9,21 +9,21 @@ const HeroSection = () => {
   return (
     <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20 dark:border-b">
       <div className="max-w-7xl w-full">
-        <h2 className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
+        <p className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
           Infinity Construction NYC
+        </p>
+
+        <h1 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
+          Brownstone Restoration Specialist
+        </h1>
+
+        <h2 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
+          Licensed & Insured.
         </h2>
 
-        <h3 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
-          Brownstone Restoration Specialist
-        </h3>
-
-        <h4 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
-          Licensed & Insured.
-        </h4>
-
-        <h4 className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center">
+        <h3 className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center">
           Precision. Punctuality. Professionalism.
-        </h4>
+        </h3>
 
         {/* Always visible content */}
         <div className="content-section">

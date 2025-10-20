@@ -14,12 +14,12 @@ const CarouselContent: React.FC = () => {
         >
           Infinity Construction NYC
         </p>
-        <h1
+        <h2
           className="text-3xl md:text-2xl lg:text-4xl leading-snug"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           Expert Brownstone Restoration, Roofing & Waterproofing in NYC
-        </h1>
+        </h2>
 
         {/* Buttons Section */}
         <div className="mt-6 flex gap-4 flex-col sm:flex-row">
