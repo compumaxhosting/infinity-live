@@ -9,34 +9,21 @@ const HeroSection = () => {
   return (
     <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20 dark:border-b">
       <div className="max-w-7xl w-full">
-        {/* Main Heading */}
-        <h1
-          className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6"
-          style={{ fontFamily: "var(--font-forum)" }}
-        >
+        <h2 className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
           Infinity Construction NYC
-        </h1>
-
-        {/* Subheading */}
-        <h2
-          className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center"
-          style={{ fontFamily: "var(--font-forum)" }}
-        >
-          BROWNSTONE RESTORATION SPECIALIST
         </h2>
-        <h3
-          className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center"
-          style={{ fontFamily: "var(--font-forum)" }}
-        >
-          LICENSED & INSURED.
+
+        <h3 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
+          Brownstone Restoration Specialist
         </h3>
-        {/* Tagline */}
-        <h3
-          className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center"
-          style={{ fontFamily: "var(--font-forum)" }}
-        >
-          PRECISION. PUNCTUALITY. PROFESSIONALISM.
-        </h3>
+
+        <h4 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
+          Licensed & Insured.
+        </h4>
+
+        <h4 className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center">
+          Precision. Punctuality. Professionalism.
+        </h4>
 
         {/* Always visible content */}
         <div className="content-section">
@@ -67,7 +54,7 @@ const HeroSection = () => {
             , <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>,
             and{" "}
             <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,
-            NY.
+            NYC.
           </p>
         </div>
 

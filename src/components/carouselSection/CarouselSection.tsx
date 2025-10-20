@@ -89,7 +89,7 @@ const CarouselSection: React.FC = () => {
                 />
                 <div className="absolute bg-black/40 sm:bg-black/30 z-10 h-full w-full"></div>
               </motion.div>
-              <CarouselContent  />
+              <CarouselContent />
             </div>
           ))}
         </div>
@@ -99,10 +99,10 @@ const CarouselSection: React.FC = () => {
         onClick={scrollPrev}
         disabled={!canScrollPrev}
         aria-label="Previous project image"
-        className="absolute z-20 bottom-5 right-1/2 -translate-x-2 sm:bottom-auto sm:right-auto sm:left-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
+        className="absolute z-20 bottom-5 right-1/2 -translate-x-2 sm:bottom-auto sm:right-auto sm:left-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-1.5 rounded-full hover:bg-white/30 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
       >
         <ChevronLeft
-          className="w-8 h-8 sm:h-14"
+          className="w-6 h-6 sm:w-8 sm:h-8"
           aria-hidden="true"
           focusable="false"
         />
@@ -112,10 +112,10 @@ const CarouselSection: React.FC = () => {
         onClick={scrollNext}
         disabled={!canScrollNext}
         aria-label="Next project image"
-        className="absolute z-20 bottom-5 left-1/2 translate-x-2 sm:bottom-auto sm:left-auto sm:right-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-2 rounded-full hover:bg-white/40 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
+        className="absolute z-20 bottom-5 left-1/2 translate-x-2 sm:bottom-auto sm:left-auto sm:right-4 sm:top-1/2 -translate-y-1/2 bg-white/10 text-white p-1.5 rounded-full hover:bg-white/30 backdrop-blur-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white"
       >
         <ChevronRight
-          className="w-8 h-8 sm:h-14"
+          className="w-6 h-6 sm:w-8 sm:h-8"
           aria-hidden="true"
           focusable="false"
         />

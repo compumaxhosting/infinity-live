@@ -40,7 +40,7 @@ const AboutTemp = () => {
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="name"
           >
-            About Infinity Construction NYC: Building Trust Across New York City
+            About Infinity Construction NYC: Building Trust Across NYC
           </h1>
 
           {/* Introduction Paragraph */}

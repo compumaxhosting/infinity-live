@@ -23,9 +23,9 @@ const AreasOfExpertise = () => {
     <div>
       <div className="bg-gray-50 dark:bg-gray-900">
         {/* Section Heading */}
-        <h2 className="text-center text-3xl lg:text-5xl mb-12 text-gray-800 dark:text-white">
+        <h1 className="text-center text-3xl lg:text-5xl mb-12 text-gray-800 dark:text-white">
           Areas of Expertise
-        </h2>
+        </h1>
 
         {/* Expertise Section */}
         <div className="md:space-y-16 max-w-6xl mx-auto px-4 sm:px-8 lg:px-16">

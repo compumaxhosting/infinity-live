@@ -138,9 +138,9 @@ const Portfolio = () => {
 
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             Our Projects
-          </h2>
+          </h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600">
             BROWNSTONE RESTORATION SPECIALIST -{" "}
             <span className="text-primary">LICENSED & INSURED</span>
