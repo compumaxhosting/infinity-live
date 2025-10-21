@@ -28,7 +28,7 @@ const Header: React.FC = () => {
       itemScope
       itemType="https://schema.org/LocalBusiness"
     >
-      <div className="container mx-auto flex flex-wrap justify-between items-center p-3 sm:p-4">
+      <div className="container mx-auto flex flex-wrap justify-between items-center">
         {/* Left: Logo + Text */}
         <div className="flex items-center gap-2 flex-shrink-0">
           <Link href="/" aria-label="Infinity Construction NYC Home">
