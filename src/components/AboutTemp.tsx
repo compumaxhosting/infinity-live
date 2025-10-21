@@ -157,12 +157,12 @@ const AboutTemp = () => {
           </p>
 
           {/* What Sets Us Apart */}
-          <h2
+          <h3
             className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             What Sets Us Apart
-          </h2>
+          </h3>
 
           <ul
             className="pt-4 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-8 mx-auto sm:px-20 list-disc list-inside"
@@ -191,12 +191,12 @@ const AboutTemp = () => {
           </p>
 
           {/* Our Commitment */}
-          <h2
+          <h4
             className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Our Commitment
-          </h2>
+          </h4>
 
           <ul
             className="pt-4 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-8 mx-auto sm:px-20 list-disc list-inside"

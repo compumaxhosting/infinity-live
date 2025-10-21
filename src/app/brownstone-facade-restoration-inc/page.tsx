@@ -17,7 +17,7 @@ const BrownstoneFacadeRestorationPage = () => {
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-center mb-8">
           Trusted in Brooklyn, Manhattan, Queens & The Bronx
         </h2>
-        <h3 className="text-lg sm:text-xl text-center mb-8">
+        <h3 className="text-lg sm:text-xl text-center mb-8 font-semibold">
           Infinity Construction NYC – Preserving NYC&apos;s Architectural
           Heritage
         </h3>
@@ -87,10 +87,10 @@ const BrownstoneFacadeRestorationPage = () => {
         <section className="my-10 flex flex-col lg:flex-row items-center gap-8">
           {/* Bullet Points */}
           <div className="flex-1">
-            <h3 className="text-2xl sm:text-3xl font-bold mb-4">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">
               Full-Service Brownstone Renovation & Facade Repair
-            </h3>
-            <p>Our services include:</p>
+            </h2>
+            <h3>Our services include:</h3>
             <ul className="list-disc ml-6 space-y-2">
               <li>Brownstone facade cleaning and waterproofing</li>
               <li>Historic brownstone restoration in Brooklyn</li>
@@ -121,11 +121,11 @@ const BrownstoneFacadeRestorationPage = () => {
 
         {/* Services List */}
         <section className="my-10 space-y-6">
-          <h3 className="text-2xl sm:text-3xl font-bold">
+          <h2 className="text-2xl sm:text-3xl font-bold">
             Why Choose Infinity Construction NYC?
-          </h3>
+          </h2>
           <ul className="list-disc ml-6 space-y-2">
-            <li>Trusted brownstone restoration company in NYC</li>
+            <h3>Trusted brownstone restoration company in NYC</h3>
             <li>
               Local experts for Queens facade repairs and Manhattan brownstone
               renovations

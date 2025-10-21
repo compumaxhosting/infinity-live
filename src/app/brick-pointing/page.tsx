@@ -54,7 +54,7 @@ const BrickPointingWaterproofingPage = () => {
               </div>
             </div>
 
-            <h2 className="text-4xl md:text-5xl my-4">Our Brick Pointing Services</h2>
+            <h3 className="text-4xl md:text-5xl my-4">Our Brick Pointing Services</h3>
             <ul
               itemProp="hasOfferCatalog"
               itemScope
@@ -148,9 +148,9 @@ const BrickPointingWaterproofingPage = () => {
               />
             </div>
 
-            <h2 className="text-4xl md:text-5xl my-4">
+            <h3 className="text-4xl md:text-5xl my-4">
               Our Waterproofing Services Include:
-            </h2>
+            </h3>
             <ul
               itemProp="hasOfferCatalog"
               itemScope
