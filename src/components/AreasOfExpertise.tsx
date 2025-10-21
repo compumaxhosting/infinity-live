@@ -14,7 +14,7 @@ const expertiseData = [
     title: "Residential",
     description:
       "We provide expert guidance to help every step of the way. From planning your perfect home to the final construction, we deliver exceptional results and unmatched quality.",
-    image: "/services-img-4.jpeg", // Replace with the actual image path
+    image: "/services-img-4.jpg", // Replace with the actual image path
   },
 ];
 
