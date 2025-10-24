@@ -11,7 +11,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/img-261.avif",
+    image: "/blog/img-14.webp",
   },
   {
     id: 2,
