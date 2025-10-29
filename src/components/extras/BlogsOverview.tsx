@@ -13,6 +13,14 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "How to Preserve Your Brownstone’s Historic Charm in NY | Expert Guide",
+      path: "/blog/how-to-preserve-your-brownstones-historic-charm",
+    },
+    {
+      name: "How to Restore a Historic Brownstone in Brooklyn | Expert Guide",
+      path: "/blog/how-to-restore-a-historic-brownstone-in-brooklyn-without-losing-its-charm",
+    },
+    {
       name: "Brownstone Restoration Services in Brooklyn, Manhattan, Queens, and the Bronx, NY – 15% Off at Infinity Construction NYC",
       path: "/blog/brownstone-repair-nyc",
     },
