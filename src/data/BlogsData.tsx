@@ -34,7 +34,7 @@ export const BlogsData: Blog[] = [
         </h1>
       </>
     ),
-    image: "/blog/img-261.avif",
+    image: "/blog/img-14.webp",
     sections: [
       {
         title: "Understanding the Unique Features of New York Brownstones",

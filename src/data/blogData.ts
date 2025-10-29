@@ -3,7 +3,7 @@ export const blogData = [
     id: 1,
     author: "Imrul Hassan",
     slug: "how-to-preserve-your-brownstones-historic-charm",
-    date: "Sep 4, 2025", // update to actual publish date
+    date: "Sep 4, 2025", 
     readTime: "5 min read",
     title:
       "How to Preserve Your Brownstone’s Historic Charm in NY | Expert Guide",
@@ -17,7 +17,7 @@ export const blogData = [
     id: 2,
     author: "Imrul Hassan",
     slug: "how-to-restore-a-historic-brownstone-in-brooklyn-without-losing-its-charm",
-    date: "Sep 4, 2025", // update to actual publish date
+    date: "Sep 4, 2025", 
     readTime: "5 min read",
     title: "How to Restore a Historic Brownstone in Brooklyn | Expert Guide",
     contentPreview: `Restoring a historic brownstone in Brooklyn is rewarding but requires balancing preservation and modernization. Learn tips on inspections, keeping original features, exterior restoration, and more...`,
