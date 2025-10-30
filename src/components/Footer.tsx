@@ -58,13 +58,21 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="group">
-              <h3
-                className="text-2xl font-bold bg-clip-text text-transparent bg-white inline-block"
+              <div
+                className="flex items-center space-x-3 group"
                 itemProp="name"
               >
-                Infinity Construction
-                <span className="block h-0.5 w-16 bg-gradient-to-r from-primary to-secondary mt-2 transition-all duration-300 group-hover:w-24"></span>
-              </h3>
+                <Image
+                  src="/logo-white.png"
+                  alt="Infinity Construction NYC Logo"
+                  width={230}
+                  height={60}
+                  className="object-contain transition-transform duration-300 group-hover:scale-105"
+                  itemProp="image"
+                />
+              </div>
+              <span className="block h-0.5 w-16 bg-gradient-to-r from-primary to-secondary mt-2 transition-all duration-300 group-hover:w-24"></span>
+
               <p
                 className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
