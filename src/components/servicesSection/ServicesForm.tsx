@@ -4,6 +4,7 @@ import { Phone } from "lucide-react";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Oval } from "react-loader-spinner";
+
 const ServicesForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,9 +23,22 @@ const ServicesForm: React.FC = () => {
   const [responseMessage, setResponseMessage] = useState<string | null>(null);
   const [mounted, setMounted] = useState(false);
 
+  // Captcha states
+  const [captcha, setCaptcha] = useState<string>("");
+  const [userCaptcha, setUserCaptcha] = useState<string>("");
+  const [captchaError, setCaptchaError] = useState<string>("");
+
   useEffect(() => {
     setMounted(true);
+    generateCaptcha();
   }, []);
+
+  const generateCaptcha = () => {
+    const num = Math.floor(1000 + Math.random() * 9000).toString();
+    setCaptcha(num);
+    setUserCaptcha("");
+    setCaptchaError("");
+  };
 
   const validate = () => {
     let isValid = true;
@@ -63,7 +77,7 @@ const ServicesForm: React.FC = () => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
 
-    // Clear the field-level error
+    // Clear field-level error
     if (errors[name as keyof typeof errors]) {
       setErrors({ ...errors, [name]: "" });
     }
@@ -74,6 +88,12 @@ const ServicesForm: React.FC = () => {
     setResponseMessage(null);
 
     if (!validate()) return;
+
+    // Captcha validation
+    if (userCaptcha.trim() !== captcha) {
+      setCaptchaError("Incorrect CAPTCHA");
+      return;
+    }
 
     setLoading(true);
 
@@ -89,6 +109,7 @@ const ServicesForm: React.FC = () => {
       if (result.success) {
         setResponseMessage("Email sent successfully!");
         setFormData({ name: "", email: "", phone: "", message: "" });
+        generateCaptcha(); // reset captcha
       } else {
         setResponseMessage("Failed to send email. Please try again.");
       }
@@ -108,7 +129,9 @@ const ServicesForm: React.FC = () => {
               dark:bg-gray-900 dark:border-gray-800 text-stone-800 dark:text-gray-200"
       style={{ fontFamily: "var(--font-forum)" }}
     >
-      <h2 className="mb-2 md:mb-4 text-2xl lg:text-4xl font-semibold">Get in Touch</h2>
+      <h2 className="mb-2 md:mb-4 text-2xl lg:text-4xl font-semibold">
+        Get in Touch
+      </h2>
       <div className="mb-2 md:mb-4 flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-4 text-center sm:text-left">
         <p className="text-lg text-stone-700 dark:text-gray-300">
           Or speak to us directly
@@ -196,8 +219,35 @@ const ServicesForm: React.FC = () => {
           />
         </div>
 
-        {/* Submit */}
-        <div>
+        {/* CAPTCHA + Submit */}
+        <div className="flex items-center justify-between gap-4">
+          <div className="flex items-center gap-2">
+            <div
+              className="px-3 py-2 bg-gray-200 text-black dark:bg-gray-800 dark:text-white rounded select-none cursor-not-allowed"
+              style={{ letterSpacing: "2px", fontWeight: "bold" }}
+            >
+              {captcha}
+            </div>
+            <button
+              type="button"
+              onClick={generateCaptcha}
+              className="text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400"
+              title="Refresh CAPTCHA"
+            >
+              ↻
+            </button>
+            <input
+              type="text"
+              value={userCaptcha}
+              onChange={(e) => {
+                setUserCaptcha(e.target.value);
+                setCaptchaError("");
+              }}
+              placeholder="Enter CAPTCHA"
+              className="w-28 px-2 py-1 rounded-lg text-black dark:text-white dark:bg-slate-950"
+            />
+          </div>
+
           <button
             type="submit"
             className="py-3 px-4 bg-secondary transition-all duration-200 hover:bg-stone-900 text-white rounded-lg"
@@ -216,6 +266,10 @@ const ServicesForm: React.FC = () => {
             )}
           </button>
         </div>
+
+        {captchaError && (
+          <p className="text-red-500 text-sm mt-1">{captchaError}</p>
+        )}
 
         {responseMessage && (
           <p className="mt-4 text-center text-lg">{responseMessage}</p>
