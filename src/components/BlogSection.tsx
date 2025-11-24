@@ -41,17 +41,6 @@ const  BlogSection = () => {
                 <p className="mt-4 text-gray-600 dark:text-gray-300 text-center md:text-justify">
                   {blog.contentPreview}
                 </p>
-                <div className="mt-4 flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
-                  <span>{blog.views} views</span>
-                  <span>{blog.comments} comments</span>
-                  <span>
-                    {blog.liked ? (
-                      <span className="text-red-500">Liked</span>
-                    ) : (
-                      <span>Not Liked</span>
-                    )}
-                  </span>
-                </div>
               </div>
             </Link>
           </div>
