@@ -3,7 +3,7 @@ export const blogData = [
     id: 1,
     author: "Imrul Hassan",
     slug: "top-mistakes-to-avoid-when-restoring",
-    date: "Dec 12, 2025",
+    date: "Dec 3, 2025",
     readTime: "13 min read",
     title: "Top Mistakes to Avoid in NYC Brownstone Restoration",
     contentPreview: `Restoring a historic brownstone in New York City is a rewarding project, but it also comes with challenges that many property owners don’t see coming....`,
