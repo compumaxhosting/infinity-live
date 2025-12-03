@@ -9,7 +9,7 @@ type LayoutProps = {
 
 export async function generateMetadata({
   params,
-}: {    
+}: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const resolvedParams = await params;
@@ -17,9 +17,9 @@ export async function generateMetadata({
 
   if (!blog) {
     return {
-      keywords: "infinity construction, blog, not found",
       title: "Blog not found",
       description: "No blog details available.",
+      keywords: "infinity construction, blog, not found",
       openGraph: {
         title: "Blog not found",
         description: "No blog details available.",
@@ -29,13 +29,18 @@ export async function generateMetadata({
     };
   }
 
+  const safeDescription =
+    blog.metadescription ||
+    (typeof blog.description === "string" ? blog.description : "");
+
   return {
-    title: blog.title,
-    description: typeof blog.description === "string" ? blog.description : "",
+    title: blog.metatitle || blog.title,
+    description: safeDescription,
     keywords: typeof blog.keywords === "string" ? blog.keywords : undefined,
+
     openGraph: {
-      title: blog.title,
-      description: typeof blog.description === "string" ? blog.description : "",
+      title: blog.metatitle || blog.title,
+      description: safeDescription,
       url: `https://www.infinityconstructionnyc.com/blog/${blog.slug}`,
       images: [
         {
@@ -47,13 +52,10 @@ export async function generateMetadata({
       ],
       type: "article",
     },
-  };  
+  };
 }
 
-export default async function BlogLayout({
-  children,
-  params,
-}: LayoutProps) {
+export default async function BlogLayout({ children, params }: LayoutProps) {
   const resolvedParams = await params;
   const blog = BlogsData.find((b) => b.slug === resolvedParams.slug);
 
@@ -61,12 +63,15 @@ export default async function BlogLayout({
     return <div>Blog not found.</div>;
   }
 
+  const safeDescription =
+    blog.metadescription ||
+    (typeof blog.description === "string" ? blog.description : "");
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: blog.title,
-    description:
-      typeof blog.description === "string" ? blog.description : "",
+    headline: blog.metatitle || blog.title,
+    description: safeDescription,
     image: blog.image,
     url: `https://www.infinityconstructionnyc.com/blog/${blog.slug}`,
   };

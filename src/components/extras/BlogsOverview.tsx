@@ -13,10 +13,13 @@ export function BlogsOverview() {
 
   const plans = [
     {
-  name: "Brooklyn’s Affordable Brownstone Restoration Guide 2025-2026",
-  path: "/blog/brooklyn-brownstone-repair-and-restoration",
-}
-,
+      name: "Top Mistakes to Avoid When Restoring a Historic Brownstone in New York City",
+      path: "/blog/top-mistakes-to-avoid-when-restoring",
+    },
+    {
+      name: "Brooklyn’s Affordable Brownstone Restoration Guide 2025-2026",
+      path: "/blog/brooklyn-brownstone-repair-and-restoration",
+    },
     {
       name: "How to Preserve Your Brownstone’s Historic Charm in NY | Expert Guide",
       path: "/blog/how-to-preserve-your-brownstones-historic-charm",

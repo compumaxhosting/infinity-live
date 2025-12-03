@@ -9,14 +9,444 @@ export type BlogSection = {
 
 export type Blog = {
   title: string;
-  keywords:string,
+  keywords: string;
   slug: string;
   description: string | JSX.Element;
   image: string;
   sections: BlogSection[];
+  metatitle: string; 
+  metadescription: string; 
 };
 
 export const BlogsData: Blog[] = [
+  {
+    keywords:
+      "NYC brownstone restoration, brownstone repair NYC, historic brownstone mistakes, landmark restoration NYC, brownstone contractors NYC, façade repair NYC, brownstone renovation tips, brownstone preservation NYC, Brooklyn brownstone experts, Manhattan brownstone restoration",
+    title: "",
+    slug: "top-mistakes-to-avoid-when-restoring",
+    description: (
+      <>
+        <h1 className="mt-4 text-2xl md:text-4xl">
+          Top Mistakes to Avoid When Restoring a Historic Brownstone in New York
+          City
+        </h1>{" "}
+        <br />
+        <p>
+          Restoring a historic brownstone in New York City is a rewarding
+          project, but it also comes with challenges that many property owners
+          don’t see coming. These iconic homes in Brooklyn, Manhattan, Queens,
+          and the Bronx require careful attention, skilled craftsmanship, and a
+          clear understanding of preservation rules. One wrong decision can lead
+          to expensive fixes, structural damage, or even violations with the
+          Landmarks Preservation Commission.
+          <br />
+          <br />
+        </p>
+      </>
+    ),
+    image: "/blog/blog-mistakes.png",
+    sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            This guide walks you through the top mistakes to avoid when
+            restoring a historic brownstone and explains how to get the results
+            you want without compromising history or quality. If you want your
+            project to be smooth, long lasting, and compliant, this breakdown
+            will help you make informed decisions.
+            <br />
+            Let’s get into it. Many owners jump into renovation plans too
+            quickly. A historic brownstone is not a regular home, and treating
+            it like one often leads to trouble.
+            <br />
+            <br />
+            What you should know before starting:
+            <ul className="list-disc ml-6">
+              <li>The original architectural style</li>
+              <li>The condition of masonry, cornices, lintels, and stoops</li>
+              <li>Landmark status and restrictions</li>
+              <li>Previous repairs that may affect restoration</li>
+            </ul>
+            Pro tip: Hire a contractor who specializes in brownstones in NYC.
+            They understand both the structure and local regulations.
+          </>
+        ),
+      },
+
+      {
+        title: "Ignoring Landmarks Preservation Commission (LPC) Rules",
+        paragraph: (
+          <>
+            If your brownstone falls under NYC landmark zones, every exterior
+            change must follow LPC guidelines. Owners sometimes replace
+            materials or make updates that aren’t approved.
+            <br />
+            <br />
+            Common violations:
+            <ul className="list-disc ml-6">
+              <li>Using the wrong mortar</li>
+              <li>Replacing brownstone with cement</li>
+              <li>Installing incorrect windows</li>
+              <li>Changing the façade design</li>
+            </ul>
+            Fixing these violations later is costly and stressful. Always check
+            LPC requirements before any work begins.
+          </>
+        ),
+      },
+
+      {
+        title: "Using the Wrong Materials",
+        paragraph: (
+          <>
+            This is one of the biggest mistakes seen in brownstone restoration.
+            Many contractors who lack experience use modern materials that are
+            not compatible with historic masonry.
+            <br />
+            <br />
+            Materials to avoid:
+            <ul className="list-disc ml-6">
+              <li>Concrete instead of genuine brownstone</li>
+              <li>Synthetic coatings</li>
+              <li>Harsh chemical cleaners</li>
+              <li>Incorrect mortar mixes</li>
+            </ul>
+            Using the wrong materials can trap moisture, cause cracks, and
+            destroy the integrity of the façade. Experienced restoration
+            specialists always match materials to the original structure.
+          </>
+        ),
+      },
+
+      {
+        title: "Poor Masonry and Stucco Repairs",
+        paragraph: (
+          <>
+            Brownstone masonry is delicate. If the façade is not repaired using
+            traditional methods, the surface can deteriorate faster than before.
+            <br />
+            <br />
+            Issues caused by bad masonry work:
+            <ul className="list-disc ml-6">
+              <li>Spalling</li>
+              <li>Flaking</li>
+              <li>Water absorption</li>
+              <li>Visible patchwork</li>
+              <li>Color mismatches</li>
+            </ul>
+            hand tools, custom mixes, and proper curing techniques.
+          </>
+        ),
+      },
+
+      {
+        title: "Overlooking Water Damage and Drainage Issues",
+        paragraph: (
+          <>
+            Water is the number one enemy of historic brownstones. Many owners
+            repair the façade but forget to address the root cause, which is
+            usually water infiltration.
+            <br />
+            <br />
+            Signs of hidden water issues:
+            <ul className="list-disc ml-6">
+              <li>Efflorescence</li>
+              <li>Mold in the basement</li>
+              <li>Cracks around windows</li>
+              <li>Soft or crumbling stone</li>
+            </ul>
+            gutter repair, and proper drainage planning.
+          </>
+        ),
+      },
+
+      {
+        title: "Hiring Non-Specialized Contractors",
+        paragraph: (
+          <>
+            Many general contractors claim to handle brownstone restoration, but
+            few understand the specialized processes involved.
+            <br />
+            <br />
+            Risks of hiring the wrong team:
+            <ul className="list-disc ml-6">
+              <li>Cheap patch jobs</li>
+              <li>Incorrect restoration techniques</li>
+              <li>Delays</li>
+              <li>Lack of compliance with city codes</li>
+              <li>Lower property value</li>
+            </ul>
+            Choose a contractor known for brownstone restoration in Brooklyn,
+            Manhattan, Queens, and the Bronx, such as{" "}
+            <Link href="/" className="text-blue-500">
+              Infinity Construction NYC
+            </Link>
+            , which has hands-on experience with historic buildings.
+          </>
+        ),
+      },
+
+      {
+        title: "Skipping a Thorough Structural Assessment",
+        paragraph: (
+          <>
+            Brownstones often have hidden structural problems that develop over
+            decades.
+            <br />
+            <br />
+            Areas that should always be inspected:
+            <ul className="list-disc ml-6">
+              <li>Foundation</li>
+              <li>Roof and parapet</li>
+              <li>Load bearing walls</li>
+              <li>Joists and beams</li>
+              <li>Fire escapes</li>
+            </ul>
+            Skipping this step can lead to expensive surprises halfway through
+            the project.
+          </>
+        ),
+      },
+
+      {
+        title: "Failing to Match Historical Details",
+        paragraph: (
+          <>
+            The charm of a brownstone lies in its details. Many restorations
+            look odd because the contractor did not match the original design.
+            <br />
+            <br />
+            Important details to restore correctly:
+            <ul className="list-disc ml-6">
+              <li>Cornices</li>
+              <li>Lintels</li>
+              <li>Railings</li>
+              <li>Window frames</li>
+              <li>Entry doors</li>
+              <li>Stoops</li>
+            </ul>
+            These features require custom craftsmanship and attention to
+            historical accuracy.
+          </>
+        ),
+      },
+
+      {
+        title: "Painting Over Brownstone",
+        paragraph: (
+          <>
+            Painting brownstone may look like a quick fix, but it causes serious
+            long term damage.
+            <br />
+            <br />
+            Why painting brownstone is a mistake:
+            <ul className="list-disc ml-6">
+              <li>Paint seals moisture inside</li>
+              <li>It speeds up deterioration</li>
+              <li>It hides structural cracks</li>
+              <li>It makes future restoration harder</li>
+            </ul>
+            Instead, proper resurfacing and finishing should be done using
+            breathable materials.
+          </>
+        ),
+      },
+
+      {
+        title: "Not Planning for Long Term Maintenance",
+        paragraph: (
+          <>
+            Even after expert restoration, a brownstone needs consistent care.
+            <br />
+            <br />
+            Maintenance must include:
+            <ul className="list-disc ml-6">
+              <li>Seasonal inspections</li>
+              <li> Quick repairs of cracks and chips</li>
+              <li>Roof and gutter cleaning</li>
+              <li>Waterproofing checks</li>
+              <li>Masonry touch ups</li>
+            </ul>
+            Skipping maintenance leads to faster deterioration, especially in
+            NYC weather.
+          </>
+        ),
+      },
+      {
+        title: "Why This Matters in NYC",
+        paragraph: (
+          <>
+            <p>
+              Historic brownstones across Brooklyn, Manhattan, Queens, and the
+              Bronx are exposed to:
+            </p>
+            <ul className="list-disc ml-6">
+              <li>Heavy traffic vibrations</li>
+              <li>Harsh winters</li>
+              <li>Humidity</li>
+              <li>Pollution</li>
+              <li>Landmark regulations</li>
+            </ul>
+            <p>
+              This makes expert restoration essential. The combination of dense
+              neighborhoods and older architecture means every decision affects
+              the structure long term.
+            </p>
+            <p>
+              If you live in areas like Park Slope, Fort Greene, Harlem, Upper
+              West Side, Astoria, or Mott Haven, restoration must consider local
+              building patterns and neighborhood history.
+            </p>
+            <h2 className="md:text-3xl text-xl mt-8">
+              Quick Answers for Voice Search
+            </h2>{" "}
+            <br />
+            <p>
+              Here are short, direct responses that help your content show up in
+              featured snippets and voice search.
+            </p>
+            <p>
+              1. What is the biggest mistake in brownstone restoration?
+              <br />
+              Using the wrong materials or hiring a contractor without
+              experience in historic masonry.
+            </p>{" "}
+            <br />
+            <p>
+              2. Do I need LPC approval to restore my brownstone?
+              <br />
+              Yes, if your property is in a landmark district. Any exterior work
+              must follow LPC guidelines.
+            </p>
+            <br />
+            <p>
+              3. How long does brownstone restoration last?
+              <br />A high quality restoration can last 20 to 30 years with
+              proper maintenance.
+            </p>
+            <br />
+            <p>
+              4. Is repainting brownstone a good idea?
+              <br />
+              No. Paint damages the surface and traps moisture.
+            </p>
+            <br />
+            <p>
+              5. What should I check before starting restoration?
+              <br />
+              Inspect masonry, structural stability, water damage, and landmark
+              restrictions.
+            </p>
+            <h2 className="md:text-3xl text-xl mt-8">
+              FAQs About Brownstone Restoration in NYC
+            </h2>{" "}
+            <br />
+            <p>
+              1. How do I know if my brownstone needs restoration?
+              <br />
+              Look for cracks, flaking, water stains, discoloration, and
+              crumbling stone. A professional evaluation can confirm the
+              condition.
+            </p>
+            <br />
+            <p>
+              2. How much does a brownstone restoration cost in NYC?
+              <br />
+              Costs vary based on damage, materials, and the size of the
+              building. Historic buildings typically require custom work, which
+              affects pricing.
+            </p>
+            <br />
+            <p>
+              3. Can I repair small cracks myself?
+              <br />
+              DIY repairs often worsen the problem. Use a specialist who
+              understands brownstone material and restoration techniques.
+            </p>
+            <br />
+            <p>
+              4. How long does a full façade restoration take?
+              <br />
+              Most projects take several weeks to a few months depending on the
+              scale of work and weather conditions.
+            </p>
+            <br />
+            <p>
+              5. Can modern materials be used in brownstone restoration?
+              <br />
+              Only if they are compatible. Traditional materials are usually
+              best for maintaining longevity and structural health.
+            </p>
+            <br />
+            <p>
+              6. Why is brownstone restoration more complex in NYC?
+              <br />
+              NYC has landmark laws, older homes, dense neighborhoods, and
+              extreme weather, which all increase the complexity.
+            </p>
+            <br />
+            <p>
+              7. How do I choose the right restoration contractor?
+              <br />
+              Look for companies with proven brownstone projects in NYC, strong
+              reviews, and expertise in landmarks and historical preservation.
+            </p>
+            <h2 className="md:text-3xl text-xl mt-8">
+              Internal Linking Suggestions
+            </h2>
+            <br />
+            <p>Use links on your website to improve navigation and SEO:</p>
+            <ul className="list-disc ml-6">
+              <li>Link to your Brownstone Restoration Services page</li>
+              <li>Link to your Masonry Repair page</li>
+              <li>Link to your Historical Landmark Restoration page</li>
+              <li>Link to your Portfolio or Gallery</li>
+              <li>Link to your Contact Us page</li>
+            </ul>
+            <h2 className="md:text-3xl text-xl mt-8">
+              External Reference Ideas
+            </h2>
+            <br />
+            <p>These trusted resources can enhance authority:</p>
+            <ul className="list-disc ml-6">
+              <li>NYC Landmarks Preservation Commission</li>
+              <li>NYC Department of Buildings</li>
+              <li>National Trust for Historic Preservation</li>
+            </ul>
+            <h2 className="md:text-3xl text-xl mt-8">Conclusion</h2>
+            <br />
+            <p>
+              Restoring a historic brownstone is a meaningful investment in both
+              beauty and heritage. Avoiding common mistakes helps protect your
+              structure, preserve original features, and increase property
+              value. Whether your brownstone is in Brooklyn, Manhattan, Queens,
+              or the Bronx, choosing an experienced restoration team ensures
+              your project is safe, compliant, and built to last.
+            </p>
+            <p>
+              If you want high quality, compliant, and authentic restoration
+              work, Infinity Construction NYC is the trusted choice for
+              homeowners across New York City.
+            </p>
+            <h2 className="md:text-3xl text-xl mt-8">Call to Action</h2>
+            <br />
+            <p>
+              Ready to restore your brownstone the right way?
+              <br />
+              Reach out to Infinity Construction NYC for expert guidance, a
+              detailed inspection, and professional restoration services that
+              protect the history and integrity of your home.
+            </p>
+          </>
+        ),
+      },
+    ],
+    metatitle:
+      "Top Mistakes to Avoid When Restoring a Historic Brownstone in New York City",
+    metadescription:
+      "Learn the biggest mistakes homeowners make when restoring NYC brownstones and how to protect your investment with expert, landmark-approved restoration guidance.",
+  },
   {
     keywords:
       "Brooklyn brownstone restoration, Brownstone renovation NYC, Brownstone repair NYC, Brownstone contractor NYC, Brownstone restoration Brooklyn, Brownstone stoop repair NYC, Brownstone waterproofing NYC, Masonry restoration NYC, Historic brownstone restoration NYC, Brownstone repointing NY",
@@ -39,7 +469,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/img-16.webp",
+    image: "/blog/blog-guide2.png",
     sections: [
       {
         title: "",
@@ -89,7 +519,6 @@ export const BlogsData: Blog[] = [
               <li>Water seepage into the interior</li>
               <li>Damaged stoops and steps</li>
             </ul>
-            <br />
             Because of these unique challenges, you need an experienced
             Brownstone contractor NYC who understands the material, local
             building codes, and Brooklyn’s architectural style.
@@ -120,7 +549,6 @@ export const BlogsData: Blog[] = [
               <li>Prevent future damage</li>
               <li>Keep costs reasonable with proper planning</li>
             </ul>
-            <br />
             Affordable restoration doesn’t sacrifice quality—it comes from
             skilled craftsmanship and the right restoration strategy.
           </>
@@ -154,7 +582,6 @@ export const BlogsData: Blog[] = [
               <li>Restoring ornamental details</li>
               <li>Applying protective brownstone façade coatings</li>
             </ul>
-            <br />A quality façade restoration can extend the life of your
             home’s exterior by decades.
           </>
         ),
@@ -176,7 +603,6 @@ export const BlogsData: Blog[] = [
               <li>Repointing mortar</li>
               <li>Waterproofing under the stoop area</li>
             </ul>
-            <br />
             Hiring specialists in Brownstone stoop repair NYC ensures structural
             safety and aesthetic accuracy.
           </>
@@ -200,7 +626,6 @@ export const BlogsData: Blog[] = [
               <li>Foundation damp proofing</li>
               <li>Roof and wall moisture protection</li>
             </ul>
-            <br />
             Quality Brownstone waterproofing NYC prevents future restoration
             costs.
           </>
@@ -232,7 +657,6 @@ export const BlogsData: Blog[] = [
               <li>Foundation stabilization</li>
               <li>Stone patchwork</li>
             </ul>
-            <br />
             Hiring expert Masonry restoration NYC contractors ensures your home
             remains structurally sound.
           </>
@@ -254,7 +678,6 @@ export const BlogsData: Blog[] = [
               <li>Detailed design requirements</li>
               <li>File preparation and inspection</li>
             </ul>
-            <br />
             Specialists experienced in Landmark building restoration NYC ensure
             your project is compliant and efficient.
           </>
@@ -294,7 +717,6 @@ export const BlogsData: Blog[] = [
               <li>Worn-out stoop steps</li>
               <li>Deteriorating window sills or lintels</li>
             </ul>
-            <br />
             Interior leaks are often a sign of exterior masonry failure.
           </>
         ),
@@ -336,7 +758,6 @@ export const BlogsData: Blog[] = [
               <li>Compliance with NYC regulations</li>
               <li>Preservation of historic elements</li>
             </ul>
-            <br />
             The right contractor saves time, money, and stress.
           </>
         ),
@@ -419,6 +840,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: " Owning a brownstone in Brooklyn is more than just having a place to live—it’s taking care of a piece of New York City’s history.",
   },
   {
     keywords:
@@ -437,7 +860,7 @@ export const BlogsData: Blog[] = [
         </h1>
       </>
     ),
-    image: "/blog/img-14.webp",
+    image: "/blog/blog-historic.png",
     sections: [
       {
         title: "Understanding the Unique Features of New York Brownstones",
@@ -497,7 +920,6 @@ export const BlogsData: Blog[] = [
                 surrounding stone.
               </li>
             </ul>
-            <br />
             <strong>Repairing Damaged Stone</strong>
             <br />
             Stone deterioration can affect both the look and stability of a
@@ -516,7 +938,6 @@ export const BlogsData: Blog[] = [
                 in color, texture, and strength.
               </li>
             </ul>
-            <br />
             Maintaining the original mortar composition is critical to prevent
             further stone damage and to preserve the authenticity of the
             brownstone facade.
@@ -544,7 +965,6 @@ export const BlogsData: Blog[] = [
                 efficiency without altering appearances.
               </li>
             </ul>
-            <br />
             For doors, refinishing the original wood and maintaining decorative
             hardware ensures the entryway retains its historic appeal and charm.
           </>
@@ -572,7 +992,6 @@ export const BlogsData: Blog[] = [
                 water damage.
               </li>
             </ul>
-            <br />A well-maintained roof not only protects interiors but also
             safeguards the building’s overall structural integrity.
           </>
         ),
@@ -600,7 +1019,6 @@ export const BlogsData: Blog[] = [
                 alteration.
               </li>
             </ul>
-            <br />
             Maintaining these interior elements enhances property value and
             ensures the historical narrative of the brownstone is preserved.
           </>
@@ -633,7 +1051,6 @@ export const BlogsData: Blog[] = [
                 without compromising historic appearance.
               </li>
             </ul>
-            <br />A proactive approach reduces the need for major restorations,
             saving time and cost while preserving historic charm.
           </>
         ),
@@ -656,7 +1073,6 @@ export const BlogsData: Blog[] = [
                 Expertise in both structural repairs and aesthetic restoration.
               </li>
             </ul>
-            <br />
             Collaborating with skilled artisans and architects guarantees that
             the brownstone maintains its historic and architectural
             authenticity. For expert brownstone restoration in New York, visit
@@ -687,7 +1103,6 @@ export const BlogsData: Blog[] = [
                 period style.
               </li>
             </ul>
-            <br />
             Sensitive upgrades enhance comfort while respecting the building’s
             historical value.
           </>
@@ -716,13 +1131,14 @@ export const BlogsData: Blog[] = [
                 restoration work.
               </li>
             </ul>
-            <br />
             Adhering to these regulations ensures projects are legally compliant
             and support long-term preservation goals.
           </>
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "New York’s brownstones are iconic symbols of architectural elegance,urban history, and enduring craftsmanship. Maintaining their historic charm requires attention to detail, proper restoration techniques, and knowledge of preservation best practices.",
   },
   {
     keywords:
@@ -921,6 +1337,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Learn how to restore a historic brownstone in Brooklyn without losing its original charm. Tips on preservation, renovation, and working with professionals.",
   },
 
   {
@@ -1061,6 +1479,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in Queens to the historic neighborhoods of the Bronx—brownstones are the heart of New York City’s residential identity.",
   },
   {
     keywords:
@@ -1265,6 +1685,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Brownstones are iconic structures known for their rich history,distinctive architecture, and timeless appeal, especially in areas like Brooklyn, NY. ",
   },
   {
     keywords: "",
@@ -1370,6 +1792,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may appear, these architectural gems demand expert care and renovation to maintain their elegance and structural integrity.",
   },
   {
     keywords: "",
@@ -1499,6 +1923,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "At Infinity Construction NYC INC. we offer top-quality restoration of Brownstone facades and stoops while adhering to New York City Landmarks Preservation Commission guidelines.",
   },
   {
     keywords: "",
@@ -1642,6 +2068,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "There’s something special about a Brooklyn brownstone. These iconic buildings, with their historic facades and charming architectural details, capture the spirit of New York City’s past while remaining highly sought-after by homeowners today.",
   },
   {
     keywords: "",
@@ -1773,6 +2201,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "New York City’s brownstones are iconic symbols of the city’s architectural history. Whether your brownstone is located in Brooklyn, Harlem, or another part of NYC, maintaining its beauty is essential for preserving both its historical and market value.",
   },
   {
     keywords: "",
@@ -1897,6 +2327,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Brownstone buildings, with their rich history and stunning architectural details, hold a special place in urban landscapes, particularly in cities like New York.",
   },
   {
     keywords: "",
@@ -2043,6 +2475,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Two popular options stand out for keeping your home cool: mini-split systems and central air conditioning. Each has advantages and considerations, making the choice dependent on factors such as home size, budget, and individual preferences.",
   },
   {
     keywords: "",
@@ -2265,6 +2699,8 @@ export const BlogsData: Blog[] = [
         paragraph: <></>,
       },
     ],
+    metatitle: "",
+    metadescription: "Hand scraping a floor is a traditional method of finishing wood floors that adds character and a unique, rustic look to your space.  This technique involves manually scraping the wood surface to reveal its natural grain patterns while removing imperfections and leveling the floor.",
   },
   {
     keywords: "",
@@ -2434,6 +2870,8 @@ export const BlogsData: Blog[] = [
         paragraph: <></>,
       },
     ],
+    metatitle: "",
+    metadescription: "Repairing crumbling bricks is a task that can help restore the structural integrity and appearance of a building. Crumbling bricks are typically the result of weathering, moisture damage, or age-related wear and tear.",
   },
   {
     keywords: "",
@@ -2752,6 +3190,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Veneer masonry construction is a method of building walls or structures using thin layers of masonry materials, known as veneers, that are applied to a structural backing or substrate. The purpose of the veneer is primarily aesthetic, providing the appearance of a solid masonry wall while reducing the cost and weight of the overall structure.",
   },
   {
     keywords: "",
@@ -2998,6 +3438,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: " In the world of construction and building maintenance, waterproof caulking and restoration stand as vital practices that not only preserve the structural integrity of buildings but also enhance their aesthetic      appeal.",
   },
   {
     keywords: "",
@@ -3352,6 +3794,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Composite masonry is an innovative construction technique that combines different types of building materials to create structures that harness the strengths of each component. ",
   },
   {
     keywords: "",
@@ -3657,6 +4101,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Stone masonry is a traditional construction technique that involves using stones as the primary building material. It is one of the oldest and most enduring forms of construction, dating back thousands of years.",
   },
   {
     keywords: "",
@@ -3843,6 +4289,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Leaded windows are not only beautiful architectural features but also valuable pieces of art and craftsmanship. Found in historic buildings,churches, and even modern homes, these windows require regular maintenance and occasional repairs to preserve their beauty and functionality.",
   },
   {
     keywords: "",
@@ -4220,6 +4668,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Masonry work is a centuries-old construction method that involves the use of bricks, stones, concrete blocks, or other masonry units to create durable and aesthetically appealing structures. ",
   },
   {
     keywords: "",
@@ -4506,6 +4956,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: " Brownstone stoops are a classic feature of many historic buildings in urban areas, particularly in New York City. While these stoops can provide an attractive and functional entryway to a building, they are        also subject to wear and tear over time, and may require repairs to ensure their structural integrity and appearance.",
   },
   {
     keywords: "",
@@ -4911,6 +5363,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Brownstone houses are a type of row house made from a type of sandstone, known as brownstone, that is commonly found in the northeastern United States.",
   },
   {
     keywords: "",
@@ -5160,6 +5614,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Concrete mix design is the process of determining the proportions of cement, water, fine and coarse aggregates, and sometimes admixtures that will produce a concrete with the desired properties for a particular     application.",
   },
   {
     keywords: "",
@@ -5585,6 +6041,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Masonry work is a fundamental part of construction, and it involves  building structures using individual units such as bricks, blocks, and stones. Masonry work is essential in the construction of buildings,      walls, sidewalks, and many other structures. ",
   },
   {
     keywords: "",
@@ -5740,6 +6198,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Fire escapes are a crucial element in the safety of buildings, especially in urban areas with high-rise buildings. They serve as emergency exits and provide a means of escape for occupants in case of a fire or other emergency situations.",
   },
   {
     keywords: "",
@@ -5893,7 +6353,6 @@ export const BlogsData: Blog[] = [
               <li>Can be more expensive than DIY</li>
               <li>May take longer to complete the repair</li>
             </ul>
-            <br /> <br />
             Ultimately, it&apos;s up to you to decide whether to tackle the roof
             repair yourself or to hire a professional. However, it&apos;s
             important to consider the potential risks and benefits of each
@@ -5955,6 +6414,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "A roof is one of the most important components of a house, protecting it from the elements. However, even the best roofs can sustain damage over time due to exposure to the elements or wear and tear. ",
   },
   {
     keywords: "",
@@ -6133,6 +6594,8 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: " Brick pointing, also known as repointing, is a process of replacing or repairing the mortar joints between bricks or stone masonry. The mortar between the bricks is what holds them together and gives them their       strength. ",
   },
   {
     keywords: "",
@@ -6255,5 +6718,7 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
+    metatitle: "",
+    metadescription: "Brownstone facades are iconic features of many historic buildings in  cities across the United States. <br /> However, over time, these facades can become worn, damaged, or otherwise deteriorated, leading to       a decline in the overall appearance and value of the building.",
   },
 ];
