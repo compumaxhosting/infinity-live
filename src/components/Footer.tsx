@@ -195,6 +195,7 @@ const Footer = () => {
                 { name: "Services", path: "/services" },
                 { name: "Blog", path: "/blog" },
                 { name: "Contact", path: "/contact" },
+                { name: "Sitemap", path: "/site-map" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
