@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-// Geist Sans 
+// Geist Sans
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
@@ -13,7 +13,7 @@ export const metadata = {
     title: "Infinity Construction NYC – Full Sitemap & Services",
     description:
       "Discover the full sitemap of Infinity Construction NYC — access all pages covering brownstone restoration, masonry, roofing, waterproofing, and contact info.",
-    url: "https://www.infinityconstructionnyc.com/about",
+    url: "https://www.infinityconstructionnyc.com/site-map",
     images: [
       {
         url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
@@ -66,9 +66,10 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
       {/* No extra content like Header or Footer here */}
       {children} {/* Only the content from the About page will be rendered */}
       <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
-    </>
-  );
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+         
+    </>
+  );
 }
