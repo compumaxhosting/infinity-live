@@ -1,5 +1,18 @@
 export const blogData = [
   {
+    id: 0,
+    author: "Imrul Hassan",
+    slug: "nyc-brownstone-issues-and-repairs  ",
+    date: "Dec 12, 2025",
+    readTime: "10 min read",
+    title: "What Are the Common Problems with Brownstones in NYC?",
+    contentPreview: `Brownstones are iconic historic homes in NYC, but they often face issues like facade deterioration, water damage, structural cracks, outdated systems, and roof or cornice decay...`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/blog-problem.jpeg",
+  },
+  {
     id: 1,
     author: "Imrul Hassan",
     slug: "top-mistakes-to-avoid-when-restoring",

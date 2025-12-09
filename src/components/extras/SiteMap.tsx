@@ -46,7 +46,10 @@ const SiteMap = () => {
     { name: "Gallery", url: "https://www.infinityconstructionnyc.com/gallery" },
     { name: "Blog Home", url: "https://www.infinityconstructionnyc.com/blog" },
     { name: "FAQs", url: "https://www.infinityconstructionnyc.com/faq" },
-    { name: "Contact Us", url: "https://www.infinityconstructionnyc.com/contact" },
+    {
+      name: "Contact Us",
+      url: "https://www.infinityconstructionnyc.com/contact",
+    },
 
     // Blog Posts
     {
@@ -145,6 +148,10 @@ const SiteMap = () => {
       name: "Blog - How to Restore Brownstone Facade",
       url: "https://www.infinityconstructionnyc.com/blog/how-to-restore-brownstone-facade",
     },
+    {
+      name: "Blog - Common Problems with Brownstones in NYC",
+      url: "https://www.infinityconstructionnyc.com/blog/nyc-brownstone-issues-and-repairs",
+    },
 
     // Additional page
     {
@@ -154,7 +161,7 @@ const SiteMap = () => {
   ];
 
   return (
-    <div className="max-w-[900px] mx-auto px-6 py-8">
+    <div className="max-w-[900px] mx-auto px-6 pt-32 md:pt-12 pb-16">
       <h1 className="text-3xl md:text-4xl font-semibold mb-6 text-black">
         Sitemap
       </h1>

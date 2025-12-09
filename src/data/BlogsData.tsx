@@ -21,6 +21,151 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone problems NYC, brownstone repair NYC, NYC facade damage, brownstone restoration Brooklyn, water leaks brownstone, structural cracks NYC, brownstone maintenance, NYC home restoration, brownstone facade repair, Infinity Construction NYC",
+    title: "",
+    slug: "nyc-brownstone-issues-and-repairs",
+    description: (
+      <>
+        <h1 className="mt-4 text-2xl md:text-4xl">
+          What Are the Common Problems with Brownstones in NYC?
+        </h1>
+        <br />
+        <p>
+          Brownstones are some of the most iconic and historic homes in
+          Brooklyn, Manhattan, Queens, and The Bronx. While they offer classic
+          charm and timeless architecture, many homeowners face common
+          structural and maintenance issues. Understanding these problems helps
+          you protect your home and know when to seek professional help. For
+          expert services, you can visit{" "}
+          <Link href="/" className="text-blue-500">
+            Infinity Construction NYC
+          </Link>{" "}
+          or their dedicated{" "}
+          <Link href="/brownstone-restoration" className="text-blue-500">
+            Brownstone Restoration
+          </Link>{" "}
+          page.
+          <br />
+          
+        </p>
+      </>
+    ),
+    image: "/blog/blog-problem.jpeg",
+    sections: [
+      {
+        title: "Deteriorating Brownstone Facades",
+        paragraph: (
+          <>
+            The most common issue is facade deterioration. Over time, weather
+            changes, moisture, and pollution cause the stone to crack, flake, or
+            crumble. This is especially common in older properties in Brooklyn
+            and Manhattan.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Water Damage and Leaks",
+        paragraph: (
+          <>
+            NYC brownstones often develop water infiltration problems. Poor
+            drainage, aging roofs, or damaged flashing allow water to seep into
+            walls. Homes in Queens and The Bronx frequently face basement leaks
+            due to older waterproofing systems.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Structural Cracks",
+        paragraph: (
+          <>
+            Foundation settling can cause cracks in interior walls, exterior
+            walls, and stairways. These cracks can worsen quickly if not
+            repaired by a brownstone specialist.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Outdated Electrical and Plumbing Systems",
+        paragraph: (
+          <>
+            Many brownstones are more than 100 years old. Their electrical
+            wiring and plumbing systems often require upgrades to meet modern
+            safety standards.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Window and Door Frame Decay",
+        paragraph: (
+          <>
+            Wooden frames around windows and doors can rot due to moisture
+            exposure. This reduces energy efficiency and can lead to heat loss
+            during NYC winters.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Roof and Cornice Damage",
+        paragraph: (
+          <>
+            Flat roofs and decorative cornices on brownstones commonly
+            experience wear, leaks, and rust, especially in older Brooklyn and
+            Upper Manhattan buildings.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            Brownstones are beautiful but require regular maintenance. If you
+            notice cracks, water damage, or facade issues, professional
+            restoration is essential. Visit{" "}
+            <Link href="/" className="text-blue-500">
+              Infinity Construction NYC
+            </Link>{" "}
+            for trusted brownstone repair and
+            <Link href="/brownstone-restoration" className="text-blue-500">
+              brownstone restoration services
+            </Link>
+            across all NYC boroughs.
+            <br />
+            
+            <ul className="list-disc ml-6"></ul>
+          </>
+        ),
+      },
+    ],
+    metatitle: "Common Brownstone Problems in NYC & How to Fix Them",
+    metadescription:
+      "Discover the most common brownstone problems in NYC, including facade damage, leaks, and structural issues. Learn when to seek expert restoration services.",
+  },
+  {
+    keywords:
       "NYC brownstone restoration, brownstone repair NYC, historic brownstone mistakes, landmark restoration NYC, brownstone contractors NYC, façade repair NYC, brownstone renovation tips, brownstone preservation NYC, Brooklyn brownstone experts, Manhattan brownstone restoration",
     title: "",
     slug: "top-mistakes-to-avoid-when-restoring",
@@ -841,7 +986,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: " Owning a brownstone in Brooklyn is more than just having a place to live—it’s taking care of a piece of New York City’s history.",
+    metadescription:
+      " Owning a brownstone in Brooklyn is more than just having a place to live—it’s taking care of a piece of New York City’s history.",
   },
   {
     keywords:
@@ -1138,7 +1284,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "New York’s brownstones are iconic symbols of architectural elegance,urban history, and enduring craftsmanship. Maintaining their historic charm requires attention to detail, proper restoration techniques, and knowledge of preservation best practices.",
+    metadescription:
+      "New York’s brownstones are iconic symbols of architectural elegance,urban history, and enduring craftsmanship. Maintaining their historic charm requires attention to detail, proper restoration techniques, and knowledge of preservation best practices.",
   },
   {
     keywords:
@@ -1338,7 +1485,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Learn how to restore a historic brownstone in Brooklyn without losing its original charm. Tips on preservation, renovation, and working with professionals.",
+    metadescription:
+      "Learn how to restore a historic brownstone in Brooklyn without losing its original charm. Tips on preservation, renovation, and working with professionals.",
   },
 
   {
@@ -1480,7 +1628,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in Queens to the historic neighborhoods of the Bronx—brownstones are the heart of New York City’s residential identity.",
+    metadescription:
+      "From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in Queens to the historic neighborhoods of the Bronx—brownstones are the heart of New York City’s residential identity.",
   },
   {
     keywords:
@@ -1686,7 +1835,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Brownstones are iconic structures known for their rich history,distinctive architecture, and timeless appeal, especially in areas like Brooklyn, NY. ",
+    metadescription:
+      "Brownstones are iconic structures known for their rich history,distinctive architecture, and timeless appeal, especially in areas like Brooklyn, NY. ",
   },
   {
     keywords: "",
@@ -1793,7 +1943,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may appear, these architectural gems demand expert care and renovation to maintain their elegance and structural integrity.",
+    metadescription:
+      "Brooklyn’s iconic brownstones are more than just beautiful buildings—they’re a piece of New York history. As timeless as they may appear, these architectural gems demand expert care and renovation to maintain their elegance and structural integrity.",
   },
   {
     keywords: "",
@@ -1924,7 +2075,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "At Infinity Construction NYC INC. we offer top-quality restoration of Brownstone facades and stoops while adhering to New York City Landmarks Preservation Commission guidelines.",
+    metadescription:
+      "At Infinity Construction NYC INC. we offer top-quality restoration of Brownstone facades and stoops while adhering to New York City Landmarks Preservation Commission guidelines.",
   },
   {
     keywords: "",
@@ -2069,7 +2221,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "There’s something special about a Brooklyn brownstone. These iconic buildings, with their historic facades and charming architectural details, capture the spirit of New York City’s past while remaining highly sought-after by homeowners today.",
+    metadescription:
+      "There’s something special about a Brooklyn brownstone. These iconic buildings, with their historic facades and charming architectural details, capture the spirit of New York City’s past while remaining highly sought-after by homeowners today.",
   },
   {
     keywords: "",
@@ -2202,7 +2355,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "New York City’s brownstones are iconic symbols of the city’s architectural history. Whether your brownstone is located in Brooklyn, Harlem, or another part of NYC, maintaining its beauty is essential for preserving both its historical and market value.",
+    metadescription:
+      "New York City’s brownstones are iconic symbols of the city’s architectural history. Whether your brownstone is located in Brooklyn, Harlem, or another part of NYC, maintaining its beauty is essential for preserving both its historical and market value.",
   },
   {
     keywords: "",
@@ -2328,7 +2482,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Brownstone buildings, with their rich history and stunning architectural details, hold a special place in urban landscapes, particularly in cities like New York.",
+    metadescription:
+      "Brownstone buildings, with their rich history and stunning architectural details, hold a special place in urban landscapes, particularly in cities like New York.",
   },
   {
     keywords: "",
@@ -2476,7 +2631,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Two popular options stand out for keeping your home cool: mini-split systems and central air conditioning. Each has advantages and considerations, making the choice dependent on factors such as home size, budget, and individual preferences.",
+    metadescription:
+      "Two popular options stand out for keeping your home cool: mini-split systems and central air conditioning. Each has advantages and considerations, making the choice dependent on factors such as home size, budget, and individual preferences.",
   },
   {
     keywords: "",
@@ -2700,7 +2856,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Hand scraping a floor is a traditional method of finishing wood floors that adds character and a unique, rustic look to your space.  This technique involves manually scraping the wood surface to reveal its natural grain patterns while removing imperfections and leveling the floor.",
+    metadescription:
+      "Hand scraping a floor is a traditional method of finishing wood floors that adds character and a unique, rustic look to your space.  This technique involves manually scraping the wood surface to reveal its natural grain patterns while removing imperfections and leveling the floor.",
   },
   {
     keywords: "",
@@ -2871,7 +3028,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Repairing crumbling bricks is a task that can help restore the structural integrity and appearance of a building. Crumbling bricks are typically the result of weathering, moisture damage, or age-related wear and tear.",
+    metadescription:
+      "Repairing crumbling bricks is a task that can help restore the structural integrity and appearance of a building. Crumbling bricks are typically the result of weathering, moisture damage, or age-related wear and tear.",
   },
   {
     keywords: "",
@@ -3191,7 +3349,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Veneer masonry construction is a method of building walls or structures using thin layers of masonry materials, known as veneers, that are applied to a structural backing or substrate. The purpose of the veneer is primarily aesthetic, providing the appearance of a solid masonry wall while reducing the cost and weight of the overall structure.",
+    metadescription:
+      "Veneer masonry construction is a method of building walls or structures using thin layers of masonry materials, known as veneers, that are applied to a structural backing or substrate. The purpose of the veneer is primarily aesthetic, providing the appearance of a solid masonry wall while reducing the cost and weight of the overall structure.",
   },
   {
     keywords: "",
@@ -3439,7 +3598,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: " In the world of construction and building maintenance, waterproof caulking and restoration stand as vital practices that not only preserve the structural integrity of buildings but also enhance their aesthetic      appeal.",
+    metadescription:
+      " In the world of construction and building maintenance, waterproof caulking and restoration stand as vital practices that not only preserve the structural integrity of buildings but also enhance their aesthetic      appeal.",
   },
   {
     keywords: "",
@@ -3795,7 +3955,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Composite masonry is an innovative construction technique that combines different types of building materials to create structures that harness the strengths of each component. ",
+    metadescription:
+      "Composite masonry is an innovative construction technique that combines different types of building materials to create structures that harness the strengths of each component. ",
   },
   {
     keywords: "",
@@ -4102,7 +4263,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Stone masonry is a traditional construction technique that involves using stones as the primary building material. It is one of the oldest and most enduring forms of construction, dating back thousands of years.",
+    metadescription:
+      "Stone masonry is a traditional construction technique that involves using stones as the primary building material. It is one of the oldest and most enduring forms of construction, dating back thousands of years.",
   },
   {
     keywords: "",
@@ -4290,7 +4452,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Leaded windows are not only beautiful architectural features but also valuable pieces of art and craftsmanship. Found in historic buildings,churches, and even modern homes, these windows require regular maintenance and occasional repairs to preserve their beauty and functionality.",
+    metadescription:
+      "Leaded windows are not only beautiful architectural features but also valuable pieces of art and craftsmanship. Found in historic buildings,churches, and even modern homes, these windows require regular maintenance and occasional repairs to preserve their beauty and functionality.",
   },
   {
     keywords: "",
@@ -4669,7 +4832,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Masonry work is a centuries-old construction method that involves the use of bricks, stones, concrete blocks, or other masonry units to create durable and aesthetically appealing structures. ",
+    metadescription:
+      "Masonry work is a centuries-old construction method that involves the use of bricks, stones, concrete blocks, or other masonry units to create durable and aesthetically appealing structures. ",
   },
   {
     keywords: "",
@@ -4957,7 +5121,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: " Brownstone stoops are a classic feature of many historic buildings in urban areas, particularly in New York City. While these stoops can provide an attractive and functional entryway to a building, they are        also subject to wear and tear over time, and may require repairs to ensure their structural integrity and appearance.",
+    metadescription:
+      " Brownstone stoops are a classic feature of many historic buildings in urban areas, particularly in New York City. While these stoops can provide an attractive and functional entryway to a building, they are        also subject to wear and tear over time, and may require repairs to ensure their structural integrity and appearance.",
   },
   {
     keywords: "",
@@ -5364,7 +5529,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Brownstone houses are a type of row house made from a type of sandstone, known as brownstone, that is commonly found in the northeastern United States.",
+    metadescription:
+      "Brownstone houses are a type of row house made from a type of sandstone, known as brownstone, that is commonly found in the northeastern United States.",
   },
   {
     keywords: "",
@@ -5615,7 +5781,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Concrete mix design is the process of determining the proportions of cement, water, fine and coarse aggregates, and sometimes admixtures that will produce a concrete with the desired properties for a particular     application.",
+    metadescription:
+      "Concrete mix design is the process of determining the proportions of cement, water, fine and coarse aggregates, and sometimes admixtures that will produce a concrete with the desired properties for a particular     application.",
   },
   {
     keywords: "",
@@ -6042,7 +6209,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Masonry work is a fundamental part of construction, and it involves  building structures using individual units such as bricks, blocks, and stones. Masonry work is essential in the construction of buildings,      walls, sidewalks, and many other structures. ",
+    metadescription:
+      "Masonry work is a fundamental part of construction, and it involves  building structures using individual units such as bricks, blocks, and stones. Masonry work is essential in the construction of buildings,      walls, sidewalks, and many other structures. ",
   },
   {
     keywords: "",
@@ -6199,7 +6367,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Fire escapes are a crucial element in the safety of buildings, especially in urban areas with high-rise buildings. They serve as emergency exits and provide a means of escape for occupants in case of a fire or other emergency situations.",
+    metadescription:
+      "Fire escapes are a crucial element in the safety of buildings, especially in urban areas with high-rise buildings. They serve as emergency exits and provide a means of escape for occupants in case of a fire or other emergency situations.",
   },
   {
     keywords: "",
@@ -6415,7 +6584,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "A roof is one of the most important components of a house, protecting it from the elements. However, even the best roofs can sustain damage over time due to exposure to the elements or wear and tear. ",
+    metadescription:
+      "A roof is one of the most important components of a house, protecting it from the elements. However, even the best roofs can sustain damage over time due to exposure to the elements or wear and tear. ",
   },
   {
     keywords: "",
@@ -6595,7 +6765,8 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: " Brick pointing, also known as repointing, is a process of replacing or repairing the mortar joints between bricks or stone masonry. The mortar between the bricks is what holds them together and gives them their       strength. ",
+    metadescription:
+      " Brick pointing, also known as repointing, is a process of replacing or repairing the mortar joints between bricks or stone masonry. The mortar between the bricks is what holds them together and gives them their       strength. ",
   },
   {
     keywords: "",
@@ -6719,6 +6890,7 @@ export const BlogsData: Blog[] = [
       },
     ],
     metatitle: "",
-    metadescription: "Brownstone facades are iconic features of many historic buildings in  cities across the United States. <br /> However, over time, these facades can become worn, damaged, or otherwise deteriorated, leading to       a decline in the overall appearance and value of the building.",
+    metadescription:
+      "Brownstone facades are iconic features of many historic buildings in  cities across the United States. <br /> However, over time, these facades can become worn, damaged, or otherwise deteriorated, leading to       a decline in the overall appearance and value of the building.",
   },
 ];
