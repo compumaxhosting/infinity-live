@@ -21,6 +21,133 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone facade restoration NYC, historic brownstone restoration NYC, brownstone masonry repair NYC, best brownstone restoration contractor NYC, Brooklyn brownstone facade repair, Manhattan brownstone restoration services, Queens brownstone facade contractors, The Bronx brownstone facade restoration, brownstone exterior restoration near me NYC, affordable brownstone facade contractor NYC",
+    title:
+      "Brownstone Facade Restoration in NYC: Reviving Historic Buildings the Right Way",
+    slug: "nyc-brownstone-facade-repair",
+    description: (
+      <>
+        New York City’s brownstones are architectural treasures, especially in
+        neighborhoods across Brooklyn, Manhattan, Queens, and The Bronx.{" "}
+        <Link href="/brownstone-restoration" className="text-blue-500">
+          Brownstone Facade Restoration in NYC
+        </Link>{" "}
+        is essential to preserve these historic buildings from weather exposure,
+        pollution, and natural aging. When handled by experienced professionals,
+        restoration strengthens the structure while maintaining its original
+        charm.
+      </>
+    ),
+    image: "/blog/blog-brownstone.jpg",
+    sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            In areas like Park Slope and Harlem, aging stone and deteriorating
+            mortar are common issues. Expert teams specializing in historic
+            brownstone restoration NYC carefully repair damaged stone, repoint
+            joints, and restore façades using traditional methods. This ensures
+            the building remains safe, visually appealing, and compliant with
+            NYC building regulations.
+          </>
+        ),
+      },
+      {
+        title: "Why Brownstone Facade Restoration in NYC Is a Smart Investment",
+        paragraph: (
+          <>
+            Timely brownstone masonry repair NYC prevents moisture intrusion,
+            cracking, and long-term structural damage. Professional restoration
+            also improves energy efficiency and enhances curb appeal—both
+            critical in competitive real estate markets. Property owners who
+            work with the best brownstone restoration contractor NYC benefit
+            from precise craftsmanship and long-lasting results. <br />
+            Each borough presents unique architectural styles and requirements.
+            Brooklyn townhouses, Manhattan row homes, Queens’s brownstones, and
+            Bronx historic properties all need customized restoration solutions.
+            Trusted specialists like those at www.infinityconstructionnyc.com/
+            understand local materials, landmark guidelines, and restoration
+            best practices.
+            <br />
+            Investing in professional brownstone restoration not only protects
+            your property but also preserves New York City’s historic
+            streetscapes for future generations. A well-restored façade is more
+            than an upgrade—it’s a commitment to history, safety, and lasting
+            value.
+          </>
+        ),
+      },
+      {
+        title: "Common Restoration Needs",
+        paragraph: (
+          <>
+            In areas like Park Slope and Harlem, aging stone and deteriorating
+            mortar are common issues. Expert teams specializing in historic
+            brownstone restoration NYC carefully repair damaged stone, repoint
+            joints, and restore façades using traditional methods. This ensures
+            the building remains safe, visually appealing, and compliant with
+            NYC building regulations.
+          </>
+        ),
+      },
+      {
+        title: "Why Restoration is a Smart Investment",
+        paragraph: (
+          <>
+            Timely brownstone masonry repair NYC prevents moisture intrusion,
+            cracking, and long-term structural damage. Professional restoration
+            also improves energy efficiency and enhances curb appeal—both
+            critical in competitive real estate markets. Property owners who
+            work with the best brownstone restoration contractor NYC benefit
+            from precise craftsmanship and long-lasting results.
+          </>
+        ),
+      },
+      {
+        title: "Tailored Solutions for Every Borough",
+        paragraph: (
+          <>
+            Each borough presents unique architectural styles and requirements.
+            Brooklyn townhouses, Manhattan row homes, Queens’s brownstones, and
+            Bronx historic properties all need customized restoration solutions.
+            Trusted specialists like those at{" "}
+            <Link href="/" className="text-blue-500">
+              {" "}
+              www.infinityconstructionnyc.com
+            </Link>
+            understand local materials, landmark guidelines, and restoration
+            best practices.
+          </>
+        ),
+      },
+      {
+        title: "Protecting Property and History",
+        paragraph: (
+          <>
+            Investing in professional brownstone restoration not only protects
+            your property but also preserves New York City’s historic
+            streetscapes for future generations. A well-restored façade is more
+            than an upgrade—it’s a commitment to history, safety, and lasting
+            value.
+          </>
+        ),
+      },
+      {
+        title: "",
+        paragraph: <></>,
+      },
+      {
+        title: "",
+        paragraph: <></>,
+      },
+    ],
+    metatitle: "Brownstone Facade Restoration in NYC | Historic Experts",
+    metadescription:
+      "Expert brownstone facade restoration in NYC serving Brooklyn, Manhattan, Queens, and the Bronx. Preserve historic buildings with trusted masonry specialists.",
+  },
+  {
+    keywords:
       "brownstone problems NYC, brownstone repair NYC, NYC facade damage, brownstone restoration Brooklyn, water leaks brownstone, structural cracks NYC, brownstone maintenance, NYC home restoration, brownstone facade repair, Infinity Construction NYC",
     title: "",
     slug: "nyc-brownstone-issues-and-repairs",
@@ -46,7 +173,6 @@ export const BlogsData: Blog[] = [
           </Link>{" "}
           page.
           <br />
-          
         </p>
       </>
     ),
@@ -61,7 +187,6 @@ export const BlogsData: Blog[] = [
             crumble. This is especially common in older properties in Brooklyn
             and Manhattan.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -76,7 +201,6 @@ export const BlogsData: Blog[] = [
             walls. Homes in Queens and The Bronx frequently face basement leaks
             due to older waterproofing systems.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -90,7 +214,6 @@ export const BlogsData: Blog[] = [
             walls, and stairways. These cracks can worsen quickly if not
             repaired by a brownstone specialist.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -104,7 +227,6 @@ export const BlogsData: Blog[] = [
             wiring and plumbing systems often require upgrades to meet modern
             safety standards.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -118,7 +240,6 @@ export const BlogsData: Blog[] = [
             exposure. This reduces energy efficiency and can lead to heat loss
             during NYC winters.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -132,7 +253,6 @@ export const BlogsData: Blog[] = [
             experience wear, leaks, and rust, especially in older Brooklyn and
             Upper Manhattan buildings.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),
@@ -154,7 +274,6 @@ export const BlogsData: Blog[] = [
             </Link>
             across all NYC boroughs.
             <br />
-            
             <ul className="list-disc ml-6"></ul>
           </>
         ),

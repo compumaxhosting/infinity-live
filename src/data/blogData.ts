@@ -1,5 +1,19 @@
 export const blogData = [
   {
+    id: -1,
+    author: "Imrul Hassan",
+    slug: "nyc-brownstone-facade-repair",
+    date: "Dec 12, 2025",
+    readTime: "10 min read",
+    title:
+      "Brownstone Facade Restoration in NYC: Reviving Historic Buildings the Right Way",
+    contentPreview: `New York City’s brownstones are architectural treasures, especially in neighborhoods...`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/blog-brownstone.jpg",
+  },
+  {
     id: 0,
     author: "Imrul Hassan",
     slug: "nyc-brownstone-issues-and-repairs  ",

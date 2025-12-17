@@ -152,6 +152,10 @@ const SiteMap = () => {
       name: "Blog - Common Problems with Brownstones in NYC",
       url: "https://www.infinityconstructionnyc.com/blog/nyc-brownstone-issues-and-repairs",
     },
+    {
+      name: "Blog - Brownstone Facade Restoration in NYC",
+      url: "https://www.infinityconstructionnyc.com/blog/nyc-brownstone-facade-repair",
+    },
 
     // Additional page
     {

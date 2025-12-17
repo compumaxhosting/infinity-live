@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Brownstone Facade Restoration in NYC :Reviving Historic Buildings the Right Way",
+      path: "/blog/nyc-brownstone-facade-repair",
+    },
+    {
       name: "Top Mistakes to Avoid When Restoring a Historic Brownstone in New York City",
       path: "/blog/top-mistakes-to-avoid-when-restoring",
     },
