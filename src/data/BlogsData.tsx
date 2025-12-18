@@ -62,14 +62,17 @@ export const BlogsData: Blog[] = [
             also improves energy efficiency and enhances curb appeal—both
             critical in competitive real estate markets. Property owners who
             work with the best brownstone restoration contractor NYC benefit
-            from precise craftsmanship and long-lasting results. <br />
-            Each borough presents unique architectural styles and requirements.
-            Brooklyn townhouses, Manhattan row homes, Queens’s brownstones, and
-            Bronx historic properties all need customized restoration solutions.
-            Trusted specialists like those at www.infinityconstructionnyc.com/
-            understand local materials, landmark guidelines, and restoration
-            best practices.
+            from precise craftsmanship and long-lasting results.
             <br />
+            Each borough presents unique architectural styles and requirements.
+            Brooklyn townhouses, Manhattan row homes, Queens brownstones, and
+            Bronx historic properties all need customized restoration solutions.
+            Trusted specialists like{" "}
+            <Link href="/" className="text-blue-500">
+              Infinity Construction NYC
+            </Link>{" "}
+            understand local materials, landmark guidelines, and restoration
+            best practices. <br />
             Investing in professional brownstone restoration not only protects
             your property but also preserves New York City’s historic
             streetscapes for future generations. A well-restored façade is more
@@ -111,13 +114,9 @@ export const BlogsData: Blog[] = [
             Each borough presents unique architectural styles and requirements.
             Brooklyn townhouses, Manhattan row homes, Queens’s brownstones, and
             Bronx historic properties all need customized restoration solutions.
-            Trusted specialists like those at{" "}
-            <Link href="/" className="text-blue-500">
-              {" "}
-              www.infinityconstructionnyc.com
-            </Link>
-            understand local materials, landmark guidelines, and restoration
-            best practices.
+            Trusted specialists like those at
+            www.infinityconstructionnyc.comunderstand local materials, landmark
+            guidelines, and restoration best practices.
           </>
         ),
       },
@@ -132,14 +131,6 @@ export const BlogsData: Blog[] = [
             value.
           </>
         ),
-      },
-      {
-        title: "",
-        paragraph: <></>,
-      },
-      {
-        title: "",
-        paragraph: <></>,
       },
     ],
     metatitle: "Brownstone Facade Restoration in NYC | Historic Experts",
