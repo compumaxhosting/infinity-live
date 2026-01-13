@@ -1,5 +1,20 @@
 export const blogData = [
   {
+  id: -2,
+  author: "Imrul Hassan",
+  slug: "brownstone-stoop-restoration-project-guide",
+  date: "Jan 13, 2026",
+  readTime: "10 min read",
+  title:
+    "What to Expect During a Brownstone Stoop Restoration Project in NYC",
+  contentPreview: `Brownstone stoops are iconic features of historic homes across Brooklyn, Manhattan, and Queens. Over time...`,
+  views: 0,
+  comments: 0,
+  liked: false,
+  image: "/blog/blog-project-guide.png",
+}
+,
+  {
     id: -1,
     author: "Imrul Hassan",
     slug: "nyc-brownstone-facade-repair",

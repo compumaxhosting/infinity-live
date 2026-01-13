@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "What to Expect During a Brownstone Stoop Restoration Project in NYC",
+      path: "/blog/brownstone-stoop-restoration-project-guide",
+    },
+    {
       name: "Brownstone Facade Restoration in NYC :Reviving Historic Buildings the Right Way",
       path: "/blog/nyc-brownstone-facade-repair",
     },

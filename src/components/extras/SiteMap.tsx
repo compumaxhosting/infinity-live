@@ -5,162 +5,166 @@ import { FaLink } from "react-icons/fa";
 
 const SiteMap = () => {
   const links = [
-    { name: "Home", url: "https://www.infinityconstructionnyc.com/" },
-    { name: "About Us", url: "https://www.infinityconstructionnyc.com/about" },
+    { name: "Home", url: "/" },
+    { name: "About Us", url: "/about" },
     {
       name: "Historical Landmark Restoration",
-      url: "https://www.infinityconstructionnyc.com/historical-landmark",
+      url: "/historical-landmark",
     },
     {
       name: "Stucco Services",
-      url: "https://www.infinityconstructionnyc.com/stucco",
+      url: "/stucco",
     },
     {
       name: "Brick & CMU Block Layering",
-      url: "https://www.infinityconstructionnyc.com/brownstone-facade-restoration",
+      url: "/brownstone-facade-restoration",
     },
     {
       name: "Roof Restoration & Weatherproofing",
-      url: "https://www.infinityconstructionnyc.com/roof-restoration-and-weatherproofing",
+      url: "/roof-restoration-and-weatherproofing",
     },
     {
       name: "Brick Pointing",
-      url: "https://www.infinityconstructionnyc.com/brick-pointing",
+      url: "/brick-pointing",
     },
     {
       name: "Fire Escape Restoration",
-      url: "https://www.infinityconstructionnyc.com/fire-escape-restoration",
+      url: "/fire-escape-restoration",
     },
     {
       name: "Concrete, Stone, and Brick Paving",
-      url: "https://www.infinityconstructionnyc.com/paving",
+      url: "/paving",
     },
     {
       name: "Painting & Masonry",
-      url: "https://www.infinityconstructionnyc.com/painting-and-masonry",
+      url: "/painting-and-masonry",
     },
     {
       name: "Projects",
-      url: "https://www.infinityconstructionnyc.com/projects",
+      url: "/projects",
     },
-    { name: "Gallery", url: "https://www.infinityconstructionnyc.com/gallery" },
-    { name: "Blog Home", url: "https://www.infinityconstructionnyc.com/blog" },
-    { name: "FAQs", url: "https://www.infinityconstructionnyc.com/faq" },
+    { name: "Gallery", url: "/gallery" },
+    { name: "Blog Home", url: "/blog" },
+    { name: "FAQs", url: "/faq" },
     {
       name: "Contact Us",
-      url: "https://www.infinityconstructionnyc.com/contact",
+      url: "/contact",
     },
 
     // Blog Posts
     {
       name: "Blog - Brownstone Repair NYC",
-      url: "https://www.infinityconstructionnyc.com/blog/brownstone-repair-nyc",
+      url: "/blog/brownstone-repair-nyc",
     },
     {
       name: "Blog - Signs Your Brownstone Needs Immediate Repair",
-      url: "https://www.infinityconstructionnyc.com/blog/signs-your-brownstone-needs-immediate-repair",
+      url: "/blog/signs-your-brownstone-needs-immediate-repair",
     },
     {
       name: "Blog - Why Infinity Construction NYC Is Brooklyn’s Renovation Expert",
-      url: "https://www.infinityconstructionnyc.com/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
+      url: "/blog/why-infinity-construction-nyc-is-brooklyns-go-to-brownstone-renovation-expert",
     },
     {
       name: "Blog - Brownstone – The Inside Scoop",
-      url: "https://www.infinityconstructionnyc.com/blog/brownstone-the-inside-scoop",
+      url: "/blog/brownstone-the-inside-scoop",
     },
     {
       name: "Blog - Brownstone Facade Repair Park Slope",
-      url: "https://www.infinityconstructionnyc.com/blog/brownstone-facade-repair-park-slope",
+      url: "/blog/brownstone-facade-repair-park-slope",
     },
     {
       name: "Blog - Bring Back the Original Splendor of Your Brownstone",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
+      url: "/blog/how-to-bring-back-the-original-splendor-of-your-brownstone",
     },
     {
       name: "Blog - Why Choose Professional Brownstone Restoration",
-      url: "https://www.infinityconstructionnyc.com/blog/why-choose-professional-brownstone-restoration-services",
+      url: "/blog/why-choose-professional-brownstone-restoration-services",
     },
     {
       name: "Blog - Mini Split vs Central Air",
-      url: "https://www.infinityconstructionnyc.com/blog/mini-split-vs-central-air",
+      url: "/blog/mini-split-vs-central-air",
     },
     {
       name: "Blog - How to Hand Scrape a Floor",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-hand-scrape-a-floor",
+      url: "/blog/how-to-hand-scrape-a-floor",
     },
     {
       name: "Blog - How to Repair Crumbling Bricks",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-repair-crumbling-bricks",
+      url: "/blog/how-to-repair-crumbling-bricks",
     },
     {
       name: "Blog - Veneer Masonry Construction Process",
-      url: "https://www.infinityconstructionnyc.com/blog/veneer-masonry-construction-process",
+      url: "/blog/veneer-masonry-construction-process",
     },
     {
       name: "Blog - Waterproof Caulking & Restoration",
-      url: "https://www.infinityconstructionnyc.com/blog/waterproof-caulking-and-restoration",
+      url: "/blog/waterproof-caulking-and-restoration",
     },
     {
       name: "Blog - Composite Masonry – Full Overview",
-      url: "https://www.infinityconstructionnyc.com/blog/composite-masonry-comprehensive-overview",
+      url: "/blog/composite-masonry-comprehensive-overview",
     },
     {
       name: "Blog - Stone Masonry – Exclusive Guide",
-      url: "https://www.infinityconstructionnyc.com/blog/stone-masonry-exclusive-guide",
+      url: "/blog/stone-masonry-exclusive-guide",
     },
     {
       name: "Blog - How to Maintain and Repair Leaded Windows",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-maintain-and-repair-leaded-windows",
+      url: "/blog/how-to-maintain-and-repair-leaded-windows",
     },
     {
       name: "Blog - Masonry Work Overview",
-      url: "https://www.infinityconstructionnyc.com/blog/masonry-work",
+      url: "/blog/masonry-work",
     },
     {
       name: "Blog - How to Repair a Brownstone Stoop",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-repair-a-brownstone-stoop",
+      url: "/blog/how-to-repair-a-brownstone-stoop",
     },
     {
       name: "Blog - What Are Brownstone Houses & Why Popular in NYC",
-      url: "https://www.infinityconstructionnyc.com/blog/what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
+      url: "/blog/what-are-brownstone-houses-and-why-are-they-popular-in-nyc",
     },
     {
       name: "Blog - Concrete Mix Design Calculation",
-      url: "https://www.infinityconstructionnyc.com/blog/concrete-mix-design-calculation",
+      url: "/blog/concrete-mix-design-calculation",
     },
     {
       name: "Blog - Masonry Work – Exclusive Guide",
-      url: "https://www.infinityconstructionnyc.com/blog/masonry-work-exclusive-guide",
+      url: "/blog/masonry-work-exclusive-guide",
     },
     {
       name: "Blog - Fire Escape Painting",
-      url: "https://www.infinityconstructionnyc.com/blog/fire-escape-painting",
+      url: "/blog/fire-escape-painting",
     },
     {
       name: "Blog - DIY Roof Repair",
-      url: "https://www.infinityconstructionnyc.com/blog/diy-roof-repair",
+      url: "/blog/diy-roof-repair",
     },
     {
       name: "Blog - Brick Pointing Guide",
-      url: "https://www.infinityconstructionnyc.com/blog/brick-pointing",
+      url: "/blog/brick-pointing",
     },
     {
       name: "Blog - How to Restore Brownstone Facade",
-      url: "https://www.infinityconstructionnyc.com/blog/how-to-restore-brownstone-facade",
+      url: "/blog/how-to-restore-brownstone-facade",
     },
     {
       name: "Blog - Common Problems with Brownstones in NYC",
-      url: "https://www.infinityconstructionnyc.com/blog/nyc-brownstone-issues-and-repairs",
+      url: "/blog/nyc-brownstone-issues-and-repairs",
     },
     {
       name: "Blog - Brownstone Facade Restoration in NYC",
-      url: "https://www.infinityconstructionnyc.com/blog/nyc-brownstone-facade-repair",
+      url: "/blog/nyc-brownstone-facade-repair",
+    },
+    {
+      name: "Blog - What to Expect During a Brownstone Stoop Restoration",
+      url: "/blog/brownstone-stoop-restoration-project-guide",
     },
 
     // Additional page
     {
       name: "Brownstone Restoration",
-      url: "https://www.infinityconstructionnyc.com/brownstone-restoration",
+      url: "/brownstone-restoration",
     },
   ];
 
