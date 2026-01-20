@@ -1,5 +1,20 @@
 export const blogData = [
   {
+  id: -3,
+  author: "Imrul Hassan",
+  slug: "benefits-of-using-cmu-blocks-for-residential-and-commercial-buildings",
+  date: "Jan 20, 2026",
+  readTime: "8 min read",
+  title:
+    "Benefits of Using CMU Blocks for Residential & Commercial Buildings",
+  contentPreview: `CMU blocks, also known as concrete masonry units, are widely used in residential and commercial construction due to their strength, durability, fire resistance, and long-term value...`,
+  views: 0,
+  comments: 0,
+  liked: false,
+  image: "/blog/blog-new.png",
+}
+,
+  {
   id: -2,
   author: "Imrul Hassan",
   slug: "brownstone-stoop-restoration-project-guide",
