@@ -21,16 +21,274 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
-      "historic brownstone upgrades, sustainable brownstone renovation, NYC brownstone restoration, energy-efficient brownstones, landmark home improvements, eco-friendly brownstone NYC, brownstone insulation upgrade, green renovation NYC, historic property sustainability, brownstone energy savings",
+      "historic brownstone NYC, sustainable brownstone upgrades, energy efficiency brownstones, green renovations, brownstone preservation, NYC historic homes, sustainable home improvements",
     title: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
-    slug: "sustainable-upgrades-historic-brownstones-nyc",
+    slug: "sustainable-upgrades-for-historic-brownstone-properties-in-nyc",
     description: (
       <>
-        Preserving the charm of historic brownstones while improving
-        sustainability is a smart investment for New York City homeowners. With
-        aging structures and strict landmark regulations, balancing energy
-        efficiency and preservation requires thoughtful upgrades that respect
-        both heritage and performance.
+Working of an RMI Application 
+
+The working of RMI is as follows:
+
+When the client makes a call to a remote object, the call is first received by the stub.
+
+The stub passes the request to the Remote Reference Layer (RRL).
+
+The client-side RRL calls the invoke() method of the remoteRef object.
+
+The request is forwarded to the server-side RRL.
+
+The server-side RRL sends the request to the skeleton.
+
+The skeleton invokes the required method on the actual server object.
+
+The result is returned back to the client in the same reverse order.
+
+RMI Registry
+
+The RMI registry is a namespace where all server objects are registered.
+
+When the server creates a remote object, it registers it using bind() or reBind() methods.
+
+Each object is registered with a unique name called a bind name.
+
+The client uses the lookup() method and the bind name to obtain a reference to the remote object.
+
+Goals of RMI
+
+The goals of RMI are:
+
+To reduce application complexity
+
+To preserve type safety
+
+To support distributed garbage collection
+
+Distributed Objects
+
+A distributed object is an object that can be accessed remotely over a network.
+It behaves like a local object but can be used from anywhere on the network.
+
+A distributed object encapsulates data and behavior, and its physical location is not important to the user.
+
+Distributed object architecture consists of three parts:
+
+Business object
+
+Skeleton
+
+Stub
+
+The business object resides on the server, while the stub resides on the client.
+
+Fundamental Concepts
+1. Remote Object
+
+Each process contains objects.
+Objects that can receive remote method calls are called remote objects, while others support only local calls.
+
+2. Remote Object Reference
+
+To invoke a method on a remote object, the calling object must know the remote object reference.
+
+Remote Interface
+
+Every remote object has a remote interface that specifies which methods can be invoked remotely.
+
+Remote and Local Method Invocations
+
+Local method invocations occur within the same process, while remote method invocations occur across different processes or machines.
+
+Five Parts of Distributed Object Model
+1. Remote Object References
+
+Remote object identifiers can be passed as arguments across the distributed system.
+
+2. Remote Interfaces
+
+Remote interfaces specify:
+
+Method name
+
+Arguments
+
+Return type
+
+IDL (Interface Definition Language) is used to define remote interfaces.
+
+3. Actions
+
+A method invocation may result in further method calls on other objects in different processes.
+Remote invocations can also lead to the creation of new objects.
+
+4. Exceptions
+
+RMI supports additional exceptions such as timeout exceptions.
+Exceptions may occur due to distribution or during method execution.
+
+5. Garbage Collection
+
+Distributed garbage collection is achieved by cooperation between:
+
+Local garbage collector
+
+A distributed garbage collection module
+This is usually based on reference counting.
+
+Design Issues for RMI
+A) Invocation Semantics
+
+Error handling involves delivery guarantees:
+
+Retry request message – whether to resend requests
+
+Duplicate filtering – whether to remove duplicate requests
+
+Retransmission of results – whether to resend results without re-executing the method
+
+Choices of Invocation Semantics
+
+Maybe – method executes once or not at all
+
+At-least-once – method executes one or more times
+
+At-most-once – method executes exactly once
+
+B) Invocation Semantics Choices
+Semantics	Retransmit Request	Duplicate Filtering	Action
+Maybe	No	Not applicable	Not applicable
+At-least-once	Yes	No	Re-execute procedure
+At-most-once	Yes	Yes	Retransmit reply
+C) Transparency
+
+RMI provides transparent remote invocation, meaning it appears like a local method call.
+
+Transparency includes:
+
+Marshalling and unmarshalling
+
+Locating remote objects
+
+Accessing syntax
+
+Implementation of RMI
+
+Two communication modules handle the request–reply protocol.
+
+They manage:
+
+Message types
+
+Request IDs
+
+Remote object references
+
+The server communication module:
+
+Selects the dispatcher
+
+Passes local references
+
+Returns the response
+
+Remote Reference Module
+
+Responsibilities:
+
+Convert local references to remote references
+
+Maintain a remote object table
+
+Create remote object references when needed
+
+Servant
+
+A servant is an instance of a class that implements the remote object.
+It handles remote requests.
+
+RMI Software Components
+
+Proxy (Stub) – acts like a local object but represents the remote object
+
+Dispatcher – identifies the method and forwards the call
+
+Skeleton – invokes the actual method
+
+2.3.2 Request–Reply Protocols
+Assumptions
+
+In some cases, the client cannot determine whether a failure is due to message loss or server delay. Late replies must be handled.
+
+In other cases, late replies are impossible, so no special handling is required.
+
+2.3.3 Remote Procedure Call (RPC)
+
+RPC is an interprocess communication technique used in client-server applications.
+
+The client sends a request to the server, which executes the procedure and returns the result.
+The client waits until the server completes execution.
+
+How RPC Works
+
+Client stub is called
+
+Client stub sends message to server
+
+Message travels through the network
+
+Server stub receives the message
+
+Parameters are extracted
+
+Server procedure is executed
+
+Advantages of RPC
+
+Supports process and thread models
+
+Hides message passing details
+
+Requires minimal code changes
+
+Works in both local and distributed environments
+
+Improves performance by reducing protocol layers
+
+Disadvantages of RPC
+
+Not a standard
+
+Limited hardware flexibility
+
+Increased cost
+
+2.3.4 Remote Method Invocation Technology
+
+RMI is a Java-based distributed object technology developed by Sun Microsystems.
+
+It allows Java objects to invoke methods on remote objects using object serialization.
+
+RMI was introduced in JDK 1.1 and is part of the java.rmi package.
+
+RMI architecture consists of three layers:
+
+Stub and Skeleton layer
+
+Remote Reference layer
+
+Transport layer
+
+The stub acts as a proxy on the client side, and the skeleton dispatches method calls on the server side.
+
+Steps to Design an RMI Application
+
+Define remote interfaces and implement objects
+
+Compile source code and generate stubs and skeletons
+
+Make class files accessible over the network
+
+Run the application
       </>
     ),
     image: "/blog/sustainable.png",
@@ -127,196 +385,9 @@ export const BlogsData: Blog[] = [
         ),
       },
     ],
-    metatitle: "Sustainable Upgrades for Historic Brownstones in NYC",
+    metatitle: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
     metadescription:
-      "Discover sustainable upgrades for historic brownstone properties in NYC. Improve energy efficiency, comfort, and property value while preserving landmark architectural charm.",
-  },
-  {
-    keywords:
-      "CMU block construction, concrete block buildings, masonry construction services, CMU blocks for homes, commercial CMU construction, concrete masonry units, structural masonry walls, durable building materials, CMU block benefits",
-    title:
-      "Benefits of Using CMU Blocks for Residential & Commercial Buildings",
-    slug: "benefits-of-using-cmu-blocks-for-residential-and-commercial-buildings",
-    description: (
-      <>
-        CMU blocks, also known as concrete masonry units, are one of the most
-        reliable building materials used today. They are popular in both
-        residential and commercial construction because of their strength,
-        durability, and cost value. Homeowners, builders, and property managers
-        across New York City choose CMU block construction for long-lasting and
-        low-maintenance buildings.
-      </>
-    ),
-    image: "/blog/blog-new.png",
-    sections: [
-      {
-        title: "What Are CMU Blocks and How Are They Used?",
-        paragraph: (
-          <>
-            CMU blocks are solid or hollow concrete blocks made from cement,
-            sand, and aggregates. They are widely used to build walls,
-            foundations, and structural elements.
-            <p className="mt-3 font-medium">Common Uses of CMU Blocks</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Exterior and interior walls</li>
-              <li>Load-bearing structures</li>
-              <li>Basements and foundations</li>
-              <li>Commercial and industrial buildings</li>
-            </ul>
-            <p className="mt-3">
-              CMU blocks are often finished with brick, stone, or stucco to
-              improve appearance and protection.
-            </p>
-          </>
-        ),
-      },
-      {
-        title: "Key Benefits of CMU Blocks for Residential Buildings",
-        paragraph: (
-          <>
-            CMU blocks offer several advantages for homes, apartments, and
-            multi-family buildings.
-            <p className="mt-3">Strong and Stable Construction</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Provides excellent structural support</li>
-              <li>Handles heavy loads and pressure well</li>
-              <li>Resists cracking better than many materials</li>
-            </ul>
-            <p className="mt-3">Energy Efficiency</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Helps regulate indoor temperatures</li>
-              <li>Reduces heating and cooling costs</li>
-              <li>Works well with insulation systems</li>
-            </ul>
-            <p className="mt-3">Low Maintenance</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Does not rot, warp, or attract pests</li>
-              <li>Requires fewer repairs over time</li>
-              <li>Ideal for long-term homeownership</li>
-            </ul>
-            <p>
-              Many homeowners combine CMU walls with professional finishes like{" "}
-              <Link
-                href="/brownstone-facade-restoration"
-                className="text-blue-500"
-              >
-                brownstone facade restoration
-              </Link>{" "}
-              to enhance both strength and appearance.
-            </p>
-          </>
-        ),
-      },
-      {
-        title: "Advantages of CMU Blocks for Commercial Buildings",
-        paragraph: (
-          <>
-            Commercial properties need materials that can handle heavy use and
-            strict safety standards. CMU blocks are a smart choice for these
-            demands.
-            <p className="mt-3">High Load-Bearing Capacity</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Suitable for multi-story buildings</li>
-              <li>Supports heavy equipment and foot traffic</li>
-              <li>Maintains stability over decades</li>
-            </ul>
-            <p className="mt-3">Sound and Fire Protection</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Reduces noise between units or floors</li>
-              <li>Offers excellent fire resistance</li>
-              <li>Meets most commercial building codes</li>
-            </ul>
-            <p className="mt-3">Flexible Design Options</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Can be finished with stone, brick, or concrete</li>
-              <li>Fits modern and traditional designs</li>
-              <li>Works well for offices, retail, and warehouses</li>
-            </ul>
-          </>
-        ),
-      },
-      {
-        title: "Durability, Strength, and Fire Resistance",
-        paragraph: (
-          <>
-            One of the biggest reasons CMU blocks are so popular is their
-            durability.
-            <p className="mt-3">Why CMU Blocks Last Longer</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Resistant to extreme weather</li>
-              <li>Handles moisture better than wood</li>
-              <li>Stands up to impact and wear</li>
-            </ul>
-            <p className="mt-3">Fire Resistance Benefits</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Non-combustible material</li>
-              <li>Slows fire spread</li>
-              <li>Improves building safety</li>
-            </ul>
-            <p className="mt-3">
-              This makes CMU block construction especially valuable in dense
-              urban areas like Brooklyn, Manhattan, Queens, and The Bronx, NYC.
-            </p>
-          </>
-        ),
-      },
-      {
-        title: "Cost-Effectiveness and Long-Term Value",
-        paragraph: (
-          <>
-            CMU blocks offer excellent value over the life of a building.
-            <p className="mt-3">Lower Long-Term Costs</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Reduced repair and maintenance needs</li>
-              <li>Long lifespan compared to other materials</li>
-              <li>Strong return on investment</li>
-            </ul>
-            <p className="mt-3">Efficient Construction</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Faster installation with skilled crews</li>
-              <li>Less material waste</li>
-              <li>Compatible with modern construction methods</li>
-            </ul>
-          </>
-        ),
-      },
-      {
-        title: "Why Professional Masonry Installation Matters",
-        paragraph: (
-          <>
-            The quality of CMU construction depends heavily on proper
-            installation. Poor workmanship can reduce strength and lifespan.
-            <p className="mt-3">Benefits of Hiring Professionals</p>
-            <ul className="list-disc ml-6 mt-2">
-              <li>Correct block placement and alignment</li>
-              <li>Proper mortar and reinforcement</li>
-              <li>Compliance with building codes</li>
-            </ul>
-            <p className="mt-3">
-              Professional masonry contractors understand local requirements
-              across Brooklyn, Manhattan, Queens, and The Bronx, NYC.
-            </p>
-          </>
-        ),
-      },
-      {
-        title: "Conclusion: A Smart Choice for Strong Buildings",
-        paragraph: (
-          <>
-            CMU blocks are a reliable, durable, and cost-effective solution for
-            both residential and commercial buildings. They offer strength, fire
-            resistance, energy efficiency, and long-term value. Whether you are
-            planning a new project or restoring an existing structure, working
-            with experienced masonry professionals is key to long-lasting,
-            code-compliant results.
-          </>
-        ),
-      },
-    ],
-    metatitle:
-      "Benefits of Using CMU Blocks for Residential & Commercial Buildings",
-    metadescription:
-      "Discover the benefits of CMU blocks for residential and commercial buildings, including strength, durability, fire resistance, and long-term value.",
+      "Learn how NYC homeowners can make historic brownstones more sustainable through energy efficiency, green renovations, and preservation-sensitive upgrades.",
   },
   {
     keywords:

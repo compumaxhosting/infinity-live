@@ -13,6 +13,14 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
+      path: "/blog/sustainable-upgrades-historic-brownstones-nyc",
+    },
+    {
+      name: "Benefits of Using CMU Blocks for Residential & Commercial Buildings",
+      path: "/blog/benefits-of-using-cmu-blocks-for-residential-and-commercial-buildings",
+    },
+    {
       name: "What to Expect During a Brownstone Stoop Restoration Project in NYC",
       path: "/blog/brownstone-stoop-restoration-project-guide",
     },

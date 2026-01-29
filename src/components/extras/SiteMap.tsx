@@ -160,6 +160,14 @@ const SiteMap = () => {
       name: "Blog - What to Expect During a Brownstone Stoop Restoration",
       url: "/blog/brownstone-stoop-restoration-project-guide",
     },
+    {
+      name: "Blog - Benefits of Using CMU Blocks for Residential & Commercial Buildings",
+      url: "/blog/benefits-of-using-cmu-blocks-for-residential-and-commercial-buildings",
+    },
+    {
+      name: "Blog - Sustainable Upgrades for Historic Brownstone Properties in NYC",
+      url: "/blog/sustainable-upgrades-historic-brownstones-nyc",
+    },
 
     // Additional page
     {
