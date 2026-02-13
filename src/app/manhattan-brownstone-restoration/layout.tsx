@@ -50,8 +50,7 @@ const schemaData = {
 
   sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
-    "https://www.instagram.com/infinityconstructionnyc",
-    
+    "https://www.instagram.com/infinity_construction_nyc/",
   ],
   geo: {
     "@type": "GeoCoordinates",
@@ -66,9 +65,10 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
       {/* No extra content like Header or Footer here */}
       {children} {/* Only the content from the About page will be rendered */}
       <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
-    </>
-  );
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+         
+    </>
+  );
 }
