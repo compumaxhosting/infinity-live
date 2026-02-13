@@ -53,7 +53,6 @@ const schemaData = {
   sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
-    "https://www.linkedin.com/company/infinityconstructionnyc",
   ],
   geo: {
     "@type": "GeoCoordinates",

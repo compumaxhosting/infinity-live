@@ -36,6 +36,11 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  metadataBase: new URL("https://www.infinityconstructionnyc.com"),
+
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const jsonLdSchema = {
@@ -60,7 +65,7 @@ const jsonLdSchema = {
   sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinityconstructionnyc",
-    "https://www.linkedin.com/company/infinityconstructionnyc",
+    
   ],
   geo: {
     "@type": "GeoCoordinates",
