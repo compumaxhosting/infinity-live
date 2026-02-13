@@ -34,6 +34,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/brick-pointing" },
 };
 
 // Schema Markup (Best moved to a separate component)

@@ -34,6 +34,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/roof-restoration-and-weatherproofing" },
 };
 
 // Schema Markup (Best moved to a separate component)

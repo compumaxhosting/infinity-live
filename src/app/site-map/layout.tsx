@@ -24,6 +24,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/site-map" },
 };
 
 // Schema Markup (Best moved to a separate component)

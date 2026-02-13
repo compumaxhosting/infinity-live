@@ -23,6 +23,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/manhattan-brownstone-restoration" },
 };
 
 // Schema Markup (Best moved to a separate component)

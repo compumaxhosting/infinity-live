@@ -26,6 +26,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/historical-landmark" },
 };
 
 const schemaData = {

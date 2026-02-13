@@ -26,6 +26,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/painting-and-masonry" },
 };
 
 // Schema Markup (Best moved to a separate component)

@@ -24,6 +24,7 @@ export const metadata = {
     ],
     type: "website",
   },
+  alternates: { canonical: "/gallery" },
 };
 
 // Schema Markup (Best moved to a separate component)
