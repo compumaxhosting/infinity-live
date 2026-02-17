@@ -454,7 +454,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     id: 27,
     author: "Imrul Hassan",
     slug: "how-to-restore-brownstone-facade",
-    date: "Mar 1, 2023",
+    date: "Feb 17, 2026",
     readTime: "3 min read",
     title: "How to Restore Brownstone Facade",
     contentPreview:
