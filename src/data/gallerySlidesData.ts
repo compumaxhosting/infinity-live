@@ -19,8 +19,26 @@ export const slides = [
   },
   {
     id: 4,
-    title: "Slide 3 Title",
+    title: "Slide 4 Title",
     description: "This is the description for Slide 3",
     image: "/img-4.jpeg",
+  },
+  {
+    id: 5,
+    title: "Slide 5 Title",
+    description: "This is the description for Slide 3",
+    image: "/img-7.jpeg",
+  },
+  {
+    id: 6,
+    title: "Slide 6 Title",
+    description: "This is the description for Slide 3",
+    image: "/img-8.jpeg",
+  },
+  {
+    id: 7,
+    title: "Slide 7 Title",
+    description: "This is the description for Slide 3",
+    image: "/img-9.jpeg",
   },
 ];
