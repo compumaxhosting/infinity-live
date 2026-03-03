@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export type BlogSection = {
@@ -13,8 +12,8 @@ export type Blog = {
   description: string | JSX.Element;
   image: string;
   sections: BlogSection[];
-  metatitle: string; 
-  metadescription: string; 
+  metatitle: string;
+  metadescription: string;
 };
 
 export const BlogsData: Blog[] = [

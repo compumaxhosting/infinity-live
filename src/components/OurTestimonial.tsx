@@ -16,7 +16,6 @@ const fadeUp = {
   },
 };
 
-
 export default function OurTestimonial() {
   return (
     <section

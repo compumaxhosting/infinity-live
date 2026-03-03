@@ -22,10 +22,7 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
         </p>
         <p className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify">
           {" "}
-          <Link href="/">
-            At Infinity Construction NYC
-          </Link>
-          , we specialize in{" "}
+          <Link href="/">At Infinity Construction NYC</Link>, we specialize in{" "}
           <Link href="/brownstone-restoration">
             brownstone restoration in Brooklyn
           </Link>

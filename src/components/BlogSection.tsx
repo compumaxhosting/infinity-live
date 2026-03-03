@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { blogData } from "@/data/blogData";
 
-const  BlogSection = () => {
+const BlogSection = () => {
   return (
     <div className="max-w-7xl mx-auto py-8 px-4">
       <h2

@@ -17,7 +17,6 @@ const Gallery: React.FC = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [totalSlides, setTotalSlides] = useState(0);
 
-  
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
@@ -27,15 +26,15 @@ const Gallery: React.FC = () => {
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
 
   // Autoplay functionality
-    useEffect(() => {
-      if (!emblaApi) return;
-  
-      const autoplay = setInterval(() => {
-        emblaApi.scrollNext(); // Scroll to the next slide
-      }, 5000); // 3 seconds interval
-  
-      return () => clearInterval(autoplay); // Cleanup interval on component unmount
-    }, [emblaApi]);
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const autoplay = setInterval(() => {
+      emblaApi.scrollNext(); // Scroll to the next slide
+    }, 5000); // 3 seconds interval
+
+    return () => clearInterval(autoplay); // Cleanup interval on component unmount
+  }, [emblaApi]);
 
   useEffect(() => {
     if (!emblaApi) return;

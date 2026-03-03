@@ -2,8 +2,7 @@ export const slides = [
   {
     id: 1,
     title: "Infinity Construction NYC",
-    subtitle:
-      "Expert Brownstone Restoration & Masonry Services Across NYC",
+    subtitle: "Expert Brownstone Restoration & Masonry Services Across NYC",
     image: "/img-2.jpg",
   },
   {

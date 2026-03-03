@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Portfolio = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(
-    null
+    null,
   );
 
   const projects = [
@@ -119,14 +119,14 @@ const Portfolio = () => {
   const goToPrev = (e: React.MouseEvent) => {
     e.stopPropagation();
     setCurrentImageIndex((prev) =>
-      prev === 0 ? projects.length - 1 : (prev || 0) - 1
+      prev === 0 ? projects.length - 1 : (prev || 0) - 1,
     );
   };
 
   const goToNext = (e: React.MouseEvent) => {
     e.stopPropagation();
     setCurrentImageIndex((prev) =>
-      prev === projects.length - 1 ? 0 : (prev || 0) + 1
+      prev === projects.length - 1 ? 0 : (prev || 0) + 1,
     );
   };
 

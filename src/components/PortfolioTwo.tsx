@@ -11,23 +11,23 @@ const PortfolioTwo = () => {
       id: 1,
       src: "/portfolio/103-jefferson.mp4",
       alt: "Brownstone restoration NYC",
-      title: "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration.",
+      title:
+        "Address: 103 Jefferson ave brooklyn New York  complete stoop restoration.",
       type: "",
       features: [
         "Brooklyn, Manhattan, Queens",
         "Expert Restoration",
         "Limited-Time Discount",
       ],
-      
     },
     {
       id: 2,
       src: "/portfolio/310-west.mp4",
       alt: "Brownstone repair signs",
-      title:"Address : 310 west 102nd street New York , New York Completed stoop restoration .",
+      title:
+        "Address : 310 west 102nd street New York , New York Completed stoop restoration .",
       type: "",
       features: ["Visible Cracks", "Water Damage", "Facade Issues"],
-      
     },
     {
       id: 3,
@@ -40,7 +40,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
     {
       id: 4,
@@ -54,7 +53,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
     {
       id: 5,
@@ -68,7 +66,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
     {
       id: 6,
@@ -82,7 +79,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
     {
       id: 7,
@@ -96,7 +92,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
     {
       id: 8,
@@ -110,7 +105,6 @@ const PortfolioTwo = () => {
         "Skilled Craftsmanship",
         "Brownstone Specialist",
       ],
-      
     },
   ];
 
@@ -127,14 +121,14 @@ const PortfolioTwo = () => {
   const handlePrev = (e: React.MouseEvent) => {
     e.stopPropagation();
     setCurrentIndex((prev) =>
-      prev === 0 ? projects.length - 1 : (prev || 0) - 1
+      prev === 0 ? projects.length - 1 : (prev || 0) - 1,
     );
   };
 
   const handleNext = (e: React.MouseEvent) => {
     e.stopPropagation();
     setCurrentIndex((prev) =>
-      prev === projects.length - 1 ? 0 : (prev || 0) + 1
+      prev === projects.length - 1 ? 0 : (prev || 0) + 1,
     );
   };
 
