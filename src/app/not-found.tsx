@@ -18,10 +18,7 @@ const NotFoundPage = () => {
             Page Not Found
           </h1>
 
-          <h2 className="text-lg text-primary dark:text-[#90caf9] mb-2">
-            Looks like this page took a coffee break ☕
-          </h2>
-
+         
           <h3 className="text-lg md:text-xl text-[#042c46] dark:text-[#90caf9] mb-8">
             The page you’re looking for doesn’t exist or has been moved.
           </h3>
