@@ -1,12 +1,13 @@
 "use client";
 
 import Footer from "@/components/Footer";
+import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Link from "next/link";
 
 const NotFoundPage = () => {
   return (
     <>
-   
+   <HeaderSpecial />
       <section className="flex justify-center items-center bg-white dark:bg-slate-950 min-h-screen p-6 dark:border-b">
         <div className="max-w-5xl w-full text-center">
           <p className="text-6xl sm:text-7xl md:text-8xl text-black dark:text-white font-forum mb-6">
