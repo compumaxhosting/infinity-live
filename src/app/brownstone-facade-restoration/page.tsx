@@ -3,205 +3,291 @@ import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import ProjectsSection from "@/components/ProjectsSection";
 import PhoneCall from "@/components/PhoneCall";
-
+import { Phone, Mail, Globe } from "lucide-react";
+import FaqNew from "@/components/FaqNew";
 
 const BrickCMULayeringPage = () => {
   return (
     <>
-
-      {/* ▸ Original page layout starts here (unchanged) */}
       <div itemScope itemType="https://schema.org/Service">
         <HeaderSpecial />
+
         <main
           className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
-          <h1
-            className="text-center text-4xl sm:text-5xl lg:text-6xl text-gray-900 dark:text-white mb-8"
-            itemProp="name"
-          >
-            Brick and CMU Block laying
+          {/* ✅ H1 */}
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6">
+            Expert Brick and CMU Block Laying in NYC
           </h1>
 
-          <section itemScope itemType="https://schema.org/LocalBusiness">
-            <p
-              className="text-justify text-xl md:text-2xl text-slate-800 px-4"
-              itemProp="description"
-            >
-              At{" "}
-              <Link href="/" itemProp="url">
-                Infinity Construction NYC
-              </Link>
-              , we understand that the foundation of every great structure
-              starts with the right materials and craftsmanship. Specializing in
-              brick and Concrete Masonry Unit (CMU) block laying, we provide
-              high-quality masonry services that ensure the structural integrity
-              and aesthetic appeal of your property. Whether you are working on
-              a residential or commercial project, we bring the expertise and
-              precision needed to make your vision a reality.
-            </p>
-            <div className="flex justify-center lg:justify-start m-2">
-              <Link
-                href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white py-2 px-6 rounded-lg transition duration-300"
-              >
-                Contact Us
-              </Link>
-            </div>
+          <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+            High-Strength Masonry for Residential and Commercial Projects
+          </p>
 
-            <div className="flex flex-col lg:flex-row justify-center items-center gap-8 mb-8">
-              <div className="w-full lg:w-8/12 p-4 space-y-6">
-                <h2 className="text-4xl mb-4">
-                  Our Brick and CMU Block laying Services
+          <section className="mb-10">
+            <p className="text-justify mb-6">
+              Professional brick and CMU block laying in NYC by{" "}
+              <Link href="/" className="text-orange-500">
+                Infinity Construction NYC
+              </Link>{" "}
+              provides essential structural support for new builds and
+              renovations. Designed for developers and homeowners, our service
+              ensures durable foundations and beautiful facades, delivering
+              unmatched stability and long-term property value through expert
+              masonry.
+            </p>
+
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+              The Foundation of Quality: Brick & CMU Block Masonry
+            </p>
+            <p className="text-justify mb-6">
+              In the demanding environment of New York City construction, the
+              strength of your building depends on the precision of its masonry.
+              At Infinity Construction NYC, we specialize in professional
+              brickwork and Concrete Masonry Unit (CMU) block installation. From
+              the iconic red-brick aesthetic of Brooklyn townhouses to the
+              heavy-duty structural cores of Manhattan commercial buildings, our
+              team delivers high-performance masonry that balances architectural
+              beauty with rock-solid integrity.
+            </p>
+
+            <div className="flex flex-col lg:flex-row gap-10 items-start">
+              {/* Content Section (2/3) */}
+              <div className="w-full lg:w-2/3">
+                <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
+                  Our Core Masonry Services
                 </h2>
-                <ul
-                  itemProp="hasOfferCatalog"
-                  itemScope
-                  itemType="https://schema.org/OfferCatalog"
-                >
-                  <li
-                    className="text-justify text-xl md:text-2xl text-slate-800"
-                    itemProp="itemListElement"
-                    itemScope
-                    itemType="https://schema.org/Offer"
-                  >
-                    • <strong>Brick laying for Unique Designs:</strong>{" "}
-                    <span itemProp="description">
-                      From classic brick facades to custom designs, we
-                      specialize in brick laying that not only strengthens your
-                      building but enhances its curb appeal. Our skilled team
-                      ensures that every brick is laid with care, offering
-                      durability and timeless beauty. We also provide customized
-                      patterns, arches, and other architectural details to match
-                      your vision.
-                    </span>
+
+                <h3 className="text-xl sm:text-2xl mb-2">
+                  Decorative & Structural Brick Laying
+                </h3>
+                <p className="mb-2">
+                  Brick is more than just a facade; it is a shield against the
+                  elements. Our skilled masons specialize in:
+                </p>
+
+                <ul className="mb-6 list-disc pl-6">
+                  <li>
+                    <span className="font-medium">
+                      Custom Patterns & Bonds:
+                    </span>{" "}
+                    Creating timeless aesthetics through running, Flemish, or
+                    English bonds.
                   </li>
-                  <li
-                    className="text-justify text-xl md:text-2xl text-slate-800"
-                    itemProp="itemListElement"
-                    itemScope
-                    itemType="https://schema.org/Offer"
-                  >
-                    • <strong>CMU Block laying for Strong Foundations:</strong>{" "}
-                    <span itemProp="description">
-                      When it comes to structural strength, CMU blocks are our
-                      go-to solution. We provide expert CMU block installations
-                      that create stable foundations and walls for a variety of
-                      projects, including retaining walls, load-bearing
-                      structures, and partition walls. Our techniques ensure
-                      precision and long-lasting durability.
-                    </span>
+                  <li>
+                    <span className="font-medium">Architectural Details:</span>{" "}
+                    Expertly crafted brick arches, lintels, and decorative
+                    cornices.
                   </li>
-                  <li
-                    className="text-justify text-xl md:text-2xl text-slate-800"
-                    itemProp="itemListElement"
-                    itemScope
-                    itemType="https://schema.org/Offer"
-                  >
-                    • <strong>Seamless Integration:</strong>{" "}
-                    <span itemProp="description">
-                      At Infinity Construction NYC, we work with both brick and
-                      CMU blocks, ensuring they integrate seamlessly into your
-                      building&apos;s design. Whether it&apos;s for new
-                      construction or renovation projects, we maintain
-                      consistency in aesthetics and functionality.
-                    </span>
-                  </li>
-                  <li
-                    className="text-justify text-xl md:text-2xl text-slate-800"
-                    itemProp="itemListElement"
-                    itemScope
-                    itemType="https://schema.org/Offer"
-                  >
-                    • <strong>Customized Solutions:</strong>{" "}
-                    <span itemProp="description">
-                      No two projects are the same. We take a personalized
-                      approach, tailoring our brick and CMU block laying to meet
-                      your specific needs. From intricate designs to large-scale
-                      structural work, we deliver results that exceed
-                      expectations.
-                    </span>
+                  <li>
+                    <span className="font-medium">Facade Strengthening:</span>{" "}
+                    Ensuring every brick is perfectly aligned with high-quality
+                    mortar.
                   </li>
                 </ul>
+
+                <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
+                  CMU Block Installation for Maximum Strength
+                </h3>
+                <p className="mb-2">
+                  When your project requires load-bearing reliability, Concrete
+                  Masonry Units (CMU) are the industry standard. We provide:
+                </p>
+
+                <ul className="mb-6 list-disc pl-6">
+                  <li>
+                    <span className="font-medium">
+                      Foundation & Partition Walls:
+                    </span>{" "}
+                    Creating the bones of your building with high-density
+                    blocks.
+                  </li>
+                  <li>
+                    <span className="font-medium">Retaining Walls:</span>{" "}
+                    Engineered to manage soil pressure and drainage.
+                  </li>
+                  <li>
+                    <span className="font-medium">Structural Integration:</span>{" "}
+                    Seamless integration with plumbing and reinforcements.
+                  </li>
+                </ul>
+
+                <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
+                  Seamless Material Integration
+                </h3>
+                <p className="mb-6">
+                  We combine CMU structural cores with brick veneers using
+                  professional ties and moisture barriers to prevent long-term
+                  structural issues.
+                </p>
               </div>
 
-              <div className="w-full lg:w-4/12 p-4 space-y-6">
-                <Image
-                  src="/stucco/stucco-img-2.JPG"
-                  width={600}
-                  height={600}
-                  alt="Professional brick and CMU block laying by Infinity Construction NYC"
-                  className="w-full h-auto object-cover rounded-lg shadow-md"
-                  itemProp="image"
-                />
+              {/* Image Section (1/3) */}
+              <div className="w-full lg:w-1/3">
+                <div className="space-y-8">
+                  {/* Before */}
+                  <div className="text-center">
+                    <p className="text-base sm:text-lg font-semibold mb-3">
+                      Before
+                    </p>
+                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden flex items-center justify-center">
+                      <Image
+                        src="/stucco/stucco-img-2.webp"
+                        alt="Before masonry work condition"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  </div>
+
+                  {/* After */}
+                  <div className="text-center">
+                    <p className="text-base sm:text-lg font-semibold mb-3">
+                      After
+                    </p>
+                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden flex items-center justify-center">
+                      <Image
+                        src="/stucco/after-image.webp"
+                        alt="After masonry restoration completed"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
 
-          <section>
-            <h2 className="text-4xl my-4">
-              Why Choose Infinity Construction NYC for Your Brick and CMU Block
-              laying?
-            </h2>
-            <ul
-              className="mb-6"
-              itemProp="review"
-              itemScope
-              itemType="https://schema.org/Review"
-            >
-              <div
-                itemProp="itemReviewed"
-                itemScope
-                itemType="https://schema.org/Organization"
-              >
-                <meta itemProp="name" content="Infinity Construction NYC" />
-                <li
-                  className="text-justify text-xl md:text-2xl text-slate-800"
-                  itemProp="reviewBody"
-                >
-                  • <strong>Unmatched Expertise:</strong> With years of
-                  experience in the construction industry, we have perfected the
-                  art of brick and CMU block laying. Our team is highly skilled
-                  and dedicated to delivering top-quality results.
-                </li>
-                <li
-                  className="text-justify text-xl md:text-2xl text-slate-800"
-                  itemProp="reviewBody"
-                >
-                  • <strong>Commitment to Quality:</strong> We use only the
-                  highest quality materials, ensuring that your brick and CMU
-                  block structures are not only aesthetically pleasing but also
-                  long-lasting. Every detail, from mortar application to
-                  alignment, is handled with precision.
-                </li>
-                <li
-                  className="text-justify text-xl md:text-2xl text-slate-800"
-                  itemProp="reviewBody"
-                >
-                  • <strong>Tailored for Your Needs:</strong> We understand that
-                  every project is unique, which is why we offer customized
-                  solutions to fit your specific requirements, budget, and
-                  design vision. Our collaborative approach ensures we deliver
-                  exactly what you need.
-                </li>
-                <li
-                  className="text-justify text-xl md:text-2xl text-slate-800"
-                  itemProp="reviewBody"
-                >
-                  • <strong>Reliable and Timely Service:</strong> At Infinity
-                  Construction NYC, we pride ourselves on completing projects on
-                  time and within budget, without compromising on quality or
-                  craftsmanship.
-                </li>
-              </div>
+          {/* Comparison Table */}
+          <section className="mb-10">
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+              Technical Comparison: Brick vs. CMU Blocks
+            </p>
+
+            <div className="overflow-x-auto">
+              <table className="table-auto w-full border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-gray-100">
+                    <th className="p-3 border">Feature</th>
+                    <th className="p-3 border">Brick Masonry</th>
+                    <th className="p-3 border">CMU Block Masonry</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="p-3 border">Primary Use</td>
+                    <td className="p-3 border">
+                      Facades, stoops, and decorative walls
+                    </td>
+                    <td className="p-3 border">
+                      Foundations, load-bearing walls and cores.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 border">Main Benefit</td>
+                    <td className="p-3 border">
+                      High curb appeal & weather resistance
+                    </td>
+                    <td className="p-3 border">
+                      Superior strength & fire rating
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 border">NYC Context</td>
+                    <td className="p-3 border">
+                      Ideal for historic district compliance.
+                    </td>
+                    <td className="p-3 border">
+                      Best for rapid, high-strength construction.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <FaqNew />
+
+          {/* Why Choose */}
+          <section className="mb-10">
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+              Why Choose Infinity Construction NYC?
+            </p>
+
+            <ul className="list-disc pl-6 space-y-3">
+              <li>
+                Proven Local Expertise: We understand the unique logistics of
+                working in NYC, from sidewalk permits to neighboring property
+                protection.
+              </li>
+              <li>
+                Precision and Alignment: Our masons use advanced leveling tools
+                and traditional craftsmanship to ensure every course is
+                &quot;plumb and true.&quot;
+              </li>
+              <li>
+                High-Quality Materials: We source premium bricks and high-PSI
+                blocks to ensure your structure lasts for generations.
+              </li>
+              <li>
+                Transparent Project Management: We provide clear timelines and
+                budget updates, ensuring no surprises from groundbreaking to
+                cleanup.
+              </li>
             </ul>
-            <ProjectsSection />
+          </section>
+
+          {/* Bottom CTA */}
+          <section className="mt-12 mb-10 px-4">
+            <div className="max-w-2xl mx-auto text-center">
+              <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+                Start Your Project with a Free Consultation
+              </p>
+
+              <p className="mb-6 text-base sm:text-lg text-gray-700">
+                Whether you are building a new foundation or restoring a
+                historical facade, trust the masonry experts at Infinity
+                Construction NYC.
+              </p>
+
+              {/* Contact Info */}
+              <div className="flex flex-col items-center gap-3 mb-6 text-base sm:text-lg">
+                <a
+                  href="tel:13471234567"
+                  className="flex items-center gap-2 hover:text-primary transition"
+                >
+                  <Phone size={20} />
+                  <span className="font-semibold">347 939 5779</span>
+                </a>
+
+                <a
+                  href="mailto:infinityconstructionnyc@gmail.com"
+                  className="flex items-center gap-2 hover:text-primary transition"
+                >
+                  <Mail size={20} />
+                  <span>infinityconstructionnyc@gmail.com</span>
+                </a>
+
+                <Link
+                  href="/"
+                  className="flex items-center gap-2 hover:text-primary transition" target="_blank"
+                >
+                  <Globe size={20} />
+                  <span>www.infinityconstructionnyc.com</span>
+                </Link>
+              </div>
+
+              <p className="mt-6 font-semibold text-gray-800">
+                Quality Masonry. Built to Last.
+              </p>
+            </div>
           </section>
         </main>
-        <Footer />
 
+        <Footer />
         <PhoneCall />
       </div>
     </>
