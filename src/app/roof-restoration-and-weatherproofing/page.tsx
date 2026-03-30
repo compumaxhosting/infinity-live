@@ -27,8 +27,8 @@ const RoofRestorationPage = () => {
               High-Performance Roofing Solutions for Homes and Businesses Across the Five Boroughs
             </p>
 
-            <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center mb-8">
-              <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+            <div className="max-w-5xl rounded-lg border border-gray-200 mx-auto p-6 text-center mb-8">
+              <p className="text-lg sm:text-xl md:whitespace-nowrap mb-4 text-orange-600">
                 Call <a href={contactPhoneHref} className="underline">{contactPhone}</a> for urgent roof leak detection and weatherproofing in NYC.
               </p>
               <Link
