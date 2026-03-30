@@ -5,16 +5,16 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Historical Landmark Brownstone & Limestone Restoration | Infinity Construction NYC",
+    "Historical Landmark Brownstone & Limestone Restoration NYC | Infinity Construction",
   description:
-    "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
+    "Expert restoration for NYC historical buildings. Specializing in LPC compliance, brownstone repair, and limestone facade cleaning in Brooklyn, Manhattan, Queens, and The Bronx.",
   keywords:
     "brownstone restoration, limestone restoration, historical building restoration, NYC landmark restoration, facade repair",
   openGraph: {
     title:
-      "Historical Landmark Brownstone & Limestone Restoration | Infinity Construction NYC",
+      "Historical Landmark Brownstone & Limestone Restoration NYC | Infinity Construction",
     description:
-      "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
+      "Expert restoration for NYC historical buildings. Specializing in LPC compliance, brownstone repair, and limestone facade cleaning in Brooklyn, Manhattan, Queens, and The Bronx.",
     url: "https://www.infinityconstructionnyc.com/historical-landmark",
     images: [
       {
@@ -37,7 +37,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Expert historical landmark brownstone and limestone restoration services in NYC. Preserve your building's heritage with our professional restoration techniques.",
+    "Expert restoration for NYC historical buildings. Specializing in LPC compliance, brownstone repair, and limestone facade cleaning in Brooklyn, Manhattan, Queens, and The Bronx.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",
@@ -70,7 +70,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }

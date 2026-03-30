@@ -5,16 +5,16 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Paving Contractors near Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
+    "Professional Paving Services NYC | Concrete, Stone & Brick | Infinity Construction",
   description:
-    "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
+    "Premium driveway, patio, and walkway paving in NYC. Specializing in stamped concrete, natural bluestone, and classic brick paving in Brooklyn, Queens, and Manhattan.",
   keywords:
     "paving services Brooklyn, paving contractors Queens, asphalt paving Bronx, paving company Manhattan, Infinity Construction NYC, parking lot paving Brooklyn, driveway paving NYC, commercial paving services, paving contractors NYC, road paving Manhattan",
   openGraph: {
     title:
-      "Paving Contractors near Brooklyn, Queens, Bronx & Manhattan | Infinity Construction NYC",
+      "Professional Paving Services NYC | Concrete, Stone & Brick | Infinity Construction",
     description:
-      "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
+      "Premium driveway, patio, and walkway paving in NYC. Specializing in stamped concrete, natural bluestone, and classic brick paving in Brooklyn, Queens, and Manhattan.",
     url: "https://www.infinityconstructionnyc.com/paving",
     images: [
       {
@@ -38,7 +38,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Infinity Construction NYC provides professional paving services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Driveways, parking lots, roads, and more.",
+    "Premium driveway, patio, and walkway paving in NYC. Specializing in stamped concrete, natural bluestone, and classic brick paving in Brooklyn, Queens, and Manhattan.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",
@@ -71,7 +71,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }

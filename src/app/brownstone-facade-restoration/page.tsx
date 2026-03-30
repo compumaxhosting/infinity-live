@@ -7,6 +7,9 @@ import PhoneCall from "@/components/PhoneCall";
 import { Phone, Mail, Globe } from "lucide-react";
 import FaqNew from "@/components/FaqNew";
 
+const contactPhone = "347 939 5779";
+const contactPhoneHref = "tel:+13479395779";
+
 const BrickCMULayeringPage = () => {
   return (
     <>
@@ -25,6 +28,20 @@ const BrickCMULayeringPage = () => {
           <p className="text-xl sm:text-2xl mb-4 text-orange-600">
             High-Strength Masonry for Residential and Commercial Projects
           </p>
+
+          <section className="mb-10">
+            <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
+              <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+                Call <a href={contactPhoneHref} className="underline">{contactPhone}</a> for immediate masonry consultation in NYC.
+              </p>
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
+              >
+                Request a Quote
+              </Link>
+            </div>
+          </section>
 
           <section className="mb-10">
             <p className="text-justify mb-6">

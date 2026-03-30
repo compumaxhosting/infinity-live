@@ -5,16 +5,16 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Painting & Masonry Services Near Me in NYC | Brooklyn, Queens, Bronx & Manhattan",
+    "Professional Interior Painting & Masonry NYC | Infinity Construction",
   description:
-    "Looking for expert painting and masonry services near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC offers top-quality interior/exterior painting and masonry solutions across New York City.",
+    "Premium interior painting, plaster repair, and masonry services in NYC. We specialize in brownstone restoration and flawless finishes in Brooklyn, Manhattan, and Queens.",
   keywords:
     "painting and masonry near me, masonry contractors Brooklyn, interior painting Manhattan, exterior house painting Queens, NYC brick pointing, stucco repair NYC, local masonry experts NYC, brownstone painting NYC, commercial painting Bronx, masonry repair NYC",
   openGraph: {
     title:
-      "Painting & Masonry Services Near Me in NYC | Brooklyn, Queens, Bronx & Manhattan",
+      "Professional Interior Painting & Masonry NYC | Infinity Construction",
     description:
-      "Looking for expert painting and masonry services near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC offers top-quality interior/exterior painting and masonry solutions across New York City.",
+      "Premium interior painting, plaster repair, and masonry services in NYC. We specialize in brownstone restoration and flawless finishes in Brooklyn, Manhattan, and Queens.",
     url: "https://www.infinityconstructionnyc.com/painting-and-masonry",
     images: [
       {
@@ -38,7 +38,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Looking for expert painting and masonry services near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC offers top-quality interior/exterior painting and masonry solutions across New York City.",
+    "Premium interior painting, plaster repair, and masonry services in NYC. We specialize in brownstone restoration and flawless finishes in Brooklyn, Manhattan, and Queens.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",
@@ -71,7 +71,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }
