@@ -5,9 +5,9 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Professional Roof Restoration & Weatherproofing Services in NYC | Infinity Construction",
+    "Roof Restoration & Weatherproofing NYC | Infinity Construction",
   description:
-    "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
+    "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
   keywords: [
     "roof restoration NYC",
     "weatherproofing services",
@@ -20,9 +20,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Professional Roof Restoration & Weatherproofing Services in NYC | Infinity Construction",
+      "Roof Restoration & Weatherproofing NYC | Infinity Construction",
     description:
-      "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
+      "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
     url: "https://www.infinityconstructionnyc.com/roof-restoration-and-weatherproofing",
     images: [
       {
@@ -46,7 +46,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Need professional roof restoration and weatherproofing near you in Brooklyn, Queens, The Bronx, or Manhattan? Infinity Construction NYC provides expert roofing solutions to protect your property across New York City.",
+    "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",
@@ -79,7 +79,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }

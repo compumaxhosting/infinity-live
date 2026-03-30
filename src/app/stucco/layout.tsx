@@ -5,9 +5,9 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Stucco & Waterproofing Services NYC | Exterior, Parapet & Retaining Walls",
+    "Stucco Restoration & Waterproofing Services in NYC | Infinity Construction",
   description:
-    "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
+    "Expert protection for exterior walls, parapets, and retaining walls. Professional stucco restoration and waterproofing in NYC to stop water intrusion and structural decay.",
   keywords: [
     "stucco restoration NYC",
     "waterproofing services New York",
@@ -20,9 +20,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Stucco & Waterproofing Services NYC | Exterior, Parapet & Retaining Walls",
+      "Stucco Restoration & Waterproofing Services in NYC | Infinity Construction",
     description:
-      "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
+      "Expert protection for exterior walls, parapets, and retaining walls. Professional stucco restoration and waterproofing in NYC to stop water intrusion and structural decay.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
@@ -46,7 +46,7 @@ const schemaData = {
   logo: "https://www.infinityconstructionnyc.com/logo.png",
   image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
   description:
-    "Professional stucco restoration and waterproofing services for exterior walls, parapets, and retaining walls in NYC. Protect your property with our certified solutions.",
+    "Expert protection for exterior walls, parapets, and retaining walls. Professional stucco restoration and waterproofing in NYC to stop water intrusion and structural decay.",
   address: {
     "@type": "PostalAddress",
     streetAddress: " 1809 Albany Ave ",
@@ -77,9 +77,9 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
       {/* No extra content like Header or Footer here */}
       {children} {/* Only the content from the About page will be rendered */}
       <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
-    </div>
-  );
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+    </div>
+  );
 }

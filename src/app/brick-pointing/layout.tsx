@@ -5,9 +5,9 @@ import { ReactNode } from "react";
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
   title:
-    "Professional Brick Pointing &amp; Waterproofing Services in NYC | Infinity Construction",
+    "Professional Brick Pointing & Waterproofing NYC | Infinity Construction",
   description:
-    "Expert brick repointing, tuckpointing and waterproofing solutions for NYC buildings. Protect and restore your masonry with our certified services.",
+    "Expert brick repointing and masonry waterproofing in NYC. We fix cracked mortar and stop leaks in Brooklyn, Manhattan, Queens, and The Bronx. Get a free estimate today.",
   keywords: [
     "brick pointing NYC",
     "tuckpointing services",
@@ -20,9 +20,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Professional Brick Pointing &amp; Waterproofing Services in NYC | Infinity Construction",
+      "Professional Brick Pointing & Waterproofing NYC | Infinity Construction",
     description:
-      "Expert brick repointing, tuckpointing and waterproofing solutions for NYC buildings. Protect and restore your masonry with our certified services.",
+      "Expert brick repointing and masonry waterproofing in NYC. We fix cracked mortar and stop leaks in Brooklyn, Manhattan, Queens, and The Bronx. Get a free estimate today.",
     url: "https://www.infinityconstructionnyc.com/brick-pointing",
     images: [
       {
@@ -79,7 +79,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import { ReactNode } from "react";
 
 export const metadata = {
-  title: "Fire Escape & Metal Restoration NYC | Infinity Construction",
+  title: "NYC Fire Escape Restoration & Metal Painting | Infinity Construction",
   description:
-    "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
+    "Professional fire escape repair and scrap-to-paint restoration in NYC. We ensure FDNY & DOB compliance for buildings in Brooklyn, Manhattan, Queens, and The Bronx.",
   keywords: [
     "fire escape restoration NYC",
     "metal railing repair",
@@ -16,9 +16,9 @@ export const metadata = {
   ],
   openGraph: {
     title:
-      "Fire Escape Restoration Services in Brooklyn, Queens, Bronx & Manhattan NYC",
+      "NYC Fire Escape Restoration & Metal Painting | Infinity Construction",
     description:
-      "Professional fire escape, metal railing & fence restoration services in NYC. Certified safety compliance, rust removal, and structural reinforcement.",
+      "Professional fire escape repair and scrap-to-paint restoration in NYC. We ensure FDNY & DOB compliance for buildings in Brooklyn, Manhattan, Queens, and The Bronx.",
     url: "https://www.infinityconstructionnyc.com/fire-escape-restoration",
     images: [
       {
@@ -75,7 +75,7 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-         
+
     </div>
   );
 }
