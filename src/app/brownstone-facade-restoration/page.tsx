@@ -20,7 +20,7 @@ const BrickCMULayeringPage = () => {
           className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
-          {/* ✅ H1 */}
+          {/* H1 */}
           <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6">
             Expert Brick and CMU Block Laying in NYC
           </h1>
@@ -29,14 +29,23 @@ const BrickCMULayeringPage = () => {
             High-Strength Masonry for Residential and Commercial Projects
           </p>
 
+          {/* TOP CTA */}
           <section className="mb-10">
             <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
-              <p className="text-xl sm:text-2xl mb-4 text-orange-600">
-                Call <a href={contactPhoneHref} className="underline">{contactPhone}</a> for immediate masonry consultation in NYC.
+              <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
+                Call{" "}
+                <a
+                  href={contactPhoneHref}
+                  className="underline font-extrabold"
+                >
+                  {contactPhone}
+                </a>{" "}
+                for immediate masonry consultation in NYC.
               </p>
+
               <Link
                 href="/contact"
-                className="inline-block bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-8 rounded-lg transition duration-300"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
               >
                 Request a Quote
               </Link>
@@ -56,9 +65,11 @@ const BrickCMULayeringPage = () => {
               masonry.
             </p>
 
-            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+            {/* H2 */}
+            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
               The Foundation of Quality: Brick & CMU Block Masonry
-            </p>
+            </h2>
+
             <p className="text-justify mb-6">
               In the demanding environment of New York City construction, the
               strength of your building depends on the precision of its masonry.
@@ -71,15 +82,18 @@ const BrickCMULayeringPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row gap-10 items-start">
-              {/* Content Section (2/3) */}
+              {/* Content */}
               <div className="w-full lg:w-2/3">
+                {/* H2 */}
                 <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
                   Our Core Masonry Services
                 </h2>
 
+                {/* H3 */}
                 <h3 className="text-xl sm:text-2xl mb-2">
                   Decorative & Structural Brick Laying
                 </h3>
+
                 <p className="mb-2">
                   Brick is more than just a facade; it is a shield against the
                   elements. Our skilled masons specialize in:
@@ -94,20 +108,26 @@ const BrickCMULayeringPage = () => {
                     English bonds.
                   </li>
                   <li>
-                    <span className="font-medium">Architectural Details:</span>{" "}
+                    <span className="font-medium">
+                      Architectural Details:
+                    </span>{" "}
                     Expertly crafted brick arches, lintels, and decorative
                     cornices.
                   </li>
                   <li>
-                    <span className="font-medium">Facade Strengthening:</span>{" "}
+                    <span className="font-medium">
+                      Facade Strengthening:
+                    </span>{" "}
                     Ensuring every brick is perfectly aligned with high-quality
                     mortar.
                   </li>
                 </ul>
 
+                {/* H3 */}
                 <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
                   CMU Block Installation for Maximum Strength
                 </h3>
+
                 <p className="mb-2">
                   When your project requires load-bearing reliability, Concrete
                   Masonry Units (CMU) are the industry standard. We provide:
@@ -122,18 +142,24 @@ const BrickCMULayeringPage = () => {
                     blocks.
                   </li>
                   <li>
-                    <span className="font-medium">Retaining Walls:</span>{" "}
+                    <span className="font-medium">
+                      Retaining Walls:
+                    </span>{" "}
                     Engineered to manage soil pressure and drainage.
                   </li>
                   <li>
-                    <span className="font-medium">Structural Integration:</span>{" "}
+                    <span className="font-medium">
+                      Structural Integration:
+                    </span>{" "}
                     Seamless integration with plumbing and reinforcements.
                   </li>
                 </ul>
 
+                {/* H3 */}
                 <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
                   Seamless Material Integration
                 </h3>
+
                 <p className="mb-6">
                   We combine CMU structural cores with brick veneers using
                   professional ties and moisture barriers to prevent long-term
@@ -141,33 +167,31 @@ const BrickCMULayeringPage = () => {
                 </p>
               </div>
 
-              {/* Image Section (1/3) */}
+              {/* Images */}
               <div className="w-full lg:w-1/3">
                 <div className="space-y-8">
-                  {/* Before */}
                   <div className="text-center">
                     <p className="text-base sm:text-lg font-semibold mb-3">
                       Before
                     </p>
-                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden flex items-center justify-center">
+                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden">
                       <Image
                         src="/stucco/stucco-img-2.webp"
-                        alt="Before masonry work condition"
+                        alt="Before masonry work showing damaged wall surface prior to brick and CMU restoration in NYC"
                         fill
                         className="object-contain"
                       />
                     </div>
                   </div>
 
-                  {/* After */}
                   <div className="text-center">
                     <p className="text-base sm:text-lg font-semibold mb-3">
                       After
                     </p>
-                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden flex items-center justify-center">
+                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden">
                       <Image
                         src="/stucco/after-image.webp"
-                        alt="After masonry restoration completed"
+                        alt="After masonry restoration showing completed brick and CMU block work with clean structural finish"
                         fill
                         className="object-contain"
                       />
@@ -178,11 +202,11 @@ const BrickCMULayeringPage = () => {
             </div>
           </section>
 
-          {/* Comparison Table */}
+          {/* TABLE */}
           <section className="mb-10">
-            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
               Technical Comparison: Brick vs. CMU Blocks
-            </p>
+            </h2>
 
             <div className="overflow-x-auto">
               <table className="table-auto w-full border border-gray-300 text-left">
@@ -193,6 +217,7 @@ const BrickCMULayeringPage = () => {
                     <th className="p-3 border">CMU Block Masonry</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   <tr>
                     <td className="p-3 border">Primary Use</td>
@@ -203,6 +228,7 @@ const BrickCMULayeringPage = () => {
                       Foundations, load-bearing walls and cores.
                     </td>
                   </tr>
+
                   <tr>
                     <td className="p-3 border">Main Benefit</td>
                     <td className="p-3 border">
@@ -212,6 +238,7 @@ const BrickCMULayeringPage = () => {
                       Superior strength & fire rating
                     </td>
                   </tr>
+
                   <tr>
                     <td className="p-3 border">NYC Context</td>
                     <td className="p-3 border">
@@ -228,11 +255,11 @@ const BrickCMULayeringPage = () => {
 
           <FaqNew />
 
-          {/* Why Choose */}
+          {/* WHY CHOOSE */}
           <section className="mb-10">
-            <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
               Why Choose Infinity Construction NYC?
-            </p>
+            </h2>
 
             <ul className="list-disc pl-6 space-y-3">
               <li>
@@ -257,10 +284,10 @@ const BrickCMULayeringPage = () => {
             </ul>
           </section>
 
-          {/* Bottom CTA */}
+          {/* BOTTOM CTA */}
           <section className="mt-12 mb-10 px-4">
             <div className="max-w-2xl mx-auto text-center">
-              <p className="text-xl sm:text-2xl mb-4 text-orange-600">
+              <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
                 Start Your Project with a Free Consultation
               </p>
 
@@ -270,14 +297,15 @@ const BrickCMULayeringPage = () => {
                 Construction NYC.
               </p>
 
-              {/* Contact Info */}
               <div className="flex flex-col items-center gap-3 mb-6 text-base sm:text-lg">
                 <a
-                  href="tel:13471234567"
-                  className="flex items-center gap-2 hover:text-primary transition"
+                  href={contactPhoneHref}
+                  className="flex items-center gap-2 hover:text-primary transition font-bold"
                 >
                   <Phone size={20} />
-                  <span className="font-semibold">347 939 5779</span>
+                  <span className="font-extrabold">
+                    {contactPhone}
+                  </span>
                 </a>
 
                 <a
@@ -290,12 +318,20 @@ const BrickCMULayeringPage = () => {
 
                 <Link
                   href="/"
-                  className="flex items-center gap-2 hover:text-primary transition" target="_blank"
+                  className="flex items-center gap-2 hover:text-primary transition"
+                  target="_blank"
                 >
                   <Globe size={20} />
                   <span>www.infinityconstructionnyc.com</span>
                 </Link>
               </div>
+
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300 mb-4"
+              >
+                Request a Quote
+              </Link>
 
               <p className="mt-6 font-semibold text-gray-800">
                 Quality Masonry. Built to Last.

@@ -53,7 +53,7 @@ const HistoricalLandmarkRestorationPage = () => {
                 itemProp="image"
               />
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                New York City&apos;s architectural history is defined by its iconic limestone and brownstone structures. At <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC, we provide specialized restoration services that balance structural integrity with historical preservation. Whether it is a 19th-century townhouse in Brooklyn Heights or a limestone estate in the Upper East Side, our team ensures every project meets the strict standards of the Landmarks Preservation Commission (LPC).
+                New York City&apos;s architectural history is defined by its iconic limestone and brownstone structures. At <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>, we provide specialized restoration services that balance structural integrity with historical preservation. Whether it is a 19th-century townhouse in Brooklyn Heights or a limestone estate in the Upper East Side, our team ensures every project meets the strict standards of the Landmarks Preservation Commission (LPC).
               </p>
             </div>
 

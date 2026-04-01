@@ -49,7 +49,7 @@ const RoofRestorationPage = () => {
                 itemProp="image"
               />
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                Roof restoration and weatherproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC includes leak detection, membrane repair, and protective coatings. Designed for residential and commercial owners, this service stops active leaks and extends roof life, providing a durable, weather-resistant shield against New York&apos;s intense seasonal elements.
+                Roof restoration and weatherproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  includes leak detection, membrane repair, and protective coatings. Designed for residential and commercial owners, this service stops active leaks and extends roof life, providing a durable, weather-resistant shield against New York&apos;s intense seasonal elements.
               </p>
             </div>
 

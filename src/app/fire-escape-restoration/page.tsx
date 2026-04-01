@@ -53,7 +53,7 @@ const FireEscapeRestorationPage = () => {
               priority
             />
             <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-              Professional fire escape restoration in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC includes rust removal, structural welding, and weather-resistant coating. This service is for building owners needing to meet FDNY safety codes, providing essential emergency egress reliability, preventing legal violations, and extending the lifespan of metal structures.
+              Professional fire escape restoration in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  includes rust removal, structural welding, and weather-resistant coating. This service is for building owners needing to meet FDNY safety codes, providing essential emergency egress reliability, preventing legal violations, and extending the lifespan of metal structures.
             </p>
           </div>
 

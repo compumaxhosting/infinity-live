@@ -49,7 +49,7 @@ const Page = () => {
                 itemProp="image"
               />
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                Professional painting and masonry in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC includes expert plaster repair, moisture-resistant treatments, and premium interior painting. Ideal for homeowners and renovators, our service ensures perfectly smooth, durable walls and vibrant finishes that enhance property value and interior aesthetic across all five boroughs.
+                Professional painting and masonry in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  includes expert plaster repair, moisture-resistant treatments, and premium interior painting. Ideal for homeowners and renovators, our service ensures perfectly smooth, durable walls and vibrant finishes that enhance property value and interior aesthetic across all five boroughs.
               </p>
             </div>
 

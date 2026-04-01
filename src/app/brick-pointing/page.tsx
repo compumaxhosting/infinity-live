@@ -57,7 +57,7 @@ const BrickPointingWaterproofingPage = () => {
                 itemProp="image"
               />
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                Brick pointing and waterproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC involves removing decayed mortar and applying breathable sealants. Ideal for owners of aging masonry, this service prevents water infiltration and structural spalling, significantly extending the life of your building while maintaining its historical aesthetic.
+                Brick pointing and waterproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link> involves removing decayed mortar and applying breathable sealants. Ideal for owners of aging masonry, this service prevents water infiltration and structural spalling, significantly extending the life of your building while maintaining its historical aesthetic.
               </p>
             </div>
 

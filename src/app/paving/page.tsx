@@ -50,7 +50,7 @@ const Page = () => {
               />
 
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                Professional paving in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC includes the expert installation and restoration of concrete, natural stone, and brick surfaces. Ideal for homeowners seeking durable driveways or luxury patios, our service ensures weather-resistant, high-aesthetic outdoor spaces that boost property value and structural longevity.
+                Professional paving in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  includes the expert installation and restoration of concrete, natural stone, and brick surfaces. Ideal for homeowners seeking durable driveways or luxury patios, our service ensures weather-resistant, high-aesthetic outdoor spaces that boost property value and structural longevity.
               </p>
             </div>
 
