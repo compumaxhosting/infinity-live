@@ -24,7 +24,7 @@ const HistoricalLandmarkRestorationPage = () => {
             </h1>
 
             <p className="text-xl sm:text-2xl mb-4 text-orange-600">
-              Preserving the Architectural Heritage of Brooklyn, Manhattan, Queens, and The Bronx with LPC-Compliant Masonry.
+              Premium Historical Landmark Restoration in NYC Brooklyn, Manhattan, Queens, and The Bronx with LPC-Compliant Masonry.
             </p>
 
             <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center mb-8">
@@ -53,7 +53,7 @@ const HistoricalLandmarkRestorationPage = () => {
                 itemProp="image"
               />
               <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-                New York City&apos;s architectural history is defined by its iconic limestone and brownstone structures. At <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC, we provide specialized restoration services that balance structural integrity with historical preservation. Whether it is a 19th-century townhouse in Brooklyn Heights or a limestone estate in the Upper East Side, our team ensures every project meets the strict standards of the Landmarks Preservation Commission (LPC).
+                New York City&apos;s architectural history is defined by its iconic limestone and brownstone structures. At <Link href="/" className="text-orange-500">Infinity Construction NYC</Link> , we provide specialized restoration services that balance structural integrity with historical preservation. Whether it is a 19th-century townhouse in Brooklyn Heights or a limestone estate in the Upper East Side, our team ensures every project meets the strict standards of the Landmarks Preservation Commission (LPC).
               </p>
             </div>
 
@@ -239,4 +239,4 @@ const HistoricalLandmarkRestorationPage = () => {
   );
 };
 
-export default HistoricalLandmarkRestorationPage;
+export default HistoricalLandmarkRestorationPage; 

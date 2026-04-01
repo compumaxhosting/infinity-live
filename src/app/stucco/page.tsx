@@ -61,7 +61,7 @@ const StuccoWaterproofingPage = () => {
 
               <div className="max-w-5xl mx-auto">
                 <p className="text-center" itemProp="description">
-                  Stucco restoration and waterproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction</Link> NYC protects residential and commercial buildings from structural decay. This service includes crack repair, reinforcement, and premium coatings. It is essential for owners facing water seepage, providing a long-lasting, weather-resistant barrier against New York&apos;s harsh elements.
+                  Stucco restoration and waterproofing in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  protects residential and commercial buildings from structural decay. This service includes crack repair, reinforcement, and premium coatings. It is essential for owners facing water seepage, providing a long-lasting, weather-resistant barrier against New York&apos;s harsh elements.
                 </p>
               </div>
             </div>
