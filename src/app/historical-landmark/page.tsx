@@ -24,7 +24,7 @@ const HistoricalLandmarkRestorationPage = () => {
             </h1>
 
             <p className="text-xl sm:text-2xl mb-4 text-orange-600">
-              Preserving the Architectural Heritage of Brooklyn, Manhattan, Queens, and The Bronx with LPC-Compliant Masonry.
+              Premium Historical Landmark Restoration in NYC Brooklyn, Manhattan, Queens, and The Bronx with LPC-Compliant Masonry.
             </p>
 
             <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center mb-8">
