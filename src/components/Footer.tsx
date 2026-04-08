@@ -6,6 +6,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaLinkedin,
+  FaTiktok,
   FaYelp,
 } from "react-icons/fa";
 import Image from "next/image";
@@ -284,11 +285,18 @@ const Footer = () => {
                   name: "Brownstoner",
                   url: "https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/",
                   icon: (
-                    <FaExternalLinkAlt className="text-gray-100 text-xl group-hover:scale-110 transition-transform mr-2" />
+                    <FaExternalLinkAlt className="text-gray-100 text-xl group-hover:scale-110 transition-transform mr-4" />
                   ),
                   text: "Brownstoner",
                   color: "from-amber-500 to-amber-700",
-                  colSpan: "col-span-2",
+                },
+                {
+                  name: "TikTok",
+                  url: "https://www.tiktok.com/@infinityconstructionnyc",
+                  icon: (
+                    <FaTiktok className="text-gray-100 text-xl group-hover:scale-110 transition-transform" />
+                  ),
+                  color: "from-amber-500 to-amber-700",
                 },
               ].map((social) => (
                 <Link
@@ -298,9 +306,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className={`bg-slate-800 hover:bg-gradient-to-br ${
                     social.color
-                  } p-3 rounded-lg flex items-center justify-center transition-all duration-300 group ${
-                    social.colSpan || ""
-                  }`}
+                  } p-3 rounded-lg flex items-center justify-center transition-all duration-300 group `}
                   aria-label={`${social.name} profile`}
                   itemProp="sameAs"
                 >
