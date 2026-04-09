@@ -32,7 +32,7 @@ export const BlogsData: Blog[] = [
         helps homeowners plan effectively and protect their property investment.
       </>
     ),
-    image: "/blog/blog-project-guide.png",
+    image: "/blog/blog-project-guide.webp",
     sections: [
       {
         title: "Initial Inspection and Assessment",

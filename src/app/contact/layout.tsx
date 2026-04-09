@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/contact",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -35,8 +35,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Get in touch with Infinity Construction NYC 347 939 5779 for expert roofing, masonry, and restoration services. Serving Brooklyn, Queens, The Bronx, and Manhattan. Call or message us today for a free estimate!",
   address: {

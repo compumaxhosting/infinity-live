@@ -1,7 +1,7 @@
 export const specialityData = [
   {
     id: 1,
-    imageUrl: "/img-3.jpeg",
+    imageUrl: "/img-3.webp",
     heading: "Historical Landmark Brownstone/Limestone Restoration",
     path: "/historical-landmark",
     description:
@@ -9,7 +9,7 @@ export const specialityData = [
   },
   {
     id: 2,
-    imageUrl: "/services-img-1.jpg",
+    imageUrl: "/services-img-1.webp",
     heading: "Stucco/Waterproofing of Exterior, Parapet, and Retaining Walls",
     path: "/stucco",
     description:
@@ -17,7 +17,7 @@ export const specialityData = [
   },
   {
     id: 3,
-    imageUrl: "/cmu-block-layering.jpg",
+    imageUrl: "/cmu-block-layering.webp",
     heading: "Brick and CMU Block Laying",
     path: "/brownstone-facade-restoration",
     description:
@@ -25,7 +25,7 @@ export const specialityData = [
   },
   {
     id: 4,
-    imageUrl: "/services-img-4.jpg",
+    imageUrl: "/services-img-4.webp",
     heading: "Roof Restoration and Weatherproofing",
     path: "/roof-restoration-and-weatherproofing",
     description:
@@ -34,7 +34,7 @@ export const specialityData = [
 
   {
     id: 5,
-    imageUrl: "/brick-pointing.jpg",
+    imageUrl: "/brick-pointing.webp",
     heading: "Brick Pointing and Waterproofing",
     path: "/brick-pointing",
     description:
@@ -43,7 +43,7 @@ export const specialityData = [
 
   {
     id: 6,
-    imageUrl: "/services-img-2.jpeg",
+    imageUrl: "/services-img-2.webp",
     heading: "Fire Escape, Metal Railings, and Fence Restoration",
     path: "/fire-escape-restoration",
     description:
@@ -52,7 +52,7 @@ export const specialityData = [
 
   {
     id: 7,
-    imageUrl: "/stone-pointing.jpg",
+    imageUrl: "/stone-pointing.webp",
     heading: "Concrete/Stone/Brick Paving",
     path: "/paving",
     description:
@@ -61,7 +61,7 @@ export const specialityData = [
 
   {
     id: 8,
-    imageUrl: "/services-img-3.jpeg",
+    imageUrl: "/services-img-3.webp",
     heading: "Painting and Masonry",
     path: "/painting-and-masonry",
     description:

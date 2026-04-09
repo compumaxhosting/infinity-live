@@ -13,6 +13,9 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Maintain Your Brownstone Building Year-Round",
+      path: "/blog/maintaining-historical-landmark-brownstones",
+    }, {
       name: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
       path: "/blog/sustainable-upgrades-historic-brownstones-nyc",
     },
@@ -187,7 +190,7 @@ export function BlogsOverview() {
               transition={{ duration: 0.4, ease: "easeInOut" }}
               className="fixed w-[100vw] z-50 inset-0 flex items-center justify-center bg-black/50 backdrop-blur-sm px-4"
             >
-              <div className="relative bg-white mt-40 border border-gray-200 rounded-xl w-full max-w-3xl shadow-2xl px-8 py-10 transition-all duration-300 ease-in-out">
+              <div className="relative bg-white mt-20 md:mt-40 border border-gray-200 rounded-xl w-full max-w-3xl shadow-2xl px-8 py-10 transition-all duration-300 ease-in-out">
                 <button
                   onClick={() => setIsOpen(false)}
                   className="absolute top-4 right-4 p-1 rounded-full bg-gray-100 hover:bg-gray-200 transition"
@@ -204,7 +207,7 @@ export function BlogsOverview() {
                   {plans.map((plan, index) => (
                     <Link key={index} href={plan.path}>
                       <div
-                        className="group p-1 min-h-[80px] flex items-center justify-center text-center rounded-lg bg-gray-300 hover:bg-primary shadow-sm hover:shadow-md transition-all"
+                        className="group p-1 min-h-12 md:min-h-[80px] flex items-center justify-center text-center rounded-lg bg-gray-300 hover:bg-primary shadow-sm hover:shadow-md transition-all"
                         onClick={() => setIsOpen(false)}
                       >
                         <p className="text-sm font-semibold text-gray-800 group-hover:text-white leading-snug">

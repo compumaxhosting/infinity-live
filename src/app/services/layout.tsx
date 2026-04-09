@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -35,8 +35,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Infinity Construction NYC offers expert construction services near you in Brooklyn, Queens, The Bronx & Manhattan. Specializing in roofing, masonry, brownstone restoration, and waterproofing solutions across New York City.",
   address: {

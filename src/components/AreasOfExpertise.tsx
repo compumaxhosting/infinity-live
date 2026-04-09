@@ -7,14 +7,14 @@ const expertiseData = [
     title: "Commercial",
     description:
       "Customized professional services to meet your needs. From initial planning to final execution, we offer tailored solutions to help you bring your commercial vision to life.",
-    image: "/services-img-1.jpg", // Replace with the actual image path
+    image: "/services-img-1.webp", // Replace with the actual image path
   },
   {
     id: 2,
     title: "Residential",
     description:
       "We provide expert guidance to help every step of the way. From planning your perfect home to the final construction, we deliver exceptional results and unmatched quality.",
-    image: "/services-img-4.jpg", // Replace with the actual image path
+    image: "/services-img-4.webp", // Replace with the actual image path
   },
 ];
 

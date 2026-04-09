@@ -17,7 +17,7 @@ const HeaderSpecial: React.FC = () => {
           {/* Logo */}
           <Link href="/" aria-label="Infinity Construction NYC – home">
             <Image
-              src="/infinity logo.png"
+              src="/infinity logo.webp"
               alt="Infinity Construction NYC Logo"
               width={60}
               height={60}

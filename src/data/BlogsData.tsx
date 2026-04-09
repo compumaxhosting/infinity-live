@@ -21,6 +21,174 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone repair, masonry maintenance, historical landmark restoration, NYC brownstone, brownstone spalling, lime mortar repointing",
+    title:
+      "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
+    slug: "maintaining-historical-landmark-brownstones",
+
+    description: (
+      <>
+        <p>
+          Owning a brownstone is like owning a piece of history. Whether you are
+          in Brooklyn, Manhattan, or Jersey City, these iconic sandstone
+          structures require specialized care to prevent the
+          &quot;spalling&quot; (flaking) and erosion that often plagues older
+          masonry.
+        </p>
+
+        <p>
+          To preserve the structural integrity and aesthetic charm of your
+          property, follow this seasonal maintenance checklist tailored for the
+          unique needs of historical landmarks.
+        </p>
+      </>
+    ),
+
+    image: "/blog/img-27.webp",
+
+    sections: [
+      {
+        title: "Spring: The Detailed Inspection",
+        paragraph: (
+          <>
+            <p>
+              Spring is the most critical time for brownstone owners. After a
+              harsh winter of freeze-thaw cycles, your priority is identifying
+              water infiltration points.
+            </p>
+            <ul>
+              <li>
+                <span className="text-primary"> Check for Spalling:</span> Look
+                for areas where the brownstone surface is flaking off. This is
+                usually caused by water getting trapped behind the stone.
+              </li>
+              <li>
+                <span className="text-primary"> Inspect the Stoop:</span> The
+                stoop is often the first area to show cracks. Early intervention
+                can prevent a full (and expensive) rebuild.
+              </li>
+              <li>
+                <span className="text-primary"> Window Caulking:</span> Inspect
+                the seals around your windows. Replacing old caulk prevents
+                spring rain from reaching the soft interior masonry.
+              </li>
+            </ul>
+            <p>
+              If you notice significant stone loss, it may be time to consult
+              experts in{" "}
+              <Link href="/historical-landmark"> historical landmark</Link>{" "}
+              restoration to ensure the materials used match the original
+              chemical composition of the stone.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Summer: Masonry and Roof Care",
+        paragraph: (
+          <>
+            <p>
+              The dry summer heat is the ideal window for &quot;wet work&quot;
+              like pointing and patching.
+            </p>
+            <ul>
+              <li>
+                <span className="text-primary">Repointing (Tuckpointing):</span>{" "}
+                If the mortar between your stones is crumbling, it needs to be
+                replaced. Ensure your contractor uses lime-based mortar, as
+                modern Portland cement is too hard for brownstone and will cause
+                the stone to crack.
+              </li>
+              <li>
+                <span className="text-primary">Roof and Cornice Check:</span>{" "}
+                Brownstones often have flat roofs and ornate metal cornices.
+                Summer is the time to scrape and paint the cornice to prevent
+                rust and to check the roof membrane for heat-induced blistering.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Fall: Water Management",
+        paragraph: (
+          <>
+            <p>
+              In the autumn, your goal is to keep water flowing away from the
+              building. Brownstone is incredibly porous; if it stays wet, it
+              will degrade.
+            </p>
+            <ul>
+              <li>
+                <span className="text-primary">Gutter Cleaning:</span> Clogged
+                gutters lead to water overflowing directly onto the facade. This
+                is the primary cause of brownstone erosion.
+              </li>
+              <li>
+                <span className="text-primary">Check the Parapet:</span> Ensure
+                the top of your building&apos;s wall is sealed. A leaky parapet
+                allows water to seep down inside the walls, causing hidden
+                damage.
+              </li>
+              <li>
+                <span className="text-primary">Boiler Service:</span> While not
+                part of the stone, a well-maintained heating system prevents
+                internal condensation that can affect your exterior walls.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Winter: Protection and Prevention",
+        paragraph: (
+          <>
+            <p>Winter is about mitigating the damage caused by ice and salt.</p>
+            <ul>
+              <li>
+                <span className="text-primary">Avoid De-Icing Salts:</span>{" "}
+                Never use traditional rock salt (sodium chloride) on brownstone
+                steps or sidewalks. The chemicals react with the stone, causing
+                it to disintegrate rapidly. Use sand or calcium magnesium
+                acetate (CMA) instead.
+              </li>
+              <li>
+                <span className="text-primary">Monitor Interior Moisture:</span>{" "}
+                If you notice peeling paint on the inside of your exterior
+                walls, it’s a sign that the stone is &quot;breathing&quot; out
+                moisture.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Why Specialized Care Matters",
+        paragraph: (
+          <>
+            <p>
+              Brownstone is a delicate material. Many owners make the mistake of
+              using DIY patches or waterproof sealants that actually trap
+              moisture inside, causing the stone to explode from the inside out.
+            </p>
+            <p>
+              For any repairs involving your building&apos;s facade, always work
+              with a contractor who specializes in{" "}
+              <Link href="/historical-landmark"> historical landmark </Link>{" "}
+              preservation to maintain the property’s value and heritage.
+            </p>
+          </>
+        ),
+      },
+    ],
+
+    metatitle: "Brownstone Maintenance Guide: Protect Your Historical Building",
+
+    metadescription:
+      "Prevent brownstone spalling and erosion with our seasonal maintenance guide. Learn how to protect your NYC or NJ historical landmark building year-round.",
+  },
+  {
+    keywords:
       "historic brownstone upgrades, sustainable brownstone renovation, NYC brownstone restoration, energy-efficient brownstones, landmark home improvements, eco-friendly brownstone NYC, brownstone insulation upgrade, green renovation NYC, historic property sustainability, brownstone energy savings",
     title: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
     slug: "sustainable-upgrades-historic-brownstones-nyc",
@@ -33,7 +201,7 @@ export const BlogsData: Blog[] = [
         both heritage and performance.
       </>
     ),
-    image: "/blog/sustainable.png",
+    image: "/blog/sustainable.webp",
     sections: [
       {
         title: "Why Sustainability Matters for Brownstones",
@@ -147,7 +315,7 @@ export const BlogsData: Blog[] = [
         low-maintenance buildings.
       </>
     ),
-    image: "/blog/blog-new.png",
+    image: "/blog/blog-new.webp",
     sections: [
       {
         title: "What Are CMU Blocks and How Are They Used?",
@@ -333,7 +501,7 @@ export const BlogsData: Blog[] = [
         helps homeowners plan effectively and protect their property investment.
       </>
     ),
-    image: "/blog/blog-project-guide.png",
+    image: "/blog/blog-project-guide.webp",
     sections: [
       {
         title: "Initial Inspection and Assessment",
@@ -445,7 +613,7 @@ export const BlogsData: Blog[] = [
         charm.
       </>
     ),
-    image: "/blog/blog-brownstone.jpg",
+    image: "/blog/blog-brownstone.webp",
     sections: [
       {
         title: "",
@@ -574,7 +742,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/blog-problem.jpeg",
+    image: "/blog/blog-problem.webp",
     sections: [
       {
         title: "Deteriorating Brownstone Facades",
@@ -706,7 +874,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/blog-mistakes.png",
+    image: "/blog/blog-mistakes.webp",
     sections: [
       {
         title: "",
@@ -1131,7 +1299,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/blog-guide2.png",
+    image: "/blog/blog-guide2.webp",
     sections: [
       {
         title: "",
@@ -1523,7 +1691,7 @@ export const BlogsData: Blog[] = [
         </h1>
       </>
     ),
-    image: "/blog/blog-historic.png",
+    image: "/blog/blog-historic.webp",
     sections: [
       {
         title: "Understanding the Unique Features of New York Brownstones",
@@ -2176,7 +2344,7 @@ export const BlogsData: Blog[] = [
         10. Conclusion: Protect Your Investment
       </>
     ),
-    image: "/blog/img-23.jpg",
+    image: "/blog/img-23.webp",
     sections: [
       {
         title: "1. Introduction: Importance of Maintaining Brownstones",
@@ -2370,7 +2538,7 @@ export const BlogsData: Blog[] = [
         Infinity Construction NYC stands at the forefront.
       </>
     ),
-    image: "/blog/img-22.jpg",
+    image: "/blog/img-22.webp",
     sections: [
       {
         title: "What Sets Infinity Construction NYC Apart?",
@@ -2482,7 +2650,7 @@ export const BlogsData: Blog[] = [
         Construction NYC INC this is our main priority.
       </>
     ),
-    image: "/blog/img-24.jpg",
+    image: "/blog/img-24.webp",
     sections: [
       {
         title: "THE PHASES :",
@@ -2613,7 +2781,7 @@ export const BlogsData: Blog[] = [
         their elegance and structural integrity.
       </>
     ),
-    image: "/blog/img-1.jpg",
+    image: "/blog/img-1.webp",
     sections: [
       {
         title: "",
@@ -2643,7 +2811,7 @@ export const BlogsData: Blog[] = [
               <div className="w-full max-w-md mx-auto">
                 <div className="rounded-3xl overflow-hidden shadow-xl md:shadow-2xl border border-gray-200">
                   <Image
-                    src="/blog/img-1b.jpg"
+                    src="/blog/img-1b.webp"
                     alt="Brownstone Restoration"
                     width={700}
                     height={500}
@@ -2759,7 +2927,7 @@ export const BlogsData: Blog[] = [
         beauty of your brownstone.
       </>
     ),
-    image: "/blog/img-2.jpg",
+    image: "/blog/img-2.webp",
     sections: [
       {
         title: "1. Understanding the Importance of the Brownstone Restoration",
@@ -2891,7 +3059,7 @@ export const BlogsData: Blog[] = [
         project.
       </>
     ),
-    image: "/blog/img-3.jpg",
+    image: "/blog/img-3.webp",
     sections: [
       {
         title: "Expertise in Historical Architecture",
@@ -3015,7 +3183,7 @@ export const BlogsData: Blog[] = [
         size, budget, and individual preferences.
       </>
     ),
-    image: "/blog/img-4.jpg",
+    image: "/blog/img-4.webp",
     sections: [
       {
         title: "Mini Split Systems",
@@ -3166,7 +3334,7 @@ export const BlogsData: Blog[] = [
         hand-scrape a floor:
       </>
     ),
-    image: "/blog/img-5.jpg",
+    image: "/blog/img-5.webp",
     sections: [
       {
         title: "Materials You Will Need",
@@ -3389,7 +3557,7 @@ export const BlogsData: Blog[] = [
         bricks:
       </>
     ),
-    image: "/blog/img-6.jpg",
+    image: "/blog/img-6.webp",
     sections: [
       {
         title: "Materials You Will Need:",
@@ -3566,7 +3734,7 @@ export const BlogsData: Blog[] = [
         adhesive, mortar, or other appropriate fastening methods.
       </>
     ),
-    image: "/blog/img-7.jpg",
+    image: "/blog/img-7.webp",
     sections: [
       {
         title: "Key Points",
@@ -3886,7 +4054,7 @@ export const BlogsData: Blog[] = [
         offer.
       </>
     ),
-    image: "/blog/img-8.jpg",
+    image: "/blog/img-8.webp",
     sections: [
       {
         title: "Understanding Waterproof Caulking:",
@@ -4133,7 +4301,7 @@ export const BlogsData: Blog[] = [
         benefits, various types, and practical applications.
       </>
     ),
-    image: "/blog/img-9.jpg",
+    image: "/blog/img-9.webp",
     sections: [
       {
         title: "Understanding Composite Masonry:",
@@ -4494,7 +4662,7 @@ export const BlogsData: Blog[] = [
         need for excessive mortar or other binding materials.
       </>
     ),
-    image: "/blog/img-10.jpg",
+    image: "/blog/img-10.webp",
     sections: [
       {
         title:
@@ -4804,7 +4972,7 @@ export const BlogsData: Blog[] = [
         repair them effectively.
       </>
     ),
-    image: "/blog/img-11.jpg",
+    image: "/blog/img-11.webp",
     sections: [
       {
         title: "HOW LEADED WINDOWS ARE MADE :",

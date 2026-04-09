@@ -10,7 +10,7 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      src: "/portfolio/before-after.png",
+      src: "/portfolio/before-after.webp",
       alt: "Brownstone expert NYC",
       title:
         "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
@@ -24,7 +24,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: "/portfolio/img-3.jpg",
+      src: "/portfolio/img-3.webp",
       alt: "Brownstone repair signs",
       title:
         "Address: 310 west 102nd street New York, New York Completed Limestone Stoop Restoration",
@@ -34,7 +34,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "/portfolio/img-2.jpg",
+      src: "/portfolio/img-2.webp",
       alt: "Brownstone restoration NYC",
       title: "Address: 379 16th street,Brooklyn,Park Slope",
       type: "",
@@ -47,7 +47,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: "/portfolio/img-5.jpg",
+      src: "/portfolio/img-5.webp",
       alt: "Brownstone interior insight",
       title:
         "Address: 310 west 102nd street New York , New York Completed Stoop Restoration",
@@ -57,7 +57,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: "/portfolio/img-6.jpg",
+      src: "/portfolio/img-6.webp",
       alt: "Brownstone facade Park Slope",
       title:
         "Address: 310 west 102nd street New York, New York Completed Limestone Stoop Restoration",
@@ -67,7 +67,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: "/portfolio/img-7.jpg",
+      src: "/portfolio/img-7.webp",
       alt: "Brownstone original splendor",
       title: "Address: 379 16th st. Complete Brownstone Stoop Restoration",
       type: "",
@@ -76,7 +76,7 @@ const Portfolio = () => {
     },
     {
       id: 7,
-      src: "/portfolio/img-9.jpg",
+      src: "/portfolio/img-9.webp",
       alt: "Brownstone original splendor",
       title:
         "Address: 431 east 143 street, Bronx, Completed Brownstone Stoop Restoration.",
@@ -86,7 +86,7 @@ const Portfolio = () => {
     },
     {
       id: 8,
-      src: "/portfolio/img-10.jpg",
+      src: "/portfolio/img-10.webp",
       alt: "Brownstone original splendor",
       title:
         "Address: 431 east 143 street, Bronx, New York Completed stoop restoration",
@@ -96,7 +96,7 @@ const Portfolio = () => {
     },
     {
       id: 9,
-      src: "/portfolio/88-pilling.jpg",
+      src: "/portfolio/88-pilling.webp",
       alt: "Brownstone original splendor",
       title:
         "Address: 88 Piling street, Brooklyn, New York, Complete brownstone stoop restoration.",

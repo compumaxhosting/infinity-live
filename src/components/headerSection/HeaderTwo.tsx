@@ -33,7 +33,7 @@ const Header: React.FC = () => {
         <div className="flex items-center gap-2 flex-shrink-0">
           <Link href="/" aria-label="Infinity Construction NYC Home">
             <Image
-              src="/infinity_logo_new.png"
+              src="/infinity_logo_new.webp"
               alt="Infinity Construction NYC Logo"
               width={120}
               height={40}
@@ -71,8 +71,6 @@ const Header: React.FC = () => {
           <nav className="hidden xl:block">
             <Navbar />
           </nav>
-
-          
 
           {/* Mobile Menu Toggle */}
           <div className="flex xl:hidden">

@@ -30,13 +30,13 @@ const BrownstoneFacadeRestorationPage = () => {
               Infinity Construction NYC
             </Link>
             , we specialize in brownstone facade restoration in NYC, offering
-            high-quality solutions for homeowners across&nbsp; 
-             <Link
+            high-quality solutions for homeowners across&nbsp;
+            <Link
               href="https://www.wikidata.org/wiki/Q11299"
               rel="noopener noreferrer"
               target="_blank"
             >
-               Manhattan
+              Manhattan
             </Link>
             ,{" "}
             <Link
@@ -111,7 +111,7 @@ const BrownstoneFacadeRestorationPage = () => {
           {/* Image */}
           <div className="relative w-96 h-64 lg:h-96 rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/historical-landmark/historical-img-1.JPG"
+              src="/historical-landmark/historical-img-1.webp"
               alt="NYC Brownstone Facade Restoration"
               fill
               className="object-cover"
@@ -170,9 +170,7 @@ const BrownstoneFacadeRestorationPage = () => {
             Schedule your free facade inspection and estimate today!
           </p>
           <p className="mt-2">
-            <a href="tel:+13479395779" >
-              (347) 939‑5779
-            </a>
+            <a href="tel:+13479395779">(347) 939‑5779</a>
           </p>
         </section>
       </main>

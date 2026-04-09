@@ -26,7 +26,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -43,8 +43,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Expert protection for exterior walls, parapets, and retaining walls. Professional stucco restoration and waterproofing in NYC to stop water intrusion and structural decay.",
   address: {
@@ -62,7 +62,6 @@ const schemaData = {
   sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinity_construction_nyc/",
-    
   ],
   geo: {
     "@type": "GeoCoordinates",

@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/historical-landmark",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -34,8 +34,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Expert restoration for NYC historical buildings. Specializing in LPC compliance, brownstone repair, and limestone facade cleaning in Brooklyn, Manhattan, Queens, and The Bronx.",
   address: {
@@ -70,7 +70,6 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
     </div>
   );
 }

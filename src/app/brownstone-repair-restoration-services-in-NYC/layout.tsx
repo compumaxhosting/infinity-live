@@ -19,7 +19,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/about",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -36,8 +36,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Infinity Construction NYC offers expert brownstone repair and restoration services across NYC. Serving Brooklyn, Manhattan, Queens, & The Bronx. Free Estimates",
   address: {

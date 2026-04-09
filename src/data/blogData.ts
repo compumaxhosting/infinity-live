@@ -1,5 +1,19 @@
 export const blogData = [
   {
+    id: -5,
+    author: "Imrul Hassan",
+    slug: "maintaining-historical-landmark-brownstones",
+    date: "Apr 09, 2026",
+    readTime: "6 min read",
+    title:
+      "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
+    contentPreview: `Owning a brownstone is like owning a piece of history. Learn how to prevent spalling, erosion, and water damage with this seasonal maintenance guide tailored for NYC and NJ historic properties...`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/img-27.webp",
+  },
+  {
     id: -4,
     author: "Imrul Hassan",
     slug: "sustainable-upgrades-historic-brownstones-nyc",
@@ -10,7 +24,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/sustainable.png",
+    image: "/blog/sustainable.webp",
   },
   {
     id: -3,
@@ -24,7 +38,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-new.png",
+    image: "/blog/blog-new.webp",
   },
   {
     id: -2,
@@ -38,7 +52,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-project-guide.png",
+    image: "/blog/blog-project-guide.webp",
   },
   {
     id: -1,
@@ -52,7 +66,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-brownstone.jpg",
+    image: "/blog/blog-brownstone.webp",
   },
   {
     id: 0,
@@ -65,7 +79,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-problem.jpeg",
+    image: "/blog/blog-problem.webp",
   },
   {
     id: 1,
@@ -78,7 +92,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-mistakes.png",
+    image: "/blog/blog-mistakes.webp",
   },
   {
     id: 2,
@@ -91,7 +105,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-guide2.png",
+    image: "/blog/blog-guide2.webp",
   },
   {
     id: 3,
@@ -105,7 +119,7 @@ export const blogData = [
     views: 0,
     comments: 0,
     liked: false,
-    image: "/blog/blog-historic.png",
+    image: "/blog/blog-historic.webp",
   },
   {
     id: 4,
@@ -150,7 +164,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 30,
     comments: 0,
     liked: true,
-    image: "/blog/img-23.jpg",
+    image: "/blog/img-23.webp",
   },
   {
     id: 7,
@@ -165,7 +179,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 30,
     comments: 0,
     liked: true,
-    image: "/blog/img-22.jpg",
+    image: "/blog/img-22.webp",
   },
   {
     id: 8,
@@ -179,7 +193,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 30,
     comments: 0,
     liked: true,
-    image: "/blog/img-24.jpg",
+    image: "/blog/img-24.webp",
   },
 
   {
@@ -194,7 +208,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-1.jpg",
+    image: "/blog/img-1.webp",
   },
   {
     id: 10,
@@ -208,7 +222,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 6,
     comments: 0,
     liked: false,
-    image: "/blog/img-2.jpg",
+    image: "/blog/img-2.webp",
   },
   {
     id: 11,
@@ -222,7 +236,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 10,
     comments: 0,
     liked: false,
-    image: "/blog/img-3.jpg",
+    image: "/blog/img-3.webp",
   },
   {
     id: 12,
@@ -237,7 +251,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-4.jpg",
+    image: "/blog/img-4.webp",
   },
   {
     id: 13,
@@ -251,7 +265,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 13,
     comments: 0,
     liked: false,
-    image: "/blog/img-5.jpg",
+    image: "/blog/img-5.webp",
   },
   {
     id: 14,
@@ -265,7 +279,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 15,
     comments: 0,
     liked: false,
-    image: "/blog/img-6.jpg",
+    image: "/blog/img-6.webp",
   },
   {
     id: 15,
@@ -279,7 +293,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 21,
     comments: 0,
     liked: false,
-    image: "/blog/img-7.jpg",
+    image: "/blog/img-7.webp",
   },
   {
     id: 16,
@@ -294,7 +308,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 1,
     comments: 0,
     liked: false,
-    image: "/blog/img-8.jpg",
+    image: "/blog/img-8.webp",
   },
   {
     id: 17,
@@ -308,7 +322,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 25,
     comments: 0,
     liked: false,
-    image: "/blog/img-9.jpg",
+    image: "/blog/img-9.webp",
   },
   {
     id: 18,
@@ -322,7 +336,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 6,
     comments: 0,
     liked: false,
-    image: "/blog/img-10.jpg",
+    image: "/blog/img-10.webp",
   },
   {
     id: 19,
@@ -336,7 +350,7 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     views: 97,
     comments: 0,
     liked: false,
-    image: "/blog/img-11.jpg",
+    image: "/blog/img-11.webp",
   },
   {
     id: 20,

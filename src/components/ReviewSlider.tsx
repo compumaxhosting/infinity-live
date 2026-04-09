@@ -26,7 +26,7 @@ const reviews: Review[] = [
     text: "Great company. They did a wonderful job fixing...",
     detailText:
       "Great company. They did a wonderful job fixing, scraping, and painting the fire escape. Reliable and pleasant. Will surely use them again. I recommend highly!",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "David Albert",
@@ -35,7 +35,7 @@ const reviews: Review[] = [
     text: "Infinity did an amazing job completely restoring...",
     detailText:
       "Infinity did an amazing job completely restoring the stoop of our brownstone. This is a long and involved process with multiple steps. Shaiful and his team worked tirelessly over several weeks to achieve a really beautiful result. Shaiful is a great communicator and very reliable. He and his team are real artisans. Highly recommended!",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Erica Lewis-Conliffe",
@@ -44,7 +44,7 @@ const reviews: Review[] = [
     text: "I used Infinity Construction to get my steps done...",
     detailText:
       "I used Infinity Construction to get my steps done. And I must say, the work that was done was outstanding. My steps look great! I would recommend this company again, and I will definitely be calling them back to get the entire facade of my brownstone done.Great work!",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Omar Khalil",
@@ -53,7 +53,7 @@ const reviews: Review[] = [
     text: "Imrul and his team did an amazing job waterproofing...",
     detailText:
       "Imrul and his team did an amazing job waterproofing my brick house. I wanted to get it done before the weather got really bad, and they delivered. The brick pointing repair looks amazing, and weatherproofing my rear stucco with white color sealant makes it look like a brand new wall. Imrul was very professional, highly recommend.",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Bryan Villatoro",
@@ -62,7 +62,7 @@ const reviews: Review[] = [
     text: "I was having issues with water leaking through my...",
     detailText:
       "I was having issues with water leaking through my brick facade and window sills. Imrul and his team did an awesome job. They redid my brick pointing and window sills, and now I don't have any water leakage. I really recommend them!",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Daniel David",
@@ -71,7 +71,7 @@ const reviews: Review[] = [
     text: "This company recently worked on two of my homes in...",
     detailText:
       "This company recently worked on two of my homes in Bushwick, and the job was completed beyond satisfactory. Their prices were extremely reasonable and if there were any concerns or minor issues, they were addressed in a timely manner. Communication is key when doing business, and they exceeded my expectations. Highly recommended",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "elvis",
@@ -80,7 +80,7 @@ const reviews: Review[] = [
     text: "Imrul and his team did an excellent job on our...",
     detailText:
       "Imrul and his team did an excellent job on our brownstone façade & stoop. They paid careful attention to detail, and maintained a safe and clean working environment throughout the process. They made sure everything was to our satisfaction. I Would recommend them to anyone who wants reliable and good quality work!.",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Grant Nelson",
@@ -89,7 +89,7 @@ const reviews: Review[] = [
     text: "Thank you for such a amazing job! Really good...",
     detailText:
       "Thank you for such a amazing job! Really good reliable and efficient company. The workmanship was excellent I would definitely recommend this company and would use them again.....Infinity Construction NYC Inc.",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
   {
     name: "Veronica Armstrong",
@@ -98,7 +98,7 @@ const reviews: Review[] = [
     text: "Fast and flawless brownstone repointing.",
     detailText:
       "I am extremely happy that I called on Infinity Construction NYC INC on my second attempt at having the stoop renovated. Shaiful and his crew did a fantastic job. Their work exceeded my expectations. It was a wonderful experience and I highly recommend their expertise. Also, they were truly a pleasure to work with, very professional. I will call on them again for future projects.",
-    image: "/profile1.png",
+    image: "/profile1.webp",
   },
 ];
 
@@ -265,7 +265,7 @@ const ReviewSlider = () => {
                 </button>
                 <div className="flex items-center gap-2 text-xs text-white mt-3">
                   <Image
-                    src="/google.png"
+                    src="/google.webp"
                     alt="Google Logo" // More specific alt text
                     width={16}
                     height={16}
@@ -343,7 +343,7 @@ const ReviewSlider = () => {
               </p>
               <div className="flex items-center gap-2 mt-4 text-sm text-gray-500">
                 <Image
-                  src="/google.png"
+                  src="/google.webp"
                   alt="Google Logo" // Specific alt text
                   width={16}
                   height={16}

@@ -76,7 +76,7 @@ const page = () => {
           {/* ✅ Image beside paragraph */}
           <div className="relative w-full h-72 sm:h-96 md:h-[420px]">
             <Image
-              src="/paving/brownstone.jpg" // 🖼️ Replace with actual image in public folder
+              src="/paving/brownstone.webp" // 🖼️ Replace with actual image in public folder
               alt="Brownstone Restoration NYC"
               fill
               className="object-cover rounded-xl shadow-lg"

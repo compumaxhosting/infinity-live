@@ -39,7 +39,7 @@ const HiddenPageContent = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full lg:w-1/3">
               <Image
-                src="/blog/img-3.jpg"
+                src="/blog/img-3.webp"
                 alt="Manhattan Brownstone Restoration"
                 width={800}
                 height={600}

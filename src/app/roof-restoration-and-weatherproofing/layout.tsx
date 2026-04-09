@@ -4,8 +4,7 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title:
-    "Roof Restoration & Weatherproofing NYC | Infinity Construction",
+  title: "Roof Restoration & Weatherproofing NYC | Infinity Construction",
   description:
     "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
   keywords: [
@@ -19,14 +18,13 @@ export const metadata = {
     "licensed roofers",
   ],
   openGraph: {
-    title:
-      "Roof Restoration & Weatherproofing NYC | Infinity Construction",
+    title: "Roof Restoration & Weatherproofing NYC | Infinity Construction",
     description:
       "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
     url: "https://www.infinityconstructionnyc.com/roof-restoration-and-weatherproofing",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -43,8 +41,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Expert roof restoration and leak protection in NYC. Specializing in flat roofs, shingles, and emergency weatherproofing in Brooklyn, Manhattan, Queens, and The Bronx.",
   address: {
@@ -79,7 +77,6 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
     </div>
   );
 }

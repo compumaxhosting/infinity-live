@@ -17,7 +17,7 @@ const page = () => {
               {/* Image Section */}
               <div className="w-full lg:w-1/3 mb-4 lg:mb-0 border-8 border-tertiary bg-tertiary">
                 <Image
-                  src="/img-3.jpeg"
+                  src="/img-3.webp"
                   alt="Historical Landmarks Design Restoration"
                   width={400}
                   height={650}
@@ -52,7 +52,7 @@ const page = () => {
               {/* Image Section */}
               <div className="w-full lg:w-1/3 mb-4 lg:mb-0 border-8 border-tertiary bg-tertiary">
                 <Image
-                  src="/img-3.jpeg"
+                  src="/img-3.webp"
                   alt="Brownstone Restoration"
                   width={400}
                   height={650}

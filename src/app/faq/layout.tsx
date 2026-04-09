@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/faq",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -35,8 +35,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Find answers to frequently asked questions about roofing, masonry, waterproofing, and restoration services by Infinity Construction NYC. Serving Brooklyn, Queens, The Bronx & Manhattan, New York City.",
   address: {

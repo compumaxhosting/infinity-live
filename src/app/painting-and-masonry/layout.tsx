@@ -4,8 +4,7 @@ import { ReactNode } from "react";
 
 // Metadata for SEO (Move to layout.tsx if needed)
 export const metadata = {
-  title:
-    "Professional Interior Painting & Masonry NYC | Infinity Construction",
+  title: "Professional Interior Painting & Masonry NYC | Infinity Construction",
   description:
     "Premium interior painting, plaster repair, and masonry services in NYC. We specialize in brownstone restoration and flawless finishes in Brooklyn, Manhattan, and Queens.",
   keywords:
@@ -18,7 +17,7 @@ export const metadata = {
     url: "https://www.infinityconstructionnyc.com/painting-and-masonry",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -35,8 +34,8 @@ const schemaData = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Premium interior painting, plaster repair, and masonry services in NYC. We specialize in brownstone restoration and flawless finishes in Brooklyn, Manhattan, and Queens.",
   address: {
@@ -71,7 +70,6 @@ export default function AboutLayout({ children }: { children: ReactNode }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
     </div>
   );
 }

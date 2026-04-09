@@ -46,7 +46,7 @@ function SidebarMenu() {
           <span className="sr-only">Open menu</span>
         </button>
       </div>
-    
+
       <Sheet open={isOpen} onOpenChange={toggleSheet}>
         <SheetContent
           side="left"
@@ -56,7 +56,7 @@ function SidebarMenu() {
             <div className="flex justify-center pt-6">
               <Link href="/" aria-label="Infinity Construction NYC Home">
                 <Image
-                  src="/logo-new.png"
+                  src="/logo-new.webp"
                   alt="Infinity Construction NYC Logo"
                   width={120}
                   height={40}

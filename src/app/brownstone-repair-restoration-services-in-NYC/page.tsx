@@ -81,7 +81,7 @@ const page = () => {
           {/* Image */}
           <div className="relative w-96 h-64 lg:h-96 rounded-lg overflow-hidden shadow-md">
             <Image
-              src="/project-img-4.jpg"
+              src="/project-img-4.webp"
               alt="NYC Brownstone Experts"
               fill
               className="object-cover"

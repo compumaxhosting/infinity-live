@@ -240,7 +240,7 @@ const Footer = () => {
             </h3>
             <div className="flex justify-center">
               <Image
-                src="/bbb.jpg"
+                src="/bbb.webp"
                 alt="BBB Accredited Business"
                 width={90}
                 height={30}

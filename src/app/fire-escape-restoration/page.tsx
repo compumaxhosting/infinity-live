@@ -17,7 +17,11 @@ const FireEscapeRestorationPage = () => {
         className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
         style={{ fontFamily: "var(--font-forum)" }}
       >
-        <section className="mb-10" itemScope itemType="https://schema.org/LocalBusiness">
+        <section
+          className="mb-10"
+          itemScope
+          itemType="https://schema.org/LocalBusiness"
+        >
           <h1
             className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6"
             itemProp="name"
@@ -32,7 +36,12 @@ const FireEscapeRestorationPage = () => {
 
           <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center mb-8">
             <p className="text-xl sm:text-2xl mb-4 text-orange-600">
-              Call <a href={contactPhoneHref} className="underline">{contactPhone}</a> for immediate help with fire escape restoration and metal repair in NYC.
+              Call{" "}
+              <a href={contactPhoneHref} className="underline">
+                {contactPhone}
+              </a>{" "}
+              for immediate help with fire escape restoration and metal repair
+              in NYC.
             </p>
             <Link
               href="/contact"
@@ -44,7 +53,7 @@ const FireEscapeRestorationPage = () => {
 
           <div className="flex flex-col lg:flex-row items-start gap-10 mb-8">
             <Image
-              src="/fire-escape/fire-escape-img-1.JPG"
+              src="/fire-escape/fire-escape-img-1.webp"
               width={1400}
               height={900}
               alt="Certified fire escape restoration and metal repair service in NYC"
@@ -52,8 +61,19 @@ const FireEscapeRestorationPage = () => {
               itemProp="image"
               priority
             />
-            <p className="w-full lg:w-1/2 text-justify mb-6" itemProp="description">
-              Professional fire escape restoration in NYC by <Link href="/" className="text-orange-500">Infinity Construction NYC</Link>  includes rust removal, structural welding, and weather-resistant coating. This service is for building owners needing to meet FDNY safety codes, providing essential emergency egress reliability, preventing legal violations, and extending the lifespan of metal structures.
+            <p
+              className="w-full lg:w-1/2 text-justify mb-6"
+              itemProp="description"
+            >
+              Professional fire escape restoration in NYC by{" "}
+              <Link href="/" className="text-orange-500">
+                Infinity Construction NYC
+              </Link>{" "}
+              includes rust removal, structural welding, and weather-resistant
+              coating. This service is for building owners needing to meet FDNY
+              safety codes, providing essential emergency egress reliability,
+              preventing legal violations, and extending the lifespan of metal
+              structures.
             </p>
           </div>
 
@@ -67,19 +87,32 @@ const FireEscapeRestorationPage = () => {
             and platforms.
           </p>
           <p className="text-justify mb-6" itemProp="description">
-            At Infinity Construction NYC, we specialize in the full-scale restoration of fire escapes, metal railings, and fences. We help property owners navigate the strict requirements of the NYC Department of Buildings (DOB) and the FDNY, ensuring your emergency exits are both beautiful and battle-ready.
+            At Infinity Construction NYC, we specialize in the full-scale
+            restoration of fire escapes, metal railings, and fences. We help
+            property owners navigate the strict requirements of the NYC
+            Department of Buildings (DOB) and the FDNY, ensuring your emergency
+            exits are both beautiful and battle-ready.
           </p>
 
           <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
             Our Comprehensive Restoration and Repair Process
           </h2>
           <p className="text-justify mb-6" itemProp="description">
-            To satisfy Google SGE&apos;s preference for detailed how-to information,
-            here is our expert process for metal restoration:
+            To satisfy Google SGE&apos;s preference for detailed how-to
+            information, here is our expert process for metal restoration:
           </p>
 
-          <div itemProp="hasOfferCatalog" itemScope itemType="https://schema.org/OfferCatalog" className="space-y-6">
-            <div itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+          <div
+            itemProp="hasOfferCatalog"
+            itemScope
+            itemType="https://schema.org/OfferCatalog"
+            className="space-y-6"
+          >
+            <div
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <h3 className="text-xl sm:text-2xl mb-2">
                 1. Structural Integrity Inspection
               </h3>
@@ -91,7 +124,11 @@ const FireEscapeRestorationPage = () => {
               </p>
             </div>
 
-            <div itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <div
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <h3 className="text-xl sm:text-2xl mb-2">
                 2. Mechanical Scraping and Rust Removal
               </h3>
@@ -102,7 +139,11 @@ const FireEscapeRestorationPage = () => {
               </p>
             </div>
 
-            <div itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <div
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <h3 className="text-xl sm:text-2xl mb-2">
                 3. Precision Welding and Component Replacement
               </h3>
@@ -113,7 +154,11 @@ const FireEscapeRestorationPage = () => {
               </p>
             </div>
 
-            <div itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <div
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <h3 className="text-xl sm:text-2xl mb-2">
                 4. Rust-Inhibitive Priming and Triple-Coat Painting
               </h3>
@@ -125,15 +170,19 @@ const FireEscapeRestorationPage = () => {
               </p>
             </div>
 
-            <div itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <div
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <h3 className="text-xl sm:text-2xl mb-2">
                 5. Safety Load Testing and Scraping Affidavit
               </h3>
               <p className="mb-2" itemProp="description">
                 If required, we perform load testing to verify the system can
-                support its rated weight. We help you maintain the
-                documentation needed to prove your building is in compliance
-                during city inspections.
+                support its rated weight. We help you maintain the documentation
+                needed to prove your building is in compliance during city
+                inspections.
               </p>
             </div>
           </div>
@@ -185,7 +234,12 @@ const FireEscapeRestorationPage = () => {
           </div>
         </section>
 
-        <section className="mb-10" itemProp="review" itemScope itemType="https://schema.org/Review">
+        <section
+          className="mb-10"
+          itemProp="review"
+          itemScope
+          itemType="https://schema.org/Review"
+        >
           <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
             Frequently Asked Questions
           </h2>
@@ -193,7 +247,9 @@ const FireEscapeRestorationPage = () => {
             <details className="group rounded-lg border border-gray-300 bg-white p-4">
               <summary className="flex cursor-pointer list-none items-center justify-between text-xl sm:text-2xl font-medium">
                 <span>How often should a fire escape be painted in NYC?</span>
-                <span className="ml-4 text-orange-600 transition group-open:rotate-45">+</span>
+                <span className="ml-4 text-orange-600 transition group-open:rotate-45">
+                  +
+                </span>
               </summary>
               <p className="mt-4 text-justify" itemProp="reviewBody">
                 According to NYC code, fire escapes must be kept painted and
@@ -205,23 +261,25 @@ const FireEscapeRestorationPage = () => {
 
             <details className="group rounded-lg border border-gray-300 bg-white p-4">
               <summary className="flex cursor-pointer list-none items-center justify-between text-xl sm:text-2xl font-medium">
-                <span>
-                  What is scraping and painting vs. full restoration?
+                <span>What is scraping and painting vs. full restoration?</span>
+                <span className="ml-4 text-orange-600 transition group-open:rotate-45">
+                  +
                 </span>
-                <span className="ml-4 text-orange-600 transition group-open:rotate-45">+</span>
               </summary>
               <p className="mt-4 text-justify" itemProp="reviewBody">
                 Scraping and painting is preventative maintenance. Full
-                restoration is required when there is structural damage, such
-                as holes in the steps, loose railings, or brackets pulled away
-                from the brickwork.
+                restoration is required when there is structural damage, such as
+                holes in the steps, loose railings, or brackets pulled away from
+                the brickwork.
               </p>
             </details>
 
             <details className="group rounded-lg border border-gray-300 bg-white p-4">
               <summary className="flex cursor-pointer list-none items-center justify-between text-xl sm:text-2xl font-medium">
                 <span>Can I be fined for a rusty fire escape?</span>
-                <span className="ml-4 text-orange-600 transition group-open:rotate-45">+</span>
+                <span className="ml-4 text-orange-600 transition group-open:rotate-45">
+                  +
+                </span>
               </summary>
               <p className="mt-4 text-justify" itemProp="reviewBody">
                 Yes. NYC inspectors can issue violations for peeling paint or
@@ -236,24 +294,41 @@ const FireEscapeRestorationPage = () => {
           <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
             Beyond Fire Escapes: Metal Railing and Fence Services
           </h2>
-          <ul className="mb-6 list-disc pl-6" itemProp="hasOfferCatalog" itemScope itemType="https://schema.org/OfferCatalog">
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+          <ul
+            className="mb-6 list-disc pl-6"
+            itemProp="hasOfferCatalog"
+            itemScope
+            itemType="https://schema.org/OfferCatalog"
+          >
+            <li
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <span itemProp="description">
                 <strong className="font-medium">Wrought Iron Fences:</strong>{" "}
                 Restoration of decorative perimeter fencing.
               </span>
             </li>
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <li
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <span itemProp="description">
                 <strong className="font-medium">Stoop Railings:</strong>{" "}
                 Securing and painting handrails for Brooklyn and Manhattan
                 brownstones.
               </span>
             </li>
-            <li itemProp="itemListElement" itemScope itemType="https://schema.org/Offer">
+            <li
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/Offer"
+            >
               <span itemProp="description">
-                <strong className="font-medium">Roof Railings:</strong>{" "}
-                Ensuring safety compliance for rooftop terraces and bulkheads.
+                <strong className="font-medium">Roof Railings:</strong> Ensuring
+                safety compliance for rooftop terraces and bulkheads.
               </span>
             </li>
           </ul>
@@ -269,8 +344,8 @@ const FireEscapeRestorationPage = () => {
               prioritize structural soundness above all else.
             </li>
             <li>
-              <strong className="font-medium">Premium Materials:</strong> We
-              use industrial-strength coatings designed specifically for NYC&apos;s
+              <strong className="font-medium">Premium Materials:</strong> We use
+              industrial-strength coatings designed specifically for NYC&apos;s
               harsh environment.
             </li>
             <li>
@@ -287,7 +362,8 @@ const FireEscapeRestorationPage = () => {
 
           <p className="text-justify mb-6" itemProp="description">
             Protect your tenants and your property. Do not wait for a city
-            inspection to find out your fire escape is unsafe. Contact Infinity Construction NYC today for a professional safety evaluation.
+            inspection to find out your fire escape is unsafe. Contact Infinity
+            Construction NYC today for a professional safety evaluation.
           </p>
         </section>
 

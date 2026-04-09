@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
         width: 1200,
         height: 630,
         alt: "Infinity Construction NYC",
@@ -48,8 +48,8 @@ const jsonLdSchema = {
   "@type": "LocalBusiness",
   name: "Infinity Construction NYC",
   url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.png",
-  image: "https://www.infinityconstructionnyc.com/cover-image.jpg",
+  logo: "https://www.infinityconstructionnyc.com/logo.webp",
+  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
     "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
   address: {
@@ -65,7 +65,6 @@ const jsonLdSchema = {
   sameAs: [
     "https://www.facebook.com/infinityconstructionnyc",
     "https://www.instagram.com/infinity_construction_nyc/",
-    
   ],
   geo: {
     "@type": "GeoCoordinates",
