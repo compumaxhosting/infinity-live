@@ -220,14 +220,16 @@ const ServicesForm: React.FC = () => {
         </div>
 
         {/* CAPTCHA + Submit */}
-        <div className="flex items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
+        <div className="flex flex-col gap-4">
+          {/* CAPTCHA ROW */}
+          <div className="flex items-center gap-2 flex-wrap">
             <div
               className="px-3 py-2 bg-gray-200 text-black dark:bg-gray-800 dark:text-white rounded select-none cursor-not-allowed"
               style={{ letterSpacing: "2px", fontWeight: "bold" }}
             >
               {captcha}
             </div>
+
             <button
               type="button"
               onClick={generateCaptcha}
@@ -236,6 +238,7 @@ const ServicesForm: React.FC = () => {
             >
               ↻
             </button>
+
             <input
               type="text"
               value={userCaptcha}
@@ -244,27 +247,30 @@ const ServicesForm: React.FC = () => {
                 setCaptchaError("");
               }}
               placeholder="Enter CAPTCHA"
-              className="w-28 px-2 py-1 rounded-lg text-black dark:text-white dark:bg-slate-950"
+              className="w-36 sm:min-w-32 px-2 py-1 rounded-lg text-black dark:text-white dark:bg-slate-950"
             />
           </div>
 
-          <button
-            type="submit"
-            className="py-3 px-4 bg-secondary transition-all duration-200 hover:bg-stone-900 text-white rounded-lg"
-            disabled={loading}
-          >
-            {loading ? (
-              <Oval
-                color="white"
-                strokeWidth={5}
-                height={24}
-                width={92}
-                secondaryColor="wheat"
-              />
-            ) : (
-              "Send Message"
-            )}
-          </button>
+          {/* BUTTON ON NEXT LINE */}
+          <div className="flex justify-center">
+            <button
+              type="submit"
+              className="py-3 px-4 bg-secondary transition-all duration-200 hover:bg-stone-900 text-white rounded-lg"
+              disabled={loading}
+            >
+              {loading ? (
+                <Oval
+                  color="white"
+                  strokeWidth={5}
+                  height={24}
+                  width={92}
+                  secondaryColor="wheat"
+                />
+              ) : (
+                "Send Message"
+              )}
+            </button>
+          </div>
         </div>
 
         {captchaError && (
