@@ -1,19 +1,18 @@
 export const blogData = [
   {
-    id: -5,
-    author: "Imrul Hassan",
-    slug: "maintaining-historical-landmark-brownstones",
-    date: "Apr 09, 2026",
-    readTime: "6 min read",
-    title:
-      "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
-    contentPreview: `Owning a brownstone is like owning a piece of history. Learn how to prevent spalling, erosion, and water damage with this seasonal maintenance guide tailored for NYC and NJ historic properties...`,
-    views: 0,
-    comments: 0,
-    liked: false,
-    image: "/blog/img-27.webp",
-  },
-  {
+  id: -5,
+  author: "Imrul Hassan",
+  slug: "maintaining-historical-landmark-brownstones",
+  date: "Apr 09, 2026",
+  readTime: "6 min read",
+  title: "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
+  contentPreview: `Owning a brownstone is like owning a piece of history. Learn how to prevent spalling, erosion, and water damage with this seasonal maintenance guide tailored for NYC and NJ historic properties...`,
+  views: 0,
+  comments: 0,
+  liked: false,
+  image: "/blog/img-27.webp",
+},
+{
     id: -4,
     author: "Imrul Hassan",
     slug: "sustainable-upgrades-historic-brownstones-nyc",

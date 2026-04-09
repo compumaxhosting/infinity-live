@@ -174,6 +174,10 @@ const SiteMap = () => {
       name: "Brownstone Restoration",
       url: "/brownstone-restoration",
     },
+    {
+      name: "Blog - The Ultimate Guide: How to Maintain Your Brownstone Building",
+      url: "/blog/maintaining-historical-landmark-brownstones",
+    },
   ];
 
   return (

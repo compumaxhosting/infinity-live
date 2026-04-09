@@ -20,26 +20,18 @@ export type Blog = {
 
 export const BlogsData: Blog[] = [
   {
-    keywords:
-      "brownstone repair, masonry maintenance, historical landmark restoration, NYC brownstone, brownstone spalling, lime mortar repointing",
-    title:
-      "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
+    keywords: "brownstone repair, masonry maintenance, historical landmark restoration, NYC brownstone, brownstone spalling, lime mortar repointing",
+    title: "The Ultimate Guide: How to Maintain Your Brownstone Building Year-Round",
     slug: "maintaining-historical-landmark-brownstones",
 
     description: (
       <>
         <p>
-          Owning a brownstone is like owning a piece of history. Whether you are
-          in Brooklyn, Manhattan, or Jersey City, these iconic sandstone
-          structures require specialized care to prevent the
-          &quot;spalling&quot; (flaking) and erosion that often plagues older
-          masonry.
+          Owning a brownstone is like owning a piece of history. Whether you are in Brooklyn, Manhattan, or Jersey City, these iconic sandstone structures require specialized care to prevent the &quot;spalling&quot; (flaking) and erosion that often plagues older masonry.
         </p>
 
         <p>
-          To preserve the structural integrity and aesthetic charm of your
-          property, follow this seasonal maintenance checklist tailored for the
-          unique needs of historical landmarks.
+          To preserve the structural integrity and aesthetic charm of your property, follow this seasonal maintenance checklist tailored for the unique needs of historical landmarks.
         </p>
       </>
     ),
@@ -52,33 +44,15 @@ export const BlogsData: Blog[] = [
         paragraph: (
           <>
             <p>
-              Spring is the most critical time for brownstone owners. After a
-              harsh winter of freeze-thaw cycles, your priority is identifying
-              water infiltration points.
+              Spring is the most critical time for brownstone owners. After a harsh winter of freeze-thaw cycles, your priority is identifying water infiltration points.
             </p>
             <ul>
-              <li>
-                <span className="text-primary"> Check for Spalling:</span> Look
-                for areas where the brownstone surface is flaking off. This is
-                usually caused by water getting trapped behind the stone.
-              </li>
-              <li>
-                <span className="text-primary"> Inspect the Stoop:</span> The
-                stoop is often the first area to show cracks. Early intervention
-                can prevent a full (and expensive) rebuild.
-              </li>
-              <li>
-                <span className="text-primary"> Window Caulking:</span> Inspect
-                the seals around your windows. Replacing old caulk prevents
-                spring rain from reaching the soft interior masonry.
-              </li>
+              <li><span className="text-primary"> Check for Spalling:</span> Look for areas where the brownstone surface is flaking off. This is usually caused by water getting trapped behind the stone.</li>
+              <li><span className="text-primary"> Inspect the Stoop:</span> The stoop is often the first area to show cracks. Early intervention can prevent a full (and expensive) rebuild.</li>
+              <li><span className="text-primary"> Window Caulking:</span> Inspect the seals around your windows. Replacing old caulk prevents spring rain from reaching the soft interior masonry.</li>
             </ul>
             <p>
-              If you notice significant stone loss, it may be time to consult
-              experts in{" "}
-              <Link href="/historical-landmark"> historical landmark</Link>{" "}
-              restoration to ensure the materials used match the original
-              chemical composition of the stone.
+              If you notice significant stone loss, it may be time to consult experts in <Link href="/historical-landmark"> historical landmark</Link> restoration to ensure the materials used match the original chemical composition of the stone.
             </p>
           </>
         ),
@@ -88,23 +62,11 @@ export const BlogsData: Blog[] = [
         paragraph: (
           <>
             <p>
-              The dry summer heat is the ideal window for &quot;wet work&quot;
-              like pointing and patching.
+              The dry summer heat is the ideal window for &quot;wet work&quot; like pointing and patching.
             </p>
             <ul>
-              <li>
-                <span className="text-primary">Repointing (Tuckpointing):</span>{" "}
-                If the mortar between your stones is crumbling, it needs to be
-                replaced. Ensure your contractor uses lime-based mortar, as
-                modern Portland cement is too hard for brownstone and will cause
-                the stone to crack.
-              </li>
-              <li>
-                <span className="text-primary">Roof and Cornice Check:</span>{" "}
-                Brownstones often have flat roofs and ornate metal cornices.
-                Summer is the time to scrape and paint the cornice to prevent
-                rust and to check the roof membrane for heat-induced blistering.
-              </li>
+              <li><span className="text-primary">Repointing (Tuckpointing):</span> If the mortar between your stones is crumbling, it needs to be replaced. Ensure your contractor uses lime-based mortar, as modern Portland cement is too hard for brownstone and will cause the stone to crack.</li>
+              <li><span className="text-primary">Roof and Cornice Check:</span> Brownstones often have flat roofs and ornate metal cornices. Summer is the time to scrape and paint the cornice to prevent rust and to check the roof membrane for heat-induced blistering.</li>
             </ul>
           </>
         ),
@@ -114,27 +76,12 @@ export const BlogsData: Blog[] = [
         paragraph: (
           <>
             <p>
-              In the autumn, your goal is to keep water flowing away from the
-              building. Brownstone is incredibly porous; if it stays wet, it
-              will degrade.
+              In the autumn, your goal is to keep water flowing away from the building. Brownstone is incredibly porous; if it stays wet, it will degrade.
             </p>
             <ul>
-              <li>
-                <span className="text-primary">Gutter Cleaning:</span> Clogged
-                gutters lead to water overflowing directly onto the facade. This
-                is the primary cause of brownstone erosion.
-              </li>
-              <li>
-                <span className="text-primary">Check the Parapet:</span> Ensure
-                the top of your building&apos;s wall is sealed. A leaky parapet
-                allows water to seep down inside the walls, causing hidden
-                damage.
-              </li>
-              <li>
-                <span className="text-primary">Boiler Service:</span> While not
-                part of the stone, a well-maintained heating system prevents
-                internal condensation that can affect your exterior walls.
-              </li>
+              <li><span className="text-primary">Gutter Cleaning:</span> Clogged gutters lead to water overflowing directly onto the facade. This is the primary cause of brownstone erosion.</li>
+              <li><span className="text-primary">Check the Parapet:</span> Ensure the top of your building&apos;s wall is sealed. A leaky parapet allows water to seep down inside the walls, causing hidden damage.</li>
+              <li><span className="text-primary">Boiler Service:</span> While not part of the stone, a well-maintained heating system prevents internal condensation that can affect your exterior walls.</li>
             </ul>
           </>
         ),
@@ -143,21 +90,12 @@ export const BlogsData: Blog[] = [
         title: "Winter: Protection and Prevention",
         paragraph: (
           <>
-            <p>Winter is about mitigating the damage caused by ice and salt.</p>
+            <p>
+              Winter is about mitigating the damage caused by ice and salt.
+            </p>
             <ul>
-              <li>
-                <span className="text-primary">Avoid De-Icing Salts:</span>{" "}
-                Never use traditional rock salt (sodium chloride) on brownstone
-                steps or sidewalks. The chemicals react with the stone, causing
-                it to disintegrate rapidly. Use sand or calcium magnesium
-                acetate (CMA) instead.
-              </li>
-              <li>
-                <span className="text-primary">Monitor Interior Moisture:</span>{" "}
-                If you notice peeling paint on the inside of your exterior
-                walls, it’s a sign that the stone is &quot;breathing&quot; out
-                moisture.
-              </li>
+              <li><span className="text-primary">Avoid De-Icing Salts:</span> Never use traditional rock salt (sodium chloride) on brownstone steps or sidewalks. The chemicals react with the stone, causing it to disintegrate rapidly. Use sand or calcium magnesium acetate (CMA) instead.</li>
+              <li><span className="text-primary">Monitor Interior Moisture:</span> If you notice peeling paint on the inside of your exterior walls, it’s a sign that the stone is &quot;breathing&quot; out moisture.</li>
             </ul>
           </>
         ),
@@ -167,15 +105,10 @@ export const BlogsData: Blog[] = [
         paragraph: (
           <>
             <p>
-              Brownstone is a delicate material. Many owners make the mistake of
-              using DIY patches or waterproof sealants that actually trap
-              moisture inside, causing the stone to explode from the inside out.
+              Brownstone is a delicate material. Many owners make the mistake of using DIY patches or waterproof sealants that actually trap moisture inside, causing the stone to explode from the inside out.
             </p>
             <p>
-              For any repairs involving your building&apos;s facade, always work
-              with a contractor who specializes in{" "}
-              <Link href="/historical-landmark"> historical landmark </Link>{" "}
-              preservation to maintain the property’s value and heritage.
+              For any repairs involving your building&apos;s facade, always work with a contractor who specializes in <Link href="/historical-landmark"> historical landmark </Link> preservation to maintain the property’s value and heritage.
             </p>
           </>
         ),
@@ -184,8 +117,7 @@ export const BlogsData: Blog[] = [
 
     metatitle: "Brownstone Maintenance Guide: Protect Your Historical Building",
 
-    metadescription:
-      "Prevent brownstone spalling and erosion with our seasonal maintenance guide. Learn how to protect your NYC or NJ historical landmark building year-round.",
+    metadescription: "Prevent brownstone spalling and erosion with our seasonal maintenance guide. Learn how to protect your NYC or NJ historical landmark building year-round.",
   },
   {
     keywords:
@@ -742,7 +674,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/blog-problem.webp",
+    image: "/blog/blog-problem.jpeg",
     sections: [
       {
         title: "Deteriorating Brownstone Facades",
