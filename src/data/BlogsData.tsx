@@ -674,7 +674,7 @@ export const BlogsData: Blog[] = [
         </p>
       </>
     ),
-    image: "/blog/blog-problem.jpeg",
+    image: "/blog/blog-problem.webp",
     sections: [
       {
         title: "Deteriorating Brownstone Facades",

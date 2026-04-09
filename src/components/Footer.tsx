@@ -28,7 +28,7 @@ const Footer = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           name: "Infinity Construction NYC",
-          image: "/logo.png",
+          image: "/logo.webp",
           telephone: "+13479395779",
           email: "Infinityconstructionnyc@gmail.com",
           openingHours: "Mo-Su 06:00-20:00",
@@ -64,7 +64,7 @@ const Footer = () => {
                 itemProp="name"
               >
                 <Image
-                  src="/logo-white.png"
+                  src="/logo-white.webp"
                   alt="Infinity Construction NYC Logo"
                   width={230}
                   height={60}
