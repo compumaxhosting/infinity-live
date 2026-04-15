@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+  name: "Brick Pointing & Waterproofing for NYC Homes",
+  path: "/blog/brick-pointing-waterproofing-nyc-homes",
+},
+    {
       name: "Maintain Your Brownstone Building Year-Round",
       path: "/blog/maintaining-historical-landmark-brownstones",
     }, {

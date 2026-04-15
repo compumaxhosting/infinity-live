@@ -1,5 +1,18 @@
 export const blogData = [
   {
+  id: -6,
+  author: "Imrul Hassan",
+  slug: "brick-pointing-waterproofing-nyc-homes",
+  date: "Apr 15, 2026",
+  readTime: "7 min read",
+  title: "Why Brick Pointing and Waterproofing Are Essential for NYC Homes (Brooklyn, Manhattan, Queens & Bronx)",
+  contentPreview: `Brick pointing and waterproofing are essential for NYC homes to prevent water damage, structural issues, and costly repairs. Learn how these services protect buildings in Brooklyn, Manhattan, Queens, and the Bronx...`,
+  views: 0,
+  comments: 0,
+  liked: false,
+  image: "/blog/img-bricking.webp",
+},
+  {
   id: -5,
   author: "Imrul Hassan",
   slug: "maintaining-historical-landmark-brownstones",

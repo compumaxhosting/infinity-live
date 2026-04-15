@@ -178,6 +178,10 @@ const SiteMap = () => {
       name: "Blog - The Ultimate Guide: How to Maintain Your Brownstone Building",
       url: "/blog/maintaining-historical-landmark-brownstones",
     },
+    {
+      name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
+      url: "/blog/brick-pointing-waterproofing-nyc-homes",
+    },
   ];
 
   return (

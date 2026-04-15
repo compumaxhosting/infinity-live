@@ -8,12 +8,12 @@ import { blogData } from "@/data/blogData";
 const BlogSection = () => {
   return (
     <div className="max-w-7xl mx-auto py-8 px-4">
-      <h2
+      <h1
         className="text-center text-3xl sm:text-5xl text-tertiary dark:text-white mb-6 sm:mt-4"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         Blog Section
-      </h2>
+      </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogData.map((blog, index) => (
           <div
