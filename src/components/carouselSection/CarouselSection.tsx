@@ -66,8 +66,8 @@ const CarouselSection: React.FC = () => {
 
               <motion.div
                 className="relative flex-[0_0_100%] w-full h-screen overflow-hidden"
-                initial={{ scale: 1.6 }}
-                animate={{ scale: selectedIndex === index ? 1.03 : 1.6 }}
+                initial={{ scale: 1.1 }}
+                animate={{ scale: selectedIndex === index ? 1.03 : 1 }}
                 transition={{ duration: 2.5, ease: "backInOut" }}
               >
                 <Image
@@ -76,8 +76,10 @@ const CarouselSection: React.FC = () => {
                   fill
                   loading={index === 0 ? "eager" : "lazy"}
                   priority={index === 0}
+                  fetchPriority={index === 0 ? "high" : "auto"}
+                  quality={60}
                   className="object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                  sizes="100vw"
                 />
                 <div className="absolute bg-black/40 sm:bg-black/30 z-10 h-full w-full"></div>
               </motion.div>
