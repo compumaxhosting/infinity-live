@@ -1,12 +1,24 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { specialityData } from "@/data/ourServicesData";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+// Define type for expanded state
+type ExpandedState = Record<number, boolean>;
+
 const OurServices = () => {
+  const [expanded, setExpanded] = useState<ExpandedState>({});
+
+  const toggleReadMore = (id: number) => {
+    setExpanded((prev) => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
+
   return (
     <section
       className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-16"
@@ -24,73 +36,90 @@ const OurServices = () => {
           Our Services
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
-          {specialityData.map((data, index) => (
-            <Link
-              href={data.path}
-              key={data.id}
-              aria-label={`Learn more about ${data.heading} service`}
-              passHref
-            >
-              <motion.div
-                className={`flex flex-col sm:flex-row ${
-                  index % 2 === 0
-                    ? "bg-white dark:bg-gray-900"
-                    : "bg-white dark:bg-gray-900"
-                } shadow-md rounded-3xl overflow-hidden hover:shadow-lg transition-shadow duration-300`}
-                initial={{ opacity: 0, scale: 0.9, y: 50 }}
-                whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{
-                  duration: 0.6,
-                  delay: index * 0.15,
-                  ease: "backInOut",
-                }}
-                viewport={{ once: true, amount: 0.2 }}
-                itemScope
-                itemType="https://schema.org/Service"
-                itemProp="itemListElement"
-              >
-                <meta itemProp="position" content={String(index + 1)} />
-                <div
-                  className={`w-full lg:w-1/3 mb-4 lg:mb-0 ${
-                    data.id % 2 === 0 ? "sm:order-last" : ""
-                  }`}
-                >
-                  <div className="w-full h-full aspect-video relative">
-                    <Image
-                      src={data.imageUrl}
-                      alt={`${data.heading} service by Infinity Construction NYC`}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      className={`object-cover rounded-t-2xl ${
-                        data.id % 2 === 0
-                          ? "sm:rounded-r-2xl"
-                          : "sm:rounded-l-2xl"
-                      }`}
-                      priority={index < 3}
-                      itemProp="image"
-                    />
-                  </div>
-                </div>
+        <div className="grid grid-cols-1 gap-8">
+          {specialityData.map((data, index) => {
+            const isExpanded = expanded[data.id] ?? false;
+            const shortText =
+              data.description.length > 120
+                ? data.description.slice(0, 80) + "..."
+                : data.description;
 
-                <div className="w-full lg:w-2/3 p-6 pt-2 sm:pt-10 sm:p-10 flex flex-col justify-center">
-                  <h3
-                    className="text-2xl md:text-3xl font-semibold text-tertiary dark:text-white"
-                    style={{ fontFamily: "var(--font-forum)" }}
-                    itemProp="name"
+            return (
+              <Link
+                href={data.path}
+                key={data.id}
+                aria-label={`Learn more about ${data.heading} service`}
+              >
+                <motion.div
+                  className="flex flex-col sm:flex-row bg-white dark:bg-gray-900 shadow-md rounded-3xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
+                  initial={{ opacity: 0, scale: 0.9, y: 50 }}
+                  whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                  transition={{
+                    duration: 0.6,
+                    delay: index * 0.15,
+                    ease: "backInOut",
+                  }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  itemScope
+                  itemType="https://schema.org/Service"
+                  itemProp="itemListElement"
+                >
+                  <meta itemProp="position" content={String(index + 1)} />
+
+                  {/* Image */}
+                  <div
+                    className={`w-full lg:w-1/3 ${
+                      data.id % 2 === 0 ? "sm:order-last" : ""
+                    }`}
                   >
-                    {data.heading}
-                  </h3>
-                  <p
-                    className="mt-2 text-lg xl:text-lg 2xl:text-xl text-gray-700 dark:text-gray-300 text-center md:text-justify"
-                    itemProp="description"
-                  >
-                    {data.description}
-                  </p>
-                </div>
-              </motion.div>
-            </Link>
-          ))}
+                    <div className="w-full h-full aspect-video relative">
+                      <Image
+                        src={data.imageUrl}
+                        alt={`${data.heading} service`}
+                        fill
+                        className="object-cover"
+                        priority={index < 3}
+                        itemProp="image"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="w-full lg:w-2/3 p-6 sm:p-10 flex flex-col justify-center">
+                    <h3
+                      className="text-2xl md:text-3xl font-semibold text-tertiary dark:text-white"
+                      itemProp="name"
+                    >
+                      {data.heading}
+                    </h3>
+
+                    {/* Mobile */}
+                    <p className="mt-2 text-base text-gray-700 dark:text-gray-300 block sm:hidden">
+                      {isExpanded ? data.description : shortText}
+                    </p>
+
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        toggleReadMore(data.id);
+                      }}
+                      className="text-sm text-[#364f4f] font-medium mt-1 block sm:hidden"
+                    >
+                      {isExpanded ? "Read Less" : "Read More"}
+                    </button>
+
+                    {/* Desktop */}
+                    <p
+                      className="mt-2 text-lg text-gray-700 dark:text-gray-300 hidden sm:block"
+                      itemProp="description"
+                    >
+                      {data.description}
+                    </p>
+                  </div>
+                </motion.div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

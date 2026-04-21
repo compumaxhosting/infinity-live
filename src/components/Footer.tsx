@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { specialityData } from "@/data/ourServicesData";
 import Link from "next/link";
 import {
@@ -78,15 +78,15 @@ const Footer = () => {
                 className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
               >
-                Transforming spaces with precision and excellence in New York
-                City since 2015.
+                We specialize in brownstone restoration, waterproofing, masonry,
+                and exterior construction services across New York City.
+                Delivering durable, high-quality workmanship since 2015.
               </p>
               <p
                 className="mt-4 text-white text-sm leading-relaxed font-semibold"
                 itemProp="description"
               >
-                LICENSED & INSURED BROWNSTONE RESTORATION AND HISTORICAL
-                LANDMARK SPECIALIST
+                LICENSED & INSURED 
               </p>
             </div>
 
@@ -127,7 +127,7 @@ const Footer = () => {
               </div>
 
               {/* Hours */}
-              <div className="flex items-start gap-4" itemProp="openingHours">
+              {/* <div className="flex items-start gap-4" itemProp="openingHours">
                 <div className="p-2 bg-slate-800 rounded-lg">
                   <Clock className="text-primary" size={18} />
                 </div>
@@ -135,7 +135,7 @@ const Footer = () => {
                   <p className="font-medium">Business Hours</p>
                   <p className="text-gray-100 text-sm">6:00 AM – 8:00 PM</p>
                 </div>
-              </div>
+              </div> */}
 
               {/* Addresses */}
               <div className="space-y-4">
@@ -333,8 +333,8 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-200 mt-8 pt-4 text-center text-gray-100 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} Infinity Construction NYC. All
-            rights reserved.
+            &copy; {new Date().getFullYear()} 2026 Infinity Construction NYC.
+            All Rights Reserved. Privacy Policy | Terms & Conditions
           </p>
         </div>
       </div>

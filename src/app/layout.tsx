@@ -45,32 +45,78 @@ export const metadata: Metadata = {
 
 const jsonLdSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "GeneralContractor",
   name: "Infinity Construction NYC",
-  url: "https://www.infinityconstructionnyc.com/",
-  logo: "https://www.infinityconstructionnyc.com/logo.webp",
-  image: "https://www.infinityconstructionnyc.com/cover-image.webp",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "1809 Albany Ave",
-    addressLocality: "Brooklyn",
-    addressRegion: "NY",
-    postalCode: "11210",
-    addressCountry: "US",
-  },
-  telephone: "+1-347-939-5779",
-  openingHours: ["Mo-Fr 07:00-22:00", "Sa-Su 07:00-17:00"],
-  sameAs: [
-    "https://www.facebook.com/infinityconstructionnyc",
-    "https://www.instagram.com/infinity_construction_nyc/",
+    "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2015.",
+  url: "https://www.infinityconstructionnyc.com/",
+  telephone: "347-939-5779",
+  email: "Infinityconstructionnyc@gmail.com",
+  priceRange: "$$",
+  image: "https://www.infinityconstructionnyc.com/logo.png",
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "1809 Albany Ave",
+      addressLocality: "Brooklyn",
+      addressRegion: "NY",
+      postalCode: "11210",
+      addressCountry: "US",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "152 E 118th St S1",
+      addressLocality: "New York",
+      addressRegion: "NY",
+      postalCode: "10035",
+      addressCountry: "US",
+    },
   ],
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: "40.7128",
-    longitude: "-74.0060",
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "06:00",
+      closes: "20:00",
+    },
+  ],
+  areaServed: [
+    {
+      "@type": "City",
+      name: "Brooklyn",
+    },
+    {
+      "@type": "City",
+      name: "Manhattan",
+    },
+    {
+      "@type": "City",
+      name: "Queens",
+    },
+    {
+      "@type": "City",
+      name: "The Bronx",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "9",
   },
+  sameAs: [
+    "https://www.facebook.com/Infinityconstructionnyc/",
+    "https://www.instagram.com/infinityconstructionnyc/",
+    "https://www.linkedin.com/company/infinity-construction-nyc/",
+    "https://www.yelp.com/biz/infinity-construction-nyc-brooklyn",
+  ],
 };
 
 export default function RootLayout({
