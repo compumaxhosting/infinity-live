@@ -17,7 +17,7 @@ const BrickCMULayeringPage = () => {
         <HeaderSpecial />
 
         <main
-          className="container mx-auto p-4 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
+          className="container mx-auto p-4 pt-28 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           {/* H1 */}
@@ -34,10 +34,7 @@ const BrickCMULayeringPage = () => {
             <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
               <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
                 Call{" "}
-                <a
-                  href={contactPhoneHref}
-                  className="underline font-extrabold"
-                >
+                <a href={contactPhoneHref} className="underline font-extrabold">
                   {contactPhone}
                 </a>{" "}
                 for immediate masonry consultation in NYC.
@@ -108,16 +105,12 @@ const BrickCMULayeringPage = () => {
                     English bonds.
                   </li>
                   <li>
-                    <span className="font-medium">
-                      Architectural Details:
-                    </span>{" "}
+                    <span className="font-medium">Architectural Details:</span>{" "}
                     Expertly crafted brick arches, lintels, and decorative
                     cornices.
                   </li>
                   <li>
-                    <span className="font-medium">
-                      Facade Strengthening:
-                    </span>{" "}
+                    <span className="font-medium">Facade Strengthening:</span>{" "}
                     Ensuring every brick is perfectly aligned with high-quality
                     mortar.
                   </li>
@@ -142,15 +135,11 @@ const BrickCMULayeringPage = () => {
                     blocks.
                   </li>
                   <li>
-                    <span className="font-medium">
-                      Retaining Walls:
-                    </span>{" "}
+                    <span className="font-medium">Retaining Walls:</span>{" "}
                     Engineered to manage soil pressure and drainage.
                   </li>
                   <li>
-                    <span className="font-medium">
-                      Structural Integration:
-                    </span>{" "}
+                    <span className="font-medium">Structural Integration:</span>{" "}
                     Seamless integration with plumbing and reinforcements.
                   </li>
                 </ul>
@@ -303,9 +292,7 @@ const BrickCMULayeringPage = () => {
                   className="flex items-center gap-2 hover:text-primary transition font-bold"
                 >
                   <Phone size={20} />
-                  <span className="font-extrabold">
-                    {contactPhone}
-                  </span>
+                  <span className="font-extrabold">{contactPhone}</span>
                 </a>
 
                 <a

@@ -10,19 +10,17 @@ import OurTestimonial from "@/components/OurTestimonial";
 import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import PhoneCall from "@/components/PhoneCall";
-
-
+import FaqHomeSection from "@/components/FaqHomeSection";
 
 export default function Home() {
   return (
     <>
-
-
       {/* Page Sections */}
       <HeaderTwo />
       <CarouselSection />
       <HeroSection />
       <OurServices />
+      <FaqHomeSection />
       <OurTestimonial />
       <OurAffiliatesSection />
       <ServicesSection />

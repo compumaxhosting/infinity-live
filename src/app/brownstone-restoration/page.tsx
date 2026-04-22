@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div>
       <HeaderSpecial />
-      <div className="container mx-auto p-4 pt-40 2xl:pt-36 border-b px-6 md:px-12 lg:px-48">
+      <div className="container mx-auto p-4 pt-28 2xl:pt-36 border-b px-6 md:px-12 lg:px-48">
         <h1 className="text-center text-2xl md:text-5xl text-black mb-8">
           Top-Rated Brownstone Restoration Experts in NYC – Quality
           Craftsmanship You Can Trust

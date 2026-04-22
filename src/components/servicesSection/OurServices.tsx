@@ -41,7 +41,7 @@ const OurServices = () => {
             const isExpanded = expanded[data.id] ?? false;
             const shortText =
               data.description.length > 120
-                ? data.description.slice(0, 80) + "..."
+                ? data.description.slice(0, 40) + "..."
                 : data.description;
 
             return (

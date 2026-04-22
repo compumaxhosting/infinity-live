@@ -15,7 +15,7 @@ const Page = () => {
       <div>
         <HeaderSpecial />
         <main
-          className="container mx-auto p-8 pt-40 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 px-4 md:px-12 lg:px-48"
+          className="container mx-auto p-8 pt-28 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           <section

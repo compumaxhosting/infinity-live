@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React, { useState } from "react";
 
 const HeroSection = () => {
@@ -9,6 +8,7 @@ const HeroSection = () => {
   return (
     <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20 dark:border-b">
       <div className="max-w-7xl w-full">
+        {/* Top Heading */}
         <p className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
           Infinity Construction NYC
         </p>
@@ -21,132 +21,122 @@ const HeroSection = () => {
           Licensed & Insured.
         </h2>
 
-        <h3 className="text-xl md:text-xl text-[#042c46] dark:text-[#90caf9] sm:mb-2 text-center">
-          Precision. Punctuality. Professionalism.
-        </h3>
+        {/* SEO Heading */}
+        <h1 className="text-2xl md:text-3xl text-[#042c46] dark:text-[#90caf9] text-center font-bold mt-6">
+          Infinity Construction NYC: Brownstone Restoration & Renovation Experts
+        </h1>
 
-        {/* Always visible content */}
-        <div className="content-section">
-          <p
-            className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
-            style={{ fontFamily: "var(--font-forum)" }}
-          >
-            Infinity Construction NYC is a leading provider of quality
-            restoration services in the tri-state area. Expert Masonry,
-            Brownstone Restoration & Exterior Renovations in New York City
-            Trusted by homeowners and businesses across Brooklyn, Manhattan,
-            Queens, and the Bronx. With a focus on precision, punctuality, and
-            professionalism, we specialize in brownstone exterior restoration,
-            masonry, roofing, waterproofing, fire escape painting, and painting
-            & plastering. Our goal is to deliver exceptional results to our
-            clients while maintaining cost-effectiveness.
-          </p>
+        <h2 className="text-lg md:text-xl text-center mt-2 text-slate-700 dark:text-slate-300">
+          Preserving New York’s Architectural Heritage in Brooklyn, Manhattan,
+          Queens, and The Bronx
+        </h2>
 
-          <p
-            className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
-            style={{ fontFamily: "var(--font-forum)" }}
-          >
-            <Link href="/brownstone-restoration">
-              Best Brownstone Renovation & Restoration Contractor{" "}
-            </Link>{" "}
-            in <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>
-            , <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>
-            , <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>,
-            and{" "}
-            <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,
-            NYC.
-          </p>
-        </div>
+        {/* Always visible intro */}
+        <p
+          className="pt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+          style={{ fontFamily: "var(--font-forum)" }}
+        >
+          Infinity Construction NYC is the premier Brownstone Restoration
+          Contractor in NYC, specializing in the meticulous preservation of
+          historic landmarks. Since 2015, our licensed and insured team has
+          combined old-world craftsmanship with modern waterproofing technology
+          to restore the iconic facades of New York City.
+        </p>
 
-        {/* Collapsible content */}
+        {/* Expandable Content */}
         {showMore && (
-          <div className="additional-content">
+          <div className="content-section">
             <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+              className="mt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
-              Serving a wide range of clients, including property owners,
-              real-estate firms, architects, and engineers, we are committed to
-              preserving the historical beauty of brownstone buildings. With a
-              highly experienced team of workers, we take pride in our attention
-              to detail and the quality of our work.
+              Whether you own a historic brownstone in Park Slope or a
+              commercial property in Manhattan, we deliver precision,
+              punctuality, and professional excellence.
+            </p>
+
+            <h2 className="text-xl font-semibold mt-10 text-center">
+              Full-Service Exterior Restoration & Masonry Services
+            </h2>
+
+            <p
+              className="mt-4 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+              style={{ fontFamily: "var(--font-forum)" }}
+            >
+              As Exterior Building Restoration Experts in NYC, we provide a
+              comprehensive suite of services designed to stop water
+              infiltration and restore structural integrity.
+            </p>
+
+            <ul className="mt-6 text-lg text-slate-800 dark:text-slate-300 mx-auto sm:px-20 list-disc space-y-3">
+              <li>
+                <strong>Historical Landmark Restoration:</strong> Expert care
+                for Brownstone and Limestone facades, adhering to LPC and DOB
+                guidelines.
+              </li>
+              <li>
+                <strong>Brick Pointing & Waterproofing NYC:</strong> Specialized
+                repointing to prevent decay and protect your masonry for
+                decades.
+              </li>
+              <li>
+                <strong>Stucco & Exterior Waterproofing:</strong> Comprehensive
+                sealing for exterior walls, parapets, and retaining walls.
+              </li>
+              <li>
+                <strong>Roof Restoration & Weatherproofing NYC:</strong> From
+                leak repair to full roof reconstruction under NYC Energy Codes.
+              </li>
+              <li>
+                <strong>Fire Escape & Metal Restoration:</strong> Safety-focused
+                restoration of fire escapes, railings, and fences.
+              </li>
+              <li>
+                <strong>Paving & Masonry:</strong> Professional installation of
+                concrete, stone, and brick for sidewalks and driveways (ADA
+                compliant).
+              </li>
+            </ul>
+
+            <h2 className="text-xl font-semibold mt-10 text-center">
+              Why Choose Infinity Construction NYC
+            </h2>
+
+            <ul className="mt-4 text-lg text-slate-800 dark:text-slate-300 mx-auto sm:px-20 list-disc space-y-2">
+              <li>Licensed & Insured Contractor</li>
+              <li>Experience with LPC & DOB Compliance</li>
+              <li>Strong knowledge of NYC building structures</li>
+              <li>Reliable project timelines and quality workmanship</li>
+              <li>Trusted by homeowners and property managers</li>
+            </ul>
+
+            <h2 className="text-xl font-semibold mt-10 text-center">
+              Service Areas
+            </h2>
+
+            <p
+              className="mt-4 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center"
+              style={{ fontFamily: "var(--font-forum)" }}
+            >
+              Brooklyn, Manhattan, Queens, and the Bronx
             </p>
 
             <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
+              className="mt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
-              Trusted Contractor for Brownstone Restoration Near Me in Brooklyn,
-              Queens, The Bronx, and Manhattan, New York City. Operating in key
-              locations such as Park Slope, Brooklyn Heights, Downtown Brooklyn,
-              Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea, Riverside,
-              Harlem, The Bronx, and Queens, we are proud to be one of the
-              leading brownstone restoration specialists in NYC.
-            </p>
-            <p
-              className="pt-6 text-xl md:text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              Infinity Construction NYC is a leading provider of quality
-              restoration services in the tri-state area. With a focus on
-              precision, punctuality, and professionalism, we specialize in
-              painting and masonry. Our goal is to deliver exceptional results
-              to our clients while maintaining cost-effectiveness.
-            </p>
-
-            <p
-              className="mt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              Best painting and masonry Contractor in{" "}
-              <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>,{" "}
-              <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>
-              , <Link href="https://www.wikidata.org/wiki/Q18424">Queens</Link>,
-              and{" "}
-              <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>
-              , NY.
-            </p>
-
-            <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              Serving a wide range of clients, including property owners,
-              real-estate firms, architects, and engineers, we are committed to
-              enhancing the beauty and durability of interior spaces. With a
-              highly experienced team of workers, we take pride in our attention
-              to detail and the quality of our work.
-            </p>
-
-            <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              Trusted Contractor for painting and masonry Near Me in Brooklyn,
-              Queens, The Bronx, and Manhattan, New York City. Operating in key
-              locations such as Park Slope, Brooklyn Heights, Downtown Brooklyn,
-              Cobble Hill, Dumbo, Red Hook, Crown Heights, Chelsea, Riverside,
-              Harlem, The Bronx, and Queens, we are proud to be one of the
-              leading interior renovation specialists in NYC.
-            </p>
-            <p
-              className="pt-6 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-7 mx-auto sm:px-20 text-center md:text-justify"
-              style={{ fontFamily: "var(--font-forum)" }}
-            >
-              {" "}
-              We bring over a decade of expertise in restoring and preserving
-              the historic architecture of NYC’s five boroughs. Specializing in
-              brownstone and limestone facades, stucco finishes, and landmark
-              exteriors, we combine traditional craftsmanship with modern
-              techniques to revitalize the city’s iconic buildings. Whether
-              repairing intricate details or ensuring compliance with
-              preservation standards, we’re dedicated to maintaining the
-              timeless beauty of New York’s architectural heritage.
+              Infinity Construction NYC is a top-rated Brownstone Restoration
+              Contractor in NYC serving Brooklyn, Manhattan, Queens, and the
+              Bronx. They specialize in historical landmark restoration,
+              masonry, and waterproofing. Their primary benefit is providing
+              licensed, DOB-compliant exterior services that preserve property
+              value while ensuring complete weatherproofing and structural
+              safety.
             </p>
           </div>
         )}
 
-        {/* Read More/Less button */}
+        {/* Button */}
         <div className="text-center mt-6">
           <button
             onClick={() => setShowMore(!showMore)}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Phone } from "lucide-react";
+// import { Phone } from "lucide-react";
 import { ModeToggle } from "../extras/ModeToggle";
 import SidebarMenu from "./SidebarMenu";
 import NavbarSpecial from "./NavbarSpecial";
@@ -45,7 +45,7 @@ const HeaderSpecial: React.FC = () => {
 
         {/* ─── Phone button (mobile only, now under logo) ───────────────── */}
         {/* ─── Phone button (mobile only, centered) ─── */}
-        <div className="flex justify-center sm:hidden">
+        {/* <div className="flex justify-center sm:hidden">
           <Link
             href="tel:+13479395779"
             className="flex items-center gap-2 rounded bg-primary px-4 py-2 text-white hover:bg-orange-600"
@@ -53,7 +53,7 @@ const HeaderSpecial: React.FC = () => {
             <Phone className="h-4 w-4" />
             <span className="text-sm font-medium">347&nbsp;939&nbsp;5779</span>
           </Link>
-        </div>
+        </div> */}
 
         {/* ─── Desktop nav + actions ────────────────────────────────────── */}
         <div className="flex items-center gap-3">

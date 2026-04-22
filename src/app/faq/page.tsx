@@ -16,7 +16,8 @@ const faqs = [
       "We take payments in Cash, Checks, and Credit Card. We don’t have any specific payment plan or financing options. However, we accept payments in phases. Our jobs are completed in phases and the payments are accepted after each phase has been completed. Based on the job, the client has the room to make payments over the period of time as the job is being completed.",
   },
   {
-    question: "How is Infinity Construction NYC different from its competitors?",
+    question:
+      "How is Infinity Construction NYC different from its competitors?",
     answer:
       "We don’t sugarcoat our process of work for our clients. We run an honest business, and from the beginning, we explain everything step by step to our clients so they don’t get any accidental surprises during the project. We have experienced licensed civil engineers to visit sites throughout the process of work, and our workers are highly experienced and love their work.",
   },
@@ -36,7 +37,7 @@ const page = () => {
   return (
     <div>
       <HeaderSpecial />
-      <div className="pt-40 sm:pt-28 xl:pt-32 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
+      <div className="pt-28 sm:pt-28 xl:pt-32 pb-14 bg-gray-50 dark:bg-gray-900 p-4">
         <h1 className="text-center text-2xl lg:text-5xl mb-10 text-gray-900 dark:text-white">
           Frequently Asked Questions
         </h1>
@@ -55,7 +56,7 @@ const page = () => {
           </Accordion>
         </div>
       </div>
-      <Footer /> 
+      <Footer />
       <PhoneCall />
     </div>
   );

@@ -8,7 +8,7 @@ const page = () => {
     <div>
       <HeaderSpecial />
       <div
-        className="container mx-auto p-4 pt-40 sm:pt-28 2xl:pt-36"
+        className="container mx-auto p-4 pt-28 sm:pt-28 2xl:pt-36"
         style={{ fontFamily: "var(--font-forum)" }}
       >
         <h1 className="text-center text-5xl text-black mb-8">
