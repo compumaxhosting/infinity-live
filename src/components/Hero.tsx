@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
+import Link from "next/link";
 const HeroSection = () => {
   const [showMore, setShowMore] = useState(false);
 
@@ -70,31 +70,55 @@ const HeroSection = () => {
 
             <ul className="mt-6 text-lg text-slate-800 dark:text-slate-300 mx-auto sm:px-20 list-disc space-y-3">
               <li>
-                <strong>Historical Landmark Restoration:</strong> Expert care
-                for Brownstone and Limestone facades, adhering to LPC and DOB
-                guidelines.
+                <Link
+                  href="/historical-landmark"
+                  className="no-underline text-inherit"
+                >
+                  <strong>Historical Landmark Restoration:</strong>
+                </Link>{" "}
+                Expert care for Brownstone and Limestone facades, adhering to
+                LPC and DOB guidelines.
               </li>
               <li>
-                <strong>Brick Pointing & Waterproofing NYC:</strong> Specialized
-                repointing to prevent decay and protect your masonry for
-                decades.
+                <Link
+                  href="/brick-pointing"
+                  className="no-underline text-inherit"
+                >
+                  <strong>Brick Pointing & Waterproofing NYC:</strong>
+                </Link>{" "}
+                Specialized repointing to prevent decay and protect your masonry
+                for decades.
               </li>
               <li>
-                <strong>Stucco & Exterior Waterproofing:</strong> Comprehensive
-                sealing for exterior walls, parapets, and retaining walls.
+                <Link href="/stucco" className="no-underline text-inherit">
+                  <strong>Stucco & Exterior Waterproofing:</strong>
+                </Link>{" "}
+                Comprehensive sealing for exterior walls, parapets, and
+                retaining walls.
               </li>
               <li>
-                <strong>Roof Restoration & Weatherproofing NYC:</strong> From
-                leak repair to full roof reconstruction under NYC Energy Codes.
+                <Link href="/roofing" className="no-underline text-inherit">
+                  <strong>Roof Restoration & Weatherproofing NYC:</strong>
+                </Link>{" "}
+                From leak repair to full roof reconstruction under NYC Energy
+                Codes.
               </li>
               <li>
-                <strong>Fire Escape & Metal Restoration:</strong> Safety-focused
-                restoration of fire escapes, railings, and fences.
+                <Link
+                  href="/fire-escape-restoration"
+                  className="no-underline text-inherit"
+                >
+                  <strong>Fire Escape & Metal Restoration:</strong>
+                </Link>{" "}
+                Safety-focused restoration of fire escapes, railings, and
+                fences.
               </li>
               <li>
-                <strong>Paving & Masonry:</strong> Professional installation of
-                concrete, stone, and brick for sidewalks and driveways (ADA
-                compliant).
+                <Link href="/paving" className="no-underline text-inherit">
+                  <strong>Paving & Masonry:</strong>
+                </Link>{" "}
+                Professional installation of concrete, stone, and brick for
+                sidewalks and driveways (ADA compliant).
               </li>
             </ul>
 
