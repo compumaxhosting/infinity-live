@@ -5,9 +5,9 @@ import HeaderTwo from "../components/headerSection/HeaderTwo";
 import HeroSection from "../components/Hero";
 import MapComponent from "../components/MapComponent";
 import ServicesSection from "@/components/ContactSection";
-import SocialLinks from "@/components/SocialLinks";
-import OurTestimonial from "@/components/OurTestimonial";
-import OurAffiliatesSection from "@/components/OurAffiliatesSection";
+// import SocialLinks from "@/components/SocialLinks";
+// import OurTestimonial from "@/components/OurTestimonial";
+// import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import PhoneCall from "@/components/PhoneCall";
 import FaqHomeSection from "@/components/FaqHomeSection";
@@ -21,10 +21,10 @@ export default function Home() {
       <HeroSection />
       <OurServices />
       <FaqHomeSection />
-      <OurTestimonial />
-      <OurAffiliatesSection />
+      {/* <OurTestimonial /> */}
+      {/* <OurAffiliatesSection /> */}
       <ServicesSection />
-      <SocialLinks />
+      {/* <SocialLinks /> */}
       <ContactScroll />
       <MapComponent />
       <Footer />

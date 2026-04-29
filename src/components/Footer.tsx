@@ -1,14 +1,14 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 import { specialityData } from "@/data/ourServicesData";
 import Link from "next/link";
-import {
-  FaExternalLinkAlt,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTiktok,
-  FaYelp,
-} from "react-icons/fa";
+// import {
+//   FaExternalLinkAlt,
+//   FaFacebook,
+//   FaInstagram,
+//   FaLinkedin,
+//   FaTiktok,
+//   FaYelp,
+// } from "react-icons/fa";
 import Image from "next/image";
 
 const Footer = () => {
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent opacity-30"></div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-6">
             <div className="group">
@@ -78,7 +78,7 @@ const Footer = () => {
                 className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
               >
-                We specialize in brownstone restoration, waterproofing, masonry,
+                We specialize in  masonry
                 and exterior construction services across New York City.
                 Delivering durable, high-quality workmanship since 2015.
               </p>
@@ -86,7 +86,7 @@ const Footer = () => {
                 className="mt-4 text-white text-sm leading-relaxed font-semibold"
                 itemProp="description"
               >
-                LICENSED & INSURED 
+                LICENSED & INSURED
               </p>
             </div>
 
@@ -191,12 +191,12 @@ const Footer = () => {
               {[
                 { name: "Home", path: "/" },
                 { name: "About Us", path: "/about-us" },
-                { name: "Gallery", path: "/gallery" },
-                { name: "Projects", path: "/projects" },
+                // { name: "Gallery", path: "/gallery" },
+                // { name: "Projects", path: "/projects" },
                 { name: "Services", path: "/services" },
-                { name: "Blog", path: "/blog" },
+                // { name: "Blog", path: "/blog" },
                 { name: "Contact", path: "/contact" },
-                { name: "Sitemap", path: "/site-map" },
+                // { name: "Sitemap", path: "/site-map" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
@@ -234,7 +234,7 @@ const Footer = () => {
           </div>
 
           {/* Social & Reviews */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
               Connect With Us
             </h3>
@@ -327,7 +327,7 @@ const Footer = () => {
                 Contact Us
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Copyright */}

@@ -40,11 +40,11 @@ const CarouselContent: React.FC<CarouselContentProps> = ({
           </Link>
 
           <Link
-            href="/gallery"
+            href="/about"
             className="hidden md:block bg-transparent border-2 border-white text-xl md:text-2xl text-white py-1 px-2 md:py-3 md:px-4 rounded-full hover:bg-primary hover:border-primary transition-all duration-300 w-[200px]"
             style={{ textShadow: "0px 0px 10px black" }}
           >
-            View Portfolio
+            View Pofile
           </Link>
         </div>
       </div>

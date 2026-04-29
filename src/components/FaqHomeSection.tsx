@@ -6,26 +6,28 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import React from "react";
-
 const faqs = [
   {
-    question: "How do I know if my brownstone needs repointing?",
+    question: "Does Infinity Construction NYC handle small repair jobs?",
     answer:
-      "If you notice crumbling mortar, white powdery salt deposits (efflorescence), or interior dampness, it's time for Brick Pointing and Waterproofing NYC. Addressing this early prevents costly structural damage.",
+      "Yes — we take on projects of all sizes, from single-wall brick repointing to full building renovations across Brooklyn, Manhattan, Queens, and The Bronx.",
   },
   {
-    question:
-      "Does Infinity Construction NYC handle Landmark Preservation Commission (LPC) permits?",
+    question: "Are you licensed to work in New York City?",
     answer:
-      "Yes. As a specialist Brownstone Restoration Contractor NYC, we ensure all work on historic properties meets the strict aesthetic and structural standards required by the LPC and DOB.",
+      "Absolutely. We are fully licensed and insured, compliant with NYC Department of Buildings regulations and NYC Local Law requirements.",
   },
   {
-    question: "What areas do you serve?",
+    question: "How do I get a quote for masonry or painting work?",
     answer:
-      "We provide full NYC Building Restoration Services across Brooklyn (Albany Ave headquarters), Manhattan (E 118th St office), Queens, and the Bronx.",
+      "Contact us for a free, no-obligation estimate. We visit your site in any of our service boroughs and provide a detailed written quote within 48 hours.",
+  },
+  {
+    question: "Do you offer commercial construction services in NYC?",
+    answer:
+      "Yes — Infinity Construction NYC serves both residential and commercial clients with masonry, carpentry, and painting services throughout the city.",
   },
 ];
-
 const FaqHomeSection = () => {
   return (
     <section className="py-16 md:py-24 bg-white">
@@ -35,10 +37,10 @@ const FaqHomeSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          {/* <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Get answers to common questions about our brownstone restoration and
             building services.
-          </p>
+          </p> */}
         </div>
 
         {/* FAQ Accordion */}
@@ -66,11 +68,11 @@ const FaqHomeSection = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Ready to Restore Your Property?
           </h3>
-          <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Don't let water damage compromise your building's legacy. Contact
+          {/* <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+            Don&apos;t let water damage compromise your building&apos;s legacy. Contact
             the Best Brownstone Restoration Company in NYC for a free
             consultation and estimate.
-          </p>
+          </p> */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
@@ -78,12 +80,12 @@ const FaqHomeSection = () => {
             >
               Get Free Consultation
             </Link>
-            <Link
+            {/* <Link
               href="/faq"
               className="inline-block bg-white hover:bg-gray-100 text-orange-600 font-semibold py-3 px-8 rounded-lg border-2 border-orange-600 transition duration-300"
             >
               View All FAQs
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -89,72 +89,41 @@ const AboutTemp = () => {
             className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            Infinity Construction NYC proudly serves{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q11299"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Manhattan
-            </Link>
-            ,{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q18419"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Brooklyn
-            </Link>
-            ,{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q18424"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Queens
-            </Link>
-            ,{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q18426"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              The Bronx
-            </Link>
-            ,{" "}
-            <Link
-              href="https://www.wikidata.org/wiki/Q60"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              New York City
-            </Link>
-            . With deep knowledge of the city&apos;s building codes, local
+            Infinity Construction NYC provides expert masonry, carpentry, and
+            painting services across Brooklyn, Manhattan, Queens, and the Bronx.
+            With a strong focus on quality workmanship and attention to detail,
+            we handle everything from structural repairs and custom woodwork to
+            interior and exterior painting. Whether it’s a residential upgrade
+            or a commercial project, our team is committed to delivering durable
+            results, clean finishes, and dependable service you can trust.
+            {/* With deep knowledge of the city&apos;s building codes, local
             regulations, and architectural heritage, we understand what it takes
             to deliver quality work in a complex urban environment like New
             York. <br />
             Infinity Construction NYC is a trusted, locally-owned construction
             and restoration company based in Brooklyn, NY. We specialize in
-            brownstone and limestone restoration, brick pointing, concrete work,
-            stucco, waterproofing, and sidewalk repair across New York City,
-            including Brooklyn, Queens, Manhattan, the Bronx. With years of
-            hands-on experience, our skilled team is committed to preserving the
-            beauty and structure of NYC’s historic buildings while delivering
-            high-quality modern construction services. Whether it&apos;s
-            restoring a Brooklyn brownstone façade or repairing sidewalks to
-            remove DOT violations, we ensure long-lasting results and complete
-            customer satisfaction.Choose Infinity Construction NYC for reliable,
-            local, and professional service.
+            Painting & Masonry */}
+            {/* brownstone and limestone restoration, brick pointing, concrete work,
+            stucco, waterproofing, and sidewalk repair  */}
+            {/* across New York City, including Brooklyn, Queens, Manhattan, the
+            Bronx. With years of hands-on experience, our skilled team is
+            committed to preserving the beauty and structure of NYC’s historic
+            buildings while delivering high-quality modern construction */}
+            {/* services. Whether it&apos;s restoring a Brooklyn brownstone façade
+            or repairing sidewalks to remove DOT violations, we ensure
+            long-lasting results and complete customer satisfaction.Choose
+            Infinity Construction NYC for reliable, local, and professional
+            service. */}
           </p>
 
-          <p
+          {/* <p
             className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             From classic brownstones to modern high-rises, our team approaches
             every project with respect for the structure and the people who rely
             on it.
-          </p>
+          </p> */}
 
           {/* What Sets Us Apart */}
           <h3
@@ -221,7 +190,7 @@ const AboutTemp = () => {
             attention, and respect for your investment and your community.{" "}
             <br />
             <br />
-            Infinity Construction NYC delivers expert brownstone restoration and
+            {/* Infinity Construction NYC delivers expert brownstone restoration and
             renovation, masonry, roofing, waterproofing, fire escape painting,
             and painting & plastering services across Brooklyn, Manhattan,
             Queens, and The Bronx. Proudly serving zip codes 11205, 11206,
@@ -229,7 +198,7 @@ const AboutTemp = () => {
             10031, 10035, 10037, and 10039, our skilled team ensures every
             project meets NYC’s highest standards for quality and compliance.
             Choose Infinity Construction NYC for reliable, cost-effective
-            restoration and renovation in your neighborhood!
+            restoration and renovation in your neighborhood! */}
           </p>
 
           {/* FAQ */}

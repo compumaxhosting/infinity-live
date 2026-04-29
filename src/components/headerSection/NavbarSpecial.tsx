@@ -57,7 +57,7 @@ const NavbarSpecial = () => {
               ))}
             </ul>
           </li>
-          <Link href="/portfolio">
+          {/* <Link href="/portfolio">
             <li
               className={`text-xl ${
                 isActive("/portfolio")
@@ -67,7 +67,7 @@ const NavbarSpecial = () => {
             >
               PROJECTS
             </li>
-          </Link>
+          </Link> */}
 
           <Link href="/contact">
             <li
@@ -81,7 +81,7 @@ const NavbarSpecial = () => {
             </li>
           </Link>
 
-          <li className="relative z-10 group">
+          {/* <li className="relative z-10 group">
             <div className="flex items-center text-xl hover:text-orange-500 cursor-pointer">
               MORE
               <ChevronDown className="w-3 md:w-5 h-3 md:h-5 ml-1 mt-[2px]" />
@@ -106,7 +106,7 @@ const NavbarSpecial = () => {
                 <Link href="/projects">OTHER WORKS</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </nav>
       <Link

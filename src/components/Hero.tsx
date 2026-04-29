@@ -13,9 +13,9 @@ const HeroSection = () => {
           Infinity Construction NYC
         </p>
 
-        <h1 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
+          {/* <h1 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
           Brownstone Restoration Specialist
-        </h1>
+        </h1> */}
 
         <h2 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
           Licensed & Insured.
@@ -23,7 +23,7 @@ const HeroSection = () => {
 
         {/* SEO Heading */}
         <h1 className="text-2xl md:text-3xl text-[#042c46] dark:text-[#90caf9] text-center font-bold mt-6">
-          Infinity Construction NYC: Brownstone Restoration & Renovation Experts
+          Infinity Construction NYC
         </h1>
 
         <h2 className="text-lg md:text-xl text-center mt-2 text-slate-700 dark:text-slate-300">
@@ -36,7 +36,7 @@ const HeroSection = () => {
           className="pt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
           style={{ fontFamily: "var(--font-forum)" }}
         >
-          Infinity Construction NYC is the premier Brownstone Restoration
+          Infinity Construction NYC is the premier 
           Contractor in NYC, specializing in the meticulous preservation of
           historic landmarks. Since 2015, our licensed and insured team has
           combined old-world craftsmanship with modern waterproofing technology
@@ -46,14 +46,14 @@ const HeroSection = () => {
         {/* Expandable Content */}
         {showMore && (
           <div className="content-section">
-            <p
+            {/* <p
               className="mt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Whether you own a historic brownstone in Park Slope or a
               commercial property in Manhattan, we deliver precision,
               punctuality, and professional excellence.
-            </p>
+            </p> */}
 
             <h2 className="text-xl font-semibold mt-10 text-center">
               Full-Service Exterior Restoration & Masonry Services
@@ -69,7 +69,7 @@ const HeroSection = () => {
             </p>
 
             <ul className="mt-6 text-lg text-slate-800 dark:text-slate-300 mx-auto sm:px-20 list-disc space-y-3">
-              <li>
+              {/* <li>
                 <Link
                   href="/historical-landmark"
                   className="no-underline text-inherit"
@@ -112,7 +112,7 @@ const HeroSection = () => {
                 </Link>{" "}
                 Safety-focused restoration of fire escapes, railings, and
                 fences.
-              </li>
+              </li> */}
               <li>
                 <Link href="/paving" className="no-underline text-inherit">
                   <strong>Paving & Masonry:</strong>
@@ -134,7 +134,7 @@ const HeroSection = () => {
               <li>Trusted by homeowners and property managers</li>
             </ul>
 
-            <h2 className="text-xl font-semibold mt-10 text-center">
+            {/* <h2 className="text-xl font-semibold mt-10 text-center">
               Service Areas
             </h2>
 
@@ -156,7 +156,7 @@ const HeroSection = () => {
               licensed, DOB-compliant exterior services that preserve property
               value while ensuring complete weatherproofing and structural
               safety.
-            </p>
+            </p> */}
           </div>
         )}
 
