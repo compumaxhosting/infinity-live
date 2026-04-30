@@ -178,10 +178,6 @@ function SidebarMenu() {
               )}
             </div> */}
           </nav>
-
-          {/* Phone Button */}
-          {/* Social Media Icons */}
-          
         </SheetContent>
       </Sheet>
     </div>

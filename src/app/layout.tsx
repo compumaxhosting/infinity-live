@@ -16,7 +16,7 @@ const bevietnam = Be_Vietnam_Pro({
 
 // ✅ Default metadata for entire site
 export const metadata: Metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title: "Infinity Construction NYC",
   description:
     "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
   keywords:
