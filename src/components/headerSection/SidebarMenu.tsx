@@ -11,17 +11,14 @@ import {
   Menu,
   ChevronDown,
   ChevronUp,
-  Instagram,
-  Facebook,
-  Linkedin,
+ 
 } from "lucide-react";
 import { specialityData } from "@/data/ourServicesData";
-import { FaExternalLinkAlt, FaTiktok, FaYelp } from "react-icons/fa";
 
 function SidebarMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
-  const [isMoreOpen, setIsMoreOpen] = useState(false);
+  // const [isMoreOpen, setIsMoreOpen] = useState(false);
 
   const toggleSheet = () => {
     setIsOpen(!isOpen);
@@ -31,9 +28,9 @@ function SidebarMenu() {
     setIsServicesOpen(!isServicesOpen);
   };
 
-  const toggleMoreDropdown = () => {
-    setIsMoreOpen(!isMoreOpen);
-  };
+  // const toggleMoreDropdown = () => {
+  //   setIsMoreOpen(!isMoreOpen);
+  // };
 
   return (
     <div>
@@ -116,12 +113,12 @@ function SidebarMenu() {
                 </div>
               )}
             </div>
-            <Link
+            {/* <Link
               href="/portfolio"
               className="text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500"
             >
               Projects
-            </Link>
+            </Link> */}
 
             <Link
               href="/contact"
@@ -130,7 +127,7 @@ function SidebarMenu() {
               Contact
             </Link>
             {/* More Dropdown */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <button
                 onClick={toggleMoreDropdown}
                 className="flex items-center justify-between text-lg text-gray-700 dark:text-gray-300 hover:text-orange-500 w-full"
@@ -179,66 +176,12 @@ function SidebarMenu() {
                   </Link>
                 </div>
               )}
-            </div>
+            </div> */}
           </nav>
 
           {/* Phone Button */}
           {/* Social Media Icons */}
-          <div className="mt-6 flex space-x-1 sm:space-x-3 justify-center flex-wrap">
-            {/* Instagram */}
-            <Link
-              href="https://www.instagram.com/infinity_construction_nyc/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-pink-500 transition-all duration-300" />
-            </Link>
-
-            {/* Facebook */}
-            <Link
-              href="https://www.facebook.com/InfinityConstructionNYC"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Facebook className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-blue-500 transition-all duration-300" />
-            </Link>
-
-            {/* LinkedIn */}
-            <Link
-              href="https://www.linkedin.com/in/imrul-hassan-403724268"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Linkedin className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-blue-400 transition-all duration-300" />
-            </Link>
-
-            {/* Yelp */}
-            <Link
-              href="https://www.yelp.com/biz/infinity-construction-nyc-brooklyn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaYelp className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-red-500 transition-all duration-300" />
-            </Link>
-
-            {/* Brownstoner */}
-            <Link
-              href="https://www.brownstoner.com/services/general-contractor-nyc/d6761b28e9652d/infinity-construction-nyc/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaExternalLinkAlt className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-amber-500 transition-all duration-300" />
-            </Link>
-
-            {/* TikTok */}
-            <Link
-              href="https://www.tiktok.com/@infinityconstructionnyc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTiktok className="h-10 w-9 sm:h-10 sm:w-10 bg-primary text-white rounded-2xl p-2 hover:bg-tertiary hover:text-black transition-all duration-300" />
-            </Link>
-          </div>
+          
         </SheetContent>
       </Sheet>
     </div>
