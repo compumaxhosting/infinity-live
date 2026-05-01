@@ -1,7 +1,7 @@
 export const specialityData = [
   {
     id: 1,
-    imageUrl: "/services-img-3.webp",
+    imageUrl: "/masonry.webp",
     heading: "Masonry",
     path: "/",
     description:
@@ -9,7 +9,7 @@ export const specialityData = [
   },
   {
     id: 2,
-    imageUrl: "/services-img-3.webp",
+    imageUrl: "/carpentry.webp",
     heading: "Carpentry",
     path: "/",
     description:
