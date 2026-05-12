@@ -78,9 +78,9 @@ const Footer = () => {
                 className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
               >
-                We specialize in  masonry
-                and exterior construction services across New York City.
-                Delivering durable, high-quality workmanship since 2015.
+                We specialize in masonry and exterior construction services
+                across New York City. Delivering durable, high-quality
+                workmanship since 2015.
               </p>
               <p
                 className="mt-4 text-white text-sm leading-relaxed font-semibold"
@@ -150,12 +150,17 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="font-medium">Brooklyn, New York :</p>
-                    <p className="text-gray-100 text-sm">
+                    <Link
+                      href="https://share.google/x2afcKJ9BTCn2r4Hp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-100 text-sm hover:underline"
+                    >
                       <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
                       <span itemProp="addressLocality">Brooklyn</span>,{" "}
                       <span itemProp="addressRegion">NY</span>{" "}
                       <span itemProp="postalCode">11210</span>
-                    </p>
+                    </Link>
                   </div>
                 </div>
 
@@ -170,12 +175,17 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="font-medium">Manhattan, New York :</p>
-                    <p className="text-gray-100 text-sm">
+                    <Link
+                      href="https://share.google/OuJfkyBgaowURan8S"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-100 text-sm hover:underline"
+                    >
                       <span itemProp="streetAddress">152 E 118th St S1</span>,{" "}
                       <span itemProp="addressLocality">New York</span>,{" "}
                       <span itemProp="addressRegion">NY</span>{" "}
                       <span itemProp="postalCode">10035</span>
-                    </p>
+                    </Link>
                   </div>
                 </div>
               </div>
