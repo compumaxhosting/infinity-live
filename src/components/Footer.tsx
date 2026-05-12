@@ -48,7 +48,7 @@ const Footer = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-4">
         {/* 4 COLUMN GRID */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 xl:gap-4">
           {/* COLUMN 1 - COMPANY INFO */}
           <div className="space-y-6">
             <div className="group">
@@ -76,9 +76,9 @@ const Footer = () => {
                 across New York City. Delivering durable, high-quality
                 workmanship since 2015.
               </p>
-
+<br />
               <p
-                className="mt-4 text-white text-sm leading-relaxed font-semibold"
+                className="mt-4 bg-yellow-400 inline p-2 lg:p-4 rounded-xl text-slate-800 text-sm leading-relaxed font-semibold"
                 itemProp="description"
               >
                 LICENSED & INSURED
