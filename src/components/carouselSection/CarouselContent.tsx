@@ -18,13 +18,13 @@ const CarouselContent: React.FC<CarouselContentProps> = ({
       <div className="text-white py-6 text-center flex flex-col justify-center items-center min-h-[400px]">
         {/* Dynamic Text */}
         <p
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:pb-2"
+          className="hidden sm:block text-2xl md:text-4xl lg:text-5xl md:pb-2"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           {title}
         </p>
         <h2
-          className="text-md md:text-xl lg:text-2xl leading-snug w-3/4"
+          className="text-3xl md:text-2xl lg:text-4xl leading-snug"
           style={{ textShadow: "0px 0px 10px black" }}
         >
           {subtitle}
@@ -40,11 +40,11 @@ const CarouselContent: React.FC<CarouselContentProps> = ({
           </Link>
 
           <Link
-            href="/about"
+            href="/gallery"
             className="hidden md:block bg-transparent border-2 border-white text-xl md:text-2xl text-white py-1 px-2 md:py-3 md:px-4 rounded-full hover:bg-primary hover:border-primary transition-all duration-300 w-[200px]"
             style={{ textShadow: "0px 0px 10px black" }}
           >
-            View Profile
+            View Portfolio
           </Link>
         </div>
       </div>
