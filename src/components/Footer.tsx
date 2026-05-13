@@ -76,7 +76,7 @@ const Footer = () => {
                 across New York City. Delivering durable, high-quality
                 workmanship since 2015.
               </p>
-<br />
+              <br />
               <p
                 className="mt-4 bg-yellow-400 inline p-2 lg:p-4 rounded-xl text-slate-800 text-sm leading-relaxed font-semibold"
                 itemProp="description"
@@ -145,36 +145,11 @@ const Footer = () => {
 
             <div className="space-y-6">
               {/* BROOKLYN */}
-              <div
-                className="flex items-start gap-4"
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-              >
-                <div className="p-2 bg-slate-800 rounded-lg">
-                  <MapPin className="text-[#FFA726]" size={18} />
-                </div>
-
-                <div>
-                  <p className="font-medium">Brooklyn, New York :</p>
-
-                  <Link
-                    href="https://share.google/x2afcKJ9BTCn2r4Hp"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-100 text-sm hover:underline"
-                  >
-                    <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
-                    <span itemProp="addressLocality">Brooklyn</span>,{" "}
-                    <span itemProp="addressRegion">NY</span>{" "}
-                    <span itemProp="postalCode">11210</span>
-                  </Link>
-                </div>
-              </div>
-
-              {/* MANHATTAN */}
-              <div
-                className="flex items-start gap-4"
+              <Link
+                href="https://share.google/x2afcKJ9BTCn2r4Hp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 hover:underline"
                 itemProp="address"
                 itemScope
                 itemType="https://schema.org/PostalAddress"
@@ -184,21 +159,44 @@ const Footer = () => {
                 </div>
 
                 <div>
-                  <p className="font-medium">Manhattan, New York :</p>
+                  <p className="font-medium text-white">Brooklyn, New York :</p>
 
-                  <Link
-                    href="https://share.google/OuJfkyBgaowURan8S"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-100 text-sm hover:underline"
-                  >
+                  <p className="text-gray-100 text-sm">
+                    <span itemProp="streetAddress">1809 Albany Ave</span>,{" "}
+                    <span itemProp="addressLocality">Brooklyn</span>,{" "}
+                    <span itemProp="addressRegion">NY</span>{" "}
+                    <span itemProp="postalCode">11210</span>
+                  </p>
+                </div>
+              </Link>
+
+              {/* MANHATTAN */}
+              <Link
+                href="https://share.google/OuJfkyBgaowURan8S"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 hover:underline"
+                itemProp="address"
+                itemScope
+                itemType="https://schema.org/PostalAddress"
+              >
+                <div className="p-2 bg-slate-800 rounded-lg">
+                  <MapPin className="text-primary" size={18} />
+                </div>
+
+                <div>
+                  <p className="font-medium text-white">
+                    Manhattan, New York :
+                  </p>
+
+                  <p className="text-gray-100 text-sm">
                     <span itemProp="streetAddress">152 E 118th St S1</span>,{" "}
                     <span itemProp="addressLocality">New York</span>,{" "}
                     <span itemProp="addressRegion">NY</span>{" "}
                     <span itemProp="postalCode">10035</span>
-                  </Link>
+                  </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className="space-y-6">
