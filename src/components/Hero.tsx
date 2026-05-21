@@ -13,9 +13,9 @@ const HeroSection = () => {
           Infinity Construction NYC
         </p>
 
-        <h1 className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
+        <p className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
           Brownstone Restoration Specialist
-        </h1>
+        </p>
 
         <h2 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
           Licensed & Insured.
