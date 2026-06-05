@@ -21,6 +21,527 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone restoration NYC property value, brownstone renovation NYC ROI, Brooklyn brownstone remodeling, NYC brownstone contractors, facade restoration NYC, historic townhouse value NYC, brownstone waterproofing, brownstone repair investment NYC, NYC real estate ROI, pre-war townhouse restoration",
+
+    title: "Does Brownstone Restoration Increase Property Value in NYC?",
+
+    slug: "brownstone-restoration-property-value-new-york-city",
+
+    description: (
+      <>
+        <p>
+          Yes—brownstone restoration in NYC almost always increases property
+          value, especially in high-demand neighborhoods like Brooklyn,
+          Manhattan, Queens, and The Bronx. Restoring original architectural
+          details, improving structural integrity, and upgrading building
+          systems can significantly raise resale prices and rental income
+          potential. <br />. In many cases, well-executed restoration projects
+          on NYC brownstones deliver a 15% to 40% property value increase,
+          depending on location, condition, and renovation quality. However, the
+          return on investment depends heavily on contractor expertise,
+          materials, and compliance with NYC landmark and DOB regulations.
+        </p>
+      </>
+    ),
+
+    image: "/blog/brick-pointing-waterproofing-nyc-homes.webp",
+
+    sections: [
+      {
+  title: "What Is Brownstone Restoration?",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Featured Snippet Definition
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Brownstone restoration is the process of repairing, preserving, and
+          upgrading historic brownstone townhouses while maintaining original
+          architectural character and improving structural and functional
+          systems.
+        </p>
+      </div>
+
+      <p className="text-black mb-4">
+        It includes:
+      </p>
+
+      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+        <li>Facade restoration</li>
+        <li>Masonry repair</li>
+        <li>Waterproofing systems</li>
+        <li>Staircase and stoop rebuilding</li>
+        <li>Window restoration</li>
+        <li>Structural reinforcement</li>
+        <li>Interior modernization</li>
+      </ul>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+        <strong className="text-primary">Summary:</strong> It combines
+        historic preservation with modern upgrades to increase durability and
+        property value.
+      </div>
+    </>
+  ),
+},
+      {
+  title: "Does Brownstone Restoration Increase Property Value?",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Direct Answer (AEO)
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Yes. Brownstone restoration increases NYC property value because
+          buyers pay a premium for historic architecture combined with modern
+          livability.
+        </p>
+
+        <p className="text-black leading-relaxed mt-3">
+          Restored homes are safer, more energy-efficient, and visually
+          desirable. In competitive NYC markets, they consistently outperform
+          non-renovated properties.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-semibold text-primary mb-3">
+        Key Value Drivers
+      </h3>
+
+      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+        <li>Architectural preservation</li>
+        <li>Structural stability</li>
+        <li>Curb appeal improvement</li>
+        <li>Energy efficiency upgrades</li>
+        <li>Waterproofing protection</li>
+        <li>Modern interiors</li>
+      </ul>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+        <strong className="text-primary">Summary:</strong> Restoration
+        transforms aging properties into high-demand luxury real estate assets.
+      </div>
+    </>
+  ),
+},
+      {
+  title: "Why Do NYC Buyers Pay More for Restored Brownstones?",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Direct Answer
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          NYC buyers value restored brownstones because they offer rare historic
+          charm with modern comfort in limited-supply neighborhoods.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-semibold text-primary mb-3">
+        Key Motivations
+      </h3>
+
+      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+        <li>
+          Original architectural details (limestone, moldings, fireplaces)
+        </li>
+        <li>Prime NYC locations (Brooklyn Heights, Park Slope)</li>
+        <li>Move-in-ready condition</li>
+        <li>Long-term appreciation potential</li>
+        <li>Prestige ownership</li>
+      </ul>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+        <strong className="text-primary">Summary:</strong> Restored
+        brownstones are considered “trophy properties” in NYC real estate.
+      </div>
+    </>
+  ),
+},
+      {
+  title: "ROI of Brownstone Restoration in NYC",
+  paragraph: (
+    <>
+      <h3 className="text-xl font-semibold text-primary mb-4">
+        Estimated ROI Impact
+      </h3>
+
+      <div className="overflow-x-auto rounded-lg border border-slate-700 mb-6">
+        <table className="min-w-full text-left text-sm">
+          <thead className="bg-blue-300 text-black">
+            <tr>
+              <th className="px-4 py-3 font-semibold">Renovation Type</th>
+              <th className="px-4 py-3 font-semibold">Average Cost</th>
+              <th className="px-4 py-3 font-semibold">Value Increase</th>
+              <th className="px-4 py-3 font-semibold">ROI Range</th>
+            </tr>
+          </thead>
+
+          <tbody className="bg-[#1f2937] text-black">
+            <tr className="border-t border-slate-600">
+              <td className="px-4 py-3">Facade Restoration</td>
+              <td className="px-4 py-3">$30K–$150K</td>
+              <td className="px-4 py-3">5%–12%</td>
+              <td className="px-4 py-3">Medium</td>
+            </tr>
+
+            <tr className="border-t border-slate-600">
+              <td className="px-4 py-3">Full Interior Renovation</td>
+              <td className="px-4 py-3">$150K–$500K</td>
+              <td className="px-4 py-3">10%–25%</td>
+              <td className="px-4 py-3">High</td>
+            </tr>
+
+            <tr className="border-t border-slate-600">
+              <td className="px-4 py-3">Structural Repair</td>
+              <td className="px-4 py-3">$50K–$200K</td>
+              <td className="px-4 py-3">8%–15%</td>
+              <td className="px-4 py-3">Medium</td>
+            </tr>
+
+            <tr className="border-t border-slate-600">
+              <td className="px-4 py-3">Waterproofing</td>
+              <td className="px-4 py-3">$10K–$50K</td>
+              <td className="px-4 py-3">5%–10%</td>
+              <td className="px-4 py-3">High</td>
+            </tr>
+
+            <tr className="border-t border-slate-600">
+              <td className="px-4 py-3">Full Restoration Project</td>
+              <td className="px-4 py-3">$300K–$1M+</td>
+              <td className="px-4 py-3">15%–40%</td>
+              <td className="px-4 py-3">Very High</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p className="text-black">
+        <strong>Summary:</strong> Strategic restoration delivers strong ROI,
+        especially in Brooklyn and Manhattan.
+      </p>
+    </>
+  ),
+},
+{
+  title: "What Parts of Brownstone Restoration Add the Most Value?",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Direct Answer
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Structural repair, facade restoration, waterproofing, and interior
+          modernization deliver the highest ROI.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-semibold text-primary mb-3">
+        High-Value Upgrades
+      </h3>
+
+      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+        <li>Brownstone facade repair NYC</li>
+        <li>Basement waterproofing systems</li>
+        <li>Foundation stabilization</li>
+        <li>Historic detail restoration</li>
+        <li>Kitchen &amp; bathroom upgrades</li>
+        <li>Roof replacement</li>
+        <li>Energy-efficient windows</li>
+      </ul>
+
+      <p className="text-black">
+        <strong>Summary:</strong> Exterior + structural + interior upgrades =
+        maximum value increase.
+      </p>
+    </>
+  ),
+},
+      {
+  title: "Cost vs Value Analysis",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-primary mb-2">
+          Direct Answer
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Although expensive, brownstone restoration often yields strong
+          financial returns in NYC due to high buyer demand.
+        </p>
+      </div>
+
+      <div className="border-l-4 border-blue-300 pl-4 mb-6">
+        <h3 className="text-blue-300 font-semibold mb-2">
+          Example
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          A $1.5M Brooklyn brownstone may require $400K restoration but can
+          resell for $2.2M–$2.5M after upgrades.
+        </p>
+      </div>
+
+      <p className="text-black mb-6">
+        <strong>Summary:</strong> Historic homes gain more appreciation when
+        properly restored.
+      </p>
+
+      <h3 className="text-xl font-semibold text-black mb-4">
+        Real NYC Case Study
+      </h3>
+
+      <div className="space-y-5">
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">
+            Issues
+          </h3>
+
+          <ul className="list-disc pl-6 text-black space-y-1">
+            <li>Cracked limestone facade</li>
+            <li>Basement moisture damage</li>
+            <li>Outdated systems</li>
+          </ul>
+        </div>
+
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">
+            Work Completed
+          </h3>
+
+          <ul className="list-disc pl-6 text-black space-y-1">
+            <li>Masonry restoration</li>
+            <li>Waterproofing installation</li>
+            <li>Interior modernization</li>
+          </ul>
+        </div>
+
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">
+            Result
+          </h3>
+
+          <ul className="list-disc pl-6 text-black space-y-1">
+            <li>Property value increased 32%</li>
+            <li>Sold in under 2 weeks</li>
+            <li>Multiple offers received</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
+        <strong className="text-blue-300">Summary:</strong> High-quality
+        restoration improves market competitiveness significantly.
+      </div>
+    </>
+  ),
+},
+     {
+  title: "Risks and Mistakes to Avoid",
+  paragraph: (
+    <>
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-blue-300 mb-2">
+          Direct Answer
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Poor execution and unlicensed contractors can reduce ROI or damage
+          property value.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-semibold text-black mb-3">
+        Common Mistakes
+      </h3>
+
+      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+        <li>Using non-historic materials</li>
+        <li>Ignoring NYC landmark rules</li>
+        <li>Skipping waterproofing</li>
+        <li>Over-renovating beyond neighborhood standards</li>
+        <li>Hiring unlicensed contractors</li>
+      </ul>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+        <strong className="text-primary">Summary:</strong> Correct planning
+        and expert execution are critical for ROI success.
+      </div>
+    </>
+  ),
+},
+      {
+  title: "Brooklyn, Manhattan, Queens & Bronx Insights",
+  paragraph: (
+    <>
+      <h3 className="text-xl font-semibold text-black mb-4">
+        Borough-Specific Market Insights
+      </h3>
+
+      <div className="space-y-5 mb-6">
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">Brooklyn</h3>
+          <p className="text-black">
+            Highest demand and strongest ROI, particularly in neighborhoods
+            such as Park Slope and Bedford-Stuyvesant.
+          </p>
+        </div>
+
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">Manhattan</h3>
+          <p className="text-black">
+            Luxury-tier restoration projects often command premium pricing and
+            attract high-end buyers.
+          </p>
+        </div>
+
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">Queens</h3>
+          <p className="text-black">
+            A growing market that offers moderate ROI with increasing demand
+            for renovated historic properties.
+          </p>
+        </div>
+
+        <div className="border-l-4 border-blue-300 pl-4">
+          <h3 className="text-blue-300 font-semibold mb-1">The Bronx</h3>
+          <p className="text-black">
+            Emerging investment opportunities with lower entry costs and strong
+            long-term appreciation potential.
+          </p>
+        </div>
+      </div>
+
+      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+        <h3 className="text-xl font-semibold text-blue-300 mb-2">
+          Trusted Exterior Restoration Support
+        </h3>
+
+        <p className="text-black leading-relaxed">
+          Choosing the right contractor is one of the most important decisions
+          in brownstone restoration. Experience, compliance with NYC building
+          codes, and craftsmanship quality directly impact both property value
+          and long-term durability.
+        </p>
+      </div>
+
+      <p className="text-black mb-4">
+        One trusted name in this space is Infinity Construction NYC, a
+        well-established contractor specializing in brownstone restoration,
+        facade repair, masonry work, waterproofing, and full exterior
+        renovation services across Brooklyn, Manhattan, Queens, and The Bronx.
+      </p>
+
+      <p className="text-black mb-4">
+        👉{" "}
+        <a
+          href="https://www.infinityconstructionnyc.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline"
+        >
+          Learn more here
+        </a>
+      </p>
+
+      <p className="text-black">
+        Their team focuses on preserving historic architectural details while
+        improving structural integrity, energy efficiency, and overall property
+        value—making them a strong choice for homeowners and investors looking
+        to maximize ROI in NYC&apos;s competitive real estate market.
+      </p>
+    </>
+  ),
+},
+      {
+  title: "Frequently Asked Questions",
+  paragraph: (
+    <>
+      <div className="space-y-3">
+        <details>
+          <summary className="font-medium cursor-pointer text-black">
+            Does brownstone restoration always increase value?
+          </summary>
+          <p className="mt-2 text-black">
+            Yes, especially when structural integrity and aesthetics are
+            improved.
+          </p>
+        </details>
+
+        <details>
+          <summary className="font-medium cursor-pointer text-black">
+            How much value can restoration add?
+          </summary>
+          <p className="mt-2 text-black">
+            Typically 15%–40% depending on scope and location.
+          </p>
+        </details>
+
+        <details>
+          <summary className="font-medium cursor-pointer text-black">
+            What adds more value: interior or exterior work?
+          </summary>
+          <p className="mt-2 text-black">
+            Exterior and structural restoration usually provide higher ROI.
+          </p>
+        </details>
+
+        <details>
+          <summary className="font-medium cursor-pointer text-black">
+            Is Brooklyn best for brownstone investment?
+          </summary>
+          <p className="mt-2 text-black">
+            Yes, due to high demand and historic housing stock.
+          </p>
+        </details>
+
+        <details>
+          <summary className="font-medium cursor-pointer text-black">
+            Do NYC renovations require permits?
+          </summary>
+          <p className="mt-2 text-black">
+            Yes, DOB permits are required for most structural and exterior work.
+          </p>
+        </details>
+      </div>
+
+      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
+        <strong className="text-blue-300">Conclusion:</strong> Brownstone
+        restoration in NYC is a powerful investment strategy. When done
+        correctly, it significantly increases property value, enhances curb
+        appeal, and improves structural longevity.
+        <br />
+        <br />
+        From Brooklyn to Manhattan, restored brownstones consistently
+        outperform non-renovated properties in both resale value and buyer
+        demand.
+        <br />
+        <br />
+        However, success depends on skilled contractors, proper waterproofing,
+        and compliance with NYC regulations.
+      </div>
+    </>
+  ),
+},
+    ],
+
+    metatitle:
+      "Why Brick Pointing and Waterproofing Are Essential for NYC Homes ",
+
+    metadescription:
+      "Protect NYC homes with expert brick pointing and waterproofing services in Brooklyn, Manhattan, Queens, and Bronx. Prevent damage and save money.",
+  },
+  {
+    keywords:
       "brick pointing NYC, waterproofing NYC, masonry repair NYC, brick repair Brooklyn, waterproofing Manhattan, masonry services Queens, brick repair Bronx, repointing services NYC, building waterproofing NYC, NYC home maintenance, exterior masonry repair NYC, leak prevention",
 
     title:
@@ -99,16 +620,16 @@ export const BlogsData: Blog[] = [
           <>
             <p>New York City buildings face unique environmental challenges:</p>
             <span className="font-semibold text-primary">Key Reasons:</span>
-            <ul className="list-disc ml-6 mt-2"> 
+            <ul className="list-disc ml-6 mt-2">
               <li>Extreme weather cycles (freeze-thaw damage)</li>
               <li>Heavy rainfall and humidity</li>
               <li>Aging infrastructure (30–100+ years old)</li>
               <li>Urban pollution weakening masonry</li>
             </ul>
             <p>
-              <span className="font-semibold text-primary">Summary:</span> NYC’s climate and building age make brick pointing
-              and waterproofing not optional—but necessary for long-term
-              property protection.
+              <span className="font-semibold text-primary">Summary:</span> NYC’s
+              climate and building age make brick pointing and waterproofing not
+              optional—but necessary for long-term property protection.
             </p>
           </>
         ),
@@ -117,7 +638,11 @@ export const BlogsData: Blog[] = [
         title: "Key Benefits of Brick Pointing and Waterproofing",
         paragraph: (
           <>
-            <p><span className="font-semibold">These services provide multiple advantages:</span></p>
+            <p>
+              <span className="font-semibold">
+                These services provide multiple advantages:
+              </span>
+            </p>
             <ul className="list-disc ml-6 mt-2">
               <li>Prevents water damage and mold growth</li>
               <li>Improves structural integrity</li>
@@ -136,7 +661,9 @@ export const BlogsData: Blog[] = [
           "What Are the Signs Your Building Needs Brick Pointing or Waterproofing?",
         paragraph: (
           <>
-            <p className="font-semibold text-primary">Look for these warning signs:</p>
+            <p className="font-semibold text-primary">
+              Look for these warning signs:
+            </p>
             <ul className="list-disc ml-4 mt-1">
               <li>Cracked or crumbling mortar</li>
               <li>Water stains on walls</li>
@@ -149,89 +676,90 @@ export const BlogsData: Blog[] = [
         ),
       },
       {
-  title: "Cost vs Damage Comparison",
-  paragraph: (
-    <>
-      <p>
-        Preventive maintenance is significantly cheaper than major structural repairs:
-      </p>
+        title: "Cost vs Damage Comparison",
+        paragraph: (
+          <>
+            <p>
+              Preventive maintenance is significantly cheaper than major
+              structural repairs:
+            </p>
 
-      <div style={{ overflowX: "auto", marginTop: "20px" }}>
-        <table
-          style={{
-            minWidth: "600px",
-            width: "100%",
-            borderCollapse: "collapse",
-          }}
-        >
-          <thead>
-            <tr>
-              <th style={{ border: "1px solid gray", padding: "8px" }}>
-                Issue
-              </th>
-              <th style={{ border: "1px solid gray", padding: "8px" }}>
-                Without Maintenance
-              </th>
-              <th style={{ border: "1px solid gray", padding: "8px" }}>
-                With Maintenance
-              </th>
-            </tr>
-          </thead>
+            <div style={{ overflowX: "auto", marginTop: "20px" }}>
+              <table
+                style={{
+                  minWidth: "600px",
+                  width: "100%",
+                  borderCollapse: "collapse",
+                }}
+              >
+                <thead>
+                  <tr>
+                    <th style={{ border: "1px solid gray", padding: "8px" }}>
+                      Issue
+                    </th>
+                    <th style={{ border: "1px solid gray", padding: "8px" }}>
+                      Without Maintenance
+                    </th>
+                    <th style={{ border: "1px solid gray", padding: "8px" }}>
+                      With Maintenance
+                    </th>
+                  </tr>
+                </thead>
 
-          <tbody>
-            <tr>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Water Damage
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Severe & costly
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Prevented early
-              </td>
-            </tr>
+                <tbody>
+                  <tr>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Water Damage
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Severe & costly
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Prevented early
+                    </td>
+                  </tr>
 
-            <tr>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Structural Integrity
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Weakening walls
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Strong & stable
-              </td>
-            </tr>
+                  <tr>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Structural Integrity
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Weakening walls
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Strong & stable
+                    </td>
+                  </tr>
 
-            <tr>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Repair Costs
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                High (emergency fixes)
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Low (preventive care)
-              </td>
-            </tr>
+                  <tr>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Repair Costs
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      High (emergency fixes)
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Low (preventive care)
+                    </td>
+                  </tr>
 
-            <tr>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Property Value
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Decreases
-              </td>
-              <td style={{ border: "1px solid gray", padding: "8px" }}>
-                Increases
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </>
-  ),
-},
+                  <tr>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Property Value
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Decreases
+                    </td>
+                    <td style={{ border: "1px solid gray", padding: "8px" }}>
+                      Increases
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </>
+        ),
+      },
       {
         title: "Real-World Example (NYC Case Study)",
         paragraph: (
@@ -246,7 +774,7 @@ export const BlogsData: Blog[] = [
               <li>Repair costs exceeded $25,000</li>
             </ul>
             <p>
-             After professional brick pointing and waterproofing, the property:
+              After professional brick pointing and waterproofing, the property:
             </p>
             <ul className="list-disc ml-4 mt-1">
               <li>Became moisture-resistant </li>
@@ -292,61 +820,62 @@ export const BlogsData: Blog[] = [
         ),
       },
       {
-  title: "FAQ",
-  paragraph: (
-    <>
-      <details className="border-b py-2">
-        <summary className="cursor-pointer">
-          How often should brick pointing be done?
-        </summary>
-        <p className="mt-2">
-          Typically every 20–30 years, with inspections every 5 years in NYC.
-        </p>
-      </details>
+        title: "FAQ",
+        paragraph: (
+          <>
+            <details className="border-b py-2">
+              <summary className="cursor-pointer">
+                How often should brick pointing be done?
+              </summary>
+              <p className="mt-2">
+                Typically every 20–30 years, with inspections every 5 years in
+                NYC.
+              </p>
+            </details>
 
-      <details className="border-b py-2">
-        <summary className="cursor-pointer">
-          Is waterproofing necessary?
-        </summary>
-        <p className="mt-2">
-          Yes, especially for older buildings exposed to harsh weather.
-        </p>
-      </details>
+            <details className="border-b py-2">
+              <summary className="cursor-pointer">
+                Is waterproofing necessary?
+              </summary>
+              <p className="mt-2">
+                Yes, especially for older buildings exposed to harsh weather.
+              </p>
+            </details>
 
-      <details className="border-b py-2">
-        <summary className="cursor-pointer">
-          What happens if delayed?
-        </summary>
-        <p className="mt-2">
-          It can lead to water damage, mold, and structural issues.
-        </p>
-      </details>
+            <details className="border-b py-2">
+              <summary className="cursor-pointer">
+                What happens if delayed?
+              </summary>
+              <p className="mt-2">
+                It can lead to water damage, mold, and structural issues.
+              </p>
+            </details>
 
-      <details className="border-b py-2">
-        <summary className="cursor-pointer">
-          How long does waterproofing last?
-        </summary>
-        <p className="mt-2">
-          Usually 5–10 years depending on materials.
-        </p>
-      </details>
+            <details className="border-b py-2">
+              <summary className="cursor-pointer">
+                How long does waterproofing last?
+              </summary>
+              <p className="mt-2">Usually 5–10 years depending on materials.</p>
+            </details>
 
-      <details className="border-b py-2">
-        <summary className="cursor-pointer">
-          Does it increase property value?
-        </summary>
-        <p className="mt-2">
-          Yes, it improves durability and curb appeal.
-        </p>
-      </details>
-    </>
-  ),
-},
+            <details className="border-b py-2">
+              <summary className="cursor-pointer">
+                Does it increase property value?
+              </summary>
+              <p className="mt-2">
+                Yes, it improves durability and curb appeal.
+              </p>
+            </details>
+          </>
+        ),
+      },
       {
         title: "Quick Checklist",
         paragraph: (
           <>
-          <span className="text-primary font-semibold">Before hiring a contractor:</span>
+            <span className="text-primary font-semibold">
+              Before hiring a contractor:
+            </span>
             <ul>
               <li>✔ Inspect for cracks and leaks</li>
               <li>✔ Schedule regular maintenance</li>
@@ -381,7 +910,16 @@ export const BlogsData: Blog[] = [
           <>
             <p>Don’t wait for visible damage to appear.</p>
             <p>
-              👉 Get a professional inspection and protect your home with expert<Link href="/brick-pointing" className="underline text-primary" target="/blank"> Brick Pointing and Waterproofing Services in NYC</Link> today.
+              👉 Get a professional inspection and protect your home with expert
+              <Link
+                href="/brick-pointing"
+                className="underline text-primary"
+                target="/blank"
+              >
+                {" "}
+                Brick Pointing and Waterproofing Services in NYC
+              </Link>{" "}
+              today.
             </p>
           </>
         ),
