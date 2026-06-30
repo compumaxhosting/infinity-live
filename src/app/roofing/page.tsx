@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import PhoneCall from "@/components/PhoneCall";
+import ServiceLinks from "@/components/ServiceLinks";
 import React from "react";
 
 const page = () => {
@@ -18,6 +19,7 @@ const page = () => {
         <p>
         For those in Manhattan, we&apos;re your go-to Manhattan Roofing Contractors, offering everything from Emergency Roof Repair to full Roof Installation in Manhattan NY. Whether it&apos;s Residential Roofing in Brooklyn or Commercial Roof Contractors in Manhattan, we&apos;re dedicated to providing exceptional quality artistry and ensuring your complete satisfaction. Trust Infinity Construction NYC, one of the Top Rated Roofing Companies in Manhattan, for all your roofing needs.
         </p>
+        <ServiceLinks />
       </div>
       <Footer />
       

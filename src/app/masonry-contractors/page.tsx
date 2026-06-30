@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import PhoneCall from "@/components/PhoneCall";
+import ServiceLinks from "@/components/ServiceLinks";
 import React from "react";
 
 const page = () => {
@@ -26,6 +27,7 @@ const page = () => {
           project, ensuring exceptional results for residential and
           commercial clients.
         </p>
+        <ServiceLinks />
       </div>
       <Footer />
 

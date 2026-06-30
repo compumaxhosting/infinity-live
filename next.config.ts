@@ -3,6 +3,16 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      {
+        source: "/index.php",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/index.html",
+        destination: "/",
+        permanent: true,
+      },
       // Existing rule
       {
         source: "/about-us",

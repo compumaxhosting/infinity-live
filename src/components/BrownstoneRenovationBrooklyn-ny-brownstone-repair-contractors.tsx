@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ServiceLinks from "./ServiceLinks";
 
 const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
   return (
@@ -107,7 +108,7 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
         </p>
 
         {/* Final Call to Action */}
-        <p className="mt-6 text-lg md:text-xl text-center md:text-justify text-slate-700 dark:text-slate-400 sm:px-20">
+        <p className="mt-6 mb-6 text-lg md:text-xl text-center md:text-justify text-slate-700 dark:text-slate-400 sm:px-20">
           Proudly serving:{" "}
           <Link href="https://www.wikidata.org/wiki/Q18419">Brooklyn</Link>,{" "}
           <Link href="https://www.wikidata.org/wiki/Q11299">Manhattan</Link>,{" "}
@@ -115,6 +116,7 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
           <Link href="https://www.wikidata.org/wiki/Q18426">The Bronx</Link>,{" "}
           <Link href="https://www.wikidata.org/wiki/Q60">New York City.</Link>
         </p>
+        <ServiceLinks />
       </div>
     </section>
   );

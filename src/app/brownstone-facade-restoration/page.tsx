@@ -6,6 +6,7 @@ import Link from "next/link";
 import PhoneCall from "@/components/PhoneCall";
 import { Phone, Mail, Globe } from "lucide-react";
 import FaqNew from "@/components/FaqNew";
+import ServiceLinks from "@/components/ServiceLinks";
 
 const contactPhone = "347 939 5779";
 const contactPhoneHref = "tel:+13479395779";
@@ -272,7 +273,7 @@ const BrickCMULayeringPage = () => {
               </li>
             </ul>
           </section>
-
+<ServiceLinks />
           {/* BOTTOM CTA */}
           <section className="mt-12 mb-10 px-4">
             <div className="max-w-2xl mx-auto text-center">

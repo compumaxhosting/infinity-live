@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import PhoneCall from "@/components/PhoneCall";
 import { Phone, Mail, Globe } from "lucide-react";
+import ServiceLinks from "@/components/ServiceLinks";
 
 const contactPhone = "347 939 5779";
 const contactPhoneHref = "tel:+13479395779";
@@ -83,8 +84,11 @@ const RoofRestorationPage = () => {
               A roof in New York City faces unique challenges, from heavy snow
               loads in the winter to scorching heat on Manhattan rooftops in the
               summer. At Infinity Construction NYC, we provide specialized
-              restoration and weatherproofing services that go beyond simple
-              patching.
+              <Link href="/roofing" className="text-orange-500">
+                {" "}
+                roof restoration{" "}
+              </Link>
+              and weatherproofing services that go beyond simple patching.
             </p>
             <p className="text-justify mb-6" itemProp="description">
               We focus on the structural health of your roofing system, ensuring
@@ -315,7 +319,7 @@ const RoofRestorationPage = () => {
               </li>
             </ul>
           </section>
-
+<ServiceLinks />
           <section className="mt-12 mb-10 px-4">
             <div className="max-w-2xl mx-auto text-center">
               <p className="text-xl sm:text-2xl mb-4 text-orange-600">

@@ -5,6 +5,7 @@ import React from "react";
 import Link from "next/link";
 import PhoneCall from "@/components/PhoneCall";
 import { Phone, Mail, Globe } from "lucide-react";
+import ServiceLinks from "@/components/ServiceLinks";
 
 const contactPhone = "347 939 5779";
 const contactPhoneHref = "tel:+13479395779";
@@ -366,7 +367,7 @@ const FireEscapeRestorationPage = () => {
             Construction NYC today for a professional safety evaluation.
           </p>
         </section>
-
+<ServiceLinks />
         <section className="mt-12 mb-10 px-4">
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-xl sm:text-2xl mb-4 text-orange-600">

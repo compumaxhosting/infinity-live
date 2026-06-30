@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ServiceLinks from "./ServiceLinks";
 
 const HiddenPageContent = () => {
   return (
@@ -76,7 +77,7 @@ const HiddenPageContent = () => {
           {/* Row 2: Full-width Paragraph */}
           <div className="mt-8">
             <p
-              className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto text-justify"
+              className="pt-6 pb-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Our team handles everything from brownstone masonry repair
@@ -99,6 +100,7 @@ const HiddenPageContent = () => {
               Manhattan, Infinity Construction NYC is the team to trust. Ready
               to keep your brownstone looking great for years to come.
             </p>
+            <ServiceLinks />
           </div>
         </div>
       </section>

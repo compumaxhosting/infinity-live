@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import PhoneCall from "@/components/PhoneCall";
+import ServiceLinks from "@/components/ServiceLinks";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -310,11 +311,13 @@ const page = () => {
           brownstone restoration Queens, brownstone renovation contractors
           Bronx, and brownstone experts NYC homeowners rely on.
         </p>
-        <p className="text-xl md:text-2xl">
+        <p className="text-xl md:text-2xl mb-6">
           Infinity Construction NYC – Building Legacies, One Brownstone at a
           Time.
         </p>
+        <ServiceLinks />
       </div>
+
       <Footer />
 
       <PhoneCall />
