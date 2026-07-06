@@ -6,6 +6,7 @@ import {
   FaYelp,
   FaExternalLinkAlt,
 } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 
 const SocialLinks = () => {
   const socialLinks = [
@@ -34,6 +35,11 @@ const SocialLinks = () => {
       href: "https://www.instagram.com/infinity_construction_nyc/",
       icon: <FaInstagram className="text-4xl sm:text-5xl mb-2" />,
     },
+    {
+      name: "TikTok",
+      href: "https://www.tiktok.com/@infinityconstructionnyc", // Replace with the actual TikTok profile URL
+      icon: <FaTiktok className="text-4xl sm:text-5xl mb-2" />,
+    },
   ];
 
   return (
@@ -50,7 +56,7 @@ const SocialLinks = () => {
         >
           Connect with Us
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
           {socialLinks.map(({ name, href, icon }) => (
             <Link
               key={name}
