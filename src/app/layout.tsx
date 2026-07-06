@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Inter, Be_Vietnam_Pro } from "next/font/google";
 import type { Metadata } from "next";
-
+import Script from "next/script";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -124,27 +124,46 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
-      <head>
-        <meta
-          name="google-site-verification"
-          content="r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc"
-        />
-        <meta
-          name="p:domain_verify"
-          content="fc7baee557a0e8360b2c7f0532795f25"
-        />
-      </head>
-      <body>
-        {children}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLdSchema),
-          }}
-        />
-      </body>
-    </html>
-  );
+ return (
+   <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
+     <head>
+       <meta
+         name="google-site-verification"
+         content="r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc"
+       />
+       <meta
+         name="p:domain_verify"
+         content="fc7baee557a0e8360b2c7f0532795f25"
+       />
+     </head>
+
+     <body>
+       {children}
+
+       {/* ✅ Google Analytics */}
+       <Script
+         src="https://www.googletagmanager.com/gtag/js?id=G-DEQG4H4HVT"
+         strategy="lazyOnload"
+       />
+
+       <Script id="google-analytics" strategy="lazyOnload">
+         {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DEQG4H4HVT');
+        `}
+       </Script>
+
+       {/* ✅ JSON-LD Schema */}
+       <script
+         type="application/ld+json"
+         dangerouslySetInnerHTML={{
+           __html: JSON.stringify(jsonLdSchema),
+         }}
+       />
+     </body>
+   </html>
+ );
 }
