@@ -25,6 +25,11 @@ const nextConfig: NextConfig = {
         destination: "/brownstone-facade-restoration",
         permanent: true, // 308 status for SEO-safe, cache-friendly redirect
       },
+      {
+        source: "/brownstone-renovation-brooklyn",
+        destination: "/brownstone-renovation-brooklyn-ny-brownstone-repair-contractors",
+        permanent: true, // 308 status for SEO-safe, cache-friendly redirect
+      },
     ];
   },
 };
