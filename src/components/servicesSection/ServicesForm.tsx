@@ -125,7 +125,7 @@ const ServicesForm: React.FC = () => {
 
   return (
     <div
-      className="p-8 lg:p-12 bg-orange-50 border border-stone-200 rounded-xl shadow-lg
+      className="p-4 lg:p-12 bg-orange-50 border border-stone-200 rounded-xl shadow-lg
               dark:bg-gray-900 dark:border-gray-800 text-stone-800 dark:text-gray-200"
       style={{ fontFamily: "var(--font-forum)" }}
     >
