@@ -193,37 +193,71 @@ export const BlogsData: Blog[] = [
               specialized preservation expertise.
             </p>
 
-            <table className="border-2 border-black mb-6 border-collapse bg-red-200">
-              <thead className="border-2 border-black">
-                <tr className="border-2 border-black">
-                  <th>Challenge</th>
-                  <th>Professional Solution</th>
+            <table className="w-full border-collapse border border-gray-300 mb-6">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 px-3 py-2 text-left font-semibold">
+                    Challenge
+                  </th>
+                  <th className="border border-gray-300 px-3 py-2 text-left font-semibold">
+                    Professional Solution
+                  </th>
                 </tr>
               </thead>
+
               <tbody>
-                <tr className="border-2 border-black">
-                  <td>Cracked masonry</td>
-                  <td>Historic Brick Repair</td>
-                </tr>
                 <tr>
-                  <td>Water infiltration</td>
-                  <td>Building Envelope Rehabilitation</td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Cracked masonry
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Historic Brick Repair
+                  </td>
                 </tr>
-                <tr className="border-2 border-black">
-                  <td>Damaged cornices</td>
-                  <td>Decorative Cornice Restoration</td>
+
+                <tr>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Water infiltration
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Building Envelope Rehabilitation
+                  </td>
                 </tr>
-                <tr className="border-2 border-black">
-                  <td>Aging stonework</td>
-                  <td>Stonework Conservation Experts</td>
+
+                <tr>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Damaged cornices
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Decorative Cornice Restoration
+                  </td>
                 </tr>
-                <tr className="border-2 border-black">
-                  <td>Deteriorated façade</td>
-                  <td>Historic Façade Cleaning and Repair</td>
+
+                <tr>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Aging stonework
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Stonework Conservation Experts
+                  </td>
                 </tr>
-                <tr className="border-2 border-black">
-                  <td>Structural movement</td>
-                  <td>Conservation Engineering Services</td>
+
+                <tr>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Deteriorated façade
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Historic Façade Cleaning and Repair
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Structural movement
+                  </td>
+                  <td className="border border-gray-300 px-3 py-2">
+                    Conservation Engineering Services
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -636,7 +670,13 @@ export const BlogsData: Blog[] = [
             </h3>
 
             <div className="overflow-x-auto rounded-lg border border-slate-700 mb-6">
-              <table className="min-w-full text-left text-sm">
+              <table
+                style={{
+                  minWidth: "600px",
+                  width: "100%",
+                  borderCollapse: "collapse",
+                }}
+              >
                 <thead className="bg-blue-300 text-black">
                   <tr>
                     <th className="px-4 py-3 font-semibold">Renovation Type</th>
