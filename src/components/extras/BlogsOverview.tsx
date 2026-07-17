@@ -13,13 +13,22 @@ export function BlogsOverview() {
 
   const plans = [
     {
-  name: "Brick Pointing & Waterproofing for NYC Homes",
-  path: "/blog/brick-pointing-waterproofing-nyc-homes",
-},
+      name: "Complete Guide to Historical Landmark Restoration",
+      path: "/blog/the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",
+    },
+    {
+      name: "Does Brownstone Restoration Increase Property Value",
+      path: "/blog/brownstone-restoration-property-value-new-york-city",
+    },
+    {
+      name: "Brick Pointing & Waterproofing for NYC Homes",
+      path: "/blog/brick-pointing-waterproofing-nyc-homes",
+    },
     {
       name: "Maintain Your Brownstone Building Year-Round",
       path: "/blog/maintaining-historical-landmark-brownstones",
-    }, {
+    },
+    {
       name: "Sustainable Upgrades for Historic Brownstone Properties in NYC",
       path: "/blog/sustainable-upgrades-historic-brownstones-nyc",
     },

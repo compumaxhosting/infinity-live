@@ -1,5 +1,19 @@
 export const blogData = [
   {
+    id: -8,
+    author: "Imrul Hassan",
+    slug: "the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",
+    date: "July 17, 2026",
+    readTime: "10 min read",
+    title:
+      "The Complete Guide to Historical Landmark Restoration in Brooklyn, Manhattan, Queens, and The Bronx",
+    contentPreview: `Learn everything about historical landmark restoration in NYC, including preservation methods, façade restoration....`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/historical-restoration-blog.webp",
+  },
+  {
     id: -7,
     author: "Imrul Hassan",
     slug: "brownstone-restoration-property-value-new-york-city",

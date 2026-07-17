@@ -7,6 +7,8 @@ type LayoutProps = {
   params: Promise<{ slug: string }>;
 };
 
+const BASE_URL = "https://www.infinityconstructionnyc.com";
+
 export async function generateMetadata({
   params,
 }: {
@@ -19,12 +21,15 @@ export async function generateMetadata({
     return {
       title: "Blog not found",
       description: "No blog details available.",
-      keywords: "infinity construction, blog, not found",
-      openGraph: {
-        title: "Blog not found",
-        description: "No blog details available.",
-        url: `https://www.infinityconstructionnyc.com/blog/${resolvedParams.slug}`,
-        type: "article",
+      keywords: "Infinity Construction NYC, Blog",
+
+      alternates: {
+        canonical: `${BASE_URL}/blog/${resolvedParams.slug}`,
+      },
+
+      robots: {
+        index: false,
+        follow: false,
       },
     };
   }
@@ -33,30 +38,64 @@ export async function generateMetadata({
     blog.metadescription ||
     (typeof blog.description === "string" ? blog.description : "");
 
+  const imageUrl = blog.image.startsWith("http")
+    ? blog.image
+    : `${BASE_URL}${blog.image}`;
+
   return {
     title: blog.metatitle || blog.title,
+
     description: safeDescription,
+
     keywords: typeof blog.keywords === "string" ? blog.keywords : undefined,
 
+    authors: [
+      {
+        name: "Infinity Construction NYC",
+      },
+    ],
+
+    alternates: {
+      canonical: `${BASE_URL}/blog/${blog.slug}`,
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+        "max-image-preview": "large",
+        "max-video-preview": -1,
+      },
+    },
+
+    referrer: "strict-origin-when-cross-origin",
+
     openGraph: {
+      type: "article",
+      url: `${BASE_URL}/blog/${blog.slug}`,
       title: blog.metatitle || blog.title,
       description: safeDescription,
-      url: `https://www.infinityconstructionnyc.com/blog/${blog.slug}`,
+      siteName: "Infinity Construction NYC",
+
       images: [
         {
-          url: blog.image,
-          width: 800,
-          height: 600,
+          url: imageUrl,
+          width: 1200,
+          height: 630,
           alt: blog.title,
         },
       ],
-      type: "article",
     },
+
   };
 }
 
 export default async function BlogLayout({ children, params }: LayoutProps) {
   const resolvedParams = await params;
+
   const blog = BlogsData.find((b) => b.slug === resolvedParams.slug);
 
   if (!blog) {
@@ -67,21 +106,52 @@ export default async function BlogLayout({ children, params }: LayoutProps) {
     blog.metadescription ||
     (typeof blog.description === "string" ? blog.description : "");
 
+  const imageUrl = blog.image.startsWith("http")
+    ? blog.image
+    : `${BASE_URL}${blog.image}`;
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+
     headline: blog.metatitle || blog.title,
+
     description: safeDescription,
-    image: blog.image,
-    url: `https://www.infinityconstructionnyc.com/blog/${blog.slug}`,
+
+    image: imageUrl,
+
+    url: `${BASE_URL}/blog/${blog.slug}`,
+
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${BASE_URL}/blog/${blog.slug}`,
+    },
+
+    author: {
+      "@type": "Person",
+      name: "Infinity Construction NYC",
+    },
+
+    publisher: {
+      "@type": "Organization",
+      name: "Infinity Construction NYC",
+
+      logo: {
+        "@type": "ImageObject",
+        url: `${BASE_URL}/logo.webp`,
+      },
+    },
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
       />
+
       {children}
     </>
   );

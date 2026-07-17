@@ -21,6 +21,460 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "Historic Preservation Brooklyn, Landmark Rehabilitation Manhattan, Heritage Building Restoration Queens, Bronx Architectural Conservation, Brownstone Renovation NYC, Masonry Repair Historic Structures, Facade Restoration Specialists, Cultural Property Preservation, Vintage Building Renovation, Structural Restoration Services, Historic Brick Repair, Landmark Exterior Renovation, Stonework Conservation Experts, Preservation Construction Contractors, Historic Façade Cleaning, Brownstone Masonry Restoration, Architectural Heritage Protection, Municipal Preservation Guidelines, Historic Property Maintenance, Decorative Cornice Restoration, Building Envelope Rehabilitation, Historic Waterproofing Solutions, Restoration Project Planning, Conservation Engineering Services, Heritage Renovation Professionals",
+
+    title: "The Complete Guide to Historical Landmark Restoration in NYC",
+
+    slug: "the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",
+
+    description: (
+      <>
+        <p>
+          Historic preservation protects New York City&apos;s architectural
+          heritage while ensuring older buildings remain safe, functional, and
+          compliant with modern standards. Whether you own a brownstone in
+          Brooklyn, a landmark property in Manhattan, a historic commercial
+          building in Queens, or a century-old structure in the Bronx,
+          professional restoration helps preserve both historical character and
+          long-term value.
+        </p>
+      </>
+    ),
+
+    image: "/blog/historical-restoration-blog.webp",
+
+    sections: [
+      {
+        title: "",
+        paragraph: (
+          <>
+            <p>
+              <Link
+                href="/historical-landmark"
+                className="text-primary"
+                target="/blank"
+              >
+                {" "}
+                Historical landmark restoration
+              </Link>{" "}
+              involves repairing, conserving, and restoring historically
+              significant buildings using preservation-approved materials and
+              techniques. The process includes structural repairs, façade
+              restoration, masonry repair, waterproofing, decorative
+              restoration, and compliance with municipal preservation
+              guidelines.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "What Is Historical Landmark Restoration?",
+        paragraph: (
+          <>
+            <p>
+              Historical landmark restoration is the careful repair and
+              preservation of historically significant buildings while
+              maintaining their original architectural integrity.
+            </p>
+
+            <p>
+              <strong>Historic Preservation Brooklyn</strong> projects often
+              involve restoring brownstones, churches, municipal buildings, and
+              heritage properties using approved conservation methods.
+              <strong> Landmark Rehabilitation Manhattan</strong> focuses on
+              maintaining iconic structures while meeting strict preservation
+              regulations.
+            </p>
+
+            <p>Services commonly include:</p>
+
+            <ul className="list-disc list-inside">
+              {" "}
+              <li>Brownstone Renovation NYC</li>
+              <li>Historic Brick Repair</li>
+              <li>Facade Restoration Specialists</li>
+              <li>Decorative Cornice Restoration</li>
+              <li>Stonework Conservation Experts</li>
+              <li>Historic Waterproofing Solutions</li>
+              <li>Building Envelope Rehabilitation</li>
+              <li>Structural Restoration Services</li>
+            </ul>
+
+            <p>
+              These restoration projects help preserve architectural heritage
+              while extending a building&apos;s lifespan.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "How Historical Landmark Restoration Works",
+        paragraph: (
+          <>
+            <p>
+              Restoration follows a structured process beginning with
+              inspections, documentation, repairs, and finishing work while
+              preserving original historic features.
+            </p>
+
+            <p>Typical restoration steps include:</p>
+
+            <ul className="list-disc list-inside">
+              {" "}
+              <li>Comprehensive building assessment</li>
+              <li>Structural engineering evaluation</li>
+              <li>Historical documentation review</li>
+              <li>Masonry Repair Historic Structures</li>
+              <li>Historic façade cleaning</li>
+              <li>Stone and brick replacement using matching materials</li>
+              <li>Waterproofing and moisture protection</li>
+              <li>Decorative architectural restoration</li>
+              <li>Final inspection and preservation compliance</li>
+            </ul>
+
+            <p>
+              Each project follows Municipal Preservation Guidelines to ensure
+              the property&apos;s historical integrity remains intact.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Benefits of Historical Landmark Restoration",
+        paragraph: (
+          <>
+            <p>
+              Professional <strong>Heritage Building Restoration Queens</strong>{" "}
+              and <strong>Bronx Architectural Conservation</strong> provide
+              numerous advantages.
+            </p>
+
+            <h3 className="font-semibold">Preserves Architectural Heritage</h3>
+            <p>
+              Historic buildings represent generations of craftsmanship and
+              cultural identity.
+            </p>
+
+            <h3 className="font-semibold">Increases Property Value</h3>
+            <p>
+              Well-restored landmark properties often command higher market
+              values due to their unique architectural appeal.
+            </p>
+
+            <h3 className="font-semibold">Improves Structural Safety</h3>
+            <p>
+              Structural Restoration Services strengthen aging foundations,
+              masonry walls, and exterior components.
+            </p>
+
+            <h3 className="font-semibold">Enhances Energy Performance</h3>
+            <p>
+              Modern Historic Waterproofing Solutions improve insulation and
+              reduce moisture damage without altering historic aesthetics.
+            </p>
+
+            <h3 className="font-semibold">Reduces Long-Term Maintenance</h3>
+            <p>
+              Addressing small issues early prevents costly structural
+              deterioration in the future.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Common Restoration Challenges",
+        paragraph: (
+          <>
+            <p>
+              Older buildings present unique restoration challenges that require
+              specialized preservation expertise.
+            </p>
+
+            <table className="border-2 border-black mb-6 border-collapse bg-red-200">
+              <thead className="border-2 border-black">
+                <tr className="border-2 border-black">
+                  <th>Challenge</th>
+                  <th>Professional Solution</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-2 border-black">
+                  <td>Cracked masonry</td>
+                  <td>Historic Brick Repair</td>
+                </tr>
+                <tr>
+                  <td>Water infiltration</td>
+                  <td>Building Envelope Rehabilitation</td>
+                </tr>
+                <tr className="border-2 border-black">
+                  <td>Damaged cornices</td>
+                  <td>Decorative Cornice Restoration</td>
+                </tr>
+                <tr className="border-2 border-black">
+                  <td>Aging stonework</td>
+                  <td>Stonework Conservation Experts</td>
+                </tr>
+                <tr className="border-2 border-black">
+                  <td>Deteriorated façade</td>
+                  <td>Historic Façade Cleaning and Repair</td>
+                </tr>
+                <tr className="border-2 border-black">
+                  <td>Structural movement</td>
+                  <td>Conservation Engineering Services</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>
+              Professional preservation contractors understand how to restore
+              these elements without compromising historical authenticity.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Cost Factors",
+        paragraph: (
+          <>
+            <p>
+              Historical restoration costs depend on the building&apos;s
+              condition, size, preservation requirements, materials, and
+              structural complexity.
+            </p>
+
+            <p>Major pricing factors include:</p>
+
+            <ul className="list-disc list-inside">
+              {" "}
+              <li>Property size</li>
+              <li>Age of the structure</li>
+              <li>Existing structural damage</li>
+              <li>Masonry deterioration</li>
+              <li>Specialized restoration materials</li>
+              <li>Landmark approval requirements</li>
+              <li>Accessibility</li>
+              <li>Decorative architectural details</li>
+            </ul>
+
+            <p>
+              While restoration may require a higher upfront investment than
+              standard renovations, preserving historic features often reduces
+              future repair costs and protects long-term property value.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Why Professional Restoration Services Matter",
+        paragraph: (
+          <>
+            <p>
+              Historical restoration requires specialized knowledge that goes
+              beyond conventional construction.
+            </p>
+
+            <p>Experienced Preservation Construction Contractors understand:</p>
+
+            <ul className="list-disc list-inside">
+              {" "}
+              <li>Architectural Heritage Protection</li>
+              <li>Cultural Property Preservation</li>
+              <li>Historic masonry techniques</li>
+              <li>Preservation-approved materials</li>
+              <li>Conservation Engineering Services</li>
+              <li>Restoration Project Planning</li>
+              <li>Local preservation regulations</li>
+            </ul>
+
+            <p>
+              Professional restoration teams also coordinate with architects,
+              engineers, and preservation authorities to ensure projects meet
+              all required standards.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Historic Property Maintenance Best Practices",
+        paragraph: (
+          <>
+            <p>
+              Routine maintenance significantly extends the life of historic
+              buildings.
+            </p>
+
+            <p>Recommended maintenance includes:</p>
+
+            <ul className="list-disc list-inside">
+              {" "}
+              <li>Annual façade inspections</li>
+              <li>Masonry joint inspections</li>
+              <li>Waterproofing evaluations</li>
+              <li>Roof drainage maintenance</li>
+              <li>Regular historic façade cleaning</li>
+              <li>Immediate crack repairs</li>
+              <li>Moisture monitoring</li>
+              <li>Stone preservation treatments</li>
+            </ul>
+
+            <p>
+              Preventive maintenance minimizes expensive restoration work and
+              helps preserve original architectural features.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <h3 className="font-semibold">
+              What is historical landmark restoration?
+            </h3>
+            <p>
+              Historical landmark restoration is the process of repairing and
+              preserving historically significant buildings while maintaining
+              their original design, materials, and architectural character. It
+              combines structural repairs, conservation techniques, and
+              preservation standards to extend the building&apos;s life.
+            </p>
+
+            <h3 className="font-semibold">
+              How does landmark restoration work?
+            </h3>
+            <p>
+              The process begins with inspections and structural assessments,
+              followed by planning, masonry repair, façade restoration,
+              waterproofing, decorative restoration, and final quality
+              inspections. Each phase prioritizes preserving original
+              architectural details.
+            </p>
+
+            <h3 className="font-semibold">
+              How much does historical restoration cost?
+            </h3>
+            <p>
+              Costs vary depending on the building&apos;s age, structural
+              condition, materials, accessibility, and preservation
+              requirements. Large-scale landmark restorations typically require
+              customized project evaluations before accurate pricing can be
+              provided.
+            </p>
+
+            <h3 className="font-semibold">
+              Is restoring a historic building worth it?
+            </h3>
+            <p>
+              Yes. Professional restoration protects property value, extends
+              structural life, improves safety, preserves cultural heritage, and
+              often reduces future maintenance expenses.
+            </p>
+
+            <h3 className="font-semibold">
+              How do I know my building needs restoration?
+            </h3>
+            <p>
+              Signs include cracked masonry, loose stonework, water intrusion,
+              damaged cornices, deteriorating brickwork, façade discoloration,
+              structural movement, or aging waterproofing systems.
+            </p>
+
+            <h3 className="font-semibold">
+              Can modern materials be used in historic restoration?
+            </h3>
+            <p>
+              In many cases, compatible modern materials may be used where
+              appropriate, but preservation guidelines generally require repairs
+              that match the original appearance and maintain the
+              building&apos;s historic integrity.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Why Choose Infinity Construction NYC?",
+        paragraph: (
+          <>
+            <p>
+              Historical restoration requires experience, precision, and a deep
+              understanding of preservation standards. Infinity Construction NYC
+              specializes in Historic Preservation Brooklyn, Landmark
+              Rehabilitation Manhattan, Heritage Building Restoration Queens,
+              and Bronx Architectural Conservation projects.
+            </p>
+
+            <p>
+              Our experienced professionals deliver comprehensive restoration
+              services, including Brownstone Masonry Restoration, Historic Brick
+              Repair, Stonework Conservation, Facade Restoration, Waterproofing
+              Solutions, and Structural Restoration Services.
+            </p>
+
+            <p>
+              We are committed to preserving New York City&apos;s architectural
+              heritage while ensuring every project meets high standards of
+              craftsmanship, safety, and regulatory compliance. Whether
+              restoring residential brownstones, commercial landmarks, or
+              institutional buildings, our team provides customized solutions
+              designed to protect your investment for generations.
+            </p>
+
+            <p>
+              Contact Infinity Construction NYC today to schedule a consultation
+              and receive a professional restoration assessment.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              <Link href="/" className="text-primary" target="/blank">
+                {" "}
+                Historical landmark restoration
+              </Link>{" "}
+              preserves the character, history, and structural integrity of New
+              York City&apos;s most treasured buildings. From Historic
+              Preservation Brooklyn projects to Landmark Rehabilitation
+              Manhattan, Heritage Building Restoration Queens, and Bronx
+              Architectural Conservation, professional restoration safeguards
+              architectural heritage while improving long-term durability and
+              value.
+            </p>
+
+            <p>
+              By partnering with experienced preservation specialists, property
+              owners can confidently restore historic structures, comply with
+              preservation requirements, and ensure these remarkable buildings
+              continue serving future generations.
+            </p>
+
+            <p>
+              Contact Infinity Construction NYC to discuss your restoration
+              goals and begin planning a successful preservation project.
+            </p>
+          </>
+        ),
+      },
+    ],
+
+    metatitle: "The Complete Guide to Historical Landmark Restoration in NYC",
+
+    metadescription:
+      "Learn everything about historical landmark restoration in Brooklyn, Manhattan, Queens, and the Bronx. Expert guide to historic preservation, brownstone restoration, masonry repair, façade restoration, and structural conservation.",
+  },
+  {
+    keywords:
       "brownstone restoration NYC property value, brownstone renovation NYC ROI, Brooklyn brownstone remodeling, NYC brownstone contractors, facade restoration NYC, historic townhouse value NYC, brownstone waterproofing, brownstone repair investment NYC, NYC real estate ROI, pre-war townhouse restoration",
 
     title: "Does Brownstone Restoration Increase Property Value in NYC?",
@@ -30,16 +484,25 @@ export const BlogsData: Blog[] = [
     description: (
       <>
         <p>
-          Yes—brownstone restoration in NYC almost always increases property
-          value, especially in high-demand neighborhoods like Brooklyn,
-          Manhattan, Queens, and The Bronx. Restoring original architectural
-          details, improving structural integrity, and upgrading building
-          systems can significantly raise resale prices and rental income
-          potential. <br />. In many cases, well-executed restoration projects
-          on NYC brownstones deliver a 15% to 40% property value increase,
-          depending on location, condition, and renovation quality. However, the
-          return on investment depends heavily on contractor expertise,
-          materials, and compliance with NYC landmark and DOB regulations.
+          Yes—{" "}
+          <Link
+            href="/brownstone-restoration"
+            className="text-primary"
+            target="/blank"
+          >
+            {" "}
+            brownstone restoration in NYC
+          </Link>{" "}
+          almost always increases property value, especially in high-demand
+          neighborhoods like Brooklyn, Manhattan, Queens, and The Bronx.
+          Restoring original architectural details, improving structural
+          integrity, and upgrading building systems can significantly raise
+          resale prices and rental income potential. <br />. In many cases,
+          well-executed restoration projects on NYC brownstones deliver a 15% to
+          40% property value increase, depending on location, condition, and
+          renovation quality. However, the return on investment depends heavily
+          on contractor expertise, materials, and compliance with NYC landmark
+          and DOB regulations.
         </p>
       </>
     ),
@@ -48,490 +511,488 @@ export const BlogsData: Blog[] = [
 
     sections: [
       {
-  title: "What Is Brownstone Restoration?",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-primary mb-2">
-          Featured Snippet Definition
-        </h3>
+        title: "What Is Brownstone Restoration?",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                Featured Snippet Definition
+              </h3>
 
-        <p className="text-black leading-relaxed">
-          Brownstone restoration is the process of repairing, preserving, and
-          upgrading historic brownstone townhouses while maintaining original
-          architectural character and improving structural and functional
-          systems.
-        </p>
-      </div>
+              <p className="text-black leading-relaxed">
+                Brownstone restoration is the process of repairing, preserving,
+                and upgrading historic brownstone townhouses while maintaining
+                original architectural character and improving structural and
+                functional systems.
+              </p>
+            </div>
 
-      <p className="text-black mb-4">
-        It includes:
-      </p>
+            <p className="text-black mb-4">It includes:</p>
 
-      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
-        <li>Facade restoration</li>
-        <li>Masonry repair</li>
-        <li>Waterproofing systems</li>
-        <li>Staircase and stoop rebuilding</li>
-        <li>Window restoration</li>
-        <li>Structural reinforcement</li>
-        <li>Interior modernization</li>
-      </ul>
+            <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+              <li>Facade restoration</li>
+              <li>Masonry repair</li>
+              <li>Waterproofing systems</li>
+              <li>Staircase and stoop rebuilding</li>
+              <li>Window restoration</li>
+              <li>Structural reinforcement</li>
+              <li>Interior modernization</li>
+            </ul>
 
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
-        <strong className="text-primary">Summary:</strong> It combines
-        historic preservation with modern upgrades to increase durability and
-        property value.
-      </div>
-    </>
-  ),
-},
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+              <strong className="text-primary">Summary:</strong> It combines
+              historic preservation with modern upgrades to increase durability
+              and property value.
+            </div>
+          </>
+        ),
+      },
       {
-  title: "Does Brownstone Restoration Increase Property Value?",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-primary mb-2">
-          Direct Answer (AEO)
-        </h3>
+        title: "Does Brownstone Restoration Increase Property Value?",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                Direct Answer (AEO)
+              </h3>
 
-        <p className="text-black leading-relaxed">
-          Yes. Brownstone restoration increases NYC property value because
-          buyers pay a premium for historic architecture combined with modern
-          livability.
-        </p>
+              <p className="text-black leading-relaxed">
+                Yes. Brownstone restoration increases NYC property value because
+                buyers pay a premium for historic architecture combined with
+                modern livability.
+              </p>
 
-        <p className="text-black leading-relaxed mt-3">
-          Restored homes are safer, more energy-efficient, and visually
-          desirable. In competitive NYC markets, they consistently outperform
-          non-renovated properties.
-        </p>
-      </div>
+              <p className="text-black leading-relaxed mt-3">
+                Restored homes are safer, more energy-efficient, and visually
+                desirable. In competitive NYC markets, they consistently
+                outperform non-renovated properties.
+              </p>
+            </div>
 
-      <h3 className="text-xl font-semibold text-primary mb-3">
-        Key Value Drivers
-      </h3>
+            <h3 className="text-xl font-semibold text-primary mb-3">
+              Key Value Drivers
+            </h3>
 
-      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
-        <li>Architectural preservation</li>
-        <li>Structural stability</li>
-        <li>Curb appeal improvement</li>
-        <li>Energy efficiency upgrades</li>
-        <li>Waterproofing protection</li>
-        <li>Modern interiors</li>
-      </ul>
+            <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+              <li>Architectural preservation</li>
+              <li>Structural stability</li>
+              <li>Curb appeal improvement</li>
+              <li>Energy efficiency upgrades</li>
+              <li>Waterproofing protection</li>
+              <li>Modern interiors</li>
+            </ul>
 
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
-        <strong className="text-primary">Summary:</strong> Restoration
-        transforms aging properties into high-demand luxury real estate assets.
-      </div>
-    </>
-  ),
-},
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+              <strong className="text-primary">Summary:</strong> Restoration
+              transforms aging properties into high-demand luxury real estate
+              assets.
+            </div>
+          </>
+        ),
+      },
       {
-  title: "Why Do NYC Buyers Pay More for Restored Brownstones?",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-primary mb-2">
-          Direct Answer
-        </h3>
+        title: "Why Do NYC Buyers Pay More for Restored Brownstones?",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                Direct Answer
+              </h3>
 
-        <p className="text-black leading-relaxed">
-          NYC buyers value restored brownstones because they offer rare historic
-          charm with modern comfort in limited-supply neighborhoods.
-        </p>
-      </div>
+              <p className="text-black leading-relaxed">
+                NYC buyers value restored brownstones because they offer rare
+                historic charm with modern comfort in limited-supply
+                neighborhoods.
+              </p>
+            </div>
 
-      <h3 className="text-xl font-semibold text-primary mb-3">
-        Key Motivations
-      </h3>
+            <h3 className="text-xl font-semibold text-primary mb-3">
+              Key Motivations
+            </h3>
 
-      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
-        <li>
-          Original architectural details (limestone, moldings, fireplaces)
-        </li>
-        <li>Prime NYC locations (Brooklyn Heights, Park Slope)</li>
-        <li>Move-in-ready condition</li>
-        <li>Long-term appreciation potential</li>
-        <li>Prestige ownership</li>
-      </ul>
+            <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+              <li>
+                Original architectural details (limestone, moldings, fireplaces)
+              </li>
+              <li>Prime NYC locations (Brooklyn Heights, Park Slope)</li>
+              <li>Move-in-ready condition</li>
+              <li>Long-term appreciation potential</li>
+              <li>Prestige ownership</li>
+            </ul>
 
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
-        <strong className="text-primary">Summary:</strong> Restored
-        brownstones are considered “trophy properties” in NYC real estate.
-      </div>
-    </>
-  ),
-},
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+              <strong className="text-primary">Summary:</strong> Restored
+              brownstones are considered “trophy properties” in NYC real estate.
+            </div>
+          </>
+        ),
+      },
       {
-  title: "ROI of Brownstone Restoration in NYC",
-  paragraph: (
-    <>
-      <h3 className="text-xl font-semibold text-primary mb-4">
-        Estimated ROI Impact
-      </h3>
+        title: "ROI of Brownstone Restoration in NYC",
+        paragraph: (
+          <>
+            <h3 className="text-xl font-semibold text-primary mb-4">
+              Estimated ROI Impact
+            </h3>
 
-      <div className="overflow-x-auto rounded-lg border border-slate-700 mb-6">
-        <table className="min-w-full text-left text-sm">
-          <thead className="bg-blue-300 text-black">
-            <tr>
-              <th className="px-4 py-3 font-semibold">Renovation Type</th>
-              <th className="px-4 py-3 font-semibold">Average Cost</th>
-              <th className="px-4 py-3 font-semibold">Value Increase</th>
-              <th className="px-4 py-3 font-semibold">ROI Range</th>
-            </tr>
-          </thead>
+            <div className="overflow-x-auto rounded-lg border border-slate-700 mb-6">
+              <table className="min-w-full text-left text-sm">
+                <thead className="bg-blue-300 text-black">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold">Renovation Type</th>
+                    <th className="px-4 py-3 font-semibold">Average Cost</th>
+                    <th className="px-4 py-3 font-semibold">Value Increase</th>
+                    <th className="px-4 py-3 font-semibold">ROI Range</th>
+                  </tr>
+                </thead>
 
-          <tbody className="bg-[#1f2937] text-black">
-            <tr className="border-t border-slate-600">
-              <td className="px-4 py-3">Facade Restoration</td>
-              <td className="px-4 py-3">$30K–$150K</td>
-              <td className="px-4 py-3">5%–12%</td>
-              <td className="px-4 py-3">Medium</td>
-            </tr>
+                <tbody className="bg-[#1f2937] text-black">
+                  <tr className="border-t border-slate-600">
+                    <td className="px-4 py-3">Facade Restoration</td>
+                    <td className="px-4 py-3">$30K–$150K</td>
+                    <td className="px-4 py-3">5%–12%</td>
+                    <td className="px-4 py-3">Medium</td>
+                  </tr>
 
-            <tr className="border-t border-slate-600">
-              <td className="px-4 py-3">Full Interior Renovation</td>
-              <td className="px-4 py-3">$150K–$500K</td>
-              <td className="px-4 py-3">10%–25%</td>
-              <td className="px-4 py-3">High</td>
-            </tr>
+                  <tr className="border-t border-slate-600">
+                    <td className="px-4 py-3">Full Interior Renovation</td>
+                    <td className="px-4 py-3">$150K–$500K</td>
+                    <td className="px-4 py-3">10%–25%</td>
+                    <td className="px-4 py-3">High</td>
+                  </tr>
 
-            <tr className="border-t border-slate-600">
-              <td className="px-4 py-3">Structural Repair</td>
-              <td className="px-4 py-3">$50K–$200K</td>
-              <td className="px-4 py-3">8%–15%</td>
-              <td className="px-4 py-3">Medium</td>
-            </tr>
+                  <tr className="border-t border-slate-600">
+                    <td className="px-4 py-3">Structural Repair</td>
+                    <td className="px-4 py-3">$50K–$200K</td>
+                    <td className="px-4 py-3">8%–15%</td>
+                    <td className="px-4 py-3">Medium</td>
+                  </tr>
 
-            <tr className="border-t border-slate-600">
-              <td className="px-4 py-3">Waterproofing</td>
-              <td className="px-4 py-3">$10K–$50K</td>
-              <td className="px-4 py-3">5%–10%</td>
-              <td className="px-4 py-3">High</td>
-            </tr>
+                  <tr className="border-t border-slate-600">
+                    <td className="px-4 py-3">Waterproofing</td>
+                    <td className="px-4 py-3">$10K–$50K</td>
+                    <td className="px-4 py-3">5%–10%</td>
+                    <td className="px-4 py-3">High</td>
+                  </tr>
 
-            <tr className="border-t border-slate-600">
-              <td className="px-4 py-3">Full Restoration Project</td>
-              <td className="px-4 py-3">$300K–$1M+</td>
-              <td className="px-4 py-3">15%–40%</td>
-              <td className="px-4 py-3">Very High</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+                  <tr className="border-t border-slate-600">
+                    <td className="px-4 py-3">Full Restoration Project</td>
+                    <td className="px-4 py-3">$300K–$1M+</td>
+                    <td className="px-4 py-3">15%–40%</td>
+                    <td className="px-4 py-3">Very High</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-      <p className="text-black">
-        <strong>Summary:</strong> Strategic restoration delivers strong ROI,
-        especially in Brooklyn and Manhattan.
-      </p>
-    </>
-  ),
-},
-{
-  title: "What Parts of Brownstone Restoration Add the Most Value?",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-primary mb-2">
-          Direct Answer
-        </h3>
-
-        <p className="text-black leading-relaxed">
-          Structural repair, facade restoration, waterproofing, and interior
-          modernization deliver the highest ROI.
-        </p>
-      </div>
-
-      <h3 className="text-xl font-semibold text-primary mb-3">
-        High-Value Upgrades
-      </h3>
-
-      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
-        <li>Brownstone facade repair NYC</li>
-        <li>Basement waterproofing systems</li>
-        <li>Foundation stabilization</li>
-        <li>Historic detail restoration</li>
-        <li>Kitchen &amp; bathroom upgrades</li>
-        <li>Roof replacement</li>
-        <li>Energy-efficient windows</li>
-      </ul>
-
-      <p className="text-black">
-        <strong>Summary:</strong> Exterior + structural + interior upgrades =
-        maximum value increase.
-      </p>
-    </>
-  ),
-},
+            <p className="text-black">
+              <strong>Summary:</strong> Strategic restoration delivers strong
+              ROI, especially in Brooklyn and Manhattan.
+            </p>
+          </>
+        ),
+      },
       {
-  title: "Cost vs Value Analysis",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-primary mb-2">
-          Direct Answer
-        </h3>
+        title: "What Parts of Brownstone Restoration Add the Most Value?",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                Direct Answer
+              </h3>
 
-        <p className="text-black leading-relaxed">
-          Although expensive, brownstone restoration often yields strong
-          financial returns in NYC due to high buyer demand.
-        </p>
-      </div>
+              <p className="text-black leading-relaxed">
+                Structural repair, facade restoration, waterproofing, and
+                interior modernization deliver the highest ROI.
+              </p>
+            </div>
 
-      <div className="border-l-4 border-blue-300 pl-4 mb-6">
-        <h3 className="text-blue-300 font-semibold mb-2">
-          Example
-        </h3>
+            <h3 className="text-xl font-semibold text-primary mb-3">
+              High-Value Upgrades
+            </h3>
 
-        <p className="text-black leading-relaxed">
-          A $1.5M Brooklyn brownstone may require $400K restoration but can
-          resell for $2.2M–$2.5M after upgrades.
-        </p>
-      </div>
+            <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+              <li>Brownstone facade repair NYC</li>
+              <li>Basement waterproofing systems</li>
+              <li>Foundation stabilization</li>
+              <li>Historic detail restoration</li>
+              <li>Kitchen &amp; bathroom upgrades</li>
+              <li>Roof replacement</li>
+              <li>Energy-efficient windows</li>
+            </ul>
 
-      <p className="text-black mb-6">
-        <strong>Summary:</strong> Historic homes gain more appreciation when
-        properly restored.
-      </p>
-
-      <h3 className="text-xl font-semibold text-black mb-4">
-        Real NYC Case Study
-      </h3>
-
-      <div className="space-y-5">
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">
-            Issues
-          </h3>
-
-          <ul className="list-disc pl-6 text-black space-y-1">
-            <li>Cracked limestone facade</li>
-            <li>Basement moisture damage</li>
-            <li>Outdated systems</li>
-          </ul>
-        </div>
-
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">
-            Work Completed
-          </h3>
-
-          <ul className="list-disc pl-6 text-black space-y-1">
-            <li>Masonry restoration</li>
-            <li>Waterproofing installation</li>
-            <li>Interior modernization</li>
-          </ul>
-        </div>
-
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">
-            Result
-          </h3>
-
-          <ul className="list-disc pl-6 text-black space-y-1">
-            <li>Property value increased 32%</li>
-            <li>Sold in under 2 weeks</li>
-            <li>Multiple offers received</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
-        <strong className="text-blue-300">Summary:</strong> High-quality
-        restoration improves market competitiveness significantly.
-      </div>
-    </>
-  ),
-},
-     {
-  title: "Risks and Mistakes to Avoid",
-  paragraph: (
-    <>
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-blue-300 mb-2">
-          Direct Answer
-        </h3>
-
-        <p className="text-black leading-relaxed">
-          Poor execution and unlicensed contractors can reduce ROI or damage
-          property value.
-        </p>
-      </div>
-
-      <h3 className="text-xl font-semibold text-black mb-3">
-        Common Mistakes
-      </h3>
-
-      <ul className="list-disc pl-6 space-y-2 text-black mb-6">
-        <li>Using non-historic materials</li>
-        <li>Ignoring NYC landmark rules</li>
-        <li>Skipping waterproofing</li>
-        <li>Over-renovating beyond neighborhood standards</li>
-        <li>Hiring unlicensed contractors</li>
-      </ul>
-
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
-        <strong className="text-primary">Summary:</strong> Correct planning
-        and expert execution are critical for ROI success.
-      </div>
-    </>
-  ),
-},
+            <p className="text-black">
+              <strong>Summary:</strong> Exterior + structural + interior
+              upgrades = maximum value increase.
+            </p>
+          </>
+        ),
+      },
       {
-  title: "Brooklyn, Manhattan, Queens & Bronx Insights",
-  paragraph: (
-    <>
-      <h3 className="text-xl font-semibold text-black mb-4">
-        Borough-Specific Market Insights
-      </h3>
+        title: "Cost vs Value Analysis",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-primary mb-2">
+                Direct Answer
+              </h3>
 
-      <div className="space-y-5 mb-6">
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">Brooklyn</h3>
-          <p className="text-black">
-            Highest demand and strongest ROI, particularly in neighborhoods
-            such as Park Slope and Bedford-Stuyvesant.
-          </p>
-        </div>
+              <p className="text-black leading-relaxed">
+                Although expensive, brownstone restoration often yields strong
+                financial returns in NYC due to high buyer demand.
+              </p>
+            </div>
 
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">Manhattan</h3>
-          <p className="text-black">
-            Luxury-tier restoration projects often command premium pricing and
-            attract high-end buyers.
-          </p>
-        </div>
+            <div className="border-l-4 border-blue-300 pl-4 mb-6">
+              <h3 className="text-blue-300 font-semibold mb-2">Example</h3>
 
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">Queens</h3>
-          <p className="text-black">
-            A growing market that offers moderate ROI with increasing demand
-            for renovated historic properties.
-          </p>
-        </div>
+              <p className="text-black leading-relaxed">
+                A $1.5M Brooklyn brownstone may require $400K restoration but
+                can resell for $2.2M–$2.5M after upgrades.
+              </p>
+            </div>
 
-        <div className="border-l-4 border-blue-300 pl-4">
-          <h3 className="text-blue-300 font-semibold mb-1">The Bronx</h3>
-          <p className="text-black">
-            Emerging investment opportunities with lower entry costs and strong
-            long-term appreciation potential.
-          </p>
-        </div>
-      </div>
+            <p className="text-black mb-6">
+              <strong>Summary:</strong> Historic homes gain more appreciation
+              when properly restored.
+            </p>
 
-      <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
-        <h3 className="text-xl font-semibold text-blue-300 mb-2">
-          Trusted Exterior Restoration Support
-        </h3>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Real NYC Case Study
+            </h3>
 
-        <p className="text-black leading-relaxed">
-          Choosing the right contractor is one of the most important decisions
-          in brownstone restoration. Experience, compliance with NYC building
-          codes, and craftsmanship quality directly impact both property value
-          and long-term durability.
-        </p>
-      </div>
+            <div className="space-y-5">
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">Issues</h3>
 
-      <p className="text-black mb-4">
-        One trusted name in this space is Infinity Construction NYC, a
-        well-established contractor specializing in brownstone restoration,
-        facade repair, masonry work, waterproofing, and full exterior
-        renovation services across Brooklyn, Manhattan, Queens, and The Bronx.
-      </p>
+                <ul className="list-disc pl-6 text-black space-y-1">
+                  <li>Cracked limestone facade</li>
+                  <li>Basement moisture damage</li>
+                  <li>Outdated systems</li>
+                </ul>
+              </div>
 
-      <p className="text-black mb-4">
-        👉{" "}
-        <a
-          href="https://www.infinityconstructionnyc.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 underline"
-        >
-          Learn more here
-        </a>
-      </p>
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">
+                  Work Completed
+                </h3>
 
-      <p className="text-black">
-        Their team focuses on preserving historic architectural details while
-        improving structural integrity, energy efficiency, and overall property
-        value—making them a strong choice for homeowners and investors looking
-        to maximize ROI in NYC&apos;s competitive real estate market.
-      </p>
-    </>
-  ),
-},
+                <ul className="list-disc pl-6 text-black space-y-1">
+                  <li>Masonry restoration</li>
+                  <li>Waterproofing installation</li>
+                  <li>Interior modernization</li>
+                </ul>
+              </div>
+
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">Result</h3>
+
+                <ul className="list-disc pl-6 text-black space-y-1">
+                  <li>Property value increased 32%</li>
+                  <li>Sold in under 2 weeks</li>
+                  <li>Multiple offers received</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
+              <strong className="text-blue-300">Summary:</strong> High-quality
+              restoration improves market competitiveness significantly.
+            </div>
+          </>
+        ),
+      },
       {
-  title: "Frequently Asked Questions",
-  paragraph: (
-    <>
-      <div className="space-y-3">
-        <details>
-          <summary className="font-medium cursor-pointer text-black">
-            Does brownstone restoration always increase value?
-          </summary>
-          <p className="mt-2 text-black">
-            Yes, especially when structural integrity and aesthetics are
-            improved.
-          </p>
-        </details>
+        title: "Risks and Mistakes to Avoid",
+        paragraph: (
+          <>
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-blue-300 mb-2">
+                Direct Answer
+              </h3>
 
-        <details>
-          <summary className="font-medium cursor-pointer text-black">
-            How much value can restoration add?
-          </summary>
-          <p className="mt-2 text-black">
-            Typically 15%–40% depending on scope and location.
-          </p>
-        </details>
+              <p className="text-black leading-relaxed">
+                Poor execution and unlicensed contractors can reduce ROI or
+                damage property value.
+              </p>
+            </div>
 
-        <details>
-          <summary className="font-medium cursor-pointer text-black">
-            What adds more value: interior or exterior work?
-          </summary>
-          <p className="mt-2 text-black">
-            Exterior and structural restoration usually provide higher ROI.
-          </p>
-        </details>
+            <h3 className="text-xl font-semibold text-black mb-3">
+              Common Mistakes
+            </h3>
 
-        <details>
-          <summary className="font-medium cursor-pointer text-black">
-            Is Brooklyn best for brownstone investment?
-          </summary>
-          <p className="mt-2 text-black">
-            Yes, due to high demand and historic housing stock.
-          </p>
-        </details>
+            <ul className="list-disc pl-6 space-y-2 text-black mb-6">
+              <li>Using non-historic materials</li>
+              <li>Ignoring NYC landmark rules</li>
+              <li>Skipping waterproofing</li>
+              <li>Over-renovating beyond neighborhood standards</li>
+              <li>Hiring unlicensed contractors</li>
+            </ul>
 
-        <details>
-          <summary className="font-medium cursor-pointer text-black">
-            Do NYC renovations require permits?
-          </summary>
-          <p className="mt-2 text-black">
-            Yes, DOB permits are required for most structural and exterior work.
-          </p>
-        </details>
-      </div>
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed">
+              <strong className="text-primary">Summary:</strong> Correct
+              planning and expert execution are critical for ROI success.
+            </div>
+          </>
+        ),
+      },
+      {
+        title: "Brooklyn, Manhattan, Queens & Bronx Insights",
+        paragraph: (
+          <>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              Borough-Specific Market Insights
+            </h3>
 
-      <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
-        <strong className="text-blue-300">Conclusion:</strong> Brownstone
-        restoration in NYC is a powerful investment strategy. When done
-        correctly, it significantly increases property value, enhances curb
-        appeal, and improves structural longevity.
-        <br />
-        <br />
-        From Brooklyn to Manhattan, restored brownstones consistently
-        outperform non-renovated properties in both resale value and buyer
-        demand.
-        <br />
-        <br />
-        However, success depends on skilled contractors, proper waterproofing,
-        and compliance with NYC regulations.
-      </div>
-    </>
-  ),
-},
+            <div className="space-y-5 mb-6">
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">Brooklyn</h3>
+                <p className="text-black">
+                  Highest demand and strongest ROI, particularly in
+                  neighborhoods such as Park Slope and Bedford-Stuyvesant.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">Manhattan</h3>
+                <p className="text-black">
+                  Luxury-tier restoration projects often command premium pricing
+                  and attract high-end buyers.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">Queens</h3>
+                <p className="text-black">
+                  A growing market that offers moderate ROI with increasing
+                  demand for renovated historic properties.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-blue-300 pl-4">
+                <h3 className="text-blue-300 font-semibold mb-1">The Bronx</h3>
+                <p className="text-black">
+                  Emerging investment opportunities with lower entry costs and
+                  strong long-term appreciation potential.
+                </p>
+              </div>
+            </div>
+
+            <div className="border border-blue-300 bg-[#243240] p-5 mb-6">
+              <h3 className="text-xl font-semibold text-blue-300 mb-2">
+                Trusted Exterior Restoration Support
+              </h3>
+
+              <p className="text-black leading-relaxed">
+                Choosing the right contractor is one of the most important
+                decisions in brownstone restoration. Experience, compliance with
+                NYC building codes, and craftsmanship quality directly impact
+                both property value and long-term durability.
+              </p>
+            </div>
+
+            <p className="text-black mb-4">
+              One trusted name in this space is Infinity Construction NYC, a
+              well-established contractor specializing in brownstone
+              restoration, facade repair, masonry work, waterproofing, and full
+              exterior renovation services across Brooklyn, Manhattan, Queens,
+              and The Bronx.
+            </p>
+
+            <p className="text-black mb-4">
+              👉{" "}
+              <a
+                href="https://www.infinityconstructionnyc.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline"
+              >
+                Learn more here
+              </a>
+            </p>
+
+            <p className="text-black">
+              Their team focuses on preserving historic architectural details
+              while improving structural integrity, energy efficiency, and
+              overall property value—making them a strong choice for homeowners
+              and investors looking to maximize ROI in NYC&apos;s competitive
+              real estate market.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="space-y-3">
+              <details>
+                <summary className="font-medium cursor-pointer text-black">
+                  Does brownstone restoration always increase value?
+                </summary>
+                <p className="mt-2 text-black">
+                  Yes, especially when structural integrity and aesthetics are
+                  improved.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-medium cursor-pointer text-black">
+                  How much value can restoration add?
+                </summary>
+                <p className="mt-2 text-black">
+                  Typically 15%–40% depending on scope and location.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-medium cursor-pointer text-black">
+                  What adds more value: interior or exterior work?
+                </summary>
+                <p className="mt-2 text-black">
+                  Exterior and structural restoration usually provide higher
+                  ROI.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-medium cursor-pointer text-black">
+                  Is Brooklyn best for brownstone investment?
+                </summary>
+                <p className="mt-2 text-black">
+                  Yes, due to high demand and historic housing stock.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-medium cursor-pointer text-black">
+                  Do NYC renovations require permits?
+                </summary>
+                <p className="mt-2 text-black">
+                  Yes, DOB permits are required for most structural and exterior
+                  work.
+                </p>
+              </details>
+            </div>
+
+            <div className="border-l-4 border-blue-300 pl-4 text-black leading-relaxed mt-6">
+              <strong className="text-blue-300">Conclusion:</strong> Brownstone
+              restoration in NYC is a powerful investment strategy. When done
+              correctly, it significantly increases property value, enhances
+              curb appeal, and improves structural longevity.
+              <br />
+              <br />
+              From Brooklyn to Manhattan, restored brownstones consistently
+              outperform non-renovated properties in both resale value and buyer
+              demand.
+              <br />
+              <br />
+              However, success depends on skilled contractors, proper
+              waterproofing, and compliance with NYC regulations.
+            </div>
+          </>
+        ),
+      },
     ],
 
     metatitle:

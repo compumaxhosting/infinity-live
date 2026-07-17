@@ -182,6 +182,14 @@ const SiteMap = () => {
       name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
       url: "/blog/brick-pointing-waterproofing-nyc-homes",
     },
+    {
+      name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
+      url: "/blog/brownstone-restoration-property-value-new-york-city",
+    },
+    {
+      name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
+      url: "/blog/the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",
+    },
   ];
 
   return (
