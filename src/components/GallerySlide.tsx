@@ -5,11 +5,13 @@ import { cn } from "@/lib/utils";
 
 interface GallerySlideProps {
   id: number;
+  title: string;
   image: string;
   isSelected: boolean;
 }
 
 export const GallerySlide: React.FC<GallerySlideProps> = ({
+  title,
   image,
   isSelected,
 }) => {
@@ -23,7 +25,7 @@ export const GallerySlide: React.FC<GallerySlideProps> = ({
     >
       <Image
         src={image}
-        alt="Gallery image"
+        alt={title}
         fill
         className="object-cover transition-transform duration-500 md:border-gray-50 md:border-2 "
         loading="lazy"
