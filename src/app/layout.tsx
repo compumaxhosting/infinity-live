@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter, Be_Vietnam_Pro } from "next/font/google";
 import type { Metadata } from "next";
 import Script from "next/script";
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -14,13 +15,13 @@ const bevietnam = Be_Vietnam_Pro({
   variable: "--font-bevietnam",
 });
 
-// ✅ Default metadata for entire site
 export const metadata: Metadata = {
   title: "Brownstone Construction and Restoration in Brooklyn, New York",
   description:
     "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
   keywords:
     "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
+
   openGraph: {
     title: "Brownstone Construction and Restoration in Brooklyn, New York",
     description:
@@ -36,6 +37,7 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+
   metadataBase: new URL("https://www.infinityconstructionnyc.com"),
 
   alternates: {
@@ -54,6 +56,7 @@ const jsonLdSchema = {
   email: "Infinityconstructionnyc@gmail.com",
   priceRange: "$$",
   image: "https://www.infinityconstructionnyc.com/logo.png",
+
   address: [
     {
       "@type": "PostalAddress",
@@ -72,6 +75,7 @@ const jsonLdSchema = {
       addressCountry: "US",
     },
   ],
+
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
@@ -88,29 +92,20 @@ const jsonLdSchema = {
       closes: "20:00",
     },
   ],
+
   areaServed: [
-    {
-      "@type": "City",
-      name: "Brooklyn",
-    },
-    {
-      "@type": "City",
-      name: "Manhattan",
-    },
-    {
-      "@type": "City",
-      name: "Queens",
-    },
-    {
-      "@type": "City",
-      name: "The Bronx",
-    },
+    { "@type": "City", name: "Brooklyn" },
+    { "@type": "City", name: "Manhattan" },
+    { "@type": "City", name: "Queens" },
+    { "@type": "City", name: "The Bronx" },
   ],
+
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
     reviewCount: "9",
   },
+
   sameAs: [
     "https://www.facebook.com/Infinityconstructionnyc/",
     "https://www.instagram.com/infinityconstructionnyc/",
@@ -124,46 +119,53 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
- return (
-   <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
-     <head>
-       <meta
-         name="google-site-verification"
-         content="r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc"
-       />
-       <meta
-         name="p:domain_verify"
-         content="fc7baee557a0e8360b2c7f0532795f25"
-       />
-     </head>
+  return (
+    <html lang="en" className={`${inter.variable} ${bevietnam.variable}`}>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="r3Qkntf2cikOsd6jUtQvXgLYihfV4NSBgvk6FOK0Wjc"
+        />
 
-     <body>
-       {children}
+        <meta
+          name="p:domain_verify"
+          content="fc7baee557a0e8360b2c7f0532795f25"
+        />
+      </head>
 
-       {/* ✅ Google Analytics */}
-       <Script
-         src="https://www.googletagmanager.com/gtag/js?id=G-DEQG4H4HVT"
-         strategy="lazyOnload"
-       />
+      <body>
+        {children}
 
-       <Script id="google-analytics" strategy="lazyOnload">
-         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DEQG4H4HVT"
+          strategy="lazyOnload"
+        />
 
-          gtag('config', 'G-DEQG4H4HVT');
-        `}
-       </Script>
+        <Script id="google-analytics" strategy="lazyOnload">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DEQG4H4HVT');
+          `}
+        </Script>
 
-       {/* ✅ JSON-LD Schema */}
-       <script
-         type="application/ld+json"
-         dangerouslySetInnerHTML={{
-           __html: JSON.stringify(jsonLdSchema),
-         }}
-       />
-     </body>
-   </html>
- );
+        {/* Elfsight (Loaded Once for Entire Website) */}
+        <Script
+          id="elfsight-platform"
+          src="https://elfsightcdn.com/platform.js"
+          strategy="lazyOnload"
+        />
+
+        {/* JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdSchema),
+          }}
+        />
+      </body>
+    </html>
+  );
 }
