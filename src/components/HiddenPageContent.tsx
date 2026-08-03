@@ -37,6 +37,27 @@ const HiddenPageContent = () => {
 
         <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-16">
           {/* Row 1: Image + Paragraph */}
+          <h1 className="text-center text-3xl lg:text-5xl mb-6 text-gray-800 dark:text-white">
+            Expert Manhattan Brownstone Restoration
+          </h1>
+          <section className="mb-10">
+            <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
+              <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
+                Call{" "}
+                <a href="tel:3479395779" className="underline font-extrabold">
+                  347 939 5779
+                </a>{" "}
+                for Expert Manhattan Brownstone Restoration.
+              </p>
+
+              <Link
+                href="/contact"
+                className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+              >
+                Request a Quote
+              </Link>
+            </div>
+          </section>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="w-full lg:w-1/3">
               <Image
@@ -49,7 +70,7 @@ const HiddenPageContent = () => {
               />
             </div>
 
-            <div className="w-full md:w-2/3">
+            <div className="w-full lg:w-2/3">
               <p
                 className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto text-justify"
                 style={{ fontFamily: "var(--font-forum)" }}

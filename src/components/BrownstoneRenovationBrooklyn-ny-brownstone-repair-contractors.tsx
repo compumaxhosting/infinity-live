@@ -10,6 +10,24 @@ const BrownstoneRenovationBrooklynNyBrownstoneRepairContractors = () => {
         <h1 className="text-3xl sm:text-4xl 2xl:text-6xl text-black dark:text-white font-forum text-left py-10 sm:py-12 md:py-14 md:pb-6  mx-auto sm:px-20 ">
           Brownstone Restoration in NYC
         </h1>
+        <section className="mb-10">
+          <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
+              Call{" "}
+              <a href="tel:3479395779" className="underline font-extrabold">
+                347 939 5779
+              </a>{" "}
+              for Brownstone Restoration in NYC
+            </p>
+
+            <Link
+              href="/contact"
+              className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+            >
+              Request a Quote
+            </Link>
+          </div>
+        </section>
         <p className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify">
           <strong>Trusted Experts in Preserving Historic Buildings</strong>
         </p>

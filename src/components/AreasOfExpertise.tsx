@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const expertiseData = [
@@ -26,7 +27,24 @@ const AreasOfExpertise = () => {
         <h1 className="text-center text-3xl lg:text-5xl mb-12 text-gray-800 dark:text-white">
           Areas of Expertise
         </h1>
+        <section className="mb-10">
+          <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
+              Call{" "}
+              <a href="tel:3479395779" className="underline font-extrabold">
+                347 939 5779
+              </a>{" "}
+             
+            </p>
 
+            <Link
+              href="/contact"
+              className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+            >
+              Request a Quote
+            </Link>
+          </div>
+        </section>
         {/* Expertise Section */}
         <div className="md:space-y-16 max-w-6xl mx-auto px-4 sm:px-8 lg:px-16">
           {expertiseData.map((item, index) => (

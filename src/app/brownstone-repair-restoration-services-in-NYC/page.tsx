@@ -2,16 +2,35 @@ import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
 import PhoneCall from "@/components/PhoneCall";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const page = () => {
   return (
     <div>
       <HeaderSpecial />
-      <main className="container mx-auto pt-6 sm:pt-24 pb-12 text-base sm:text-lg leading-relaxed px-12">
+      <main className="container mx-auto pt-24 pb-12 text-base sm:text-lg leading-relaxed px-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-tertiary mb-4 py-5">
           Brownstone Repair & Restoration Services in NYC
         </h1>
+        <section className="mb-10">
+          <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
+            <p className="text-xl sm:text-2xl mb-4 text-orange-600 font-bold">
+              Call{" "}
+              <a href="tel:3479395779" className="underline font-extrabold">
+                347 939 5779
+              </a>{" "}
+              for Brownstone Repair & Restoration Services in NYC.
+            </p>
+
+            <Link
+              href="/contact"
+              className="inline-block bg-primary hover:bg-primary/80 text-white font-bold py-3 px-8 rounded-lg transition duration-300"
+            >
+              Request a Quote
+            </Link>
+          </div>
+        </section>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-center mb-8">
           Serving Brooklyn, Manhattan, Queens & The Bronx
         </h2>
