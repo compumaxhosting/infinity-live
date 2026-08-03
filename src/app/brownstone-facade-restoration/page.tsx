@@ -44,17 +44,19 @@ const BrickCMULayeringPage = () => {
             </div>
           </section>
        <section className="py-2">
-  <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-8xl mx-auto px-6">
     {/* Top Section */}
     <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4">
       {/* Left Content */}
-      <div className="space-y-5 text-lg md:text-xl text-slate-800">
+      <div className="space-y-3 text-lg md:text-xl text-slate-800">
         
         <p className="text-justify">
           Brownstone facade restoration protects historic buildings from
           structural deterioration, water damage, and weathering while
           preserving their original architectural character. Infinity
-          Construction NYC provides expert brownstone restoration services
+          Construction NYC provides <Link href="/" className="text-orange-600 hover:underline">
+            expert brownstone restoration services
+          </Link>
           across Brooklyn, Manhattan, Queens, and the Bronx using proven
           masonry restoration techniques and historically compatible materials.
         </p>
@@ -112,7 +114,7 @@ const BrickCMULayeringPage = () => {
       </p>
 
       <div>
-        <h2 className="text-2xl font-semibold mb-3">
+        <h2 className="text-2xl font-semibold mb-3 text-orange-500">
           Why Choose Infinity Construction NYC?
         </h2>
 
@@ -149,38 +151,6 @@ const BrickCMULayeringPage = () => {
   </div>
 </section>
 
-         
-
-
-
-          {/* WHY CHOOSE */}
-          <section className="mb-10">
-            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
-              Why Choose Infinity Construction NYC?
-            </h2>
-
-            <ul className="list-disc pl-6 space-y-3">
-              <li>
-                Proven Local Expertise: We understand the unique logistics of
-                working in NYC, from sidewalk permits to neighboring property
-                protection.
-              </li>
-              <li>
-                Precision and Alignment: Our masons use advanced leveling tools
-                and traditional craftsmanship to ensure every course is
-                &quot;plumb and true.&quot;
-              </li>
-              <li>
-                High-Quality Materials: We source premium bricks and high-PSI
-                blocks to ensure your structure lasts for generations.
-              </li>
-              <li>
-                Transparent Project Management: We provide clear timelines and
-                budget updates, ensuring no surprises from groundbreaking to
-                cleanup.
-              </li>
-            </ul>
-          </section>
 <ServiceLinks />
           {/* BOTTOM CTA */}
           <section className="mt-12 mb-10 px-4">
