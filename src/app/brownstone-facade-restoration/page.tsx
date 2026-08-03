@@ -1,12 +1,11 @@
 import Footer from "@/components/Footer";
 import HeaderSpecial from "@/components/headerSection/HeaderSpecial";
-import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import PhoneCall from "@/components/PhoneCall";
 import { Phone, Mail, Globe } from "lucide-react";
-import FaqNew from "@/components/FaqNew";
 import ServiceLinks from "@/components/ServiceLinks";
+import Image from "next/image";
 
 const contactPhone = "347 939 5779";
 const contactPhoneHref = "tel:+13479395779";
@@ -22,14 +21,9 @@ const BrickCMULayeringPage = () => {
           style={{ fontFamily: "var(--font-forum)" }}
         >
           {/* H1 */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6">
-            Expert Brick and CMU Block Laying in NYC
+           <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-6">
+            Brownstone Facade Restoration in Brooklyn, Manhattan, Queens, and The Bronx
           </h1>
-
-          <p className="text-xl sm:text-2xl mb-4 text-orange-600">
-            High-Strength Masonry for Residential and Commercial Projects
-          </p>
-
           {/* TOP CTA */}
           <section className="mb-10">
             <div className="max-w-3xl rounded-lg border border-gray-200 mx-auto p-6 text-center">
@@ -49,201 +43,115 @@ const BrickCMULayeringPage = () => {
               </Link>
             </div>
           </section>
+       <section className="py-2">
+  <div className="max-w-7xl mx-auto px-6">
+    {/* Top Section */}
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-4">
+      {/* Left Content */}
+      <div className="space-y-5 text-lg md:text-xl text-slate-800">
+        
+        <p className="text-justify">
+          Brownstone facade restoration protects historic buildings from
+          structural deterioration, water damage, and weathering while
+          preserving their original architectural character. Infinity
+          Construction NYC provides expert brownstone restoration services
+          across Brooklyn, Manhattan, Queens, and the Bronx using proven
+          masonry restoration techniques and historically compatible materials.
+        </p>
+      </div>
 
-          <section className="mb-10">
-            <p className="text-justify mb-6">
-              Professional brick and CMU block laying in NYC by{" "}
-              <Link href="/" className="text-orange-500">
-                Infinity Construction NYC
-              </Link>{" "}
-              provides essential structural support for new builds and
-              renovations. Designed for developers and homeowners, our service
-              ensures durable foundations and beautiful facades, delivering
-              unmatched stability and long-term property value through expert
-              masonry.
-            </p>
+      {/* Right Image */}
+      <div className="w-full flex justify-center">
+  <div className="w-72 md:w-80 lg:w-96">
+    <Image
+      src="/historical-landmark/historical-img-1.webp"
+      alt="Brownstone Facade Restoration"
+      width={800}
+      height={700}
+      className="w-full h-auto object-contain rounded-3xl"
+    />
+  </div>
+</div>
+    </div>
 
-            {/* H2 */}
-            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
-              The Foundation of Quality: Brick & CMU Block Masonry
-            </h2>
+    {/* Full Width Content */}
+    <div className="mt-10 space-y-6 text-lg md:text-xl text-justify text-slate-800">
+      <div>
+          <h2 className="text-2xl font-semibold mb-3">
+            Professional Brownstone Restoration Services
+          </h2>
 
-            <p className="text-justify mb-6">
-              In the demanding environment of New York City construction, the
-              strength of your building depends on the precision of its masonry.
-              At Infinity Construction NYC, we specialize in professional
-              brickwork and Concrete Masonry Unit (CMU) block installation. From
-              the iconic red-brick aesthetic of Brooklyn townhouses to the
-              heavy-duty structural cores of Manhattan commercial buildings, our
-              team delivers high-performance masonry that balances architectural
-              beauty with rock-solid integrity.
-            </p>
+          <p className="mb-3">
+            Proper restoration extends the lifespan of brownstone buildings and
+            helps maintain their historic value through expert craftsmanship and
+            preservation-focused repair techniques.
+          </p>
 
-            <div className="flex flex-col lg:flex-row gap-10 items-start">
-              {/* Content */}
-              <div className="w-full lg:w-2/3">
-                {/* H2 */}
-                <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
-                  Our Core Masonry Services
-                </h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Brownstone facade restoration Brooklyn</li>
+            <li>Brownstone facade repair Manhattan</li>
+            <li>Brownstone restoration Queens</li>
+            <li>Brownstone facade renovation Bronx</li>
+            <li>Historic brownstone restoration NYC</li>
+            <li>Brownstone masonry contractor Brooklyn</li>
+            <li>Brownstone facade replacement Manhattan</li>
+            <li>Brownstone exterior restoration Queens</li>
+            <li>Brownstone stone repair Bronx</li>
+            <li>Landmark facade restoration NYC</li>
+          </ul>
+        </div>
+      <p>
+        Infinity Construction NYC restores deteriorated sandstone, repairs
+        cracked facades, replaces damaged lintels, restores decorative
+        cornices, repoints failing mortar joints, resurfaces weathered
+        brownstone, waterproofs exterior walls, and rebuilds historic stoops.
+        Every project begins with a detailed facade assessment to identify
+        moisture intrusion, structural movement, masonry deterioration, and
+        aging materials before recommending the most effective restoration
+        solution.
+      </p>
 
-                {/* H3 */}
-                <h3 className="text-xl sm:text-2xl mb-2">
-                  Decorative & Structural Brick Laying
-                </h3>
+      <div>
+        <h2 className="text-2xl font-semibold mb-3">
+          Why Choose Infinity Construction NYC?
+        </h2>
 
-                <p className="mb-2">
-                  Brick is more than just a facade; it is a shield against the
-                  elements. Our skilled masons specialize in:
-                </p>
+        <p>
+          Experienced craftsmanship and preservation-focused methods deliver
+          durable, code-compliant brownstone restoration that preserves both the
+          beauty and structural integrity of historic properties throughout New
+          York City.
+        </p>
+      </div>
 
-                <ul className="mb-6 list-disc pl-6">
-                  <li>
-                    <span className="font-medium">
-                      Custom Patterns & Bonds:
-                    </span>{" "}
-                    Creating timeless aesthetics through running, Flemish, or
-                    English bonds.
-                  </li>
-                  <li>
-                    <span className="font-medium">Architectural Details:</span>{" "}
-                    Expertly crafted brick arches, lintels, and decorative
-                    cornices.
-                  </li>
-                  <li>
-                    <span className="font-medium">Facade Strengthening:</span>{" "}
-                    Ensuring every brick is perfectly aligned with high-quality
-                    mortar.
-                  </li>
-                </ul>
+      <p>
+        The company specializes in brownstone facade contractors Brooklyn,
+        brownstone waterproofing Manhattan, brownstone lintel repair Queens,
+        brownstone cornice restoration Bronx, brownstone masonry repair
+        Brooklyn, brownstone stoop restoration Manhattan, brownstone facade
+        resurfacing Queens, brownstone crack repair Bronx, brownstone facade
+        preservation NYC, brownstone sandstone restoration Brooklyn,
+        brownstone facade maintenance Manhattan, brownstone building
+        restoration Queens, brownstone pointing contractor Bronx, and
+        professional brownstone restoration NYC.
+      </p>
 
-                {/* H3 */}
-                <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
-                  CMU Block Installation for Maximum Strength
-                </h3>
+      <p>
+        Using premium restoration materials, traditional masonry techniques,
+        and modern waterproofing systems, Infinity Construction NYC helps
+        property owners preserve the beauty, safety, and value of New York
+        City&apos;s iconic brownstone buildings. Whether your property requires
+        localized repairs or complete facade restoration, our team delivers
+        reliable workmanship designed to withstand New York&apos;s demanding climate
+        while maintaining the building&apos;s historic appearance.
+      </p>
+    </div>
+  </div>
+</section>
 
-                <p className="mb-2">
-                  When your project requires load-bearing reliability, Concrete
-                  Masonry Units (CMU) are the industry standard. We provide:
-                </p>
+         
 
-                <ul className="mb-6 list-disc pl-6">
-                  <li>
-                    <span className="font-medium">
-                      Foundation & Partition Walls:
-                    </span>{" "}
-                    Creating the bones of your building with high-density
-                    blocks.
-                  </li>
-                  <li>
-                    <span className="font-medium">Retaining Walls:</span>{" "}
-                    Engineered to manage soil pressure and drainage.
-                  </li>
-                  <li>
-                    <span className="font-medium">Structural Integration:</span>{" "}
-                    Seamless integration with plumbing and reinforcements.
-                  </li>
-                </ul>
 
-                {/* H3 */}
-                <h3 className="text-xl sm:text-2xl mb-2 text-orange-600">
-                  Seamless Material Integration
-                </h3>
-
-                <p className="mb-6">
-                  We combine CMU structural cores with brick veneers using
-                  professional ties and moisture barriers to prevent long-term
-                  structural issues.
-                </p>
-              </div>
-
-              {/* Images */}
-              <div className="w-full lg:w-1/3">
-                <div className="space-y-8">
-                  <div className="text-center">
-                    <p className="text-base sm:text-lg font-semibold mb-3">
-                      Before
-                    </p>
-                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden">
-                      <Image
-                        src="/stucco/stucco-img-2.webp"
-                        alt="Before masonry work showing damaged wall surface prior to brick and CMU restoration in NYC"
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
-
-                  <div className="text-center">
-                    <p className="text-base sm:text-lg font-semibold mb-3">
-                      After
-                    </p>
-                    <div className="relative w-full h-[220px] sm:h-[260px] md:h-[280px] rounded-lg overflow-hidden">
-                      <Image
-                        src="/stucco/after-image.webp"
-                        alt="After masonry restoration showing completed brick and CMU block work with clean structural finish"
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* TABLE */}
-          <section className="mb-10">
-            <h2 className="text-xl sm:text-2xl mb-4 text-orange-600">
-              Technical Comparison: Brick vs. CMU Blocks
-            </h2>
-
-            <div className="overflow-x-auto">
-              <table className="table-auto w-full border border-gray-300 text-left">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="p-3 border">Feature</th>
-                    <th className="p-3 border">Brick Masonry</th>
-                    <th className="p-3 border">CMU Block Masonry</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td className="p-3 border">Primary Use</td>
-                    <td className="p-3 border">
-                      Facades, stoops, and decorative walls
-                    </td>
-                    <td className="p-3 border">
-                      Foundations, load-bearing walls and cores.
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td className="p-3 border">Main Benefit</td>
-                    <td className="p-3 border">
-                      High curb appeal & weather resistance
-                    </td>
-                    <td className="p-3 border">
-                      Superior strength & fire rating
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td className="p-3 border">NYC Context</td>
-                    <td className="p-3 border">
-                      Ideal for historic district compliance.
-                    </td>
-                    <td className="p-3 border">
-                      Best for rapid, high-strength construction.
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          <FaqNew />
 
           {/* WHY CHOOSE */}
           <section className="mb-10">
