@@ -1,54 +1,116 @@
 import { ReactNode } from "react";
 
-// Geist Sans
+import type { Metadata } from "next";
 
-// Metadata for SEO (Move to layout.tsx if needed)
-export const metadata = {
+// SEO Metadata
+export const metadata: Metadata = {
   title:
-    "Professional Brick & CMU Block laying Services in NYC | Infinity Construction",
+    "Brownstone Facade Restoration Brooklyn & Manhattan | Infinity Construction NYC",
+
   description:
-    "Expert brick and CMU block masonry services for residential and commercial properties in New York. Quality craftsmanship for structural integrity and aesthetic appeal.",
+    "Expert Brownstone Facade Restoration in Brooklyn and Manhattan. Infinity Construction NYC provides historic masonry repair, waterproofing, and facade preservation services across NYC.",
+
   keywords: [
-    "brick layering NYC",
-    "CMU block installation",
-    "masonry services New York",
-    "brick facade construction",
-    "concrete block wall installation",
-    "commercial masonry contractors",
-    "residential brickwork",
-    "building foundation specialists",
+    "Brownstone Facade Restoration Brooklyn",
+    "Brownstone Facade Restoration Manhattan",
+    "Brownstone Restoration Queens",
+    "Brownstone Facade Renovation Bronx",
+    "Historic Brownstone Restoration NYC",
+    "Brownstone Masonry Contractor Brooklyn",
+    "Brownstone Facade Repair Manhattan",
+    "Brownstone Exterior Restoration Queens",
+    "Brownstone Stone Repair Bronx",
+    "Landmark Facade Restoration NYC",
+    "Brownstone Waterproofing Manhattan",
+    "Brownstone Lintel Repair Queens",
+    "Brownstone Cornice Restoration Bronx",
+    "Brownstone Masonry Repair Brooklyn",
+    "Brownstone Stoop Restoration Manhattan",
+    "Brownstone Facade Resurfacing Queens",
+    "Brownstone Crack Repair Bronx",
+    "Brownstone Facade Preservation NYC",
+    "Brownstone Sandstone Restoration Brooklyn",
+    "Brownstone Building Restoration Queens",
+    "Professional Brownstone Restoration NYC",
+    "Historic Facade Restoration NYC",
   ],
+
+  authors: [
+    {
+      name: "Infinity Construction NYC",
+    },
+  ],
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  referrer: "strict-origin-when-cross-origin",
+
+  alternates: {
+    canonical:
+      "https://www.infinityconstructionnyc.com/brownstone-facade-restoration",
+  },
+
   openGraph: {
+    type: "website",
+
     title:
-      "Professional Brick & CMU Block laying Services in NYC | Infinity Construction",
+      "Brownstone Facade Restoration Brooklyn & Manhattan | Infinity Construction NYC",
+
     description:
-      "Expert brick and CMU block masonry services for residential and commercial properties in New York. Quality craftsmanship for structural integrity and aesthetic appeal.",
+      "Professional brownstone facade restoration in Brooklyn and Manhattan. Expert masonry repair, sandstone restoration, waterproofing, and historic preservation services in NYC.",
+
     url: "https://www.infinityconstructionnyc.com/brownstone-facade-restoration",
+
+    siteName: "Infinity Construction NYC",
+
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/cover-image.webp",
+        url: "https://www.infinityconstructionnyc.com/blog/blog-brownstone.webp",
         width: 1200,
         height: 630,
-        alt: "Infinity Construction NYC",
+        alt: "Brownstone Facade Restoration Brooklyn and Manhattan by Infinity Construction NYC",
       },
     ],
-    type: "website",
   },
-  alternates: { canonical: "/brownstone-facade-restoration" },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title:
+      "Brownstone Facade Restoration Brooklyn & Manhattan | Infinity Construction NYC",
+
+    description:
+      "Restore historic brownstone buildings with expert facade repair, masonry restoration, waterproofing, and preservation services across NYC.",
+
+    images: [
+      "https://www.infinityconstructionnyc.com/blog/blog-brownstone.webp",
+    ],
+  },
 };
 
-// Schema Markup (Best moved to a separate component)
+// Schema Markup
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "GeneralContractor",
+
   name: "Infinity Construction NYC",
+
   description:
     "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2015.",
+
   url: "https://www.infinityconstructionnyc.com/",
+
   telephone: "347-939-5779",
+
   email: "Infinityconstructionnyc@gmail.com",
+
   priceRange: "$$",
+
   image: "https://www.infinityconstructionnyc.com/logo.png",
+
   address: [
     {
       "@type": "PostalAddress",
@@ -67,9 +129,11 @@ const schemaData = {
       addressCountry: "US",
     },
   ],
+
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
+
       dayOfWeek: [
         "Monday",
         "Tuesday",
@@ -79,10 +143,12 @@ const schemaData = {
         "Saturday",
         "Sunday",
       ],
+
       opens: "06:00",
       closes: "20:00",
     },
   ],
+
   areaServed: [
     {
       "@type": "City",
@@ -101,11 +167,13 @@ const schemaData = {
       name: "The Bronx",
     },
   ],
+
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
     reviewCount: "9",
   },
+
   sameAs: [
     "https://www.facebook.com/Infinityconstructionnyc/",
     "https://www.instagram.com/infinityconstructionnyc/",
@@ -114,16 +182,21 @@ const schemaData = {
   ],
 };
 
-export default function AboutLayout({ children }: { children: ReactNode }) {
+export default function BrownstoneFacadeRestorationLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
   return (
     <div>
-      {/* No extra content like Header or Footer here */}
-      {children} {/* Only the content from the About page will be rendered */}
+      {children}
+
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
       />
-         
     </div>
   );
 }
