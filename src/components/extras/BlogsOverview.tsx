@@ -89,10 +89,6 @@ export function BlogsOverview() {
       path: "/blog/why-choose-professional-brownstone-restoration-services",
     },
     {
-      name: "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
-      path: "/blog/mini-split-vs-central-air",
-    },
-    {
       name: "How to Hand Scrape a Floor",
       path: "/blog/how-to-hand-scrape-a-floor",
     },

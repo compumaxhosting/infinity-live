@@ -280,21 +280,6 @@ From Brooklyn’s Park Slope to Harlem in Manhattan, from Astoria in ....
     image: "/blog/img-3.webp",
   },
   {
-    id: 12,
-    author: "Imrul Hassan",
-    slug: "mini-split-vs-central-air",
-    date: "Feb 15",
-    readTime: "3 min read",
-    title:
-      "Mini Split vs Central Air: Choosing the Right Cooling Solution for Your Home",
-    contentPreview:
-      "Two popular options stand out for keeping your home cool: mini-split systems and central air conditioning. Each has advantages and...",
-    views: 13,
-    comments: 0,
-    liked: false,
-    image: "/blog/img-4.webp",
-  },
-  {
     id: 13,
     author: "Imrul Hassan",
     slug: "how-to-hand-scrape-a-floor",

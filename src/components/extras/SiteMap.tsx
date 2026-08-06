@@ -16,6 +16,10 @@ const SiteMap = () => {
       url: "/stucco",
     },
     {
+      name: "Brownstone Restoration",
+      url: "/brownstone-restoration",
+    },
+    {
       name: "Brick & CMU Block Layering",
       url: "/brownstone-facade-restoration",
     },
@@ -79,10 +83,6 @@ const SiteMap = () => {
     {
       name: "Blog - Why Choose Professional Brownstone Restoration",
       url: "/blog/why-choose-professional-brownstone-restoration-services",
-    },
-    {
-      name: "Blog - Mini Split vs Central Air",
-      url: "/blog/mini-split-vs-central-air",
     },
     {
       name: "Blog - How to Hand Scrape a Floor",
@@ -169,11 +169,6 @@ const SiteMap = () => {
       url: "/blog/sustainable-upgrades-historic-brownstones-nyc",
     },
 
-    // Additional page
-    {
-      name: "Brownstone Restoration",
-      url: "/brownstone-restoration",
-    },
     {
       name: "Blog - The Ultimate Guide: How to Maintain Your Brownstone Building",
       url: "/blog/maintaining-historical-landmark-brownstones",
