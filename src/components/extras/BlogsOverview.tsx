@@ -12,6 +12,10 @@ export function BlogsOverview() {
   const pathname = usePathname();
 
   const plans = [
+     {
+      name: "Complete Guide to Historical Landmark Restoration",
+      path: "/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026",
+    },
     {
       name: "Complete Guide to Historical Landmark Restoration",
       path: "/blog/the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",

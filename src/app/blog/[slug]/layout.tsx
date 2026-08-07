@@ -42,12 +42,48 @@ export async function generateMetadata({
     ? blog.image
     : `${BASE_URL}${blog.image}`;
 
+  const isTargetBlog =
+    resolvedParams.slug ===
+    "brownstone-facade-repair-waterproofing-manhattan-guide-2026";
+
+  const canonicalUrl = isTargetBlog
+    ? "https://www.infinityconstructionnyc.com/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026"
+    : `${BASE_URL}/blog/${blog.slug}`;
+
+  const pageTitle = isTargetBlog
+    ? "Brownstone Facade Repair & Waterproofing Manhattan | 2026 Guide"
+    : blog.metatitle || blog.title;
+
+  const pageDescription = isTargetBlog
+    ? "Learn expert brownstone facade repair and waterproofing in Manhattan. Discover restoration tips, costs, inspections, and maintenance for NYC properties."
+    : safeDescription;
+
+  const ogTitle = isTargetBlog
+    ? "The Ultimate 2026 Guide to Brownstone Facade Repair & Waterproofing in Manhattan"
+    : blog.metatitle || blog.title;
+
+  const ogDescription = isTargetBlog
+    ? "Expert guide to brownstone facade repair, waterproofing, brick restoration, and facade inspections for Manhattan property owners."
+    : safeDescription;
+
+  const ogImage = isTargetBlog
+    ? "https://www.infinityconstructionnyc.com/images/blog/brownstone-facade-repair-waterproofing-manhattan-2026.jpg"
+    : imageUrl;
+
+  const ogImageAlt = isTargetBlog
+    ? "Brownstone facade repair and waterproofing project in Manhattan"
+    : blog.title;
+
   return {
-    title: blog.metatitle || blog.title,
+    title: pageTitle,
 
-    description: safeDescription,
+    description: pageDescription,
 
-    keywords: typeof blog.keywords === "string" ? blog.keywords : undefined,
+    keywords: isTargetBlog
+      ? "brownstone facade repair Manhattan, facade repair waterproofing Manhattan, brick restoration Manhattan, brick repointing services Manhattan, brownstone restoration NYC, facade inspection contractors NYC"
+      : typeof blog.keywords === "string"
+        ? blog.keywords
+        : undefined,
 
     authors: [
       {
@@ -56,7 +92,7 @@ export async function generateMetadata({
     ],
 
     alternates: {
-      canonical: `${BASE_URL}/blog/${blog.slug}`,
+      canonical: canonicalUrl,
     },
 
     robots: {
@@ -75,21 +111,36 @@ export async function generateMetadata({
 
     openGraph: {
       type: "article",
-      url: `${BASE_URL}/blog/${blog.slug}`,
-      title: blog.metatitle || blog.title,
-      description: safeDescription,
+      url: canonicalUrl,
+      title: ogTitle,
+      description: ogDescription,
       siteName: "Infinity Construction NYC",
 
       images: [
         {
-          url: imageUrl,
+          url: ogImage,
           width: 1200,
           height: 630,
-          alt: blog.title,
+          alt: ogImageAlt,
         },
       ],
     },
 
+    twitter: {
+      card: "summary_large_image",
+      title: pageTitle,
+      description: isTargetBlog
+        ? "Protect your NYC property with expert brownstone facade repair and waterproofing in Manhattan."
+        : pageDescription,
+      images: [ogImage],
+    },
+
+    other: {
+      "article:author": "Infinity Construction NYC",
+      "article:section": "Brownstone Restoration",
+      "article:tag":
+        "Brownstone Facade Repair, Facade Waterproofing, Brick Restoration, Manhattan, NYC Construction",
+    },
   };
 }
 

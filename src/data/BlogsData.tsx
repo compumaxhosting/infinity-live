@@ -21,6 +21,263 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "Brownstone facade repair Manhattan, waterproofing NYC brownstone, brick repointing Manhattan, historic brownstone restoration, masonry inspection NYC, facade restoration NYC",
+
+    title:
+      "The Ultimate 2026 Guide to Brownstone Facade Repair & Waterproofing in Manhattan",
+
+    slug: "brownstone-facade-repair-waterproofing-manhattan-guide-2026",
+
+    description: (
+      <>
+        <p>
+          Brownstone facade repair and waterproofing in Manhattan help preserve
+          historic buildings, prevent water damage, improve structural
+          integrity, and extend the life of your property. Professional
+          restoration addresses deteriorating masonry, damaged brickwork,
+          failing mortar joints, and moisture intrusion before they become
+          costly structural issues.
+        </p>
+      </>
+    ),
+
+    image: "/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026.webp",
+
+    sections: [
+      {
+        title: "What Is Brownstone Facade Repair & Waterproofing?",
+        paragraph: (
+          <>
+            <p>
+              <Link
+                href="/brownstone-facade-restoration"
+                className="text-primary"
+              >
+                Brownstone facade repair and waterproofing in Manhattan
+              </Link>{" "}
+              involves restoring damaged masonry, repairing cracked bricks,
+              replacing deteriorated stone, repointing mortar joints, and
+              waterproofing exterior walls. The goal is to stop water
+              intrusion, preserve historic architecture, and increase the
+              lifespan of residential and commercial buildings.
+            </p>
+            <p>
+              Professional services often include brownstone facade repair
+              Manhattan, brick restoration Manhattan, brick repair services
+              Manhattan, brick repointing services Manhattan, waterproof facade
+              restoration, brownstone stoop restoration NYC, masonry facade
+              inspection Manhattan, historic brownstone restoration NYC, and
+              building facade repair NYC.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Brownstone Facade Repair & Waterproofing Works",
+        paragraph: (
+          <>
+            <p>
+              Professional restoration begins with a detailed facade inspection,
+              followed by{" "}
+              <Link href="/painting-and-masonry" className="text-primary">
+                masonry repairs
+              </Link>
+              , brick replacement, mortar repointing, waterproofing, and final
+              quality inspections to ensure long-lasting protection.
+            </p>
+            <ul className="list-disc list-inside">
+              <li>Comprehensive facade inspection</li>
+              <li>Structural assessment</li>
+              <li>Removal of loose or damaged masonry</li>
+              <li>Brick replacement where necessary</li>
+              <li>Brownstone patching and resurfacing</li>
+              <li>Brick repointing</li>
+              <li>Crack repair</li>
+              <li>Waterproof coating application</li>
+              <li>Final inspection</li>
+            </ul>
+            <p>
+              Experienced facade inspection contractors in NYC identify hidden
+              moisture damage before repairs begin, ensuring a durable
+              restoration.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Benefits of Brownstone Facade Repair & Waterproofing",
+        paragraph: (
+          <>
+            <p>
+              Professional facade restoration protects your building against
+              moisture damage, improves safety, preserves historic character,
+              and reduces long-term repair costs.
+            </p>
+            <ul className="list-disc list-inside">
+              <li>Prevents water infiltration</li>
+              <li>Extends building lifespan</li>
+              <li>Improves structural integrity</li>
+              <li>Protects historic brownstone details</li>
+              <li>Increases property value</li>
+              <li>Enhances curb appeal</li>
+              <li>Reduces future maintenance costs</li>
+              <li>Helps meet NYC facade safety expectations</li>
+              <li>Improves energy efficiency by sealing gaps</li>
+              <li>Prevents interior mold caused by moisture</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Common Brownstone Problems",
+        paragraph: (
+          <>
+            <p>
+              Older NYC buildings frequently develop exterior issues due to
+              decades of weather exposure. Common problems include cracked
+              brownstone, spalling brick, loose masonry, failing mortar joints,
+              water penetration, efflorescence, rust stains, bulging walls,
+              stone deterioration, damaged cornices, and stoop deterioration.
+            </p>
+            <p>
+              Ignoring these warning signs often leads to significantly higher
+              repair costs over time.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Cost Factors",
+        paragraph: (
+          <>
+            <p>
+              Brownstone facade repair costs vary depending on building size,
+              damage severity, accessibility, materials, landmark
+              requirements, and restoration complexity.
+            </p>
+            <ul className="list-disc list-inside">
+              <li>Building height</li>
+              <li>Extent of water damage</li>
+              <li>Historic preservation requirements</li>
+              <li>Scaffold installation</li>
+              <li>Masonry replacement</li>
+              <li>Brick matching</li>
+              <li>Waterproofing system selection</li>
+              <li>Labor complexity</li>
+              <li>Inspection findings</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Why Professional Restoration Matters",
+        paragraph: (
+          <>
+            <p>
+              Brownstone restoration is highly specialized. Choosing an
+              experienced{" "}
+              <Link href="/brownstone-facade-restoration" className="text-primary">
+                brownstone contractor Manhattan
+              </Link>{" "}
+              ensures proper masonry techniques, compatible historic materials,
+              accurate brick matching, long-lasting waterproofing, safe
+              construction practices, and preservation of historic
+              architectural details.
+            </p>
+            <p>
+              Attempting shortcuts or improper repairs can trap moisture
+              inside masonry, accelerating deterioration rather than preventing
+              it.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Maintenance Best Practices",
+        paragraph: (
+          <>
+            <p>
+              Routine maintenance dramatically extends the life of brownstone
+              facades. Recommended practices include scheduling regular
+              inspections, repairing cracks immediately, replacing
+              deteriorated mortar early, keeping gutters functioning properly,
+              addressing leaks quickly, inspecting waterproof coatings
+              periodically, removing vegetation growing against masonry,
+              monitoring window and door sealants, and documenting changes
+              after severe weather.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <p>
+              <strong>What is brownstone facade repair?</strong> It restores
+              damaged masonry, brickwork, mortar joints, and stone surfaces
+              while preventing water intrusion and preserving structural
+              integrity.
+            </p>
+            <p>
+              <strong>How does facade waterproofing work?</strong> It uses
+              breathable sealants and moisture-management systems that repel
+              rain while allowing trapped water vapor inside masonry to escape.
+            </p>
+            <p>
+              <strong>How do I know if my building needs facade repair?</strong>{" "}
+              Visible cracks, loose bricks, water stains, bulging walls,
+              deteriorating mortar, interior leaks, or falling masonry
+              indicate that a professional inspection should be scheduled
+              promptly.
+            </p>
+            <p>
+              <strong>Is brick repointing necessary?</strong> Yes. Damaged
+              mortar joints allow water to penetrate walls, leading to brick
+              deterioration and structural issues.
+            </p>
+            <p>
+              <strong>How long does brownstone restoration last?</strong> When
+              completed by experienced professionals using appropriate
+              materials and maintained properly, restoration can provide
+              decades of protection.
+            </p>
+            <p>
+              <strong>Can waterproofing prevent future damage?</strong> Yes,
+              especially when paired with quality masonry repairs.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              Brownstone facade repair and waterproofing are essential
+              investments for protecting Manhattan&apos;s historic properties.
+              Early inspections, timely masonry repairs, professional brick
+              repointing, and high-quality waterproofing help prevent
+              expensive structural damage while preserving architectural
+              character. For expert support, visit{" "}
+              <Link href="/" className="text-primary">
+                Infinity Construction NYC
+              </Link>
+              .
+            </p>
+          </>
+        ),
+      },
+    ],
+
+    metatitle:
+      "Brownstone Facade Repair & Waterproofing in Manhattan | 2026 Guide",
+
+    metadescription:
+      "Learn how brownstone facade repair and waterproofing protect Manhattan properties from moisture damage, structural decay, and costly repairs with expert restoration solutions.",
+  },
+  {
+    keywords:
       "Historic Preservation Brooklyn, Landmark Rehabilitation Manhattan, Heritage Building Restoration Queens, Bronx Architectural Conservation, Brownstone Renovation NYC, Masonry Repair Historic Structures, Facade Restoration Specialists, Cultural Property Preservation, Vintage Building Renovation, Structural Restoration Services, Historic Brick Repair, Landmark Exterior Renovation, Stonework Conservation Experts, Preservation Construction Contractors, Historic Façade Cleaning, Brownstone Masonry Restoration, Architectural Heritage Protection, Municipal Preservation Guidelines, Historic Property Maintenance, Decorative Cornice Restoration, Building Envelope Rehabilitation, Historic Waterproofing Solutions, Restoration Project Planning, Conservation Engineering Services, Heritage Renovation Professionals",
 
     title: "The Complete Guide to Historical Landmark Restoration in NYC",

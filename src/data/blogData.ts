@@ -1,4 +1,18 @@
 export const blogData = [
+   {
+    id: -9,
+    author: "Imrul Hassan",
+    slug: "brownstone-facade-repair-waterproofing-manhattan-guide-2026",
+    date: "August 07, 2026",
+    readTime: "10 min read",
+    title:
+      "The Ultimate 2026 Guide to Brownstone Facade Repair & Waterproofing in Manhattan: Protect Your NYC Property for Decades",
+    contentPreview: `Discover how professional brownstone facade repair and waterproofing protect Manhattan properties from moisture damage, structural issues, and costly restoration work.`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026.webp",
+  },
   {
     id: -8,
     author: "Imrul Hassan",
