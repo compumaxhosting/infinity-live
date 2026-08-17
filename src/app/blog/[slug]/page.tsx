@@ -12,6 +12,12 @@ interface PageProps {
   params: Promise<{ slug: string }>; // <-- params is Promise now
 }
 
+const slugifySectionTitle = (title: string) =>
+  title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+
 export default async function BlogPage({ params }: PageProps) {
   const resolvedParams = await params; // await here
   const blog = BlogsData.find((b) => b.slug === resolvedParams.slug);
@@ -58,16 +64,21 @@ export default async function BlogPage({ params }: PageProps) {
 
           {/* Full-width Content Section */}
           <section className="max-w-7xl mx-auto px-6 pt-8 pb-2">
-            {blog.sections.map((section, index) => (
-              <article key={index} className="mb-10">
-                <h2 className="text-2xl md:text-3xl text-gray-900 mb-3">
-                  {section.title}
-                </h2>
-                <div className="text-slate-800 text-xl md:text-2xl leading-relaxed text-justify">
-                  {section.paragraph}
-                </div>
-              </article>
-            ))}
+            {blog.sections.map((section, index) => {
+              const sectionId = slugifySectionTitle(section.title);
+              const isFaq = section.title.toLowerCase().includes("faq") || section.title.toLowerCase().includes("frequently asked questions");
+
+              return (
+                <article key={index} id={sectionId} className="mb-10 scroll-mt-28">
+                  <h2 className="text-2xl md:text-3xl text-gray-900 mb-3">
+                    {section.title}
+                  </h2>
+                  <div className={isFaq ? "text-slate-800 text-lg md:text-xl leading-relaxed" : "text-slate-800 text-xl md:text-2xl leading-relaxed text-justify"}>
+                    {section.paragraph}
+                  </div>
+                </article>
+              );
+            })}
           </section>
         </section>
       </div>

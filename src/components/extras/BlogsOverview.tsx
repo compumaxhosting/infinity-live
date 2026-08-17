@@ -12,6 +12,10 @@ export function BlogsOverview() {
   const pathname = usePathname();
 
   const plans = [
+    {
+      name: "Stucco Repair Brooklyn NY (2026): Complete Guide to Costs, Common Problems & Expert Solutions",
+      path: "/blog/stucco-repair-brooklyn-ny-guide",
+    },
      {
       name: "Complete Guide to Historical Landmark Restoration",
       path: "/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026",

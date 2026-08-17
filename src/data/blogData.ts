@@ -1,5 +1,19 @@
 export const blogData = [
    {
+    id: -10,
+    author: "Imrul Hassan",
+    slug: "stucco-repair-brooklyn-ny-guide",
+    date: "August 17, 2026",
+    readTime: "8 min read",
+    title:
+      "Stucco Repair Brooklyn NY (2026): Complete Guide to Costs, Common Problems & Expert Solutions",
+    contentPreview: `Need stucco repair in Brooklyn NY? Learn about 2026 costs, common problems, EIFS repair, and professional solutions for residential and commercial properties.`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/stucco-repair-brooklyn-ny.webp",
+  },
+   {
     id: -9,
     author: "Imrul Hassan",
     slug: "brownstone-facade-repair-waterproofing-manhattan-guide-2026",
