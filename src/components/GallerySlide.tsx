@@ -29,6 +29,7 @@ export const GallerySlide: React.FC<GallerySlideProps> = ({
         fill
         className="object-cover transition-transform duration-500 md:border-gray-50 md:border-2 "
         loading="lazy"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
       />
       <div
         className={cn(

@@ -62,6 +62,7 @@ const Footer = () => {
                   width={230}
                   height={60}
                   className="object-contain transition-transform duration-300 group-hover:scale-105"
+                  style={{ width: 'auto', height: 'auto' }}
                   itemProp="image"
                 />
               </div>
