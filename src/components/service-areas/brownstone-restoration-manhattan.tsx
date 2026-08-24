@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import Image from "next/image";
+import Link from "next/link";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -21,8 +23,20 @@ const BrownstoneRestorationManhattan = () => {
 						<h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
 							Brownstone Restoration in Manhattan, NY
 						</h1>
+						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
+							<Image
+								src="/historical-landmark/brownstone-restoration-manhattan.webp"
+								alt="Brownstone Restoration in Brooklyn, NY"
+								width={1600}
+								height={900}
+								priority
+								className="h-auto w-full object-cover"
+							/>
+						</div>
 						<p className={paragraphClass}>
-							Manhattan brownstone restoration involves repairing and preserving
+							<Link href="/manhattan-brownstone-restoration" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">
+								Manhattan brownstone restoration
+							</Link>{" "} involves repairing and preserving
 							exterior stone, facades, stoops, masonry, and architectural details
 							while addressing the conditions that contribute to deterioration. The
 							right restoration approach depends on the property&apos;s existing
@@ -30,7 +44,9 @@ const BrownstoneRestorationManhattan = () => {
 							applicable preservation requirements.
 						</p>
 						<p className={paragraphClass}>
-							Infinity Construction NYC provides brownstone restoration services
+							<Link href="/" className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-500">
+								Infinity Construction NYC
+							</Link>{" "} provides brownstone restoration services
 							in Manhattan, including facade restoration, stoop restoration, masonry
 							repair, and exterior waterproofing.
 						</p>

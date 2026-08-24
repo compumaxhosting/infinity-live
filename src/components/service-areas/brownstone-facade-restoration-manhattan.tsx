@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import Image from "next/image";
+import Link from "next/link";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -19,11 +21,21 @@ const BrownstoneFacadeRestorationManhattan = () => {
 						<h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
 							Brownstone Facade Restoration &amp; Repair Contractor in Manhattan, NY
 						</h1>
+						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
+							<Image
+								src="/historical-landmark/brownstone-facade-restoration-manhattan.webp"
+								alt="Brownstone Facade Restoration in Brooklyn NY"
+								width={1600}
+								height={900}
+								priority
+								className="h-auto w-full object-cover"
+							/>
+						</div>
 						<p className={paragraphClass}>
 							Brownstone facades require careful restoration to preserve their
 							architectural character and protect the building from further
-							deterioration. Infinity Construction NYC provides brownstone facade
-							restoration and repair services for property owners in Manhattan, with
+							deterioration. Infinity Construction NYC provides <Link href="/brownstone-facade-restoration" className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-500">brownstone facade
+								restoration and repair services</Link>{" "} for property owners in Manhattan, with
 							solutions tailored to the condition of the masonry, architectural
 							details, and exterior surfaces.
 						</p>
@@ -149,7 +161,9 @@ const BrownstoneFacadeRestorationManhattan = () => {
 							<li>A clearly defined scope of work before construction begins</li>
 						</ul>
 						<p className={paragraphClass}>
-							Infinity Construction NYC offers brownstone restoration and facade
+							<Link href="/" className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-500">
+								Infinity Construction NYC
+							</Link>{" "} offers brownstone restoration and facade
 							repair services in New York City. Property owners can discuss their
 							building&apos;s condition and restoration requirements to determine an
 							appropriate scope of work.

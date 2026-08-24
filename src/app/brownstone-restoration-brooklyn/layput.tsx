@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 
 const pageUrl =
-  "https://www.infinityconstructionnyc.com/service-areas/the-bronx/brownstone-restoration";
+  "https://www.infinityconstructionnyc.com/brownstone-restoration-brooklyn";
+const imgUrl =
+  "https://www.infinityconstructionnyc.com/historical-landmark/brownstone-restoration-brooklyn.webp";
 
 export const metadata: Metadata = {
-  title: "Brownstone Restoration Bronx NY | Infinity Construction NYC",
+  title: "Brownstone Restoration Brooklyn NY | Infinity Construction NYC",
 
   description:
-    "Brownstone restoration in The Bronx, NY for façades, stoops, masonry, waterproofing, and historic exterior repairs by Infinity Construction NYC.",
+    "Brownstone restoration in Brooklyn, NY for façades, stoops, masonry, waterproofing, and historic exterior repairs by Infinity Construction NYC.",
 
   authors: [{ name: "Infinity Construction NYC" }],
 
@@ -24,25 +26,25 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
-    title: "Brownstone Restoration Bronx NY | Infinity Construction NYC",
+    title: "Brownstone Restoration Brooklyn NY | Infinity Construction NYC",
     description:
-      "Brownstone restoration in The Bronx, NY for façades, stoops, masonry, waterproofing, and historic exterior repairs.",
+      "Brownstone restoration in Brooklyn, NY for façades, stoops, masonry, waterproofing, and historic exterior repairs.",
     url: pageUrl,
     siteName: "Infinity Construction NYC",
     images: [
       {
-        url: "YOUR-IMAGE-URL-HERE",
-        alt: "Brownstone restoration and façade repair in The Bronx NY",
+        url: imgUrl,
+        alt: "Brownstone restoration and façade repair in Brooklyn NY",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Brownstone Restoration Bronx NY | Infinity Construction NYC",
+    title: "Brownstone Restoration Brooklyn NY | Infinity Construction NYC",
     description:
-      "Professional brownstone restoration in The Bronx, NY including façade, stoop, masonry, and waterproofing services.",
-    images: ["YOUR-IMAGE-URL-HERE"],
+      "Professional brownstone restoration in Brooklyn, NY including façade, stoop, masonry, and waterproofing services.",
+    images: [imgUrl],
   },
 
   other: {
@@ -58,10 +60,10 @@ const schema = {
       "@type": "WebPage",
       "@id": `${pageUrl}#webpage`,
       url: pageUrl,
-      name: "Brownstone Restoration Bronx NY | Infinity Construction NYC",
-      headline: "Brownstone Restoration in The Bronx, NY",
+      name: "Brownstone Restoration Brooklyn NY | Infinity Construction NYC",
+      headline: "Brownstone Restoration in Brooklyn, NY",
       description:
-        "Brownstone restoration in The Bronx, NY for façades, stoops, masonry, waterproofing, and exterior repairs by Infinity Construction NYC.",
+        "Brownstone restoration in Brooklyn, NY for façades, stoops, masonry, waterproofing, and exterior repairs by Infinity Construction NYC.",
 
       isPartOf: {
         "@id": "https://www.infinityconstructionnyc.com/#website",
@@ -86,10 +88,10 @@ const schema = {
     {
       "@type": "Service",
       "@id": `${pageUrl}#service`,
-      name: "Brownstone Restoration in The Bronx",
+      name: "Brownstone Restoration in Brooklyn, NY",
       serviceType: "Brownstone Restoration",
       description:
-        "Brownstone restoration services in The Bronx including façade restoration, stoop repair, masonry restoration, waterproofing, and exterior architectural repairs.",
+        "Brownstone restoration services in Brooklyn including façade restoration, stoop repair, masonry restoration, waterproofing, and exterior architectural repairs.",
 
       url: pageUrl,
 
@@ -99,7 +101,7 @@ const schema = {
 
       areaServed: {
         "@type": "City",
-        name: "The Bronx",
+        name: "Brooklyn",
 
         containedInPlace: {
           "@type": "State",
