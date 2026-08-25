@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import Image from "next/image";
+import Link from "next/link";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -21,11 +23,21 @@ const BrownstoneRestorationQueens = () => {
 						<h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
 							Brownstone Restoration in Queens, NY
 						</h1>
+						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
+							<Image
+								src="/historical-landmark/brownstone-restoration-queens.webp"
+								alt="Brownstone Restoration in Queens, NY"
+								width={1600}
+								height={900}
+								priority
+								className="h-auto w-full object-cover"
+							/>
+						</div>
 						<p className={paragraphClass}>
-							<strong>Brownstone restoration in Queens involves repairing deteriorated facades, stoops, masonry, architectural details, and moisture-related damage while preserving the property&apos;s original character.</strong> The right restoration approach depends on the condition of the brownstone, the cause of deterioration, and whether the property has historic or landmark requirements.
+							<Link href="/brownstone-restoration" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">Brownstone restoration in Queens</Link>{" "} involves repairing deteriorated facades, stoops, masonry, architectural details, and moisture-related damage while preserving the property&apos;s original character. The right restoration approach depends on the condition of the brownstone, the cause of deterioration, and whether the property has historic or landmark requirements.
 						</p>
 						<p className={paragraphClass}>
-							Infinity Construction NYC provides brownstone and limestone restoration,
+							<Link href="/" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">Infinity Construction NYC</Link> provides brownstone and limestone restoration,
 							masonry repair, waterproofing, and stoop restoration services
 							throughout New York City, including Queens.
 						</p>
@@ -167,7 +179,7 @@ const BrownstoneRestorationQueens = () => {
 								<h3 className={subheadingClass}>How long does brownstone restoration take?</h3>
 								<p className={paragraphClass}>The timeline varies according to the size, condition, accessibility, and scope of the property.</p>
 							</div>
-					</div>
+						</div>
 					</section>
 
 					<section>

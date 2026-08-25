@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import Image from "next/image";
+import Link from "next/link";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -19,8 +21,18 @@ const BrownstoneFacadeRestorationQueens = () => {
 						<h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
 							Brownstone Facade Restoration &amp; Repair Contractor in Queens, NY
 						</h1>
+						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
+							<Image
+								src="/historical-landmark/brownstone-facade-restoration-queens.webp"
+								alt="Brownstone Facade Restoration in Brooklyn NY"
+								width={1600}
+								height={900}
+								priority
+								className="h-auto w-full object-cover"
+							/>
+						</div>
 						<p className={paragraphClass}>
-							Brownstone facade restoration in Queens involves repairing
+							<Link href="/brownstone-facade-restoration" className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-500">Brownstone facade restoration in Queens</Link>{" "} involves repairing
 							deteriorated stone, masonry, mortar joints, stoops, and architectural
 							details while preserving the property&apos;s existing character. Infinity
 							Construction NYC provides brownstone and exterior restoration services
@@ -102,7 +114,9 @@ const BrownstoneFacadeRestorationQueens = () => {
 					<section>
 						<h2 className={sectionHeadingClass}>Why Choose Infinity Construction NYC?</h2>
 						<p className={paragraphClass}>
-							Infinity Construction NYC provides brownstone and limestone
+							<Link href="/" className="text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-500">
+								Infinity Construction NYC
+							</Link>{" "} provides brownstone and limestone
 							restoration, historical restoration, brick pointing, stucco and
 							exterior waterproofing, roof restoration, fire escape and metal
 							restoration, concrete and stone paving, and painting and masonry

@@ -1,5 +1,7 @@
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import Image from "next/image";
+import Link from "next/link";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -19,15 +21,25 @@ const BrownstoneRestorationTheBronx = () => {
 						<h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
 							Brownstone Restoration in The Bronx, NY
 						</h1>
+						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
+							<Image
+								src="/historical-landmark/brownstone-restoration-the-bronx.webp"
+								alt="Brownstone Restoration in The Bronx, NY"
+								width={1600}
+								height={900}
+								priority
+								className="h-auto w-full object-cover"
+							/>
+						</div>
 						<p className={paragraphClass}>
-							Brownstone restoration in The Bronx involves repairing worn facades,
+							<Link href="/brownstone-restoration" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">Brownstone restoration in The Bronx</Link>{" "} involves repairing worn facades,
 							stoops, masonry, stone surfaces, and architectural details while
 							preserving the property&apos;s original character. The right approach
 							depends on the condition of the building, the materials involved, the
 							cause of deterioration, and applicable preservation requirements.
 						</p>
 						<p className={paragraphClass}>
-							Infinity Construction NYC provides brownstone and limestone
+							<Link href="/" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">Infinity Construction NYC</Link> provides brownstone and limestone
 							restoration, masonry repair, waterproofing, and exterior restoration
 							services throughout New York City, including The Bronx.
 						</p>

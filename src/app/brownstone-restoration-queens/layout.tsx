@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 
 const pageUrl =
-  "https://www.infinityconstructionnyc.com/service-areas/queens/brownstone-restoration";
-
+  "https://www.infinityconstructionnyc.com/brownstone-restoration-queens";
+const imgUrl =
+  "https://www.infinityconstructionnyc.com/historical-landmark/brownstone-restoration-queens.webp";
 export const metadata: Metadata = {
   title: "Brownstone Restoration Queens NY | Infinity Construction NYC",
 
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Infinity Construction NYC",
     images: [
       {
-        url: "YOUR-IMAGE-URL-HERE",
+        url: imgUrl,
         alt: "Brownstone restoration and façade repair in Queens NY",
       },
     ],
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     title: "Brownstone Restoration Queens NY | Infinity Construction NYC",
     description:
       "Professional brownstone restoration in Queens, NY including façade, stoop, masonry, and waterproofing services.",
-    images: ["YOUR-IMAGE-URL-HERE"],
+    images: [imgUrl],
   },
 
   other: {
