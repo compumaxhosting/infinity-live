@@ -62,7 +62,7 @@ const Footer = () => {
                   width={230}
                   height={60}
                   className="object-contain transition-transform duration-300 group-hover:scale-105"
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ width: "auto", height: "auto" }}
                   loading="eager"
                   priority
                   itemProp="image"
@@ -75,9 +75,10 @@ const Footer = () => {
                 className="mt-4 text-gray-100 text-sm leading-relaxed"
                 itemProp="description"
               >
-                We specialize in masonry and exterior construction services
-                across New York City. Delivering durable, high-quality
-                workmanship since 2015.
+                Infinity Construction NYC provides expert masonry and exterior
+                construction services throughout New York City, specializing in
+                brownstone and limestone restoration, brick pointing,
+                waterproofing, roofing, stucco, and concrete work.
               </p>
               <br />
               <p
@@ -98,7 +99,7 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { name: "Home", path: "/" },
-                { name: "About Us", path: "/about-us" },
+                { name: "About Us", path: "/about" },
                 { name: "Services", path: "/services" },
                 { name: "Contact", path: "/contact" },
               ].map((link) => (

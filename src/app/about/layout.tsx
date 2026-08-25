@@ -7,14 +7,14 @@ export const metadata = {
   title:
     "Trusted Contractors in Brooklyn, Queens, Bronx & Manhattan NYC | infinityconstructionnyc.com",
   description:
-    "Learn about Infinity Construction NYC, your trusted construction partner for expert services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Over 20 years of experience.",
+    "Discover Infinity Construction NYC for expert masonry and exterior construction services throughout New York City. We specialize in brownstone and limestone restoration, brick pointing, waterproofing, roofing, stucco, and concrete work.",
   keywords:
     "Infinity Construction NYC, construction contractors Brooklyn, general contractors NYC, renovation services Queens, expert construction The Bronx, building restoration Manhattan, masonry contractors Brooklyn, home renovation NYC, construction company The Bronx, professional contractors Manhattan",
   openGraph: {
     title:
       "Trusted Contractors in Brooklyn, Queens, Bronx & Manhattan NYC | infinityconstructionnyc.com",
     description:
-      "Learn about Infinity Construction NYC, your trusted construction partner for expert services in Brooklyn, Queens, The Bronx, and Manhattan, New York City. Over 20 years of experience.",
+      "Discover Infinity Construction NYC for expert masonry and exterior construction services throughout New York City. We specialize in brownstone and limestone restoration, brick pointing, waterproofing, roofing, stucco, and concrete work.",
     url: "https://www.infinityconstructionnyc.com/about",
     images: [
       {
