@@ -18,7 +18,7 @@ export const specialityData = [
   {
     id: 3,
     imageUrl: "/cmu-block-layering.webp",
-    heading: "Brownstone & Limestone Restoration",
+    heading: "Brownstone Facade Restoration",
     path: "/brownstone-facade-restoration",
     description:
       "We provide professional installation of brick and concrete masonry unit (CMU) blocks for walls, facades, and structural components. Our services ensure proper mortar application, alignment, and reinforcement to maintain structural integrity, in full compliance with the NYC Fire Code and NYC Department of Buildings (DOB) guidelines.",
