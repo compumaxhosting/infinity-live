@@ -21,6 +21,412 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone facade repair Brooklyn, brownstone repair Brooklyn NYC, brownstone facade restoration Brooklyn, brownstone restoration Brooklyn, brownstone repair contractors Brooklyn, brownstone facade repair NYC, historic brownstone restoration Brooklyn, brownstone masonry repair Brooklyn, brownstone facade cracks, crumbling brownstone, brownstone spalling, brownstone water damage, brownstone facade deterioration, brownstone stoop repair, brownstone lintel repair, brownstone cornice repair, brownstone facade inspection, brownstone restoration company Brooklyn, historic facade repair Brooklyn",
+    title: "Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
+    slug: "brownstone-facade-repair-brooklyn-nyc",
+    description: (
+      <>
+        <p>
+          Brooklyn&apos;s historic brownstones are known for their distinctive facades, elegant stoops, and timeless architectural character. But decades of exposure to rain, snow, temperature changes, moisture, and pollution can cause serious masonry deterioration.{" "}
+          <Link href="/brownstone-facade-restoration" className="text-primary">
+            Brownstone facade repair in Brooklyn
+          </Link>{" "}
+          helps address cracks, crumbling stone, water damage, deteriorated mortar, and other problems before they become more expensive or difficult to repair.
+        </p>
+        <p className="mt-4">
+          Whether your property is in Park Slope, Fort Greene, Brooklyn Heights, Bed-Stuy, Cobble Hill, or Boerum Hill, understanding the warning signs and available repair solutions can help protect your home&apos;s historic character and long-term value.
+        </p>
+      </>
+    ),
+    image: "/blog/blog/brownstone-facade-repair-brooklyn-nyc.webp",
+    metatitle: "Brownstone Facade Repair in Brooklyn, NYC | Expert Solutions",
+    metadescription: "Discover common brownstone facade problems in Brooklyn, NYC, plus expert repair, restoration, waterproofing, and masonry solutions.",
+    sections: [
+      {
+        title: "Table of Contents",
+        paragraph: (
+          <>
+            <nav
+              aria-label="Table of contents"
+              className="rounded-2xl border border-gray-200 bg-gray-50 p-5"
+            >
+              <ul className="grid gap-2 text-lg md:text-xl text-slate-800">
+                <li>
+                  <a
+                    href="#what-is-brownstone-facade-repair"
+                    className="text-primary hover:underline"
+                  >
+                    1. What Is Brownstone Facade Repair?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#what-are-the-most-common-brownstone-facade-problems-in-brooklyn"
+                    className="text-primary hover:underline"
+                  >
+                    2. What Are the Most Common Brownstone Facade Problems in Brooklyn?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-do-experts-repair-cracked-brownstone"
+                    className="text-primary hover:underline"
+                  >
+                    3. How Do Experts Repair Cracked Brownstone?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#can-damaged-brownstone-be-restored-instead-of-replaced"
+                    className="text-primary hover:underline"
+                  >
+                    4. Can Damaged Brownstone Be Restored Instead of Replaced?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-much-does-brownstone-facade-repair-cost-in-brooklyn"
+                    className="text-primary hover:underline"
+                  >
+                    5. How Much Does Brownstone Facade Repair Cost in Brooklyn?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#when-should-you-call-a-brownstone-repair-contractor"
+                    className="text-primary hover:underline"
+                  >
+                    6. When Should You Call a Brownstone Repair Contractor?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#is-brownstone-facade-repair-required-for-nyc-buildings"
+                    className="text-primary hover:underline"
+                  >
+                    7. Is Brownstone Facade Repair Required for NYC Buildings?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-can-brooklyn-homeowners-prevent-brownstone-deterioration"
+                    className="text-primary hover:underline"
+                  >
+                    8. How Can Brooklyn Homeowners Prevent Brownstone Deterioration?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#why-choose-professional-brownstone-restoration"
+                    className="text-primary hover:underline"
+                  >
+                    9. Why Choose Professional Brownstone Restoration?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#frequently-asked-questions"
+                    className="text-primary hover:underline"
+                  >
+                    10. Frequently Asked Questions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#brownstone-facade-repair-in-brooklyn-by-infinity-construction-nyc"
+                    className="text-primary hover:underline"
+                  >
+                    11. Brownstone Facade Repair in Brooklyn by Infinity Construction NYC
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#conclusion"
+                    className="text-primary hover:underline"
+                  >
+                    12. Conclusion
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </>
+        ),
+      },
+      {
+        title: "What Is Brownstone Facade Repair?",
+        paragraph: (
+          <>
+            <p>
+              Brownstone facade repair is the process of repairing deteriorated sandstone and related masonry while preserving as much of the original facade as possible. Depending on the condition, restoration may involve patching damaged areas, repairing cracks, repointing mortar joints, replacing severely damaged stone, restoring architectural details, and addressing water intrusion.
+            </p>
+            <p className="mt-4">
+              The goal is not simply to make the facade look better. A proper brownstone facade restoration in Brooklyn should also address the causes of deterioration and help prevent the same problems from returning.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "What Are the Most Common Brownstone Facade Problems in Brooklyn?",
+        paragraph: (
+          <>
+            <p>
+              Brooklyn brownstones can develop several types of facade damage over time. Some problems are cosmetic, while others can indicate more serious deterioration.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Brownstone Facade Cracks</h3>
+            <p>
+              Cracks can develop because of moisture, weathering, building movement, aging materials, or previous improper repairs. Small cracks should not automatically be ignored because water can enter through damaged areas and accelerate deterioration.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Crumbling Brownstone and Spalling</h3>
+            <p>
+              Crumbling or flaking brownstone is one of the most recognizable signs that repair is needed. Spalling occurs when portions of the stone surface break away, often because moisture penetrates the material and contributes to deterioration.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Brownstone Water Damage</h3>
+            <p>
+              Water is one of the biggest enemies of historic masonry. Failed joints, damaged flashing, clogged drainage systems, roof problems, and facade cracks can allow water to enter the building envelope.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Brownstone Mortar Deterioration</h3>
+            <p>
+              Old mortar joints can weaken and deteriorate. When joints fail, water can penetrate deeper into the masonry. Proper brownstone masonry repointing can restore deteriorated joints while helping protect surrounding materials.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Damaged Brownstone Stoops</h3>
+            <p>
+              Brownstone stoops experience constant exposure to weather and foot traffic. Cracks, erosion, loose sections, and surface deterioration can affect both appearance and safety.
+            </p>
+            <h3 className="text-xl font-bold mt-4 mb-2">Lintel and Cornice Damage</h3>
+            <p>
+              Lintels and cornices are important architectural and structural components. Corrosion, cracking, water infiltration, and masonry deterioration can cause these elements to weaken and require professional repair.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Do Experts Repair Cracked Brownstone?",
+        paragraph: (
+          <>
+            <p>
+              Professional brownstone repair begins with identifying the cause of the damage. Simply filling a crack or applying a surface coating may not solve the underlying problem.
+            </p>
+            <p className="mt-4">
+              A typical repair process may include:
+            </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li><strong>Facade inspection:</strong> The contractor examines visible cracks, loose masonry, mortar joints, discoloration, water damage, and architectural details.</li>
+              <li><strong>Cause identification:</strong> The source of deterioration is evaluated, including moisture intrusion, weather exposure, movement, or incompatible previous repairs.</li>
+              <li><strong>Surface preparation:</strong> Loose and unsound material is carefully removed.</li>
+              <li><strong>Brownstone patching:</strong> Appropriate repair materials are used to restore localized areas where the original stone remains suitable for preservation.</li>
+              <li><strong>Stone replacement:</strong> Severely deteriorated sections may need to be carefully replaced.</li>
+              <li><strong>Masonry repointing:</strong> Failed mortar joints are repaired using materials appropriate for the historic masonry.</li>
+              <li><strong>Water management:</strong> Sources of moisture intrusion are addressed to reduce future deterioration.</li>
+              <li><strong>Finishing and detailing:</strong> Repaired areas are shaped and finished to complement the existing facade.</li>
+            </ul>
+            <p className="mt-4">
+              The appropriate method depends on the age, condition, construction, and architectural details of each property.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Can Damaged Brownstone Be Restored Instead of Replaced?",
+        paragraph: (
+          <>
+            <p>
+              In many situations, yes. Historic brownstone restoration in Brooklyn often focuses on preserving original material rather than replacing the entire facade.
+            </p>
+            <p className="mt-4">
+              Localized deterioration may be suitable for patching and restoration. However, when brownstone has become severely deteriorated, unstable, or structurally compromised, stone replacement may be necessary.
+            </p>
+            <p className="mt-4">
+              An experienced contractor should evaluate the existing material before recommending extensive replacement. Preserving sound original brownstone can help maintain the authentic appearance and historic character of the property.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Much Does Brownstone Facade Repair Cost in Brooklyn?",
+        paragraph: (
+          <>
+            <p>
+              There is no fixed price for brownstone repair in Brooklyn NYC because every facade has different conditions.
+            </p>
+            <p className="mt-4">
+              The overall cost can depend on:
+            </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>Size and height of the facade</li>
+              <li>Extent of stone deterioration</li>
+              <li>Amount of brownstone patching required</li>
+              <li>Stone replacement requirements</li>
+              <li>Mortar deterioration</li>
+              <li>Scaffolding and access</li>
+              <li>Stoop or architectural detail restoration</li>
+              <li>Waterproofing and moisture-related repairs</li>
+              <li>Engineering requirements</li>
+              <li>Permits and landmark-related requirements</li>
+            </ul>
+            <p className="mt-4">
+              A small localized repair can cost considerably less than a complete facade restoration. The most reliable way to determine the cost is to schedule a professional{" "}
+              <Link href="/brownstone-facade-restoration" className="text-primary font-medium hover:underline">
+                brownstone facade inspection
+              </Link>{" "}
+              and receive a detailed scope of work.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "When Should You Call a Brownstone Repair Contractor?",
+        paragraph: (
+          <>
+            <p>
+              Homeowners should consider professional inspection when they notice:
+            </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>New or widening facade cracks</li>
+              <li>Crumbling or flaking brownstone</li>
+              <li>Loose pieces of stone</li>
+              <li>Water stains or recurring moisture</li>
+              <li>Deteriorated mortar joints</li>
+              <li>Damaged or unstable stoop areas</li>
+              <li>Rust staining around metal elements</li>
+              <li>Damaged lintels or cornices</li>
+              <li>Areas where previous repairs are failing</li>
+            </ul>
+            <p className="mt-4">
+              If masonry appears loose or unstable, it is especially important to have the condition evaluated promptly.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Is Brownstone Facade Repair Required for NYC Buildings?",
+        paragraph: (
+          <>
+            <p>
+              Certain exterior repairs may require permits or approvals, particularly when a property is located within an NYC historic district or is an individually designated landmark. Requirements depend on the type and scope of work.
+            </p>
+            <p className="mt-4">
+              Before beginning significant exterior work, property owners should determine whether approval from the NYC Department of Buildings or Landmarks Preservation Commission is required. A professional contractor familiar with NYC facade work can help homeowners understand the applicable requirements.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Can Brooklyn Homeowners Prevent Brownstone Deterioration?",
+        paragraph: (
+          <>
+            <p>
+              Regular maintenance can help extend the life of a brownstone facade. Homeowners should monitor cracks, inspect areas around windows and doors, maintain drainage systems, address leaks promptly, and avoid allowing small masonry problems to remain unresolved for years.
+            </p>
+            <p className="mt-4">
+              Water management is particularly important. Even a carefully restored facade can deteriorate again if the source of moisture intrusion is not corrected.
+            </p>
+            <p className="mt-4">
+              For older properties, periodic professional inspections can help identify problems that are difficult to see from street level.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Why Choose Professional Brownstone Restoration?",
+        paragraph: (
+          <>
+            <p>
+              Historic masonry requires specialized knowledge. Brownstone is not treated exactly like modern concrete or brick, and inappropriate materials or repair techniques can sometimes cause additional deterioration.
+            </p>
+            <p className="mt-4">
+              Professional brownstone repair contractors in Brooklyn understand the importance of compatible materials, careful surface preparation, masonry repointing, water management, and preservation of historic architectural details.
+            </p>
+            <p className="mt-4">
+              A qualified contractor can also help determine whether a facade requires simple maintenance, localized repair, stabilization, or more extensive restoration.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="space-y-6">
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">How do I know if my brownstone facade needs repair?</h4>
+                <p className="text-gray-700 mt-1">
+                  Look for cracks, crumbling stone, loose masonry, deteriorated mortar, water stains, discoloration, damaged stoops, or recurring moisture. Even if damage appears minor, an inspection can determine whether the problem is superficial or connected to deeper deterioration.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">How do Brooklyn homeowners fix crumbling brownstone?</h4>
+                <p className="text-gray-700 mt-1">
+                  The repair depends on the condition of the stone. Professionals may remove loose material and use compatible patching materials for localized damage. Severely deteriorated sections may require stone replacement. The underlying source of moisture or deterioration should also be addressed.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">How long does brownstone facade repair take?</h4>
+                <p className="text-gray-700 mt-1">
+                  The timeline depends on the size and condition of the facade and the extent of repairs. Smaller projects may be completed relatively quickly, while extensive restoration involving scaffolding, stone replacement, architectural details, or approvals can take significantly longer.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">What is the difference between brownstone repair and restoration?</h4>
+                <p className="text-gray-700 mt-1">
+                  Repair generally focuses on correcting specific areas of damage, while restoration is a broader process intended to preserve and return historic architectural elements to an appropriate condition. A restoration project may include multiple repair techniques across the facade.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">What causes brownstone to deteriorate?</h4>
+                <p className="text-gray-700 mt-1">
+                  Common causes include prolonged moisture exposure, freeze-thaw cycles, weathering, failing mortar joints, poor drainage, facade leaks, and inappropriate previous repairs. Identifying the cause is essential because repairing visible damage alone may not prevent continued deterioration.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-lg text-gray-900">What are the signs that a Brooklyn brownstone needs immediate attention?</h4>
+                <p className="text-gray-700 mt-1">
+                  Loose or falling masonry, rapidly expanding cracks, significant crumbling, water entering the building, damaged lintels, or unstable stoop components deserve prompt professional evaluation. These conditions can worsen and may create safety concerns if left untreated.
+                </p>
+              </div>
+            </div>
+          </>
+        ),
+      },
+      {
+        title: "Brownstone Facade Repair in Brooklyn by Infinity Construction NYC",
+        paragraph: (
+          <>
+            <p>
+              Infinity Construction NYC provides professional masonry and exterior restoration services for brownstone properties throughout Brooklyn and the surrounding NYC area. Our team understands that historic facades require careful attention to existing materials, architectural details, moisture problems, and the specific condition of each property.
+            </p>
+            <p className="mt-4">
+              From brownstone facade repair in Brooklyn and brownstone patching to masonry repointing, stoop restoration, stone replacement, waterproofing, and other exterior masonry services, we focus on practical solutions designed to restore damaged areas while preserving the character of the property.
+            </p>
+            <p className="mt-4">
+              If you have noticed cracking, crumbling brownstone, water damage, or deteriorating masonry, don&apos;t wait until a small problem becomes a major restoration project. Contact Infinity Construction NYC to schedule a consultation and discuss the right repair solution for your brownstone facade.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              A Brooklyn brownstone facade can last for generations when it receives appropriate care and timely repairs. Cracks, spalling, water damage, deteriorated mortar, damaged stoops, and failing architectural details should be evaluated before deterioration spreads.
+            </p>
+            <p className="mt-4">
+              The best approach to{" "}
+              <Link href="/brownstone-facade-restoration" className="text-primary font-medium hover:underline">
+                brownstone restoration in Brooklyn
+              </Link>{" "}
+              is to identify the cause of the problem, use appropriate repair techniques, manage moisture, and preserve original architectural materials whenever practical.
+            </p>
+            <p className="mt-4">
+              Whether your property needs a small brownstone patch, masonry repointing, stone replacement, or more extensive facade restoration, professional evaluation is the first step toward protecting your building for years to come.
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "Stucco Repair Brooklyn NY, Stucco Contractor Brooklyn NY, Stucco Installation Brooklyn NY, Stucco Repair Near Me, Stucco Contractors Brooklyn, Exterior Stucco Repair Brooklyn, Residential Stucco Repair Brooklyn NY, Commercial Stucco Contractor Brooklyn NY, EIFS Repair Brooklyn NY, Stucco Restoration Brooklyn NY",
     title:
       "Stucco Repair Brooklyn NY (2026): Complete Guide to Costs, Common Problems & Expert Solutions",

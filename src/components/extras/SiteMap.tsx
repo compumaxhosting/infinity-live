@@ -178,12 +178,24 @@ const SiteMap = () => {
       url: "/blog/brick-pointing-waterproofing-nyc-homes",
     },
     {
-      name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
+      name: "Blog - Does Brownstone Restoration Increase Property Value in NYC?",
       url: "/blog/brownstone-restoration-property-value-new-york-city",
     },
     {
-      name: "Blog - Why Brick Pointing and Waterproofing Are Essential ",
+      name: "Blog - Complete Guide to Historical Landmark Restoration in Brooklyn, Manhattan, Queens, and The Bronx",
       url: "/blog/the-complete-guide-to-historical-landmark-restoration-brooklyn-manhattan-queens-bronx",
+    },
+    {
+      name: "Blog - Brownstone Facade Repair & Waterproofing Manhattan | 2026 Guide",
+      url: "/blog/brownstone-facade-repair-waterproofing-manhattan-guide-2026",
+    },
+    {
+      name: "Blog - Stucco Repair Brooklyn NY | 2026 Guide",
+      url: "/blog/stucco-repair-brooklyn-ny-guide",
+    },
+    {
+      name: "Blog - Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
+      url: "/blog/brownstone-facade-repair-brooklyn-nyc",
     },
   ];
 

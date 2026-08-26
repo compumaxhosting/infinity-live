@@ -1,4 +1,18 @@
 export const blogData = [
+  {
+    id: -11,
+    author: "Imrul Hassan",
+    slug: "brownstone-facade-repair-brooklyn-nyc",
+    date: "August 26, 2026",
+    readTime: "8 min read",
+    title:
+      "Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
+    contentPreview: `Discover common brownstone facade problems in Brooklyn, NYC, plus expert repair, restoration, waterproofing, and masonry solutions.`,
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/blog/brownstone-facade-repair-brooklyn-nyc.webp",
+  },
    {
     id: -10,
     author: "Imrul Hassan",
