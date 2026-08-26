@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
+      path: "/blog/brownstone-facade-repair-brooklyn-nyc"
+    },
+    {
       name: "Stucco Repair Brooklyn NY (2026): Complete Guide to Costs, Common Problems & Expert Solutions",
       path: "/blog/stucco-repair-brooklyn-ny-guide",
     },
