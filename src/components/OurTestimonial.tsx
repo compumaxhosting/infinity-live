@@ -90,16 +90,11 @@ function OurTestimonial() {
 
               <span className="w-6 h-px bg-primary" />
             </span>
-
             Our Clients Reviews
           </h2>
         </motion.div>
 
-        <div
-          ref={testimonialRef}
-          className="mt-8 min-h-[420px]"
-          aria-label="Google Reviews"
-        >
+        <div ref={testimonialRef} className="mt-8 min-h-[420px]">
           <div
             className="elfsight-app-abd730e7-d6ab-4d2b-b118-36d16685decc"
             data-elfsight-app-lazy
