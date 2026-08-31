@@ -4,6 +4,7 @@ const pageUrl =
   "https://www.infinityconstructionnyc.com/brownstone-facade-restoration-manhattan";
 const imgUrl =
   "https://www.infinityconstructionnyc.com/historical-landmark/brownstone-facade-restoration-manhattan.webp";
+
 export const metadata: Metadata = {
   title: "Brownstone Facade Restoration Contractor Manhattan, NY",
 
@@ -20,8 +21,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: pageUrl,
   },
-
-  themeColor: "#ffffff",
 
   openGraph: {
     type: "website",
@@ -43,9 +42,7 @@ export const metadata: Metadata = {
     title: "Brownstone Facade Restoration Contractor Manhattan, NY",
     description:
       "Brownstone facade restoration and repair in Manhattan, NY, including masonry repair, repointing, waterproofing and historic facade restoration.",
-    images: [
-      imgUrl,
-    ],
+    images: [imgUrl],
   },
 
   other: {

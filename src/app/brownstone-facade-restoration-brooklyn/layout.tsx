@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 const pageUrl =
   "https://www.infinityconstructionnyc.com/brownstone-facade-restoration-brooklyn";
@@ -22,8 +22,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: pageUrl,
   },
-
-  themeColor: "#ffffff",
 
   openGraph: {
     type: "website",
@@ -53,6 +51,10 @@ export const metadata: Metadata = {
   other: {
     referrer: "strict-origin-when-cross-origin",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 const schema = {

@@ -1,6 +1,6 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 const fadeUp = {
@@ -19,6 +19,52 @@ const fadeUp = {
 };
 
 function OurTestimonial() {
+  const testimonialRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const section = testimonialRef.current;
+
+    if (!section) {
+      return;
+    }
+
+    const scriptId = "elfsight-platform-script";
+
+    const loadElfsight = () => {
+      // Avoid loading Elfsight more than once
+      if (document.getElementById(scriptId)) {
+        return;
+      }
+
+      const script = document.createElement("script");
+      script.id = scriptId;
+      script.src = "https://elfsightcdn.com/platform.js";
+      script.async = true;
+
+      document.body.appendChild(script);
+    };
+
+    // Load Elfsight shortly before the testimonial section
+    // enters the viewport.
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          loadElfsight();
+          observer.disconnect();
+        }
+      },
+      {
+        rootMargin: "100px 0px",
+      },
+    );
+
+    observer.observe(section);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <section
       className="pt-8 pb-4 px-4 sm:px-6 bg-[#f9f9f9] mb-10 md:mb-15 shadow-xl"
@@ -44,11 +90,16 @@ function OurTestimonial() {
 
               <span className="w-6 h-px bg-primary" />
             </span>
+
             Our Clients Reviews
           </h2>
         </motion.div>
 
-        <div className="mt-8 min-h-[420px]" aria-label="Google Reviews">
+        <div
+          ref={testimonialRef}
+          className="mt-8 min-h-[420px]"
+          aria-label="Google Reviews"
+        >
           <div
             className="elfsight-app-abd730e7-d6ab-4d2b-b118-36d16685decc"
             data-elfsight-app-lazy

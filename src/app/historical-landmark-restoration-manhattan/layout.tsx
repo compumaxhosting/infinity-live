@@ -21,8 +21,6 @@ export const metadata: Metadata = {
     canonical: pageUrl,
   },
 
-  themeColor: "#ffffff",
-
   openGraph: {
     type: "website",
     title:

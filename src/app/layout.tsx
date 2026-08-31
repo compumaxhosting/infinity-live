@@ -151,12 +151,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Elfsight (Loaded Once for Entire Website) */}
-        <Script
-          id="elfsight-platform"
-          src="https://elfsightcdn.com/platform.js"
-          strategy="lazyOnload"
-        />
+      
 
         {/* JSON-LD */}
         <script

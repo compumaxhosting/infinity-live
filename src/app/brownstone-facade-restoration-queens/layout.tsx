@@ -4,6 +4,7 @@ const pageUrl =
   "https://www.infinityconstructionnyc.com/brownstone-facade-restoration-queens";
 const imgUrl =
   "https://www.infinityconstructionnyc.com/historical-landmark/brownstone-facade-restoration-queens.webp";
+
 export const metadata: Metadata = {
   title:
     "Brownstone Facade Restoration Contractor Queens NY | Infinity Construction NYC",
@@ -21,8 +22,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: pageUrl,
   },
-
-  themeColor: "#ffffff",
 
   openGraph: {
     type: "website",
