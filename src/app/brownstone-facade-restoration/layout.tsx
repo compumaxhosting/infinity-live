@@ -109,7 +109,7 @@ const schemaData = {
 
   priceRange: "$$",
 
-  image: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/logo.webp",
 
   address: [
     {
