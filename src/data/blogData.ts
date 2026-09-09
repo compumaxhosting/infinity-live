@@ -1,5 +1,20 @@
 export const blogData = [
   {
+    id: -12,
+    author: "Imrul Hassan",
+    slug: "how-to-choose-brownstone-restoration-contractor-nyc",
+    date: "September 9, 2026",
+    readTime: "10 min read",
+    title:
+      "How to Choose a Brownstone Restoration Contractor in NYC",
+    contentPreview:
+      "Learn how to choose a trusted brownstone restoration contractor in NYC for facade repair, historic restoration, waterproofing, masonry work, and preservation.",
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/brownstone-restoration-nyc.webp",
+  },
+  {
     id: -11,
     author: "Imrul Hassan",
     slug: "brownstone-facade-repair-brooklyn-nyc",
@@ -13,7 +28,7 @@ export const blogData = [
     liked: false,
     image: "/blog/blog/brownstone-facade-repair-brooklyn-nyc.webp",
   },
-   {
+  {
     id: -10,
     author: "Imrul Hassan",
     slug: "stucco-repair-brooklyn-ny-guide",
@@ -27,7 +42,7 @@ export const blogData = [
     liked: false,
     image: "/blog/stucco-repair-brooklyn-ny.webp",
   },
-   {
+  {
     id: -9,
     author: "Imrul Hassan",
     slug: "brownstone-facade-repair-waterproofing-manhattan-guide-2026",

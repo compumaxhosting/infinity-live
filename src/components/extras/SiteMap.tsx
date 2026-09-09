@@ -197,6 +197,10 @@ const SiteMap = () => {
       name: "Blog - Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
       url: "/blog/brownstone-facade-repair-brooklyn-nyc",
     },
+    {
+      name: "How to Choose a Brownstone Restoration Contractor in NYC",
+      url: "/blog/how-to-choose-brownstone-restoration-contractor-nyc",
+    },
   ];
 
   return (

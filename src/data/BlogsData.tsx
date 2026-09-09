@@ -1,3 +1,4 @@
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -19,6 +20,1128 @@ export type Blog = {
 };
 
 export const BlogsData: Blog[] = [
+  {
+    keywords:
+      "brownstone restoration contractor NYC, brownstone restoration NYC, brownstone repair NYC, brownstone facade restoration, historic brownstone restoration, brownstone contractors NYC, brownstone masonry repair, brownstone waterproofing NYC, historic masonry restoration NYC, limestone restoration NYC, how to choose brownstone contractor NYC, brownstone facade repair contractor, historic building restoration NYC",
+
+    slug: "how-to-choose-brownstone-restoration-contractor-nyc",
+
+    metadescription:
+      "Learn how to choose a trusted brownstone restoration contractor in NYC for facade repair, historic restoration, waterproofing, masonry work, and preservation.",
+
+    title:
+      "How to Choose a Brownstone Restoration Contractor in NYC",
+
+    description: (
+      <>
+        <p>
+          New York City&apos;s brownstones are among the most iconic and historically
+          significant properties in neighborhoods such as Brooklyn Heights,
+          Park Slope, Fort Greene, Bed-Stuy, Harlem, and the Upper West Side.
+          When deterioration appears, choosing the right{" "}
+          <Link
+            href="/brownstone-restoration"
+            className="text-primary"
+          >
+            brownstone restoration contractor in NYC
+          </Link>{" "}
+          becomes one of the most important decisions a property owner can make.
+        </p>
+
+        <p className="mt-4">
+          This guide explains what to look for in a contractor, questions to ask,
+          warning signs to avoid, and how experienced restoration specialists help
+          preserve historic architecture while improving long-term building
+          performance.
+        </p>
+      </>
+    ),
+
+    image: "/blog/brownstone-restoration-nyc.webp",
+
+    metatitle:
+      "How to Choose a Brownstone Restoration Contractor in NYC",
+
+    sections: [
+      {
+        title: "Table of Contents",
+        paragraph: (
+          <>
+            <nav
+              aria-label="Table of contents"
+              className="rounded-2xl border border-gray-200 bg-gray-50 p-5"
+            >
+              <ul className="grid gap-2 text-lg md:text-xl text-slate-800">
+                <li>
+                  <a
+                    href="#what-is-brownstone-restoration"
+                    className="text-primary hover:underline"
+                  >
+                    1. What Is Brownstone Restoration?
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#why-choosing-the-right-nyc-brownstone-contractor-matters"
+                    className="text-primary hover:underline"
+                  >
+                    2. Why Choosing the Right NYC Brownstone Contractor Matters
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#look-for-specific-brownstone-restoration-experience"
+                    className="text-primary hover:underline"
+                  >
+                    3. Look for Specific Brownstone Restoration Experience
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#check-historic-preservation-knowledge"
+                    className="text-primary hover:underline"
+                  >
+                    4. Check Historic Preservation Knowledge
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#ask-about-the-inspection-process"
+                    className="text-primary hover:underline"
+                  >
+                    5. Ask About the Inspection Process
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#ask-about-materials"
+                    className="text-primary hover:underline"
+                  >
+                    6. Ask About Materials
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#facade-repair-techniques"
+                    className="text-primary hover:underline"
+                  >
+                    7. Brownstone Facade Repair Techniques
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#brick-pointing-and-mortar"
+                    className="text-primary hover:underline"
+                  >
+                    8. Brick Pointing and Mortar Repair
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#waterproofing"
+                    className="text-primary hover:underline"
+                  >
+                    9. Waterproofing Considerations
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#licensing-and-insurance"
+                    className="text-primary hover:underline"
+                  >
+                    10. Licensing and Insurance
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#portfolio-and-estimates"
+                    className="text-primary hover:underline"
+                  >
+                    11. Portfolio Reviews and Estimates
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#faq"
+                    className="text-primary hover:underline"
+                  >
+                    12. Frequently Asked Questions
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#conclusion"
+                    className="text-primary hover:underline"
+                  >
+                    13. Conclusion
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </>
+        ),
+      },
+
+      {
+        title: "What Is Brownstone Restoration?",
+        paragraph: (
+          <>
+            <p>
+              Brownstone restoration is the process of repairing, preserving,
+              and when necessary rebuilding deteriorated portions of a historic
+              brownstone property. Unlike cosmetic repairs, restoration focuses on
+              maintaining architectural integrity while addressing the underlying
+              causes of deterioration.
+            </p>
+
+            <p className="mt-4">
+              Depending on the building&apos;s condition, restoration may include
+              facade repair, resurfacing, stoop restoration, masonry repairs,
+              brick pointing, waterproofing, cornice restoration, crack repair,
+              limestone restoration, and historic detailing.
+            </p>
+
+            <p className="mt-4">
+              A professional restoration contractor should determine why the
+              damage occurred before recommending repair methods. Moisture
+              infiltration, deteriorated mortar, freeze-thaw cycles, structural
+              movement, and incompatible previous repairs can all contribute to
+              long-term deterioration.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title:
+          "Why Choosing the Right NYC Brownstone Contractor Matters",
+        paragraph: (
+          <>
+            <p>
+              Historic masonry requires specialized knowledge that differs
+              significantly from modern construction methods. Brownstones were
+              built using traditional materials and techniques that must be
+              respected during restoration.
+            </p>
+
+            <p className="mt-4">
+              Using incompatible materials or improper repair methods can
+              accelerate deterioration rather than solve it. A qualified
+              contractor should understand brownstone characteristics, mortar
+              compatibility, water infiltration, masonry behavior, facade
+              restoration techniques, and NYC-specific construction requirements.
+            </p>
+
+            <p className="mt-4">
+              The objective should not simply be improving appearance. Successful
+              restoration protects historic character while enhancing structural
+              performance and weather resistance for years to come.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title:
+          "Look for Specific Brownstone Restoration Experience",
+        paragraph: (
+          <>
+            <p>
+              One of the first questions homeowners should ask is how much
+              experience a contractor has restoring brownstone and historic
+              masonry properties throughout New York City.
+            </p>
+
+            <p className="mt-4">
+              A company may have extensive construction experience yet possess
+              limited knowledge of century-old brownstone buildings. These
+              projects require specialized restoration expertise rather than
+              general construction skills.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Brownstone facades</li>
+              <li>Historic townhouses</li>
+              <li>Limestone restoration</li>
+              <li>Masonry restoration</li>
+              <li>Historic stoops</li>
+              <li>Older brick buildings</li>
+              <li>Landmarked properties</li>
+              <li>Exterior waterproofing</li>
+            </ul>
+
+            <p className="mt-4">
+              Contractors who regularly work on historic masonry properties are
+              typically better equipped to identify underlying problems and apply
+              restoration methods that preserve original materials whenever
+              possible.
+            </p>
+          </>
+        ),
+      },
+      {
+        title:
+          "Check Whether the Contractor Understands Historic Preservation",
+        paragraph: (
+          <>
+            <p>
+              Brownstone restoration is not the same as a standard renovation
+              project. Historic properties often require careful attention to
+              original materials, architectural details, facade appearance, and
+              preservation requirements.
+            </p>
+
+            <p className="mt-4">
+              If a property is individually landmarked or located within a
+              designated historic district, exterior work may be subject to
+              approval requirements. Contractors should understand how historic
+              preservation affects repair methods, materials, documentation, and
+              project planning.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Existing architectural details</li>
+              <li>Original facade materials</li>
+              <li>Decorative elements</li>
+              <li>Historic masonry profiles</li>
+              <li>Mortar compatibility</li>
+              <li>Approved restoration methods</li>
+              <li>Permit requirements</li>
+              <li>Preservation guidelines</li>
+            </ul>
+
+            <p className="mt-4">
+              Experience with historic restoration can help avoid unnecessary
+              alterations that compromise a building&apos;s architectural character.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Ask About the Inspection Process",
+        paragraph: (
+          <>
+            <p>
+              A successful restoration project begins with a detailed inspection.
+              Homeowners should be cautious if a contractor provides pricing
+              without first evaluating the property&apos;s condition.
+            </p>
+
+            <p className="mt-4">
+              A proper inspection should focus on identifying both visible damage
+              and the underlying causes of deterioration.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Facade cracks</li>
+              <li>Spalling and crumbling stone</li>
+              <li>Loose masonry</li>
+              <li>Deteriorated mortar joints</li>
+              <li>Water staining</li>
+              <li>Efflorescence</li>
+              <li>Damaged flashing</li>
+              <li>Drainage problems</li>
+              <li>Cornice deterioration</li>
+              <li>Stoop damage</li>
+              <li>Previous repair failures</li>
+            </ul>
+
+            <p className="mt-4">
+              The goal should be understanding why deterioration is occurring,
+              not simply repairing the visible symptoms.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Ask About Materials",
+        paragraph: (
+          <>
+            <p>
+              Materials play a critical role in brownstone restoration. Historic
+              masonry often requires carefully selected materials that are
+              compatible with the existing building fabric.
+            </p>
+
+            <p className="mt-4">
+              Contractors should be able to explain which materials they intend
+              to use and why those materials are appropriate for the project.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Mortar selection</li>
+              <li>Brownstone repair materials</li>
+              <li>Limestone restoration materials</li>
+              <li>Sealants and coatings</li>
+              <li>Waterproofing systems</li>
+              <li>Replacement stone</li>
+              <li>Brick materials</li>
+              <li>Patching compounds</li>
+            </ul>
+
+            <p className="mt-4">
+              Materials that perform well on modern buildings may not be suitable
+              for historic masonry structures. Compatibility helps preserve both
+              appearance and long-term durability.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Brownstone Facade Repair Techniques",
+        paragraph: (
+          <>
+            <p>
+              Brownstone facades can experience various forms of deterioration,
+              including cracks, surface flaking, missing sections, discoloration,
+              water damage, and previous repair failures.
+            </p>
+
+            <p className="mt-4">
+              Experienced restoration contractors evaluate the severity of the
+              damage before determining whether repairs, patching, resurfacing,
+              or replacement are necessary.
+            </p>
+
+            <p className="mt-4">
+              Depending on the condition of the facade, restoration may involve
+              carefully removing deteriorated material, preparing the substrate,
+              rebuilding damaged architectural profiles, and matching surrounding
+              textures and finishes.
+            </p>
+
+            <p className="mt-4">
+              High-quality restoration work should blend naturally with the
+              existing architecture and preserve the property&apos;s historic
+              appearance.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Don't Ignore Mortar and Brick Pointing",
+        paragraph: (
+          <>
+            <p>
+              Many brownstone owners focus on visible stone deterioration while
+              overlooking the condition of mortar joints. However, failing mortar
+              can become a major source of water infiltration and masonry damage.
+            </p>
+
+            <p className="mt-4">
+              Brick pointing, often referred to as repointing, involves removing
+              deteriorated mortar and replacing it with new mortar designed to be
+              compatible with the existing masonry.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Improves water resistance</li>
+              <li>Protects surrounding masonry</li>
+              <li>Restores structural stability</li>
+              <li>Reduces moisture intrusion</li>
+              <li>Extends facade lifespan</li>
+            </ul>
+
+            <p className="mt-4">
+              Contractors should be able to explain how they determine the
+              appropriate mortar type rather than relying on generic products.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Make Waterproofing Part of the Conversation",
+        paragraph: (
+          <>
+            <p>
+              Water is one of the most damaging forces affecting historic
+              masonry. Moisture intrusion can accelerate deterioration and lead
+              to recurring restoration problems if not addressed properly.
+            </p>
+
+            <p className="mt-4">
+              Water commonly enters buildings through:
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Facade cracks</li>
+              <li>Mortar joints</li>
+              <li>Roof penetrations</li>
+              <li>Parapets</li>
+              <li>Copings</li>
+              <li>Failed flashing</li>
+              <li>Deteriorated stone</li>
+              <li>Poor drainage systems</li>
+            </ul>
+
+            <p className="mt-4">
+              Restoration and waterproofing often work together. Homeowners
+              should ask contractors where water is entering the building and how
+              repairs will prevent future moisture infiltration.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Verify Licensing and Insurance",
+        paragraph: (
+          <>
+            <p>
+              Before signing a contract, homeowners should verify that a
+              restoration contractor carries appropriate licensing, insurance,
+              and documentation for the work being performed.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Business licensing</li>
+              <li>General liability insurance</li>
+              <li>Workers&apos; compensation coverage</li>
+              <li>Required permits</li>
+              <li>Subcontractor documentation</li>
+            </ul>
+
+            <p className="mt-4">
+              Taking the time to verify credentials can help protect property
+              owners from avoidable legal and financial risks during restoration
+              projects.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Review Previous Restoration Projects",
+        paragraph: (
+          <>
+            <p>
+              A contractor&apos;s portfolio often reveals more than a sales
+              presentation. Reviewing previous restoration projects can provide
+              valuable insight into workmanship quality and attention to detail.
+            </p>
+
+            <p className="mt-4">
+              Ask to see examples involving brownstone facades, historic stoops,
+              limestone restoration, masonry repairs, waterproofing projects, and
+              other restoration work similar to your property.
+            </p>
+
+            <p className="mt-4">
+              Pay attention to how successfully repaired areas blend with
+              existing materials. Restoration should respect original
+              architecture rather than creating obvious modern patches.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Ask for a Detailed Written Estimate",
+        paragraph: (
+          <>
+            <p>
+              Cost is important, but the lowest proposal is not always the best
+              choice. A detailed written estimate helps property owners compare
+              contractors more accurately.
+            </p>
+
+            <p className="mt-4">
+              Estimates should clearly explain:
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Inspection findings</li>
+              <li>Surface preparation</li>
+              <li>Repair scope</li>
+              <li>Materials</li>
+              <li>Labor</li>
+              <li>Scaffolding requirements</li>
+              <li>Cleanup procedures</li>
+              <li>Permits</li>
+              <li>Project timelines</li>
+              <li>Payment schedules</li>
+            </ul>
+
+            <p className="mt-4">
+              Detailed estimates make it easier to understand what is included
+              and identify meaningful differences between competing proposals.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Understand the Difference Between Repair and Replacement",
+        paragraph: (
+          <>
+            <p>
+              Not every damaged brownstone requires complete replacement.
+              Experienced restoration contractors should evaluate whether
+              deteriorated materials can be preserved before recommending major
+              replacement work.
+            </p>
+
+            <p className="mt-4">
+              In many situations, retaining as much original material as possible
+              is the preferred approach. Preservation helps maintain historic
+              authenticity while reducing unnecessary demolition.
+            </p>
+
+            <p className="mt-4">
+              Homeowners should ask whether damaged materials can be repaired,
+              patched, resurfaced, or stabilized before replacement options are
+              considered.
+            </p>
+
+            <p className="mt-4">
+              Contractors who immediately recommend replacing large portions of a
+              facade without discussing preservation alternatives may not be
+              approaching the project from a restoration perspective.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Consider Their Knowledge of NYC Weather Conditions",
+        paragraph: (
+          <>
+            <p>
+              New York City buildings experience harsh weather throughout the
+              year. Heavy rain, humidity, snow, freezing temperatures, and
+              repeated freeze-thaw cycles place significant stress on historic
+              masonry.
+            </p>
+
+            <p className="mt-4">
+              Water often enters small cracks and pores within masonry surfaces.
+              When temperatures fall below freezing, trapped moisture expands and
+              can accelerate deterioration.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Cracking</li>
+              <li>Spalling</li>
+              <li>Surface flaking</li>
+              <li>Mortar deterioration</li>
+              <li>Stone erosion</li>
+              <li>Water intrusion</li>
+            </ul>
+
+            <p className="mt-4">
+              Restoration contractors should focus not only on cosmetic repairs
+              but also on long-term weather resistance through proper drainage,
+              compatible materials, waterproofing, and moisture management.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Ask About Permits and Landmark Requirements",
+        paragraph: (
+          <>
+            <p>
+              One of the most important questions for owners of historic
+              properties is whether permits or landmark approvals will be
+              required before restoration begins.
+            </p>
+
+            <p className="mt-4">
+              Buildings located within historic districts or designated landmark
+              properties may be subject to additional review requirements for
+              exterior work.
+            </p>
+
+            <p className="mt-4">
+              Contractors should be able to explain:
+            </p>
+
+            <ol className="list-decimal list-inside mt-3 space-y-1">
+              <li>Whether the property is landmarked</li>
+              <li>Whether approvals are required</li>
+              <li>Which permits are necessary</li>
+              <li>Who handles submissions and documentation</li>
+              <li>Whether inspections will be required</li>
+            </ol>
+
+            <p className="mt-4">
+              Clarifying these requirements before construction starts can help
+              prevent delays and unexpected complications later in the project.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Read Reviews, But Look Beyond the Star Rating",
+        paragraph: (
+          <>
+            <p>
+              Online reviews can be helpful, but homeowners should look beyond
+              overall ratings and focus on specific information about a
+              contractor&apos;s performance.
+            </p>
+
+            <p className="mt-4">
+              Detailed reviews often provide insight into:
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Communication</li>
+              <li>Quality of workmanship</li>
+              <li>Project management</li>
+              <li>Professionalism</li>
+              <li>Timeliness</li>
+              <li>Problem-solving abilities</li>
+              <li>Cleanup practices</li>
+              <li>Overall restoration quality</li>
+            </ul>
+
+            <p className="mt-4">
+              Consistent positive feedback across multiple platforms is often
+              more meaningful than a high rating accompanied by limited details.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Pay Attention to Communication",
+        paragraph: (
+          <>
+            <p>
+              Brownstone restoration projects can become complex. Additional
+              deterioration may be discovered during construction, weather can
+              affect schedules, and permit requirements may influence timelines.
+            </p>
+
+            <p className="mt-4">
+              Clear communication helps property owners understand what is being
+              repaired, why repairs are necessary, and how project decisions are
+              made.
+            </p>
+
+            <p className="mt-4">
+              Contractors should be able to explain:
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Inspection findings</li>
+              <li>Recommended repairs</li>
+              <li>Material selections</li>
+              <li>Project timelines</li>
+              <li>Potential cost variables</li>
+              <li>Unexpected repair scenarios</li>
+            </ul>
+
+            <p className="mt-4">
+              Strong communication before a contract is signed often indicates a
+              smoother experience throughout the restoration process.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Ask About Related Masonry and Exterior Services",
+        paragraph: (
+          <>
+            <p>
+              Brownstone deterioration rarely occurs in isolation. Problems with
+              facades are often connected to roofing issues, drainage problems,
+              parapet deterioration, damaged flashing, or failing mortar joints.
+            </p>
+
+            <p className="mt-4">
+              Choosing a contractor that offers related restoration and masonry
+              services can simplify project coordination and ensure underlying
+              causes are properly addressed.
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Brownstone restoration</li>
+              <li>Limestone restoration</li>
+              <li>Masonry repair</li>
+              <li>Brick pointing</li>
+              <li>Waterproofing</li>
+              <li>Roof restoration</li>
+              <li>Cornice restoration</li>
+              <li>Facade repair</li>
+              <li>Historic restoration</li>
+            </ul>
+
+            <p className="mt-4">
+              Contractors capable of addressing multiple exterior issues can help
+              ensure that restoration efforts work together as part of a complete
+              building protection strategy.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Watch for These Brownstone Restoration Red Flags",
+        paragraph: (
+          <>
+            <p>
+              Before hiring a contractor, homeowners should be aware of warning
+              signs that may indicate potential problems.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              Extremely Low Estimates
+            </h3>
+
+            <p>
+              Prices that appear significantly lower than competitors may indicate
+              that important work has been omitted from the proposal.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              No Written Proposal
+            </h3>
+
+            <p>
+              Verbal promises should never replace a detailed written scope of
+              work.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              Limited Historic Restoration Experience
+            </h3>
+
+            <p>
+              General construction experience does not automatically translate
+              into brownstone restoration expertise.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              Generic Material Recommendations
+            </h3>
+
+            <p>
+              Contractors should explain material compatibility rather than
+              recommending one solution for every project.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              No Inspection Process
+            </h3>
+
+            <p>
+              Restoration recommendations should be based on a thorough
+              evaluation of existing conditions.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2">
+              Vague Permit Answers
+            </h3>
+
+            <p>
+              Historic properties often involve permitting requirements that
+              should be clearly understood before work begins.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Questions to Ask a Brownstone Restoration Contractor",
+        paragraph: (
+          <>
+            <p>
+              Before hiring a contractor, consider asking the following
+              questions:
+            </p>
+
+            <ol className="list-decimal list-inside mt-4 space-y-2">
+              <li>How many brownstone restoration projects have you completed?</li>
+              <li>Have you worked on landmarked properties?</li>
+              <li>Are you familiar with historic preservation requirements?</li>
+              <li>What is causing the current deterioration?</li>
+              <li>Can damaged materials be repaired instead of replaced?</li>
+              <li>What repair materials will be used?</li>
+              <li>How will you match existing colors and textures?</li>
+              <li>How will you address water infiltration?</li>
+              <li>Do you provide waterproofing services?</li>
+              <li>Will you handle permits and approvals?</li>
+              <li>Are you licensed and insured?</li>
+              <li>Can you provide similar project examples?</li>
+              <li>What is included in the written estimate?</li>
+              <li>How are unexpected conditions handled?</li>
+              <li>What maintenance is recommended after restoration?</li>
+            </ol>
+
+            <p className="mt-4">
+              Clear answers to these questions can help homeowners compare
+              contractors and make more informed restoration decisions.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Brownstone Restoration vs. Brownstone Renovation",
+        paragraph: (
+          <>
+            <p>
+              The terms restoration and renovation are sometimes used
+              interchangeably, but they often represent different approaches to a
+              project.
+            </p>
+
+            <p className="mt-4">
+              Restoration focuses on preserving, repairing, and protecting
+              original architectural elements whenever practical. The goal is to
+              maintain the historic character of the property while correcting
+              deterioration and improving long-term performance.
+            </p>
+
+            <p className="mt-4">
+              Renovation typically involves updating or modifying a building to
+              meet new functional or aesthetic goals. While renovation may include
+              repairs, it does not always prioritize preservation of historic
+              materials or architectural details.
+            </p>
+
+            <p className="mt-4">
+              For historic NYC brownstones, homeowners seeking to preserve
+              architectural character should work with contractors experienced in
+              brownstone restoration rather than relying solely on general
+              renovation companies.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "How Much Does Brownstone Restoration Cost in NYC?",
+        paragraph: (
+          <>
+            <p>
+              There is no universal price for brownstone restoration because every
+              building presents unique conditions and repair requirements.
+            </p>
+
+            <p className="mt-4">
+              Restoration costs are influenced by several factors:
+            </p>
+
+            <ul className="list-disc list-inside mt-4 space-y-1">
+              <li>Building size</li>
+              <li>Facade condition</li>
+              <li>Extent of stone deterioration</li>
+              <li>Height and accessibility</li>
+              <li>Scaffolding requirements</li>
+              <li>Brick pointing and mortar repair</li>
+              <li>Waterproofing needs</li>
+              <li>Stoop restoration</li>
+              <li>Cornice repairs</li>
+              <li>Roof-related work</li>
+              <li>Permit requirements</li>
+              <li>Historic preservation requirements</li>
+              <li>Material matching</li>
+              <li>Labor and project complexity</li>
+            </ul>
+
+            <p className="mt-4">
+              Small localized repairs can cost significantly less than a complete
+              facade restoration. The best way to understand project costs is to
+              schedule a professional inspection and obtain a detailed written
+              estimate.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Why Choose Infinity Construction NYC",
+        paragraph: (
+          <>
+            <p>
+              Selecting a brownstone restoration contractor should involve more
+              than comparing prices. Experience, workmanship, communication,
+              material compatibility, and knowledge of historic construction all
+              play important roles in a successful restoration project.
+            </p>
+
+            <p className="mt-4">
+              Infinity Construction NYC provides brownstone restoration,
+              limestone restoration, masonry repair, brick pointing,
+              waterproofing, roofing, and historic restoration services
+              throughout New York City.
+            </p>
+
+            <p className="mt-4">
+              Our team understands the relationship between historic appearance,
+              masonry performance, moisture management, and long-term durability.
+              We focus on practical restoration solutions designed to preserve
+              architectural character while addressing the root causes of
+              deterioration.
+            </p>
+
+            <p className="mt-4">
+              Whether your property requires facade restoration, waterproofing,
+              brick pointing, cornice repair, stoop restoration, or broader
+              masonry work, we provide solutions tailored to the specific needs of
+              historic NYC buildings.
+            </p>
+
+            <p className="mt-4">
+              You can learn more about the company&apos;s restoration services at <Link href="/" className="text-primary hover:underline">Infinity Construction NYC</Link>.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="mt-2 rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-sm">
+              <Accordion type="single" collapsible className="w-full">
+
+                <AccordionItem value="item-1" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    How do I know if my brownstone needs restoration?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Common warning signs include cracks, crumbling stone, spalling,
+                    deteriorated mortar joints, water stains, loose masonry,
+                    damaged stoops, and recurring moisture problems.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-2" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Is brownstone restoration different from regular masonry repair?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Yes. Brownstone restoration focuses on preserving historic
+                    materials and architectural details while using compatible
+                    repair methods that respect the building&apos;s original
+                    construction.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-3" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Do brownstone properties need waterproofing?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Waterproofing is often an important part of protecting historic
+                    masonry because moisture infiltration is one of the leading
+                    causes of deterioration.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-4" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Does a landmarked brownstone require special approvals?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Potentially. Exterior work on landmarked buildings or
+                    properties located within historic districts may require
+                    additional review and approvals before construction begins.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-5" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Should damaged brownstone be repaired or replaced?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    The answer depends on the extent of deterioration. Whenever
+                    practical, preserving and repairing original material is often
+                    preferred over complete replacement.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-6" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    How should homeowners compare multiple contractors?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Compare restoration experience, licensing, insurance,
+                    portfolios, communication quality, material recommendations,
+                    permitting knowledge, and written estimates rather than making
+                    decisions based solely on price.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="item-7" className="px-6 border-b-0">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Can a brownstone restoration contractor also perform masonry and
+                    brick pointing work?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Yes. Many restoration projects involve related masonry services
+                    such as brick pointing, mortar repair, waterproofing, and
+                    facade stabilization.
+                  </AccordionContent>
+                </AccordionItem>
+
+              </Accordion>
+            </div>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              Choosing the right <Link href="/" className="text-primary hover:underline">brownstone restoration contractor in NYC</Link> is about
+              more than finding someone who can repair visible damage. Historic
+              brownstones require a deep understanding of masonry behavior,
+              traditional materials, moisture management, preservation
+              requirements, and long-term building performance.
+            </p>
+
+            <p className="mt-4">
+              The best contractor should be able to inspect the property,
+              identify the root cause of deterioration, recommend compatible
+              repair materials, preserve historic architectural details whenever
+              possible, and provide a clear restoration strategy.
+            </p>
+
+            <p className="mt-4">
+              Whether your property requires brownstone facade restoration, brick
+              pointing, waterproofing, masonry repair, stoop restoration, or
+              broader historic preservation work, selecting an experienced
+              restoration specialist is one of the most important investments you
+              can make in protecting your building for the future.
+            </p>
+
+            <p className="mt-4">
+              A professional evaluation can help identify existing issues early,
+              reduce long-term repair costs, and preserve the historic beauty that
+              makes New York City&apos;s brownstones so distinctive.
+            </p>
+          </>
+        ),
+      },
+
+    ],
+  },
+
   {
     keywords:
       "brownstone facade repair Brooklyn, brownstone repair Brooklyn NYC, brownstone facade restoration Brooklyn, brownstone restoration Brooklyn, brownstone repair contractors Brooklyn, brownstone facade repair NYC, historic brownstone restoration Brooklyn, brownstone masonry repair Brooklyn, brownstone facade cracks, crumbling brownstone, brownstone spalling, brownstone water damage, brownstone facade deterioration, brownstone stoop repair, brownstone lintel repair, brownstone cornice repair, brownstone facade inspection, brownstone restoration company Brooklyn, historic facade repair Brooklyn",
@@ -976,7 +2099,7 @@ export const BlogsData: Blog[] = [
             </p>
             <p>
               When property owners need reliable{" "}
-              <strong>Stucco Repair Brooklyn NY</strong> 
+              <strong>Stucco Repair Brooklyn NY</strong>
               {" "} services, choosing a
               contractor familiar with New York City&apos;s unique building
               types is important. Infinity Construction NYC provides stucco

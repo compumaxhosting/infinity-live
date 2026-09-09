@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "How to Choose a Brownstone Restoration Contractor in NYC",
+      path: "/blog/how-to-choose-brownstone-restoration-contractor-nyc"
+    },
+    {
       name: "Brownstone Facade Repair in Brooklyn, NYC: Common Problems and Expert Solutions",
       path: "/blog/brownstone-facade-repair-brooklyn-nyc"
     },
