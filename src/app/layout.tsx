@@ -55,7 +55,7 @@ const jsonLdSchema = {
   telephone: "347-939-5779",
   email: "Infinityconstructionnyc@gmail.com",
   priceRange: "$$",
-  image: "https://www.infinityconstructionnyc.com/logo.png",
+  image: "https://www.infinityconstructionnyc.com/logo.webp",
 
   address: [
     {
@@ -151,12 +151,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Elfsight (Loaded Once for Entire Website) */}
-        <Script
-          id="elfsight-platform"
-          src="https://elfsightcdn.com/platform.js"
-          strategy="lazyOnload"
-        />
+      
 
         {/* JSON-LD */}
         <script

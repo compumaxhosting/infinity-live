@@ -22,8 +22,6 @@ export const metadata: Metadata = {
     canonical: pageUrl,
   },
 
-  themeColor: "#ffffff",
-
   openGraph: {
     type: "website",
     title: "Brownstone Facade Restoration Contractor Bronx, NY",
@@ -44,9 +42,7 @@ export const metadata: Metadata = {
     title: "Brownstone Facade Restoration Contractor Bronx, NY",
     description:
       "Brownstone facade restoration and repair in The Bronx, NY, including masonry repair, repointing, waterproofing, stoop restoration and historic facade work.",
-    images: [
-      imgUrl,
-    ],
+    images: [imgUrl],
   },
 
   other: {

@@ -78,7 +78,7 @@ const OurServices = () => {
                         alt={`${data.heading} service`}
                         fill
                         className="object-cover"
-                        priority={index < 3}
+                        priority={index === 0}
                         itemProp="image"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />

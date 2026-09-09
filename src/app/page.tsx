@@ -17,16 +17,18 @@ export default function Home() {
     <>
       {/* Page Sections */}
       <HeaderTwo />
-      <CarouselSection />
-      <HeroSection />
-      <OurServices />
-      <FaqHomeSection />
-      <OurTestimonial />
-      <OurAffiliatesSection />
-      <ServicesSection />
-      <SocialLinks />
-      <ContactScroll />
-      <MapComponent />
+      <main>
+        <CarouselSection />
+        <HeroSection />
+        <OurServices />
+        <FaqHomeSection />
+        <OurTestimonial />
+        <OurAffiliatesSection />
+        <ServicesSection />
+        <SocialLinks />
+        <ContactScroll />
+        <MapComponent />
+      </main>
       <Footer />
       <PhoneCall />
     </>

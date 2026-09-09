@@ -20,8 +20,6 @@ export const metadata: Metadata = {
     canonical: pageUrl,
   },
 
-  themeColor: "#ffffff",
-
   openGraph: {
     type: "website",
     title: "Historical Landmark Restoration Bronx | Infinity Construction",
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Infinity Construction NYC",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/wp-content/uploads/2024/01/historical-restoration.jpg",
+        url: "https://www.infinityconstructionnyc.com/blog/blog-brownstone.webp",
         alt: "Historical landmark restoration and historic facade restoration in The Bronx",
       },
     ],
@@ -43,7 +41,7 @@ export const metadata: Metadata = {
     description:
       "Historical landmark restoration in The Bronx for brownstone, limestone, masonry, stoops and historic facades by Infinity Construction NYC.",
     images: [
-      "https://www.infinityconstructionnyc.com/wp-content/uploads/2024/01/historical-restoration.jpg",
+      "https://www.infinityconstructionnyc.com/blog/blog-brownstone.webp",
     ],
   },
 

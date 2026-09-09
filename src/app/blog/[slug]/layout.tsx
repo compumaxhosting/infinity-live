@@ -67,7 +67,7 @@ export async function generateMetadata({
     : safeDescription;
 
   const ogImage = isTargetBlog
-    ? "https://www.infinityconstructionnyc.com/images/blog/brownstone-facade-repair-waterproofing-manhattan-2026.jpg"
+    ? "https://www.infinityconstructionnyc.com/blog/blog-brownstone.webp"
     : imageUrl;
 
   const ogImageAlt = isTargetBlog

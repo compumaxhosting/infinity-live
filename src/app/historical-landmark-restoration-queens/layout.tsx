@@ -20,8 +20,6 @@ export const metadata: Metadata = {
     canonical: pageUrl,
   },
 
-  themeColor: "#ffffff",
-
   openGraph: {
     type: "website",
     title: "Historical Landmark Restoration Queens | Infinity Construction",
@@ -31,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Infinity Construction NYC",
     images: [
       {
-        url: "https://www.infinityconstructionnyc.com/images/historical-landmark-restoration-queens.jpg",
+        url: "https://www.infinityconstructionnyc.com/img-3.webp",
         alt: "Historical landmark restoration in Queens by Infinity Construction NYC",
       },
     ],
@@ -43,7 +41,7 @@ export const metadata: Metadata = {
     description:
       "Historical landmark restoration in Queens, NY for brownstone, limestone, masonry, facades and stoops by Infinity Construction NYC.",
     images: [
-      "https://www.infinityconstructionnyc.com/images/historical-landmark-restoration-queens.jpg",
+      "https://www.infinityconstructionnyc.com/img-3.webp",
     ],
   },
 

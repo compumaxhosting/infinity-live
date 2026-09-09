@@ -67,7 +67,7 @@ const Services = () => {
                           ? "sm:rounded-r-2xl"
                           : "sm:rounded-l-2xl"
                       }`}
-                      priority={index < 3}
+                      priority={index === 0}
                       itemProp="image"
                     />
                   </div>
