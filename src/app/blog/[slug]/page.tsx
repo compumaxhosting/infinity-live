@@ -66,14 +66,16 @@ export default async function BlogPage({ params }: PageProps) {
           <section className="max-w-7xl mx-auto px-6 pt-8 pb-2">
             {blog.sections.map((section, index) => {
               const sectionId = slugifySectionTitle(section.title);
-              const isFaq = section.title.toLowerCase().includes("faq") || section.title.toLowerCase().includes("frequently asked questions");
-
               return (
-                <article key={index} id={sectionId} className="mb-10 scroll-mt-28">
+                <article
+                  key={index}
+                  id={sectionId}
+                  className="mb-10 scroll-mt-28"
+                >
                   <h2 className="text-2xl md:text-3xl text-gray-900 mb-3">
                     {section.title}
                   </h2>
-                  <div className={isFaq ? "text-slate-800 text-lg md:text-xl leading-relaxed" : "text-slate-800 text-xl md:text-2xl leading-relaxed text-justify"}>
+                  <div className="text-lg leading-7 text-slate-800 text-justify">
                     {section.paragraph}
                   </div>
                 </article>

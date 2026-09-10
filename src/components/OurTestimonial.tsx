@@ -79,12 +79,12 @@ function OurTestimonial() {
         >
           <h2
             id="testimonial-heading"
-            className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#003269] font-inter"
+            className="text-3xl md:text-4xl font-bold text-[#003269] font-inter"
           >
             <span className="flex items-center justify-center gap-2 mb-2">
               <span className="w-6 h-px bg-primary" />
 
-              <span className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-primary uppercase font-inter">
+              <span className="text-sm font-bold text-primary uppercase font-inter">
                 Testimonials
               </span>
 

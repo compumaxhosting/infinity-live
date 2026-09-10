@@ -30,7 +30,7 @@ const OurServices = () => {
       <div className="container mx-auto px-6">
         <h2
           id="our-services-heading"
-          className="text-center text-3xl sm:text-5xl font-bold text-gray-800 dark:text-white mb-6 sm:mb-12"
+          className="text-center text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 sm:mb-12"
           itemProp="name"
         >
           Our Services
@@ -95,7 +95,7 @@ const OurServices = () => {
                     </h3>
 
                     {/* Mobile */}
-                    <p className="mt-2 text-base text-gray-700 dark:text-gray-300 block sm:hidden">
+                    <p className="mt-2 text-lg leading-7 text-gray-700 dark:text-gray-300 block sm:hidden">
                       {isExpanded ? data.description : shortText}
                     </p>
 
@@ -111,7 +111,7 @@ const OurServices = () => {
 
                     {/* Desktop */}
                     <p
-                      className="mt-2 text-lg text-gray-700 dark:text-gray-300 hidden sm:block"
+                      className="mt-2 text-lg leading-7 text-gray-700 dark:text-gray-300 hidden sm:block"
                       itemProp="description"
                     >
                       {data.description}

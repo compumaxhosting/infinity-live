@@ -9,15 +9,15 @@ const HeroSection = () => {
     <section className="flex justify-center items-center bg-white dark:bg-slate-950 p-6 pt-0 pb-6 sm:pb-20 dark:border-b">
       <div className="max-w-7xl w-full">
         {/* Top Heading */}
-        <p className="text-4xl sm:text-5xl 2xl:text-8xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
+        <p className="text-4xl sm:text-5xl md:text-6xl text-black dark:text-white font-forum text-center py-10 sm:py-12 md:py-14 md:pb-6">
           Infinity Construction NYC
         </p>
 
-        <p className="text-xl sm:text-3xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
+        <p className="text-xl md:text-2xl text-[#0a6dad] dark:text-[#4dd0e1] mb-6 text-center">
           Brownstone Restoration Specialist
         </p>
 
-        <h2 className="text-lg md:text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
+        <h2 className="text-lg text-primary dark:text-[#90caf9] sm:mb-2 text-center">
           Licensed & Insured.
         </h2>
 
@@ -26,14 +26,14 @@ const HeroSection = () => {
           Infinity Construction NYC: Brownstone Restoration & Renovation Experts
         </h1>
 
-        <h2 className="text-lg md:text-xl text-center mt-2 text-slate-700 dark:text-slate-300">
+        <h2 className="text-xl md:text-2xl text-center mt-2 text-slate-700 dark:text-slate-300">
           Preserving New York’s Architectural Heritage in Brooklyn, Manhattan,
           Queens, and The Bronx
         </h2>
 
         {/* Always visible intro */}
         <p
-          className="pt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+          className="pt-2 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
           style={{ fontFamily: "var(--font-forum)" }}
         >
           Infinity Construction NYC is the premier Brownstone Restoration
@@ -47,7 +47,7 @@ const HeroSection = () => {
         {showMore && (
           <div className="content-section">
             <p
-              className="mt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+              className="mt-2 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Whether you own a historic brownstone in Park Slope or a
@@ -60,7 +60,7 @@ const HeroSection = () => {
             </h2>
 
             <p
-              className="mt-4 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+              className="mt-4 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               As Exterior Building Restoration Experts in NYC, we provide a
@@ -139,14 +139,14 @@ const HeroSection = () => {
             </h2>
 
             <p
-              className="mt-4 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center"
+              className="mt-4 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Brooklyn, Manhattan, Queens, and the Bronx
             </p>
 
             <p
-              className="mt-6 text-xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+              className="mt-6 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
               style={{ fontFamily: "var(--font-forum)" }}
             >
               Infinity Construction NYC is a top-rated Brownstone Restoration

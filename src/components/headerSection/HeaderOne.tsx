@@ -10,7 +10,7 @@ const HeaderOne: React.FC = () => {
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-16">
           {/* First Div */}
           <div className="flex flex-col sm:flex-row sm:space-x-8 w-full sm:w-auto mb-4 sm:mb-0 text-tertiary dark:text-gray-300">
-            <Link href="infinityconstructionnyc@gmail.com">
+            <a href="mailto:infinityconstructionnyc@gmail.com">
               <div className="flex items-center space-x-2 mb-2 sm:mb-0">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span
@@ -20,7 +20,7 @@ const HeaderOne: React.FC = () => {
                   infinityconstructionnyc@gmail.com
                 </span>
               </div>
-            </Link>
+            </a>
             <div className="flex items-center space-x-2">
               <Link href="tel:+13479395779">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />

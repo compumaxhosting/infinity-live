@@ -36,7 +36,7 @@ const AboutTemp = () => {
         <div className="max-w-7xl w-full">
           {/* Main Heading */}
           <h1
-            className="text-3xl sm:text-4xl 2xl:text-5xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 pb-0 md:pb-3"
+            className="text-3xl md:text-4xl text-black dark:text-white font-forum text-left mx-auto sm:px-20 py-10 sm:py-12 md:py-14 pb-0 md:pb-3"
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="name"
           >
@@ -45,7 +45,7 @@ const AboutTemp = () => {
 
           {/* Introduction Paragraph */}
           <p
-            className="pt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="pt-6 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
             itemProp="description"
           >
@@ -61,7 +61,7 @@ const AboutTemp = () => {
 
           {/* Description Paragraph */}
           <p
-            className="mt-6 text-xl md:text-2xl leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="mt-6 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             As a trusted name in New York City&apos;s construction and
@@ -79,14 +79,14 @@ const AboutTemp = () => {
           </div>
           {/* Section Subheading */}
           <h2
-            className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
+            className="mt-10 text-2xl md:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Rooted in New York, Trusted by New Yorkers
           </h2>
 
           <p
-            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="mt-4 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Infinity Construction NYC proudly serves{" "}
@@ -148,7 +148,7 @@ const AboutTemp = () => {
           </p>
 
           <p
-            className="mt-4 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="mt-4 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             From classic brownstones to modern high-rises, our team approaches
@@ -158,14 +158,14 @@ const AboutTemp = () => {
 
           {/* What Sets Us Apart */}
           <h3
-            className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
+            className="mt-10 text-2xl md:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             What Sets Us Apart
           </h3>
 
           <ul
-            className="pt-4 text-xl md:text-xl text-slate-800 dark:text-slate-300 leading-8 mx-auto sm:px-20 list-disc list-inside"
+            className="pt-4 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 list-disc list-inside"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             <li itemProp="makesOffer">
@@ -182,7 +182,7 @@ const AboutTemp = () => {
           </ul>
 
           <p
-            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="mt-6 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             We&apos;re not just another contractor — we&apos;re your neighbor,
@@ -192,7 +192,7 @@ const AboutTemp = () => {
 
           {/* Our Commitment */}
           <h4
-            className="mt-10 text-2xl sm:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
+            className="mt-10 text-2xl md:text-3xl text-black dark:text-white font-forum text-left mx-auto sm:px-20"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Our Commitment
@@ -212,7 +212,7 @@ const AboutTemp = () => {
 
           {/* Closing Paragraph */}
           <p
-            className="mt-6 text-xl md:text-2xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+            className="mt-6 text-lg leading-7 text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
             style={{ fontFamily: "var(--font-forum)" }}
           >
             Headquartered in Brooklyn, we are proud to have earned the trust of
@@ -251,7 +251,7 @@ const AboutTemp = () => {
               itemType="https://schema.org/Answer"
             >
               <p
-                className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-center md:text-justify"
+                className="mt-2 text-lg md:text-xl text-slate-800 dark:text-slate-300 mx-auto sm:px-20 text-justify md:text-justify"
                 style={{ fontFamily: "var(--font-forum)" }}
                 itemProp="text"
               >

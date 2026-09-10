@@ -82,7 +82,7 @@ const Footer = () => {
               </p>
               <br />
               <p
-                className="mt-4 bg-yellow-400 inline p-2 lg:p-4 rounded-xl text-slate-800 text-sm leading-relaxed font-semibold"
+                className="mt-4 bg-yellow-400 inline p-2 lg:p-4 rounded-xl text-slate-800 text-sm font-semibold"
                 itemProp="description"
               >
                 LICENSED & INSURED
@@ -92,7 +92,7 @@ const Footer = () => {
 
           {/* COLUMN 2 - QUICK LINKS */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="mt-4 text-gray-100 text-lg leading-7">
               Quick Links
             </h3>
 
@@ -120,7 +120,7 @@ const Footer = () => {
 
           {/* COLUMN 3 - SERVICES */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="mt-4 text-gray-100 text-lg leading-7">
               Our Services
             </h3>
 
@@ -143,7 +143,7 @@ const Footer = () => {
 
           {/* COLUMN 4 - LOCATIONS */}
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="mt-4 text-gray-100 text-lg leading-7">
               Our Locations
             </h3>
 
@@ -204,7 +204,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="space-y-6">
-            <h3 className="text-xl font-bold text-gray-100 relative pb-2 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-12 after:bg-gradient-to-r from-primary to-secondary">
+            <h3 className="mt-4 text-gray-100 text-lg leading-7">
               Contact Us
             </h3>
 
