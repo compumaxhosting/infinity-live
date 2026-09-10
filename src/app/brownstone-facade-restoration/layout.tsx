@@ -99,7 +99,7 @@ const schemaData = {
   name: "Infinity Construction NYC",
 
   description:
-    "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2015.",
+    "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2001.",
 
   url: "https://www.infinityconstructionnyc.com/",
 

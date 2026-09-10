@@ -1,22 +1,23 @@
 export const slides = [
   {
     id: 1,
-    title: "Infinity Construction NYC",
-    subtitle: "Expert Brownstone Restoration & Masonry Services Across NYC",
+    title: "NYC Brownstone & Facade Restoration Specialists",
+    subtitle:
+      "Expert Brownstone, Limestone & Masonry Restoration Across New York City",
     image: "/img-2.webp",
   },
   {
     id: 2,
-    title: "Trusted by New Yorkers",
+    title: "Restore Your NYC Brownstone With Confidence",
     subtitle:
-      "Licensed Roofing, Waterproofing & Exterior Restoration in Brooklyn & Beyond",
+      "Professional Brownstone, Limestone, Stoop & Facade Restoration for NYC Properties",
     image: "/img-3.webp",
   },
   {
     id: 3,
-    title: "Preserving NYC’s Historic Charm",
+    title: "Complete Exterior Restoration for NYC Properties",
     subtitle:
-      "Professional Brownstone, Limestone & Facade Restoration Specialists",
+      "Masonry, Brick Pointing, Waterproofing, Roofing & Facade Restoration",
     image: "/img-4.webp",
   },
 ];

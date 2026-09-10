@@ -16,16 +16,16 @@ const bevietnam = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Brownstone Construction and Restoration in Brooklyn, New York",
+  title: "Brownstone & Facade Restoration Contractor NYC | Infinity Construction",
   description:
-    "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+    "Infinity Construction NYC provides brownstone, limestone, facade and masonry restoration, brick pointing, waterproofing, roofing and stoop restoration across Brooklyn, Manhattan, Queens and The Bronx. Get a free consultation.",
   keywords:
     "Brownstone restoration NYC, Masonry services Brooklyn, Brownstone construction Manhattan, Masonry contractors Bronx, Renovation services Queens, Brownstone repair NYC, Infinity Construction NYC, Quality masonry Brooklyn, Brownstone renovation NYC, NYC masonry experts",
 
   openGraph: {
-    title: "Brownstone Construction and Restoration in Brooklyn, New York",
+    title: "Brownstone & Facade Restoration Contractor NYC | Infinity Construction",
     description:
-      "Transform and restore your brownstone with Infinity Construction NYC. Serving Brooklyn, Manhattan, Queens, and the Bronx, we specialize in expert masonry, renovation, and brownstone restoration services.",
+      "Infinity Construction NYC provides brownstone, limestone, facade and masonry restoration, brick pointing, waterproofing, roofing and stoop restoration across Brooklyn, Manhattan, Queens and The Bronx. Get a free consultation.",
     url: "https://www.infinityconstructionnyc.com/",
     images: [
       {
@@ -50,7 +50,7 @@ const jsonLdSchema = {
   "@type": "GeneralContractor",
   name: "Infinity Construction NYC",
   description:
-    "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2015.",
+    "Licensed & insured brownstone restoration and historical landmark specialist serving New York City since 2001.",
   url: "https://www.infinityconstructionnyc.com/",
   telephone: "347-939-5779",
   email: "Infinityconstructionnyc@gmail.com",

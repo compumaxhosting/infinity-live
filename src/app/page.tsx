@@ -11,6 +11,9 @@ import OurAffiliatesSection from "@/components/OurAffiliatesSection";
 import ContactScroll from "@/components/extras/ContactScroll";
 import PhoneCall from "@/components/PhoneCall";
 import FaqHomeSection from "@/components/FaqHomeSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import RestorationProcess from "@/components/RestorationProcess";
+import ServiceAreas from "@/components/ServiceAreas";
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
         <CarouselSection />
         <HeroSection />
         <OurServices />
+        <WhyChooseUs />
+        <RestorationProcess />
+        <ServiceAreas />
         <FaqHomeSection />
         <OurTestimonial />
         <OurAffiliatesSection />
