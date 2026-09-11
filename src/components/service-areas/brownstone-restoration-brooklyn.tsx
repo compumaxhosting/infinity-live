@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
 import Image from "next/image";
 import Link from "next/link";
+import BrownstoneRestorationNav from "../extras/BrownstoneRestorationNav";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -31,6 +32,7 @@ const BrownstoneRestorationBrooklyn = () => {
 								className="h-auto w-full object-cover"
 							/>
 						</div>
+						<BrownstoneRestorationNav />
 						<p className={paragraphClass}>
 							<Link href="/brownstone-restoration" className="text-orange-600 hover:text-orange-800 dark:text-orange-400 dark:hover:text-orange-600">
 								Brownstone restoration in Brooklyn

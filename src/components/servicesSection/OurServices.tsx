@@ -21,7 +21,7 @@ const OurServices = () => {
 
   return (
     <section
-      className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-16"
+      className="bg-gray-100 dark:bg-slate-950 py-8 sm:py-12"
       style={{ fontFamily: "var(--font-forum)" }}
       aria-labelledby="our-services-heading"
       itemScope
@@ -30,18 +30,26 @@ const OurServices = () => {
       <div className="container mx-auto px-6">
         <h2
           id="our-services-heading"
-          className="text-center text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 sm:mb-12"
+          className="mt-2 text-3xl md:text-4xl text-black dark:text-white font-forum text-center mb-4"
           itemProp="name"
         >
           Our Services
         </h2>
+        <h3 className="text-center font-medium text-xl md:text-2xl text-primary mb-3">
+          NYC Brownstone, Facade & Masonry Restoration Services
+        </h3>
+        <p className="text-center text-lg leading-7 text-gray-700 dark:text-gray-300 mb-10 max-w-4xl mx-auto">
+          From historic brownstones to modern masonry buildings, Infinity
+          Construction NYC provides exterior restoration and construction
+          services throughout New York City.
+        </p>
 
         <div className="grid grid-cols-1 gap-8">
           {specialityData.map((data, index) => {
             const isExpanded = expanded[data.id] ?? false;
             const shortText =
               data.description.length > 120
-                ? data.description.slice(0, 40) + "..."
+                ? data.description.slice(0, 120) + "..."
                 : data.description;
 
             return (
@@ -88,14 +96,14 @@ const OurServices = () => {
                   {/* Content */}
                   <div className="w-full lg:w-2/3 p-6 sm:p-10 flex flex-col justify-center">
                     <h3
-                      className="text-2xl md:text-3xl font-semibold text-tertiary dark:text-white"
+                      className="mt-2 text-xl md:text-2xl font-forum font-medium text-tertiary dark:text-white"
                       itemProp="name"
                     >
                       {data.heading}
                     </h3>
 
                     {/* Mobile */}
-                    <p className="mt-2 text-lg leading-7 text-gray-700 dark:text-gray-300 block sm:hidden">
+                    <p className="mt-2 text-md leading-7 text-gray-700 dark:text-gray-300 block sm:hidden">
                       {isExpanded ? data.description : shortText}
                     </p>
 

@@ -2,43 +2,43 @@ export const specialityData = [
   {
     id: 1,
     imageUrl: "/img-3.webp",
-    heading: "Historical Restoration",
+    heading: "Brownstone & Limestone Restoration",
     path: "/historical-landmark",
     description:
-      "We specialize in the restoration of brownstone and limestone facades and stoops for both historic and non-historic properties. Our services adhere to the guidelines set by the NYC Landmarks Preservation Commission (LPC) and the NYC Department of Buildings (DOB). Our skilled artisans meticulously preserve original details, reinforce structural integrity, and restore vibrant authenticity to your historical landmark.",
+      "Repair and restoration of deteriorated brownstone and limestone facades, stoops and architectural details.",
   },
+
   {
     id: 2,
-    imageUrl: "/services-img-1.webp",
-    heading: "Stucco & Exterior Waterproofing",
-    path: "/stucco",
+    imageUrl: "/cmu-block-layering.webp",
+    heading: "Facade Restoration",
+    path: "/brownstone-facade-restoration",
     description:
-      "We offer expert application of stucco finishes and waterproofing materials to safeguard exterior walls, parapets, and retaining walls from water infiltration and structural degradation. This process includes surface preparation, the application of base coats with reinforcement, followed by a final coat and weatherproofing materials, all in strict compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
+      "Exterior masonry and facade repair to address deterioration, cracking, spalling and other building-envelope concerns.",
   },
   {
     id: 3,
-    imageUrl: "/cmu-block-layering.webp",
-    heading: "Brownstone Facade Restoration",
-    path: "/brownstone-facade-restoration",
+    imageUrl: "/brick-pointing.webp",
+    heading: "Brick Pointing & Repointing",
+    path: "/brick-pointing",
     description:
-      "We provide professional installation of brick and concrete masonry unit (CMU) blocks for walls, facades, and structural components. Our services ensure proper mortar application, alignment, and reinforcement to maintain structural integrity, in full compliance with the NYC Fire Code and NYC Department of Buildings (DOB) guidelines.",
+      "Removal and replacement of deteriorated mortar to help maintain the condition and weather resistance of brick masonry.",
   },
   {
     id: 4,
+    imageUrl: "/services-img-1.webp",
+    heading: "Waterproofing & Stucco",
+    path: "/stucco",
+    description:
+      "Exterior waterproofing and stucco work for walls, parapets and other masonry surfaces where appropriate.",
+  },
+  {
+    id: 5,
     imageUrl: "/services-img-4.webp",
     heading: "Roof Restoration",
     path: "/roof-restoration-and-weatherproofing",
     description:
-      "We offer comprehensive roof restoration and weatherproofing services to enhance structural stability and prevent damage. This includes replacing damaged roofing materials, sealing penetrations, installing waterproof membranes, and improving drainage systems. In cases of severe deterioration, we also provide full roof reconstruction, adhering to the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
-  },
-
-  {
-    id: 5,
-    imageUrl: "/brick-pointing.webp",
-    heading: "Brick Pointing",
-    path: "/brick-pointing",
-    description:
-      "Our brick pointing service involves removing deteriorated mortar and replacing it with fresh mortar to prevent water infiltration. We also apply waterproofing treatments to protect against future moisture damage, all in compliance with NYC Department of Buildings (DOB) guidelines.",
+      "Roof repair and restoration services designed to address damaged roofing materials, penetrations and water-related issues.",
   },
 
   {
@@ -47,16 +47,16 @@ export const specialityData = [
     heading: "Fire Escape & Metal Restoration",
     path: "/fire-escape-restoration",
     description:
-      "We specialize in restoring metal fire escapes, railings, and fences, focusing on repairing corroded elements, replacing damaged components, and applying protective coatings to extend the lifespan and ensure safety. Our services are conducted in compliance with the NYC Fire Code and NYC Department of Buildings (DOB) guidelines.",
+      "Repair and restoration of fire escapes, railings, fences and other exterior metal elements.",
   },
 
   {
     id: 7,
     imageUrl: "/stone-pointing.webp",
-    heading: "Concrete & Stone Paving",
+    heading: "Concrete & Stone Work",
     path: "/paving",
     description:
-      "We provide professional installation and repair of concrete, stone, and brick paving for sidewalks, driveways, and patios. Our services ensure proper leveling, drainage, and ADA compliance, in adherence with NYC Department of Transportation (DOT) and NYC Department of Buildings (DOB) guidelines.",
+      "Concrete, stone and brick paving and exterior masonry work for sidewalks, driveways, patios and related areas.",
   },
 
   {

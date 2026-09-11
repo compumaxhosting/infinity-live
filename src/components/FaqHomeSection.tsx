@@ -67,10 +67,7 @@ const Faq = () => {
         {/* FAQ Header */}
         <header className="w-full max-w-4xl text-center">
           <div className="flex items-center justify-center gap-3">
-            <span
-              aria-hidden="true"
-              className="h-px w-8 shrink-0 bg-primary"
-            />
+            <span aria-hidden="true" className="h-px w-8 shrink-0 bg-primary" />
 
             <p
               className="text-xl font-semibold text-primary dark:text-[#90caf9] md:text-2xl"
@@ -79,10 +76,7 @@ const Faq = () => {
               FAQ
             </p>
 
-            <span
-              aria-hidden="true"
-              className="h-px w-8 shrink-0 bg-primary"
-            />
+            <span aria-hidden="true" className="h-px w-8 shrink-0 bg-primary" />
           </div>
 
           <h2
@@ -162,16 +156,21 @@ const Faq = () => {
             className="text-xl font-semibold text-gray-900 md:text-2xl"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            Ready to Restore Your Property?
+            Planning a Brownstone or Exterior Restoration Project in NYC?
           </h3>
 
           <p
             className="mx-auto mt-3 max-w-2xl text-lg leading-7 text-gray-700"
             style={{ fontFamily: "var(--font-forum)" }}
           >
-            Don&apos;t let water damage compromise your building&apos;s legacy.
-            Contact the Best Brownstone Restoration Company in NYC for a free
-            consultation and estimate.
+            Whether you need brownstone restoration, facade repair, brick
+            pointing, waterproofing, stoop restoration, roofing or masonry work,
+            Infinity Construction NYC can help you determine the appropriate
+            next step. <br />
+            Tell us where the property is located, what problem you&apos;re
+            seeing and which areas of the building need attention. If you have
+            photographs, you can include them with your inquiry. Call
+            347-939-5779 or request a consultation today.
           </p>
 
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">

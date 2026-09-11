@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
 import Image from "next/image";
 import Link from "next/link";
+import BrownstoneFacadeNav from "../extras/BrownstoneFacadeNav";
 
 const sectionHeadingClass =
 	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
@@ -24,13 +25,14 @@ const BrownstoneFacadeRestorationManhattan = () => {
 						<div className="relative overflow-hidden rounded-2xl sm:m-10 border border-slate-200 shadow-xl dark:border-slate-700">
 							<Image
 								src="/historical-landmark/brownstone-facade-restoration-manhattan.webp"
-								alt="Brownstone Facade Restoration in Brooklyn NY"
+								alt="Brownstone Facade Restoration in Manhattan, NY"
 								width={1600}
 								height={900}
 								priority
 								className="h-auto w-full object-cover"
 							/>
 						</div>
+						<BrownstoneFacadeNav />
 						<p className={paragraphClass}>
 							Brownstone facades require careful restoration to preserve their
 							architectural character and protect the building from further
