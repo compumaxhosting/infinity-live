@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -48,52 +48,67 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
-    const { name, email, phone, message } = body;
+    /*
+     * Supports both forms:
+     *
+     * OLD FORM:
+     * name
+     * email
+     * phone
+     * message
+     *
+     * NEW SERVICE DOWNLOAD FORM:
+     * name
+     * email
+     * phone
+     * service
+     */
 
-    // Validate required fields
-    if (
-      typeof name !== "string" ||
-      typeof email !== "string" ||
-      typeof message !== "string"
-    ) {
+    const { name, email, phone, message, service } = body;
+
+    // Validate required common fields
+    if (typeof name !== "string" || typeof email !== "string") {
       return new Response(
         JSON.stringify({
           success: false,
-          error: "Name, email, and message are required.",
+          error: "Name and email are required.",
         }),
         {
           status: 400,
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
     // Trim submitted values
     const cleanName = name.trim();
     const cleanEmail = email.trim();
-    const cleanMessage = message.trim();
-    const cleanPhone =
-      typeof phone === "string" ? phone.trim() : "";
+
+    const cleanPhone = typeof phone === "string" ? phone.trim() : "";
+
+    const cleanMessage = typeof message === "string" ? message.trim() : "";
+
+    const cleanService = typeof service === "string" ? service.trim() : "";
 
     // Validate required fields are not empty
-    if (!cleanName || !cleanEmail || !cleanMessage) {
+    if (!cleanName || !cleanEmail) {
       return new Response(
         JSON.stringify({
           success: false,
-          error: "Name, email, and message are required.",
+          error: "Name and email are required.",
         }),
         {
           status: 400,
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -109,7 +124,7 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -124,7 +139,7 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -139,7 +154,7 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -154,7 +169,22 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
+      );
+    }
+
+    if (cleanService.length > 100) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: "Service name is too long.",
+        }),
+        {
+          status: 400,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        },
       );
     }
 
@@ -172,7 +202,47 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
+      );
+    }
+
+    // Determine which type of form submitted the request
+    const isServiceDownloadRequest = Boolean(cleanService);
+
+    /*
+     * For the old form:
+     * message is required.
+     *
+     * For the new service download form:
+     * service is required.
+     */
+    if (!isServiceDownloadRequest && !cleanMessage) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: "Message is required.",
+        }),
+        {
+          status: 400,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        },
+      );
+    }
+
+    if (isServiceDownloadRequest && !cleanService) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: "Service selection is required.",
+        }),
+        {
+          status: 400,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        },
       );
     }
 
@@ -195,7 +265,7 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
@@ -206,20 +276,82 @@ export async function POST(req: NextRequest) {
     const safeEmail = escapeHtml(cleanEmail);
     const safePhone = escapeHtml(cleanPhone);
     const safeMessage = escapeHtml(cleanMessage);
+    const safeService = escapeHtml(cleanService);
 
-    const emailContent = `
-      <h2>New Contact Form Submission</h2>
-      <p><strong>Name:</strong> ${safeName}</p>
-      <p><strong>Email:</strong> ${safeEmail}</p>
-      <p><strong>Phone:</strong> ${safePhone || "Not provided"}</p>
-      <p><strong>Message:</strong><br />${safeMessage.replace(/\n/g, "<br />")}</p>
-    `;
+    let emailContent: string;
+    let subject: string;
 
+    if (isServiceDownloadRequest) {
+      /*
+       * NEW SERVICE DOWNLOAD FORM EMAIL
+       */
+      subject = "New Service Guide Request";
+
+      emailContent = `
+        <h2>New Service Guide Request</h2>
+
+        <p>
+          <strong>Name:</strong>
+          ${safeName}
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          ${safeEmail}
+        </p>
+
+        <p>
+          <strong>Phone:</strong>
+          ${safePhone || "Not provided"}
+        </p>
+
+        <p>
+          <strong>Service:</strong>
+          ${safeService}
+        </p>
+
+        <p>
+          <strong>Request Type:</strong>
+          Service Guide Download
+        </p>
+      `;
+    } else {
+      /*
+       * OLD CONTACT FORM EMAIL
+       */
+      subject = "New Contact Form Submission";
+
+      emailContent = `
+        <h2>New Contact Form Submission</h2>
+
+        <p>
+          <strong>Name:</strong>
+          ${safeName}
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          ${safeEmail}
+        </p>
+
+        <p>
+          <strong>Phone:</strong>
+          ${safePhone || "Not provided"}
+        </p>
+
+        <p>
+          <strong>Message:</strong><br />
+          ${safeMessage.replace(/\n/g, "<br />")}
+        </p>
+      `;
+    }
+
+    // Send email using the existing Resend configuration
     const { data, error } = await resend.emails.send({
       from: emailFrom,
       to: recipients,
       replyTo: cleanEmail,
-      subject: "New Contact Form Submission",
+      subject,
       html: emailContent,
     });
 
@@ -236,14 +368,16 @@ export async function POST(req: NextRequest) {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       );
     }
 
     return new Response(
       JSON.stringify({
         success: true,
-        message: "Email sent successfully!",
+        message: isServiceDownloadRequest
+          ? "Service guide request submitted successfully!"
+          : "Email sent successfully!",
         data,
       }),
       {
@@ -251,7 +385,7 @@ export async function POST(req: NextRequest) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
   } catch (error) {
     console.error("Contact API Error:", error);
@@ -266,7 +400,7 @@ export async function POST(req: NextRequest) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
   }
 }
