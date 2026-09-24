@@ -21,7 +21,7 @@ const HeroSection = () => {
         </h2>
 
         {/* SEO Heading */}
-        <h1 className="text-2xl md:text-3xl text-[#042c46] dark:text-[#90caf9] text-center font-bold mt-6">
+        <h1 className="mt-2 text-3xl md:text-4xl text-black dark:text-white font-forum mb-6 text-center">
           Infinity Construction NYC: Brownstone Restoration & Renovation Experts
         </h1>
 
