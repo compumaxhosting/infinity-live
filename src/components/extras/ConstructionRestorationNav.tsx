@@ -37,7 +37,7 @@ const ConstructionRestorationNav = () => {
               id="brownstone-restoration-location-heading"
               className="whitespace-nowrap text-center text-lg font-semibold tracking-wide text-gray-700 sm:text-left sm:text-xl"
             >
-              Select a Location
+              Areas We Serve
             </h2>
 
             <nav

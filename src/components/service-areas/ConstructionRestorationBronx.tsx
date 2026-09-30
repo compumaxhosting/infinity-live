@@ -39,7 +39,8 @@ const ConstructionRestorationBronx = () => {
                       >
                         347 939 5779
                       </a>{" "}
-                      for Professional Construction & Restoration Services in NYC.
+                      for Professional Construction & Restoration Services in
+                      NYC.
                     </p>
 
                     <Link
@@ -60,7 +61,7 @@ const ConstructionRestorationBronx = () => {
               <div className="w-full lg:w-1/2">
                 <div className="relative overflow-hidden rounded-2xl border border-slate-200 shadow-xl dark:border-slate-700">
                   <Image
-                    src="/historical-landmark/construction-queen.png"
+                    src="/historical-landmark/construction-bronx.webp"
                     alt="Construction & Restoration Services in the Bronx, NY"
                     width={1600}
                     height={900}

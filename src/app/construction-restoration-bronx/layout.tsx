@@ -4,7 +4,7 @@ const pageUrl =
   "https://www.infinityconstructionnyc.com/construction-restoration-bronx";
 
 const imgUrl =
-  "https://www.infinityconstructionnyc.com/historical-landmark/construction-queen.png";
+  "https://www.infinityconstructionnyc.com/historical-landmark/construction-queen.webp";
 
 export const metadata: Metadata = {
   title:

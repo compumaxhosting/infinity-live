@@ -1,31 +1,48 @@
+import Image from "next/image";
 import Footer from "@/components/Footer";
 import PhoneCall from "@/components/PhoneCall";
+import HistoricalLandmarkNav from "../extras/HistoricalLandmarkNav";
 
 const sectionHeadingClass =
-	"mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
+  "mb-4 text-xl text-orange-600 dark:text-orange-400 sm:text-2xl";
 const paragraphClass =
-	"mb-5 text-base leading-relaxed text-slate-700 dark:text-slate-300 sm:text-lg";
-const questionClass =
-	"mb-2 text-lg text-slate-900 dark:text-white sm:text-xl";
+  "mb-5 text-base leading-relaxed text-slate-700 dark:text-slate-300 sm:text-lg";
+const questionClass = "mb-2 text-lg text-slate-900 dark:text-white sm:text-xl";
 
 const HistoricalLandmarkRestorationManhattan = () => {
-	return (
+  return (
     <>
       <main className="border-b bg-accent p-4 dark:bg-slate-950">
         <article className="container mx-auto max-w-5xl space-y-10 pb-14 pt-32 sm:pt-44">
+          <HistoricalLandmarkNav />
           <header className="border-b border-slate-300 pb-8 dark:border-slate-700">
-            <h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
-              Historical Landmark Restoration in Manhattan, NY
-            </h1>
-            <p className={paragraphClass}>
-              Historical landmark restoration in Manhattan requires careful
-              attention to a building&apos;s existing materials, architectural
-              details, and applicable preservation requirements. Infinity
-              Construction NYC provides historical restoration services for
-              Manhattan properties, including brownstone and limestone
-              restoration, masonry repair, brick pointing, exterior
-              waterproofing, and related exterior work.
-            </p>
+            <div className="grid items-center gap-8 md:grid-cols-2">
+              <div className="overflow-hidden rounded-lg">
+                <Image
+                  src="/historical-landmark/construction-manhattan.webp"
+                  alt="Historical landmark restoration in Manhattan, NY"
+                  width={1200}
+                  height={800}
+                  className="h-auto w-full object-cover"
+                />
+              </div>
+
+              <div>
+                <h1 className="mb-6 text-3xl text-gray-900 dark:text-white sm:text-4xl lg:text-5xl">
+                  Historical Landmark Restoration in Manhattan, NY
+                </h1>
+
+                <p className={paragraphClass}>
+                  Historical landmark restoration in Manhattan requires careful
+                  attention to a building&apos;s existing materials,
+                  architectural details, and applicable preservation
+                  requirements. Infinity Construction NYC provides historical
+                  restoration services for Manhattan properties, including
+                  brownstone and limestone restoration, masonry repair, brick
+                  pointing, exterior waterproofing, and related exterior work.
+                </p>
+              </div>
+            </div>
           </header>
 
           <section>
@@ -205,6 +222,7 @@ const HistoricalLandmarkRestorationManhattan = () => {
             </div>
           </section>
         </article>
+        <HistoricalLandmarkNav />
       </main>
       <Footer />
       <PhoneCall />

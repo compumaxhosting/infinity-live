@@ -67,4 +67,12 @@ export const specialityData = [
     description:
       "We offer expert application of plaster and paint to interior surfaces, ensuring smooth finishes and long-lasting durability. Our process includes surface preparation, the application of base and finish coats, and the use of water-resistant materials, all in compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
   },
+  {
+    id: 8,
+    imageUrl: "/historical-landmark/construction-brooklyn.webp",
+    heading: "Construction & Restoration",
+    path: "/construction-restoration-brooklyn",
+    description:
+      "Brooklyn's brownstones, row houses and brick buildings are a major part of the borough's character. Properties in neighborhoods such as Brooklyn Heights, Bedford-Stuyvesant, Carroll Gardens and Clinton Hill can also have aging masonry, stoops, facades and exterior details that require careful restoration.",
+  },
 ];

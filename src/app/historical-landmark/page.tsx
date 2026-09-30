@@ -6,6 +6,7 @@ import Link from "next/link";
 import React from "react";
 import { Phone, Mail, Globe } from "lucide-react";
 import ServiceLinks from "@/components/ServiceLinks";
+import HistoricalLandmarkNav from "@/components/extras/HistoricalLandmarkNav";
 
 const contactPhone = "347 939 5779";
 const contactPhoneHref = "tel:+13479395779";
@@ -19,8 +20,9 @@ const HistoricalLandmarkRestorationPage = () => {
           className="container mx-auto p-4 pt-28 sm:pt-48 2xl:pt-36 border-b text-xl md:text-2xl text-slate-800 lg:text-xl px-4 md:px-12 lg:px-48"
           style={{ fontFamily: "var(--font-forum)" }}
         >
+          <HistoricalLandmarkNav />
           <section
-            className="mb-10"
+            className="my-8"
             itemScope
             itemType="https://schema.org/LocalBusiness"
           >
@@ -338,7 +340,7 @@ const HistoricalLandmarkRestorationPage = () => {
               <li>The Bronx and Queens</li>
             </ul>
           </section>
-<ServiceLinks />
+          <ServiceLinks />
           <section className="mt-12 mb-10 px-4">
             <div className="max-w-2xl mx-auto text-center">
               <p className="text-xl sm:text-2xl mb-4 text-orange-600">
@@ -390,6 +392,7 @@ const HistoricalLandmarkRestorationPage = () => {
               </p>
             </div>
           </section>
+          <HistoricalLandmarkNav />
         </main>
         <Footer />
         <PhoneCall />

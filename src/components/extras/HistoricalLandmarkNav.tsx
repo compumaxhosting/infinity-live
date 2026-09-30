@@ -2,20 +2,27 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 const locations = [
-  { name: "Brooklyn", href: "/brownstone-facade-restoration-brooklyn" },
-  { name: "Manhattan", href: "/brownstone-facade-restoration-manhattan" },
-  { name: "Queens", href: "/brownstone-facade-restoration-queens" },
-  { name: "The Bronx", href: "/brownstone-facade-restoration-the-bronx" },
+  {
+    name: "Brooklyn",
+    href: "/historical-landmark-restoration-brooklyn",
+  },
+  {
+    name: "Manhattan",
+    href: "/historical-landmark-restoration-manhattan",
+  },
+  { name: "Queens", href: "/historical-landmark-restoration-queens" },
+  {
+    name: "Bronx",
+    href: "/historical-landmark-restoration-bronx",
+  },
+  { name: "Historical Landmarks", href: "/historical-landmark" },
 ];
-const BrownstoneFacadeNav = () => {
+const HistoricalLandmarkNav = () => {
   const pathname = usePathname();
   return (
-    <section
-      className="py-4 sm:py-5"
-      aria-labelledby="brownstone-location-heading"
-    >
+    <section aria-labelledby="brownstone-location-heading">
       {" "}
-      <div className="container mx-auto px-4 sm:px-6">
+      <div className="container mx-auto px-2 sm:px-4">
         {" "}
         <div className="mx-auto max-w-5xl rounded-2xl border border-gray-200/80 bg-white/95 px-8 py-4 shadow-sm sm:px-6">
           {" "}
@@ -33,14 +40,22 @@ const BrownstoneFacadeNav = () => {
               className="grid w-full grid-cols-2 items-center justify-center gap-2 sm:flex sm:w-auto sm:flex-wrap"
             >
               {" "}
-              {locations.map((location) => {
+              {locations.map((location, index) => {
                 const isActive = pathname === location.href;
                 return (
                   <Link
                     key={location.href}
                     href={location.href}
                     aria-current={isActive ? "page" : undefined}
-                    className={`inline-flex min-h-10 w-full items-center justify-center rounded-lg border px-3 py-2 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:w-auto sm:px-4 ${isActive ? "border-primary bg-primary text-white shadow-sm" : "border-gray-200 bg-gray-50 text-gray-700 hover:border-primary hover:bg-white hover:text-primary dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-primary"}`}
+                    className={`inline-flex min-h-10 w-full items-center justify-center rounded-lg border px-3 py-2 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:w-auto sm:px-4 ${
+                      index === locations.length - 1
+                        ? "col-span-2 justify-self-center sm:col-span-1 sm:justify-self-auto"
+                        : ""
+                    } ${
+                      isActive
+                        ? "border-primary bg-primary text-white shadow-sm"
+                        : "border-gray-200 bg-gray-50 text-gray-700 hover:border-primary hover:bg-white hover:text-primary dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 dark:hover:border-primary"
+                    }`}
                   >
                     {" "}
                     {location.name}{" "}
@@ -54,4 +69,4 @@ const BrownstoneFacadeNav = () => {
     </section>
   );
 };
-export default BrownstoneFacadeNav;
+export default HistoricalLandmarkNav;

@@ -58,7 +58,7 @@ const ConstructionRestorationManhattan = () => {
               <div className="w-full lg:w-1/2">
                 <div className="relative overflow-hidden rounded-2xl border border-slate-200 shadow-xl dark:border-slate-700">
                   <Image
-                    src="/historical-landmark/construction-queen.png"
+                    src="/historical-landmark/construction-queen.webp"
                     alt="Construction & Restoration Services in Manhattan, NY"
                     width={1600}
                     height={900}

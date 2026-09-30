@@ -4,7 +4,7 @@ const pageUrl =
   "https://www.infinityconstructionnyc.com/construction-restoration-brooklyn";
 
 const imgUrl =
-  "https://www.infinityconstructionnyc.com/historical-landmark/construction-manhattan.png";
+  "https://www.infinityconstructionnyc.com/historical-landmark/construction-manhattan.webp";
 
 export const metadata: Metadata = {
   title: "Construction & Restoration Brooklyn NY | Infinity Construction NYC",
