@@ -201,6 +201,10 @@ const SiteMap = () => {
       name: "How to Choose a Brownstone Restoration Contractor in NYC",
       url: "/blog/how-to-choose-brownstone-restoration-contractor-nyc",
     },
+    {
+      name: "Blog - How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide",
+      url: "/blog/how-much-does-brownstone-facade-restoration-cost-in-nyc",
+    },
   ];
 
   return (

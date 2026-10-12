@@ -68,7 +68,7 @@ export const specialityData = [
       "We offer expert application of plaster and paint to interior surfaces, ensuring smooth finishes and long-lasting durability. Our process includes surface preparation, the application of base and finish coats, and the use of water-resistant materials, all in compliance with the NYC Energy Code and NYC Department of Buildings (DOB) guidelines.",
   },
   {
-    id: 8,
+    id: 9,
     imageUrl: "/historical-landmark/construction-brooklyn.webp",
     heading: "Construction & Restoration",
     path: "/construction-restoration-brooklyn",

@@ -22,6 +22,590 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "brownstone façade restoration cost NYC, brownstone facade restoration cost NYC, brownstone restoration NYC, brownstone facade repair NYC, brownstone restoration Brooklyn, brownstone restoration Manhattan, brownstone restoration Queens, brownstone restoration Bronx",
+
+    slug: "how-much-does-brownstone-facade-restoration-cost-in-nyc",
+
+    metadescription:
+      "Discover brownstone façade restoration costs in NYC for 2026, including Brooklyn, Manhattan, Queens and The Bronx, with pricing factors and expert tips.",
+
+    title:
+      "How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide for Brooklyn, Manhattan, Queens & The Bronx",
+
+    description: (
+      <>
+        <p>
+          If you own a historic brownstone in New York City, one of the first
+          questions you are likely to ask is simple:{" "}
+          <Link
+            href="/brownstone-facade-restoration"
+            className="text-primary hover:underline"
+          >
+            how much does brownstone facade restoration cost in NYC?
+          </Link>{" "}
+          In 2026, the answer can range from several thousand dollars for
+          targeted repairs to well over $100,000 for extensive facade
+          restoration. The final price depends heavily on the condition of the
+          brownstone, the size and height of the building, the amount of
+          decorative detailing, access requirements, structural repairs,
+          materials, and whether the property is subject to NYC Landmarks
+          Preservation Commission requirements.
+        </p>
+
+        <p className="mt-4">
+          Current NYC restoration pricing published by local restoration
+          contractors places full brownstone facade repointing commonly in the
+          $15,000 to $50,000 range, while broader low-rise facade restoration can
+          reach approximately $30,000 to $150,000 or more depending on the scope.
+          For an accurate price, however, a contractor needs to inspect the
+          actual facade rather than relying on a generic square-foot estimate.
+        </p>
+      </>
+    ),
+
+    image: "/blog/blog/brownstone-facade-restoration.webp",
+
+    metatitle: "Brownstone Façade Restoration Cost in NYC | 2026 Guide",
+
+    sections: [
+      {
+        title: "Table of Contents",
+        paragraph: (
+          <>
+            <nav
+              aria-label="Table of contents"
+              className="rounded-2xl border border-gray-200 bg-gray-50 p-5"
+            >
+              <ul className="grid gap-2 text-lg md:text-xl text-slate-800">
+                <li>
+                  <a
+                    href="#average-brownstone-facade-restoration-cost-in-nyc"
+                    className="text-primary hover:underline"
+                  >
+                    1. Average Brownstone Facade Restoration Cost in NYC
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#what-determines-brownstone-restoration-cost"
+                    className="text-primary hover:underline"
+                  >
+                    2. What Determines Brownstone Restoration Cost?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#brownstone-restoration-cost-by-type-of-work"
+                    className="text-primary hover:underline"
+                  >
+                    3. Brownstone Restoration Cost by Type of Work
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#does-landmark-status-increase-restoration-costs"
+                    className="text-primary hover:underline"
+                  >
+                    4. Does Landmark Status Increase Restoration Costs?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#brownstone-restoration-costs-by-nyc-borough"
+                    className="text-primary hover:underline"
+                  >
+                    5. Brownstone Restoration Costs by NYC Borough
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-to-reduce-long-term-brownstone-repair-costs"
+                    className="text-primary hover:underline"
+                  >
+                    6. How to Reduce Long-Term Brownstone Repair Costs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#when-should-you-restore-a-brownstone-facade"
+                    className="text-primary hover:underline"
+                  >
+                    7. When Should You Restore a Brownstone Facade?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-to-get-an-accurate-brownstone-restoration-estimate"
+                    className="text-primary hover:underline"
+                  >
+                    8. How to Get an Accurate Brownstone Restoration Estimate
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#conclusion"
+                    className="text-primary hover:underline"
+                  >
+                    9. Conclusion
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faqs"
+                    className="text-primary hover:underline"
+                  >
+                    10. Frequently Asked Questions
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </>
+        ),
+      },
+
+      {
+        title: "Average Brownstone Facade Restoration Cost in NYC",
+        paragraph: (
+          <>
+            <p>
+              For a typical NYC brownstone, a reasonable 2026 planning range is
+              approximately $15,000 to $100,000+, with smaller localized repairs
+              falling below that range and complete historic restoration
+              projects exceeding it. A straightforward project involving mortar
+              repair, brownstone patching, limited resurfacing and waterproofing
+              may cost considerably less than a facade requiring extensive stone
+              replacement, lintel repairs, cornice work or structural
+              stabilization.
+            </p>
+
+            <div className="mt-6 overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-gray-100">
+                    <th className="border border-gray-300 p-3 font-semibold text-gray-900">
+                      Restoration Work
+                    </th>
+                    <th className="border border-gray-300 p-3 font-semibold text-gray-900">
+                      Typical 2026 NYC Cost Range
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Targeted brownstone repairs
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $5,000–$15,000+
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Full facade repointing
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $15,000–$50,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Brownstone patching/resurfacing
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $28,000–$65,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Lintel or architectural repairs
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $15,000–$55,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Stoop restoration
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $18,000–$60,000
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3">
+                      Extensive stone-to-stone restoration
+                    </td>
+                    <td className="border border-gray-300 p-3 font-medium text-primary">
+                      $85,000–$250,000+
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="mt-4">
+              These are planning ranges, not fixed quotes. Published NYC
+              restoration estimates show significant variation because two
+              buildings that look similar from the street can have completely
+              different underlying deterioration.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "What Determines Brownstone Restoration Cost?",
+        paragraph: (
+          <>
+            <h3 className="text-xl font-bold mt-2 mb-2 text-gray-900">
+              Facade Size and Building Height
+            </h3>
+            <p>
+              The larger the facade, the more labor, material, preparation and
+              access equipment the project usually requires. A narrow four-story
+              rowhouse can be substantially less expensive to restore than a
+              wider or taller building with extensive architectural details.
+              Access also matters because contractors may need scaffolding,
+              sidewalk protection, lifts or other equipment to safely reach upper
+              portions of the facade.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2 text-gray-900">
+              Brownstone Condition and Damage
+            </h3>
+            <p>
+              Condition is often the biggest cost variable. Surface discoloration
+              and small cracks are relatively different problems from deep
+              spalling, loose material, deteriorated mortar, water infiltration
+              or structural movement. NYC&apos;s Landmarks Preservation
+              Commission specifically recognizes that brownstone is susceptible
+              to deterioration and allows qualified restoration work involving
+              appropriate repair and resurfacing methods.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2 text-gray-900">
+              Materials and Historic Detailing
+            </h3>
+            <p>
+              Brownstone restoration is not simply a matter of applying a new
+              coating to an old wall. Historic facades may contain carved
+              moldings, window surrounds, cornices, stoops and other
+              architectural details that require specialized craftsmanship.
+              Matching the color, texture, profile and appearance of existing
+              materials can increase labor costs, but it is often essential when
+              preserving the character of an older NYC property.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Brownstone Restoration Cost by Type of Work",
+        paragraph: (
+          <>
+            <h3 className="text-xl font-bold mt-2 mb-2 text-gray-900">
+              Brownstone Resurfacing and Patching
+            </h3>
+            <p>
+              Localized patching can be an economical way to address
+              deteriorated sections before the damage spreads. More extensive
+              resurfacing becomes more expensive because the contractor must
+              carefully prepare the existing surface and reproduce the appropriate
+              appearance. Importantly, the LPC notes that an entire brownstone
+              facade should not normally be resurfaced unless the historic
+              brownstone is in extremely poor condition.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2 text-gray-900">
+              Masonry Repointing
+            </h3>
+            <p>
+              Repointing involves removing deteriorated mortar and installing
+              new mortar compatible with the existing masonry. Current NYC
+              estimates commonly place brick repointing around $10 to $30 per
+              square foot, although actual pricing varies according to access,
+              joint condition, mortar specification and project complexity.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2 text-gray-900">
+              Lintel and Structural Repairs
+            </h3>
+            <p>
+              Rusting steel lintels, damaged masonry above windows and other
+              structural issues can significantly increase the budget. These
+              repairs are important because water entering around deteriorated
+              masonry can gradually affect areas beyond the original visible
+              damage. NYC Department of Buildings guidance identifies structural
+              facade repairs and damaged architectural elements among work that
+              may require qualified professionals and appropriate permits.
+            </p>
+
+            <h3 className="text-xl font-bold mt-5 mb-2 text-gray-900">
+              Stoop and Architectural Detail Restoration
+            </h3>
+            <p>
+              The stoop is often one of the most visible and heavily used parts
+              of a brownstone. Cracked treads, deteriorated risers, damaged
+              stone and moisture-related deterioration can require anything from
+              localized repairs to partial reconstruction. Current published NYC
+              pricing places typical stoop restoration around $18,000 to
+              $60,000, although unusually complex historic work can cost
+              substantially more.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Does Landmark Status Increase Restoration Costs?",
+        paragraph: (
+          <>
+            <p>
+              Landmark status can add planning, documentation and approval
+              requirements to a restoration project. NYC&apos;s Landmarks
+              Preservation Commission states that owners of designated landmark
+              properties must obtain appropriate LPC approval before regulated
+              exterior work begins. Applications are now submitted through the
+              City&apos;s Portico system.
+            </p>
+
+            <p className="mt-4">
+              Not every repair automatically requires the same level of review.
+              The LPC&apos;s Permit for Minor Work process covers certain
+              restoration and maintenance activities, including brownstone
+              resurfacing and masonry cleaning, when the proposed work qualifies.
+              Complete applications for eligible minor work can often be reviewed
+              within approximately 10 business days, although incomplete
+              applications may take longer.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Brownstone Restoration Costs by NYC Borough",
+        paragraph: (
+          <>
+            <p>
+              Brooklyn has a large concentration of historic brownstones,
+              including properties in neighborhoods with designated historic
+              districts. Brownstone Heights, Park Slope, Bedford-Stuyvesant and
+              other historic areas can involve preservation considerations
+              depending on the individual property and district. Brooklyn&apos;s
+              Willoughby-Hart Historic District, for example, was designated by
+              the LPC in 2024 and contains distinctive late-19th-century
+              brownstone row houses.
+            </p>
+
+            <p className="mt-4">
+              Manhattan brownstones can involve similarly detailed restoration
+              work, particularly where facades contain elaborate sandstone,
+              limestone or ornamental features. Queens and The Bronx also
+              contain older masonry properties requiring facade, stoop and
+              exterior restoration, although the exact project requirements
+              depend on the building and its regulatory status.
+            </p>
+
+            <p className="mt-4">
+              The important point is that borough alone does not determine
+              price. Building condition, scope, materials and access are much
+              stronger cost factors.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "How to Reduce Long-Term Brownstone Repair Costs",
+        paragraph: (
+          <>
+            <p>
+              The cheapest facade repair is often the one you catch early. Small
+              cracks, loose brownstone, failing mortar and water stains may
+              initially look cosmetic, but moisture can turn a localized defect
+              into a much larger restoration project.
+            </p>
+
+            <p className="mt-4">
+              Regular inspections can help property owners identify
+              deterioration before extensive material replacement becomes
+              necessary. A professional assessment should look beyond the most
+              obvious damaged area and consider the relationship between masonry,
+              mortar, windows, lintels, parapets, stoops and waterproofing.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "When Should You Restore a Brownstone Facade?",
+        paragraph: (
+          <>
+            <p>
+              Do not wait until pieces of the facade become loose or water begins
+              entering the building. Signs such as crumbling brownstone,
+              spalling, cracks, missing mortar, rust staining, damaged
+              decorative details, interior moisture and deteriorating stoop
+              surfaces deserve professional attention.
+            </p>
+
+            <p className="mt-4">
+              Early restoration can protect the building envelope and
+              potentially prevent more expensive repairs later. NYC preservation
+              guidance also emphasizes appropriate materials and qualified
+              workmanship when repairing historic brownstone.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "How to Get an Accurate Brownstone Restoration Estimate",
+        paragraph: (
+          <>
+            <p>
+              The best way to establish your actual 2026 restoration budget is to
+              arrange an on-site inspection. A professional contractor should
+              identify the damaged areas, explain the recommended repair method,
+              separate necessary structural work from cosmetic improvements, and
+              provide a written scope rather than giving you one unexplained
+              lump-sum figure.
+            </p>
+
+            <p className="mt-4">
+              For NYC homeowners,{" "}
+              <Link href="/" className="text-primary hover:underline">
+                Infinity Construction NYC
+              </Link>{" "}
+              provides brownstone, limestone, facade, masonry, stoop
+              restoration, waterproofing and related exterior restoration
+              services throughout Brooklyn, Manhattan, Queens and The Bronx. The
+              company says it has served NYC since 2001 and approaches
+              restoration based on the property&apos;s specific condition and
+              required scope.
+            </p>
+
+            <p className="mt-4">
+              If your brownstone needs restoration, you can review the
+              company&apos;s{" "}
+              <Link
+                href="/brownstone-facade-restoration"
+                className="text-primary hover:underline"
+              >
+                Brownstone Facade Restoration services
+              </Link>{" "}
+              or call 347-939-5779 to discuss the project.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              So, how much does brownstone facade restoration cost in NYC in
+              2026? For many typical projects, homeowners should expect costs
+              from roughly $15,000 to $100,000 or more, while smaller repairs
+              can cost less and comprehensive historic restorations can exceed
+              $100,000 substantially. The condition of the brownstone, facade
+              size, access, structural repairs, architectural details, materials
+              and preservation requirements all influence the final price.
+            </p>
+
+            <p className="mt-4">
+              The smartest approach is not to choose a contractor based solely on
+              the lowest number. Instead, get a detailed inspection and written
+              scope that explains what is damaged, what needs to be repaired,
+              which materials will be used and whether LPC or DOB requirements
+              apply. That gives you a much clearer picture of the real
+              investment required to protect your NYC brownstone.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="mt-2 rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-sm">
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="faq-1" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    How much does it cost to restore a brownstone facade in NYC?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    A typical NYC brownstone facade restoration can range from
+                    approximately $15,000 to $100,000+, depending on the scope.
+                    Extensive historic restoration involving major stone
+                    replacement, structural repairs or architectural
+                    reconstruction can exceed $100,000.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-2" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    How much does brownstone repointing cost in NYC?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Published 2026 NYC pricing commonly places masonry repointing
+                    around $10 to $30 per square foot, with total project pricing
+                    depending on facade size, accessibility, mortar requirements
+                    and deterioration.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-3" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Does a landmarked brownstone require LPC approval?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Potentially, yes. Exterior work affecting a designated
+                    landmark or property within a regulated historic district
+                    may require approval from the NYC Landmarks Preservation
+                    Commission before work begins.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-4" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    Is brownstone resurfacing better than replacing the facade?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Not necessarily. The appropriate method depends on the
+                    condition and historic character of the existing brownstone.
+                    LPC guidance indicates that full facade resurfacing should
+                    generally only be considered when the historic brownstone is
+                    in extremely poor condition.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-5" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    How can I get a brownstone restoration estimate in NYC?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Start with an on-site facade inspection from an experienced
+                    restoration contractor.{" "}
+                    <Link href="/" className="text-primary hover:underline">
+                      Infinity Construction NYC
+                    </Link>{" "}
+                    serves Brooklyn, Manhattan, Queens and The Bronx and provides
+                    brownstone facade, masonry, stoop and exterior restoration
+                    services.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "brownstone restoration contractor NYC, brownstone restoration NYC, brownstone repair NYC, brownstone facade restoration, historic brownstone restoration, brownstone contractors NYC, brownstone masonry repair, brownstone waterproofing NYC, historic masonry restoration NYC, limestone restoration NYC, how to choose brownstone contractor NYC, brownstone facade repair contractor, historic building restoration NYC",
 
     slug: "how-to-choose-brownstone-restoration-contractor-nyc",

@@ -13,6 +13,10 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide",
+      path: "/blog/how-much-does-brownstone-facade-restoration-cost-in-nyc",
+    },
+    {
       name: "How to Choose a Brownstone Restoration Contractor in NYC",
       path: "/blog/how-to-choose-brownstone-restoration-contractor-nyc"
     },

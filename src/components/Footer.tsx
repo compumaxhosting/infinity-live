@@ -126,7 +126,7 @@ const Footer = () => {
 
             <ul className="space-y-3">
               {specialityData.map((service) => (
-                <li key={service.id}>
+                <li key={service.path || service.id}>
                   <Link
                     href={service.path}
                     className="text-gray-100 hover:text-gray-300 transition-colors flex items-center gap-2 group"

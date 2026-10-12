@@ -1,5 +1,20 @@
 export const blogData = [
   {
+    id: -13,
+    author: "Imrul Hassan",
+    slug: "how-much-does-brownstone-facade-restoration-cost-in-nyc",
+    date: "October 7, 2026",
+    readTime: "9 min read",
+    title:
+      "How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide for Brooklyn, Manhattan, Queens & The Bronx",
+    contentPreview:
+      "Discover brownstone facade restoration costs in NYC for 2026, including Brooklyn, Manhattan, Queens and The Bronx, with pricing factors and expert tips.",
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/blog/brownstone-facade-restoration.webp",
+  },
+  {
     id: -12,
     author: "Imrul Hassan",
     slug: "how-to-choose-brownstone-restoration-contractor-nyc",
