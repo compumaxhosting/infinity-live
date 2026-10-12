@@ -193,8 +193,8 @@ export default async function BlogLayout({ children, params }: LayoutProps) {
                 url: `${BASE_URL}/logo.webp`,
               },
             },
-            datePublished: "2026-10-07",
-            dateModified: "2026-10-07",
+            datePublished: "2026-10-12",
+            dateModified: "2026-10-12",
             articleSection: "Brownstone Restoration",
             keywords: blog.keywords,
             about: {

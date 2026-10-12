@@ -3,7 +3,7 @@ export const blogData = [
     id: -13,
     author: "Imrul Hassan",
     slug: "how-much-does-brownstone-facade-restoration-cost-in-nyc",
-    date: "October 7, 2026",
+    date: "October 12, 2026",
     readTime: "9 min read",
     title:
       "How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide for Brooklyn, Manhattan, Queens & The Bronx",
