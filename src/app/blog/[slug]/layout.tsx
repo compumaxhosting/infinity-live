@@ -165,7 +165,165 @@ export default async function BlogLayout({ children, params }: LayoutProps) {
     resolvedParams.slug ===
     "how-much-does-brownstone-facade-restoration-cost-in-nyc";
 
-  const schemaData = isCostGuideBlog
+  const isWarningSignsBlog =
+    resolvedParams.slug === "brownstone-facade-repair-brooklyn-warning-signs";
+
+  const schemaData = isWarningSignsBlog
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": `${BASE_URL}/blog/${blog.slug}#article`,
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `${BASE_URL}/blog/${blog.slug}`,
+            },
+            headline:
+              "Brownstone Facade Repair in Brooklyn: 7 Warning Signs Your Building Needs Restoration",
+            description:
+              "Discover seven warning signs your Brooklyn brownstone needs facade repair, including crumbling stone, cracks, damaged mortar, water stains, and failing repairs.",
+            image: {
+              "@type": "ImageObject",
+              url: imageUrl,
+            },
+            author: {
+              "@type": "Organization",
+              name: "Infinity Construction NYC",
+              url: `${BASE_URL}/`,
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Infinity Construction NYC",
+              url: `${BASE_URL}/`,
+              logo: {
+                "@type": "ImageObject",
+                url: `${BASE_URL}/logo.webp`,
+              },
+            },
+            url: `${BASE_URL}/blog/${blog.slug}`,
+            isPartOf: {
+              "@type": "Blog",
+              name: "Infinity Construction NYC Blog",
+              url: `${BASE_URL}/blog`,
+            },
+            inLanguage: "en-US",
+            articleSection: "Brownstone Facade Restoration",
+            keywords: [
+              "brownstone facade repair Brooklyn",
+              "brownstone facade restoration",
+              "brownstone repair NYC",
+              "facade restoration Brooklyn",
+              "masonry repair",
+              "historic brownstone restoration",
+              "facade repair Manhattan",
+              "facade repair Queens",
+              "facade repair The Bronx",
+            ],
+            about: [
+              {
+                "@type": "Thing",
+                name: "Brownstone facade repair",
+              },
+              {
+                "@type": "Thing",
+                name: "Historic masonry restoration",
+              },
+              {
+                "@type": "Place",
+                name: "Brooklyn, New York City",
+              },
+            ],
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": `${BASE_URL}/blog/${blog.slug}#breadcrumb`,
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: `${BASE_URL}/`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: `${BASE_URL}/blog`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Brownstone Facade Repair in Brooklyn: 7 Warning Signs",
+                item: `${BASE_URL}/blog/${blog.slug}`,
+              },
+            ],
+          },
+          {
+            "@type": "FAQPage",
+            "@id": `${BASE_URL}/blog/${blog.slug}#faq`,
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How do I know if my Brooklyn brownstone needs facade restoration?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Warning signs include crumbling stone, widening cracks, missing mortar, water stains, peeling coatings, damaged stoops, and failing previous repairs. A qualified facade professional can assess the damage and recommend appropriate repairs.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does brownstone facade repair cost in Brooklyn?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The cost depends on the extent of stone damage, building size and height, accessibility, repair materials, scaffolding, and applicable compliance requirements. An on-site inspection and itemized estimate provide the most reliable budget.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can damaged brownstone be repaired instead of replaced?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes. Many damaged areas can be repaired with compatible restoration mortars or specialized stone-repair techniques. Severely deteriorated or unstable sections may require partial replacement, depending on the stone's condition and the cause of damage.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How long does brownstone restoration take?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Small brownstone repairs may take a few days, while extensive facade restoration can take several weeks or longer. Weather, building access, material curing, decorative details, scaffolding, and permit requirements affect the timeline.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Is brownstone facade restoration required in New York City?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Certain facade inspections, maintenance measures, and repairs may be required under New York City regulations, depending on building classification and circumstances. Landmark and historic-district requirements may also apply.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Can water damage be repaired without fixing the entire facade?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Often, localized stone repairs and correction of the water source are sufficient. However, moisture can extend beyond visible damage, so a professional should assess the surrounding masonry and determine whether broader repairs are needed.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do brownstones in Manhattan, Queens, and The Bronx need the same repairs as Brooklyn properties?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The basic restoration principles are similar, but each building has different materials, exposure conditions, architectural details, and maintenance history. A property-specific assessment determines the appropriate repair strategy.",
+                },
+              },
+            ],
+          },
+        ],
+      }
+    : isCostGuideBlog
     ? {
         "@context": "https://schema.org",
         "@graph": [

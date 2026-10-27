@@ -205,6 +205,10 @@ const SiteMap = () => {
       name: "Blog - How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide",
       url: "/blog/how-much-does-brownstone-facade-restoration-cost-in-nyc",
     },
+    {
+      name: "Blog - Brownstone Facade Repair in Brooklyn: 7 Warning Signs Your Building Needs Restoration",
+      url: "/blog/brownstone-facade-repair-brooklyn-warning-signs",
+    },
   ];
 
   return (

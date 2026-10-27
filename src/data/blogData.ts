@@ -1,5 +1,20 @@
 export const blogData = [
   {
+    id: -14,
+    author: "Imrul Hassan",
+    slug: "brownstone-facade-repair-brooklyn-warning-signs",
+    date: "October 27, 2026",
+    readTime: "8 min read",
+    title:
+      "Brownstone Facade Repair in Brooklyn: 7 Warning Signs Your Building Needs Restoration",
+    contentPreview:
+      "Brownstone facade repair in Brooklyn is essential when you notice crumbling stone, cracks, loose masonry, water stains, or deteriorating mortar on your building’s exterior. Addressing these problems early can help prevent costly structural damage, protect your property’s historic character, and maintain its long-term value.",
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/brownstone-facade-repair-brooklyn.webp",
+  },
+  {
     id: -13,
     author: "Imrul Hassan",
     slug: "how-much-does-brownstone-facade-restoration-cost-in-nyc",
