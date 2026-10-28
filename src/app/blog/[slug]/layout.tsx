@@ -168,7 +168,190 @@ export default async function BlogLayout({ children, params }: LayoutProps) {
   const isWarningSignsBlog =
     resolvedParams.slug === "brownstone-facade-repair-brooklyn-warning-signs";
 
-  const schemaData = isWarningSignsBlog
+  const isMasonryBlog =
+    resolvedParams.slug === "masonry-facade-restoration-waterproofing-nyc";
+
+  const schemaData = isMasonryBlog
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": `${BASE_URL}/blog/${blog.slug}#blogposting`,
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `${BASE_URL}/blog/${blog.slug}`,
+            },
+            headline: "Masonry Facade Restoration and Waterproofing in New York",
+            description:
+              "Discover how masonry facade restoration and waterproofing in NYC protect buildings from water leaks, damaged brickwork, moisture intrusion, and costly repairs.",
+            url: `${BASE_URL}/blog/${blog.slug}`,
+            image: {
+              "@type": "ImageObject",
+              url: imageUrl,
+            },
+            author: {
+              "@type": "Organization",
+              name: "Infinity Construction NYC",
+              url: `${BASE_URL}/`,
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Infinity Construction NYC",
+              url: `${BASE_URL}/`,
+              logo: {
+                "@type": "ImageObject",
+                url: `${BASE_URL}/logo.webp`,
+              },
+            },
+            inLanguage: "en-US",
+            keywords: [
+              "masonry facade restoration NYC",
+              "facade waterproofing NYC",
+              "masonry restoration New York City",
+              "brick pointing NYC",
+              "brownstone restoration NYC",
+              "exterior facade repair NYC",
+            ],
+            articleSection: [
+              "Masonry Facade Restoration",
+              "Waterproofing",
+              "Facade Maintenance",
+              "Frequently Asked Questions",
+            ],
+          },
+          {
+            "@type": "WebPage",
+            "@id": `${BASE_URL}/blog/${blog.slug}#webpage`,
+            url: `${BASE_URL}/blog/${blog.slug}`,
+            name: "Masonry Facade Restoration and Waterproofing in New York",
+            description:
+              "Learn about masonry facade restoration, waterproofing, brick repointing, common facade problems, and maintenance for New York City buildings.",
+            isPartOf: {
+              "@type": "WebSite",
+              name: "Infinity Construction NYC",
+              url: `${BASE_URL}/`,
+            },
+            inLanguage: "en-US",
+          },
+          {
+            "@type": "HomeAndConstructionBusiness",
+            "@id": `${BASE_URL}/#business`,
+            name: "Infinity Construction NYC",
+            url: `${BASE_URL}/`,
+            telephone: "+1-347-939-5779",
+            areaServed: [
+              {
+                "@type": "City",
+                name: "New York City",
+              },
+              {
+                "@type": "Place",
+                name: "Brooklyn, New York",
+              },
+              {
+                "@type": "Place",
+                name: "Manhattan, New York",
+              },
+              {
+                "@type": "Place",
+                name: "Queens, New York",
+              },
+              {
+                "@type": "Place",
+                name: "The Bronx, New York",
+              },
+            ],
+            knowsAbout: [
+              "Masonry facade restoration",
+              "Facade waterproofing",
+              "Brick pointing and repointing",
+              "Brownstone restoration",
+              "Limestone restoration",
+              "Exterior masonry repair",
+            ],
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": `${BASE_URL}/blog/${blog.slug}#breadcrumb`,
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: `${BASE_URL}/`,
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Blog",
+                item: `${BASE_URL}/blog`,
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: "Masonry Facade Restoration & Waterproofing NYC",
+                item: `${BASE_URL}/blog/${blog.slug}`,
+              },
+            ],
+          },
+          {
+            "@type": "FAQPage",
+            "@id": `${BASE_URL}/blog/${blog.slug}#faq`,
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Who does masonry facade restoration in New York City?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Specialized masonry and facade restoration contractors repair brick, brownstone, limestone, mortar joints, and exterior surfaces throughout NYC. Infinity Construction NYC lists facade restoration, masonry repair, brick repointing, and waterproofing among its services.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How do I know if my building needs facade waterproofing?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Signs include recurring interior leaks, damp exterior walls, deteriorating mortar, cracked masonry, peeling paint, and water stains around windows. Correcting failed joints, flashing, drainage, or other defects may be more effective than applying a coating alone.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does facade restoration cost in NYC?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The cost depends on the facade's size, building height, material type, extent of damage, and access requirements. Small localized repairs generally cost less than comprehensive restoration involving scaffolding, extensive repointing, or structural work.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the difference between repointing and waterproofing?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Repointing removes deteriorated mortar from masonry joints and replaces it with compatible new mortar. Waterproofing addresses water entry using suitable sealants, flashing repairs, drainage improvements, or other appropriate systems.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Does NYC require facade inspections?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Generally, buildings higher than six stories must undergo facade inspections every five years under the city's Facade Inspection & Safety Program (FISP). Inspections and compliance reports must be completed by appropriately qualified professionals.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Which areas of New York City does Infinity Construction NYC serve?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Infinity Construction NYC states that it serves Brooklyn, Manhattan, Queens, and The Bronx. Its listed services include brownstone and limestone restoration, facade repairs, brick pointing, waterproofing, roofing, and related exterior construction.",
+                },
+              },
+            ],
+          },
+        ],
+      }
+    : isWarningSignsBlog
     ? {
         "@context": "https://schema.org",
         "@graph": [

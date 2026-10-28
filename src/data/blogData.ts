@@ -1,5 +1,20 @@
 export const blogData = [
   {
+    id: -15,
+    author: "Imrul Hassan",
+    slug: "masonry-facade-restoration-waterproofing-nyc",
+    date: "October 28, 2026",
+    readTime: "8 min read",
+    title:
+      "Who Does Masonry Facade Restoration and Waterproofing in New York?",
+    contentPreview:
+      "Masonry facade restoration and waterproofing in New York are handled by qualified masonry restoration contractors who repair brickwork, repoint mortar joints, seal exterior surfaces, and address water infiltration.",
+    views: 0,
+    comments: 0,
+    liked: false,
+    image: "/blog/masonry-facade-restoration-waterproofing-nyc.webp",
+  },
+  {
     id: -14,
     author: "Imrul Hassan",
     slug: "brownstone-facade-repair-brooklyn-warning-signs",
@@ -199,7 +214,7 @@ export const blogData = [
   {
     id: 0,
     author: "Imrul Hassan",
-    slug: "nyc-brownstone-issues-and-repairs  ",
+    slug: "nyc-brownstone-issues-and-repairs",
     date: "Dec 12, 2025",
     readTime: "10 min read",
     title: "What Are the Common Problems with Brownstones in NYC?",

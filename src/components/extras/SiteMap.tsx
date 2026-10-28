@@ -209,6 +209,10 @@ const SiteMap = () => {
       name: "Blog - Brownstone Facade Repair in Brooklyn: 7 Warning Signs Your Building Needs Restoration",
       url: "/blog/brownstone-facade-repair-brooklyn-warning-signs",
     },
+    {
+      name: "Blog - Who Does Masonry Facade Restoration and Waterproofing in New York?",
+      url: "/blog/masonry-facade-restoration-waterproofing-nyc",
+    },
   ];
 
   return (

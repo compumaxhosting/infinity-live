@@ -13,6 +13,14 @@ export function BlogsOverview() {
 
   const plans = [
     {
+      name: "Who Does Masonry Facade Restoration and Waterproofing in New York?",
+      path: "/blog/masonry-facade-restoration-waterproofing-nyc",
+    },
+    {
+      name: "Brownstone Facade Repair in Brooklyn: 7 Warning Signs Your Building Needs Restoration",
+      path: "/blog/brownstone-facade-repair-brooklyn-warning-signs",
+    },
+    {
       name: "How Much Does Brownstone Facade Restoration Cost in NYC? 2026 Guide",
       path: "/blog/how-much-does-brownstone-facade-restoration-cost-in-nyc",
     },
@@ -63,6 +71,10 @@ export function BlogsOverview() {
     {
       name: "Brownstone Facade Restoration in NYC :Reviving Historic Buildings the Right Way",
       path: "/blog/nyc-brownstone-facade-repair",
+    },
+    {
+      name: "What Are the Common Problems with Brownstones in NYC?",
+      path: "/blog/nyc-brownstone-issues-and-repairs",
     },
     {
       name: "Top Mistakes to Avoid When Restoring a Historic Brownstone in New York City",

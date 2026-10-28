@@ -22,6 +22,663 @@ export type Blog = {
 export const BlogsData: Blog[] = [
   {
     keywords:
+      "masonry facade restoration NYC, facade waterproofing NYC, masonry restoration New York City, brick pointing NYC, brick repair NYC, brownstone restoration NYC, exterior waterproofing, facade repair contractors NYC",
+
+    slug: "masonry-facade-restoration-waterproofing-nyc",
+
+    metadescription:
+      "Discover masonry facade restoration and waterproofing in NYC. Protect your building from water leaks, damaged brickwork, and costly repairs.",
+
+    title:
+      "Who Does Masonry Facade Restoration and Waterproofing in New York?",
+
+    description: (
+      <>
+        <p>
+          Masonry facade restoration and waterproofing in New York are handled
+          by qualified masonry restoration contractors who repair brickwork,
+          repoint mortar joints, seal exterior surfaces, and address water
+          infiltration.{" "}
+          <Link href="/" className="text-primary hover:underline">
+            Infinity Construction NYC
+          </Link>{" "}
+          is a company to contact to discuss your building&apos;s exterior
+          restoration and waterproofing needs. The right contractor can help
+          property owners protect their buildings against rain, freeze-thaw
+          cycles, moisture damage, and long-term deterioration.
+        </p>
+
+        <p className="mt-4">
+          New York City&apos;s buildings face demanding weather conditions,
+          from heavy rainfall and humid summers to freezing winter
+          temperatures. Professional facade maintenance helps preserve
+          structural integrity, improve exterior appearance, and reduce the risk
+          of expensive repairs.
+        </p>
+      </>
+    ),
+
+    image: "/blog/masonry-facade-restoration-waterproofing-nyc.webp",
+
+    metatitle:
+      "Masonry Facade Restoration & Waterproofing NYC | Infinity Construction",
+
+    sections: [
+      {
+        title: "Table of Contents",
+        paragraph: (
+          <>
+            <nav
+              aria-label="Table of contents"
+              className="rounded-2xl border border-gray-200 bg-gray-50 p-5"
+            >
+              <ul className="grid gap-2 text-lg md:text-xl text-slate-800">
+                <li>
+                  <a
+                    href="#what-is-masonry-facade-restoration-and-waterproofing"
+                    className="text-primary hover:underline"
+                  >
+                    1. What Is Masonry Facade Restoration and Waterproofing?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-does-masonry-facade-restoration-work"
+                    className="text-primary hover:underline"
+                  >
+                    2. How Does Masonry Facade Restoration Work?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#benefits-of-professional-masonry-restoration-in-nyc"
+                    className="text-primary hover:underline"
+                  >
+                    3. Benefits of Professional Masonry Restoration in NYC
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#common-masonry-facade-problems-in-new-york"
+                    className="text-primary hover:underline"
+                  >
+                    4. Common Masonry Facade Problems in New York
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#how-much-does-masonry-facade-restoration-cost-in-nyc"
+                    className="text-primary hover:underline"
+                  >
+                    5. How Much Does Masonry Facade Restoration Cost in NYC?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#why-professional-masonry-restoration-services-matter"
+                    className="text-primary hover:underline"
+                  >
+                    6. Why Professional Masonry Restoration Services Matter
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#masonry-facade-maintenance-tips"
+                    className="text-primary hover:underline"
+                  >
+                    7. Masonry Facade Maintenance Tips
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#frequently-asked-questions"
+                    className="text-primary hover:underline"
+                  >
+                    8. Frequently Asked Questions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#why-choose-infinity-construction-nyc-for-masonry-restoration"
+                    className="text-primary hover:underline"
+                  >
+                    9. Why Choose Infinity Construction NYC for Masonry Restoration?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#conclusion"
+                    className="text-primary hover:underline"
+                  >
+                    10. Conclusion
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </>
+        ),
+      },
+
+      {
+        title: "What Is Masonry Facade Restoration and Waterproofing?",
+        paragraph: (
+          <>
+            <p>
+              <Link
+                href="/painting-and-masonry"
+                className="text-primary hover:underline"
+              >
+                Masonry facade restoration
+              </Link>{" "}
+              involves repairing and preserving exterior brick, stone, concrete
+              masonry, and mortar joints. Waterproofing focuses on preventing
+              unwanted water from entering the building through vulnerable
+              surfaces, joints, cracks, and openings.
+            </p>
+            <p className="mt-4">
+              These services often work together. For example, a brick apartment
+              building may require deteriorated mortar to be replaced before
+              compatible water-repellent treatments are applied. Proper repairs
+              address the source of moisture instead of simply covering visible
+              damage.
+            </p>
+            <p className="mt-4 font-semibold text-gray-900">
+              Common services include:
+            </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-800">
+              <li>Brick and stone repair</li>
+              <li>Mortar joint repointing and replacement</li>
+              <li>Facade crack repair</li>
+              <li>Exterior masonry cleaning</li>
+              <li>Water infiltration diagnosis</li>
+              <li>Waterproofing treatments and sealants</li>
+              <li>Window perimeter and flashing repairs</li>
+              <li>Parapet, coping, and other vulnerable area repairs</li>
+            </ul>
+          </>
+        ),
+      },
+
+      {
+        title: "How Does Masonry Facade Restoration Work?",
+        paragraph: (
+          <>
+            <p>
+              A professional restoration project typically follows five steps:
+            </p>
+            <ol className="mt-4 list-decimal space-y-2 pl-6 text-slate-800">
+              <li>
+                <strong>Facade inspection:</strong> The contractor examines
+                masonry, mortar joints, cracks, parapets, and potential water
+                entry points.
+              </li>
+              <li>
+                <strong>Damage assessment:</strong> The team identifies
+                deteriorated materials, drainage problems, and areas requiring
+                closer investigation.
+              </li>
+              <li>
+                <strong>Masonry repairs:</strong> Damaged bricks or stones are
+                repaired or replaced, and failing mortar joints are repointed.
+              </li>
+              <li>
+                <strong>Waterproofing:</strong> Appropriate sealants, flashing
+                repairs, or breathable water-repellent treatments are installed
+                where suitable.
+              </li>
+              <li>
+                <strong>Final inspection:</strong> Completed work is reviewed
+                for workmanship, water-management details, and any remaining
+                concerns.
+              </li>
+            </ol>
+            <p className="mt-4">
+              The exact process depends on the building&apos;s age,
+              construction materials, exposure, and condition. Historic masonry
+              may require specialized materials and techniques to preserve its
+              original character.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Benefits of Professional Masonry Restoration in NYC",
+        paragraph: (
+          <>
+            <p>
+              Professional masonry restoration offers several important
+              advantages for residential, commercial, and multifamily
+              properties:
+            </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-800">
+              <li>
+                <strong>Reduced water infiltration:</strong> Repairs address
+                vulnerable joints, cracks, and exterior openings.
+              </li>
+              <li>
+                <strong>Longer facade service life:</strong> Maintaining sound
+                masonry helps slow deterioration.
+              </li>
+              <li>
+                <strong>Lower long-term repair costs:</strong> Early
+                intervention can prevent minor defects from developing into
+                larger problems.
+              </li>
+              <li>
+                <strong>Improved appearance:</strong> Clean, properly repaired
+                brick and stone can enhance curb appeal.
+              </li>
+              <li>
+                <strong>Better property protection:</strong> Controlling
+                moisture helps reduce damage to interior finishes and adjacent
+                building components.
+              </li>
+              <li>
+                <strong>Support for building maintenance:</strong> Regular
+                inspections help owners plan repairs before conditions worsen.
+              </li>
+            </ul>
+            <p className="mt-4">
+              Waterproofing is not simply about applying a coating. Successful
+              protection depends on diagnosing the cause of moisture and
+              selecting a compatible repair system.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Common Masonry Facade Problems in New York",
+        paragraph: (
+          <>
+            <p>
+              New York&apos;s temperature changes, wind-driven rain, aging
+              building materials, and inadequate drainage can all contribute to
+              facade deterioration.
+            </p>
+            <p className="mt-4 font-semibold text-gray-900">
+              Watch for these warning signs:
+            </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-800">
+              <li>
+                <strong>Cracked or missing mortar:</strong> Water can enter
+                weakened joints and accelerate damage.
+              </li>
+              <li>
+                <strong>Spalling brick or stone:</strong> Flaking, chipping, or
+                surface loss may indicate moisture penetration or freeze-thaw
+                damage.
+              </li>
+              <li>
+                <strong>Interior water stains:</strong> Damp walls, peeling
+                paint, or recurring leaks can point to exterior water entry.
+              </li>
+              <li>
+                <strong>Loose masonry:</strong> Shifting bricks, bulging walls,
+                or loose facade components require prompt professional
+                assessment.
+              </li>
+              <li>
+                <strong>Deteriorating brownstone:</strong> Weather exposure can
+                damage decorative surfaces, stoops, and architectural details.
+              </li>
+              <li>
+                <strong>Failing sealants:</strong> Aging seals around windows and
+                other openings may allow water into the building envelope.
+              </li>
+            </ul>
+            <p className="mt-4 bg-amber-50 border-l-4 border-amber-500 p-4 text-amber-900 rounded-r-lg">
+              <strong>Caution:</strong> Do not ignore loose masonry or visibly
+              bulging facade sections. Keep people away from potentially
+              hazardous areas and arrange an urgent professional assessment.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "How Much Does Masonry Facade Restoration Cost in NYC?",
+        paragraph: (
+          <>
+            <p>
+              Masonry restoration and waterproofing costs vary according to the
+              building&apos;s size, the extent of deterioration, materials,
+              access requirements, and the complexity of the repairs. Minor
+              repointing may be relatively straightforward, while extensive
+              facade restoration involving scaffolding, engineering, or
+              structural repairs can require a substantially larger budget.
+            </p>
+            <div className="mt-6 overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-gray-100">
+                    <th className="border border-gray-300 p-3 font-semibold text-gray-900">
+                      Cost factor
+                    </th>
+                    <th className="border border-gray-300 p-3 font-semibold text-gray-900">
+                      Why it matters
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Building height
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      May require specialized access equipment or sidewalk protection
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Damage severity
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      Extensive deterioration requires more labor and materials
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Masonry type
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      Brick, brownstone, limestone, and historic masonry require different methods
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Waterproofing scope
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      Sealants, flashing repairs, and larger remedial systems have different costs
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Permits and professional fees
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      Requirements depend on the project and building
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-slate-800">
+                      Historic designation
+                    </td>
+                    <td className="border border-gray-300 p-3 text-slate-700">
+                      Additional approvals or preservation methods may apply
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4">
+              <strong>How to get an accurate estimate:</strong> Request a site
+              assessment and an itemized proposal that identifies repair
+              locations, materials, waterproofing methods, access equipment,
+              permits, and exclusions. Avoid choosing a contractor based on
+              price alone.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Why Professional Masonry Restoration Services Matter",
+        paragraph: (
+          <>
+            <p>
+              Facade work requires more than filling visible cracks. Contractors
+              must understand masonry compatibility, water movement, joint
+              preparation, and safe work practices.
+            </p>
+            <p className="mt-4">
+              For example, applying an unsuitable hard mortar to older, softer
+              brick can accelerate damage rather than solve it. Similarly, using
+              an incompatible waterproof coating may trap moisture in some
+              masonry assemblies. The correct treatment depends on the wall&apos;s
+              construction and condition.
+            </p>
+            <p className="mt-4">
+              For buildings taller than six stories, New York City&apos;s
+              Facade Inspection &amp; Safety Program (FISP) generally requires
+              exterior wall inspections every five years by a qualified
+              exterior wall inspector, with reports filed as required. A
+              restoration contractor can perform repair work, but the formal
+              inspection and compliance report must be handled by the
+              appropriately qualified professional.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Masonry Facade Maintenance Tips",
+        paragraph: (
+          <>
+            <p>
+              Building owners and property managers can reduce deterioration by
+              following a consistent maintenance plan:
+            </p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-800">
+              <li>
+                Inspect visible masonry, mortar joints, parapets, and window
+                seals regularly.
+              </li>
+              <li>
+                Investigate leaks promptly instead of repeatedly repainting
+                damaged interior walls.
+              </li>
+              <li>Keep roof drains and gutters clear where applicable.</li>
+              <li>
+                Repair deteriorated mortar using materials compatible with the
+                existing masonry.
+              </li>
+              <li>
+                Use appropriate waterproofing products only after identifying
+                the moisture source.
+              </li>
+              <li>
+                Retain inspection reports, permits, repair records, and
+                contractor warranties.
+              </li>
+              <li>
+                Check whether landmark approvals or NYC Department of Buildings
+                permits are required before work begins.
+              </li>
+            </ul>
+            <p className="mt-4">
+              Historic properties deserve particular care. The National Park
+              Service provides guidance on mortar repointing and water-repellent
+              treatments for historic masonry.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="mt-2 rounded-2xl border border-gray-200 bg-white overflow-hidden shadow-sm">
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="faq-1" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    1. Who does masonry facade restoration in New York City?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Specialized masonry and facade restoration contractors
+                    repair brick, brownstone, limestone, mortar joints, and
+                    exterior surfaces throughout NYC. Infinity Construction NYC
+                    lists facade restoration, masonry repair, brick repointing,
+                    and waterproofing among its services. Choose a contractor
+                    with relevant project experience, appropriate insurance, and
+                    a clear written scope of work. For regulated facade
+                    inspections, confirm that the inspector meets NYC Department
+                    of Buildings requirements.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-2" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    2. How do I know if my building needs facade waterproofing?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Signs include recurring interior leaks, damp exterior walls,
+                    deteriorating mortar, cracked masonry, peeling paint, and
+                    water stains around windows. These symptoms can have several
+                    causes, so a professional assessment is important before
+                    selecting a waterproofing treatment. Correcting failed
+                    joints, flashing, drainage, or other defects may be more
+                    effective than applying a coating alone.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-3" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    3. How much does facade restoration cost in NYC?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    The cost depends on the facade&apos;s size, building height,
+                    material type, extent of damage, and access requirements.
+                    Small localized repairs generally cost less than
+                    comprehensive restoration involving scaffolding, extensive
+                    repointing, or structural work. The most reliable way to
+                    establish a budget is to request an itemized estimate based
+                    on an on-site assessment.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-4" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    4. What is the difference between repointing and waterproofing?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Repointing removes deteriorated mortar from masonry joints
+                    and replaces it with compatible new mortar. Waterproofing
+                    addresses water entry using suitable sealants, flashing
+                    repairs, drainage improvements, or other appropriate
+                    systems. Both may be needed when damaged joints allow
+                    rainwater to penetrate a wall. The correct combination
+                    depends on the building&apos;s materials and the source of
+                    moisture.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-5" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    5. Does NYC require facade inspections?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Generally, buildings higher than six stories must undergo
+                    facade inspections every five years under the city&apos;s
+                    Facade Inspection &amp; Safety Program (FISP). Inspections
+                    and compliance reports must be completed by appropriately
+                    qualified professionals. Requirements and filing deadlines
+                    should be verified with the NYC Department of Buildings for
+                    the specific property.
+                  </AccordionContent>
+                </AccordionItem>
+
+                <AccordionItem value="faq-6" className="px-6">
+                  <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
+                    6. Which areas of New York City does Infinity Construction NYC serve?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base leading-7 text-gray-600 pb-6">
+                    Infinity Construction NYC states that it serves Brooklyn,
+                    Manhattan, Queens, and The Bronx. Its listed services
+                    include brownstone and limestone restoration, facade
+                    repairs, brick pointing, waterproofing, roofing, and related
+                    exterior construction. Property owners can contact the
+                    company to discuss the location, condition, and scope of
+                    their project.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          </>
+        ),
+      },
+
+      {
+        title: "Why Choose Infinity Construction NYC for Masonry Restoration?",
+        paragraph: (
+          <>
+            <p>
+              Infinity Construction NYC provides{" "}
+              <Link
+                href="/services"
+                className="text-primary hover:underline"
+              >
+                masonry and facade restoration services
+              </Link>{" "}
+              for residential and commercial properties across New York City.
+              According to its website, the company has served NYC since 2001
+              and specializes in brownstone and limestone restoration, brick
+              pointing, masonry repair, waterproofing, and exterior
+              construction.
+            </p>
+            <p className="mt-4">
+              Its approach begins with assessing the property&apos;s condition,
+              identifying visible deterioration, and recommending appropriate
+              repairs for the project. Whether you&apos;re dealing with damaged
+              mortar, a deteriorating brownstone facade, or recurring exterior
+              water infiltration, the right repair plan can help protect your
+              investment and preserve your building&apos;s appearance.
+            </p>
+            <p className="mt-4">
+              Explore the company&apos;s{" "}
+              <Link
+                href="/services"
+                className="text-primary hover:underline"
+              >
+                restoration services
+              </Link>{" "}
+              to learn more. To discuss your property&apos;s needs, call{" "}
+              <a
+                href="tel:347-939-5779"
+                className="text-primary hover:underline font-semibold"
+              >
+                347-939-5779
+              </a>{" "}
+              or request a consultation and quote through the website.
+            </p>
+          </>
+        ),
+      },
+
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              Masonry facade restoration and waterproofing are essential for
+              protecting New York City buildings from moisture intrusion,
+              deteriorating mortar, damaged brickwork, and weather-related wear.
+              Early repairs, compatible materials, and a properly planned
+              waterproofing strategy can help extend a facade&apos;s service
+              life and prevent avoidable expenses.
+            </p>
+            <p className="mt-4">
+              Infinity Construction NYC offers masonry restoration, facade
+              repair, brick repointing, and waterproofing services across NYC. If
+              your property shows signs of deterioration or recurring leaks,{" "}
+              <Link
+                href="/contact"
+                className="text-primary hover:underline font-semibold"
+              >
+                contact Infinity Construction NYC
+              </Link>{" "}
+              to discuss your restoration needs and request a project estimate.
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    keywords:
       "brownstone facade repair Brooklyn, brownstone facade restoration, brownstone repair NYC, facade restoration Brooklyn, brownstone masonry repair, historic brownstone restoration, facade repair Manhattan, facade repair Queens, facade repair Bronx",
 
     slug: "brownstone-facade-repair-brooklyn-warning-signs",
